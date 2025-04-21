@@ -4,7 +4,7 @@ title: Who Reigns Supreme? Parsing Our WhatsApp Chat for Wordle Glory
 date: 2024-12-31T15:42:39+00:00
 excerpt: 'Discover how I used C# to parse our family WhatsApp chat and crown our 2024 Wordle Champion!'
 url: /who-reigns-supreme-parsing-our-whatsapp-chat-for-wordle-glory/
-featured_image: https://blog.iannelson.uk/wp-content/uploads/2024/12/0277568D-75C1-4425-8F5B-48DD1EFE2A7E.jpeg
+featured_image: https://cdn.iannelson.uk/uploads/2024/12/0277568D-75C1-4425-8F5B-48DD1EFE2A7E.jpeg
 
 categories:
   - Family
@@ -35,7 +35,7 @@ Reader, it did not.
 
 Despite my best efforts, I only just managed to sneak into second place. Predictably, my mother reigned supreme, crushing us all with an average score of&nbsp;**4.055**&nbsp;and a mean difference from the family average of&nbsp;**-0.128**. This consistency made her our undisputed&nbsp;**Wordle Family Champion of 2024**.<figure class="wp-block-image size-full">
 
-<img loading="lazy" decoding="async" width="1024" height="1024" src="https://blog.iannelson.uk/wp-content/uploads/2024/12/7DD41AB4-B664-4276-B1A1-3E9EA0F0DFB7-1.jpeg" alt="" class="wp-image-10309" srcset="https://blog.iannelson.uk/wp-content/uploads/2024/12/7DD41AB4-B664-4276-B1A1-3E9EA0F0DFB7-1.jpeg 1024w, https://blog.iannelson.uk/wp-content/uploads/2024/12/7DD41AB4-B664-4276-B1A1-3E9EA0F0DFB7-1-300x300.jpeg 300w, https://blog.iannelson.uk/wp-content/uploads/2024/12/7DD41AB4-B664-4276-B1A1-3E9EA0F0DFB7-1-150x150.jpeg 150w, https://blog.iannelson.uk/wp-content/uploads/2024/12/7DD41AB4-B664-4276-B1A1-3E9EA0F0DFB7-1-768x768.jpeg 768w, https://blog.iannelson.uk/wp-content/uploads/2024/12/7DD41AB4-B664-4276-B1A1-3E9EA0F0DFB7-1-600x600.jpeg 600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /> <figcaption class="wp-element-caption">_Image generated using OpenAI’s DALL·E tool._</figcaption></figure>
+<img loading="lazy" decoding="async" width="1024" height="1024" src="https://cdn.iannelson.uk/uploads/2024/12/7DD41AB4-B664-4276-B1A1-3E9EA0F0DFB7-1.jpeg" alt="" class="wp-image-10309" srcset="https://cdn.iannelson.uk/uploads/2024/12/7DD41AB4-B664-4276-B1A1-3E9EA0F0DFB7-1.jpeg 1024w, https://cdn.iannelson.uk/uploads/2024/12/7DD41AB4-B664-4276-B1A1-3E9EA0F0DFB7-1-300x300.jpeg 300w, https://cdn.iannelson.uk/uploads/2024/12/7DD41AB4-B664-4276-B1A1-3E9EA0F0DFB7-1-150x150.jpeg 150w, https://cdn.iannelson.uk/uploads/2024/12/7DD41AB4-B664-4276-B1A1-3E9EA0F0DFB7-1-768x768.jpeg 768w, https://cdn.iannelson.uk/uploads/2024/12/7DD41AB4-B664-4276-B1A1-3E9EA0F0DFB7-1-600x600.jpeg 600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /> <figcaption class="wp-element-caption">_Image generated using OpenAI’s DALL·E tool._</figcaption></figure>
 
  [1]: https://blog.iannelson.uk/the-best-wordle-starter-words/
  [2]: https://github.com/ianfnelson/WordleParser

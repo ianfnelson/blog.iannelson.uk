@@ -3,7 +3,7 @@ title: Family Tree Update
 
 date: 2007-12-31T22:12:00+00:00
 url: /family-tree-update/
-featured_image: https://blog.iannelson.uk/wp-content/uploads/2007/12/gedhtree_2-1.png
+featured_image: https://cdn.iannelson.uk/uploads/2007/12/gedhtree_2-1.png
 
 categories:
   - Genealogy
@@ -23,7 +23,7 @@ My father’s ancestors were coal-miners from Scotland, and invariably died at a
 
 [All the details are online here][1]. Incidentally, these pages were created automatically using [GedHTree][4], a Windows program which converts GEDCOM files into HTML pages. I have to say, it has a fugly UI (screenshot below) of the sort that tends to make the pages of [The Daily WTF][5], but once you’ve gotten used to it, it does what it says on the tin, and I’m happy to have paid for a registered copy.<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/gedhtree_2.png" class="kg-image" alt="gedhtree" loading="lazy" /> </figure>
+<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/gedhtree_2.png" class="kg-image" alt="gedhtree" loading="lazy" /> </figure>
 
  [1]: https://familytree.iannelson.uk
  [2]: https://blog.iannelson.uk/benjamin-george-nelson/

@@ -4,7 +4,7 @@ title: The 20 Books I Most Enjoyed Reading in 2022
 date: 2022-12-17T20:22:49+00:00
 excerpt: "I've enjoyed reading a variety of fiction and non-fiction books during 2022. Here are my favourites."
 url: /the-20-books-i-most-enjoyed-reading-in-2022/
-featured_image: https://blog.iannelson.uk/wp-content/uploads/2022/12/books2.jpg
+featured_image: https://cdn.iannelson.uk/uploads/2022/12/books2.jpg
 
 categories:
   - Books
@@ -21,7 +21,7 @@ My favourite book of the year _partially_ covers the same ground as previous fav
 Despite the breadth and serious nature of the subject matter, I should note that some aspects of this book are also laugh-out-loud funny. I particularly enjoyed an early anecdote about Hari witnessing visitors to the Graceland museum experiencing Elvis Presley’s home by fixating on a VR iPad tour, rather than looking around the actual room in which they were standing.
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/focus.jpg" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/focus.jpg" alt="" /></figure>
 </div>
 
 ### [Good Pop Bad Pop][5] by Jarvis Cocker {#good-pop-bad-pop-by-jarvis-cocker.wp-block-heading}
@@ -35,7 +35,7 @@ The concept behind Cocker’s autobiography (or &#8220;inventory&#8221;) is that
 I was sorely tempted to get the audiobook of this to hear Jarvis’s own narration, but plumped for the hardback instead which is wonderfully typeset and illustrated with many photographs of the items saved from the loft.
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/cocker.jpg" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/cocker.jpg" alt="" /></figure>
 </div>
 
 ### [Skyfaring: A Journey With a Pilot][8] by Mark Vanhoenacker {#skyfaring-a-journey-with-a-pilot-by-mark-vanhoenacker.wp-block-heading}
@@ -47,7 +47,7 @@ Vanhoenacker is a commercial airline pilot who has flown short-haul and long-hau
 The prose is ethereal and dreamlike, in a manner not dissimilar to the jet lag and &#8220;place lag&#8221; that it describes. Vanhoenacker captures well the magic of aviation and inspires a desire to travel once again, following years of Covid lockdowns.
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/skyfaring.jpg" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/skyfaring.jpg" alt="" /></figure>
 </div>
 
 ### [The Outrun][9] by Amy Liptrot {#the-outrun-by-amy-liptrot.wp-block-heading}
@@ -57,7 +57,7 @@ This is a fascinating memoir by Amy Liptrot who, at the age of thirty, left behi
 Nourishing and inspiring, this book is the reason that I have spent less of my free time watching TV and drinking wine this year, preferring instead to spend my time on more productive activities (like reading!)
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/outrun-1.jpg" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/outrun-1.jpg" alt="" /></figure>
 </div>
 
 ### [The Very Nice Box][10] by Laura Blackett and Eve Gleichman {#the-very-nice-box-by-laura-blackett-and-eve-gleichman.wp-block-heading}
@@ -67,7 +67,7 @@ My favourite work of fiction this year was this sparkling debut novel that captu
 This is a darkly humorous and suspenseful novel that is an easy read. Having bought and enjoyed it in the States around New Year prior to its UK release, I mailed my copy to my friend and erstwhile colleague Steph, as I knew she’d love it too. She soon messaged &#8220;I devoured it. I’m reeling. Thank you&#8221;.
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/box.jpg" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/box.jpg" alt="" /></figure>
 </div>
 
 ## The Best of the Rest {#the-best-of-the-rest.wp-block-heading}
@@ -81,7 +81,7 @@ I bought this book after it was recommended by Bill Gates in one of his periodic
 I don’t read many books which could be considered to fall within the category of science fiction. But _Bewilderment_ doesn’t feel like traditional science fiction, rather it gently and sensitively covers broader themes of man’s impact on the earth, autism, our political systems, the loss of loved ones, and the workings of brain. This one will linger with me for a while.
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/bewilderment.jpg" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/bewilderment.jpg" alt="" /></figure>
 </div>
 
 ### [Learn How to Solve Cryptic Crosswords: A Course for Beginners][14] by Henry Howarth {#learn-how-to-solve-cryptic-crosswords-a-course-for-beginners-by-henry-howarth.wp-block-heading}
@@ -104,7 +104,7 @@ This was my favourite technical book of the year. The weak joke about software a
 &#8220;The Hard Parts&#8221; faces head-on the complexities involved in making such trade-off decisions in the world of distributed systems in general and microservices in particular. Aided by an extended case study that runs throughout the book, it offers techniques to identify appropriate levels of reuse, decomposition, data ownership, distributed workflows, transactional sagas, and more. I particularly appreciated one of the later chapters on managing analytical data, which compared traditional Data Warehouses and Data Lakes with a more contemporary Data Mesh approach.
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/51qZnL-B63L._SX379_BO1-204-203-200.jpg" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/51qZnL-B63L._SX379_BO1-204-203-200.jpg" alt="" /></figure>
 </div>
 
 ### [If It’s Smart, It’s Vulnerable][17] by Mikko Hypponen {#if-its-smart-its-vulnerable-by-mikko-hypponen.wp-block-heading}
@@ -112,7 +112,7 @@ This was my favourite technical book of the year. The weak joke about software a
 Mikko Hypponen is a global cybersecurity expert with over thirty years’ experience working as a researcher and investigator. This short breezy book provides a fascinating array of anecdotes and insights from his career in infosec, in addition to concrete advice for how we as individuals can better protect ourselves in our increasingly interconnected world.
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/smart.jpg" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/smart.jpg" alt="" /></figure>
 </div>
 
 ### [No One Round Here Reads Tolstoy: Memoirs of a Working-Class Reader][18] by Mark Hodkinson {#no-one-round-here-reads-tolstoy-memoirs-of-a-working-class-reader-by-mark-hodkinson.wp-block-heading}
@@ -120,7 +120,7 @@ Mikko Hypponen is a global cybersecurity expert with over thirty years’ experi
 It seems that since reading _[Lowborn][19]_ and _[Poverty Safari][20]_, the Audible recommendation algorithm has concluded that I want to hear more tales of working class folk achieving against the odds. That’s how I discovered this charming and drily humorous autobiography by Lancastrian author, publicist and bibliophile Mark Hodkinson. In addition to the many anecdotes about reading and the publishing industry, this also features poignant yet often wildly funny chapters on music, schools, family relationships and terrible jobs.
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/tolstoy.jpg" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/tolstoy.jpg" alt="" /></figure>
 </div>
 
 ### [Seven Games: A Human History][21] by Oliver Roeder {#seven-games-a-human-history-by-oliver-roeder.wp-block-heading}
@@ -130,7 +130,7 @@ The seven eponymous games covered in this book are checkers, chess, Go, backgamm
 I enjoyed studying Game theory at university in the mid-1990s where part of the course covered the basics of developing chess-playing software in a rather deterministic, brute-force manner. It was interesting to contrast those techniques with some of the modern AI/ML approaches described in this book that have been used to allow computers to succeed at these games.
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/games.jpg" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/games.jpg" alt="" /></figure>
 </div>
 
 ### [Trillions: How a Band of Wall Street Renegades Invented the Index Fund and Changed Finance Forever][22] by Robin Wigglesworth {#trillions-how-a-band-of-wall-street-renegades-invented-the-index-fund-and-changed-finance-forever-by-robin-wigglesworth.wp-block-heading}
@@ -144,7 +144,7 @@ In this warm-hearted look at Britain, broadcaster and author Stuart Maconie sele
 Maconie is an opinionated author, and in these divided times I suspect that levels of enjoyment of this book will depend upon whether your politics fall on the same side of the fence as his. Mine largely do, so I found this to be an entertaining, witty, and insightful read. Some of the scenes and interviews described from Maconie’s travels also made me consider that perhaps Britain (and England in particular) is after all a more welcoming, progressive and tolerant society than I had recently believed&#8230; but then I realised that this book was published back in 2012, just ahead of the unifying London olympics, and well before the divisive Brexit referendum.
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/maconie.jpg" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/maconie.jpg" alt="" /></figure>
 </div>
 
 ### [Out of Office: The Big Problem and Bigger Promise of Working From Home][24] by Anne Helen Petersen and Charlie Warzel {#out-of-office-the-big-problem-and-bigger-promise-of-working-from-home-by-anne-helen-petersen-and-charlie-warzel.wp-block-heading}
@@ -172,7 +172,7 @@ I had bought a paperback of _A Clockwork Orange_ in 1998 and not yet read it unt
 This illuminating book explains how each nation’s choices and geopolitics are shaped by coasts, rivers, mountains, deserts and plains. It concisely explains why international affairs are the way they are, and how the physical topography of the world has shaped the political world maps with which we are generally more familiar. With particular reference to recent events, it presciently explains the geographical context behind Putin’s war in Ukraine. There is a sequel, _[The Power of Geography][32]_, which I have bought but not yet read.
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/prisoners.jpg" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/prisoners.jpg" alt="" /></figure>
 </div>
 
  [1]: https://amzn.to/3hZsGL5

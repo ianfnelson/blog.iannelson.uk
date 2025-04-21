@@ -10,7 +10,7 @@ tags:
   - tidy
 
 ---
-<figure class="wp-block-image"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/hertog-jan-doppio-double_76906363_o.jpg" alt="" /><figcaption class="wp-element-caption">Hertog Jan Doppio Double</figcaption></figure> 
+<figure class="wp-block-image"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/hertog-jan-doppio-double_76906363_o.jpg" alt="" /><figcaption class="wp-element-caption">Hertog Jan Doppio Double</figcaption></figure> 
 
 Hertog Jan Doppio Double is the only one of my twenty-four Advent beers to come in a stone cork-stoppered bottle that weighs more than the drink contained within! At 7.3% ABV, it’s also the [second-strongest][1] drink in my selection, and hence has a real kick to it.&nbsp; That said, it also has a gorgeous malty aroma, and strong aftertaste which beer lovers will appreciate.&nbsp; So whilst it’s not quite my [personal favourite][2] of the twenty-four beers I’ve had the pleasure of sampling this yuletide, it’s certainly an appropriately worthy and warming drink on which to finish.
 

@@ -3,7 +3,7 @@ title: Beer Advent Calendar – Days Sixteen And Seventeen
 
 date: 2005-12-17T23:12:00+00:00
 url: /beer-advent-calendar-days-sixteen-and-seventeen/
-featured_image: https://blog.iannelson.uk/wp-content/uploads/2005/12/delirium_nocturnum_150-1.jpg
+featured_image: https://cdn.iannelson.uk/uploads/2005/12/delirium_nocturnum_150-1.jpg
 
 categories:
   - Beer
@@ -11,7 +11,7 @@ tags:
   - tidy
 
 ---
-<figure class="kg-card kg-image-card"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/delirium_nocturnum_150.jpg" class="kg-image" alt loading="lazy" /></figure> 
+<figure class="kg-card kg-image-card"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/delirium_nocturnum_150.jpg" class="kg-image" alt loading="lazy" /></figure> 
 
 Friday night saw me out celebrating in Halifax at our departmental Christmas meal (FWIW, I drank a few pints of Santa’s Little Helper from the [Caledonian brewery][1]).  As a result, I didn’t get chance to enjoy my advent beer, and have been playing catch-up with a couple of randomly-selected bottles tonight.
 

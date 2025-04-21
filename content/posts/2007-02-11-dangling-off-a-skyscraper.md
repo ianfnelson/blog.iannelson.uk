@@ -3,7 +3,7 @@ title: Dangling Off A Skyscraper
 
 date: 2007-02-11T16:02:00+00:00
 url: /dangling-off-a-skyscraper/
-featured_image: https://blog.iannelson.uk/wp-content/uploads/2007/02/IMG_4374.jpg
+featured_image: https://cdn.iannelson.uk/uploads/2007/02/IMG_4374.jpg
 
 categories:
   - Fun
@@ -25,21 +25,21 @@ Insanity, at 274m high is the second highest ride in the world.  According to W
 <div class="kg-gallery-container">
   <div class="kg-gallery-row">
     <div class="kg-gallery-image">
-      <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_4371.jpg" width="1600" height="1200" loading="lazy" alt srcset="https://blog.iannelson.uk/wp-content/uploads/2023/08/1_IMG_4371.jpg 600w, https://blog.iannelson.uk/wp-content/uploads/2023/08/2_IMG_4371.jpg 1000w, https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_4371.jpg 1600w" sizes="auto, (min-width: 720px) 720px" />
+      <img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_4371.jpg" width="1600" height="1200" loading="lazy" alt srcset="https://cdn.iannelson.uk/uploads/2023/08/1_IMG_4371.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_4371.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/IMG_4371.jpg 1600w" sizes="auto, (min-width: 720px) 720px" />
     </div>
     
     <div class="kg-gallery-image">
-      <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2007/02/IMG_4374-1.JPG" width="1600" height="1200" loading="lazy" alt srcset="https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_4374-1.jpg 600w, https://blog.iannelson.uk/wp-content/uploads/2023/08/1_IMG_4374-1.jpg 1000w, https://blog.iannelson.uk/wp-content/uploads/2007/02/IMG_4374-1.JPG 1600w" sizes="auto, (min-width: 720px) 720px" />
+      <img decoding="async" src="https://cdn.iannelson.uk/uploads/2007/02/IMG_4374-1.JPG" width="1600" height="1200" loading="lazy" alt srcset="https://cdn.iannelson.uk/uploads/2023/08/IMG_4374-1.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/1_IMG_4374-1.jpg 1000w, https://cdn.iannelson.uk/uploads/2007/02/IMG_4374-1.JPG 1600w" sizes="auto, (min-width: 720px) 720px" />
     </div>
   </div>
   
   <div class="kg-gallery-row">
     <div class="kg-gallery-image">
-      <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_4379.jpg" width="1600" height="1200" loading="lazy" alt srcset="https://blog.iannelson.uk/wp-content/uploads/2023/08/1_IMG_4379.jpg 600w, https://blog.iannelson.uk/wp-content/uploads/2023/08/2_IMG_4379.jpg 1000w, https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_4379.jpg 1600w" sizes="auto, (min-width: 720px) 720px" />
+      <img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_4379.jpg" width="1600" height="1200" loading="lazy" alt srcset="https://cdn.iannelson.uk/uploads/2023/08/1_IMG_4379.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_4379.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/IMG_4379.jpg 1600w" sizes="auto, (min-width: 720px) 720px" />
     </div>
     
     <div class="kg-gallery-image">
-      <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_4381.jpg" width="1600" height="1200" loading="lazy" alt srcset="https://blog.iannelson.uk/wp-content/uploads/2023/08/1_IMG_4381.jpg 600w, https://blog.iannelson.uk/wp-content/uploads/2023/08/2_IMG_4381.jpg 1000w, https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_4381.jpg 1600w" sizes="auto, (min-width: 720px) 720px" />
+      <img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_4381.jpg" width="1600" height="1200" loading="lazy" alt srcset="https://cdn.iannelson.uk/uploads/2023/08/1_IMG_4381.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_4381.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/IMG_4381.jpg 1600w" sizes="auto, (min-width: 720px) 720px" />
     </div>
   </div>
 </div></figure>

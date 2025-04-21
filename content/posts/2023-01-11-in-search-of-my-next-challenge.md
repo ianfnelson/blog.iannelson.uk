@@ -4,7 +4,7 @@ title: In Search of My Next Challenge
 date: 2023-01-11T13:41:19+00:00
 excerpt: 'Folks, this is your lucky day - Ian Nelson is back on the market'
 url: /in-search-of-my-next-challenge/
-featured_image: https://blog.iannelson.uk/wp-content/uploads/2023/01/photo-1484788984921-03950022c9ef.jpg
+featured_image: https://cdn.iannelson.uk/uploads/2023/01/photo-1484788984921-03950022c9ef.jpg
 
 categories:
   - Business
@@ -17,7 +17,7 @@ After an unprecedented _five years_ working the same gig, I will be available fo
 [Download my CV here][1]. Email me at <ian@iannelson.systems> 
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_0254-1.jpg" alt="Portrait image of a handsome software architect, standing outdoors and wearing a purple shirt" /><figcaption class="wp-element-caption">This is me</figcaption></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_0254-1.jpg" alt="Portrait image of a handsome software architect, standing outdoors and wearing a purple shirt" /><figcaption class="wp-element-caption">This is me</figcaption></figure>
 </div>
 
 ## What I’ve Been Doing Recently {#what-ive-been-doing-recently.wp-block-heading}
@@ -57,7 +57,7 @@ I care very much about the quality of the solutions that I help to create, but I
 I like to break up lengthy blog posts with photos of my dog.
 
 <div class="wp-block-image">
-  <figure class="aligncenter size-large"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_0221.jpg" alt="A black six-year-old miniature schnauzer lies upon a toy carrot" /><figcaption class="wp-element-caption">Sadie dog needs kibble. Please hire Ian. Woof!</figcaption></figure>
+  <figure class="aligncenter size-large"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_0221.jpg" alt="A black six-year-old miniature schnauzer lies upon a toy carrot" /><figcaption class="wp-element-caption">Sadie dog needs kibble. Please hire Ian. Woof!</figcaption></figure>
 </div>
 
 ## More Randomness {#more-randomness.wp-block-heading}

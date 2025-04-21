@@ -3,7 +3,7 @@ title: 'Friday Retrospective: My First Printer'
 
 date: 2014-04-25T05:30:00+00:00
 url: /friday-retrospective-my-first-printer/
-featured_image: https://blog.iannelson.uk/wp-content/uploads/2014/04/IMG_7922.jpg
+featured_image: https://cdn.iannelson.uk/uploads/2014/04/IMG_7922.jpg
 
 categories:
   - Tech

@@ -3,7 +3,7 @@ title: Isla Grace Nelson
 
 date: 2009-05-04T21:05:00+00:00
 url: /isla-grace-nelson/
-featured_image: https://blog.iannelson.uk/wp-content/uploads/2009/05/isla-snuggling_3495192450_o-1.jpg
+featured_image: https://cdn.iannelson.uk/uploads/2009/05/isla-snuggling_3495192450_o-1.jpg
 
 categories:
   - Family
@@ -13,7 +13,7 @@ tags:
 ---
 It gives me the utmost pleasure to announce the birth of Miss Isla Grace Nelson.<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/isla-snuggling_3495192450_o.jpg" class="kg-image" alt="Isla Grace Nelson" loading="lazy" /> </figure> 
+<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/isla-snuggling_3495192450_o.jpg" class="kg-image" alt="Isla Grace Nelson" loading="lazy" /> </figure> 
 
 Following a ludicrously speedy labour, Isla entered the world in an ambulance on the [eastbound A64 near Bilbrough services][1] on Tuesday 28th April at 18:09 local time ([see this time in your time zone][2]).
 
@@ -21,7 +21,7 @@ Her birth mass was 3.750 kilograms (8 pounds 4 ounces), and length was 50 centim
 
 Now, a few people have asked me to blog more details about Isla’s birth, notably the events that led to her being born in an ambulance and not, as had been planned, at York District Hospital like her [big brother][3]. So, here goes. Inevitably, this is all from my perspective, though as Jocelyn’s side of things seemed to consist mostly of agonized screams and wailings, perhaps those aren’t the kind of details you want to hear anyway.<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/isla-grace-nelson_3486478347_o.jpg" class="kg-image" alt="Isla Grace Nelson" loading="lazy" /> </figure> 
+<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/isla-grace-nelson_3486478347_o.jpg" class="kg-image" alt="Isla Grace Nelson" loading="lazy" /> </figure> 
 
 ### Call #1 – It Begins {#call-1-it-begins}
 
@@ -41,7 +41,7 @@ The second phone call came at 14:50. It was just 17 seconds long:
 
 As I arrived at the station, I wondered whether I should pick up a copy of the day’s newspaper, for posterity in case the baby should be born that day. In all honesty I thought it a remote possibility, but bought a copy of [The Times][4] anyway, reasoning that at least it would be something to read on the train home.<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/islas-birthplace_3487324430_o.jpg" class="kg-image" alt="Isla's Birthplace" loading="lazy" /> </figure> 
+<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/islas-birthplace_3487324430_o.jpg" class="kg-image" alt="Isla's Birthplace" loading="lazy" /> </figure> 
 
 As it happened, on the platform I bumped into Ruth, mother of one of Ben’s pals, so I had some company and conversation for the journey. That evening Ruth posted a comment on my Facebook page saying “Talk about cool, calm & collected. You were more in control than me when I saw you this afternoon!!!”. This is true &#8211; Ruth had something of an “eeek!” expression on her face for most of the train ride. I, meanwhile, anticipated many hours of agonizing (and for me, boring) labour ahead before any real excitement (little did I know!), so I avoided Ruth’s panicked gaze by tweeting.<figure class="kg-card kg-embed-card"> 
 
@@ -105,7 +105,7 @@ After providing the details requested (including “can I have a number beginnin
 
 [Google maps][5] tells me that the 17.3 mile journey from our home to York District Hospital takes around 33 minutes. It’s strange, in my head I always think of it as being much shorter, I don’t know why. On this particular day, travelling at rush hour, it would have taken us even longer, due to heavy traffic and road works.<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/ian-and-isla_3490771971_o.jpg" class="kg-image" alt="Ian and Isla" loading="lazy" /> </figure> 
+<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/ian-and-isla_3490771971_o.jpg" class="kg-image" alt="Ian and Isla" loading="lazy" /> </figure> 
 
 By the time we were just a couple of miles from home, Jocelyn was screaming almost continually. Glancing at my watch as I drove, I timed the contractions to be three minutes apart, then reasoned with myself that I must have made a mistake and forgotten the original location of the minute hand – surely eight minutes would be more appropriate at this stage? But then the subsequent contraction came another three minutes hence, leaving lit  
 tle doubt. I didn’t share these timings with Jocelyn, but I’m sure she was well aware of the immediacy of the situation.
@@ -140,7 +140,7 @@ At this stage I was now glad that I’d made the call. The patient, calm lady on
 
 ### Cavalry {#cavalry}<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/jocelyn-and-isla_3490788551_o.jpg" class="kg-image" alt="Jocelyn and Isla" loading="lazy" /> </figure> 
+<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/jocelyn-and-isla_3490788551_o.jpg" class="kg-image" alt="Jocelyn and Isla" loading="lazy" /> </figure> 
 
 After 9 minutes and 34 seconds the cavalry arrived, in the form of a down-to-earth Yorkshire chap in an ambulance responder vehicle. His initial words, on handing Jocelyn some nitrous oxide, were “There you go love, cop a load of that. Suck it in, there’s plenty!”. On being told that Jocelyn’s waters hadn’t broken, and nor was there any sign of a head, he frowned in my general direction, seemingly giving the impression that we were wasting his time, and I felt certain that he would dob me in to Mrs Lound, my primary school head teacher.
 
@@ -156,7 +156,7 @@ Then he glanced at his watch for a second time, and it seemed to dawn on him tha
 
 The ambulance duly arrived, and Jocelyn was transferred into it. I abandoned the Verso and joined her. The all-female crew, Jo and Jo, told us that the plan was to try to reach York Hospital. Being safety-conscious ladies, they instructed me to sit down and put a seatbelt on, leaving me unable to offer much support over and above shouted encouragements and gripping Jocelyn’s ankle supportively. Not for the first time that evening, I began to think that I probably wasn’t helping much.<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/jocelyn-and-isla_3491604790_o.jpg" class="kg-image" alt="Jocelyn and Isla" loading="lazy" /> </figure> 
+<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/jocelyn-and-isla_3491604790_o.jpg" class="kg-image" alt="Jocelyn and Isla" loading="lazy" /> </figure> 
 
 We’d only got a mile or so down the A64 before another blood-curdling cry and waters breaking all over the ambulance caused the crew to abandon all plans of reaching York Hospital in favour of delivering the baby at the side of the road, near to the services at Bilbrough top. From this point on, everything happened in double-quick time, and Isla Grace came into the world at 18:09.
 
@@ -166,7 +166,7 @@ The high quality service continued as Isla and I transferred into a second ambul
 
 It’s not an experience any of us want to relive, but as the bard said, All’s Well That Ends Well. And it’s a great story to tell Isla in a few years time.<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/heading-home_3490791797_o.jpg" class="kg-image" alt="Heading Home" loading="lazy" /> </figure>
+<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/heading-home_3490791797_o.jpg" class="kg-image" alt="Heading Home" loading="lazy" /> </figure>
 
  [1]: http://maps.google.co.uk/?ie=UTF8&ll=53.907916,-1.18456&spn=0.00273,0.006673&z=17
  [2]: http://www.timeanddate.com/worldclock/fixedtime.html?day=28&month=4&year=2009&hour=18&min=9&sec=0&p1=136

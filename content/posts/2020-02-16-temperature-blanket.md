@@ -3,7 +3,7 @@ title: "Temperature Blanket – A Rare Opportunity for My Coding to Assist Jocel
 
 date: 2020-02-16T22:35:00+00:00
 url: /temperature-blanket/
-featured_image: https://blog.iannelson.uk/wp-content/uploads/2020/02/IMG_20200216_190322.jpg
+featured_image: https://cdn.iannelson.uk/uploads/2020/02/IMG_20200216_190322.jpg
 
 categories:
   - Family
@@ -18,7 +18,7 @@ Jocelyn has embarked on crocheting a _Temperature Blanket_ throughout 2020. This
 
 And here was the rub &#8211; a notable absence of websites that provided these three daily data points for a location close to home. Some sites only had minimum and maximum, but no average. Others considered a &#8220;day&#8221; to run from, say, 4am to 4am, rather than midnight to midnight, which just isn’t in the spirit of the project. Still others offered the data points she needed, but not for any place close to home.<figure class="wp-block-image">
 
-<img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_20200216_190534.jpg" alt="The temperature-to-colour key for Jocelyn's 2020 temperature blanket" /> <figcaption class="wp-element-caption">I’m looking forward to some violet days</figcaption></figure> 
+<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_20200216_190534.jpg" alt="The temperature-to-colour key for Jocelyn's 2020 temperature blanket" /> <figcaption class="wp-element-caption">I’m looking forward to some violet days</figcaption></figure> 
 
 Here was my opportunity to help and earn some husbandly brownie points! I already had an account for the excellent [Dark Sky API][1], which offers forecast and historical weather data by latitude and longitude. Further, [Adam Weiss][2] has made available [dark-sky-core][3], a .NET Standard Nuget Package for accessing this API from .NET code. I fired up Rider, started a new console app, bashed out the following quick function, and proudly presented the desired figures to Mrs Nelson.
 

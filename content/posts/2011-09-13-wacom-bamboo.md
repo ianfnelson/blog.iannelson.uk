@@ -3,7 +3,7 @@ title: Wacom Bamboo
 
 date: 2011-09-13T10:09:00+00:00
 url: /wacom-bamboo/
-featured_image: https://blog.iannelson.uk/wp-content/uploads/2011/09/bamboo-1.jpg
+featured_image: https://cdn.iannelson.uk/uploads/2011/09/bamboo-1.jpg
 
 categories:
   - Tech

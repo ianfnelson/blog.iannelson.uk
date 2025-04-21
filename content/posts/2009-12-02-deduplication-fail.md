@@ -13,4 +13,4 @@ tags:
 ---
 Oh, the irony!<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/Deduplication_2.png" class="kg-image" alt loading="lazy" /> </figure>
+<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/Deduplication_2.png" class="kg-image" alt loading="lazy" /> </figure>

@@ -3,7 +3,7 @@ title: A Circuit Breaker Which Trips On Frequency Of Failures
 
 date: 2009-10-28T11:10:00+00:00
 url: /a-circuit-breaker-which-trips-on-frequency-of-failures/
-featured_image: https://blog.iannelson.uk/wp-content/uploads/2009/10/iStock_000010551634XSmall_3-1.jpg
+featured_image: https://cdn.iannelson.uk/uploads/2009/10/iStock_000010551634XSmall_3-1.jpg
 
 categories:
   - Tech
@@ -31,7 +31,7 @@ Whilst there is a lot of material on the web about the Dependency Injection capa
 
 Earlier this year [Davy Brion][4] posted [an excellent C# implementation][5] of the Circuit Breaker pattern described in Michael Nygard’s equally excellent book _[Release It! Design and Deploy Production-Ready Software][6]_.<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/iStock_000010551634XSmall_3.jpg" class="kg-image" alt loading="lazy" /> </figure> 
+<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/iStock_000010551634XSmall_3.jpg" class="kg-image" alt loading="lazy" /> </figure> 
 
 For the uninitiated, this pattern advocates protecting your system from issues affecting any remote service on which it depends by wrapping your calls to that service with a circuit breaker component. This component notes any failed service invocations, until some threshold is reached, causing the circuit to trip. Subsequent attempted service invocations then “fail fast”, throwing a custom exception rather than passing the method call on to the remote service. This benefits your system, as it prevents you from tying up valuable threads creating expensive remote service calls which may be slow to timeout. And it benefits the remote system as you avoid piling further pressure on a service which is already down or unresponsive.
 

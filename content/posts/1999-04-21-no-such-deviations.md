@@ -3,7 +3,7 @@ title: No Such Deviations
 date: 1999-04-21T22:04:00+00:00
 url: /no-such-deviations/
 cover: 
-  image: https://blog.iannelson.uk/wp-content/uploads/1999/04/2013_03_04_22_25_45.jpg
+  image: https://cdn.iannelson.uk/uploads/1999/04/2013_03_04_22_25_45.jpg
 categories:
   - Hills
 tags:
@@ -18,4 +18,4 @@ Just as I was considering the wall that stood mockingly before me, a Tornado (th
 
 The wall soon disappeared under a layer of ice-covered snow, and it became necessary to don the crampons which I’d been kindly lent by Fiona (cheers, Fi!). Although we easily reached the plateau a few minutes later, finding the actual summit cairn was more than a litle tricky due to the density of the mist up there.
 
-![](https://blog.iannelson.uk/wp-content/uploads/2023/08/2013_03_04_22_25_51.jpg)
+![](https://cdn.iannelson.uk/uploads/2023/08/2013_03_04_22_25_51.jpg)

@@ -14,7 +14,7 @@ In February 2011 I found myself doing some contract development work in a team t
 
 My efforts were _partially_ successful. The team were sold on the idea of using an ORM, but wanted me to develop a second proof of concept using Microsoft ADO.NET [Entity Framework][2] rather than NHibernate. This prompted much mirth amongst my FaceBook friends.<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/FB_3.png" class="kg-image" alt loading="lazy" /> </figure> 
+<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/FB_3.png" class="kg-image" alt loading="lazy" /> </figure> 
 
 I decided to throw myself into the task, and use this opportunity to spend some time getting to grips with Entity Framework in a real-life scenario for a couple of weeks. I figured that in the best-case scenario, I would learn to love EF even more than NH, and bolster my CV. Worst case, I’d hate it but would be moving on to a new contract shortly anyway, so wouldn’t have to live with it for too long. And of course I was getting paid for the experience either way, so what’s not to like?!
 

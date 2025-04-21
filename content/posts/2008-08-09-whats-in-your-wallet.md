@@ -3,7 +3,7 @@ title: "What's In Your Wallet?"
 
 date: 2008-08-09T21:08:00+00:00
 url: /whats-in-your-wallet/
-featured_image: https://blog.iannelson.uk/wp-content/uploads/2008/08/whats-in-your-wallet_2746862973_o-1.jpg
+featured_image: https://cdn.iannelson.uk/uploads/2008/08/whats-in-your-wallet_2746862973_o-1.jpg
 
 categories:
   - Fun
@@ -15,7 +15,7 @@ My good buddy [John][1] just published [a typically navel-gazing post detailing 
 
 Well, as I said in the comments to John’s post, I was surprised at the quantity of sentimental knick-knacks and memorabilia he has in there, compared to the rather prosaic and functional contents of my own wallet.<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/whats-in-your-wallet_2746862973_o.jpg" class="kg-image" alt="What's In Your Wallet?" loading="lazy" /> </figure> 
+<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/whats-in-your-wallet_2746862973_o.jpg" class="kg-image" alt="What's In Your Wallet?" loading="lazy" /> </figure> 
 
 The wallet itself is a simple black leather one from [Burberry][3], and tonight contains the following:
 

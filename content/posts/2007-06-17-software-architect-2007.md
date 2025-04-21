@@ -3,7 +3,7 @@ title: Software Architect 2007
 
 date: 2007-06-17T18:06:00+00:00
 url: /software-architect-2007/
-featured_image: https://blog.iannelson.uk/wp-content/uploads/2007/06/iStock_000003326440XSmall-1.jpg
+featured_image: https://cdn.iannelson.uk/uploads/2007/06/iStock_000003326440XSmall-1.jpg
 
 categories:
   - Tech
@@ -19,7 +19,7 @@ Looking through my notes, the main themes that kept recurring within the differe
   * Appreciate the impact of small decisions which can eventually have a big impact on the overall architecture.
   * Devote more time and consideration to designing interfaces, contracts and public APIs (which are difficulty to change retrospectively), than private implementations which are relatively simple to change.<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/iStock_000003326440XSmall.jpg" class="kg-image" alt="Agility" loading="lazy" /> </figure> 
+<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/iStock_000003326440XSmall.jpg" class="kg-image" alt="Agility" loading="lazy" /> </figure> 
 
 These issues kept coming up again and again &#8211; most notably in talks by Kevlin Henney on &#8220;The Selfish Object&#8221; and Ralf Westphal on &#8220;True Component Orientation&#8221;, but also to an extent in some of Dave Wheeler’s demonstration of how to use some of the Gang of Four design patterns in .NET. So, it amazed me that a number of my fellow delegates kept raising their hands and asking questions which invariably began &#8220;Yeah, but why can’t I just&#8230;&#8221;, followed by suggestions which effectively seemed to boil down to creating hardcoded, inflexible solutions! To say that this was supposedly a conference of architects, even relatively simple concepts such as Reflection, Polymorphism and Generics seemed to be lost on some people, who apparently would be more comfortable maintaining massive switch statements for the rest of eternity!
 
