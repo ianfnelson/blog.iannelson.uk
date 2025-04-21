@@ -1,16 +1,10 @@
 ---
 title: Dangling Off A Skyscraper
-author: ian
-type: post
+
 date: 2007-02-11T16:02:00+00:00
 url: /dangling-off-a-skyscraper/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2007/02/IMG_4374.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Fun
   - Travel

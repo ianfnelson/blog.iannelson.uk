@@ -1,16 +1,10 @@
 ---
 title: Available Again For Contract Work
-author: ian
-type: post
+
 date: 2012-03-12T08:03:00+00:00
 url: /available-again-for-contract-work/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2012/03/ian_on_a_card-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Business
 tags:

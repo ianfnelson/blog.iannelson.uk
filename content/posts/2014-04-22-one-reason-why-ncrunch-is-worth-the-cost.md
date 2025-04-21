@@ -1,16 +1,10 @@
 ---
 title: One Reason Why NCrunch Is Worth The Cost
-author: ian
-type: post
+
 date: 2014-04-22T21:25:50+00:00
 url: /one-reason-why-ncrunch-is-worth-the-cost/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2014/04/iStock_000013107404Small.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 

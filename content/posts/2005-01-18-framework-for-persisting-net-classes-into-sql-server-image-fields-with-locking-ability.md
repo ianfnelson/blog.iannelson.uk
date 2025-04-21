@@ -1,15 +1,9 @@
 ---
 title: Framework for Persisting .NET Classes Into SQL Server Image Fields, With Locking Ability
-author: ian
-type: post
+
 date: 2005-01-18T23:01:00+00:00
 url: /framework-for-persisting-net-classes-into-sql-server-image-fields-with-locking-ability/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

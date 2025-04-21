@@ -1,15 +1,9 @@
 ---
 title: MVC – Where To Put Business Logic?
-author: ian
-type: post
+
 date: 2010-11-03T12:11:00+00:00
 url: /mvc-where-to-put-business-logic/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

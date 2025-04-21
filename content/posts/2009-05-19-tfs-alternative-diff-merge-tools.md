@@ -1,15 +1,9 @@
 ---
 title: 'TFS: Using Alternative Diff/Merge Tools'
-author: ian
-type: post
+
 date: 2009-05-19T07:05:00+00:00
 url: /tfs-alternative-diff-merge-tools/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

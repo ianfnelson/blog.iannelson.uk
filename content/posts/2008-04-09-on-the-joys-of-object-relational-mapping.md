@@ -1,15 +1,9 @@
 ---
 title: On the Joys of Object-Relational Mapping
-author: ian
-type: post
+
 date: 2008-04-09T19:04:00+00:00
 url: /on-the-joys-of-object-relational-mapping/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

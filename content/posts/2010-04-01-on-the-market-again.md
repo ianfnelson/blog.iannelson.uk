@@ -1,15 +1,9 @@
 ---
 title: On The Market Again
-author: ian
-type: post
+
 date: 2010-04-01T08:04:00+00:00
 url: /on-the-market-again/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Business
 tags:

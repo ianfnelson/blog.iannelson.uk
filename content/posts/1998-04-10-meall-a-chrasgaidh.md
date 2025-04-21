@@ -1,16 +1,10 @@
 ---
 title: Meall a’Chrasgaidh
-author: ian
-type: post
+
 date: 1998-04-10T21:00:00+00:00
 url: /meall-a-chrasgaidh/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/1998/04/2013_03_04_22_19_00-7.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Hills
 

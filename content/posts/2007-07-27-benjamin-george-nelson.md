@@ -1,16 +1,10 @@
 ---
 title: Benjamin George Nelson
-author: ian
-type: post
+
 date: 2007-07-27T22:07:00+00:00
 url: /benjamin-george-nelson/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2007/07/resting-with-mum-2_907027345_o-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Family
 tags:

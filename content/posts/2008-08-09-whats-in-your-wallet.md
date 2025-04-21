@@ -1,16 +1,10 @@
 ---
 title: "What's In Your Wallet?"
-author: ian
-type: post
+
 date: 2008-08-09T21:08:00+00:00
 url: /whats-in-your-wallet/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2008/08/whats-in-your-wallet_2746862973_o-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Fun
 tags:

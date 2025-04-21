@@ -1,15 +1,9 @@
 ---
 title: MSB3247 – Dependent Assembly Conflicts
-author: ian
-type: post
+
 date: 2008-12-04T21:12:00+00:00
 url: /msb3247-dependent-assembly-conflicts/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

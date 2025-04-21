@@ -1,15 +1,9 @@
 ---
 title: Schoolboy Error Of The Day
-author: ian
-type: post
+
 date: 2011-08-17T08:08:00+00:00
 url: /schoolboy-error-of-the-day/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

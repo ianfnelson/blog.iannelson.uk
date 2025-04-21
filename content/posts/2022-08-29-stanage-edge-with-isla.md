@@ -1,17 +1,11 @@
 ---
 title: Stanage Edge with Isla
-author: ian
-type: post
+
 date: 2022-08-29T20:00:00+00:00
 excerpt: Another visit to Stanage Edge to admire the mighty Stanage Pole.
 url: /stanage-edge-with-isla/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2022/08/IMG_4989-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Family
   - Hills

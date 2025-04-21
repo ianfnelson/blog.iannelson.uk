@@ -1,15 +1,9 @@
 ---
 title: Castle Windsor Array Resolution Gotcha
-author: ian
-type: post
+
 date: 2009-10-26T10:10:00+00:00
 url: /castle-windsor-array-resolution-gotcha/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

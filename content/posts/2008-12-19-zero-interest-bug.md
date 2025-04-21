@@ -1,15 +1,9 @@
 ---
 title: Zero Interest Bug
-author: ian
-type: post
+
 date: 2008-12-19T12:12:00+00:00
 url: /zero-interest-bug/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Business
   - Tech

@@ -1,16 +1,10 @@
 ---
 title: Star Of The Week
-author: ian
-type: post
+
 date: 2014-05-08T20:30:11+00:00
 url: /star-of-the-week/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2014/05/iStock_000033567536Small.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Business
   - Tech

@@ -1,15 +1,9 @@
 ---
 title: On Primality In Packsizes
-author: ian
-type: post
+
 date: 2009-10-23T10:10:00+00:00
 url: /on-primality-in-packsizes/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Family
   - Fun

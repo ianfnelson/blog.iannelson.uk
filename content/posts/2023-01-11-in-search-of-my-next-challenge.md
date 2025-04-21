@@ -1,17 +1,11 @@
 ---
 title: In Search of My Next Challenge
-author: ian
-type: post
+
 date: 2023-01-11T13:41:19+00:00
 excerpt: 'Folks, this is your lucky day - Ian Nelson is back on the market'
 url: /in-search-of-my-next-challenge/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2023/01/photo-1484788984921-03950022c9ef.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Business
 

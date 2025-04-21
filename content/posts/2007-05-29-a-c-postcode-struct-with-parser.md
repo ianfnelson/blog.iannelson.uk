@@ -1,16 +1,10 @@
 ---
 title: 'A C# Postcode Struct with Parser'
-author: ian
-type: post
+
 date: 2007-05-29T12:05:00+00:00
 url: /a-c-postcode-struct-with-parser/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2007/05/iStock_000003192621XSmall-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

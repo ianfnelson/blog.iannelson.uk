@@ -1,15 +1,9 @@
 ---
 title: WCF – Logging Before and After Operation Invocation
-author: ian
-type: post
+
 date: 2010-04-09T13:04:00+00:00
 url: /wcf-logging-before-and-after-operation-invocation/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

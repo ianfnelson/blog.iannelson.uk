@@ -1,16 +1,10 @@
 ---
 title: A Personal Stack Overflow Milestone
-author: ian
-type: post
+
 date: 2012-01-04T21:01:00+00:00
 url: /a-personal-stack-overflow-milestone/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2012/01/IMG_7069_edited_1-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 

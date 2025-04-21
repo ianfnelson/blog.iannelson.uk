@@ -1,15 +1,9 @@
 ---
 title: A Genealogical Milestone
-author: ian
-type: post
+
 date: 2006-11-06T08:11:00+00:00
 url: /a-genealogical-milestone/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Genealogy
 tags:

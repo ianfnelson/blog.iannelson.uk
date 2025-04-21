@@ -1,16 +1,10 @@
 ---
 title: The Tarmachan Ridge
-author: ian
-type: post
+
 date: 1999-05-29T18:00:00+00:00
 url: /the-tarmachan-ridge/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/1999/05/2013_03_04_22_27_11-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Hills
 tags:

@@ -1,15 +1,9 @@
 ---
 title: 'USA Trip 2006: Journey'
-author: ian
-type: post
+
 date: 2006-05-08T13:05:00+00:00
 url: /usa-trip-2006-journey/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Travel
 tags:

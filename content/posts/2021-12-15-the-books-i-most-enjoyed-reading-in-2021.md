@@ -1,16 +1,10 @@
 ---
 title: The Books I Most Enjoyed Reading in 2021
-author: ian
-type: post
+
 date: 2021-12-15T21:21:01+00:00
 url: /the-books-i-most-enjoyed-reading-in-2021/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2021/12/122049_books2021.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Books
 

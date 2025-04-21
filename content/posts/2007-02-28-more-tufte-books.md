@@ -1,15 +1,9 @@
 ---
 title: More Tufte Books
-author: ian
-type: post
+
 date: 2007-02-28T21:02:00+00:00
 url: /more-tufte-books/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Books
 tags:

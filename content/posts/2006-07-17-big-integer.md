@@ -1,15 +1,9 @@
 ---
 title: Big Integer
-author: ian
-type: post
+
 date: 2006-07-17T08:07:00+00:00
 url: /big-integer/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

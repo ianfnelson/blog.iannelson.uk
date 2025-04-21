@@ -1,16 +1,10 @@
 ---
 title: 'Enterprise Integration Anti-Patterns #2 – Shared Assemblies'
-author: ian
-type: post
+
 date: 2010-12-01T10:12:00+00:00
 url: /enterprise-integration-anti-patterns-2-shared-assemblies/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2010/12/iStock_000004248715XSmall_3-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

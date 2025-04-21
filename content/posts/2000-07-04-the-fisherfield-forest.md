@@ -1,16 +1,10 @@
 ---
 title: The Fisherfield Forest
-author: ian
-type: post
+
 date: 2000-07-04T21:00:00+00:00
 url: /the-fisherfield-forest/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2000/07/2013_03_04_22_08_53-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Hills
 tags:

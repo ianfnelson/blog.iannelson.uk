@@ -1,16 +1,10 @@
 ---
 title: 'Back To Basics: On The Use And Abuse Of The Humble Boolean'
-author: ian
-type: post
+
 date: 2014-07-01T20:54:00+00:00
 url: /back-to-basics-on-the-use-and-abuse-of-the-humble-boolean/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2014/07/iStock_000016008439Small.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 

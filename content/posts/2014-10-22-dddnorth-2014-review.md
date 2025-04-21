@@ -1,16 +1,10 @@
 ---
 title: DDDNorth 2014 Review
-author: ian
-type: post
+
 date: 2014-10-22T20:11:52+00:00
 url: /dddnorth-2014-review/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2014/10/B0PqOyHIgAA93X5.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

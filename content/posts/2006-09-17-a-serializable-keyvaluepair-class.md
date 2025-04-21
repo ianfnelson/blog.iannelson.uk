@@ -1,15 +1,9 @@
 ---
 title: A Serializable KeyValuePair Class
-author: ian
-type: post
+
 date: 2006-09-17T17:09:00+00:00
 url: /a-serializable-keyvaluepair-class/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

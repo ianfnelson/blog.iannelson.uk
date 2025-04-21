@@ -1,16 +1,10 @@
 ---
 title: Scotland With A Son – Into The Highlands With My 10 Year Old
-author: ian
-type: post
+
 date: 2018-06-01T23:00:00+00:00
 url: /scotland-with-a-son/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2018/06/IMG_20180530_125108-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Family
   - Hills

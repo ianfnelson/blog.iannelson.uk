@@ -1,17 +1,11 @@
 ---
 title: Who Reigns Supreme? Parsing Our WhatsApp Chat for Wordle Glory
-author: ian
-type: post
+
 date: 2024-12-31T15:42:39+00:00
 excerpt: 'Discover how I used C# to parse our family WhatsApp chat and crown our 2024 Wordle Champion!'
 url: /who-reigns-supreme-parsing-our-whatsapp-chat-for-wordle-glory/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2024/12/0277568D-75C1-4425-8F5B-48DD1EFE2A7E.jpeg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Family
   - Fun

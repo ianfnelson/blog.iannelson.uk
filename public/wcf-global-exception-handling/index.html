@@ -9,7 +9,7 @@
 <meta name="keywords" content="tidy">
 <meta name="description" content="I’ve done a fair bit of WCF development recently (and amazingly I came out of it relatively unscathed, both psychologically and emotionally). Using Castle Windsor’s WCF Facility helped a great deal, but I still found myself writing a fair bit of infrastructure and plumbing code. I thought I’d blog some of these code snippets lest I forget, and on the offchance they might help others.
 One of the things I wanted to achieve was to ensure that any unhandled exceptions that propagated to the top of the stack were logged. The following custom EndpointBehavior achieves that. I’m using Castle Logging Facility here, but you could of course swap out the logging code for whatever error handling code you require.">
-<meta name="author" content="ian">
+<meta name="author" content="">
 <link rel="canonical" href="https://bloghugo.iannelson.uk/wcf-global-exception-handling/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://bloghugo.iannelson.uk/favicon.ico">
@@ -108,10 +108,6 @@ One of the things I wanted to achieve was to ensure that any unhandled exception
   "inLanguage": "en",
   "datePublished": "2010-04-09T13:04:00Z",
   "dateModified": "2010-04-09T13:04:00Z",
-  "author":{
-    "@type": "Person",
-    "name": "ian"
-  },
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://bloghugo.iannelson.uk/wcf-global-exception-handling/"
@@ -179,7 +175,7 @@ One of the things I wanted to achieve was to ensure that any unhandled exception
     <h1 class="post-title entry-hint-parent">
       WCF – Global Exception Handling
     </h1>
-    <div class="post-meta"><span title='2010-04-09 13:04:00 +0000 +0000'>April 9, 2010</span>&nbsp;·&nbsp;ian
+    <div class="post-meta"><span title='2010-04-09 13:04:00 +0000 +0000'>April 9, 2010</span>
 
 </div>
   </header> 

@@ -1,16 +1,10 @@
 ---
 title: Beer Advent Calendar – Days Sixteen And Seventeen
-author: ian
-type: post
+
 date: 2005-12-17T23:12:00+00:00
 url: /beer-advent-calendar-days-sixteen-and-seventeen/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2005/12/delirium_nocturnum_150-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Beer
 tags:

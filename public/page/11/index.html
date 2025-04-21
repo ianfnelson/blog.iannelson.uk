@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.146.6"><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Ian Nelson</title>
+
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="https://bloghugo.iannelson.uk/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://bloghugo.iannelson.uk/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://bloghugo.iannelson.uk/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://bloghugo.iannelson.uk/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://bloghugo.iannelson.uk/apple-touch-icon.png">
+<link rel="mask-icon" href="https://bloghugo.iannelson.uk/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://bloghugo.iannelson.uk/index.xml">
+<link rel="alternate" hreflang="en" href="https://bloghugo.iannelson.uk/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://bloghugo.iannelson.uk/">
+  <meta property="og:site_name" content="Ian Nelson">
+  <meta property="og:title" content="Ian Nelson">
+  <meta property="og:locale" content="en-gb">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Ian Nelson">
+<meta name="twitter:description" content="">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Ian Nelson",
+  "url": "https://bloghugo.iannelson.uk/",
+  "description": "",
+  "logo": "https://bloghugo.iannelson.uk/favicon.ico",
+  "sameAs": [
+      
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://bloghugo.iannelson.uk/" accesskey="h" title="Ian Nelson (Alt + H)">Ian Nelson</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">A Serializable KeyValuePair Class
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Having accepted that Returning DataSets from WebServices is the Spawn of Satan and Represents All That Is Truly Evil in the World (or at least, not exactly best practice), I’ve been trying to make a conscious effort to instead use lightweight custom objects in my middle tier, to be exposed via web services for use by other applications. I felt sure that some of the new Generic classes in the .NET 2.0 FCL would help me in my quest. Specifically, as I often need to expose simple arrays of Key/Value Pair metadata, I planned to create an instance of the System.Collections.ObjectModel.Collection class, containing a bunch of System.Collections.Generic.KeyValuePair objects. ...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-09-17 17:09:00 +0000 +0000'>September 17, 2006</span></footer>
+  <a class="entry-link" aria-label="post link to A Serializable KeyValuePair Class" href="https://bloghugo.iannelson.uk/a-serializable-keyvaluepair-class/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Big Integer
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>As I mentioned last summer, I do enjoy whiling away a few hours attempting to solve the maths / progamming challenges set on Project Euler. My language of choice for most puzzles is C#, but this hampered me on some of the questions as there is no in-built support for really big integers.
+However, a little bit of Googling and I came across this excellent BigInteger class on Code Project which does everything I need and more – and it seems bloody fast, too. Thanks to this class, I’ve been able to knock off several more problems this weekend, and now have a rating of “11% Genius” – still some way to go, then…
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-07-17 08:07:00 +0000 +0000'>July 17, 2006</span></footer>
+  <a class="entry-link" aria-label="post link to Big Integer" href="https://bloghugo.iannelson.uk/big-integer/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Jury Service
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I’ve recently completed a stint of jury service, which lasted a little over two weeks at York Crown Court. For obvious reasons, I can’t blog about the trials I was involved with, but it was a fascinating couple of weeks, and it would be a shame not to share some of the experience with you.
+Whenever I mentioned my upcoming service to friends and colleagues, their responses fell into one of two camps: either, “Ugh, I’d hate that! I’d really dread doing jury service!” or, “You lucky sod, I’d love to do that, but I’ve never been asked!” The thought of serving on a jury clearly polarises people, and I must confess, I felt a certain dread when I first received my summons.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-07-13 11:07:00 +0000 +0000'>July 13, 2006</span></footer>
+  <a class="entry-link" aria-label="post link to Jury Service" href="https://bloghugo.iannelson.uk/jury-service/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">USA Trip 2006: Breakfast Prep
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>On our first morning in California, we headed out to breakfast, which was preceded by a short session of Breakfast Prep’, courtesy of Jocelyn. It had been a couple of years since I’d last had Breakfast In America, and I’d forgotten how to respond to the awesome number of choices and options that would be flung in my direction by the waitperson.
+Here’s how you order breakfast in Britain:
+&lt;td&gt; &amp;#8220;&lt;a href=&#34;http://en.wikipedia.org/wiki/Full_English_Breakfast&#34;&gt;Full English Breakfast&lt;/a&gt;, please.&amp;#8221; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; Waitress: &lt;/td&gt; &lt;td&gt; &amp;#8220;D&amp;#8217;you want tea or coffee with that?&amp;#8221; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; Diner: &lt;/td&gt; &lt;td&gt; &amp;#8220;Tea, please.&amp;#8221; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; Waitress: &lt;/td&gt; &lt;td&gt; &amp;#8220;OK.&amp;#8221; &lt;/td&gt; &lt;/tr&gt; In due course, the standard, empire-forging breakfast is served, and is consumed heartily, perhaps after a little trading with your breakfasting companions (“I’ll swap you my tomatoes for a rasher of your bacon?”). Everybody knows what is expected, nobody has tricky decisions to make, there are no surprises, and everyone enjoys what they get – and if they don’t enjoy it, well, they don’t mention it, because complaining about such things just wouldn’t be British, damn it.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-05-20 15:05:00 +0000 +0000'>May 20, 2006</span></footer>
+  <a class="entry-link" aria-label="post link to USA Trip 2006: Breakfast Prep" href="https://bloghugo.iannelson.uk/usa-trip-2006-breakfast-prep/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">USA Trip 2006: Arrival
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Monday 10th April 2006
+The sun was still shining as we touched down at SFO, about 22 hours after we’d woken up. If every day could last that long, I swear I’d get more work done – or maybe I’d just spend more time playing Civilization…
+We picked up the car – a Pontiac Impala which initially seemed unfeasibly huge compared to our Focus, but it’s funny how quickly you adjust and get used to the size, making use of the available space – then it was off down US 101 on the final leg of our journey. Despite it being rush hour, we had a swift journey due to being able to use the Car Pool lane (by virtue of not being a single-occupant vehicle). I was amazed how under-utilised this lane was, and started wondering how much of an incentive would be needed for more Bay area commuters to start sharing rides – there’s another good question for the economists to ponder.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-05-08 13:05:00 +0000 +0000'>May 8, 2006</span></footer>
+  <a class="entry-link" aria-label="post link to USA Trip 2006: Arrival" href="https://bloghugo.iannelson.uk/usa-trip-2006-arrival/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">USA Trip 2006: Journey
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>_Monday 10th April 2006
+Travelling West during the daytime is a blast, especially on a sunny day. Time it right and you can experience daylight for 24 hours, which afforded me time to catch up on some reading. For Christmas Joce had given a book entitled Freakonomics – A Rogue Economist Explores The Hidden Side Of Eveything, and now I finally had time to read through it. I surprised myself by finishing it by the time we reached Chicago – this may be a chunky hardback book on economics, but it’s also really interesting and easy-going.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-05-08 13:05:00 +0000 +0000'>May 8, 2006</span></footer>
+  <a class="entry-link" aria-label="post link to USA Trip 2006: Journey" href="https://bloghugo.iannelson.uk/usa-trip-2006-journey/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">USA Trip 2006: Departure
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Last month Jocelyn and I took a trip to the States to visit friends and family, attend Teri &amp; Jimmy’s wedding, and take a vacation to Nevada and Arizona.
+So, there we were, sitting at the departure gate at Manchester Airport on a bright Monday morning, having awoken at 0430 to make our way across the Pennines. A few seats away were a group of teenagers. They were from Michigan, and they were annoyingly noisy. Thus began our American adventure.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-05-02 21:05:00 +0000 +0000'>May 2, 2006</span></footer>
+  <a class="entry-link" aria-label="post link to USA Trip 2006: Departure" href="https://bloghugo.iannelson.uk/usa-trip-2006-departure/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Universal Comparer for .NET
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Back in November 2004, I had the idea of making a “Generic Sorter for Strongly-Typed Collections”, by harnessing the mighty power of reflection. Well, earlier this month somebody anonymously emailed me some code that takes this to a whole different level, enabling sorting on multiple properties and to arbitrary depths within the domain model hierarchy, all by taking a single SQL-like parameter. It’s really very clever indeed, and I’m going to use this method in the future – thanks, anonymous code fairy!
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-02-27 22:02:00 +0000 GMT'>February 27, 2006</span></footer>
+  <a class="entry-link" aria-label="post link to Universal Comparer for .NET" href="https://bloghugo.iannelson.uk/universal-comparer-for-net/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">String.IsNullOrEmpty
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The single most popular entry on this blog is, surprisingly enough, this quick post from Summer 2004 where I did a quick experiment to “prove” that in .NET the quickest way of proving that a string is empty is to compare its length to zero.
+Well, as of .NET 2.0, we have a new static method on the System.String class – IsNullOrEmpty – that allows you to easily test whether a string is, well, null or empty!
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-02-25 14:02:00 +0000 GMT'>February 25, 2006</span></footer>
+  <a class="entry-link" aria-label="post link to String.IsNullOrEmpty" href="https://bloghugo.iannelson.uk/string-isnullorempty/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Beer Advent Calendar – Day Twenty-Four
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p> Hertog Jan Doppio Double is the only one of my twenty-four Advent beers to come in a stone cork-stoppered bottle that weighs more than the drink contained within! At 7.3% ABV, it’s also the second-strongest drink in my selection, and hence has a real kick to it. That said, it also has a gorgeous malty aroma, and strong aftertaste which beer lovers will appreciate. So whilst it’s not quite my personal favourite of the twenty-four beers I’ve had the pleasure of sampling this yuletide, it’s certainly an appropriately worthy and warming drink on which to finish.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-12-24 17:12:00 +0000 GMT'>December 24, 2005</span></footer>
+  <a class="entry-link" aria-label="post link to Beer Advent Calendar – Day Twenty-Four" href="https://bloghugo.iannelson.uk/beer-advent-calendar-day-twenty-four/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://bloghugo.iannelson.uk/page/10/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://bloghugo.iannelson.uk/page/12/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://bloghugo.iannelson.uk/">Ian Nelson</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

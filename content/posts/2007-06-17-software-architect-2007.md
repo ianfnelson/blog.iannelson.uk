@@ -1,16 +1,10 @@
 ---
 title: Software Architect 2007
-author: ian
-type: post
+
 date: 2007-06-17T18:06:00+00:00
 url: /software-architect-2007/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2007/06/iStock_000003326440XSmall-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

@@ -1,15 +1,9 @@
 ---
 title: Database Design – Still Important In These ORM-Obsessed Days
-author: ian
-type: post
+
 date: 2008-07-29T16:07:00+00:00
 url: /database-design-still-important-in-these-orm-obsessed-days/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

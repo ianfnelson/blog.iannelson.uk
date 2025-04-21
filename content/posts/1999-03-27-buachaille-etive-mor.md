@@ -1,16 +1,10 @@
 ---
 title: Buachaille Etive Mor
-author: ian
-type: post
+
 date: 1999-03-27T22:03:00+00:00
 url: /buachaille-etive-mor/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/1999/03/2013_03_04_22_25_05.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Hills
 tags:

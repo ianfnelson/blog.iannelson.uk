@@ -1,16 +1,10 @@
 ---
 title: Eididh nan Clach Geala
-author: ian
-type: post
+
 date: 1998-04-11T21:00:00+00:00
 url: /eididh-nan-clach-geala/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/1998/04/2013_03_04_22_18_56-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Hills
 tags:

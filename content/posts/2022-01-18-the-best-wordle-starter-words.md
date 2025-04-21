@@ -1,17 +1,11 @@
 ---
 title: The Best Wordle Starter Words
-author: ian
-type: post
+
 date: 2022-01-18T19:00:00+00:00
 excerpt: "What are the best words to use as starting guesses when playing Josh Wardle's popular game Wordle? I've crunched the numbers."
 url: /the-best-wordle-starter-words/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2022/01/photo-1583334648584-6c2ba1fb41cd.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Fun
 

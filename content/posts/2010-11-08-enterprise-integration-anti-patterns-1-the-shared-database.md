@@ -1,15 +1,9 @@
 ---
 title: 'Enterprise Integration Anti-Patterns #1 – The Shared Database'
-author: ian
-type: post
+
 date: 2010-11-08T05:11:00+00:00
 url: /enterprise-integration-anti-patterns-1-the-shared-database/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 

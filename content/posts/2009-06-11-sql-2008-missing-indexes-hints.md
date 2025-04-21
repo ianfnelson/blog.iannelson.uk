@@ -1,16 +1,10 @@
 ---
 title: SQL 2008 – Missing Indexes Hints
-author: ian
-type: post
+
 date: 2009-06-11T12:06:00+00:00
 url: /sql-2008-missing-indexes-hints/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2009/06/amc1_2-1.png
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

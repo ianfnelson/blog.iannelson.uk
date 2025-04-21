@@ -1,16 +1,10 @@
 ---
 title: A Keyboard Makes A Hell Of A Difference
-author: ian
-type: post
+
 date: 2008-08-01T16:08:00+00:00
 url: /a-keyboard-makes-a-hell-of-a-difference/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2008/08/61b4lHKlNYL._SL1205_-3.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

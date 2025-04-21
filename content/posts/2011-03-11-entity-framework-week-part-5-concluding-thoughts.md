@@ -1,7 +1,6 @@
 ---
 title: 'Entity Framework Week Part 5: Concluding Thoughts'
-author: ian
-type: post
+
 date: 2011-03-11T09:03:00+00:00
 url: /entity-framework-week-part-5-concluding-thoughts/
 ct_author_last_updated:

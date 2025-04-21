@@ -1,15 +1,9 @@
 ---
 title: Going For It
-author: ian
-type: post
+
 date: 2008-01-14T12:01:00+00:00
 url: /going-for-it/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Business
 tags:

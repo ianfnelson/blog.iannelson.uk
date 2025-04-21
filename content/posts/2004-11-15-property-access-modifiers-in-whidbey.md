@@ -1,15 +1,9 @@
 ---
 title: Property Access Modifiers in Whidbey
-author: ian
-type: post
+
 date: 2004-11-15T19:11:00+00:00
 url: /property-access-modifiers-in-whidbey/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 

@@ -1,16 +1,10 @@
 ---
 title: "It's A Small World"
-author: ian
-type: post
+
 date: 2011-04-09T19:04:00+00:00
 url: /its-a-small-world/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2011/04/JamesBirrell_2-1.png
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Genealogy
 tags:

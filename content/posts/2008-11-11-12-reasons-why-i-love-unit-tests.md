@@ -1,16 +1,10 @@
 ---
 title: 12 Reasons Why I Love Unit Tests
-author: ian
-type: post
+
 date: 2008-11-11T22:11:00+00:00
 url: /12-reasons-why-i-love-unit-tests/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2008/11/photo-1523976888287-7454b4df44f4.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Business
   - Tech

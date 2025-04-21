@@ -1,15 +1,9 @@
 ---
 title: 'Is My String Empty?  Some C# Performance Metrics'
-author: ian
-type: post
+
 date: 2004-07-30T10:07:00+00:00
 url: /is-my-string-empty-some-c-performance-metrics/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

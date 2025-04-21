@@ -1,16 +1,10 @@
 ---
 title: A Couple of Glen Carron Hills
-author: ian
-type: post
+
 date: 2003-05-25T18:00:00+00:00
 url: /a-couple-of-glen-carron-hills/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2003/05/IMG_1487-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Hills
 tags:

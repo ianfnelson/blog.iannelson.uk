@@ -1,15 +1,9 @@
 ---
 title: Spot The Misleading Graph
-author: ian
-type: post
+
 date: 2007-02-19T19:02:00+00:00
 url: /spot-the-misleading-graph/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Books
   - Fun

@@ -1,17 +1,11 @@
 ---
 title: The Books I Most Enjoyed Reading in 2024
-author: ian
-type: post
+
 date: 2024-12-14T16:31:33+00:00
 excerpt: From gripping fiction to thought-provoking non-fiction, here are the books that captivated me most in 2024.
 url: /the-books-i-most-enjoyed-reading-in-2024/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2024/12/Books-scaled.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Books
 

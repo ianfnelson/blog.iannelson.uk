@@ -1,16 +1,10 @@
 ---
 title: A Night Under The Stars
-author: ian
-type: post
+
 date: 1998-09-29T22:10:00+00:00
 url: /a-night-under-the-stars/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/1998/09/2013_03_04_22_22_53-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Hills
 tags:

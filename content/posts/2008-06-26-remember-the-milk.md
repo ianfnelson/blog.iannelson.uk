@@ -1,15 +1,9 @@
 ---
 title: Remember The Milk
-author: ian
-type: post
+
 date: 2008-06-26T06:06:00+00:00
 url: /remember-the-milk/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

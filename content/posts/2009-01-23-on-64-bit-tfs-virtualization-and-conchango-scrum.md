@@ -1,15 +1,9 @@
 ---
 title: On 64-bit TFS, Virtualization, and Conchango SCRUM
-author: ian
-type: post
+
 date: 2009-01-23T12:01:00+00:00
 url: /on-64-bit-tfs-virtualization-and-conchango-scrum/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

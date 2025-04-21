@@ -1,15 +1,9 @@
 ---
 title: Beer Advent Calendar – Day Twenty-Two
-author: ian
-type: post
+
 date: 2005-12-22T21:12:00+00:00
 url: /beer-advent-calendar-day-twenty-two/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Beer
 tags:

@@ -1,16 +1,10 @@
 ---
 title: Soggy Foothills
-author: ian
-type: post
+
 date: 1999-04-20T22:04:00+00:00
 url: /soggy-foothills/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/1999/04/2013_03_04_22_25_25-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Hills
 tags:

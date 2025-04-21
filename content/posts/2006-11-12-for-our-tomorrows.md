@@ -1,16 +1,10 @@
 ---
 title: For Our Tomorrows
-author: ian
-type: post
+
 date: 2006-11-12T20:11:00+00:00
 url: /for-our-tomorrows/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2006/11/we-will-remember-them_295407300_o-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Family
   - Genealogy

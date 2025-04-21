@@ -1,16 +1,10 @@
 ---
 title: Aonach Beag
-author: ian
-type: post
+
 date: 2000-11-25T20:00:00+00:00
 url: /aonach-beag/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2000/11/2013_03_04_22_09_59-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Hills
 tags:

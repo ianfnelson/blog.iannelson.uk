@@ -1,17 +1,11 @@
 ---
 title: The Books I Most Enjoyed Reading in 2023
-author: ian
-type: post
+
 date: 2023-12-17T15:40:15+00:00
 excerpt: "The dozen fiction and non-fiction books that I've most enjoyed reading in 2023."
 url: /the-books-i-most-enjoyed-reading-in-2023/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2023/12/books2023.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Books
 

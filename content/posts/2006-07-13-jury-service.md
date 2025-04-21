@@ -1,16 +1,10 @@
 ---
 title: Jury Service
-author: ian
-type: post
+
 date: 2006-07-13T11:07:00+00:00
 excerpt: 'Two weeks of jury service: surprising, challenging, and a fascinating insight into the justice system.'
 url: /jury-service/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Miscellany
 

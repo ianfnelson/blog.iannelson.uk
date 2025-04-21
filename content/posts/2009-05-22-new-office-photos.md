@@ -1,16 +1,10 @@
 ---
 title: New Office Photos
-author: ian
-type: post
+
 date: 2009-05-22T07:05:00+00:00
 url: /new-office-photos/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2009/05/3542421968_6e26feee92_b-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Business
   - Fun

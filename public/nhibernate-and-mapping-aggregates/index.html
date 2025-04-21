@@ -10,7 +10,7 @@
 <meta name="description" content="A few days ago a friend emailed me the following question regarding NHibernate mappings for a solution he’s currently developing:
 
 “I have an idea entity that has a collection of comment entities and I need to get the comment count for each idea. I made a massive mistake at the beginning by calling idea.Comments.Count (even worse, I did it in the view!), which due to the collection being lazy-loaded caused about 10 database calls so performance was sluggish even with second level cache. I was therefore wondering how you would do it – would you use HQL and use Comments.size or would you do something differently?”">
-<meta name="author" content="ian">
+<meta name="author" content="">
 <link rel="canonical" href="https://bloghugo.iannelson.uk/nhibernate-and-mapping-aggregates/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://bloghugo.iannelson.uk/favicon.ico">
@@ -109,10 +109,6 @@
   "inLanguage": "en",
   "datePublished": "2010-11-25T08:11:00Z",
   "dateModified": "2010-11-25T08:11:00Z",
-  "author":{
-    "@type": "Person",
-    "name": "ian"
-  },
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://bloghugo.iannelson.uk/nhibernate-and-mapping-aggregates/"
@@ -180,7 +176,7 @@
     <h1 class="post-title entry-hint-parent">
       NHibernate and Mapping Aggregates
     </h1>
-    <div class="post-meta"><span title='2010-11-25 08:11:00 +0000 GMT'>November 25, 2010</span>&nbsp;·&nbsp;ian
+    <div class="post-meta"><span title='2010-11-25 08:11:00 +0000 GMT'>November 25, 2010</span>
 
 </div>
   </header> 

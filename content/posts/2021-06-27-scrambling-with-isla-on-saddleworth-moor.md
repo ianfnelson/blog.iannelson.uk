@@ -1,16 +1,10 @@
 ---
 title: Scrambling with Isla on Saddleworth Moor
-author: ian
-type: post
+
 date: 2021-06-27T16:49:27+00:00
 url: /scrambling-with-isla-on-saddleworth-moor/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2021/06/271647_IMG_2891.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Family
   - Hills

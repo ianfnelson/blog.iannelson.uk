@@ -1,16 +1,10 @@
 ---
 title: The Aonach Eagach Ridge
-author: ian
-type: post
+
 date: 1999-09-04T18:00:00+00:00
 url: /the-aonach-eagach-ridge/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/1999/09/2013_03_04_22_29_30-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Hills
 tags:

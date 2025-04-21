@@ -1,16 +1,10 @@
 ---
 title: Wacom Bamboo
-author: ian
-type: post
+
 date: 2011-09-13T10:09:00+00:00
 url: /wacom-bamboo/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2011/09/bamboo-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 

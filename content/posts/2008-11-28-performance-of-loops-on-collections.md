@@ -1,15 +1,9 @@
 ---
 title: Performance of Loops on Collections
-author: ian
-type: post
+
 date: 2008-11-28T12:11:00+00:00
 url: /performance-of-loops-on-collections/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

@@ -1,15 +1,9 @@
 ---
 title: Agile Yorkshire @ The Pub – Exploratory Testing, May 13th
-author: ian
-type: post
+
 date: 2009-05-07T11:05:00+00:00
 url: /agile-yorkshire-the-pub-exploratory-testing-may-13th/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

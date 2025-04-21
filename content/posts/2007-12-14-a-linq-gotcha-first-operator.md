@@ -1,15 +1,9 @@
 ---
 title: A LINQ Gotcha – First Operator
-author: ian
-type: post
+
 date: 2007-12-14T14:12:00+00:00
 url: /a-linq-gotcha-first-operator/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

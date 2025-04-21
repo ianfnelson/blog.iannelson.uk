@@ -1,16 +1,10 @@
 ---
 title: Aussie Apostle Claimed By Sea
-author: ian
-type: post
+
 date: 2005-07-05T09:07:00+00:00
 url: /aussie-apostle-claimed-by-sea/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2005/07/twelve-apostles_13454971_o-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Travel
 tags:

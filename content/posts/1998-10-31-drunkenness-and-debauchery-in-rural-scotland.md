@@ -1,16 +1,10 @@
 ---
 title: Drunkenness and Debauchery in Rural Scotland
-author: ian
-type: post
+
 date: 1998-10-31T22:10:00+00:00
 url: /drunkenness-and-debauchery-in-rural-scotland/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/1998/10/2013_03_04_22_23_49.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Hills
 tags:

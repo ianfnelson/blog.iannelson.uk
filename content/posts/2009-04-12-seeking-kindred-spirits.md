@@ -1,15 +1,9 @@
 ---
 title: Seeking Kindred Spirits
-author: ian
-type: post
+
 date: 2009-04-12T14:04:00+00:00
 url: /seeking-kindred-spirits/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Business
   - Tech

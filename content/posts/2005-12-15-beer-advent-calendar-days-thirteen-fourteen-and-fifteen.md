@@ -1,15 +1,9 @@
 ---
 title: Beer Advent Calendar – Days Thirteen, Fourteen and Fifteen!
-author: ian
-type: post
+
 date: 2005-12-15T19:12:00+00:00
 url: /beer-advent-calendar-days-thirteen-fourteen-and-fifteen/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Beer
 tags:

@@ -1,16 +1,10 @@
 ---
 title: Castle Windsor Lifestyle Gotcha
-author: ian
-type: post
+
 date: 2009-10-19T05:10:00+00:00
 url: /castle-windsor-lifestyle-gotcha/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2009/10/iStock_000000942732XSmall_2-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

@@ -1,15 +1,9 @@
 ---
 title: Zero Interest Bug Arrives
-author: ian
-type: post
+
 date: 2009-02-05T15:02:00+00:00
 url: /zero-interest-bug-arrives/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Fun
   - Tech

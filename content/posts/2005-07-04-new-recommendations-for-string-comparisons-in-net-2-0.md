@@ -1,15 +1,9 @@
 ---
 title: New Recommendations for String Comparisons in .NET 2.0
-author: ian
-type: post
+
 date: 2005-07-04T19:07:00+00:00
 url: /new-recommendations-for-string-comparisons-in-net-2-0/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

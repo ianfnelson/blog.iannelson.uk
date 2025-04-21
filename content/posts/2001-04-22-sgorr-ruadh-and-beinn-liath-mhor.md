@@ -1,16 +1,10 @@
 ---
 title: Sgorr Ruadh and Beinn Liath Mhor
-author: ian
-type: post
+
 date: 2001-04-22T21:00:00+00:00
 url: /sgorr-ruadh-and-beinn-liath-mhor/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2001/04/2013_03_04_22_00_36-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Hills
 tags:

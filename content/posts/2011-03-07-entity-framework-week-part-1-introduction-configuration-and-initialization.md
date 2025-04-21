@@ -1,15 +1,9 @@
 ---
 title: 'Entity Framework Week Part 1: Introduction, Configuration and Initialization'
-author: ian
-type: post
+
 date: 2011-03-07T09:03:00+00:00
 url: /entity-framework-week-part-1-introduction-configuration-and-initialization/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

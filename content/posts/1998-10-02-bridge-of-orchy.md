@@ -1,16 +1,10 @@
 ---
 title: Bridge Of Orchy
-author: ian
-type: post
+
 date: 1998-10-02T22:10:00+00:00
 url: /bridge-of-orchy/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/1998/10/2013_03_04_22_23_07-1.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Hills
 tags:

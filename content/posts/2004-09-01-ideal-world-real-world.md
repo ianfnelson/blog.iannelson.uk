@@ -1,15 +1,9 @@
 ---
 title: Ideal World / Real World
-author: ian
-type: post
+
 date: 2004-09-01T09:09:00+00:00
 url: /ideal-world-real-world/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Books
   - Tech

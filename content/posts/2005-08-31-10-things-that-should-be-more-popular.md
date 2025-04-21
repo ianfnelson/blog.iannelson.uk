@@ -1,15 +1,9 @@
 ---
 title: 10 Things That Should Be More Popular
-author: ian
-type: post
+
 date: 2005-08-31T09:08:00+00:00
 url: /10-things-that-should-be-more-popular/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

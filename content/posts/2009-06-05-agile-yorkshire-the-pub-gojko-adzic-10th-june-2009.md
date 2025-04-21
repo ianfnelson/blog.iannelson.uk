@@ -1,15 +1,9 @@
 ---
 title: Agile Yorkshire @ The Pub – Gojko Adzic, 10th June 2009
-author: ian
-type: post
+
 date: 2009-06-05T08:06:00+00:00
 url: /agile-yorkshire-the-pub-gojko-adzic-10th-june-2009/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

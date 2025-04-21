@@ -1,15 +1,9 @@
 ---
 title: Alt.Net UK In The North
-author: ian
-type: post
+
 date: 2009-04-19T20:04:00+00:00
 url: /alt-net-uk-in-the-north/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Tech
 tags:

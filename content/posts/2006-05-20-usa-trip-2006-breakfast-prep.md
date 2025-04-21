@@ -1,16 +1,10 @@
 ---
 title: 'USA Trip 2006: Breakfast Prep'
-author: ian
-type: post
+
 date: 2006-05-20T15:05:00+00:00
 url: /usa-trip-2006-breakfast-prep/
 featured_image: https://blog.iannelson.uk/wp-content/uploads/2006/05/photo-1504754524776-8f4f37790ca0.jpg
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Travel
 tags:

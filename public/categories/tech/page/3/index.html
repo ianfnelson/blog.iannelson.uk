@@ -129,7 +129,7 @@ I think asking whether the business logic should go in the Model or the Controll
 Much business logic does indeed belong in the model, particularly stuff like encapsulating calculations and projections, adding meaning to raw data properties, and ensuring domain objects are maintained in a valid state. I see this as the traditional side of OO design – encapsulating logic and restricting accessibility.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2010-11-03 12:11:00 +0000 GMT'>November 3, 2010</span>&nbsp;·&nbsp;ian</footer>
+  <footer class="entry-footer"><span title='2010-11-03 12:11:00 +0000 GMT'>November 3, 2010</span></footer>
   <a class="entry-link" aria-label="post link to MVC – Where To Put Business Logic?" href="https://bloghugo.iannelson.uk/mvc-where-to-put-business-logic/"></a>
 </article>
 
@@ -144,7 +144,7 @@ I think it’s great when tools like AutoMapper provide powerful methods like…
 …allowing me to test large swathes of the system configuration with a single, stable test.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2010-04-09 14:04:00 +0000 +0000'>April 9, 2010</span>&nbsp;·&nbsp;ian</footer>
+  <footer class="entry-footer"><span title='2010-04-09 14:04:00 +0000 +0000'>April 9, 2010</span></footer>
   <a class="entry-link" aria-label="post link to Testing IoC Registrations" href="https://bloghugo.iannelson.uk/testing-ioc-registrations/"></a>
 </article>
 
@@ -158,7 +158,7 @@ I think it’s great when tools like AutoMapper provide powerful methods like…
 Firstly I should explain how I’ve been doing most of my data access in recent months. I find that the Repository pattern, and particularly the .NET implementation described here by Fabio Maulo meets the vast majority of requirements I have in my applications, and I fall back on additionally using custom DAOs when required.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2010-04-09 13:04:00 +0000 +0000'>April 9, 2010</span>&nbsp;·&nbsp;ian</footer>
+  <footer class="entry-footer"><span title='2010-04-09 13:04:00 +0000 +0000'>April 9, 2010</span></footer>
   <a class="entry-link" aria-label="post link to Testing LINQ Queries" href="https://bloghugo.iannelson.uk/testing-linq-queries/"></a>
 </article>
 
@@ -172,7 +172,7 @@ Firstly I should explain how I’ve been doing most of my data access in recent 
 One of the things I wanted to achieve was to ensure that any unhandled exceptions that propagated to the top of the stack were logged. The following custom EndpointBehavior achieves that. I’m using Castle Logging Facility here, but you could of course swap out the logging code for whatever error handling code you require.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2010-04-09 13:04:00 +0000 +0000'>April 9, 2010</span>&nbsp;·&nbsp;ian</footer>
+  <footer class="entry-footer"><span title='2010-04-09 13:04:00 +0000 +0000'>April 9, 2010</span></footer>
   <a class="entry-link" aria-label="post link to WCF – Global Exception Handling" href="https://bloghugo.iannelson.uk/wcf-global-exception-handling/"></a>
 </article>
 
@@ -187,7 +187,7 @@ Not content with logging all unhandled errors, I wanted to output a DEBUG level 
 Firstly, here’s the EndPointBehaviour itself. This adds a custom CallContextInitializer to every service operation:
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2010-04-09 13:04:00 +0000 +0000'>April 9, 2010</span>&nbsp;·&nbsp;ian</footer>
+  <footer class="entry-footer"><span title='2010-04-09 13:04:00 +0000 +0000'>April 9, 2010</span></footer>
   <a class="entry-link" aria-label="post link to WCF – Logging Before and After Operation Invocation" href="https://bloghugo.iannelson.uk/wcf-logging-before-and-after-operation-invocation/"></a>
 </article>
 
@@ -200,7 +200,7 @@ Firstly, here’s the EndPointBehaviour itself. This adds a custom CallContextIn
     <p>OK, my last WCF-related code snippet of the day, I promise. This is quite similar to the last one. I required that the WCF service I was developing started a new NHibernate Session for each invocation, and closed it after invocation (i.e. session-per-request). I couldn’t rely on the ASP.NET session start and end events in global.asax as this particular WCF service was to respond to MSMQ messages rather than HTTP.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2010-04-09 13:04:00 +0000 +0000'>April 9, 2010</span>&nbsp;·&nbsp;ian</footer>
+  <footer class="entry-footer"><span title='2010-04-09 13:04:00 +0000 +0000'>April 9, 2010</span></footer>
   <a class="entry-link" aria-label="post link to WCF – NHibernate Unit Of Work Endpoint Behavior" href="https://bloghugo.iannelson.uk/wcf-nhibernate-unit-of-work-endpoint-behavior/"></a>
 </article>
 
@@ -217,7 +217,7 @@ And here’s the controller:
 Note that we have two separate Index actions – one for HTTP GET which instantiates and displays a new FooModel instance, and one for HTTP POST which modifies one of the properties on the posted FooModel instance before re-rendering the view.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2010-04-09 10:04:00 +0000 +0000'>April 9, 2010</span>&nbsp;·&nbsp;ian</footer>
+  <footer class="entry-footer"><span title='2010-04-09 10:04:00 +0000 +0000'>April 9, 2010</span></footer>
   <a class="entry-link" aria-label="post link to An MVC Gotcha and the PRG Pattern" href="https://bloghugo.iannelson.uk/an-mvc-gotcha-and-the-prg-pattern/"></a>
 </article>
 
@@ -232,7 +232,7 @@ I particularly like the look of DistinctBy – that’s gotta be a lot easier th
 Fun fact – I used to work with someone who went to school with Jon Skeet! True Story!
 </p>
   </div>
-  <footer class="entry-footer"><span title='2010-03-30 10:03:00 +0000 +0000'>March 30, 2010</span>&nbsp;·&nbsp;ian</footer>
+  <footer class="entry-footer"><span title='2010-03-30 10:03:00 +0000 +0000'>March 30, 2010</span></footer>
   <a class="entry-link" aria-label="post link to MoreLINQ – IEnumerable Extension From Jon Skeet" href="https://bloghugo.iannelson.uk/morelinq-ienumerable-extension-from-jon-skeet/"></a>
 </article>
 
@@ -247,7 +247,7 @@ Fun fact – I used to work with someone who went to school with Jon Skeet! True
 Now, Scott is unfortunately responsible for administering occasional TLC to a codebase that I cut as long ago as 2004, so I assumed he was referring to this and was about to raise some complaints about my hand-rolled query object criteria framework or other coding horror. I steeled myself to defend my work as he continued to explain:
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2010-02-01 20:02:00 +0000 GMT'>February 1, 2010</span>&nbsp;·&nbsp;ian</footer>
+  <footer class="entry-footer"><span title='2010-02-01 20:02:00 +0000 GMT'>February 1, 2010</span></footer>
   <a class="entry-link" aria-label="post link to On the Inherent Negativity of Computer Programmers" href="https://bloghugo.iannelson.uk/on-the-inherent-negativity-of-computer-programmers/"></a>
 </article>
 
@@ -260,7 +260,7 @@ Now, Scott is unfortunately responsible for administering occasional TLC to a co
     <p>Oh, the irony!
 </p>
   </div>
-  <footer class="entry-footer"><span title='2009-12-02 12:12:00 +0000 GMT'>December 2, 2009</span>&nbsp;·&nbsp;ian</footer>
+  <footer class="entry-footer"><span title='2009-12-02 12:12:00 +0000 GMT'>December 2, 2009</span></footer>
   <a class="entry-link" aria-label="post link to Deduplication Fail" href="https://bloghugo.iannelson.uk/deduplication-fail/"></a>
 </article>
 <footer class="page-footer">

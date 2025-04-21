@@ -1,15 +1,9 @@
 ---
 title: On the Inherent Negativity of Computer Programmers
-author: ian
-type: post
+
 date: 2010-02-01T20:02:00+00:00
 url: /on-the-inherent-negativity-of-computer-programmers/
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-ct_author_last_updated:
-  - default
+
 categories:
   - Fun
   - Tech
