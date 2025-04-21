@@ -3,7 +3,8 @@ title: A Couple of Glen Carron Hills
 
 date: 2003-05-25T18:00:00+00:00
 url: /a-couple-of-glen-carron-hills/
-featured_image: https://cdn.iannelson.uk/uploads/2003/05/IMG_1487-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2003/05/IMG_1487-1.jpg
 
 categories:
   - Hills

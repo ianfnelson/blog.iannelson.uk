@@ -3,7 +3,8 @@ title: The Drumochter Four
 
 date: 2004-01-31T20:00:00+00:00
 url: /the-drumochter-four/
-featured_image: https://cdn.iannelson.uk/uploads/2004/01/IMG_2356.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2004/01/IMG_2356.jpg
 
 categories:
   - Hills

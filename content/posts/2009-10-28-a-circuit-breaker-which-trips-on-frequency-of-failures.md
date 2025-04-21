@@ -3,7 +3,8 @@ title: A Circuit Breaker Which Trips On Frequency Of Failures
 
 date: 2009-10-28T11:10:00+00:00
 url: /a-circuit-breaker-which-trips-on-frequency-of-failures/
-featured_image: https://cdn.iannelson.uk/uploads/2009/10/iStock_000010551634XSmall_3-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2009/10/iStock_000010551634XSmall_3-1.jpg
 
 categories:
   - Tech

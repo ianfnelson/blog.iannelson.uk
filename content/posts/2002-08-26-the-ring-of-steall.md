@@ -3,7 +3,8 @@ title: The Ring of Steall, Mamores
 
 date: 2002-08-26T21:00:00+00:00
 url: /the-ring-of-steall/
-featured_image: https://cdn.iannelson.uk/uploads/2002/08/IMG_0982-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2002/08/IMG_0982-1.jpg
 
 categories:
   - Hills

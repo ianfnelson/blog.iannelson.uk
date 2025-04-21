@@ -4,7 +4,8 @@ title: Funny Things My Kids Have Said – A Compilation 2010-2018
 date: 2022-10-01T20:46:24+00:00
 excerpt: A collection of some of the cute and funny things our three children came out with when they were younger.
 url: /funny-things-my-kids-have-said/
-featured_image: https://cdn.iannelson.uk/uploads/2022/10/17097568_10154867502840708_3006812927482649041_o_10154867502840708-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2022/10/17097568_10154867502840708_3006812927482649041_o_10154867502840708-1.jpg
 
 categories:
   - Family

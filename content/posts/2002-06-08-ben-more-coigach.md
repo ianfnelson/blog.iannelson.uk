@@ -3,7 +3,8 @@ title: Ben More Coigach
 
 date: 2002-06-08T21:00:00+00:00
 url: /ben-more-coigach/
-featured_image: https://cdn.iannelson.uk/uploads/2002/06/107-0779_IMG-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2002/06/107-0779_IMG-1.jpg
 
 categories:
   - Hills

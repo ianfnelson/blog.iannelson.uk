@@ -3,7 +3,8 @@ title: A Night Under The Stars
 
 date: 1998-09-29T22:10:00+00:00
 url: /a-night-under-the-stars/
-featured_image: https://cdn.iannelson.uk/uploads/1998/09/2013_03_04_22_22_53-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/1998/09/2013_03_04_22_22_53-1.jpg
 
 categories:
   - Hills

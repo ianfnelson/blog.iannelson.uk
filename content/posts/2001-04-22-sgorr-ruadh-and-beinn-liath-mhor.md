@@ -3,7 +3,8 @@ title: Sgorr Ruadh and Beinn Liath Mhor
 
 date: 2001-04-22T21:00:00+00:00
 url: /sgorr-ruadh-and-beinn-liath-mhor/
-featured_image: https://cdn.iannelson.uk/uploads/2001/04/2013_03_04_22_00_36-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2001/04/2013_03_04_22_00_36-1.jpg
 
 categories:
   - Hills

@@ -3,7 +3,8 @@ title: "Paulo's Last Munro Photos"
 
 date: 2007-07-04T20:07:00+00:00
 url: /paulos-last-munro-photos/
-featured_image: https://cdn.iannelson.uk/uploads/2007/07/craignure_553774452_o-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2007/07/craignure_553774452_o-1.jpg
 
 categories:
   - Hills

@@ -3,7 +3,8 @@ title: Soggy Foothills
 
 date: 1999-04-20T22:04:00+00:00
 url: /soggy-foothills/
-featured_image: https://cdn.iannelson.uk/uploads/1999/04/2013_03_04_22_25_25-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/1999/04/2013_03_04_22_25_25-1.jpg
 
 categories:
   - Hills

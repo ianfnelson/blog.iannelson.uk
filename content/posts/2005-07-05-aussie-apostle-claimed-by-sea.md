@@ -3,7 +3,8 @@ title: Aussie Apostle Claimed By Sea
 
 date: 2005-07-05T09:07:00+00:00
 url: /aussie-apostle-claimed-by-sea/
-featured_image: https://cdn.iannelson.uk/uploads/2005/07/twelve-apostles_13454971_o-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2005/07/twelve-apostles_13454971_o-1.jpg
 
 categories:
   - Travel

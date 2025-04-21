@@ -3,7 +3,8 @@ title: Available Again For Contract Work
 
 date: 2012-03-12T08:03:00+00:00
 url: /available-again-for-contract-work/
-featured_image: https://cdn.iannelson.uk/uploads/2012/03/ian_on_a_card-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2012/03/ian_on_a_card-1.jpg
 
 categories:
   - Business

@@ -3,7 +3,8 @@ title: 'Inside Microsoft SQL Server 2005: The Storage Engine'
 
 date: 2008-01-05T21:01:00+00:00
 url: /inside-microsoft-sql-server-2005-the-storage-engine/
-featured_image: https://cdn.iannelson.uk/uploads/2008/01/mssqlstorageengine_4-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2008/01/mssqlstorageengine_4-1.jpg
 
 categories:
   - Tech

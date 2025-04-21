@@ -4,7 +4,8 @@ title: Stanage Edge with my Mum
 date: 2021-07-19T18:49:44+00:00
 excerpt: A sunny walk up Stanage Edge, near Hathersage, in the Peak District.
 url: /stanage-edge-with-my-mum/
-featured_image: https://cdn.iannelson.uk/uploads/2021/07/191848_IMG_2990.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2021/07/191848_IMG_2990.jpg
 
 categories:
   - Family

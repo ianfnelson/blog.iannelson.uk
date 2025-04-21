@@ -3,7 +3,8 @@ title: Vast Solid Pillar
 
 date: 1999-04-17T22:04:00+00:00
 url: /vast-solid-pillar/
-featured_image: https://cdn.iannelson.uk/uploads/1999/04/2013_03_04_22_25_24.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/1999/04/2013_03_04_22_25_24.jpg
 
 categories:
   - Hills

@@ -3,7 +3,8 @@ title: Software Architect 2007
 
 date: 2007-06-17T18:06:00+00:00
 url: /software-architect-2007/
-featured_image: https://cdn.iannelson.uk/uploads/2007/06/iStock_000003326440XSmall-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2007/06/iStock_000003326440XSmall-1.jpg
 
 categories:
   - Tech

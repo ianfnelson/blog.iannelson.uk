@@ -3,7 +3,8 @@ title: Dangling Off A Skyscraper
 
 date: 2007-02-11T16:02:00+00:00
 url: /dangling-off-a-skyscraper/
-featured_image: https://cdn.iannelson.uk/uploads/2007/02/IMG_4374.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2007/02/IMG_4374.jpg
 
 categories:
   - Fun

@@ -3,7 +3,8 @@ title: The 20 Books I Most Enjoyed Reading in 2019
 
 date: 2020-01-05T22:40:00+00:00
 url: /20-books-i-most-enjoyed-reading-in-2019/
-featured_image: https://cdn.iannelson.uk/uploads/2020/01/Books2019.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2020/01/Books2019.jpg
 
 categories:
   - Books

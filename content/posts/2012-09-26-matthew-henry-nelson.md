@@ -3,7 +3,8 @@ title: Matthew Henry Nelson
 
 date: 2012-09-26T19:09:00+00:00
 url: /matthew-henry-nelson/
-featured_image: https://cdn.iannelson.uk/uploads/2012/09/8024299362_317f27a60d_o-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2012/09/8024299362_317f27a60d_o-1.jpg
 
 categories:
   - Family

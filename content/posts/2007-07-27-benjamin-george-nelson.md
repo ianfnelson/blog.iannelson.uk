@@ -3,7 +3,8 @@ title: Benjamin George Nelson
 
 date: 2007-07-27T22:07:00+00:00
 url: /benjamin-george-nelson/
-featured_image: https://cdn.iannelson.uk/uploads/2007/07/resting-with-mum-2_907027345_o-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2007/07/resting-with-mum-2_907027345_o-1.jpg
 
 categories:
   - Family

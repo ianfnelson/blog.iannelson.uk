@@ -3,7 +3,8 @@ title: Stanage Edge
 
 date: 2000-04-01T19:00:00+00:00
 url: /stanage-edge/
-featured_image: https://cdn.iannelson.uk/uploads/2000/04/191829_2013_03_04_22_03_44-scaled.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2000/04/191829_2013_03_04_22_03_44-scaled.jpg
 
 categories:
   - Hills

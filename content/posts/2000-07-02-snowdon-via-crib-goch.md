@@ -3,7 +3,8 @@ title: Snowdon via Crib Goch
 
 date: 2000-07-02T20:00:00+00:00
 url: /snowdon-via-crib-goch/
-featured_image: https://cdn.iannelson.uk/uploads/2000/07/2013_03_04_22_07_07-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2000/07/2013_03_04_22_07_07-1.jpg
 
 categories:
   - Hills

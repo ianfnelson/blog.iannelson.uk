@@ -3,7 +3,8 @@ title: The Tarmachan Ridge
 
 date: 1999-05-29T18:00:00+00:00
 url: /the-tarmachan-ridge/
-featured_image: https://cdn.iannelson.uk/uploads/1999/05/2013_03_04_22_27_11-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/1999/05/2013_03_04_22_27_11-1.jpg
 
 categories:
   - Hills

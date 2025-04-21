@@ -3,7 +3,8 @@ title: For Our Tomorrows
 
 date: 2006-11-12T20:11:00+00:00
 url: /for-our-tomorrows/
-featured_image: https://cdn.iannelson.uk/uploads/2006/11/we-will-remember-them_295407300_o-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2006/11/we-will-remember-them_295407300_o-1.jpg
 
 categories:
   - Family

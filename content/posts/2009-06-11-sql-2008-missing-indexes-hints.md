@@ -3,7 +3,8 @@ title: SQL 2008 – Missing Indexes Hints
 
 date: 2009-06-11T12:06:00+00:00
 url: /sql-2008-missing-indexes-hints/
-featured_image: https://cdn.iannelson.uk/uploads/2009/06/amc1_2-1.png
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2009/06/amc1_2-1.png
 
 categories:
   - Tech

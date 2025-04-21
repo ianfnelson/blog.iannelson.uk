@@ -3,7 +3,8 @@ title: The Glen Lyon Four
 
 date: 1999-05-30T18:00:00+00:00
 url: /the-glen-lyon-four/
-featured_image: https://cdn.iannelson.uk/uploads/1999/05/2013_03_04_22_27_27.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/1999/05/2013_03_04_22_27_27.jpg
 
 categories:
   - Hills

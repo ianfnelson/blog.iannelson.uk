@@ -3,7 +3,8 @@ title: "Beinn a'Bheithir"
 
 date: 2002-08-25T21:00:00+00:00
 url: /beinn-abheithir/
-featured_image: https://cdn.iannelson.uk/uploads/2002/08/IMG_0951-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2002/08/IMG_0951-1.jpg
 
 categories:
   - Hills

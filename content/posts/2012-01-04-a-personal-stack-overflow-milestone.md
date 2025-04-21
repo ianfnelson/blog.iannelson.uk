@@ -3,7 +3,8 @@ title: A Personal Stack Overflow Milestone
 
 date: 2012-01-04T21:01:00+00:00
 url: /a-personal-stack-overflow-milestone/
-featured_image: https://cdn.iannelson.uk/uploads/2012/01/IMG_7069_edited_1-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2012/01/IMG_7069_edited_1-1.jpg
 
 categories:
   - Tech

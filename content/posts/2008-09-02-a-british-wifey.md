@@ -3,7 +3,8 @@ title: A British Wifey
 
 date: 2008-09-02T21:09:00+00:00
 url: /a-british-wifey/
-featured_image: https://cdn.iannelson.uk/uploads/2008/09/british-wifey_2822763194_o-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2008/09/british-wifey_2822763194_o-1.jpg
 
 categories:
   - Family

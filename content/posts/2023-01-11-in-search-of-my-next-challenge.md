@@ -4,7 +4,8 @@ title: In Search of My Next Challenge
 date: 2023-01-11T13:41:19+00:00
 excerpt: 'Folks, this is your lucky day - Ian Nelson is back on the market'
 url: /in-search-of-my-next-challenge/
-featured_image: https://cdn.iannelson.uk/uploads/2023/01/photo-1484788984921-03950022c9ef.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2023/01/photo-1484788984921-03950022c9ef.jpg
 
 categories:
   - Business

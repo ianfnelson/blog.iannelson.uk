@@ -4,7 +4,8 @@ title: The 20 Books I Most Enjoyed Reading in 2022
 date: 2022-12-17T20:22:49+00:00
 excerpt: "I've enjoyed reading a variety of fiction and non-fiction books during 2022. Here are my favourites."
 url: /the-20-books-i-most-enjoyed-reading-in-2022/
-featured_image: https://cdn.iannelson.uk/uploads/2022/12/books2.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2022/12/books2.jpg
 
 categories:
   - Books

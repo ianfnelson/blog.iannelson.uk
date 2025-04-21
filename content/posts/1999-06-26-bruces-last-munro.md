@@ -3,7 +3,8 @@ title: "Bruce's Last Munro"
 
 date: 1999-06-26T20:00:00+00:00
 url: /bruces-last-munro/
-featured_image: https://cdn.iannelson.uk/uploads/1999/06/2013_03_04_22_27_54-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/1999/06/2013_03_04_22_27_54-1.jpg
 
 categories:
   - Hills

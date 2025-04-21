@@ -3,7 +3,8 @@ title: NHProf – NHibernate Profiler
 
 date: 2009-05-19T17:05:00+00:00
 url: /nhprof-nhibernate-profiler/
-featured_image: https://cdn.iannelson.uk/uploads/2009/05/nh1_2-1.png
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2009/05/nh1_2-1.png
 
 categories:
   - Tech

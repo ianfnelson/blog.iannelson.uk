@@ -3,7 +3,8 @@ title: Beinn Alligin
 
 date: 2003-05-27T18:00:00+00:00
 url: /beinn-alligin/
-featured_image: https://cdn.iannelson.uk/uploads/2003/05/IMG_1523.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2003/05/IMG_1523.jpg
 
 categories:
   - Hills

@@ -3,7 +3,8 @@ title: How to Install RabbitMQ Server in Docker on a Synology NAS
 
 date: 2020-01-25T23:46:56+00:00
 url: /how-to-install-rabbitmq-server-in-docker-on-a-synology-nas/
-featured_image: https://cdn.iannelson.uk/uploads/2020/01/2020-01-13_21-25-45-1.png
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2020/01/2020-01-13_21-25-45-1.png
 
 categories:
   - Tech

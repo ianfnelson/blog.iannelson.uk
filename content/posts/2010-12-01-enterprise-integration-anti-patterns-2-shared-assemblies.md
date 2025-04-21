@@ -3,7 +3,8 @@ title: 'Enterprise Integration Anti-Patterns #2 – Shared Assemblies'
 
 date: 2010-12-01T10:12:00+00:00
 url: /enterprise-integration-anti-patterns-2-shared-assemblies/
-featured_image: https://cdn.iannelson.uk/uploads/2010/12/iStock_000004248715XSmall_3-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2010/12/iStock_000004248715XSmall_3-1.jpg
 
 categories:
   - Tech

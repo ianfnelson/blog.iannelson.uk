@@ -3,7 +3,8 @@ title: Pen-y-ghent With a Daughter
 
 date: 2021-04-25T18:19:33+00:00
 url: /pen-y-ghent/
-featured_image: https://cdn.iannelson.uk/uploads/2021/04/251818_IMG_2583.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2021/04/251818_IMG_2583.jpg
 
 categories:
   - Family

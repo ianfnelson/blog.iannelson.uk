@@ -3,7 +3,8 @@ title: One Reason Why NCrunch Is Worth The Cost
 
 date: 2014-04-22T21:25:50+00:00
 url: /one-reason-why-ncrunch-is-worth-the-cost/
-featured_image: https://cdn.iannelson.uk/uploads/2014/04/iStock_000013107404Small.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2014/04/iStock_000013107404Small.jpg
 
 categories:
   - Tech

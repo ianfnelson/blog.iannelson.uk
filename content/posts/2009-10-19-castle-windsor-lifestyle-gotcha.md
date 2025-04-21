@@ -3,7 +3,8 @@ title: Castle Windsor Lifestyle Gotcha
 
 date: 2009-10-19T05:10:00+00:00
 url: /castle-windsor-lifestyle-gotcha/
-featured_image: https://cdn.iannelson.uk/uploads/2009/10/iStock_000000942732XSmall_2-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2009/10/iStock_000000942732XSmall_2-1.jpg
 
 categories:
   - Tech

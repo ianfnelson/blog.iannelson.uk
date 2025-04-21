@@ -70,7 +70,9 @@ Funny, but not true. I am enamoured with the Castle Windsor project because its 
     <meta property="article:published_time" content="2009-10-28T11:10:00+00:00">
     <meta property="article:modified_time" content="2009-10-28T11:10:00+00:00">
     <meta property="article:tag" content="Tidy">
-<meta name="twitter:card" content="summary">
+    <meta property="og:image" content="https://cdn.iannelson.uk/uploads/2009/10/iStock_000010551634XSmall_3-1.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://cdn.iannelson.uk/uploads/2009/10/iStock_000010551634XSmall_3-1.jpg">
 <meta name="twitter:title" content="A Circuit Breaker Which Trips On Frequency Of Failures">
 <meta name="twitter:description" content="@Jez tweeted last night:
 
@@ -112,7 +114,7 @@ Funny, but not true. I am enamoured with the Castle Windsor project because its 
   "articleBody": "@Jez tweeted last night:\nFunny, but not true. I am enamoured with the Castle Windsor project because its power makes it fairly simple for me to develop loosely-coupled systems which are easily maintained and tested. The wide range of Facilities and Contrib projects also integrate nicely with the other parts of my current development stack (NHibernate, WCF, WF, log4net).\nWhilst there is a lot of material on the web about the Dependency Injection capabilities of Windsor, the Aspect-Oriented Programming (AOP) features don’t seem to get as much exposure, so I thought I’d quickly blog about one way in which I’ve been making use of those in the system I’m currently developing.\nEarlier this year Davy Brion posted an excellent C# implementation of the Circuit Breaker pattern described in Michael Nygard’s equally excellent book Release It! Design and Deploy Production-Ready Software.\nFor the uninitiated, this pattern advocates protecting your system from issues affecting any remote service on which it depends by wrapping your calls to that service with a circuit breaker component. This component notes any failed service invocations, until some threshold is reached, causing the circuit to trip. Subsequent attempted service invocations then “fail fast”, throwing a custom exception rather than passing the method call on to the remote service. This benefits your system, as it prevents you from tying up valuable threads creating expensive remote service calls which may be slow to timeout. And it benefits the remote system as you avoid piling further pressure on a service which is already down or unresponsive.\nFor more details of this pattern, and some entertaining war stories of situations in which they would have proved useful, I encourage you to read Michael Nygard’s book.\nNow, I like Davy’s implementation of this pattern a lot, particularly since it is implemented as an interceptor for Castle Windsor, which as mentioned I’m already making heavy use of in my current projects. But my only concern is that it is configured to trip after the number of failed invocations reaches a specific figure, irrespective of how long it takes to reach that threshold. I want an implementation which is able to sense the difference between infrequent exceptions over a prolonged period, and a sudden flurry of exceptions – the latter causing the circuit breaker to trip.\nTo achieve this I’ve tweaked Davy’s implementation slightly by adding an extra parameter to the constructor specifying the historical period over which to total the number of exceptions. That is, you can configure it such that a certain number of failures within the preceding y minutes causes the circuit breaker to trip.\nMy forked version can be found on GitHub at https://github.com/ianfnelson/CircuitBreaker.\nI look forward to seeing what adverts Google sees fit to stick at the bottom of this post… 🙂\n",
   "wordCount" : "462",
   "inLanguage": "en",
-  "datePublished": "2009-10-28T11:10:00Z",
+  "image":"https://cdn.iannelson.uk/uploads/2009/10/iStock_000010551634XSmall_3-1.jpg","datePublished": "2009-10-28T11:10:00Z",
   "dateModified": "2009-10-28T11:10:00Z",
   "mainEntityOfPage": {
     "@type": "WebPage",
@@ -185,6 +187,10 @@ Funny, but not true. I am enamoured with the Castle Windsor project because its 
 
 </div>
   </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="https://cdn.iannelson.uk/uploads/2009/10/iStock_000010551634XSmall_3-1.jpg" alt="">
+        
+</figure>
   <div class="post-content"><p><a href="http://twitter.com/jeremypearson">@Jez</a> <a href="http://twitter.com/jeremypearson/statuses/5186129382">tweeted</a> last night:<!-- raw HTML omitted --></p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->

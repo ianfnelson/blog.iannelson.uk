@@ -3,7 +3,8 @@ title: Drunkenness and Debauchery in Rural Scotland
 
 date: 1998-10-31T22:10:00+00:00
 url: /drunkenness-and-debauchery-in-rural-scotland/
-featured_image: https://cdn.iannelson.uk/uploads/1998/10/2013_03_04_22_23_49.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/1998/10/2013_03_04_22_23_49.jpg
 
 categories:
   - Hills

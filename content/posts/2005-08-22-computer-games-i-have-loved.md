@@ -3,7 +3,8 @@ title: Computer Games I Have Loved
 
 date: 2005-08-22T21:08:00+00:00
 url: /computer-games-i-have-loved/
-featured_image: https://cdn.iannelson.uk/uploads/2005/08/grandstand-bmxflyerboxfrontjpg_35626067_o-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2005/08/grandstand-bmxflyerboxfrontjpg_35626067_o-1.jpg
 
 categories:
   - Fun

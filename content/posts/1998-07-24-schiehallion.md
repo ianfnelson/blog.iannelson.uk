@@ -3,7 +3,8 @@ title: Schiehallion
 
 date: 1998-07-24T22:07:00+00:00
 url: /schiehallion/
-featured_image: https://cdn.iannelson.uk/uploads/1998/07/2013_03_04_22_19_24-2.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/1998/07/2013_03_04_22_19_24-2.jpg
 
 categories:
   - Hills

@@ -3,7 +3,8 @@ title: "What's In Your Wallet?"
 
 date: 2008-08-09T21:08:00+00:00
 url: /whats-in-your-wallet/
-featured_image: https://cdn.iannelson.uk/uploads/2008/08/whats-in-your-wallet_2746862973_o-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2008/08/whats-in-your-wallet_2746862973_o-1.jpg
 
 categories:
   - Fun

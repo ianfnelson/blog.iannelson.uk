@@ -3,7 +3,8 @@ title: 'USA Trip 2006: Breakfast Prep'
 
 date: 2006-05-20T15:05:00+00:00
 url: /usa-trip-2006-breakfast-prep/
-featured_image: https://cdn.iannelson.uk/uploads/2006/05/photo-1504754524776-8f4f37790ca0.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2006/05/photo-1504754524776-8f4f37790ca0.jpg
 
 categories:
   - Travel

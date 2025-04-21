@@ -3,7 +3,8 @@ title: Beer Advent Calendar – Day Seven
 
 date: 2005-12-08T14:12:00+00:00
 url: /beer-advent-calendar-day-seven/
-featured_image: https://cdn.iannelson.uk/uploads/2005/12/connie1_large_71473873_o-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2005/12/connie1_large_71473873_o-1.jpg
 
 categories:
   - Beer

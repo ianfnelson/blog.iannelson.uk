@@ -3,7 +3,8 @@ title: The Aonach Eagach Ridge
 
 date: 1999-09-04T18:00:00+00:00
 url: /the-aonach-eagach-ridge/
-featured_image: https://cdn.iannelson.uk/uploads/1999/09/2013_03_04_22_29_30-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/1999/09/2013_03_04_22_29_30-1.jpg
 
 categories:
   - Hills

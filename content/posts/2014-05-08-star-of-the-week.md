@@ -3,7 +3,8 @@ title: Star Of The Week
 
 date: 2014-05-08T20:30:11+00:00
 url: /star-of-the-week/
-featured_image: https://cdn.iannelson.uk/uploads/2014/05/iStock_000033567536Small.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2014/05/iStock_000033567536Small.jpg
 
 categories:
   - Business

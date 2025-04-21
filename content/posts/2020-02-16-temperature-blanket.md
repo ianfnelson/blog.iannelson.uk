@@ -3,7 +3,8 @@ title: "Temperature Blanket – A Rare Opportunity for My Coding to Assist Jocel
 
 date: 2020-02-16T22:35:00+00:00
 url: /temperature-blanket/
-featured_image: https://cdn.iannelson.uk/uploads/2020/02/IMG_20200216_190322.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2020/02/IMG_20200216_190322.jpg
 
 categories:
   - Family

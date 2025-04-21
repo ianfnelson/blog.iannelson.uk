@@ -3,7 +3,8 @@ title: The 12 Books I Most Enjoyed Reading in 2020
 
 date: 2020-12-18T07:07:55+00:00
 url: /12-books-i-most-enjoyed-reading-in-2020/
-featured_image: https://cdn.iannelson.uk/uploads/2020/12/132227_2020.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2020/12/132227_2020.jpg
 
 categories:
   - Books

@@ -3,7 +3,8 @@ title: Family Tree Update
 
 date: 2007-12-31T22:12:00+00:00
 url: /family-tree-update/
-featured_image: https://cdn.iannelson.uk/uploads/2007/12/gedhtree_2-1.png
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2007/12/gedhtree_2-1.png
 
 categories:
   - Genealogy

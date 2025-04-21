@@ -3,7 +3,8 @@ title: Buachaille Etive Beag
 
 date: 2002-08-23T21:00:00+00:00
 url: /buachaille-etive-beag/
-featured_image: https://cdn.iannelson.uk/uploads/2002/08/IMG_0921-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2002/08/IMG_0921-1.jpg
 
 categories:
   - Hills

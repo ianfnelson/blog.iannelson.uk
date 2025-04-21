@@ -3,7 +3,8 @@ title: Meall a’Chrasgaidh
 
 date: 1998-04-10T21:00:00+00:00
 url: /meall-a-chrasgaidh/
-featured_image: https://cdn.iannelson.uk/uploads/1998/04/2013_03_04_22_19_00-7.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/1998/04/2013_03_04_22_19_00-7.jpg
 
 categories:
   - Hills

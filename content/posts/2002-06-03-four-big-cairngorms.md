@@ -3,7 +3,8 @@ title: Four Big Cairngorms
 
 date: 2002-06-03T21:00:00+00:00
 url: /four-big-cairngorms/
-featured_image: https://cdn.iannelson.uk/uploads/2002/06/107-0740_IMG-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2002/06/107-0740_IMG-1.jpg
 
 categories:
   - Hills

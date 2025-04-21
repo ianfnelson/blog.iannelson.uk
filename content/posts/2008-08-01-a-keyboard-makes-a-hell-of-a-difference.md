@@ -3,7 +3,8 @@ title: A Keyboard Makes A Hell Of A Difference
 
 date: 2008-08-01T16:08:00+00:00
 url: /a-keyboard-makes-a-hell-of-a-difference/
-featured_image: https://cdn.iannelson.uk/uploads/2008/08/61b4lHKlNYL._SL1205_-3.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2008/08/61b4lHKlNYL._SL1205_-3.jpg
 
 categories:
   - Tech

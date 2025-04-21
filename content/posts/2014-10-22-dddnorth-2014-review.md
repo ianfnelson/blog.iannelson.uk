@@ -3,7 +3,8 @@ title: DDDNorth 2014 Review
 
 date: 2014-10-22T20:11:52+00:00
 url: /dddnorth-2014-review/
-featured_image: https://cdn.iannelson.uk/uploads/2014/10/B0PqOyHIgAA93X5.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2014/10/B0PqOyHIgAA93X5.jpg
 
 categories:
   - Tech

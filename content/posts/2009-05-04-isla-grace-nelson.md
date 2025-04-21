@@ -3,7 +3,8 @@ title: Isla Grace Nelson
 
 date: 2009-05-04T21:05:00+00:00
 url: /isla-grace-nelson/
-featured_image: https://cdn.iannelson.uk/uploads/2009/05/isla-snuggling_3495192450_o-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2009/05/isla-snuggling_3495192450_o-1.jpg
 
 categories:
   - Family

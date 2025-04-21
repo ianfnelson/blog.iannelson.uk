@@ -3,7 +3,8 @@ title: Buachaille Etive Mor
 
 date: 1999-03-27T22:03:00+00:00
 url: /buachaille-etive-mor/
-featured_image: https://cdn.iannelson.uk/uploads/1999/03/2013_03_04_22_25_05.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/1999/03/2013_03_04_22_25_05.jpg
 
 categories:
   - Hills

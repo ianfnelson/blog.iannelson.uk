@@ -3,7 +3,8 @@ title: .NET Coding Standards
 
 date: 2009-01-23T15:01:00+00:00
 url: /net-coding-standards/
-featured_image: https://cdn.iannelson.uk/uploads/2009/01/iStock_000004478097XSmall_2-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2009/01/iStock_000004478097XSmall_2-1.jpg
 
 categories:
   - Books

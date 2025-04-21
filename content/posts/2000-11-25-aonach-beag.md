@@ -3,7 +3,8 @@ title: Aonach Beag
 
 date: 2000-11-25T20:00:00+00:00
 url: /aonach-beag/
-featured_image: https://cdn.iannelson.uk/uploads/2000/11/2013_03_04_22_09_59-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2000/11/2013_03_04_22_09_59-1.jpg
 
 categories:
   - Hills

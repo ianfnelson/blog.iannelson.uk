@@ -3,7 +3,8 @@ title: ASP.NET Just Became a Legacy Platform
 
 date: 2009-03-22T21:03:00+00:00
 url: /asp-net-just-became-a-legacy-platform/
-featured_image: https://cdn.iannelson.uk/uploads/2009/03/iStock_000003255884XSmall_3-1.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2009/03/iStock_000003255884XSmall_3-1.jpg
 
 categories:
   - Tech

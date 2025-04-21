@@ -4,7 +4,8 @@ title: Nether Red Brook, Kinder Scout
 date: 2022-04-18T20:00:00+00:00
 excerpt: Another enjoyable day out scrambling with my daughter Isla
 url: /nether-red-brook-kinder-scout/
-featured_image: https://cdn.iannelson.uk/uploads/2022/04/IMG_4415-2.jpg
+cover: 
+  image: https://cdn.iannelson.uk/uploads/2022/04/IMG_4415-2.jpg
 
 categories:
   - Family
