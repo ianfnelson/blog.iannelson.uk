@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Entity Framework Week Part 5: Concluding Thoughts | Ian Nelson</title>
+<meta name="keywords" content="tidy">
+<meta name="description" content="This is the fifth in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. The introductory post in the series is here.
+I am lucky to have had the opportunity to spend a time-boxed period playing with Entity Framework Code-First in a real-world scenario, and to get paid for the privilege! I now have a clearer understanding of how it has progressed during the last few years, what its strong points are, and where it still has shortcomings compared to the much more mature NHibernate framework.">
+<meta name="author" content="ian">
+<link rel="canonical" href="https://bloghugo.iannelson.uk/entity-framework-week-part-5-concluding-thoughts/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://bloghugo.iannelson.uk/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://bloghugo.iannelson.uk/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://bloghugo.iannelson.uk/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://bloghugo.iannelson.uk/apple-touch-icon.png">
+<link rel="mask-icon" href="https://bloghugo.iannelson.uk/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://bloghugo.iannelson.uk/entity-framework-week-part-5-concluding-thoughts/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://bloghugo.iannelson.uk/entity-framework-week-part-5-concluding-thoughts/">
+  <meta property="og:site_name" content="Ian Nelson">
+  <meta property="og:title" content="Entity Framework Week Part 5: Concluding Thoughts">
+  <meta property="og:description" content="This is the fifth in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. The introductory post in the series is here.
+I am lucky to have had the opportunity to spend a time-boxed period playing with Entity Framework Code-First in a real-world scenario, and to get paid for the privilege! I now have a clearer understanding of how it has progressed during the last few years, what its strong points are, and where it still has shortcomings compared to the much more mature NHibernate framework.">
+  <meta property="og:locale" content="en-gb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2011-03-11T09:03:00+00:00">
+    <meta property="article:modified_time" content="2011-03-11T09:03:00+00:00">
+    <meta property="article:tag" content="Tidy">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Entity Framework Week Part 5: Concluding Thoughts">
+<meta name="twitter:description" content="This is the fifth in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. The introductory post in the series is here.
+I am lucky to have had the opportunity to spend a time-boxed period playing with Entity Framework Code-First in a real-world scenario, and to get paid for the privilege! I now have a clearer understanding of how it has progressed during the last few years, what its strong points are, and where it still has shortcomings compared to the much more mature NHibernate framework.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://bloghugo.iannelson.uk/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Entity Framework Week Part 5: Concluding Thoughts",
+      "item": "https://bloghugo.iannelson.uk/entity-framework-week-part-5-concluding-thoughts/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Entity Framework Week Part 5: Concluding Thoughts",
+  "name": "Entity Framework Week Part 5: Concluding Thoughts",
+  "description": "This is the fifth in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. The introductory post in the series is here.\nI am lucky to have had the opportunity to spend a time-boxed period playing with Entity Framework Code-First in a real-world scenario, and to get paid for the privilege! I now have a clearer understanding of how it has progressed during the last few years, what its strong points are, and where it still has shortcomings compared to the much more mature NHibernate framework.\n",
+  "keywords": [
+    "tidy"
+  ],
+  "articleBody": "This is the fifth in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. The introductory post in the series is here.\nI am lucky to have had the opportunity to spend a time-boxed period playing with Entity Framework Code-First in a real-world scenario, and to get paid for the privilege! I now have a clearer understanding of how it has progressed during the last few years, what its strong points are, and where it still has shortcomings compared to the much more mature NHibernate framework.\nThe Positives I have to say that after a week of getting through the pain barrier and the initial denial of working with an unfamiliar ORM, I have reached a level of understanding and acceptance with Entity Framework. It really isn’t all that bad (at least the Code-First flavour), and if you don’t stray too far from its rigid way of thinking it will help you to get a solution up and running quickly and reliably. It’s certainly a far preferable option than mucking about with ADO.NET and stored bloody procedures, that’s for sure.\nThe whole process of configuration and initialization is straightforward and pain-free, with the derived DbContext providing a out-of-the-box implementation of Unit of Work already to be referenced from your consuming code. Easy.\nQuerying the model is 99% unadulterated LINQ, with the occasional call to Include to perform some eager fetching – what could be simpler?\nI’m also unashamedly impressed with how easily EF can be used to power ASP.NET Dynamic Data sites, and RESTful WCF Data Services. Nice.\nThe Negatives I found that the real pain of working with Entity Framework only surfaces when you wish to start tuning its behaviour in any way – you find that it’s a big black box with few extensibility points. It performs cunning tricks effortlessly, but wields its power in a largely indiscriminate manner. By comparison, NHibernate can achieve even greater things, but requires you to explicitly invoke these powers.\nI am reminded of a response Ayende gave when asked why NH Futures was not the default behaviour – “NHibernate tries hard not to make too much magic”. I thought it sounded glib at the time, but having lived with EF for a while, I now understand why this is preferable.\nMost of the NHibernate features that are missing from Entity Framework are related to performance – such as the ability to configure query batching, write batching, bulk operations, extra-lazy properties, and second-level caching. These are the features you’ll miss the most when you’re some way into a project, perhaps not until it’s in production and scalability issues arise.\nI also feel the CTP5 of EF code-first is a little way off offering true support for persistence ignorance and POCO, having experienced a number of issues that required me to change my domain model, database schema, and application code.\nAdditional Resources Here are a few of the resources that I found particularly useful during my EF week:\nProgramming Entity Framework, Second Edition Dino Esposito – A Feature-Driven Comparison of EF and NH ADO.NET Team Blog Using DbContext in EF Feature CTP5 – a series of 12 blog posts David Ebbo – Using Dynamic Data With EF Code First and NuGet ",
+  "wordCount" : "551",
+  "inLanguage": "en",
+  "datePublished": "2011-03-11T09:03:00Z",
+  "dateModified": "2011-03-11T09:03:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "ian"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://bloghugo.iannelson.uk/entity-framework-week-part-5-concluding-thoughts/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ian Nelson",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bloghugo.iannelson.uk/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://bloghugo.iannelson.uk/" accesskey="h" title="Ian Nelson (Alt + H)">Ian Nelson</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Entity Framework Week Part 5: Concluding Thoughts
+    </h1>
+    <div class="post-meta"><span title='2011-03-11 09:03:00 +0000 GMT'>March 11, 2011</span>&nbsp;·&nbsp;ian
+
+</div>
+  </header> 
+  <div class="post-content"><p><em>This is the fifth in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. <a href="https://blog.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/">The introductory post in the series is here</a>.</em></p>
+<p>I am lucky to have had the opportunity to spend a time-boxed period playing with <a href="http://msdn.microsoft.com/en-us/library/bb399572.aspx">Entity Framework</a> Code-First in a real-world scenario, and to get paid for the privilege! I now have a clearer understanding of how it has progressed during the last few years, what its strong points are, and where it still has shortcomings compared to the much more mature <a href="http://www.nhforge.org">NHibernate</a> framework.</p>
+<h3 id="the-positives">The Positives<a hidden class="anchor" aria-hidden="true" href="#the-positives">#</a></h3>
+<p>I have to say that after a week of getting through the pain barrier and the initial denial of working with an unfamiliar ORM, I have reached a level of understanding and acceptance with Entity Framework. It really isn’t all that bad (at least the Code-First flavour), and if you don’t stray too far from its rigid way of thinking it will help you to get a solution up and running quickly and reliably. It’s certainly a far preferable option than mucking about with ADO.NET and stored bloody procedures, that’s for sure.</p>
+<p>The whole process of configuration and initialization is straightforward and pain-free, with the derived DbContext providing a out-of-the-box implementation of Unit of Work already to be referenced from your consuming code. Easy.</p>
+<p>Querying the model is 99% unadulterated LINQ, with the occasional call to Include to perform some eager fetching – what could be simpler?</p>
+<p>I’m also unashamedly impressed with how easily EF can be used to power <a href="http://www.asp.net/dynamicdata">ASP.NET Dynamic Data</a> sites, and RESTful WCF Data Services. Nice.</p>
+<h3 id="the-negatives">The Negatives<a hidden class="anchor" aria-hidden="true" href="#the-negatives">#</a></h3>
+<p>I found that the real pain of working with Entity Framework only surfaces when you wish to start tuning its behaviour in any way – you find that it’s a big black box with few extensibility points. It performs cunning tricks effortlessly, but wields its power in a largely indiscriminate manner. By comparison, NHibernate can achieve even greater things, but requires you to explicitly invoke these powers.</p>
+<p>I am reminded of <a href="http://ayende.com/Blog/archive/2009/04/27/nhibernate-futures.aspx#30714">a response Ayende gave</a> when asked why NH Futures was not the default behaviour – “NHibernate tries hard not to make too much magic”. I thought it sounded glib at the time, but having lived with EF for a while, I now understand why this is preferable.</p>
+<p>Most of the NHibernate features that are missing from Entity Framework are related to performance – such as the ability to configure query batching, write batching, bulk operations, extra-lazy properties, and second-level caching. These are the features you’ll miss the most when you’re some way into a project, perhaps not until it’s in production and scalability issues arise.</p>
+<p>I also feel the CTP5 of EF code-first is a little way off offering true support for persistence ignorance and POCO, having experienced a number of issues that required me to change my domain model, database schema, and application code.</p>
+<h3 id="additional-resources">Additional Resources<a hidden class="anchor" aria-hidden="true" href="#additional-resources">#</a></h3>
+<p>Here are a few of the resources that I found particularly useful during my EF week:</p>
+<ul>
+<li><a href="http://amzn.to/1ffRzv4">Programming Entity Framework, Second Edition</a></li>
+<li><a href="http://dotnetslackers.com/articles/ado_net/A-Feature-driven-Comparison-of-Entity-Framework-and-NHibernate-Multiple-Databases.aspx">Dino Esposito – A Feature-Driven Comparison of EF and NH</a></li>
+<li><a href="http://blogs.msdn.com/b/adonet/">ADO.NET Team Blog</a></li>
+<li><a href="http://blogs.msdn.com/b/adonet/archive/2011/01/27/using-dbcontext-in-ef-feature-ctp5-part-1-introduction-and-model.aspx">Using DbContext in EF Feature CTP5 – a series of 12 blog posts</a></li>
+<li><a href="http://blog.davidebbo.com/2011/01/using-dynamic-data-with-ef-code-first.html">David Ebbo – Using Dynamic Data With EF Code First and NuGet</a></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://bloghugo.iannelson.uk/tags/tidy/">Tidy</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://bloghugo.iannelson.uk/">Ian Nelson</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

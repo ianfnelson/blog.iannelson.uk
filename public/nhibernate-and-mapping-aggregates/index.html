@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>NHibernate and Mapping Aggregates | Ian Nelson</title>
+<meta name="keywords" content="">
+<meta name="description" content="A few days ago a friend emailed me the following question regarding NHibernate mappings for a solution he’s currently developing:
+
+“I have an idea entity that has a collection of comment entities and I need to get the comment count for each idea. I made a massive mistake at the beginning by calling idea.Comments.Count (even worse, I did it in the view!), which due to the collection being lazy-loaded caused about 10 database calls so performance was sluggish even with second level cache. I was therefore wondering how you would do it – would you use HQL and use Comments.size or would you do something differently?”">
+<meta name="author" content="ian">
+<link rel="canonical" href="https://bloghugo.iannelson.uk/nhibernate-and-mapping-aggregates/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://bloghugo.iannelson.uk/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://bloghugo.iannelson.uk/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://bloghugo.iannelson.uk/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://bloghugo.iannelson.uk/apple-touch-icon.png">
+<link rel="mask-icon" href="https://bloghugo.iannelson.uk/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://bloghugo.iannelson.uk/nhibernate-and-mapping-aggregates/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://bloghugo.iannelson.uk/nhibernate-and-mapping-aggregates/">
+  <meta property="og:site_name" content="Ian Nelson">
+  <meta property="og:title" content="NHibernate and Mapping Aggregates">
+  <meta property="og:description" content="A few days ago a friend emailed me the following question regarding NHibernate mappings for a solution he’s currently developing:
+“I have an idea entity that has a collection of comment entities and I need to get the comment count for each idea. I made a massive mistake at the beginning by calling idea.Comments.Count (even worse, I did it in the view!), which due to the collection being lazy-loaded caused about 10 database calls so performance was sluggish even with second level cache. I was therefore wondering how you would do it – would you use HQL and use Comments.size or would you do something differently?”">
+  <meta property="og:locale" content="en-gb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2010-11-25T08:11:00+00:00">
+    <meta property="article:modified_time" content="2010-11-25T08:11:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="NHibernate and Mapping Aggregates">
+<meta name="twitter:description" content="A few days ago a friend emailed me the following question regarding NHibernate mappings for a solution he’s currently developing:
+
+“I have an idea entity that has a collection of comment entities and I need to get the comment count for each idea. I made a massive mistake at the beginning by calling idea.Comments.Count (even worse, I did it in the view!), which due to the collection being lazy-loaded caused about 10 database calls so performance was sluggish even with second level cache. I was therefore wondering how you would do it – would you use HQL and use Comments.size or would you do something differently?”">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://bloghugo.iannelson.uk/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "NHibernate and Mapping Aggregates",
+      "item": "https://bloghugo.iannelson.uk/nhibernate-and-mapping-aggregates/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "NHibernate and Mapping Aggregates",
+  "name": "NHibernate and Mapping Aggregates",
+  "description": "A few days ago a friend emailed me the following question regarding NHibernate mappings for a solution he’s currently developing:\n“I have an idea entity that has a collection of comment entities and I need to get the comment count for each idea. I made a massive mistake at the beginning by calling idea.Comments.Count (even worse, I did it in the view!), which due to the collection being lazy-loaded caused about 10 database calls so performance was sluggish even with second level cache. I was therefore wondering how you would do it – would you use HQL and use Comments.size or would you do something differently?”\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "A few days ago a friend emailed me the following question regarding NHibernate mappings for a solution he’s currently developing:\n“I have an idea entity that has a collection of comment entities and I need to get the comment count for each idea. I made a massive mistake at the beginning by calling idea.Comments.Count (even worse, I did it in the view!), which due to the collection being lazy-loaded caused about 10 database calls so performance was sluggish even with second level cache. I was therefore wondering how you would do it – would you use HQL and use Comments.size or would you do something differently?”\nNow, I’ve been pretty busy recently, so before I had opportunity to respond properly, he sent this follow-up:\n“After looking for a solution for getting a Comment count back for each Idea, I found using the Nhibernate Formula method does the job – just wanting to make sure I was on the right track in terms of performance etc. My mapping class is as follows:”\nI considered this for a while, and sent the following suggestions:\n“I’m glad to hear you resolved your SELECT N+1 problem but to be honest, I’m not a big fan of using formulas in NH mappings if at all possible, for the following reasons:\nI try to minimize my use of strings (and especially SQL) so as to make refactorings easier, and lessen the potential for runtime exceptions. The default NH behaviour will be to evaluate that formula every time an Idea entity is loaded, which might not be desirable and could negatively impact on performance when loading your idea entities. I’m not sure if the recently-added Lazy Properties feature of NH can be applied to these derived properties; if so then that could be used to negate this argument. I try to avoid putting logic (however simple) in the OR mapping layer, as future developers are unlikely to expect to find it there! I like to reduce the element of surprise in my solutions, and put such logic in the domain layer. I think logic in the OR layer limits options going forward – for example if you subsequently decide all comments have to be moderated, does the CommentCount formula have to be modified to exclude comments awaiting moderation..? So, what would I do? Here are two options, depending on how often you’re using the CommentCount property:\nIf you’re only using the CommentCount occasionally and only along with a subset of the other properties from Idea, then I would write a specific query returning a projection of the required properties, including this CommentCount aggregate.\nI’ve done this in the past where I had a requirement to populate a drop-down list with user names and the number of open work items assigned to each user, for example. I didn’t want or need to maintain an ActiveWorkItemCount property on the user object, I just wanted to do the calculation in one place (incidentally, LINQ made this a doddle).\nConversely, if the CommentCount property is something you’re going to be referencing frequently, then I would denormalise the database and add a CommentCount field to the Idea table. This presumes that you’re in a position to enforce the constraint that new Comments are only added to Ideas through your application (and as you know from my recent blog post, I am very fond of this kind of constraint!). This approach should give the best performance and flexibility, at the expense of irking normalisation fascists.\nTypically this would be done by creating AddComment and RemoveComment helper methods on the Idea entity, which can maintain a bidirectional relationship between Idea and Comment in addition to incrementing or decrementing CommentCount accordingly.\nThis approach will give the best performance, and keeps the logic where it belongs (and where it can be easily extended and tested, as in my earlier hypothetical comment moderation example).\nFor a good example of code to maintain bidirectional one-to-many class relationships with NHibernate, see pages 39-43 of NHibernate 3.0 Cookbook.\nHope this helps. As ever, it’s just my opinion, but these two techniques have worked well for me.”\nWhat do you think? Are there any other approaches worth considering?\n",
+  "wordCount" : "697",
+  "inLanguage": "en",
+  "datePublished": "2010-11-25T08:11:00Z",
+  "dateModified": "2010-11-25T08:11:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "ian"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://bloghugo.iannelson.uk/nhibernate-and-mapping-aggregates/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ian Nelson",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bloghugo.iannelson.uk/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://bloghugo.iannelson.uk/" accesskey="h" title="Ian Nelson (Alt + H)">Ian Nelson</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      NHibernate and Mapping Aggregates
+    </h1>
+    <div class="post-meta"><span title='2010-11-25 08:11:00 +0000 GMT'>November 25, 2010</span>&nbsp;·&nbsp;ian
+
+</div>
+  </header> 
+  <div class="post-content"><p>A few days ago a friend emailed me the following question regarding NHibernate mappings for a solution he’s currently developing:</p>
+<blockquote>
+<p>“I have an idea entity that has a collection of comment entities and I need to get the comment count for each idea. I made a massive mistake at the beginning by calling idea.Comments.Count (even worse, I did it in the view!), which due to the collection being lazy-loaded caused about 10 database calls so performance was sluggish even with second level cache. I was therefore wondering how you would do it – would you use HQL and use Comments.size or would you do something differently?”</p></blockquote>
+<p>Now, I’ve been pretty busy recently, so before I had opportunity to respond properly, he sent this follow-up:</p>
+<blockquote>
+<p>&ldquo;After looking for a solution for getting a Comment count back for each Idea, I found using the Nhibernate Formula method does the job – just wanting to make sure I was on the right track in terms of performance etc. My mapping class is as follows:&rdquo;</p></blockquote>
+<p>I considered this for a while, and sent the following suggestions:</p>
+<blockquote>
+<p>“I’m glad to hear you resolved your SELECT N+1 problem but to be honest, I’m not a big fan of using formulas in NH mappings if at all possible, for the following reasons:</p>
+<ol>
+<li>I try to minimize my use of strings (and especially SQL) so as to make refactorings easier, and lessen the potential for runtime exceptions.</li>
+<li>The default NH behaviour will be to evaluate that formula every time an Idea entity is loaded, which might not be desirable and could negatively impact on performance when loading your idea entities. I’m not sure if the recently-added <a href="http://ayende.com/Blog/archive/2010/01/27/nhibernate-new-feature-lazy-properties.aspx">Lazy Properties feature</a> of NH can be applied to these derived properties; if so then that could be used to negate this argument.</li>
+<li>I try to avoid putting logic (however simple) in the OR mapping layer, as future developers are unlikely to expect to find it there! I like to reduce the element of surprise in my solutions, and put such logic in the domain layer. I think logic in the OR layer limits options going forward – for example if you subsequently decide all comments have to be moderated, does the CommentCount formula have to be modified to exclude comments awaiting moderation..?</li>
+</ol>
+<p>So, what would I do? Here are two options, depending on how often you’re using the CommentCount property:</p>
+<p>If you’re only using the CommentCount occasionally and only along with a subset of the other properties from Idea, then I would write a specific query returning a projection of the required properties, including this CommentCount aggregate.</p>
+<p>I’ve done this in the past where I had a requirement to populate a drop-down list with user names and the number of open work items assigned to each user, for example. I didn’t want or need to maintain an ActiveWorkItemCount property on the user object, I just wanted to do the calculation in one place (incidentally, LINQ made this a doddle).</p>
+<p>Conversely, if the CommentCount property is something you’re going to be referencing frequently, then I would denormalise the database and add a CommentCount field to the Idea table. This presumes that you’re in a position to enforce the constraint that new Comments are only added to Ideas through your application (and as you know from <a href="https://blog.iannelson.uk/enterprise-integration-anti-patterns-1-the-shared-database/">my recent blog post</a>, I am very fond of this kind of constraint!). This approach should give the best performance and flexibility, at the expense of irking normalisation fascists.</p>
+<p>Typically this would be done by creating AddComment and RemoveComment helper methods on the Idea entity, which can maintain a bidirectional relationship between Idea and Comment in addition to incrementing or decrementing CommentCount accordingly.</p>
+<p>This approach will give the best performance, and keeps the logic where it belongs (and where it can be easily extended and tested, as in my earlier hypothetical comment moderation example).</p>
+<p>For a good example of code to maintain bidirectional one-to-many class relationships with NHibernate, see pages 39-43 of <a href="http://bit.ly/c9oPqi">NHibernate 3.0 Cookbook</a>.</p>
+<p>Hope this helps. As ever, it’s just my opinion, but these two techniques have worked well for me.”</p></blockquote>
+<p>What do you think? Are there any other approaches worth considering?</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://bloghugo.iannelson.uk/">Ian Nelson</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

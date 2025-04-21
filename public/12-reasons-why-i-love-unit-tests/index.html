@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>12 Reasons Why I Love Unit Tests | Ian Nelson</title>
+<meta name="keywords" content="tidy">
+<meta name="description" content="On my continuing journey through this thrilling world of professional software development, I frequently encounter teams who hold no truck with this crazy new-fangled concept of unit testing. Heck, truth be told, I sometimes come across teams who don’t use source control, but that’s by the bye.
+In these situations, I try my best to lead by example, continuing to practise TDD on any new code that I cut, and insisting on covering with unit tests any pre-existing code which I have to modify. Sooner or later, this prompts someone to ask why I am doing this (often insinuating that I am wasting my time, and by implication the client’s money). At that point, flustered, I invariably struggle to remember or adequately articulate the many and various ways in which unit testing makes me a better developer. So, consider this blog post a personal aide-mémoire to help me the next time this occurs (as well as being a homage to Jake Shillingford’s second-best song).">
+<meta name="author" content="ian">
+<link rel="canonical" href="https://bloghugo.iannelson.uk/12-reasons-why-i-love-unit-tests/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://bloghugo.iannelson.uk/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://bloghugo.iannelson.uk/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://bloghugo.iannelson.uk/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://bloghugo.iannelson.uk/apple-touch-icon.png">
+<link rel="mask-icon" href="https://bloghugo.iannelson.uk/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://bloghugo.iannelson.uk/12-reasons-why-i-love-unit-tests/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://bloghugo.iannelson.uk/12-reasons-why-i-love-unit-tests/">
+  <meta property="og:site_name" content="Ian Nelson">
+  <meta property="og:title" content="12 Reasons Why I Love Unit Tests">
+  <meta property="og:description" content="On my continuing journey through this thrilling world of professional software development, I frequently encounter teams who hold no truck with this crazy new-fangled concept of unit testing. Heck, truth be told, I sometimes come across teams who don’t use source control, but that’s by the bye.
+In these situations, I try my best to lead by example, continuing to practise TDD on any new code that I cut, and insisting on covering with unit tests any pre-existing code which I have to modify. Sooner or later, this prompts someone to ask why I am doing this (often insinuating that I am wasting my time, and by implication the client’s money). At that point, flustered, I invariably struggle to remember or adequately articulate the many and various ways in which unit testing makes me a better developer. So, consider this blog post a personal aide-mémoire to help me the next time this occurs (as well as being a homage to Jake Shillingford’s second-best song).">
+  <meta property="og:locale" content="en-gb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2008-11-11T22:11:00+00:00">
+    <meta property="article:modified_time" content="2008-11-11T22:11:00+00:00">
+    <meta property="article:tag" content="Tidy">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="12 Reasons Why I Love Unit Tests">
+<meta name="twitter:description" content="On my continuing journey through this thrilling world of professional software development, I frequently encounter teams who hold no truck with this crazy new-fangled concept of unit testing. Heck, truth be told, I sometimes come across teams who don’t use source control, but that’s by the bye.
+In these situations, I try my best to lead by example, continuing to practise TDD on any new code that I cut, and insisting on covering with unit tests any pre-existing code which I have to modify. Sooner or later, this prompts someone to ask why I am doing this (often insinuating that I am wasting my time, and by implication the client’s money). At that point, flustered, I invariably struggle to remember or adequately articulate the many and various ways in which unit testing makes me a better developer. So, consider this blog post a personal aide-mémoire to help me the next time this occurs (as well as being a homage to Jake Shillingford’s second-best song).">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://bloghugo.iannelson.uk/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "12 Reasons Why I Love Unit Tests",
+      "item": "https://bloghugo.iannelson.uk/12-reasons-why-i-love-unit-tests/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "12 Reasons Why I Love Unit Tests",
+  "name": "12 Reasons Why I Love Unit Tests",
+  "description": "On my continuing journey through this thrilling world of professional software development, I frequently encounter teams who hold no truck with this crazy new-fangled concept of unit testing. Heck, truth be told, I sometimes come across teams who don’t use source control, but that’s by the bye.\nIn these situations, I try my best to lead by example, continuing to practise TDD on any new code that I cut, and insisting on covering with unit tests any pre-existing code which I have to modify. Sooner or later, this prompts someone to ask why I am doing this (often insinuating that I am wasting my time, and by implication the client’s money). At that point, flustered, I invariably struggle to remember or adequately articulate the many and various ways in which unit testing makes me a better developer. So, consider this blog post a personal aide-mémoire to help me the next time this occurs (as well as being a homage to Jake Shillingford’s second-best song).\n",
+  "keywords": [
+    "tidy"
+  ],
+  "articleBody": "On my continuing journey through this thrilling world of professional software development, I frequently encounter teams who hold no truck with this crazy new-fangled concept of unit testing. Heck, truth be told, I sometimes come across teams who don’t use source control, but that’s by the bye.\nIn these situations, I try my best to lead by example, continuing to practise TDD on any new code that I cut, and insisting on covering with unit tests any pre-existing code which I have to modify. Sooner or later, this prompts someone to ask why I am doing this (often insinuating that I am wasting my time, and by implication the client’s money). At that point, flustered, I invariably struggle to remember or adequately articulate the many and various ways in which unit testing makes me a better developer. So, consider this blog post a personal aide-mémoire to help me the next time this occurs (as well as being a homage to Jake Shillingford’s second-best song).\n1. I know that my code works.\nLet’s get the obvious one out of the way first. If I take the time to write unit tests for my code, then I know that the code “works” (i.e. that it behaves as I intended, or hopefully as the specification requested). Any time I want to check that my code works, I can do so with a few clicks. The confidence and feeling of well-being that this brings can’t be underestimated. If you don’t have unit tests, how do you know that your code works?\n2. I know when I’m finished.\nAs you’ll know if you’ve read my post professing my undying love for Remember The Milk, I’m fond of organising my life through to-do lists. When I’m developing software, the unit tests that I create before developing the code act as my to-do list, help me focus on what it is that I’m trying to achieve, without getting distracted making unrelated changes to the codebase. When all the tests go green, I know I’m done and can move on to the next task.\n3. I can develop cleaner APIs.\nI’m not much of a UI developer; I spend much more of my time working in the middle tier, making class libraries, object models, WCF services and the like. When practicing TDD, I write tests to consume my code before I write the code itself. This forces me to think about things like method signatures and member visibility. Should that method really be public? Do I really need that “out” parameter? Will all those overloads get used? If I didn’t write tests for the middle tier in this way, I wouldn’t consider these questions in quite so much detail, and these issues wouldn’t come to light until I (or worse, someone else), began consuming my code for real.\n4. Testable code is well-designed code.\nThis one came as an unexpected surprise to me after I had been writing unit tests for a while and forced myself to make the effort to test code which I initially felt was difficult to test.\nIt turns out that many of the techniques which can be used to make code more testable are the exact same techniques which make code better designed, understandable, flexible and maintainable.\nBe honest, when you’re cutting code, how often do you consider things like Low Coupling, High Cohesion, and adhering to the Single Responsibility Principle? Probably not often, I’ll bet. I know I didn’t. But since I started asking myself “How can I make this code testable?” I’ve been delighted to realise that my code magically acquired these properties as a pleasant side effect. Similarly, using techniques like Dependency Injection and Inversion of Control along with Mocking Frameworks for the purposes of testability also serves to make the solution more open to change, and reduces dependencies during the development process (no longer do you hear “Gee boss, I’d love to get started writing the Foo class, but it depends on the Bar class, and Dave hasn’t finished writing that, what with the accident with the bus and all…”).\n5. I can refactor mercilessly and fearlessly.\n“Nel-son!!”\nI like refactoring. No, wait, scrub that – I love refactoring. Some people get their kicks from gardening, well, I could spend many happy hours weeding a big tangled codebase. Now, in the past, this has gotten me into trouble, when the “improvements” I’ve rashly made have inadvertently caused bugs (sorry John, Sion, Scott and Colin!). Since adopting TDD however, I’ve been confident that my code is sufficiently covered by unit tests that I may refactor mercilessly, safe in the knowledge that the test suite will highlight any unintended side effects. This results in a winning combination of clean code and co-workers who don’t have an urge to throttle me.\n6. I Release Fewer Stupid Mistakes.\n“Ah, yeah, silly me, I just copied-and-pasted a line in the DAL, and now all your customers are displaying as having the same forename and surname! Smith Smith, Brown Brown, ha ha!”\nPerversely, some coders seem to wear their really dumb mistakes as a “badge of honour”, proof of their fallibility, a sign that they are human. It’s as if they are suggesting to their boss/client not to worry, that they only make dumb mistakes on the easy code, but concentrate much harder when coding the tough algorithms. Honest, guv’.\nI don’t buy this crap. Stupid mistakes are stupid mistakes, period. I think that dumb mistakes, uncaught at an early stage, waste the time of the test team, result in rework, and ultimately waste the client’s money. That’s nothing to laugh about. Covering even the simple, easy code with unit tests reduces the likelihood of these knucklehead bugs getting through, increasing my likelihood of a “right-first-time” reputation. And that’s something to be proud of.\n7. Bugs don’t come back.\n“But I’m sure we fixed that bug months ago!”\nBefore I fix a bug, I write a failing test. That test then becomes a permanent fixture in the test suite, and therefore I can be confident that no “undead bug” will ever come back to haunt me. It’s a very simple concept, but it works. Bug reactivations imply loose development practices, and that’s not an implication I want to be made about my work. Kill the bug once, and keep it dead.\n8. It’s the fastest way to test my changes.\nTesting my changes through artificial unit tests is invariably quicker than testing the functionality by calling it through “real life” use of the overall system.\nSuppose that I’m working on amended postage charge logic for an online retailer – I could test this by either:\na) Repeatedly manually walking through the application, adding a product to my basket, attempting to “check out”, and calculating whether the displayed postage charge is as I expect, or\nb) Writing a unit test once to automate the testing of the new logic.\nGee, let me think about that for a while…\n9. I spend more time coding, less time in the debugger.\nStop me if this conversation sound\ns at all familiar:\n“How was your day today, darling?”\n“Ugh, don’t ask. I spent, like, seven hours trying to track down a bug. I pulled out Reflector, and even started debugging into the .NET framework class library – I was convinced for a while there it was a problem in System.String. But it turned out I just had some Boolean logic the wrong way round.”\n“That’s nice, dear. More mange tout?”\nVisual Studio has excellent debugging tools, but still, I’d rather be spending my time cutting new code, thanks all the same. I’m sure the clients who pay my invoices feel much the same. Catching the bugs early, through effective unit testing, means that I spend far less time in the debugger.\n10. Writing documentation and sample code is boring.\nVisiting the dentist. Cleaning the bathroom. Writing documentation. All things which I’d rather put off until tomorrow, thank you very much.\nIf, on any given day, I have the choice between firing up Word and documenting my class library, or firing up Visual Studio and adding shiny new functionality to the same library, well, it’s no contest.\nBut here’s the neat thing – having taken the time to create a comprehensive suite of unit tests for my own, selfish purposes, it turns out that potential consumers of my library can benefit from them as a de facto set of usage examples and documentation. Yay!\n11. I can hand the code over to other people.\n“Dave’s the only person who understands that code.”\nOh really? What happens when Dave is on holiday? Or quits to get a better-paid job? Or gets hit by a bus? That’s a bit of a risk for your project, surely.\nMaybe you’re a Dave, and your unique knowledge of a particular system means that you only ever get to work on that one application. Shiny new projects come along, and get handed to your colleagues, because you’re too busy supporting the Legacy App From Hell, until you quit to get that better paid job, or walk in front of a bus in desperation.\nIf, on the other hand, you’ve covered the code in unit tests, then you have effectively documented the codebase, provided example usages, and made it near-impossible for any future developers to break existing functionality due to their ignorance of the system. They can try making a change, run the unit tests, and instantly find out whether their change works. This helps to make possible Collective Code Ownership, a variety of work for all members of the team, and no risky dependencies on Dave and his jaywalking habits.\n12. I’m A Professional\nI’ll return to what I said in the opening sentence of this article – this is professional software development. This isn’t just my hobby, or my day job. It’s my career, my business, my passion and the livelihood of myself and my family. I strive to improve and hopefully excel at it. All the research and my own experience suggests that practicing TDD results in fewer defects, saves time in the medium and long term, and is generally the approach to be expected of a professional. If you’re looking for a quick-fix from a cowboy contractor, go elsewhere and save yourself some money… in the short term 🙂\n",
+  "wordCount" : "1726",
+  "inLanguage": "en",
+  "datePublished": "2008-11-11T22:11:00Z",
+  "dateModified": "2008-11-11T22:11:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "ian"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://bloghugo.iannelson.uk/12-reasons-why-i-love-unit-tests/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ian Nelson",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bloghugo.iannelson.uk/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://bloghugo.iannelson.uk/" accesskey="h" title="Ian Nelson (Alt + H)">Ian Nelson</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      12 Reasons Why I Love Unit Tests
+    </h1>
+    <div class="post-meta"><span title='2008-11-11 22:11:00 +0000 GMT'>November 11, 2008</span>&nbsp;·&nbsp;ian
+
+</div>
+  </header> 
+  <div class="post-content"><p>On my continuing journey through this thrilling world of professional software development, I frequently encounter teams who hold no truck with this crazy new-fangled concept of unit testing. Heck, truth be told, I sometimes come across teams who don’t use <em>source control</em>, but that’s by the bye.</p>
+<p>In these situations, I try my best to lead by example, continuing to practise TDD on any new code that I cut, and insisting on covering with unit tests any pre-existing code which I have to modify. Sooner or later, this prompts someone to ask why I am doing this (often insinuating that I am wasting my time, and by implication the client’s money). At that point, flustered, I invariably struggle to remember or adequately articulate the many and various ways in which unit testing makes me a better developer. So, consider this blog post a personal aide-mémoire to help me the next time this occurs (as well as being a homage to <a href="http://uk.youtube.com/watch?v=DW1AHrTNBao">Jake Shillingford’s second-best song</a>).</p>
+<p><strong>1. I know that my code works.</strong></p>
+<p>Let’s get the obvious one out of the way first. If I take the time to write unit tests for my code, then I know that the code “works” (i.e. that it behaves as I intended, or hopefully as the specification requested). Any time I want to check that my code works, I can do so with a few clicks. The confidence and feeling of well-being that this brings can’t be underestimated. If you don’t have unit tests, how do you know that your code works?</p>
+<p><strong>2. I know when I’m finished.</strong></p>
+<p>As you’ll know if you’ve read my <a href="https://blog.iannelson.uk/remember-the-milk/">post professing my undying love for Remember The Milk</a>, I’m fond of organising my life through to-do lists. When I’m developing software, the unit tests that I create before developing the code act as my to-do list, help me focus on what it is that I’m trying to achieve, without getting distracted making unrelated changes to the codebase. When all the tests go green, I know I’m done and can move on to the next task.</p>
+<p><strong>3. I can develop cleaner APIs.</strong></p>
+<p>I’m not much of a UI developer; I spend much more of my time working in the middle tier, making class libraries, object models, WCF services and the like. When practicing TDD, I write tests to consume my code before I write the code itself. This forces me to think about things like method signatures and member visibility. Should that method really be public? Do I really need that “out” parameter? Will all those overloads get used? If I didn’t write tests for the middle tier in this way, I wouldn’t consider these questions in quite so much detail, and these issues wouldn’t come to light until I (or worse, someone else), began consuming my code for real.</p>
+<p><strong>4. Testable code is well-designed code.</strong></p>
+<p>This one came as an unexpected surprise to me after I had been writing unit tests for a while and forced myself to make the effort to test code which I initially felt was difficult to test.</p>
+<p>It turns out that many of the techniques which can be used to make code more testable are the exact same techniques which make code better designed, understandable, flexible and maintainable.</p>
+<p>Be honest, when you’re cutting code, how often do you consider things like Low Coupling, High Cohesion, and adhering to the Single Responsibility Principle? Probably not often, I’ll bet. I know I didn’t. But since I started asking myself “How can I make this code testable?” I’ve been delighted to realise that my code magically acquired these properties as a pleasant side effect. Similarly, using techniques like Dependency Injection and Inversion of Control along with Mocking Frameworks for the purposes of testability also serves to make the solution more open to change, and reduces dependencies during the development process (no longer do you hear “Gee boss, I’d love to get started writing the Foo class, but it depends on the Bar class, and Dave hasn’t finished writing that, what with the accident with the bus and all…”).</p>
+<p><strong>5. I can refactor mercilessly and fearlessly.</strong></p>
+<blockquote>
+<p>“Nel-son!!”</p></blockquote>
+<p>I like refactoring. No, wait, scrub that – I <em>love</em> refactoring. Some people get their kicks from gardening, well, I could spend many happy hours weeding a big tangled codebase. Now, in the past, this has gotten me into trouble, when the “improvements” I’ve rashly made have inadvertently caused bugs (sorry John, Sion, Scott and Colin!). Since adopting TDD however, I’ve been confident that my code is sufficiently covered by unit tests that I may refactor mercilessly, safe in the knowledge that the test suite will highlight any unintended side effects. This results in a winning combination of clean code and co-workers who don’t have an urge to throttle me.</p>
+<p><strong>6. I Release Fewer Stupid Mistakes.</strong></p>
+<blockquote>
+<p>“Ah, yeah, silly me, I just copied-and-pasted a line in the DAL, and now all your customers are displaying as having the same forename and surname! Smith Smith, Brown Brown, ha ha!”</p></blockquote>
+<p>Perversely, some coders seem to wear their really dumb mistakes as a “badge of honour”, proof of their fallibility, a sign that they are human. It’s as if they are suggesting to their boss/client not to worry, that they <em>only</em> make dumb mistakes on the easy code, but concentrate much harder when coding the tough algorithms. Honest, guv’.</p>
+<p>I don’t buy this crap. Stupid mistakes are stupid mistakes, period. I think that dumb mistakes, uncaught at an early stage, waste the time of the test team, result in rework, and ultimately waste the client’s money. That’s nothing to laugh about. Covering even the simple, easy code with unit tests reduces the likelihood of these knucklehead bugs getting through, increasing my likelihood of a “right-first-time” reputation. And <em>that’s</em> something to be proud of.</p>
+<p><strong>7. Bugs don’t come back.</strong></p>
+<blockquote>
+<p>“But I’m <em>sure</em> we fixed that bug months ago!”</p></blockquote>
+<p>Before I fix a bug, I write a failing test. That test then becomes a permanent fixture in the test suite, and therefore I can be confident that no “undead bug” will ever come back to haunt me. It’s a very simple concept, but it works. Bug reactivations imply loose development practices, and that’s not an implication I want to be made about my work. Kill the bug once, and keep it dead.</p>
+<p><strong>8. It’s the fastest way to test my changes.</strong></p>
+<p>Testing my changes through artificial unit tests is invariably quicker than testing the functionality by calling it through “real life” use of the overall system.</p>
+<p>Suppose that I’m working on amended postage charge logic for an online retailer – I could test this by either:</p>
+<p>a) Repeatedly manually walking through the application, adding a product to my basket, attempting to “check out”, and calculating whether the displayed postage charge is as I expect, or</p>
+<p>b) Writing a unit test once to automate the testing of the new logic.</p>
+<p>Gee, let me think about that for a while…</p>
+<p><strong>9. I spend more time coding, less time in the debugger.</strong></p>
+<p>Stop me if this conversation sound<br>
+s at all familiar:</p>
+<blockquote>
+<p>“How was your day today, darling?”</p>
+<p>“Ugh, don’t ask. I spent, like, <em>seven hours</em> trying to track down a bug. I pulled out Reflector, and even started debugging into the .NET framework class library – I was convinced for a while there it was a problem in System.String. But it turned out I just had some Boolean logic the wrong way round.”</p>
+<p>“That’s nice, dear. More mange tout?”</p></blockquote>
+<p>Visual Studio has excellent debugging tools, but still, I’d rather be spending my time cutting new code, thanks all the same. I’m sure the clients who pay my invoices feel much the same. Catching the bugs early, through effective unit testing, means that I spend far less time in the debugger.</p>
+<p><strong>10. Writing documentation and sample code is boring.</strong></p>
+<p>Visiting the dentist. Cleaning the bathroom. Writing documentation. All things which I’d rather put off until tomorrow, thank you very much.</p>
+<p>If, on any given day, I have the choice between firing up Word and documenting my class library, or firing up Visual Studio and adding shiny new functionality to the same library, well, it’s no contest.</p>
+<p>But here’s the neat thing – having taken the time to create a comprehensive suite of unit tests for my own, selfish purposes, it turns out that potential consumers of my library can benefit from them as a de facto set of usage examples and documentation. Yay!</p>
+<p><strong>11. I can hand the code over to other people.</strong></p>
+<blockquote>
+<p>“Dave’s the only person who understands that code.”</p></blockquote>
+<p>Oh really? What happens when Dave is on holiday? Or quits to get a better-paid job? Or gets hit by a bus? That’s a bit of a risk for your project, surely.</p>
+<p>Maybe you’re a Dave, and your unique knowledge of a particular system means that you only ever get to work on that one application. Shiny new projects come along, and get handed to your colleagues, because you’re too busy supporting the Legacy App From Hell, until you quit to get that better paid job, or walk in front of a bus in desperation.</p>
+<p>If, on the other hand, you’ve covered the code in unit tests, then you have effectively documented the codebase, provided example usages, and made it near-impossible for any future developers to break existing functionality due to their ignorance of the system. They can try making a change, run the unit tests, and instantly find out whether their change works. This helps to make possible <a href="http://www.extremeprogramming.org/rules/collective.html">Collective Code Ownership</a>, a variety of work for all members of the team, and no risky dependencies on Dave and his jaywalking habits.</p>
+<p><strong>12. I’m A Professional</strong></p>
+<p>I’ll return to what I said in the opening sentence of this article – this is <em>professional</em> software development. This isn’t just my hobby, or my day job. It’s my career, my business, my passion and the livelihood of myself and my family. I strive to improve and hopefully excel at it. All the research and my own experience suggests that practicing TDD results in fewer defects, saves time in the medium and long term, and is generally the approach to be expected of a professional. If you’re looking for a quick-fix from a cowboy contractor, go elsewhere and save yourself some money… in the short term 🙂</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://bloghugo.iannelson.uk/tags/tidy/">Tidy</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://bloghugo.iannelson.uk/">Ian Nelson</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

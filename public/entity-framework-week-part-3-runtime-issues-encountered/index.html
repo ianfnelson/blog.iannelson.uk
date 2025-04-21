@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Entity Framework Week Part 3: Runtime Issues Encountered | Ian Nelson</title>
+<meta name="keywords" content="tidy">
+<meta name="description" content="This is the third in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. The introductory post in the series is here.
+Having configured and initialized Entity Framework, and tweaked the mappings, by Day 3 I was all set to start consuming my shiny new DbContext implementation from the application code, and actually get some CRUD work done. Not unexpectedly, I hit a few issues along the way…">
+<meta name="author" content="ian">
+<link rel="canonical" href="https://bloghugo.iannelson.uk/entity-framework-week-part-3-runtime-issues-encountered/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://bloghugo.iannelson.uk/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://bloghugo.iannelson.uk/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://bloghugo.iannelson.uk/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://bloghugo.iannelson.uk/apple-touch-icon.png">
+<link rel="mask-icon" href="https://bloghugo.iannelson.uk/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://bloghugo.iannelson.uk/entity-framework-week-part-3-runtime-issues-encountered/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://bloghugo.iannelson.uk/entity-framework-week-part-3-runtime-issues-encountered/">
+  <meta property="og:site_name" content="Ian Nelson">
+  <meta property="og:title" content="Entity Framework Week Part 3: Runtime Issues Encountered">
+  <meta property="og:description" content="This is the third in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. The introductory post in the series is here.
+Having configured and initialized Entity Framework, and tweaked the mappings, by Day 3 I was all set to start consuming my shiny new DbContext implementation from the application code, and actually get some CRUD work done. Not unexpectedly, I hit a few issues along the way…">
+  <meta property="og:locale" content="en-gb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2011-03-09T09:03:00+00:00">
+    <meta property="article:modified_time" content="2011-03-09T09:03:00+00:00">
+    <meta property="article:tag" content="Tidy">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Entity Framework Week Part 3: Runtime Issues Encountered">
+<meta name="twitter:description" content="This is the third in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. The introductory post in the series is here.
+Having configured and initialized Entity Framework, and tweaked the mappings, by Day 3 I was all set to start consuming my shiny new DbContext implementation from the application code, and actually get some CRUD work done. Not unexpectedly, I hit a few issues along the way…">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://bloghugo.iannelson.uk/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Entity Framework Week Part 3: Runtime Issues Encountered",
+      "item": "https://bloghugo.iannelson.uk/entity-framework-week-part-3-runtime-issues-encountered/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Entity Framework Week Part 3: Runtime Issues Encountered",
+  "name": "Entity Framework Week Part 3: Runtime Issues Encountered",
+  "description": "This is the third in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. The introductory post in the series is here.\nHaving configured and initialized Entity Framework, and tweaked the mappings, by Day 3 I was all set to start consuming my shiny new DbContext implementation from the application code, and actually get some CRUD work done. Not unexpectedly, I hit a few issues along the way…\n",
+  "keywords": [
+    "tidy"
+  ],
+  "articleBody": "This is the third in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. The introductory post in the series is here.\nHaving configured and initialized Entity Framework, and tweaked the mappings, by Day 3 I was all set to start consuming my shiny new DbContext implementation from the application code, and actually get some CRUD work done. Not unexpectedly, I hit a few issues along the way…\nProxy Generation As a long-term NHibernate user, I habitually mark all members on my domain classes as virtual, since this is a requirement for entities to be replace at runtime by proxies. Remember that NHibernate is a port from the Java world, where all instance methods are virtual by default.\nNow, this habit led to some unexpected behaviour when I attempted to use Entity Framework to persist the same domain objects, namely exception messages such as:\nThe property ‘Foo’ on type ‘Bar_B6089AE40D178593955F1328A70EAA3D8F0F01DDE9F9FBD615F60A34F9178B94’ cannot be set because the collection is already set to an EntityCollection.\nClear as mud, eh? A little Googling eventually unearthed the following posts from other people experiencing this issue:\nWhy is my Entity Framework Code First proxy collection null and why can’t I set it? Code First adding to collections? How to use Code First with repositories? Advice me please Code First EF4 with N-Tier.. I’m really stuck on this one issue This latter post on the MSDN forums includes the following explanation from one of the guys on the Entity Framework team:\n“If you make all your properties virtual then EF will generate proxy classes at runtime that derives from your POCO classed, these proxies allow EF to find out about changes in real-time rather than having to capture the original values of your object and then scan for changes when you save (this is obviously has performance and memory usage benefits but the difference will be negligible unless you have a large number of entities loaded into memory). These are known as ‘change tracking proxies’, if you make your navigation properties virtual then a proxy is still generated but it is much simpler and just includes some logic to perform lazy loading when you access a navigation property.\nBecause your original code was generating change tracking proxies, EF was replacing your collection property with a special collection type to help it find out about changes. Because you try and set the collection back to a simple list in the constructor you are getting the exception.\nUnless you are seeing performance issues I would follow Terrence’s suggestion and just remove ‘virtual’ from your non-navigation properties.”\nThis feels a little bit strange, and I’m not convinced that we are really getting persistence ignorance if we experience differing behaviour depending on whether or not we have chosen to make all our members virtual. I haven’t invested much time looking into the benefits of these “Change-Tracking Proxies”, or how it is possible to utilise these without causing the “collection is already set to an EntityCollection” exception. I just did what the man said and removed the virtual keyword from most non-navigation properties.\nA Runtime Exception When Lazy-Loading At one point I experienced an exception message along the lines of:\n“Entities in ‘CodeFirstContainer_Sessions’ participate in the ‘Session_Season’ relationship. 0 related ‘Session_Season_Target’ were found. 1 ‘Session_Season_Target’ is expected.”\nThis was caused by my navigation property (Session.Season) not having been set as virtual, so no proxy was being created.\nIncidentally, it is worth highlighting that lazy-loading must occur within the scope of an open DbContext (i.e. within the Unit of Work). It is not reasonable to expect to transparently load the navigation property after the database connection has been closed (this is analogous to attempting to lazy-load in NHibernate after closing the Session).\nCascades In NHibernate, cascading saves/updates/deletes have to be specified manually on all foreign key relationships – the default behaviour is not to cascade any changes when committing changes, which often leads to newcomers experiencing an error message “not-null property references a null or transient value”.\nEntity Framework takes a more convention-based approach and assumes that all saves and updates should cascade. So, if you save a shiny new Order with an associated Address and a handful of Lines, Entity Framework will determine that it should first insert the Address row, then the Order row, and then each Line row. Sweet. Updates similarly cascade. Assuming you are happy with this behaviour (which seems sensible), then all should be well.\nDeletes, on the other hand, are a bit strange. Entity Framework will not take responsibility for cascading a delete in the database – it expects that you will achieve this by setting a cascading delete on the foreign key relationship in the RDBMS.\nHaving said this, if you delete a parent entity in Entity Framework, it will attempt to issue delete statements for any child entities which have been loaded into the current DbContext, but it will not initialize any child entities which have not yet been loaded. This may lead to the RDBMS throwing foreign key constraint violation exceptions if a cascading delete has not been specified. For more details about how cascade delete “works” in Entity Framework, see this blog post.\nPersonally, I think this behaviour is pretty shoddy, but there you have it! Forewarned is forearmed.\nIn light of this behaviour I had to make modifications to the database schema to set cascading deletes on all the appropriate foreign key relationships. For many line-of-business applications, deletes are actually pretty rare events, and in the short term I suspect this issue is more likely to be encountered when clearing down data in integration tests than in actual application use.\nInitializing Child Objects on Domain Entities I habitually add code to the constructors of domain entities to initialise child entities to sensible defaults – I find it helps to ensure that objects are always in a valid state, and reduces the likelihood of encountering an unhandled NullReferenceException. So, for example, I would usually have something like this:\nUnfortunately, when using this approach with Entity Framework, I found that when loading an existing Order which has an associated Address, the Order.Address object was always reset to its default.\nNow, I realise that making calls to virtual members in a constructor is not really a good idea (heaven knows Resharper and Coderush have both nagged me about it often enough), but NHibernate never had a problem with\nthis approach. Nevertheless, I tried to do things properly and replaced the automatic properties with backing fields….\nBut still no dice. I then tried putting initialization logic in the property’s getter….\nBut nothing worked. Every time I loaded an Order, the Order.Address object was reset back to its default instead of containing the data loaded from the database.\nThis is quite frustrating and as yet I haven’t been able to find a workaround, other than to abandon my plans to perform object initialization in the domain model and instead handle it in the service layer, with all the resultant null-checking code that will ensue.\nWhile trying to find a solution, I did stumble across this comment from Rowan Miller that “More flexibility in how we interact with classes is a common ask for EF and our team is looking at how we can support this at the moment.” Are we asking for flexibility? I thought we were just asking for the persistence ignorance that had long been promised.\nDespite these issues, in three short days I had gone from knowing next to nothing about Entity Framework 4 Code first, to using it to perform almost all of the data access required by a small application. In the fourth part of this series I’ll consider some of the additional features and application requirements that I would expect an ORM to handle, and see how EF meets the challenge.\n",
+  "wordCount" : "1314",
+  "inLanguage": "en",
+  "datePublished": "2011-03-09T09:03:00Z",
+  "dateModified": "2011-03-09T09:03:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "ian"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://bloghugo.iannelson.uk/entity-framework-week-part-3-runtime-issues-encountered/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ian Nelson",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bloghugo.iannelson.uk/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://bloghugo.iannelson.uk/" accesskey="h" title="Ian Nelson (Alt + H)">Ian Nelson</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Entity Framework Week Part 3: Runtime Issues Encountered
+    </h1>
+    <div class="post-meta"><span title='2011-03-09 09:03:00 +0000 GMT'>March 9, 2011</span>&nbsp;·&nbsp;ian
+
+</div>
+  </header> 
+  <div class="post-content"><p><em>This is the third in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. <a href="https://blog.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/">The introductory post in the series is here</a>.</em></p>
+<p>Having configured and initialized <a href="http://msdn.microsoft.com/en-us/library/bb399572.aspx">Entity Framework</a>, and tweaked the mappings, by Day 3 I was all set to start consuming my shiny new DbContext implementation from the application code, and actually get some CRUD work done. Not unexpectedly, I hit a few issues along the way…</p>
+<h3 id="proxy-generation">Proxy Generation<a hidden class="anchor" aria-hidden="true" href="#proxy-generation">#</a></h3>
+<p>As a long-term <a href="http://www.nhforge.org">NHibernate</a> user, I habitually mark all members on my domain classes as virtual, since this is a requirement for entities to be replace at runtime by proxies. Remember that NHibernate is a port from the Java world, where all instance methods are virtual by default.</p>
+<p>Now, this habit led to some unexpected behaviour when I attempted to use Entity Framework to persist the same domain objects, namely exception messages such as:</p>
+<blockquote>
+<p>The property ‘Foo’ on type ‘Bar_B6089AE40D178593955F1328A70EAA3D8F0F01DDE9F9FBD615F60A34F9178B94’ cannot be set because the collection is already set to an EntityCollection.</p></blockquote>
+<p>Clear as mud, eh? A little Googling eventually unearthed the following posts from other people experiencing this issue:</p>
+<ul>
+<li><a href="http://stackoverflow.com/questions/4069563/why-is-my-entity-framework-code-first-proxy-collection-null-and-why-cant-i-set-i">Why is my Entity Framework Code First proxy collection null and why can’t I set it?</a></li>
+<li><a href="http://stackoverflow.com/questions/3858922/code-first-adding-to-collections-how-to-use-code-first-with-repositories-advice">Code First adding to collections? How to use Code First with repositories? Advice me please</a></li>
+<li><a href="http://social.msdn.microsoft.com/Forums/en/adonetefx/thread/99d8d4a1-5ab1-42dc-b9db-5087be02162d">Code First EF4 with N-Tier.. I’m really stuck on this one issue</a></li>
+</ul>
+<p>This latter post on the MSDN forums includes the following explanation from one of the guys on the Entity Framework team:</p>
+<blockquote>
+<p>“If you make all your properties virtual then EF will generate proxy classes at runtime that derives from your POCO classed, these proxies allow EF to find out about changes in real-time rather than having to capture the original values of your object and then scan for changes when you save (this is obviously has performance and memory usage benefits but the difference will be negligible unless you have a large number of entities loaded into memory). These are known as ‘change tracking proxies’, if you make your navigation properties virtual then a proxy is still generated but it is much simpler and just includes some logic to perform lazy loading when you access a navigation property.</p></blockquote>
+<blockquote>
+<p>Because your original code was generating change tracking proxies, EF was replacing your collection property with a special collection type to help it find out about changes. Because you try and set the collection back to a simple list in the constructor you are getting the exception.</p></blockquote>
+<blockquote>
+<p>Unless you are seeing performance issues I would follow Terrence’s suggestion and just remove ‘virtual’ from your non-navigation properties.”</p></blockquote>
+<p>This feels a little bit strange, and I’m not convinced that we are really getting persistence ignorance if we experience differing behaviour depending on whether or not we have chosen to make all our members virtual. I haven’t invested much time looking into the benefits of these “Change-Tracking Proxies”, or how it is possible to utilise these without causing the “collection is already set to an EntityCollection” exception. I just did what the man said and removed the virtual keyword from most non-navigation properties.</p>
+<h3 id="a-runtime-exception-when-lazy-loading">A Runtime Exception When Lazy-Loading<a hidden class="anchor" aria-hidden="true" href="#a-runtime-exception-when-lazy-loading">#</a></h3>
+<p>At one point I experienced an exception message along the lines of:</p>
+<blockquote>
+<p>“Entities in ‘CodeFirstContainer_Sessions’ participate in the ‘Session_Season’ relationship. 0 related ‘Session_Season_Target’ were found. 1 ‘Session_Season_Target’ is expected.”</p></blockquote>
+<p>This was caused by my navigation property (Session.Season) not having been set as virtual, so no proxy was being created.</p>
+<p>Incidentally, it is worth highlighting that lazy-loading must occur within the scope of an open DbContext (i.e. within the Unit of Work). It is not reasonable to expect to transparently load the navigation property after the database connection has been closed (this is analogous to attempting to lazy-load in NHibernate after closing the Session).</p>
+<h3 id="cascades">Cascades<a hidden class="anchor" aria-hidden="true" href="#cascades">#</a></h3>
+<p>In NHibernate, cascading saves/updates/deletes have to be specified manually on all foreign key relationships – the default behaviour is not to cascade any changes when committing changes, which often leads to newcomers experiencing an error message “not-null property references a null or transient value”.</p>
+<p>Entity Framework takes a more convention-based approach and assumes that all saves and updates should cascade. So, if you save a shiny new Order with an associated Address and a handful of Lines, Entity Framework will determine that it should first insert the Address row, then the Order row, and then each Line row. Sweet. Updates similarly cascade. Assuming you are happy with this behaviour (which seems sensible), then all should be well.</p>
+<p>Deletes, on the other hand, are a bit strange. Entity Framework will not take responsibility for cascading a delete in the database – it expects that you will achieve this by setting a cascading delete on the foreign key relationship in the RDBMS.</p>
+<p>Having said this, if you delete a parent entity in Entity Framework, it <em>will</em> attempt to issue delete statements for any child entities which have been loaded into the current DbContext, but it will not initialize any child entities which have not yet been loaded. This may lead to the RDBMS throwing foreign key constraint violation exceptions if a cascading delete has not been specified. For more details about how cascade delete “works” in Entity Framework, <a href="http://blogs.msdn.com/b/alexj/archive/2009/08/19/tip-33-how-cascade-delete-really-works-in-ef.aspx">see this blog post</a>.</p>
+<p>Personally, I think this behaviour is pretty shoddy, but there you have it! Forewarned is forearmed.</p>
+<p>In light of this behaviour I had to make modifications to the database schema to set cascading deletes on all the appropriate foreign key relationships. For many line-of-business applications, deletes are actually pretty rare events, and in the short term I suspect this issue is more likely to be encountered when clearing down data in integration tests than in actual application use.</p>
+<h3 id="initializing-child-objects-on-domain-entities">Initializing Child Objects on Domain Entities<a hidden class="anchor" aria-hidden="true" href="#initializing-child-objects-on-domain-entities">#</a></h3>
+<p>I habitually add code to the constructors of domain entities to initialise child entities to sensible defaults – I find it helps to ensure that objects are always in a valid state, and reduces the likelihood of encountering an unhandled NullReferenceException. So, for example, I would usually have something like this:</p>
+<p>Unfortunately, when using this approach with Entity Framework, I found that when loading an existing Order which has an associated Address, the Order.Address object was always reset to its default.</p>
+<p>Now, I realise that making calls to virtual members in a constructor is not really a good idea (heaven knows Resharper and Coderush have both nagged me about it often enough), but NHibernate never had a problem with<br>
+this approach. Nevertheless, I tried to do things properly and replaced the automatic properties with backing fields….</p>
+<p>But still no dice. I then tried putting initialization logic in the property’s getter….</p>
+<p>But nothing worked. Every time I loaded an Order, the Order.Address object was reset back to its default instead of containing the data loaded from the database.</p>
+<p>This is quite frustrating and as yet I haven’t been able to find a workaround, other than to abandon my plans to perform object initialization in the domain model and instead handle it in the service layer, with all the resultant null-checking code that will ensue.</p>
+<p>While trying to find a solution, I did stumble across this comment from Rowan Miller that “More flexibility in how we interact with classes is a common ask for EF and our team is looking at how we can support this at the moment.”   Are we asking for flexibility? I thought we were just asking for the persistence ignorance that had long been promised.</p>
+<p>Despite these issues, in three short days I had gone from knowing next to nothing about Entity Framework 4 Code first, to using it to perform almost all of the data access required by a small application. In the <a href="https://blog.iannelson.uk/entity-framework-week-part-4-features-and-further-investigations/">fourth part of this series</a> I’ll consider some of the additional features and application requirements that I would expect an ORM to handle, and see how EF meets the challenge.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://bloghugo.iannelson.uk/tags/tidy/">Tidy</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://bloghugo.iannelson.uk/">Ian Nelson</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

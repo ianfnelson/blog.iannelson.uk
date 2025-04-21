@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Fun on Ian Nelson</title>
+    <link>https://bloghugo.iannelson.uk/categories/fun/</link>
+    <description>Recent content in Fun on Ian Nelson</description>
+    <generator>Hugo -- 0.146.6</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 31 Dec 2024 15:42:39 +0000</lastBuildDate>
+    <atom:link href="https://bloghugo.iannelson.uk/categories/fun/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Who Reigns Supreme? Parsing Our WhatsApp Chat for Wordle Glory</title>
+      <link>https://bloghugo.iannelson.uk/who-reigns-supreme-parsing-our-whatsapp-chat-for-wordle-glory/</link>
+      <pubDate>Tue, 31 Dec 2024 15:42:39 +0000</pubDate>
+      <guid>https://bloghugo.iannelson.uk/who-reigns-supreme-parsing-our-whatsapp-chat-for-wordle-glory/</guid>
+      <description>&lt;p&gt;Back in 2022, in a bid to outwit my mother in our daily Wordle battles, I wrote some C# code to explore optimal starting guesses. &lt;a href=&#34;https://blog.iannelson.uk/the-best-wordle-starter-words/&#34;&gt;You can read about that experiment here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Fast forward two years, and my Wordle addiction is alive and well. The daily challenge remains as compelling as ever, but it’s the family WhatsApp group – where scores are shared, victories boasted, and failures commiserated – that adds an extra layer of fun.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Best Wordle Starter Words</title>
+      <link>https://bloghugo.iannelson.uk/the-best-wordle-starter-words/</link>
+      <pubDate>Tue, 18 Jan 2022 19:00:00 +0000</pubDate>
+      <guid>https://bloghugo.iannelson.uk/the-best-wordle-starter-words/</guid>
+      <description>&lt;p&gt;Like (it would seem) most of the rest of humanity, the start of my 2022 has been immeasurably enhanced by starting each day playing &lt;a href=&#34;https://www.powerlanguage.co.uk/&#34;&gt;Josh Wardle’s&lt;/a&gt; charming word game &lt;a href=&#34;https://www.powerlanguage.co.uk/wordle/&#34;&gt;Wordle&lt;/a&gt;. Which got me wondering – what are the best starter words to play in the opening lines at Wordle? I have been habitually using “&lt;strong&gt;ADIEU&lt;/strong&gt;” as my starter word, reasoning that it contains a large number of vowels. But is &lt;strong&gt;D&lt;/strong&gt; a particularly common consonant? And should I be trying to get &lt;strong&gt;O&lt;/strong&gt; in there rather than the less frequently used &lt;strong&gt;U&lt;/strong&gt;? I decided to do some computer-aided analysis to find the answer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>On the Inherent Negativity of Computer Programmers</title>
+      <link>https://bloghugo.iannelson.uk/on-the-inherent-negativity-of-computer-programmers/</link>
+      <pubDate>Mon, 01 Feb 2010 20:02:00 +0000</pubDate>
+      <guid>https://bloghugo.iannelson.uk/on-the-inherent-negativity-of-computer-programmers/</guid>
+      <description>&lt;p&gt;A couple of weeks ago, early one morning, my friend and fellow coder Scott asked a curious question:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Do you think that programming computers for a living gives you a negative outlook on life?”&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Now, Scott is unfortunately responsible for administering occasional TLC to a codebase that I cut as long ago as 2004, so I assumed he was referring to this and was about to raise some complaints about my hand-rolled query object criteria framework or other coding horror. I steeled myself to defend my work as he continued to explain:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deduplication Fail</title>
+      <link>https://bloghugo.iannelson.uk/deduplication-fail/</link>
+      <pubDate>Wed, 02 Dec 2009 12:12:00 +0000</pubDate>
+      <guid>https://bloghugo.iannelson.uk/deduplication-fail/</guid>
+      <description>&lt;p&gt;Oh, the irony!&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>On Primality In Packsizes</title>
+      <link>https://bloghugo.iannelson.uk/on-primality-in-packsizes/</link>
+      <pubDate>Fri, 23 Oct 2009 10:10:00 +0000</pubDate>
+      <guid>https://bloghugo.iannelson.uk/on-primality-in-packsizes/</guid>
+      <description>&lt;p&gt;Benny George, our precocious two-year-old, is quite the fan of &lt;a href=&#34;http://www.bbc.co.uk/cbeebies/mistermaker/&#34;&gt;Mister Maker&lt;/a&gt;, and enjoys spending time doing arty crafty stuff with his mum. Now, the great thing about the BBC is that they tend to suggest projects which can be created using bits and bobs that you’re likely to have around the home – old cereal boxes and the like. But occasionally some specialist resources have to be procured in the name of Ben’s art, and so it was that Joce today spent £1.99 on a pack of the “googly eyes” so beloved of Maker.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>New Office Photos</title>
+      <link>https://bloghugo.iannelson.uk/new-office-photos/</link>
+      <pubDate>Fri, 22 May 2009 07:05:00 +0000</pubDate>
+      <guid>https://bloghugo.iannelson.uk/new-office-photos/</guid>
+      <description>&lt;p&gt;I &lt;a href=&#34;https://blog.iannelson.uk/new-office-plan/&#34;&gt;promised you some photos of my new office a while back&lt;/a&gt;, didn’t I? OK, here you go…&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;The Desk&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;The Computer&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;One of These Books Is Not Like The Others&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Bits n Bobs&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;In Gnasher We Trust&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zero Interest Bug Arrives</title>
+      <link>https://bloghugo.iannelson.uk/zero-interest-bug-arrives/</link>
+      <pubDate>Thu, 05 Feb 2009 15:02:00 +0000</pubDate>
+      <guid>https://bloghugo.iannelson.uk/zero-interest-bug-arrives/</guid>
+      <description>&lt;p&gt;So, base rates are now down to 1.0%, and the &lt;a href=&#34;https://blog.iannelson.uk/zero-interest-bug/&#34;&gt;Zero Interest Bug&lt;/a&gt; is not just conjecture.&lt;/p&gt;
+&lt;p&gt;From &lt;a href=&#34;http://www.timesonline.co.uk/tol/money/property_and_mortgages/article5668432.ece&#34;&gt;The Times&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“About 1,500 customers who took out a tracker mortgages pegged at 1.01 points below the base rate with Cheltenham &amp;amp; Gloucester (C&amp;amp;G), owned by Lloyds Banking Group, will be paying no interest at all on their home loans from next month.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;It is the first time that a mortgage lender has been forced to reduce the interest on their home loans to zero.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What&#39;s In Your Wallet?</title>
+      <link>https://bloghugo.iannelson.uk/whats-in-your-wallet/</link>
+      <pubDate>Sat, 09 Aug 2008 21:08:00 +0000</pubDate>
+      <guid>https://bloghugo.iannelson.uk/whats-in-your-wallet/</guid>
+      <description>&lt;p&gt;My good buddy &lt;a href=&#34;http://www.johnsadventures.com&#34;&gt;John&lt;/a&gt; just published &lt;a href=&#34;http://www.johnsadventures.com/archives/2008/08/the-contents-of-my-wallet.html&#34;&gt;a typically navel-gazing post detailing the contents of his wallet&lt;/a&gt;, and went on to invite readers to divulge details of their own &lt;em&gt;billfolds&lt;/em&gt; in what I can only presume is some cunning and evil plan for mass identity-theft 🙂&lt;/p&gt;
+&lt;p&gt;Well, as I said in the comments to John’s post, I was surprised at the quantity of sentimental knick-knacks and memorabilia he has in there, compared to the rather prosaic and functional contents of my own wallet.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Edge Cases</title>
+      <link>https://bloghugo.iannelson.uk/edge-cases/</link>
+      <pubDate>Mon, 10 Dec 2007 14:12:00 +0000</pubDate>
+      <guid>https://bloghugo.iannelson.uk/edge-cases/</guid>
+      <description>&lt;p&gt;Ten years of professional software development have given me a healthy awareness of edge cases – I’m always trying to code defensively, validate input, catch exceptions, use assertions, and of course pick holes in sloppy specifications (“ah, but what if…”).&lt;/p&gt;
+&lt;p&gt;I must learn that these skills should not always be applied to my personal life though, as exemplified by a conversation with The Wife yesterday:&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Jocelyn (excitedly): “We’re going to have a ‘Secret Santa’ for all the babies in our antenatal group!”&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Postcode Validation</title>
+      <link>https://bloghugo.iannelson.uk/postcode-validation/</link>
+      <pubDate>Wed, 23 May 2007 13:05:00 +0000</pubDate>
+      <guid>https://bloghugo.iannelson.uk/postcode-validation/</guid>
+      <description>&lt;p&gt;Wikipedia cracks me up sometimes. I’m sat here at my desk, trying to knock together some C# code to quickly validate an entered string as being a UK postcode. Naturally I turned to this &lt;a href=&#34;http://en.wikipedia.org/wiki/UK_postcodes&#34;&gt;Wikipedia article&lt;/a&gt; for assistance, where I find this quip:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Automatic validation of postcodes on the basis of pattern feasibility is therefore almost impossible to design, and the system contains no self-validating feature such as a check digit. &lt;strong&gt;Completely accurate validation is only possible by attempting to deliver mail to the address, and verifying with the recipient.&lt;/strong&gt;&amp;rdquo;&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spot The Misleading Graph</title>
+      <link>https://bloghugo.iannelson.uk/spot-the-misleading-graph/</link>
+      <pubDate>Mon, 19 Feb 2007 19:02:00 +0000</pubDate>
+      <guid>https://bloghugo.iannelson.uk/spot-the-misleading-graph/</guid>
+      <description>&lt;p&gt;Fifty-three years since Darrell Huff published the seminal &lt;em&gt;&lt;a href=&#34;http://www.amazon.co.uk/gp/product/0140136290?ie=UTF8&amp;amp;tag=ianesbl-21&amp;amp;linkCode=as2&amp;amp;camp=1634&amp;amp;creative=6738&amp;amp;creativeASIN=0140136290&#34;&gt;How to Lie with Statistics&lt;/a&gt;&lt;/em&gt;, and still we have newspapers as august as &lt;em&gt;The Times&lt;/em&gt; pulling the oldest trick in the book:&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;At first glance it all looks very impressive, but closer inspection of the comparison with sales of the Torygraph reveal a mere 8.7% sales lead, not more than double as suggested by the graphic.  Not fooled.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dangling Off A Skyscraper</title>
+      <link>https://bloghugo.iannelson.uk/dangling-off-a-skyscraper/</link>
+      <pubDate>Sun, 11 Feb 2007 16:02:00 +0000</pubDate>
+      <guid>https://bloghugo.iannelson.uk/dangling-off-a-skyscraper/</guid>
+      <description>&lt;p&gt;I keep intending, and forgetting to post a couple of videos from our US holiday last April.  I suppose I was hoping to get round to writing up my paper notes from the holiday, but it’s becoming apparent that won’t happen anytime soon, so let’s skip forward to the funny bits:&lt;/p&gt;
+&lt;p&gt;We spent a couple of nights at the Stratosphere Hotel in Las Vegas, which is the tallest observation tower in the United States.  Atop the tower are three “thrill rides”, and I foolishly tried all of them whilst Jocelyn videoed proceedings from a safe distance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Computer Games I Have Loved</title>
+      <link>https://bloghugo.iannelson.uk/computer-games-i-have-loved/</link>
+      <pubDate>Mon, 22 Aug 2005 21:08:00 +0000</pubDate>
+      <guid>https://bloghugo.iannelson.uk/computer-games-i-have-loved/</guid>
+      <description>&lt;p&gt;Isn’t it funny how one’s tastes change as maturity progresses?  I used to spend my summer holidays at the sea-side, playing in arcades and seeking the perfect milkshake (&lt;a href=&#34;http://www.snackspot.org.uk/thread.php?story=0408101147daa&#34;&gt;lime&lt;/a&gt;); more recently I’ve been spending them in the highlands, playing on the hills and seeking the perfect dram (&lt;a href=&#34;http://www.scotchwhisky.com/focus/lagavulin.htm&#34;&gt;lagavulin&lt;/a&gt;).  Hmmm…&lt;/p&gt;
+&lt;p&gt;I think I may have mentioned that the wife is away in the States for a while.  At the start of this period of solitude, I panicked, wondering whatever I could do with myself, and came to the conclusion that it would be a good idea to buy a computer game to while away the hours.  After all, I spent much of my formative years killing time on a variety of computer and console games, so why not rekindle that prior love affair?  So it was that I bought &lt;a href=&#34;http://thesims2.ea.com/&#34;&gt;The Sims 2&lt;/a&gt;, a truly excellent game, and had an enjoyable evening trying to motivate my wee Sims to improve their skills, better themselves, and generally enjoy life.  All good harmless fun.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project Euler</title>
+      <link>https://bloghugo.iannelson.uk/project-euler/</link>
+      <pubDate>Mon, 22 Aug 2005 20:08:00 +0000</pubDate>
+      <guid>https://bloghugo.iannelson.uk/project-euler/</guid>
+      <description>&lt;p&gt;If you like maths problems, and you like programming (and hey, who doesn’t?), then you’ll love &lt;a href=&#34;http://mathschallenge.net/index.php?section=project&#34;&gt;Project Euler&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>999999999..</title>
+      <link>https://bloghugo.iannelson.uk/zetafax-999/</link>
+      <pubDate>Tue, 11 Jan 2005 23:01:00 +0000</pubDate>
+      <guid>https://bloghugo.iannelson.uk/zetafax-999/</guid>
+      <description>&lt;p&gt;Never underestimate the stupidity of users—or the benefits of a little field validation.&lt;/p&gt;
+&lt;p&gt;One of the web-based systems I’ve been developing allows users to enter a customer’s fax number and automatically fax confirmation details (using Zetafax). It’s been working pretty well—until we discovered a flaw today. One user, tired of obtaining valid fax details from customers, had been entering a string of nines and then actually attempting to send the fax to this number.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
