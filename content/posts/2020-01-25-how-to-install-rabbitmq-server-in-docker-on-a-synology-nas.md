@@ -13,9 +13,9 @@ One of the game-changing features of [Synology][1]&#8216;s NAS (Network-Attached
 
 One of things I wanted to run on my own Synology NAS is [RabbitMQ][3], the popular open-source message broker. I intend to use this as the heart of a distributed home climate measuring project, with a bunch of low-cost Raspberry Pi devices sending regular sensor readings to a database, or directly to a real-time web application.
 
-Here&#8217;s how to go about installing RabbitMQ on a Synology NAS, as of January 2020. The whole process should only take around 15-30 minutes at most.
+Here’s how to go about installing RabbitMQ on a Synology NAS, as of January 2020. The whole process should only take around 15-30 minutes at most.
 
-First, open up Package Center and search for the free Third-Party Docker package. If it&#8217;s not already installed, go ahead and Install it, otherwise Open it.
+First, open up Package Center and search for the free Third-Party Docker package. If it’s not already installed, go ahead and Install it, otherwise Open it.
 
 <div class="wp-block-image">
   <figure class="aligncenter"><a href="https://blog.iannelson.uk/wp-content/uploads/2023/08/2020-01-13_20-48-59-3.png"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/2020-01-13_20-48-59-3.png" alt="" /></a></figure>
@@ -51,14 +51,14 @@ Check Enable auto-restart so that the container automatically restarts, should i
   <figure class="aligncenter"><a href="https://blog.iannelson.uk/wp-content/uploads/2023/08/2020-01-13_20-53-11-1.png"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/2020-01-13_20-53-11-1.png" alt="" /></a></figure>
 </div>
 
-Containers should generally be treated as being replaceable, with any data that you care about being kept outside of the container. To this end, create a folder on the NAS that can be used as a volume for the /var/lib/rabbitmq mount path. This ensures all the data from the RabbitMQ instance exists outside of the container itself and won&#8217;t be lost if the container needs to be destroyed and recreated for any reason (such as upgrading to a new version of RabbitMQ).  
+Containers should generally be treated as being replaceable, with any data that you care about being kept outside of the container. To this end, create a folder on the NAS that can be used as a volume for the /var/lib/rabbitmq mount path. This ensures all the data from the RabbitMQ instance exists outside of the container itself and won’t be lost if the container needs to be destroyed and recreated for any reason (such as upgrading to a new version of RabbitMQ).  
 I also suggest creating a blank RabbitMQ config file &#8211; rabbitmq.conf &#8211; and mounting this file to the path /etc/rabbitmq/rabbitmq.conf .
 
 <div class="wp-block-image">
   <figure class="aligncenter"><a href="https://blog.iannelson.uk/wp-content/uploads/2023/08/2020-01-13_20-56-21.png"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/2020-01-13_20-56-21.png" alt="" /></a></figure>
 </div>
 
-RabbitMQ with the management plugin enabled uses ports 4369, 5671, 5672, 15671, 15672 and 25672. There&#8217;s a low probability of these ports already being in use by other applications on the NAS, so map those container ports to the same local ports.<figure class="wp-block-image size-large">
+RabbitMQ with the management plugin enabled uses ports 4369, 5671, 5672, 15671, 15672 and 25672. There’s a low probability of these ports already being in use by other applications on the NAS, so map those container ports to the same local ports.<figure class="wp-block-image size-large">
 
 [<img loading="lazy" decoding="async" width="1024" height="862" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/1_2020-01-13_20-57-55-1024x862.png" alt="" class="wp-image-8147" srcset="https://blog.iannelson.uk/wp-content/uploads/2023/08/1_2020-01-13_20-57-55-1024x862.png 1024w, https://blog.iannelson.uk/wp-content/uploads/2023/08/1_2020-01-13_20-57-55-300x252.png 300w, https://blog.iannelson.uk/wp-content/uploads/2023/08/1_2020-01-13_20-57-55-768x646.png 768w, https://blog.iannelson.uk/wp-content/uploads/2023/08/1_2020-01-13_20-57-55.png 1181w" sizes="auto, (max-width: 1024px) 100vw, 1024px" />][4]</figure> 
 
@@ -68,7 +68,7 @@ Check the Environment variables tab. The defaults should be fine; you may wish t
   <figure class="aligncenter"><a href="https://blog.iannelson.uk/wp-content/uploads/2023/08/2020-01-13_21-00-52.png"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/2020-01-13_21-00-52.png" alt="" /></a></figure>
 </div>
 
-That&#8217;s it. Click Apply, and Apply again on the Summary screen.
+That’s it. Click Apply, and Apply again on the Summary screen.
 
 <div class="wp-block-image">
   <figure class="aligncenter"><a href="https://blog.iannelson.uk/wp-content/uploads/2023/08/2020-01-13_21-01-13.png"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/2020-01-13_21-01-13.png" alt="" /></a></figure>
@@ -92,7 +92,7 @@ The RabbitMQ mnesia folder will be initialized in the folder specified earlier a
   <figure class="aligncenter"><a href="https://blog.iannelson.uk/wp-content/uploads/2023/08/2020-01-13_21-05-05.png"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/2020-01-13_21-05-05.png" alt="" /></a></figure>
 </div>
 
-The RabbitMQ Management portal will be accessible through a web browser at port 15672 on your NAS&#8217;s hostname or IP address. But if you try to login using the default guest/guest credentials you will likely be met with the &#8220;User can only log in via localhost&#8221; message shown below. That&#8217;s not an option from the Synology NAS, which doesn&#8217;t have any web browser installed.
+The RabbitMQ Management portal will be accessible through a web browser at port 15672 on your NAS’s hostname or IP address. But if you try to login using the default guest/guest credentials you will likely be met with the &#8220;User can only log in via localhost&#8221; message shown below. That’s not an option from the Synology NAS, which doesn’t have any web browser installed.
 
 <div class="wp-block-image">
   <figure class="aligncenter"><a href="https://blog.iannelson.uk/wp-content/uploads/2023/08/2020-01-13_21-06-24-1.png"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/2020-01-13_21-06-24-1.png" alt="" /></a></figure>

@@ -12,4 +12,4 @@ Ooh, this is great news:
 
 <http://nxopinion.robertsoninstitute.org/blogs/rcecil/archive/2004/11/11/167.aspx>
 
-It&#8217;s a little thing, to be sure, but I often find myself wanting to make a setter internal or private while leaving the getter public. So, I&#8217;m happy. It doesn&#8217;t take much 🙂
+It’s a little thing, to be sure, but I often find myself wanting to make a setter internal or private while leaving the getter public. So, I’m happy. It doesn’t take much 🙂

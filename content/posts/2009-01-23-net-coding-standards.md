@@ -24,21 +24,21 @@ In my experience, these documents are invariably:
   * Largely copied from the interweb.
   * Obsessed with the trivial (e.g. whitespace) while failing to mention the genuinely useful (e.g. boxing/unboxing, avoiding use of deprecated classes, Dispose pattern, etc).
 
-I know this because I&#8217;ve been involved in creating such documents in the past 🙂
+I know this because I’ve been involved in creating such documents in the past 🙂
 
-Don&#8217;t get me wrong, I&#8217;m all in favour of creating clean code, and promoting standards within a team. I just find that most in-house style guides fail to achieve this, for the reasons listed above.
+Don’t get me wrong, I’m all in favour of creating clean code, and promoting standards within a team. I just find that most in-house style guides fail to achieve this, for the reasons listed above.
 
-So, as I was walking through the city today, I started having a little debate with myself. &#8220;OK then, smarty-pants. What&#8217;s your alternative? What would your in-house coding standards guidelines look like?&#8221;
+So, as I was walking through the city today, I started having a little debate with myself. &#8220;OK then, smarty-pants. What’s your alternative? What would your in-house coding standards guidelines look like?&#8221;
 
 I think it can be summarised by four simple points, listed in order of importance:
 
 **1. Don’t Ignore Compiler Warnings**
 
-You might think this would be an obvious one, but I&#8217;ve lost count of the number of times I&#8217;ve retrieved a solution from source control, compiled it, and been presented with a list of compiler warnings. Most of the time, there&#8217;s no excuse for this. If the _compiler_ smells a rat in your code, then you&#8217;ve got a problem, be it variables that are used without being initialized, unused variables, unreachable code, or whatever. It&#8217;s sloppy code, and it&#8217;s easily avoided, so don&#8217;t leave it for the next guy to clean up. I am, if you hadn&#8217;t guessed, a big fan of setting the &#8220;treat compiler warnings as errors&#8221; flag in a project&#8217;s build properties.
+You might think this would be an obvious one, but I’ve lost count of the number of times I’ve retrieved a solution from source control, compiled it, and been presented with a list of compiler warnings. Most of the time, there’s no excuse for this. If the _compiler_ smells a rat in your code, then you’ve got a problem, be it variables that are used without being initialized, unused variables, unreachable code, or whatever. It’s sloppy code, and it’s easily avoided, so don’t leave it for the next guy to clean up. I am, if you hadn’t guessed, a big fan of setting the &#8220;treat compiler warnings as errors&#8221; flag in a project’s build properties.
 
 **2. Follow the Framework Design Guidelines**
 
-The [Framework Design Guidelines][1] is another one of those books whose name doesn&#8217;t do it justice. The sagely guidance it contains is appropriate not only to Microsofties developing the FCL itself, but to anyone writing any .NET code. Don&#8217;t let your developers near a copy of Visual Studio until they&#8217;ve provided a sworn affidavit confirming that they&#8217;ve read this book! 🙂
+The [Framework Design Guidelines][1] is another one of those books whose name doesn’t do it justice. The sagely guidance it contains is appropriate not only to Microsofties developing the FCL itself, but to anyone writing any .NET code. Don’t let your developers near a copy of Visual Studio until they’ve provided a sworn affidavit confirming that they’ve read this book! 🙂
 
 All of the guidelines are concisely boiled down into Do, Consider, Avoid, and Do Not recommendations, and you would do well to adhere to these. Getting a few copies of this book for your team is a much more effective and cost-effective approach than trying to develop your own coding standards.
 
@@ -50,11 +50,11 @@ Depending on the target audience for your solution, you may consider it reasonab
 
 **4. Run StyleCop**
 
-Finally, if you simply must achieve that uniform source code appearance that the whitespace Nazis in every team strive for, consider requiring that your devs run their code through [StyleCop][2] before checking in. It may initially be a bit annoying, and for sure some of the recommendations are highly subjective, but there&#8217;s no arguing that it does enforce a standard style, with a strong focus on increasing readability and reducing ambiguity.
+Finally, if you simply must achieve that uniform source code appearance that the whitespace Nazis in every team strive for, consider requiring that your devs run their code through [StyleCop][2] before checking in. It may initially be a bit annoying, and for sure some of the recommendations are highly subjective, but there’s no arguing that it does enforce a standard style, with a strong focus on increasing readability and reducing ambiguity.
 
 **And After That&#8230;?**
 
-Following the four points above should result in the low-level codebase produced by a team being readable, of high quality, in a common style, and free of many common &#8220;gotchas&#8221;. It doesn&#8217;t validate the higher-level architectural considerations, but in my opinion that is outside the scope of such a document, and could best be achieved through the use of a tool such as [NDepend][3]. But that&#8217;s a topic for another post&#8230;
+Following the four points above should result in the low-level codebase produced by a team being readable, of high quality, in a common style, and free of many common &#8220;gotchas&#8221;. It doesn’t validate the higher-level architectural considerations, but in my opinion that is outside the scope of such a document, and could best be achieved through the use of a tool such as [NDepend][3]. But that’s a topic for another post&#8230;
 
  [1]: http://www.amazon.co.uk/gp/product/0321545613?ie=UTF8&tag=ianesbl-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=0321545613
  [2]: http://code.msdn.microsoft.com/sourceanalysis

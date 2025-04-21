@@ -20,7 +20,7 @@ Firstly, here’s the EndPointBehaviour itself. This adds a custom CallContextIn
 
 <!--kg-card-end: html-->
 
-Here&#8217;s the custom CallContextInitializer:
+Here’s the custom CallContextInitializer:
 
 <!--kg-card-begin: html-->
 

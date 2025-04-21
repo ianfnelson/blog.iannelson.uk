@@ -12,23 +12,23 @@ tags:
 ---
 <!--kg-card-begin: html-->
 
-My name is Ian Nelson. I&#8217;m a recovering <acronym title="Structured Query Language">SQL</acronym> addict. It&#8217;s been four weeks since my last stored procedure.
+My name is Ian Nelson. I’m a recovering <acronym title="Structured Query Language">SQL</acronym> addict. It’s been four weeks since my last stored procedure.
 
 One of my reasons for [leaving my cosy permanent job and entering the scary cut-throat world of freelancing][1] was to get a broader exposure to different tools, technologies and methodologies, while remaining with my feet planted firmly in the .NET universe. So, when I got offered a position in a team who were using [Subversion][2], [Monorail][3], [Ext.JS][4], [NUnit][5], [Oracle][6] and [NHibernate][7], I jumped at the opportunity.
 
-Of those technologies, it&#8217;s definitely NHibernate which has most dramatically changed my perspective on how enterprise solutions can (and should) be developed. For many years now, I&#8217;ve considered deep database (particularly SQL Server) skills to be one of my core proficiencies, and have merrily spent (wasted?) countless man hours writing dreary "plumbing" code, by the way of <acronym title="Create, Read, Update, Delete">CRUD</acronym> stored procedures and repetitive Data Access Layers in order to persist my <acronym title="Common Language Runtime">CLR</acronym> entities to the <acronym title="Relational Database Management System">RDBMS</acronym>.
+Of those technologies, it’s definitely NHibernate which has most dramatically changed my perspective on how enterprise solutions can (and should) be developed. For many years now, I’ve considered deep database (particularly SQL Server) skills to be one of my core proficiencies, and have merrily spent (wasted?) countless man hours writing dreary "plumbing" code, by the way of <acronym title="Create, Read, Update, Delete">CRUD</acronym> stored procedures and repetitive Data Access Layers in order to persist my <acronym title="Common Language Runtime">CLR</acronym> entities to the <acronym title="Relational Database Management System">RDBMS</acronym>.
 
-Well, no longer, those days are over. I&#8217;ve seen the light and embraced the wonders of NHibernate. For those who are unfamiliar with it, NHibernate is an [Object-Relational Mapper][8], and is a port of a Java utility, Hibernate. The premise is beautifully simple &#8211; by decorating your objects with attributes or, more neatly, by creating <acronym title="eXtensible Markup Language">XML</acronym> mapping files, you define the mappings between your .NET domain objects and their persisted representation on the database. Then NHibernate handles all the grunt work of saving your objects to and from the database.
+Well, no longer, those days are over. I’ve seen the light and embraced the wonders of NHibernate. For those who are unfamiliar with it, NHibernate is an [Object-Relational Mapper][8], and is a port of a Java utility, Hibernate. The premise is beautifully simple &#8211; by decorating your objects with attributes or, more neatly, by creating <acronym title="eXtensible Markup Language">XML</acronym> mapping files, you define the mappings between your .NET domain objects and their persisted representation on the database. Then NHibernate handles all the grunt work of saving your objects to and from the database.
 
-Digging deeper, I discovered that NHibernate has been developed in such a way as to make it easy to embrace best practices in database access techniques. Several years ago I read through [Fowler&#8217;s][9] seminal _[Patterns of Enterprise Application Architecture][10]_, and wondered how I would ever find time to develop solutions which made use of the cunning O-R behavioural patterns he described &#8211; [Lazy Load][11], [Unit of Work][12], [Identity Map][13], [Query Object][14], [Repository][15], etc. I utterly failed to pick up on this paragraph on page 171:
+Digging deeper, I discovered that NHibernate has been developed in such a way as to make it easy to embrace best practices in database access techniques. Several years ago I read through [Fowler’s][9] seminal _[Patterns of Enterprise Application Architecture][10]_, and wondered how I would ever find time to develop solutions which made use of the cunning O-R behavioural patterns he described &#8211; [Lazy Load][11], [Unit of Work][12], [Identity Map][13], [Query Object][14], [Repository][15], etc. I utterly failed to pick up on this paragraph on page 171:
 
-> _"Remember that you don&#8217;t have to build a full-featured database-mapping layer. It&#8217;s a complicated beast to build, and there are products available that do this for you."_
+> _"Remember that you don’t have to build a full-featured database-mapping layer. It’s a complicated beast to build, and there are products available that do this for you."_
 
 Products such as, yes, NHibernate. Or [Wilson ORM][16], or more recently, the [LINQ to SQL][17] offering introduced by Microsoft in the .NET 3.5 Framework.
 
-I&#8217;m glad that I have a solid grounding in SQL, and I still believe that other skills related to RDBMSs are useful in the enterprise (i.e. database design, normalisation and index tuning), but I&#8217;m pleased that I can now bring myself to relax, stop worrying, and leave an ORM to take care of generating the repetitive CRUD statements required for persisting my domain objects.
+I’m glad that I have a solid grounding in SQL, and I still believe that other skills related to RDBMSs are useful in the enterprise (i.e. database design, normalisation and index tuning), but I’m pleased that I can now bring myself to relax, stop worrying, and leave an ORM to take care of generating the repetitive CRUD statements required for persisting my domain objects.
 
-So, what have I been doing with all this "free time" that I now have available to me during a hard day at the code face? Well, I&#8217;ve been trying to create systems which are more robust and well-designed by making a concerted effort to embrace Test-Driven Development (for real, this time!) But that&#8217;s a good topic for [a future post][18]&#8230;
+So, what have I been doing with all this "free time" that I now have available to me during a hard day at the code face? Well, I’ve been trying to create systems which are more robust and well-designed by making a concerted effort to embrace Test-Driven Development (for real, this time!) But that’s a good topic for [a future post][18]&#8230;
 
 A few useful NHibernate / ORM Resources:
 
@@ -40,7 +40,7 @@ A few useful NHibernate / ORM Resources:
   * [Dot Net Rocks &#8211; the ORM Smackdown Show][24]
   * [NHibernate In Action][25]
   * [LINQ In Action][26]
-  * [Ayende&#8217;s Blog][27]
+  * [Ayende’s Blog][27]
   * [The NHibernate FAQ][28]
   * [Wikipedia &#8211; Object-Relational Mapping][8]
 

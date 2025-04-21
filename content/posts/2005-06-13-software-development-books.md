@@ -23,7 +23,7 @@ If I had to make a list, the books I would currently prescribe for new graduates
   4. [_Design Patterns_][5]
   5. [_Patterns of Enterprise Application Architecture_][6]
 
-and if I was feeling cynical I&#8217;d&nbsp;perhaps also advise a copy of [_The Career Programmer &#8211; Guerilla Tactics for an Imperfect World_][7] be kept stashed in a laptop bag&#8230;
+and if I was feeling cynical I’d&nbsp;perhaps also advise a copy of [_The Career Programmer &#8211; Guerilla Tactics for an Imperfect World_][7] be kept stashed in a laptop bag&#8230;
 
 <!--kg-card-end: html-->
 

@@ -16,7 +16,7 @@ Yesterday I wrapped up another eight months’ stint contracting at my old haunt
 
 But it hasn’t just been a benefit for my CV, I think Marshalls might have got a little something out of the arrangement too, as Marshalls’ Development Manager Sion Harrison commented yesterday:
 
-_&#8220;You have enabled us to drive some major changes into the business whilst introducing new technologies and concepts to the team. We now have great working examples of Workflow, NHibernate, IOC, programming to interfaces and MVC code which can be applied in other applications. I couldn&#8217;t have asked for more &#8211; a combination of business and technological advancement. Thanks again.&#8221;_
+_&#8220;You have enabled us to drive some major changes into the business whilst introducing new technologies and concepts to the team. We now have great working examples of Workflow, NHibernate, IOC, programming to interfaces and MVC code which can be applied in other applications. I couldn’t have asked for more &#8211; a combination of business and technological advancement. Thanks again.&#8221;_
 
 Could I help to advance your business in a similar manner? If so, give me a call on 07901 828483 or email <ian@iannelson.systems> .
 

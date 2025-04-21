@@ -49,4 +49,4 @@ Monday I headed north with Rich, Becks, and Dave, with a view to climbing Coniva
 
 <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/2013_03_04_22_25_41.jpg" class="kg-image" alt loading="lazy" /> </figure> 
 
-Tuesday I rested, reasoning that too much exercise too quickly was likely to do me more harm than good.  At least, that was my excuse and I&#8217;m sticking to it for now.  In the evening we had the pleasure of watching Lowcraft at the Seaforth Inn, having been teased by hearing their tunes on the mighty fine Loch Broom FM.  The lead singer resembles Eddie Izzard, which should be a compliment, although I&#8217;m not sure he took it that way&#8230;
+Tuesday I rested, reasoning that too much exercise too quickly was likely to do me more harm than good.  At least, that was my excuse and I’m sticking to it for now.  In the evening we had the pleasure of watching Lowcraft at the Seaforth Inn, having been teased by hearing their tunes on the mighty fine Loch Broom FM.  The lead singer resembles Eddie Izzard, which should be a compliment, although I’m not sure he took it that way&#8230;

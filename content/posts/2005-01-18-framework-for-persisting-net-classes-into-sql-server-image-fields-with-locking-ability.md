@@ -14,15 +14,15 @@ tags:
 
 There seems to have been a lack of .NET-related stuff on this blog recently, so let me show you something I cobbled together for work purposes last Wednesday:
 
-A common requirement we have in our ASP.NET applications is how to reliably persist object instances&nbsp;for a lengthy period of time. End users shouldn&#8217;t have to concern themselves with the concept of Session expiry, and it&#8217;s unacceptable for them to return to their PC after nipping off for a coffee to be confronted with the dreaded "Object reference not set to an instance of an object" when they try to continue editing their basket / sales order / timesheet / whatever.
+A common requirement we have in our ASP.NET applications is how to reliably persist object instances&nbsp;for a lengthy period of time. End users shouldn’t have to concern themselves with the concept of Session expiry, and it’s unacceptable for them to return to their PC after nipping off for a coffee to be confronted with the dreaded "Object reference not set to an instance of an object" when they try to continue editing their basket / sales order / timesheet / whatever.
 
 One pattern to solve this, detailed by [Martin Fowler][1] in [Patterns of Enterprise Application Architecture][2], is the **Serialized LOB** (Large Object), which works by serializing the object in question into binary or text which is then stored in a single database field.
 
 An excellent example of how to achieve this using SQL Server and .NET is given by [Peter A Bromberg in this Egghead Cafe article][3].
 
-Building on this example, I&#8217;ve put together a generic assembly for persisting and retrieving serializable classes into SQL Server, referenced by a combination of two strings (a username and a key). It is essentially an alternative to storing objects in Session or ViewState. As an additional benefit, it allows you to "lock" objects based on the key, so that only one user can store the same object at a given point in time.
+Building on this example, I’ve put together a generic assembly for persisting and retrieving serializable classes into SQL Server, referenced by a combination of two strings (a username and a key). It is essentially an alternative to storing objects in Session or ViewState. As an additional benefit, it allows you to "lock" objects based on the key, so that only one user can store the same object at a given point in time.
 
-The zip file below includes the source and a SQL script for setting up the required database table and four stored procedures, as well as some unit tests (yes, I am sticking to my New Year&#8217;s Resolution!).
+The zip file below includes the source and a SQL script for setting up the required database table and four stored procedures, as well as some unit tests (yes, I am sticking to my New Year’s Resolution!).
 
 The DataStore class contains the&nbsp;various static methods necessary to&nbsp;add, retrieve and delete objects from the store. For example, to save an object you can simply make a call along the lines of:
 
@@ -42,7 +42,7 @@ So, to retrieve the sales order object above from the store, a call would be lik
 
     SalesOrder objOrder = DataStore.Get("joebloggs","order1234").StoredObject as SalesOrder;  
 
-That&#8217;s pretty much it. There are also methods to retrieve a collection of objects from the store (GetByUser, GetByKey), as well as methods to remove objects from the store (Remove, RemoveByKey, RemoveByUser, Clear).
+That’s pretty much it. There are also methods to retrieve a collection of objects from the store (GetByUser, GetByKey), as well as methods to remove objects from the store (Remove, RemoveByKey, RemoveByUser, Clear).
 
 Feel free to use and cannibalize this code as you see fit. Let me know if you find it useful or interesting, and of course if you have any suggestions for improvements. Oh, and of course it should go without saying that I make no guarantee as to the suitability of this code for any purpose and accept no responsibility for any loss of data etcetera!
 
@@ -50,7 +50,7 @@ Feel free to use and cannibalize this code as you see fit. Let me know if you fi
 
 **Updated 30 October 2005:**
 
-I&#8217;ve reworked this code for .NET 2.0, and removed the dependency on the Microsoft Data Access Application Block. Also, the NUnit tests have been replaced with VS2005 unit tests.
+I’ve reworked this code for .NET 2.0, and removed the dependency on the Microsoft Data Access Application Block. Also, the NUnit tests have been replaced with VS2005 unit tests.
 
   * [**Download .NET 2.0 version**][4] (86 Kb)
   * [**Download .NET 1.1 version**][5] (116 Kb)

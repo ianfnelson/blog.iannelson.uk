@@ -11,7 +11,7 @@ categories:
 ---
 Good Friday, 10th April 1998.
 
-While the [Good Friday Agreement][1] was being signed in Belfast, I was reluctantly plodding up my first ever Munro, the dreary featureless lump that is [Meall a&#8217;Chrasgaidh][2].
+While the [Good Friday Agreement][1] was being signed in Belfast, I was reluctantly plodding up my first ever Munro, the dreary featureless lump that is [Meall a’Chrasgaidh][2].
 
 Only the view across to the mighty [An Teallach][3] served to convince me that it was perhaps worth giving this hillwalking lark another try.<figure class="kg-card kg-gallery-card kg-width-wide"> 
 

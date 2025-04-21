@@ -24,7 +24,7 @@ Now, this habit led to some unexpected behaviour when I attempted to use Entity 
 
 Clear as mud, eh? A little Googling eventually unearthed the following posts from other people experiencing this issue:
 
-  * [Why is my Entity Framework Code First proxy collection null and why can&#8217;t I set it?][4]
+  * [Why is my Entity Framework Code First proxy collection null and why can’t I set it?][4]
   * [Code First adding to collections? How to use Code First with repositories? Advice me please][5]
   * [Code First EF4 with N-Tier.. I’m really stuck on this one issue][6]
 

@@ -9,7 +9,7 @@ categories:
   - Tech
 
 ---
-In the grand scheme of things, &#8217;tis but a minor achievement, but I was quite chuffed with myself this evening when my Stack Overflow reputation finally reached the 10,000 mark:
+In the grand scheme of things, ’tis but a minor achievement, but I was quite chuffed with myself this evening when my Stack Overflow reputation finally reached the 10,000 mark:
 
 <div class="wp-block-image">
   <figure class="aligncenter"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/04_01_2012_20_28_21.png" alt="Stack Overflow - Ian Nelson Profile" /></figure>

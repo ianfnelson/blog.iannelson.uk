@@ -22,9 +22,9 @@ So, who do I think I am?&nbsp; Well, at this stage it appears that my blood is:
 
 Those sixteen ancestors were born between 1829 and 1860.
 
-I haven&#8217;t yet updated my [online family tree][1], but will do so later today.
+I haven’t yet updated my [online family tree][1], but will do so later today.
 
-I suspect that this marks the end of the "easy bit" of my research, and doubt that I&#8217;ll ever succeed in discovering the names of all of my 32 great-great-great-grandparents.&nbsp; Still, you never know&#8230;
+I suspect that this marks the end of the "easy bit" of my research, and doubt that I’ll ever succeed in discovering the names of all of my 32 great-great-great-grandparents.&nbsp; Still, you never know&#8230;
 
 <!--kg-card-end: html-->
 

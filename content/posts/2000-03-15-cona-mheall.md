@@ -11,7 +11,7 @@ tags:
   - tidy
 
 ---
-Cona&#8217; Mheall (978m)
+Cona’ Mheall (978m)
 
 Another long walk in and only a single munro bagged, in the mist and rain. Yuk!<figure class="kg-card kg-gallery-card kg-width-wide"> 
 

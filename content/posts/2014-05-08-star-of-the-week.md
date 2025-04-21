@@ -12,7 +12,7 @@ categories:
 ---
 As a lowly _sellsword_ amongst the ensemble cast that make up the incestuous York/Leeds IT scene, I am not usually one to be influenced by the promise of titles and honours.
 
-Time was, long ago, in my first graduate job, that I yearned for a promotion from &#8220;Solution Developer&#8221; to &#8220;Development Specialist&#8221;. Now I give little consideration to what I&#8217;m called, and sell my services on the basis of what I can _do_, and the value I can bring to a project and an organisation.
+Time was, long ago, in my first graduate job, that I yearned for a promotion from &#8220;Solution Developer&#8221; to &#8220;Development Specialist&#8221;. Now I give little consideration to what I’m called, and sell my services on the basis of what I can _do_, and the value I can bring to a project and an organisation.
 
 So, imagine my surprise when I recently returned to my desk at a client site to find the certificate below resting on my keyboard. It seems my highborn masters had seen fit to dub me (with tongue firmly in cheek, I presume), as their &#8220;Star of the Week&#8221;!
 
@@ -26,11 +26,11 @@ The client had an existing solution to generate an XML feed summarising the info
 
 I actually enjoy occasionally tackling problems like this, where there is an existing solution that meets all functional requirements and my task is simply to improve some nonfunctional requirement &#8211; make it faster, make it more maintainable, make it scalable, update the technology stack, etc. The goal is much clearer when you have a reference solution to mimic than when starting with a blank page and having to tease out acceptance criteria from fickle humans!
 
-Unsurprisingly, some baseline profiling revealed that the problems lay in the data access layer, and with the help of Hibernating Rhino&#8217;s [Entity Framework Profiler][1], I was able to determine that over 35,000 separate database calls were being issued to create a file of a few megabytes.
+Unsurprisingly, some baseline profiling revealed that the problems lay in the data access layer, and with the help of Hibernating Rhino’s [Entity Framework Profiler][1], I was able to determine that over 35,000 separate database calls were being issued to create a file of a few megabytes.
 
 This was possible because the data access was performed through a series of helper classes that wrapped the EF context and exposed mapped models. While this simplified the data access for most use cases, and helped to encapsulate low-level validation, it was a hindrance for any kind of aggregation or reporting requirement. Essentially the problem boiled down to the _SELECT N+1_ problem on steroids, with a large portion of the object graph steadily loaded into memory.
 
-Wrapping isn&#8217;t always a helpful approach&#8230;
+Wrapping isn’t always a helpful approach&#8230;
 
 <div class="wp-block-image">
   <figure class="aligncenter"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/iStock_000033567536Small.jpg" alt="Wrapping - not always helpful" /></figure>

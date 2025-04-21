@@ -20,15 +20,15 @@ After an unprecedented _five years_ working the same gig, I will be available fo
   <figure class="aligncenter"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_0254-1.jpg" alt="Portrait image of a handsome software architect, standing outdoors and wearing a purple shirt" /><figcaption class="wp-element-caption">This is me</figcaption></figure>
 </div>
 
-## What I&#8217;ve Been Doing Recently {#what-ive-been-doing-recently.wp-block-heading}
+## What I’ve Been Doing Recently {#what-ive-been-doing-recently.wp-block-heading}
 
-Since March 2018 I&#8217;ve been a Technical Lead for the [NHS App][2], an England-wide way to access a range of NHS services via smartphone, tablet, and desktop web browser. It has been an amazing project to be a part of, and I&#8217;ve loved working in an open, collaborative, and agile delivery environment alongside a bunch of clever people from NHS Digital, Kainos, and BJSS.
+Since March 2018 I’ve been a Technical Lead for the [NHS App][2], an England-wide way to access a range of NHS services via smartphone, tablet, and desktop web browser. It has been an amazing project to be a part of, and I’ve loved working in an open, collaborative, and agile delivery environment alongside a bunch of clever people from NHS Digital, Kainos, and BJSS.
 
-I&#8217;ve led an ever-changing, multi-disciplinary team through over 120 fortnightly sprints — a period that saw the App&#8217;s user base grow from nothing to over thirty million users, and become the most downloaded app in the App Store during the COVID-19 pandemic years.
+I’ve led an ever-changing, multi-disciplinary team through over 120 fortnightly sprints — a period that saw the App’s user base grow from nothing to over thirty million users, and become the most downloaded app in the App Store during the COVID-19 pandemic years.
 
-I&#8217;ve led the design and development of the App&#8217;s notification and messaging capability, which allows the secure and sub second delivery of health-related communications from NHS organisations to patient&#8217;s mobile devices, replacing more costly communication methods such as SMS or mail.
+I’ve led the design and development of the App’s notification and messaging capability, which allows the secure and sub second delivery of health-related communications from NHS organisations to patient’s mobile devices, replacing more costly communication methods such as SMS or mail.
 
-In case it&#8217;s not obvious, I&#8217;m pretty proud of what we&#8217;ve achieved on the NHS App over the past five years, and could write much more. But I&#8217;ll save that for a future blog post and return to the sales pitch&#8230;
+In case it’s not obvious, I’m pretty proud of what we’ve achieved on the NHS App over the past five years, and could write much more. But I’ll save that for a future blog post and return to the sales pitch&#8230;
 
 ## What I Do Generally {#what-i-do-generally.wp-block-heading}
 
@@ -38,7 +38,7 @@ I am detail-oriented and still a developer at heart. I like to stay close to the
 
 ## The Technology I Use {#the-technology-i-use.wp-block-heading}
 
-I have over 20 years&#8217; experience of C# and .NET development, from the betas through to C#10 and .NET Core 6.0 (but I still have to occasionally Google how to properly implement the IDisposable pattern).
+I have over 20 years’ experience of C# and .NET development, from the betas through to C#10 and .NET Core 6.0 (but I still have to occasionally Google how to properly implement the IDisposable pattern).
 
 I have been working with Azure products for, gosh, it must be over a decade now. I have spent significant time wrangling with App Services, Function Apps, Cosmos DB (Mongo and (No)SQL), Event Hubs, SQL Database, Kubernetes Service and Service Bus. I have found and reported a bug to the Notification Hub product team, and been mailed a t-shirt by the Cognitive Search team in response to my feedback.
 
@@ -66,11 +66,11 @@ My favourite software books of all time include _[Working Effectively with Legac
 
 My favourite GoF design patterns are Visitor and Chain of Responsibility.
 
-Some people that I&#8217;ve worked with have written nice things about me, and I didn&#8217;t even have to pay them. You can read a collection of these endorsements on my [testimonials page][7].
+Some people that I’ve worked with have written nice things about me, and I didn’t even have to pay them. You can read a collection of these endorsements on my [testimonials page][7].
 
 ## Sound Good? {#sound-good.wp-block-heading}
 
-I hope you&#8217;ve enjoyed reading these insights into my psyche and skills. If you&#8217;d like to know more, or think that I might be able to help you, then let&#8217;s talk. You can [download my CV here][1], and email me at <ian@iannelson.systems>.
+I hope you’ve enjoyed reading these insights into my psyche and skills. If you’d like to know more, or think that I might be able to help you, then let’s talk. You can [download my CV here][1], and email me at <ian@iannelson.systems>.
 
  [1]: https://files.iannelson.uk/iannelson.pdf
  [2]: https://www.nhs.uk/nhs-app/

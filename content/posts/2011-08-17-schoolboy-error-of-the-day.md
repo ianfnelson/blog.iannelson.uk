@@ -18,7 +18,7 @@ This dumb mistake just cost me an hour spelunking around in the debugger:
 
 (where source is e.g. &#8220;<http://foo.com/status/all-is-good>&#8220;)
 
-Fortunately the ramifications were picked up in the acceptance tests, but the root cause wasn&#8217;t at all obvious from such a high level.
+Fortunately the ramifications were picked up in the acceptance tests, but the root cause wasn’t at all obvious from such a high level.
 
 Lesson for the day &#8211; code is never too trivial to warrant unit testing.
 

@@ -12,9 +12,9 @@ tags:
 ---
 [Tobin blogged earlier this week][1] about how quality ORM tools like NHibernate make it easier to code to normalized schemas.
 
-Here&#8217;s a corollary for you: The use of ORM tools doesn&#8217;t absolve the need to maintain good database design principles, and even NHibernate won&#8217;t save you from your own stupidity.
+Here’s a corollary for you: The use of ORM tools doesn’t absolve the need to maintain good database design principles, and even NHibernate won’t save you from your own stupidity.
 
-Following an application upgrade release last night, I&#8217;ve spent a disproportionate amount of today trying to debug the following exception, which appeared to originate in an area of the codebase which I personally had heavily modified:
+Following an application upgrade release last night, I’ve spent a disproportionate amount of today trying to debug the following exception, which appeared to originate in an area of the codebase which I personally had heavily modified:
 
 _NHibernate.HibernateException: More than one row with the given identifier was found: 42806, for class: Cmec.Core.Domain.Customer  
 at NHibernate.Loader.Entity.AbstractEntityLoader.Load(ISessionImplementor session, Object id, Object optionalObject, Object optionalId)  
@@ -44,12 +44,12 @@ Got that?  NHibernate is telling me that it has found two customers on the data
 
 Trusting NHibernate as I do, and not generally being the kind of coder who assumes that the technology is to blame, I then spent literally hours digging through my amended code, trying to figure out what nonsense I could be trying to pull that was confusing NHibernate so, but found nothing.
 
-Too late in the day, I dusted down Occam&#8217;s trusty razor, and realised that whilst the main Customers table was correctly enforcing primary keys, I hadn&#8217;t checked the various child tables. Lo and behold, less than a minute later I found the following reference data in an innocuous looking table of referrers:<figure class="kg-card kg-image-card">
+Too late in the day, I dusted down Occam’s trusty razor, and realised that whilst the main Customers table was correctly enforcing primary keys, I hadn’t checked the various child tables. Lo and behold, less than a minute later I found the following reference data in an innocuous looking table of referrers:<figure class="kg-card kg-image-card">
 
 <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/pkviolation.png" class="kg-image" alt loading="lazy" /> </figure> 
 
-Removing the duplicated entry for &#8220;Other&#8221;, which was incorrectly using the same ID as &#8220;Website&#8221;, solved my problems instantly. And needless to say, I&#8217;ve made a note to go add a primary key to that table at the earliest opportunity.
+Removing the duplicated entry for &#8220;Other&#8221;, which was incorrectly using the same ID as &#8220;Website&#8221;, solved my problems instantly. And needless to say, I’ve made a note to go add a primary key to that table at the earliest opportunity.
 
-The moral of this cautionary tale &#8211; using an ORM makes your life as an application developer easier, makes it faster to develop a DAL, and (to a large extent) decouples your application from your choice of database. What it doesn&#8217;t do is allow you to forget the tenets of good database design, in fact as Tobin points out it actually serves to encourage them.
+The moral of this cautionary tale &#8211; using an ORM makes your life as an application developer easier, makes it faster to develop a DAL, and (to a large extent) decouples your application from your choice of database. What it doesn’t do is allow you to forget the tenets of good database design, in fact as Tobin points out it actually serves to encourage them.
 
  [1]: http://www.tobinharris.com/2008/7/28/is-or-m-is-encouraging-db-normalization

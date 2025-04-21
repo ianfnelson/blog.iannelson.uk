@@ -11,7 +11,7 @@ tags:
   - tidy
 
 ---
-A great day bagging the two Munros that make up Beinn a&#8217;Bheithir &#8211; Sgorr Dheargh (1024m) and Sgorr Dhonuill (1001m)<figure class="kg-card kg-gallery-card kg-width-wide"> 
+A great day bagging the two Munros that make up Beinn a’Bheithir &#8211; Sgorr Dheargh (1024m) and Sgorr Dhonuill (1001m)<figure class="kg-card kg-gallery-card kg-width-wide"> 
 
 <div class="kg-gallery-container">
   <div class="kg-gallery-row">

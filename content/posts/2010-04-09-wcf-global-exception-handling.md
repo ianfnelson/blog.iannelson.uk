@@ -18,7 +18,7 @@ One of the things I wanted to achieve was to ensure that any unhandled exception
 
 <!--kg-card-end: html-->
 
-Here&#8217;s the relevant line from my Windsor configuration:
+Here’s the relevant line from my Windsor configuration:
 
 <!--kg-card-begin: html-->
 

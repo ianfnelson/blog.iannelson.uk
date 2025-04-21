@@ -21,9 +21,9 @@ To answer that question I sorely wanted to write another &#8220;list post&#8221;
 
 ## NCrunch Saves Me Time {#ncrunch-saves-me-time.wp-block-heading}
 
-I missed out on the age of the punchcard, thank goodness. I don&#8217;t think I could have coped with the torpid feedback cycles that software developers of that era had to endure. Bob Martin describes the multi-day process entertainingly in his excellent book [_The Clean Coder_][3] &#8211; programs written on coding forms with a #2 pencil, typed up by key-punchers, desk-checked, loaded by the computer operators, and ultimately returned wrapped in a rubber band with a printout showing a compile error. It must have been utterly soul-destroying.
+I missed out on the age of the punchcard, thank goodness. I don’t think I could have coped with the torpid feedback cycles that software developers of that era had to endure. Bob Martin describes the multi-day process entertainingly in his excellent book [_The Clean Coder_][3] &#8211; programs written on coding forms with a #2 pencil, typed up by key-punchers, desk-checked, loaded by the computer operators, and ultimately returned wrapped in a rubber band with a printout showing a compile error. It must have been utterly soul-destroying.
 
-Despite having started my own software development career a couple of decades after the use of punchcards died out, I have still been witness to several advancements that have reduced feedback cycle time, enabling complex yet high-quality systems to be developed and enhanced in a fraction of the time that was once possible. I&#8217;m thinking of techniques such as [static code analysis][4], continuous integration, continuous delivery and of course the widespread adoption of automated testing.
+Despite having started my own software development career a couple of decades after the use of punchcards died out, I have still been witness to several advancements that have reduced feedback cycle time, enabling complex yet high-quality systems to be developed and enhanced in a fraction of the time that was once possible. I’m thinking of techniques such as [static code analysis][4], continuous integration, continuous delivery and of course the widespread adoption of automated testing.
 
 ### NCrunch Facilitates the TDD Discipline {#ncrunch-facilitates-the-tdd-discipline.wp-block-heading}
 
@@ -31,7 +31,7 @@ Done well, Test-Driven Development is a powerful, professional, technique that a
 
 <ol class="wp-block-list">
   <li>
-    Write a test that doesn&#8217;t compile.
+    Write a test that doesn’t compile.
   </li>
   <li>
     Try to compile the code.
@@ -89,7 +89,7 @@ But consider what this process is like when the tooling does all the grunt work 
 
 <ol class="wp-block-list">
   <li>
-    Write a test that doesn&#8217;t compile.
+    Write a test that doesn’t compile.
   </li>
   <li>
     Write a stub member to make the test compile.
@@ -134,9 +134,9 @@ If you really want to see overall metrics for the solutions, NCrunch also provid
   <figure class="aligncenter"><a href="https://blog.iannelson.uk/wp-content/uploads/2023/08/NCrunchMetrics.png"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/NCrunchMetrics.png" alt="" /></a></figure>
 </div>
 
-### NCrunch Doesn&#8217;t Make Me Hunt For Error Messages {#ncrunch-doesn-t-make-me-hunt-for-error-messages.wp-block-heading}
+### NCrunch Doesn’t Make Me Hunt For Error Messages {#ncrunch-doesn-t-make-me-hunt-for-error-messages.wp-block-heading}
 
-When my code fails a test assertion, or even when it fails to compile, the reasons, just like the code-coverage data, are right there in my face, almost immediately. I don&#8217;t have to go hunting for the problem, I can access the compiler errors or stack traces for failed assertions without leaving the window in which I&#8217;m coding.
+When my code fails a test assertion, or even when it fails to compile, the reasons, just like the code-coverage data, are right there in my face, almost immediately. I don’t have to go hunting for the problem, I can access the compiler errors or stack traces for failed assertions without leaving the window in which I’m coding.
 
 <div class="wp-block-image">
   <figure class="aligncenter"><a href="https://blog.iannelson.uk/wp-content/uploads/2023/08/NCrunchExceptions.png"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/NCrunchExceptions.png" alt="" /></a></figure>
@@ -160,7 +160,7 @@ Given the existence of appropriate tests, this means that my attention is drawn 
 
 ### NCrunch is Super-Configurable {#ncrunch-is-super-configurable.wp-block-heading}
 
-Constant background compiling and test running obviously requires some significant computing resources. Fortunately, NCrunch is super-configurable in this regard. It&#8217;s easy to specify such things as the number of CPU cores that should be assigned to NCrunch, and the maximum number of processing threads. Not _all_ the tests have to be run continuously &#8211; tests irrelevant to the work being undertaken can be ignored, or NCrunch can intelligently execute only those tests it determines are affected by changes.
+Constant background compiling and test running obviously requires some significant computing resources. Fortunately, NCrunch is super-configurable in this regard. It’s easy to specify such things as the number of CPU cores that should be assigned to NCrunch, and the maximum number of processing threads. Not _all_ the tests have to be run continuously &#8211; tests irrelevant to the work being undertaken can be ignored, or NCrunch can intelligently execute only those tests it determines are affected by changes.
 
 Today I was working on a small corner of a large .NET solution (60+ projects), so I deliberately told NCrunch to ignore most of those compo  
 nents entirely, leaving it free to devote all its attention on the few assemblies I was currently enhancing. This resulted in faster feedback, saving me time!
@@ -177,11 +177,11 @@ nents entirely, leaving it free to devote all its attention on the few assemblie
   <figure class="aligncenter"><a href="https://blog.iannelson.uk/wp-content/uploads/2023/08/NCrunchConfig2.png"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/NCrunchConfig2.png" alt="" /></a></figure>
 </div>
 
-### NCrunch Lets Me Utilise Other Computers&#8217; Resources {#ncrunch-lets-me-utilise-other-computers-resources.wp-block-heading}
+### NCrunch Lets Me Utilise Other Computers’ Resources {#ncrunch-lets-me-utilise-other-computers-resources.wp-block-heading}
 
 The latest version of NCrunch even lets me utilise the resources of any other computers or VMs that I may have at my disposal, enslaving them into my army of code compilers and test runners &#8211; buwahahahaha!
 
-In the screenshots below you can see that I&#8217;ve sneakily added my kids&#8217; laptop as another node in my NCrunch cluster, to offload some of the work from my development machine.
+In the screenshots below you can see that I’ve sneakily added my kids’ laptop as another node in my NCrunch cluster, to offload some of the work from my development machine.
 
 <div class="wp-block-image">
   <figure class="aligncenter"><a href="https://blog.iannelson.uk/wp-content/uploads/2023/08/NCrunchDistributed.png"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/NCrunchDistributed.png" alt="" /></a></figure>
@@ -189,7 +189,7 @@ In the screenshots below you can see that I&#8217;ve sneakily added my kids&#821
 
 ### What More Can I Say? {#what-more-can-i-say.wp-block-heading}
 
-NCrunch rocks. It has spoiled me for IDEs that don&#8217;t offer continuous compilation and testing functionality. The effortless manner in which it gives me feedback on the code and tests that I write every day is one of the things that keeps me interested in improving my .NET development skills after well over a decade at the code face.
+NCrunch rocks. It has spoiled me for IDEs that don’t offer continuous compilation and testing functionality. The effortless manner in which it gives me feedback on the code and tests that I write every day is one of the things that keeps me interested in improving my .NET development skills after well over a decade at the code face.
 
 _Disclaimer: Neither Ian Nelson nor Ian Nelson Systems Limited have received any incentive or inducement to publish the commentary above. We have no material connection with Remco Mulder or Remco Software, other than as paying customers of the NCrunch product. Some of the links in this post contain our Amazon Associates ID, and we may receive commission if you make a purchase through them._
 

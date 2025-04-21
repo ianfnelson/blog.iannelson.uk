@@ -10,12 +10,12 @@ tags:
   - tidy
 
 ---
-&#8220;Jingle Knockers&#8221; isn&#8217;t exactly a phrase that inspires confidence, but this 5.5% ABV from [Skinner&#8217;s Brewery][1] in Cornwall is really good, definitely on a par with the stuff I&#8217;ve tried from Hambleton Ales and the Harviestoun Brewery.  Smooth and strong, with subtle hints of Christmas pud &#8211; mmmm&#8230;
+&#8220;Jingle Knockers&#8221; isn’t exactly a phrase that inspires confidence, but this 5.5% ABV from [Skinner’s Brewery][1] in Cornwall is really good, definitely on a par with the stuff I’ve tried from Hambleton Ales and the Harviestoun Brewery.  Smooth and strong, with subtle hints of Christmas pud &#8211; mmmm&#8230;
 
-Oh, and if you&#8217;re still confused by that name, the label handily explains all:
+Oh, and if you’re still confused by that name, the label handily explains all:
 
-> _&#8220;Known as the Tin Mine Fairies, the Cornish Knockers used to guide the miners to the rich veins of ore by knocking.  With the demise of mining over the years, many knockers have ;returned to grass&#8217; where, in disguise, they help with the brewing of their ales.&#8221;_
+> _&#8220;Known as the Tin Mine Fairies, the Cornish Knockers used to guide the miners to the rich veins of ore by knocking.  With the demise of mining over the years, many knockers have ;returned to grass’ where, in disguise, they help with the brewing of their ales.&#8221;_
 
-So there you go!  Gosh, isn&#8217;t drinking beer every day educational?
+So there you go!  Gosh, isn’t drinking beer every day educational?
 
  [1]: http://www.skinnersbrewery.com/

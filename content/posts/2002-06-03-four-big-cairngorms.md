@@ -14,11 +14,11 @@ tags:
 Four big ones in the bag, thanks to an overnight stay at Corrour Bothy:
 
   * Braeriach (1296m)
-  * The Devil&#8217;s Point (Bod an Deamhain) (1004m)
+  * The Devil’s Point (Bod an Deamhain) (1004m)
   * Cairn Toul (1291m)
   * Sgor an Lochain Uaine (1258m)
 
-It was at some point on this day that my Nokia 5510, won during last year&#8217;s [Nokia Game][1], got wet and died.<figure class="kg-card kg-gallery-card kg-width-wide"> 
+It was at some point on this day that my Nokia 5510, won during last year’s [Nokia Game][1], got wet and died.<figure class="kg-card kg-gallery-card kg-width-wide"> 
 
 <div class="kg-gallery-container">
   <div class="kg-gallery-row">

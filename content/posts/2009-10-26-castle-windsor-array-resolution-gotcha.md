@@ -22,7 +22,7 @@ I’m using Castle Windsor for dependency management, so I’ve been fluently re
 
 Easy, right? And yet at runtime Windsor surprised me by throwing this exception in my face:
 
-> Castle.MicroKernel.Handlers.HandlerException: Can&#8217;t create component &#8216;Marshalls.Leads.ApplicationService.LeadAllocationService&#8217; as it has dependencies to be satisfied.
+> Castle.MicroKernel.Handlers.HandlerException: Can’t create component &#8216;Marshalls.Leads.ApplicationService.LeadAllocationService’ as it has dependencies to be satisfied.
 > 
 > Marshalls.Leads.ApplicationService.LeadAllocationService is waiting for the following dependencies:
 > 

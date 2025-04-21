@@ -18,7 +18,7 @@ One of the multiple hats that I’m currently wearing for a client is that of SQ
 
 and
 
-> “If user A corrupts data entry in some way, and needs to go back to a version X of the database before the corruption, will user B also have to go back to version X and potentially lose any &#8216;good&#8217; they themselves might have added since version X?”
+> “If user A corrupts data entry in some way, and needs to go back to a version X of the database before the corruption, will user B also have to go back to version X and potentially lose any &#8216;good’ they themselves might have added since version X?”
 
 I replied explaining that this is one of the many reasons for choosing SQL Server to provide the database back-end for critical applications, rather than, say, Access (don’t get me started on the prevalence of Access in mission-critical applications, it’s a bit of a bugbear).
 

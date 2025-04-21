@@ -27,7 +27,7 @@ Look no further! As luck would have it, legendary Leeds-based freelance software
 
 Just take a look at the out-of-the-box features you can expect from an Ian Nelson:
 
-  * Freelance Professional Software Developer with 14 years&#8217; experience across the full product lifecycle.
+  * Freelance Professional Software Developer with 14 years’ experience across the full product lifecycle.
   * Strong proven skills in database design, domain object modelling and enterprise integration techniques.
   * Hands-On Coder with a penchant for developing maintainable, loosely-coupled OO architectures.
   * Effective client-facing skills; has led analysis, design and development of successful high-profile projects.
@@ -67,7 +67,7 @@ Languages, technologies and methodologies used will be subject to naturalvarianc
 
 <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/iStock_000012308930XSmall.jpg" class="kg-image" alt="Business people raising champagne glasses" loading="lazy" /> </figure> 
 
-Don&#8217;t just take our word for it! Listen to the experiences of other satisfied customers:
+Don’t just take our word for it! Listen to the experiences of other satisfied customers:
 
 > &#8220;Ian is one of the most hard working and professional individuals that I have had the pleasure to work with. His methodical approach allows him to digest the problem put before him prior to making a reasoned and rational suggestion.
 
@@ -93,7 +93,7 @@ Paul Campbell, Director, [Decorated World][2]
 
 Nick Porthouse, Development Manager, [NHS Choices][3]
 
-> &#8220;You&#8217;re good at solving problems, Daddy.&#8221;
+> &#8220;You’re good at solving problems, Daddy.&#8221;
 
 Ben Nelson (aged 4)
 
@@ -101,11 +101,11 @@ Every Ian Nelson arrives fully charged and ready to code, with no batteries or a
 
 <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/ian_on_a_card.jpg" class="kg-image" alt="Ian F. Nelson - on a box!" loading="lazy" /> </figure> 
 
-### But that&#8217;s not all! {#but-that-s-not-all-}
+### But that’s not all! {#but-that-s-not-all-}
 
 Order today and your shiny new Ian Nelson will arrive complete with his own coffee, index cards, kanban avatar, Pukka pad and high-powered eight-core Dell Precision laptop, installed with fully licensed development software and ready to cut high quality test-driven code before you can say &#8220;how about a nice game of Planning Poker Dr Falken?&#8221;
 
-If you owe it to yourself, your project and your stakeholders to deliver the most effective, bug-free, performant, scalable and maintainable solution possible, then you need an Ian Nelson on your team. But remember &#8211; this offer is _not_ available in the shops! Don&#8217;t delay &#8211; call today! Our trained operators are waiting to take your call  
+If you owe it to yourself, your project and your stakeholders to deliver the most effective, bug-free, performant, scalable and maintainable solution possible, then you need an Ian Nelson on your team. But remember &#8211; this offer is _not_ available in the shops! Don’t delay &#8211; call today! Our trained operators are waiting to take your call  
 &#8230;
 
 #### 07901 828483 &#8211; <a>ian@iannelson.systems</a> {#07901-828483-ian-iannelson-systems}

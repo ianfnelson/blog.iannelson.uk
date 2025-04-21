@@ -12,9 +12,9 @@ tags:
 ---
 <!--kg-card-begin: html-->
 
-For months now, I&#8217;ve been desperate for a decent excuse to make a custom ASP.NET server control, so I was secretly pleased today when a CustomValidator originally coded for use on a single page was required elsewhere.
+For months now, I’ve been desperate for a decent excuse to make a custom ASP.NET server control, so I was secretly pleased today when a CustomValidator originally coded for use on a single page was required elsewhere.
 
-It&#8217;s surprisingly easy to do, although it took me a while to find a decent example online, which eventually came courtesy of the [4GuysFromRolla][1]. In my particular scenario, I needed to check that the text entered into a TextBox did not equal any of a selection of "banned" strings (which was available via a static property on another class).
+It’s surprisingly easy to do, although it took me a while to find a decent example online, which eventually came courtesy of the [4GuysFromRolla][1]. In my particular scenario, I needed to check that the text entered into a TextBox did not equal any of a selection of "banned" strings (which was available via a static property on another class).
 
 Having added a new custom web control, deriving from BaseValidator, my first task was therefore to ensure that the control being validated really was a TextBox &#8211; this was done by overriding the `ControlPropertiesValid()` method:
 

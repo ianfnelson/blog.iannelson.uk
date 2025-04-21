@@ -15,9 +15,9 @@ categories:
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
 Ben: &#8220;Ian, Ian!&#8221;  
-Me: &#8220;Ben, I&#8217;m &#8216;Daddy&#8217; to you.&#8221;  
-Ben (quizzically): &#8220;But you are &#8216;Ian&#8217; as well.&#8221;  
-Me: &#8220;Yes, I know that, but I&#8217;d prefer it if you called me &#8216;Daddy&#8217;.&#8221;  
+Me: &#8220;Ben, I’m &#8216;Daddy’ to you.&#8221;  
+Ben (quizzically): &#8220;But you are &#8216;Ian’ as well.&#8221;  
+Me: &#8220;Yes, I know that, but I’d prefer it if you called me &#8216;Daddy’.&#8221;  
 Ben: &#8220;Oh. Sorry, Ian!&#8221;
 
 _August 2010_
@@ -25,8 +25,8 @@ _August 2010_
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
 Ben: &#8220;Can I have _another_ bedtime story Dad?&#8221;  
-Me: &#8220;Not tonight Ben, it&#8217;s too late and you&#8217;re too tired.&#8221;  
-Ben: &#8220;I&#8217;m not, I&#8217;m not, grumbled Ben!&#8221;
+Me: &#8220;Not tonight Ben, it’s too late and you’re too tired.&#8221;  
+Ben: &#8220;I’m not, I’m not, grumbled Ben!&#8221;
 
 _August 2010_
 
@@ -39,22 +39,22 @@ Ian: &#8220;Say that again?&#8221;
 Ben: &#8220;I can hear your brains!&#8221;  
 Ian: &#8220;You can hear my \*brains\*? How?&#8221;  
 Ben: &#8220;Through the holes on your head!&#8221;  
-Jocelyn: &#8220;So, what does Daddy&#8217;s brain sound like?&#8221;  
-Ben: &#8220;It&#8217;s \*really\* loud!&#8221;  
+Jocelyn: &#8220;So, what does Daddy’s brain sound like?&#8221;  
+Ben: &#8220;It’s \*really\* loud!&#8221;  
 Ian: &#8220;You got that right. Eat your pasta.&#8221;
 
 _August 2010_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
-Ben: &#8220;I&#8217;ve done a poo! It is a polar-bear-shaped poo!&#8221;
+Ben: &#8220;I’ve done a poo! It is a polar-bear-shaped poo!&#8221;
 
 _August 2010_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
-Me: &#8220;I love you, Ben. I always wanted a son, I&#8217;m glad you came along.&#8221;  
-Ben: &#8220;Yes, Dad. I was just walking along the road, wasn&#8217;t I? I saw you and thought &#8216;He can be my Daddy&#8217;. And I came in the house and took my shoes off.&#8221;
+Me: &#8220;I love you, Ben. I always wanted a son, I’m glad you came along.&#8221;  
+Ben: &#8220;Yes, Dad. I was just walking along the road, wasn’t I? I saw you and thought &#8216;He can be my Daddy’. And I came in the house and took my shoes off.&#8221;
 
 _November 2010_
 
@@ -72,7 +72,7 @@ _December 2010_
 
 At Newmillerdam country park:
 
-Ben: &#8220;AAAaaargh! It&#8217;s a crocodile!!!! Oh, no&#8230; it&#8217;s just a duck.&#8221;
+Ben: &#8220;AAAaaargh! It’s a crocodile!!!! Oh, no&#8230; it’s just a duck.&#8221;
 
 _April 2011_
 
@@ -92,19 +92,19 @@ _April 2011_
 
 On taking a break from reading a book:
 
-Ben: &#8220;I&#8217;m just going to pause my book.&#8221;
+Ben: &#8220;I’m just going to pause my book.&#8221;
 
 _May 2011_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
-Ben: &#8220;My brain can&#8217;t let me sleep!&#8221;
+Ben: &#8220;My brain can’t let me sleep!&#8221;
 
 _June 2011_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
-On being told that we&#8217;re going on holiday to The Netherlands:
+On being told that we’re going on holiday to The Netherlands:
 
 Ben: &#8220;Where Peter Pan comes from?!&#8221;
 
@@ -124,7 +124,7 @@ _July 2011_<figure class="wp-block-image">
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
-Ben: &#8220;I can&#8217;t sleep! I&#8217;ve got thirty-nine bits of energy!&#8221;
+Ben: &#8220;I can’t sleep! I’ve got thirty-nine bits of energy!&#8221;
 
 _July 2011_
 
@@ -140,8 +140,8 @@ _December 2011_
 
 In the bath:
 
-Ben: &#8220;I&#8217;ve got a BOMB! With flipper-hitters!!&#8221;  
-Me: &#8220;Ben, that&#8217;s a duck.&#8221;
+Ben: &#8220;I’ve got a BOMB! With flipper-hitters!!&#8221;  
+Me: &#8220;Ben, that’s a duck.&#8221;
 
 Are all four-year-old boys like this?
 
@@ -153,9 +153,9 @@ _February 2011_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
-Me: &#8220;Ben, please stop replying to everything I say with &#8216;Yeah, but&#8230;&#8217;.&#8221;  
+Me: &#8220;Ben, please stop replying to everything I say with &#8216;Yeah, but&#8230;’.&#8221;  
 Ben: &#8220;Well, what can I say instead?&#8221;  
-Me: &#8220;How about &#8216;OK Dad&#8217;?&#8221;  
+Me: &#8220;How about &#8216;OK Dad’?&#8221;  
 Ben: &#8220;OK Dad but&#8230;&#8221;
 
 _March 2011_
@@ -164,8 +164,8 @@ _March 2011_
 
 Ben: &#8220;DAD! Can I have some cheese?&#8221;  
 Me: &#8220;OK.&#8221;  
-Ben: &#8220;And when you&#8217;re done getting my cheese, can you put a show on TV for me, &#8216;cos there are commercials on.&#8221;  
-Me: &#8220;Oh OK, we can&#8217;t have you watching commercials, we know how susceptible you are! What are the commercials talking about?&#8221;  
+Ben: &#8220;And when you’re done getting my cheese, can you put a show on TV for me, &#8216;cos there are commercials on.&#8221;  
+Me: &#8220;Oh OK, we can’t have you watching commercials, we know how susceptible you are! What are the commercials talking about?&#8221;  
 Ben: &#8220;Cheese.&#8221;
 
 _March 2011_
@@ -180,8 +180,8 @@ _December 2011_
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
 Isla: &#8220;What are you doing, Mummy?&#8221;  
-Joce: &#8220;Just holding Daddy&#8217;s hand.&#8221;  
-Isla: &#8220;So that he doesn&#8217;t run away?&#8221;
+Joce: &#8220;Just holding Daddy’s hand.&#8221;  
+Isla: &#8220;So that he doesn’t run away?&#8221;
 
 _January 2012_
 
@@ -189,7 +189,7 @@ _January 2012_
 
 I spent a good ten minutes this evening reading Isla a Ladybird book about Vikings. Their culture, food, tools where they came from, etc. The last page posed the question &#8220;What would you do if you were a Viking?&#8221;
 
-Isla considered this briefly, then suggested &#8220;Play &#8216;Angry Birds&#8217;?&#8221;
+Isla considered this briefly, then suggested &#8220;Play &#8216;Angry Birds’?&#8221;
 
 _February 2012_
 
@@ -211,7 +211,7 @@ _May 2012_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
-Isla&#8217;s latest suggested name for her younger brother: &#8220;Yehudi Poo Tentacle&#8221;. Might veto that one&#8230;
+Isla’s latest suggested name for her younger brother: &#8220;Yehudi Poo Tentacle&#8221;. Might veto that one&#8230;
 
 _June 2012_
 
@@ -219,10 +219,10 @@ _June 2012_
 <figure class="wp-block-image">
 <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/475070_10150700652220708_880756091_o_10150700652220708.jpg" alt="" /> </figure> 
 
-Ben: &#8220;Hey Dad, in about three more birthdays you&#8217;ll be nearly 40&#8221;  
-Me: &#8220;That&#8217;s right Ben. It&#8217;s a bit scary really.&#8221;  
-Ben: &#8220;Yeah, and I know why you&#8217;re  
-scared. &#8216;Cos you&#8217;ll be closer to dying.&#8221;
+Ben: &#8220;Hey Dad, in about three more birthdays you’ll be nearly 40&#8221;  
+Me: &#8220;That’s right Ben. It’s a bit scary really.&#8221;  
+Ben: &#8220;Yeah, and I know why you’re  
+scared. &#8216;Cos you’ll be closer to dying.&#8221;
 
 😐
 
@@ -247,18 +247,18 @@ _June 2012_
 
 On buying a second car:
 
-Ben: &#8220;There&#8217;s no stopping us now!&#8221;
+Ben: &#8220;There’s no stopping us now!&#8221;
 
 _September 2012_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
 Me: &#8220;So tell me about your new swimming instructor. Is it a lady or a man?&#8221;  
-Ben: &#8220;Well, for the undeep bit it&#8217;s a&#8230;&#8221;  
+Ben: &#8220;Well, for the undeep bit it’s a&#8230;&#8221;  
 Me: &#8220;The what? The undie bit?&#8221;  
 Ben: &#8220;The UNDEEP bit of the pool.&#8221;  
-Me: &#8220;Oh, I see &#8211; we call that the &#8216;shallow&#8217; end.&#8221;  
-Ben: &#8220;OK. For the shallow bit of the pool it&#8217;s a lady. For the unshallow bit it&#8217;s a man.&#8221;
+Me: &#8220;Oh, I see &#8211; we call that the &#8216;shallow’ end.&#8221;  
+Ben: &#8220;OK. For the shallow bit of the pool it’s a lady. For the unshallow bit it’s a man.&#8221;
 
 _September 2012_
 
@@ -292,7 +292,7 @@ _October 2012_
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
 Isla: &#8220;Daddy, what are manners?&#8221;  
-Me: &#8220;Manners tell us how to behave nicely, to say &#8216;please&#8217; and &#8216;thank you&#8217;, how to eat our meals politely, that kind of thing.&#8221;  
+Me: &#8220;Manners tell us how to behave nicely, to say &#8216;please’ and &#8216;thank you’, how to eat our meals politely, that kind of thing.&#8221;  
 Isla: &#8220;Are you and mummy my manners?&#8221;
 
 _October 2012_
@@ -335,7 +335,7 @@ _November 2012_
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
 Ben: &#8220;Is that a brain in the microwave? Are we having brains for dinner?!&#8221;  
-Jocelyn: &#8220;No Ben, I&#8217;m defrosting mince!!&#8221;
+Jocelyn: &#8220;No Ben, I’m defrosting mince!!&#8221;
 
 _December 2012_
 
@@ -343,7 +343,7 @@ _December 2012_
 
 Isla shouted for me twice in the night, complaining that she was being plagued by &#8220;fairy bumblebees&#8221; that were trying to peel her skin off.  
 During the day today, I quizzed her as to why she shouted for me and not Jocelyn Nelson.  
-&#8220;Because you&#8217;re better at it,&#8221; she told me.  
+&#8220;Because you’re better at it,&#8221; she told me.  
 &#8220;Better at what?&#8221; I asked.  
 &#8220;Killing the fairy bumblebees!&#8221; she replied.
 
@@ -357,8 +357,8 @@ _January 2013_
 
 Jocelyn: &#8220;OK kids, keep your eyes out for a parent and child parking space!&#8221;  
 Isla (giggling): &#8220;I know you are just joking mum! You are funny!&#8221;  
-Me: &#8220;What&#8217;s so funny, Isla?&#8221;  
-Isla: &#8220;They don&#8217;t really have parrot and child spaces!&#8221;
+Me: &#8220;What’s so funny, Isla?&#8221;  
+Isla: &#8220;They don’t really have parrot and child spaces!&#8221;
 
 _February 2013_
 
@@ -392,7 +392,7 @@ _March 2013_
 
 On Disney Junior now transmitting in High Definition:
 
-Isla: &#8220;They&#8217;ve cleaned out the telly, Dad!&#8221;
+Isla: &#8220;They’ve cleaned out the telly, Dad!&#8221;
 
 _April 2013_
 
@@ -412,7 +412,7 @@ _May 2013_
 Ben: &#8220;Dad, please can you buy me a cherry pie?&#8221;  
 Me: &#8220;Sure.. do you like  
 cherries?&#8221;  
-Ben: &#8220;Oh, it&#8217;s not a food &#8211; it&#8217;s a computer.&#8221;  
+Ben: &#8220;Oh, it’s not a food &#8211; it’s a computer.&#8221;  
 Me: &#8220;Do you mean a Raspberry Pi?&#8221;  
 Ben: &#8220;Yeah!&#8221;
 
@@ -421,14 +421,14 @@ _May 2013_
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
 Jocelyn: &#8220;Thank you for letting me sleep in.&#8221;  
-Isla: &#8220;You&#8217;re welcome Mummy. It is too cold and rainy to sleep out.&#8221;
+Isla: &#8220;You’re welcome Mummy. It is too cold and rainy to sleep out.&#8221;
 
 _May 2013_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
 Jocelyn: &#8220;This table is filthy! Sultana bran, Weetabix, Rice Krispies&#8230; you name it, Isla has spilled it!&#8221;  
-Isla (thoughtfully): &#8220;I shall name it &#8216;Sandra&#8217;.&#8221;
+Isla (thoughtfully): &#8220;I shall name it &#8216;Sandra’.&#8221;
 
 _June 2013_
 
@@ -447,7 +447,7 @@ _July 2013_
 
 Ben: &#8220;If you drop a piece of food on the floor for less than five seconds, you can still eat it.&#8221;  
 Me: &#8220;Uh-huh. Where did you learn that?&#8221;  
-Ben: &#8220;At Beavers, when we were doing our &#8216;Healthy Eating&#8217; badge.&#8221;
+Ben: &#8220;At Beavers, when we were doing our &#8216;Healthy Eating’ badge.&#8221;
 
 _August 2013_
 
@@ -470,7 +470,7 @@ _October 2013_
 
 Benjamin took his favourite book into school today to share with his class at &#8220;Show and Tell&#8221;.
 
-Me: &#8220;What did your class think of &#8216;The Odyssey&#8217;, Ben?&#8221;  
+Me: &#8220;What did your class think of &#8216;The Odyssey’, Ben?&#8221;  
 Ben: &#8220;They thought it was epic!&#8221;
 
 _October 2013_
@@ -488,7 +488,7 @@ _November 2013_
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
 Me: &#8220;Ben, your behavior today is not good for my blood pressure. Do you want me to die young?!&#8221;  
-Ben: &#8220;Ah, don&#8217;t be silly Dad &#8211; you&#8217;re not young!&#8221;
+Ben: &#8220;Ah, don’t be silly Dad &#8211; you’re not young!&#8221;
 
 _November 2013_
 
@@ -511,16 +511,16 @@ _January 2014_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
-Me: &#8220;&#8230;and when we&#8217;re on holiday in Spain, people will talk a foreign language.&#8221;  
-Ben: &#8220;[friend] in my class makes the teacher feel like she&#8217;s talking a foreign language!&#8221;
+Me: &#8220;&#8230;and when we’re on holiday in Spain, people will talk a foreign language.&#8221;  
+Ben: &#8220;[friend] in my class makes the teacher feel like she’s talking a foreign language!&#8221;
 
 _January 2014_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
-On the reason for Team GB&#8217;s impressive Snowboarding performance in the winter Olympics, despite the relative lack of snow and mountains on this sceptered isle:
+On the reason for Team GB’s impressive Snowboarding performance in the winter Olympics, despite the relative lack of snow and mountains on this sceptered isle:
 
-Ben: &#8220;I guess they had a Wii when they were younger and played the Snow Resort bit of &#8216;Go Vacation&#8217; a lot!&#8221;
+Ben: &#8220;I guess they had a Wii when they were younger and played the Snow Resort bit of &#8216;Go Vacation’ a lot!&#8221;
 
 _February 2014_
 
@@ -529,13 +529,13 @@ _February 2014_
 Me: &#8220;Good morning Matthew!&#8221;  
 Matthew: &#8220;Poo.&#8221;
 
-Ah wonderful, we&#8217;ve taught another one to communicate.
+Ah wonderful, we’ve taught another one to communicate.
 
 _February 2014_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
-Ben&#8217;s homework was to write sentences containing a comparative adjective and a connective. He came up with the following:
+Ben’s homework was to write sentences containing a comparative adjective and a connective. He came up with the following:
 
 &#8220;Mum is old but Dad is older.&#8221;
 
@@ -555,16 +555,16 @@ _March 2014_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
-Isla: &#8220;Pluto isn&#8217;t a planet any more, is it?&#8221;  
-Ben: &#8220;No, it&#8217;s an elf planet&#8221;  
+Isla: &#8220;Pluto isn’t a planet any more, is it?&#8221;  
+Ben: &#8220;No, it’s an elf planet&#8221;  
 Me: &#8220;I think you mean a dwarf planet Son&#8230;&#8221;
 
 _March 2014_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
-Me: &#8220;Time to get up Ben! It&#8217;s Thursday!&#8221;  
-Ben: &#8220;Thursday is dead and I&#8217;m its bones.&#8221;
+Me: &#8220;Time to get up Ben! It’s Thursday!&#8221;  
+Ben: &#8220;Thursday is dead and I’m its bones.&#8221;
 
 _March 2014_
 
@@ -573,7 +573,7 @@ _March 2014_
 On a day trip to Bridlington beach:
 
 Isla: &#8220;Oh mummy, I like this rock with all the pretty colours!&#8221;  
-Jocelyn Nelson &#8220;Isla, that&#8217;s a lump of concrete..&#8221;
+Jocelyn Nelson &#8220;Isla, that’s a lump of concrete..&#8221;
 
 _April 2014_
 
@@ -583,7 +583,7 @@ _April 2014_
 
 Me: &#8220;Good morning Isla&#8221;  
 Isla: &#8220;Hi Daddy! I am going to have a good birthday today!&#8221;  
-Me: &#8220;It&#8217;s your birthday tomorrow, it&#8217;s your party today.&#8221;  
+Me: &#8220;It’s your birthday tomorrow, it’s your party today.&#8221;  
 Isla: &#8220;Oh. Which one do I get cake on?&#8221;
 
 _April 2014_
@@ -592,13 +592,13 @@ _April 2014_
 <figure class="wp-block-image">
 <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/10295493_10152367586975708_3317887003908456461_o_10152367586975708.jpg" alt="" /> </figure> 
 
-Ben&#8217;s homework &#8211; think of ten verbs and write sentences containing them.
+Ben’s homework &#8211; think of ten verbs and write sentences containing them.
 
 _May 2014_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
-I went into Ben&#8217;s room to find that 21-month old Matthew had managed to climb up into Ben&#8217;s high-sleeper cabin bed.
+I went into Ben’s room to find that 21-month old Matthew had managed to climb up into Ben’s high-sleeper cabin bed.
 
 &#8220;Matthew Henry, how did you get up there?!&#8221; I asked with mock exasperation.
 
@@ -611,7 +611,7 @@ _June 2014_
 
 When the broken printer that I offered on FreeCycle failed to garner any interest:
 
-Ben: &#8220;Ah Dad, why don&#8217;t you say how good it  
+Ben: &#8220;Ah Dad, why don’t you say how good it  
 is for storing paper?&#8221;
 
 Clearly a glittering future in marketing awaits.
@@ -626,7 +626,7 @@ _June 2014_
 
 Matthew: &#8220;Momma &#8211; more chips, please?&#8221;
 
-It&#8217;s amazing what polite linguistics one-year-olds are capable of given sufficient incentive.
+It’s amazing what polite linguistics one-year-olds are capable of given sufficient incentive.
 
 _July 2014_
 
@@ -634,8 +634,8 @@ _July 2014_
 
 Isla: &#8220;¡Hola! Konichiwa! Edinburgh rock!&#8221;
 
-One week in to our vacation, Isla&#8217;s Spanish is still somewhat lacking.  
-Ben, meanwhile, has mastered &#8220;patatas fritas&#8221; so he&#8217;ll survive.
+One week in to our vacation, Isla’s Spanish is still somewhat lacking.  
+Ben, meanwhile, has mastered &#8220;patatas fritas&#8221; so he’ll survive.
 
 _August 2014_
 
@@ -651,7 +651,7 @@ _August 2014_
 <figure class="wp-block-image">
 <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/995635_10152574091740708_8556886903154634058_n_10152574091740708.jpg" alt="" /> </figure> 
 
-At home we keep a bunch of Thomas The Tank Engine track inside a large footstool. Here&#8217;s a photo of a frustrated Matthew discovering that not all footstools in the universe possess this property. &#8220;Track!!!&#8221;
+At home we keep a bunch of Thomas The Tank Engine track inside a large footstool. Here’s a photo of a frustrated Matthew discovering that not all footstools in the universe possess this property. &#8220;Track!!!&#8221;
 
 _August 2014_
 
@@ -659,9 +659,9 @@ _August 2014_
 
 Me: &#8220;Isla, your bagel is ready!&#8221;  
 Matthew runs into the kitchen.  
-Me: &#8220;You&#8217;re not Isla. You&#8217;re Matthew.&#8221;  
+Me: &#8220;You’re not Isla. You’re Matthew.&#8221;  
 Isla walks into the kitchen.  
-Isla: &#8220;I&#8217;m Isla.&#8221;  
+Isla: &#8220;I’m Isla.&#8221;  
 Matthew turns, pushes his sister.  
 Matthew: &#8220;YOU ARE NOT ISLA! I AM ISLA!&#8221;
 
@@ -673,7 +673,7 @@ _March 2015_
 <figure class="wp-block-image">
 <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/11043112_10153079109365708_4955701106772570631_o_10153079109365708.jpg" alt="" /> </figure> 
 
-Ben was uncertain as to the level of formality required when signing a Mother&#8217;s Day card.
+Ben was uncertain as to the level of formality required when signing a Mother’s Day card.
 
 _March 2015_
 
@@ -691,7 +691,7 @@ _March 2015_
 <figure class="wp-block-image">
 <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/17082_10153173525840708_4796151281851565154_n_10153173525840708.jpg" alt="" /> </figure> 
 
-Isla: &#8220;I&#8217;ve made a present for you daddy. It&#8217;s a rock, and I&#8217;ve drawn a picture of you on it.&#8221;
+Isla: &#8220;I’ve made a present for you daddy. It’s a rock, and I’ve drawn a picture of you on it.&#8221;
 
 _April 2015_
 
@@ -706,7 +706,7 @@ _May 2015_
 
 Ben: &#8220;Dad, what is this song called?&#8221;  
 Me: &#8220;&#8216;I Am The Resurrection'&#8221;.  
-Ben: &#8220;Ah. Please can you start a &#8216;favourites&#8217; playlist for me and put this on it?&#8221;
+Ben: &#8220;Ah. Please can you start a &#8216;favourites’ playlist for me and put this on it?&#8221;
 
 #parentingWin
 
@@ -726,15 +726,15 @@ _October 2015_
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
 Me: &#8220;What are you drawing this morning?&#8221;  
-Isla: &#8220;What&#8217;s the other one that&#8217;s not heaven?&#8221;  
+Isla: &#8220;What’s the other one that’s not heaven?&#8221;  
 Me: &#8220;Hell?&#8221;  
-Isla: &#8220;Yeah! I&#8217;m gonna draw that funny guy with the horns!&#8221;
+Isla: &#8220;Yeah! I’m gonna draw that funny guy with the horns!&#8221;
 
 _November 2015_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
-Ben: &#8220;I might be a hobo when I&#8217;m older. Or a magistrate.&#8221;
+Ben: &#8220;I might be a hobo when I’m older. Or a magistrate.&#8221;
 
 _February 2016_
 
@@ -742,7 +742,7 @@ _February 2016_
 
 One the artwork for the &#8220;Happy Ash Wednesday&#8221; card she gave to Jocelyn Nelson today:
 
-Isla: &#8220;I didn&#8217;t know what ash looks like, so I&#8217;ve drawn a hedgehog instead.&#8221;
+Isla: &#8220;I didn’t know what ash looks like, so I’ve drawn a hedgehog instead.&#8221;
 
 _February 2016_
 
@@ -762,7 +762,7 @@ _March 2016_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
-Matthew: &#8220;Benny, what&#8217;s your favourite colour?&#8221;  
+Matthew: &#8220;Benny, what’s your favourite colour?&#8221;  
 Ben (instantly): &#8220;Light magenta.&#8221;
 
 _March 2016_
@@ -785,7 +785,7 @@ _March 2016_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
-Me: &#8220;You&#8217;re getting taller Matthew.&#8221;  
+Me: &#8220;You’re getting taller Matthew.&#8221;  
 Matthew: &#8220;Yes, and my bottom is getting bigger!&#8221;
 
 _May 2016_
@@ -814,7 +814,7 @@ _June 2016_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
-Ben: &#8220;Dad, do you know another word for &#8216;pulmonology&#8217;?&#8221;
+Ben: &#8220;Dad, do you know another word for &#8216;pulmonology’?&#8221;
 
 _June 2016_
 
@@ -839,13 +839,13 @@ _July 2016_
 <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/13701211_10154168702180708_7329744062722999417_o_10154168702180708.jpg" alt="" /> </figure> 
 
 Me: &#8220;Can you smile?&#8221;  
-Ben: &#8220;I&#8217;m trying.&#8221;
+Ben: &#8220;I’m trying.&#8221;
 
 _July 2016_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
-Ben: &#8220;Isla, I&#8217;m not arguing; I&#8217;m just explaining why I&#8217;m right.&#8221;
+Ben: &#8220;Isla, I’m not arguing; I’m just explaining why I’m right.&#8221;
 
 _August, 2016_
 
@@ -853,7 +853,7 @@ _August, 2016_
 
 At 0645:
 
-Matthew: &#8220;It&#8217;s not even morning.&#8221;
+Matthew: &#8220;It’s not even morning.&#8221;
 
 He has a point.
 
@@ -886,7 +886,7 @@ _December 2016_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
-Ben: &#8220;It&#8217;s great having a computer geek for a Dad.&#8221;
+Ben: &#8220;It’s great having a computer geek for a Dad.&#8221;
 
 _January 2017_
 
@@ -912,15 +912,15 @@ _April 2017_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
-Ben: &#8220;When we get home I&#8217;m going straight on the trampoline.&#8221;  
-Matthew: &#8220;When we get home I&#8217;m going straight on Amazon.&#8221;
+Ben: &#8220;When we get home I’m going straight on the trampoline.&#8221;  
+Matthew: &#8220;When we get home I’m going straight on Amazon.&#8221;
 
 _June 2017_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
 Me: &#8220;Do you know the word for trees that lose their leaves in the Autumn?&#8221;  
-Matthew: &#8220;Yes. &#8216;Bare&#8217;.&#8221;
+Matthew: &#8220;Yes. &#8216;Bare’.&#8221;
 
 _November 2017_
 
@@ -943,7 +943,7 @@ Christmas
 Crackers go snap  
 While Dad has a nap  
 Dad got socks  
-Don&#8217;t wear Crocs
+Don’t wear Crocs
 
 _December 2017_
 
@@ -951,7 +951,7 @@ _December 2017_
 
 Decided to wear a suit and tie for a change this morning.
 
-Matthew: &#8220;Daddy, you look like someone who isn&#8217;t in our family.&#8221;
+Matthew: &#8220;Daddy, you look like someone who isn’t in our family.&#8221;
 
 _January 2018_
 
@@ -965,7 +965,7 @@ _October 2018_
 
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 
-Isla: &#8220;For food and friends, we give thanks. Amen. Oh, and we hope there&#8217;s ice cream.&#8221;
+Isla: &#8220;For food and friends, we give thanks. Amen. Oh, and we hope there’s ice cream.&#8221;
 
 _November 2018_
 

@@ -15,9 +15,9 @@ Today was a proud day indeed. Remember four years ago when I [blogged about Joce
 
 <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/fiancee-visa_18183343_o.jpg" class="kg-image" alt="Fiancee Visa!" loading="lazy" /> </figure> 
 
-Well, since then we&#8217;ve turned that fiancee visa into a limited leave visa, and then into a settlement visa. We have spent over £2000 on government fees for these various rubber stamps &#8211; outrageously high amounts which resulted in letters being sent [to][2] and [from][3] the Home Office. Along the way, we got married, [moved house][4], and of course [Benjamin][5] came along to change our lives forever (in a good way, of course, Son!).
+Well, since then we’ve turned that fiancee visa into a limited leave visa, and then into a settlement visa. We have spent over £2000 on government fees for these various rubber stamps &#8211; outrageously high amounts which resulted in letters being sent [to][2] and [from][3] the Home Office. Along the way, we got married, [moved house][4], and of course [Benjamin][5] came along to change our lives forever (in a good way, of course, Son!).
 
-But I&#8217;m proud to report that today Jocelyn collected a certificate of naturalisation from Peter Sowray, Chairman of North Yorkshire County Council, granting her full British Citizenship.<figure class="kg-card kg-image-card">
+But I’m proud to report that today Jocelyn collected a certificate of naturalisation from Peter Sowray, Chairman of North Yorkshire County Council, granting her full British Citizenship.<figure class="kg-card kg-image-card">
 
 <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/british-wifey_2822763194_o.jpg" class="kg-image" alt="British Wifey" loading="lazy" /> </figure> 
 

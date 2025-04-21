@@ -16,11 +16,11 @@ tags:
 
 * * *
 
-What&#8217;s the quickest way, in C#, to test whether a string is empty?&nbsp; This is a question which came to my mind yesterday. I&#8217;ve always been fond of:
+What’s the quickest way, in C#, to test whether a string is empty?&nbsp; This is a question which came to my mind yesterday. I’ve always been fond of:
 
 <pre>&lt;cdode class="language-clike">if (myString==String.Empty)  &lt;/code></pre>
 
-but it occured to me that this necessitates the creation and destruction of a second object (the empty string with which we&#8217;re comparing), so maybe it would be quicker to write:
+but it occured to me that this necessitates the creation and destruction of a second object (the empty string with which we’re comparing), so maybe it would be quicker to write:
 
 <pre>&lt;cdode class="language-clike">if (myString.Length==0)  &lt;/code></pre>
 
@@ -92,7 +92,7 @@ Here are the results, with times in milliseconds for 50 million iterations:
 
 &nbsp;
 
-So there you have it. Experimental evidence that the fastest way to test for an empty string is to test whether it&#8217;s Length property is zero (and that this also takes exactly the same length of time irrespective of whether the result is true or false).. unless anyone knows of a quicker method? Of course, since we&#8217;re only saving ourselves around 50 nanoseconds per iteration against using the slowest method shown above, this is hardly going to result in a noticeable performance gain!!
+So there you have it. Experimental evidence that the fastest way to test for an empty string is to test whether it’s Length property is zero (and that this also takes exactly the same length of time irrespective of whether the result is true or false).. unless anyone knows of a quicker method? Of course, since we’re only saving ourselves around 50 nanoseconds per iteration against using the slowest method shown above, this is hardly going to result in a noticeable performance gain!!
 
 <!--kg-card-end: html-->
 

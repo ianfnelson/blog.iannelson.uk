@@ -12,9 +12,9 @@ tags:
 ---
 <figure class="wp-block-image"><img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/hertog-jan-doppio-double_76906363_o.jpg" alt="" /><figcaption class="wp-element-caption">Hertog Jan Doppio Double</figcaption></figure> 
 
-Hertog Jan Doppio Double is the only one of my twenty-four Advent beers to come in a stone cork-stoppered bottle that weighs more than the drink contained within! At 7.3% ABV, it&#8217;s also the [second-strongest][1] drink in my selection, and hence has a real kick to it.&nbsp; That said, it also has a gorgeous malty aroma, and strong aftertaste which beer lovers will appreciate.&nbsp; So whilst it&#8217;s not quite my [personal favourite][2] of the twenty-four beers I&#8217;ve had the pleasure of sampling this yuletide, it&#8217;s certainly an appropriately worthy and warming drink on which to finish.
+Hertog Jan Doppio Double is the only one of my twenty-four Advent beers to come in a stone cork-stoppered bottle that weighs more than the drink contained within! At 7.3% ABV, it’s also the [second-strongest][1] drink in my selection, and hence has a real kick to it.&nbsp; That said, it also has a gorgeous malty aroma, and strong aftertaste which beer lovers will appreciate.&nbsp; So whilst it’s not quite my [personal favourite][2] of the twenty-four beers I’ve had the pleasure of sampling this yuletide, it’s certainly an appropriately worthy and warming drink on which to finish.
 
-I&#8217;ve been asked to summarise my findings on these beers at the end of the season, and was considering publishing a spreadsheet noting my opinions in various categories (colour, aroma, aftertaste, strength, packaging, cute names&#8230;), but having consumed so many fine ales this month, it was beyond me to come up with such a complicated scoring system.&nbsp; Instead, I&#8217;ve made an effort to merely triage the beers according to my overall opinion and likelihood of repurchase &#8211; those with three stars will be on our shopping list in future, whilst those with one star will be avoided like the plague.
+I’ve been asked to summarise my findings on these beers at the end of the season, and was considering publishing a spreadsheet noting my opinions in various categories (colour, aroma, aftertaste, strength, packaging, cute names&#8230;), but having consumed so many fine ales this month, it was beyond me to come up with such a complicated scoring system.&nbsp; Instead, I’ve made an effort to merely triage the beers according to my overall opinion and likelihood of repurchase &#8211; those with three stars will be on our shopping list in future, whilst those with one star will be avoided like the plague.
 
 **<u>Three-star beers:</u>**  
 &nbsp;  
@@ -34,19 +34,19 @@ I&#8217;ve been asked to summarise my findings on these beers at the end of the 
 [Rolling Hitch][1]  
 [Rosey Nosey][9]  
 [Leffe Blonde][10]  
-[Nessie&#8217;s Monster Mash][3]  
+[Nessie’s Monster Mash][3]  
 [Ruby Red][11]  
-[Smuggler&#8217;s Ale][12]  
-[Young&#8217;s Christmas Pudding Ale][13]  
+[Smuggler’s Ale][12]  
+[Young’s Christmas Pudding Ale][13]  
 &nbsp;  
 **<u>One-star beers:</u>**  
 &nbsp;  
- [Crazy Ed&#8217;s Cave Creek Chili Beer][14]  
-[Honker&#8217;s Ale][15]  
+ [Crazy Ed’s Cave Creek Chili Beer][14]  
+[Honker’s Ale][15]  
 [Kronenbourg Blanc][16]  
 [Mars Magic][17]  
 [Morocco Ale][18]  
-[Rudolph&#8217;s Revenge][19]  
+[Rudolph’s Revenge][19]  
 [Teignworthy Christmas Cracker][20]<!--kg-card-end: html-->
 
  [1]: https://blog.iannelson.uk/beer-advent-calendar-days-sixteen-and-seventeen/

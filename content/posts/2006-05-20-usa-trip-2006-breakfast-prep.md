@@ -15,7 +15,7 @@ tags:
 
 On our first morning in California, we headed out to breakfast, which was preceded by a short session of Breakfast Prep’, courtesy of Jocelyn.  It had been a couple of years since I’d last had Breakfast In America, and I’d forgotten how to respond to the awesome number of choices and options that would be flung in my direction by the waitperson.
 
-Here&#8217;s how you order breakfast in Britain:
+Here’s how you order breakfast in Britain:
 
 <blockquote dir="ltr">
   <table cellpadding="2">
@@ -35,7 +35,7 @@ Here&#8217;s how you order breakfast in Britain:
       </td>
       
       <td>
-        &#8220;D&#8217;you want tea or coffee with that?&#8221;
+        &#8220;D’you want tea or coffee with that?&#8221;
       </td>
     </tr>
     
@@ -83,7 +83,7 @@ Now, compare that if you will to the American breakfasting experience.  The she
       </td>
       
       <td>
-        &#8220;I think so.  I&#8217;ll have the Sausage and Eggs, please.&#8221;
+        &#8220;I think so.  I’ll have the Sausage and Eggs, please.&#8221;
       </td>
     </tr>
     
@@ -229,7 +229,7 @@ I consult the list, by this time panicking a tad, and wondering what exactly “
       </td>
       
       <td>
-        &#8220;OK, I&#8217;ll go for hash browns and bacon, please.&#8221;
+        &#8220;OK, I’ll go for hash browns and bacon, please.&#8221;
       </td>
     </tr>
     
@@ -309,7 +309,7 @@ I consult the list, by this time panicking a tad, and wondering what exactly “
       </td>
       
       <td>
-        &#8220;He means &#8216;wheat&#8217;.&#8221;
+        &#8220;He means &#8216;wheat’.&#8221;
       </td>
     </tr>
     

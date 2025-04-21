@@ -15,7 +15,7 @@ I always knew my lifestyle choices would come back to bite me some day…<figure
 
 <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/iStock_000000942732XSmall_2.jpg" class="kg-image" alt loading="lazy" /> </figure> 
 
-I&#8217;ve been making heavy use of the [Castle Windsor][1] container to handle dependency and configuration management in the shiny new system that I’m currently developing. For the most part it’s been an absolute blast, allowing me to easily create a loosely-coupled system architecture and focus my efforts on what the system should be achieving for the client, rather than worrying about how it all hangs together.
+I’ve been making heavy use of the [Castle Windsor][1] container to handle dependency and configuration management in the shiny new system that I’m currently developing. For the most part it’s been an absolute blast, allowing me to easily create a loosely-coupled system architecture and focus my efforts on what the system should be achieving for the client, rather than worrying about how it all hangs together.
 
 But recently I encountered a bit of a gotcha which made me think that perhaps I should spend some more time understanding exactly what Windsor is doing in the background.
 

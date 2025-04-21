@@ -12,7 +12,7 @@ tags:
 ---
 <!--kg-card-begin: html-->
 
-If you like maths problems, and you like programming (and hey, who doesn&#8217;t?), then you&#8217;ll love [Project Euler][1].
+If you like maths problems, and you like programming (and hey, who doesn’t?), then you’ll love [Project Euler][1].
 
 <!--kg-card-end: html-->
 

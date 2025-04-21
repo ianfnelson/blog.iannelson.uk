@@ -11,9 +11,9 @@ tags:
   - tidy
 
 ---
-Wednesday night&#8217;s tipple was the rather strange 5% ABV [Kronenbourg Blanc][1], from UK brewing giant [Scottish & Newcastle][2].  Described as a &#8220;refreshing, fruity white beer&#8221;, this is in fact blatantly piss-coloured (which probably explains why it comes in an opaque bottle).  I found this to be more reminiscent of a weak cider or some kind of bizarre citrus alcopop than anything deserving to have the word &#8220;beer&#8221; on the label.  Still, try everything once except Morris Dancing and incest, as the saying goes.
+Wednesday night’s tipple was the rather strange 5% ABV [Kronenbourg Blanc][1], from UK brewing giant [Scottish & Newcastle][2].  Described as a &#8220;refreshing, fruity white beer&#8221;, this is in fact blatantly piss-coloured (which probably explains why it comes in an opaque bottle).  I found this to be more reminiscent of a weak cider or some kind of bizarre citrus alcopop than anything deserving to have the word &#8220;beer&#8221; on the label.  Still, try everything once except Morris Dancing and incest, as the saying goes.
 
-Jocelyn says: &#8220;This is a girly beer!  I could drink this!  This is fruity, it&#8217;s not a beer at all!&#8221;
+Jocelyn says: &#8220;This is a girly beer!  I could drink this!  This is fruity, it’s not a beer at all!&#8221;
 
 Weird advertising, too &#8211; would you buy a drink for this girl?<figure class="kg-card kg-image-card">
 

@@ -12,7 +12,7 @@ tags:
 ---
 <!--kg-card-begin: html-->
 
-I know it&#8217;s a rather geeky and dry subject, but I found [this MSDN article on new recommendations for using strings in .NET 2.0][1] quite interesting. It&#8217;s going to be difficult to stop using CultureInfo.InvariantCulture habitually!
+I know it’s a rather geeky and dry subject, but I found [this MSDN article on new recommendations for using strings in .NET 2.0][1] quite interesting. It’s going to be difficult to stop using CultureInfo.InvariantCulture habitually!
 
 <!--kg-card-end: html-->
 
