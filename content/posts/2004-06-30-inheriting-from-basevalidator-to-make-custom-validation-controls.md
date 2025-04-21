@@ -1,0 +1,37 @@
+---
+title: Inheriting From BaseValidator to Make Custom Validation Controls
+author: ian
+type: post
+date: 2004-06-30T19:06:00+00:00
+url: /inheriting-from-basevalidator-to-make-custom-validation-controls/
+ct_author_pro_video_display_key:
+  - post
+ct_author_pro_fi_size_key:
+  - default
+ct_author_last_updated:
+  - default
+categories:
+  - Tech
+tags:
+  - tidy
+
+---
+<!--kg-card-begin: html-->
+
+For months now, I&#8217;ve been desperate for a decent excuse to make a custom ASP.NET server control, so I was secretly pleased today when a CustomValidator originally coded for use on a single page was required elsewhere.
+
+It&#8217;s surprisingly easy to do, although it took me a while to find a decent example online, which eventually came courtesy of the [4GuysFromRolla][1]. In my particular scenario, I needed to check that the text entered into a TextBox did not equal any of a selection of "banned" strings (which was available via a static property on another class).
+
+Having added a new custom web control, deriving from BaseValidator, my first task was therefore to ensure that the control being validated really was a TextBox &#8211; this was done by overriding the `ControlPropertiesValid()` method:
+
+
+
+That done, I just had to override the `EvaluateIsValid()` method, which does the actual validation:
+
+
+
+&#8230;and that was it. Job done, pretty much. OK, so I spent a while making a cute icon image too. But the coding was easy and straightforward &#8211; inheriting from BaseValidator meant that most of the work was already done for me. In no time at all I was able to drop this custom control onto the required pages and user controls.
+
+<!--kg-card-end: html-->
+
+ [1]: http://www.4guysfromrolla.com/webtech/tips/t040302-1.shtml

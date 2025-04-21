@@ -1,0 +1,64 @@
+---
+title: "Beinn a'Bheithir"
+author: ian
+type: post
+date: 2002-08-25T21:00:00+00:00
+url: /beinn-abheithir/
+featured_image: https://blog.iannelson.uk/wp-content/uploads/2002/08/IMG_0951-1.jpg
+ct_author_pro_video_display_key:
+  - post
+ct_author_pro_fi_size_key:
+  - default
+ct_author_last_updated:
+  - default
+categories:
+  - Hills
+tags:
+  - tidy
+
+---
+A great day bagging the two Munros that make up Beinn a&#8217;Bheithir &#8211; Sgorr Dheargh (1024m) and Sgorr Dhonuill (1001m)<figure class="kg-card kg-gallery-card kg-width-wide"> 
+
+<div class="kg-gallery-container">
+  <div class="kg-gallery-row">
+    <div class="kg-gallery-image">
+      <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_0927.jpg" width="1600" height="1200" loading="lazy" alt srcset="https://blog.iannelson.uk/wp-content/uploads/2023/08/1_IMG_0927.jpg 600w, https://blog.iannelson.uk/wp-content/uploads/2023/08/2_IMG_0927.jpg 1000w, https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_0927.jpg 1600w" sizes="auto, (min-width: 720px) 720px" />
+    </div>
+    
+    <div class="kg-gallery-image">
+      <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_0930.jpg" width="1600" height="1200" loading="lazy" alt srcset="https://blog.iannelson.uk/wp-content/uploads/2023/08/1_IMG_0930.jpg 600w, https://blog.iannelson.uk/wp-content/uploads/2023/08/2_IMG_0930.jpg 1000w, https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_0930.jpg 1600w" sizes="auto, (min-width: 720px) 720px" />
+    </div>
+    
+    <div class="kg-gallery-image">
+      <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_0929.jpg" width="1600" height="1200" loading="lazy" alt srcset="https://blog.iannelson.uk/wp-content/uploads/2023/08/1_IMG_0929.jpg 600w, https://blog.iannelson.uk/wp-content/uploads/2023/08/2_IMG_0929.jpg 1000w, https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_0929.jpg 1600w" sizes="auto, (min-width: 720px) 720px" />
+    </div>
+  </div>
+  
+  <div class="kg-gallery-row">
+    <div class="kg-gallery-image">
+      <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_0933.jpg" width="1200" height="1600" loading="lazy" alt srcset="https://blog.iannelson.uk/wp-content/uploads/2023/08/1_IMG_0933.jpg 600w, https://blog.iannelson.uk/wp-content/uploads/2023/08/2_IMG_0933.jpg 1000w, https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_0933.jpg 1200w" sizes="auto, (min-width: 720px) 720px" />
+    </div>
+    
+    <div class="kg-gallery-image">
+      <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_0939.jpg" width="1600" height="1200" loading="lazy" alt srcset="https://blog.iannelson.uk/wp-content/uploads/2023/08/1_IMG_0939.jpg 600w, https://blog.iannelson.uk/wp-content/uploads/2023/08/2_IMG_0939.jpg 1000w, https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_0939.jpg 1600w" sizes="auto, (min-width: 720px) 720px" />
+    </div>
+    
+    <div class="kg-gallery-image">
+      <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_0951.jpg" width="1600" height="1200" loading="lazy" alt srcset="https://blog.iannelson.uk/wp-content/uploads/2023/08/1_IMG_0951.jpg 600w, https://blog.iannelson.uk/wp-content/uploads/2023/08/2_IMG_0951.jpg 1000w, https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_0951.jpg 1600w" sizes="auto, (min-width: 720px) 720px" />
+    </div>
+  </div>
+  
+  <div class="kg-gallery-row">
+    <div class="kg-gallery-image">
+      <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_0947.jpg" width="1600" height="1200" loading="lazy" alt srcset="https://blog.iannelson.uk/wp-content/uploads/2023/08/1_IMG_0947.jpg 600w, https://blog.iannelson.uk/wp-content/uploads/2023/08/2_IMG_0947.jpg 1000w, https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_0947.jpg 1600w" sizes="auto, (min-width: 720px) 720px" />
+    </div>
+    
+    <div class="kg-gallery-image">
+      <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_0949.jpg" width="1600" height="1200" loading="lazy" alt srcset="https://blog.iannelson.uk/wp-content/uploads/2023/08/1_IMG_0949.jpg 600w, https://blog.iannelson.uk/wp-content/uploads/2023/08/2_IMG_0949.jpg 1000w, https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_0949.jpg 1600w" sizes="auto, (min-width: 720px) 720px" />
+    </div>
+    
+    <div class="kg-gallery-image">
+      <img decoding="async" src="https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_0948.jpg" width="1200" height="1600" loading="lazy" alt srcset="https://blog.iannelson.uk/wp-content/uploads/2023/08/1_IMG_0948.jpg 600w, https://blog.iannelson.uk/wp-content/uploads/2023/08/2_IMG_0948.jpg 1000w, https://blog.iannelson.uk/wp-content/uploads/2023/08/IMG_0948.jpg 1200w" sizes="auto, (min-width: 720px) 720px" />
+    </div>
+  </div>
+</div></figure>
