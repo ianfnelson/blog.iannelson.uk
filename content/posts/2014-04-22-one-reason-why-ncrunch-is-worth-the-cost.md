@@ -192,7 +192,7 @@ In the screenshots below you can see that I’ve sneakily added my kids’ lapto
 
 NCrunch rocks. It has spoiled me for IDEs that don’t offer continuous compilation and testing functionality. The effortless manner in which it gives me feedback on the code and tests that I write every day is one of the things that keeps me interested in improving my .NET development skills after well over a decade at the code face.
 
-_Disclaimer: Neither Ian Nelson nor Ian Nelson Systems Limited have received any incentive or inducement to publish the commentary above. We have no material connection with Remco Mulder or Remco Software, other than as paying customers of the NCrunch product. Some of the links in this post contain our Amazon Associates ID, and we may receive commission if you make a purchase through them._
+_Disclaimer: Ian Nelson has not received any incentive or inducement to publish the commentary above. I have no material connection with Remco Mulder or Remco Software, other than as a paying customer of the NCrunch product. Some of the links in this post contain my Amazon Associates ID, and I may receive commission if you make a purchase through them._
 
  [1]: http://www.ncrunch.net/
  [2]: https://blog.iannelson.uk/12-reasons-why-i-love-unit-tests/
