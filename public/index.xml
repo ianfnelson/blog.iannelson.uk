@@ -10,9 +10,9 @@
     <atom:link href="https://bloghugo.iannelson.uk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>https://bloghugo.iannelson.uk/posts/my-first-post/</link>
+      <link>https://bloghugo.iannelson.uk/my-first-post/</link>
       <pubDate>Mon, 21 Apr 2025 14:14:31 +0100</pubDate>
-      <guid>https://bloghugo.iannelson.uk/posts/my-first-post/</guid>
+      <guid>https://bloghugo.iannelson.uk/my-first-post/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;
 &lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>

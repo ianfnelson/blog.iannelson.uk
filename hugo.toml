@@ -2,3 +2,6 @@ baseURL = 'https://bloghugo.iannelson.uk/'
 languageCode = 'en-gb'
 title = 'Ian Nelson'
 theme = 'PaperMod'
+
+[permalinks]
+posts = "/:slug/"
