@@ -13,31 +13,31 @@ _&#8220;The biggest problem with working with Ian F. Nelson is the Ian F. Nelson
 
 &#8212; Steve Hine, Lead Engineer, Financial Conduct Authority
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;Wishing you all the very best in your future endeavours, Ian&nbsp;Nelson. You’re far from the typical techy who simply completes a task and moves on. You’ve always gone above and beyond, keeping me in the loop with updates and making sure I was aware of any technical risks. Your thoughtfulness and proactive approach have meant a lot, and I’ll truly miss working with you. I have no doubt that your absence will be felt, and it will definitely have an impact on my work as well. Best of luck – you’ll be greatly missed.&#8221;_
 
 &#8212; Shahnaaz Rahamatullah, Test Lead, Financial Conduct Authority
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;Thank you so much Ian&nbsp;Nelson, you were great to work with and a great guide in my first 6 months at FCA. You’ll be an asset in any future organisation you join. We’ll miss you big time.&#8221;_
 
 &#8212; Alessio Bortone — Engineering Manager, Financial Conduct Authority
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;Wishing you all the very best for your future endeavours. May sound very formal but it is the truth &#8212; It was an ABSOLUTE PLEASURE working with you.. You helped me onboard quickly when I was new to the team and all backend stuff.. Always promptly replied to all my queries.. and I can go on&#8230; I hope our paths cross again in future&#8221;_
 
 &#8212; Amruta Pawar — QA/Automation Test Engineer, Financial Conduct Authority
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;You’ve been simply awesome, and I truly mean that. You’ve made life so much easier for all of us; absolutely loved working with you – a true professional! FCA is lucky to have you looking after one of the most important parts of the software.&#8221;_
 
 &#8212; Christophe Kalista – Solution Architect, Kainos
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;I just wanted to take note of what an asset Ian is to the NHS App team._
 
@@ -55,7 +55,7 @@ _Overall Ian is someone Kainos is lucky to have, and I hope we continue to work 
 
 &#8212; Sean Devlin – Technical Architect, Kainos
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;I wanted to call out Ian Nelson for his excellent work on the NHS App. Ian has been fantastic to work with over the past six months. Of all the tech leads I found Ian to be the most approachable, often seeking technical advice from him, which really helped me settle into both my role and the project._
 
@@ -67,7 +67,7 @@ _Ian is a consummate professional, a real asset to the project in my opinion and
 
 &#8212; Kevin O’Hara – Business Analyst, Kainos
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;I have worked with Ian for coming up to 2 years._
 
@@ -83,7 +83,7 @@ _I can confidently say I am a better developer because I have worked alongside h
 
 &#8212; James West – Freelance Software Developer, Access Intelligence Plc
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;Ian is one of the most hard-working and professional individuals that I have had the pleasure to work with. His methodical approach allows him to digest the problem put before him prior to making a reasoned and rational suggestion. Ian’s development skills and knowledge were able to cope with every challenge, identifying one or more solutions for every scenario that I put forward as Product Owner. This allowed me to then pick the best solution for the project._
 
@@ -93,19 +93,19 @@ _Ian’s expertise and problem-solving skills have helped to drive the project f
 
 &#8212; Robin Hackshall – Senior Information Analyst, Health and Social Care Information Centre
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;Ian has enabled us to drive some major changes into the business whilst introducing new technologies and concepts to the team. We now have great working examples of Workflow, NHibernate, IoC, programming to interfaces and MVC code which can be applied in other applications. I couldn’t have asked for more &#8211; a combination of business and technological advancement. Thanks again.&#8221;_
 
 &#8212; Sion Harrison – Development Manager, Marshalls Plc
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;Ian worked on a particularly troublesome project for me for eight months at NHS Choices without complaint. His development skills and knowledge are exemplary and his NHibernate knowledge is second to none. He worked well with all the members of the team and helped me to introduce pair programming and push the test driven development agenda. I will employ Ian whenever I have the chance.&#8221;_
 
 &#8212; Nick Porthouse – Development Manager, NHS Choices
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;I was fortunate enough to work with Ian on a relatively complex distributed, ReSTful system for the NHS IC._
 
@@ -118,7 +118,7 @@ _I have absolutely no hesitation in recommending Ian.&#8221;_
 
 &#8212; Paul Campbell – Freelance Software Developer and Service Architect, Health and Social Care Information Centre
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;I had the pleasure of collaborating with Ian on a large scale survey data gathering and processing solution, incorporating distributed components developed using C# and SSIS._
 
@@ -128,49 +128,49 @@ _Ian’s grasp of agile tools, design patterns, and NHibernate in particular are
 
 &#8212; Ashfaq Hussain – Freelance Application Developer, Health and Social Care Information Centre
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;Ian proved to be a fantastic choice; as well as being one of the most technically adept developers I’ve ever worked with he’s good company and delivers high-quality code in small amounts of time. All-in-all a very good hire, and I hope I have the good fortune to work with him again.&#8221;_
 
 &#8212; Joe Steele – Technical Team Leader, Ventura
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;I worked with Ian for nearly 3 years in NHS Digital. Ian is dependable, forward-thinking, and quite possibly the most level-headed person I’ve come across!&#8221;_
 
 &#8212; Jack Morris — Platform Architect, Kainos
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;Ian is one of the most intelligent and diligent people I’ve ever worked with. When Ian is involved, I know everything is going to be ok :)&#8221;_
 
 &#8212; Ciaran Colgan — Freelance .Net Architect, Developer
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;Ian, maybe you know what you are talking about.&#8221;_
 
 &#8212; Roman Podkovyrin, Senior Software Developer, Kainos
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;Spending 2 years working with Ian was a pleasure. He’s a consummate professional, a highly talented developer, a great problem solver and a real team player. I learned a lot working with him, found him great to bounce ideas off and would be delighted to work with him again. Definitely top class.&#8221;_
 
 &#8212; John Conners – Senior Software Developer, Marshalls Plc
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 &#8220;I saw your [post on DDDNorth][1] which made me even more gutted that I couldn’t make it! I wanted to let you know that working with you at Piksel opened my eyes on how a professional developer should be. I still use NCrunch daily from your recommendation and I try to pay it forward by recommending it in the same way.&#8221;
 
 &#8212; TG – Contract .NET Developer
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;Ian, many thanks for your contribution to the Halifax project for the last 2 years plus. You showed a great deal of patience in a difficult climate and managed to create a very good impression with the Halifax people you worked with.&#8221;_
 
 &#8212; Robin H Scholz – Keane Limited
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;Ian is certainly one of the smartest and most productive developers that I have had the pleasure of working with. His knowledge of existing and emerging technologies and trends, coupled with a keen sense of where they can be best utilised within a business environment ensures that the applications he produces are fully fit for purpose and are easy to maintain._
 
@@ -178,49 +178,49 @@ _During his time at Marshalls, Ian produced several high-profile business critic
 
 &#8212; Colin Lowe – Development Team Leader, Marshalls Plc
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;You’re good at solving problems, Daddy.&#8221;_
 
 &#8212; Ben Nelson (aged 4)
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;Impressed how quickly you’ve done this. Take the rest of the week off.&#8221;_
 
 &#8212; Giles Foster – Principal Information Analyst, Health and Social Care Information Centre
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;Thanks for all the tireless work, non-grumbling and above all, the massive amount of help you’ve been!&#8221;_
 
 &#8212; Sophie Stone – Profiles Lead, NHS Choices
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;Ian set up the Team Foundation Server quickly and efficiently and worked straight out of the box. He was clear with his pre-install requirements, and good with follow-on support.&#8221;_
 
 &#8212; Sean Liquorish – Senior Software Developer, NBA Consultants
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;Ian, you rock and I am sad to see you going.&#8221;_
 
 &#8212; Steven Heyes – Senior Software Developer, NHS Choices
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;If we gave out gold stars, you would now be wearing one &#8211; many thanks!&#8221;_
 
 &#8212; Carl Bilsbrough – Service Desk Manager, National Institute for Health Research
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;Thanks to Ian Nelson who managed to identify all the technical difficulties and proved to be a great support. Ironically [supplier] were not able to provide me resolution on the errors for more than a day (they are the ones to develop it), which Ian managed to crack.&#8221;_
 
 &#8212; Surbhi Trivedi – Project Manager, National Institute of Health Research
 
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+---
 
 _&#8220;You’ve given us some code to aspire to!&#8221;_
 
