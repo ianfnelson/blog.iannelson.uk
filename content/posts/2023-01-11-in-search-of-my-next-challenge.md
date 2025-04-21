@@ -15,7 +15,7 @@ Folks, this is your lucky day — Ian Nelson is back on the market.
 
 After an unprecedented _five years_ working the same gig, I will be available for shiny new contract roles from February 2023 _(edit: now April 2023, thanks to a short extension)_.
 
-[Download my CV here][1]. Email me at <ian@iannelson.systems> 
+[Download my CV here][1]. Email me at <ian@iannelson.uk> 
 
 <div class="wp-block-image">
   <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_0254-1.jpg" alt="Portrait image of a handsome software architect, standing outdoors and wearing a purple shirt" /><figcaption class="wp-element-caption">This is me</figcaption></figure>
@@ -71,7 +71,7 @@ Some people that I’ve worked with have written nice things about me, and I did
 
 ## Sound Good? {#sound-good.wp-block-heading}
 
-I hope you’ve enjoyed reading these insights into my psyche and skills. If you’d like to know more, or think that I might be able to help you, then let’s talk. You can [download my CV here][1], and email me at <ian@iannelson.systems>.
+I hope you’ve enjoyed reading these insights into my psyche and skills. If you’d like to know more, or think that I might be able to help you, then let’s talk. You can [download my CV here][1], and email me at <ian@iannelson.uk>.
 
  [1]: https://files.iannelson.uk/iannelson.pdf
  [2]: https://www.nhs.uk/nhs-app/
