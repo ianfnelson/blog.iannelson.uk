@@ -7,7 +7,7 @@ cover:
   image: https://cdn.iannelson.uk/uploads/2009/05/3542421968_6e26feee92_b-1.jpg
 
 categories:
-  - Business
+  - Work
   - Fun
 tags:
   - tidy

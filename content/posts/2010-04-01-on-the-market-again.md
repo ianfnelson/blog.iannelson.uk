@@ -5,7 +5,7 @@ date: 2010-04-01T08:04:00+00:00
 url: /on-the-market-again/
 
 categories:
-  - Business
+  - Work
 tags:
   - tidy
 

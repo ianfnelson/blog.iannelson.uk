@@ -8,7 +8,7 @@ cover:
   image: https://cdn.iannelson.uk/uploads/2023/01/photo-1484788984921-03950022c9ef.jpg
 
 categories:
-  - Business
+  - Work
 
 ---
 Folks, this is your lucky day — Ian Nelson is back on the market.

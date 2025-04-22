@@ -5,7 +5,7 @@ date: 2007-02-11T16:02:00+00:00
 url: /ian-nelson-mcsd-net/
 
 categories:
-  - Business
+  - Work
   - Tech
 tags:
   - tidy

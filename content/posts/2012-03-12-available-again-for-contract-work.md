@@ -7,7 +7,7 @@ cover:
   image: https://cdn.iannelson.uk/uploads/2012/03/ian_on_a_card-1.jpg
 
 categories:
-  - Business
+  - Work
 tags:
   - tidy
 

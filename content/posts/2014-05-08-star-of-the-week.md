@@ -7,7 +7,7 @@ cover:
   image: https://cdn.iannelson.uk/uploads/2014/05/iStock_000033567536Small.jpg
 
 categories:
-  - Business
+  - Work
   - Tech
 
 ---

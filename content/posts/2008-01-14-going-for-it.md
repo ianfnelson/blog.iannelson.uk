@@ -5,7 +5,7 @@ date: 2008-01-14T12:01:00+00:00
 url: /going-for-it/
 
 categories:
-  - Business
+  - Work
 tags:
   - tidy
 

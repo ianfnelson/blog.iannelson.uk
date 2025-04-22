@@ -5,7 +5,7 @@ date: 2009-04-12T14:04:00+00:00
 url: /seeking-kindred-spirits/
 
 categories:
-  - Business
+  - Work
   - Tech
 tags:
   - tidy

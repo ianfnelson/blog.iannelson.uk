@@ -5,7 +5,7 @@ date: 2009-05-27T11:05:00+00:00
 url: /ian-nelson-mcpd/
 
 categories:
-  - Business
+  - Work
 
 ---
 Well, for the record, I passed MS exam 70-553 yesterday on my second attempt, which makes me a Microsoft Certified Professional Developer – Enterprise Application Developer:<figure class="kg-card kg-image-card">

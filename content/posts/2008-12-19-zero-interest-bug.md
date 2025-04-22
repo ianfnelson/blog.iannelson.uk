@@ -5,7 +5,7 @@ date: 2008-12-19T12:12:00+00:00
 url: /zero-interest-bug/
 
 categories:
-  - Business
+  - Work
   - Tech
 tags:
   - tidy
