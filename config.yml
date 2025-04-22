@@ -1,7 +1,10 @@
 baseURL: 'https://bloghugo.iannelson.uk/'
 languageCode: 'en-gb'
 title: 'Ian Nelson'
+copyright: ''
 theme: 'PaperMod'
+
+enableRobotsTXT: true
 enableGitInfo: true
 ShowAllPagesInArchive: true
 
@@ -10,6 +13,41 @@ permalinks:
 
 params:
   mainSections: ["posts"]
+  ShowFullTextinRSS: true
+  homeInfoParams:
+    Title: Hi. I’m Ian.
+    Content: |
+      I write code for a living and words for fun.
+
+      This blog is a dumping ground for thoughts on software architecture, books I pretend I understood, Wordle triumphs, and walks up hills that seemed like a good idea at the time.
+
+      Expect a mix of tech nerdery, midlife musings, and the occasional rant disguised as insight.
+
+      Make of it what you will.
+
+  socialIcons:
+    - name: 'linkedin'
+      url: 'https://www.linkedin.com/in/ianfnelson/'
+    - name: 'github'
+      url: 'https://github.com/ianfnelson'
+    - name: 'instagram'
+      url: 'https://www.instagram.com/ianfnelson/'
+    - name: 'goodreads'
+      url: 'https://www.goodreads.com/user/show/119445213-ian-nelson'
+    - name: 'stackoverflow'
+      url: 'https://stackoverflow.com/users/2084/ian-nelson'
+    - name: 'email'
+      url: 'mailto:ian@iannelson.uk'
+    - name: 'cv'
+      url: 'https://files.iannelson.uk/iannelson.pdf'
+    - name: 'rss'
+      url: 'https://blog.iannelson.uk/index.xml'
+
+outputs:
+  home:
+      - HTML
+      - RSS
+      - JSON
 
 pagination:
   disableAliases: false
@@ -36,5 +74,5 @@ languages:
         - name: Search
           url: search/
           weight: 10
-        - name: Email
-          url: mailto:ian@iannelson.uk
+        - name: Family Tree
+          url: https://familytree.iannelson.uk

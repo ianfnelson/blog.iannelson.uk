@@ -19,6 +19,36 @@
 &lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;what-ive-been-doing-recently.wp-block-heading&#34;&gt;What I’ve Been Doing Recently&lt;/h2&gt;
 &lt;p&gt;Since March 2018 I’ve been a Technical Lead for the &lt;a href=&#34;https://www.nhs.uk/nhs-app/&#34;&gt;NHS App&lt;/a&gt;, an England-wide way to access a range of NHS services via smartphone, tablet, and desktop web browser. It has been an amazing project to be a part of, and I’ve loved working in an open, collaborative, and agile delivery environment alongside a bunch of clever people from NHS Digital, Kainos, and BJSS.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Folks, this is your lucky day — Ian Nelson is back on the market.</p>
+<p>After an unprecedented <em>five years</em> working the same gig, I will be available for shiny new contract roles from February 2023 <em>(edit: now April 2023, thanks to a short extension)</em>.</p>
+<p><a href="https://files.iannelson.uk/iannelson.pdf">Download my CV here</a>. Email me at <a href="mailto:ian@iannelson.uk">ian@iannelson.uk</a></p>
+<!-- raw HTML omitted -->
+<h2 id="what-ive-been-doing-recently.wp-block-heading">What I’ve Been Doing Recently</h2>
+<p>Since March 2018 I’ve been a Technical Lead for the <a href="https://www.nhs.uk/nhs-app/">NHS App</a>, an England-wide way to access a range of NHS services via smartphone, tablet, and desktop web browser. It has been an amazing project to be a part of, and I’ve loved working in an open, collaborative, and agile delivery environment alongside a bunch of clever people from NHS Digital, Kainos, and BJSS.</p>
+<p>I’ve led an ever-changing, multi-disciplinary team through over 120 fortnightly sprints — a period that saw the App’s user base grow from nothing to over thirty million users, and become the most downloaded app in the App Store during the COVID-19 pandemic years.</p>
+<p>I’ve led the design and development of the App’s notification and messaging capability, which allows the secure and sub second delivery of health-related communications from NHS organisations to patient’s mobile devices, replacing more costly communication methods such as SMS or mail.</p>
+<p>In case it’s not obvious, I’m pretty proud of what we’ve achieved on the NHS App over the past five years, and could write much more. But I’ll save that for a future blog post and return to the sales pitch…</p>
+<h2 id="what-i-do-generally.wp-block-heading">What I Do Generally</h2>
+<p>I am a hands-on Technical Architect / Technical Lead. I draw boxes and arrows on (real and virtual) whiteboards, and talk about those designs with teams, allowing us to collaboratively bring maintainable, performant and scalable solutions into existence.</p>
+<p>I am detail-oriented and still a developer at heart. I like to stay close to the codebase. I am not an <a href="https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/">Architecture Astronaut</a>. I prefer developing backend code to frontend. I am comfortable taking ownership of systems and communicating with people at all levels of an organisation.</p>
+<h2 id="the-technology-i-use.wp-block-heading">The Technology I Use</h2>
+<p>I have over 20 years’ experience of C# and .NET development, from the betas through to C#10 and .NET Core 6.0 (but I still have to occasionally Google how to properly implement the IDisposable pattern).</p>
+<p>I have been working with Azure products for, gosh, it must be over a decade now. I have spent significant time wrangling with App Services, Function Apps, Cosmos DB (Mongo and (No)SQL), Event Hubs, SQL Database, Kubernetes Service and Service Bus. I have found and reported a bug to the Notification Hub product team, and been mailed a t-shirt by the Cognitive Search team in response to my feedback.</p>
+<p>I favour distributed architectures that are loosely-connected by messaging patterns and RESTful APIs. I am vaguely suspicious of the rush towards Microservices. I am a bit disappointed that the end of the relational database hegemony means that I no longer get to use my SQL skills on a daily basis, but have replaced this with a new-found admiration for Splunk queries.</p>
+<h2 id="how-i-work.wp-block-heading">How I Work</h2>
+<p>I prefer to code in the open and work in the open. I favour public Slack channels over DMs. I appreciate the DevOps culture where all members of the team are empowered to make changes to a collective codebase. I think infrastructure as code is one of the game-changing trends of the last decade.</p>
+<p>I still quite like Test-Driven Development, but am learning to be more pragmatic about when it is applied, and when to use chunkier integration tests.</p>
+<p>I am a Microsoft Registered Partner, but do all my work on a MacBook.</p>
+<p>I care very much about the quality of the solutions that I help to create, but I try to inject levity and humour into the working day, and do not take myself too seriously.</p>
+<p>I like to break up lengthy blog posts with photos of my dog.</p>
+<!-- raw HTML omitted -->
+<h2 id="more-randomness.wp-block-heading">More Randomness</h2>
+<p>My favourite software books of all time include <em><a href="https://amzn.to/3XqhrLr">Working Effectively with Legacy Code</a>, <a href="https://amzn.to/3ZE8zDV">Domain-Driven Design</a>,</em> and <em><a href="https://amzn.to/3QzeaqW">Release It</a>!</em></p>
+<p>My favourite GoF design patterns are Visitor and Chain of Responsibility.</p>
+<p>Some people that I’ve worked with have written nice things about me, and I didn’t even have to pay them. You can read a collection of these endorsements on my <a href="https://blog.iannelson.uk/testimonials/">testimonials page</a>.</p>
+<h2 id="sound-good.wp-block-heading">Sound Good?</h2>
+<p>I hope you’ve enjoyed reading these insights into my psyche and skills. If you’d like to know more, or think that I might be able to help you, then let’s talk. You can <a href="https://files.iannelson.uk/iannelson.pdf">download my CV here</a>, and email me at <a href="mailto:ian@iannelson.uk">ian@iannelson.uk</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Star Of The Week</title>
@@ -27,6 +57,20 @@
       <guid>https://bloghugo.iannelson.uk/star-of-the-week/</guid>
       <description>&lt;p&gt;As a lowly &lt;em&gt;sellsword&lt;/em&gt; amongst the ensemble cast that make up the incestuous York/Leeds IT scene, I am not usually one to be influenced by the promise of titles and honours.&lt;/p&gt;
 &lt;p&gt;Time was, long ago, in my first graduate job, that I yearned for a promotion from “Solution Developer” to “Development Specialist”. Now I give little consideration to what I’m called, and sell my services on the basis of what I can &lt;em&gt;do&lt;/em&gt;, and the value I can bring to a project and an organisation.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a lowly <em>sellsword</em> amongst the ensemble cast that make up the incestuous York/Leeds IT scene, I am not usually one to be influenced by the promise of titles and honours.</p>
+<p>Time was, long ago, in my first graduate job, that I yearned for a promotion from “Solution Developer” to “Development Specialist”. Now I give little consideration to what I’m called, and sell my services on the basis of what I can <em>do</em>, and the value I can bring to a project and an organisation.</p>
+<p>So, imagine my surprise when I recently returned to my desk at a client site to find the certificate below resting on my keyboard. It seems my highborn masters had seen fit to dub me (with tongue firmly in cheek, I presume), as their “Star of the Week”!</p>
+<!-- raw HTML omitted -->
+<p>What had I done to deserve this honour?</p>
+<p>The client had an existing solution to generate an XML feed summarising the information held within a database. Unfortunately this process was slow – it took around 45 seconds – and even though the output was aggressively cached, this was still causing a problem.</p>
+<p>I actually enjoy occasionally tackling problems like this, where there is an existing solution that meets all functional requirements and my task is simply to improve some nonfunctional requirement – make it faster, make it more maintainable, make it scalable, update the technology stack, etc. The goal is much clearer when you have a reference solution to mimic than when starting with a blank page and having to tease out acceptance criteria from fickle humans!</p>
+<p>Unsurprisingly, some baseline profiling revealed that the problems lay in the data access layer, and with the help of Hibernating Rhino’s <a href="http://www.hibernatingrhinos.com/products/efprof">Entity Framework Profiler</a>, I was able to determine that over 35,000 separate database calls were being issued to create a file of a few megabytes.</p>
+<p>This was possible because the data access was performed through a series of helper classes that wrapped the EF context and exposed mapped models. While this simplified the data access for most use cases, and helped to encapsulate low-level validation, it was a hindrance for any kind of aggregation or reporting requirement. Essentially the problem boiled down to the <em>SELECT N+1</em> problem on steroids, with a large portion of the object graph steadily loaded into memory.</p>
+<p>Wrapping isn’t always a helpful approach…</p>
+<!-- raw HTML omitted -->
+<p>The answer, having first defined some automated integration tests based on the existing solution, was to avoid using the helpful wrapper/mapper classes and instead write some bespoke EF queries against the underlying data context. I tried to strike a balance between making as few queries as possible without becoming unmaintainable or requiring too many joins. And each query, rather than returning the entire entity, instead projected only the required properties into some anonymous types. A little in-memory post-processing then turned these projections into the desired output format.</p>
+<p>The end result? A process that originally made over 35,000 database queries and took 45 seconds was reduced to one that required just 7 queries and completed in around 0.45 seconds. Nice.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Available Again For Contract Work</title>
@@ -39,6 +83,80 @@
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;h4 id=&#34;in-need-of-some-scalable-and-maintainable-enterprise-integration-solutions-in-need-of-some-scalable-and-maintainable-enterprise-integration-solutions&#34;&gt;In need of some scalable and maintainable enterprise integration solutions? {#in-need-of-some-scalable-and-maintainable-enterprise-integration-solutions}&lt;!-- raw HTML omitted --&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h4 id="are-you-plagued-by-bad-code-smells-are-you-plagued-by-bad-code-smells">Are you plagued by bad code smells? {#are-you-plagued-by-bad-code-smells}<!-- raw HTML omitted --></h4>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<h4 id="troubled-by-slow-running-database-queries-and-etl-routines-troubled-by-slow-running-database-queries-and-etl-routines">Troubled by slow-running database queries and ETL routines? {#troubled-by-slow-running-database-queries-and-etl-routines}<!-- raw HTML omitted --></h4>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<h4 id="in-need-of-some-scalable-and-maintainable-enterprise-integration-solutions-in-need-of-some-scalable-and-maintainable-enterprise-integration-solutions">In need of some scalable and maintainable enterprise integration solutions? {#in-need-of-some-scalable-and-maintainable-enterprise-integration-solutions}<!-- raw HTML omitted --></h4>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>Look no further! As luck would have it, legendary Leeds-based freelance software developer Ian F. Nelson is now available again for contract opportunities. Fresh from a 42-week stint at the <a href="http://www.ic.nhs.uk/">Health and Social Care Information Centre</a> where he played a major part in developing a suite of distributed systems to facilitate the expansion of a national programme to calculate health gains after surgical treatment, Ian Nelson is on the market again, and available <strong>now</strong> to help your team deliver the system of your dreams!</p>
+<p>Just take a look at the out-of-the-box features you can expect from an Ian Nelson:</p>
+<ul>
+<li>Freelance Professional Software Developer with 14 years’ experience across the full product lifecycle.</li>
+<li>Strong proven skills in database design, domain object modelling and enterprise integration techniques.</li>
+<li>Hands-On Coder with a penchant for developing maintainable, loosely-coupled OO architectures.</li>
+<li>Effective client-facing skills; has led analysis, design and development of successful high-profile projects.</li>
+<li>Confirmed Agilist and exponent of test-driven development, continuous integration and deployment.</li>
+<li>Microsoft Certified – Professional Developer (Enterprise Applications), Technology Specialised in SQL Server and Business Intelligence.</li>
+</ul>
+<p>Languages, technologies and methodologies used will be subject to naturalvariance from project to project; however the core technical skills you can expect to see an Ian Nelson leveraging will include:</p>
+<ul>
+<li>C# (1.0 – 4.0), including lashings of lovely LINQ.</li>
+<li>.NET Framework (1.0 – 4.0)</li>
+<li>ASP.NET, MVC, OpenRasta</li>
+<li>REST, WCF, SOA, MSMQ</li>
+<li>WPF, MVVM, Prism</li>
+<li>Workflow Foundation</li>
+<li>SQL Server (7.0 – 2008 R2)</li>
+<li>ETL, SSIS, SSAS, SSRS</li>
+<li>Oracle Database (8i – 10g)</li>
+<li>NHibernate, Fluent NHibernate, NHProf</li>
+<li>OOP, Design Patterns</li>
+<li>DI / IoC (Castle Windsor)</li>
+<li>Git, Subversion, Vault, TFS</li>
+<li>TDD (NUnit, xUnit, MSTest, NCrunch)</li>
+<li>BDD (MSpec, SpecFlow)</li>
+<li>Mocking (Rhino Mocks, Moq)</li>
+<li>Agile (SCRUM, Kanban, XP)</li>
+<li>Continuous Integration and Deployment</li>
+</ul>
+<h4 id="marvel-as-user-stories-fly-across-the-kanban-board-marvel-as-user-stories-fly-across-the-kanban-board-">Marvel! As user stories fly across the kanban board. {#marvel-as-user-stories-fly-across-the-kanban-board-}<!-- raw HTML omitted --></h4>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<h4 id="cheer-as-a-test-driven-approach-results-in-an-astoundingly-low-defect-rate-cheer-as-a-test-driven-approach-results-in-an-astoundingly-low-defect-rate-">Cheer! As a test-driven approach results in an astoundingly low defect rate. {#cheer-as-a-test-driven-approach-results-in-an-astoundingly-low-defect-rate-}<!-- raw HTML omitted --></h4>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<h4 id="party-as-projects-come-in-on-time-and-on-budget-party-as-projects-come-in-on-time-and-on-budget-">Party! As projects come in on time and on budget. {#party-as-projects-come-in-on-time-and-on-budget-}<!-- raw HTML omitted --></h4>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>Don’t just take our word for it! Listen to the experiences of other satisfied customers:</p>
+<blockquote>
+<p>“Ian is one of the most hard working and professional individuals that I have had the pleasure to work with. His methodical approach allows him to digest the problem put before him prior to making a reasoned and rational suggestion.</p></blockquote>
+<blockquote>
+<p>Ian’s development skills and knowledge were able to cope with every challenge, identifying one or more solutions for every scenario that I put forward as Product Owner. This then allowed me to then pick the best solution for the project.</p></blockquote>
+<blockquote>
+<p>Ian is a consummate team player and worked efficiently and effectively with the other members of the development team. He always made himself available for me to ask questions to help me understand the technical aspect of a story. Ian’s expertise and problem solving skills have helped to drive the project forward and I am extremely grateful for the contribution that he has made. He will be greatly missed, not just by me, but by the whole of the team.”</p></blockquote>
+<p>Robin Hackshall, Senior Information Analyst, <a href="http://www.ic.nhs.uk/">Health and Social Care Information Centre</a></p>
+<blockquote>
+<p>“Ian is able to take high-level business requirements and swiftly design and produce a set of solid, scalable, and efficient systems, and with meticulous attention to detail. Ian’s grasp of agile tools, design patterns, and NHibernate in particular are masterful, and I would recommend him without hesitation.”</p></blockquote>
+<p>Ashfaq Hussain, Freelance Application Developer, <a href="http://www.ic.nhs.uk/">Health and Social Care Information Centre</a></p>
+<blockquote>
+<p>“Impressed how quickly you’ve done this. Take the rest of the week off.”</p></blockquote>
+<p>Giles Foster, Principal Information Analyst, <a href="http://www.ic.nhs.uk/">Health and Social Care Information Centre</a></p>
+<blockquote>
+<p>“Ian is a SSIS Magician!”</p></blockquote>
+<p>Paul Campbell, Director, <a href="http://www.decoratedworld.co.uk/">Decorated World</a></p>
+<blockquote>
+<p>“Ian worked on a particularly troublesome project for me for eight months at NHS Choices without complaint. His development skills and knowledge are exemplary and his NHibernate knowledge is second to none. He worked well with all the members of the team and helped me to introduce pair programming and push the test driven development agenda. I will employ Ian whenever I have the chance.”</p></blockquote>
+<p>Nick Porthouse, Development Manager, <a href="http://www.nhs.uk">NHS Choices</a></p>
+<blockquote>
+<p>“You’re good at solving problems, Daddy.”</p></blockquote>
+<p>Ben Nelson (aged 4)</p>
+<p>Every Ian Nelson arrives fully charged and ready to code, with no batteries or assembly required. Ian Nelson functions effectively in any agile development environment, integrating seamlessly with your existing team members, from the pickiest of testers to the prickliest of DBAs.<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<h3 id="but-that-s-not-all-">But that’s not all!</h3>
+<p>Order today and your shiny new Ian Nelson will arrive complete with his own coffee, index cards, kanban avatar, Pukka pad and high-powered eight-core Dell Precision laptop, installed with fully licensed development software and ready to cut high quality test-driven code before you can say “how about a nice game of Planning Poker Dr Falken?”</p>
+<p>If you owe it to yourself, your project and your stakeholders to deliver the most effective, bug-free, performant, scalable and maintainable solution possible, then you need an Ian Nelson on your team. But remember – this offer is <em>not</em> available in the shops! Don’t delay – call today! Our trained operators are waiting to take your call<br>
+…</p>
+<h4 id="07901-828483-ian-iannelson-systems">07901 828483 – <!-- raw HTML omitted --><a href="mailto:ian@iannelson.uk">ian@iannelson.uk</a><!-- raw HTML omitted --></h4>
+]]></content:encoded>
     </item>
     <item>
       <title>On The Market Again</title>
@@ -48,6 +166,13 @@
       <description>&lt;p&gt;This blog post comes to you live from a Starbucks in the north of England.&lt;/p&gt;
 &lt;p&gt;Yesterday I wrapped up another eight months’ stint contracting at my old haunt &lt;a href=&#34;http://www.marshalls.com/&#34;&gt;Marshalls Plc&lt;/a&gt;. It’s been a genuinely interesting gig, working on two distinct greenfield projects using bang up to date technologies including .NET 4.0 and MVC2.&lt;/p&gt;
 &lt;p&gt;But it hasn’t just been a benefit for my CV, I think Marshalls might have got a little something out of the arrangement too, as Marshalls’ Development Manager Sion Harrison commented yesterday:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>This blog post comes to you live from a Starbucks in the north of England.</p>
+<p>Yesterday I wrapped up another eight months’ stint contracting at my old haunt <a href="http://www.marshalls.com/">Marshalls Plc</a>. It’s been a genuinely interesting gig, working on two distinct greenfield projects using bang up to date technologies including .NET 4.0 and MVC2.</p>
+<p>But it hasn’t just been a benefit for my CV, I think Marshalls might have got a little something out of the arrangement too, as Marshalls’ Development Manager Sion Harrison commented yesterday:</p>
+<p><em>“You have enabled us to drive some major changes into the business whilst introducing new technologies and concepts to the team. We now have great working examples of Workflow, NHibernate, IOC, programming to interfaces and MVC code which can be applied in other applications. I couldn’t have asked for more – a combination of business and technological advancement. Thanks again.”</em></p>
+<p>Could I help to advance your business in a similar manner? If so, give me a call on 07901 828483 or email <a href="mailto:ian@iannelson.uk">ian@iannelson.uk</a> .</p>
+<p>In the meantime, I’ll get back to my cinnamon swirl and venti latté…</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Ian Nelson, MCPD</title>
@@ -59,6 +184,13 @@
 &lt;p&gt;And I also acquired a few new MCTS certifications as a happy by-product:&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;p&gt;My full transcript, including “legacy” certifications, is &lt;a href=&#34;https://blog.iannelson.uk/content/files/MS_Learning_Transcript.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Well, for the record, I passed MS exam 70-553 yesterday on my second attempt, which makes me a Microsoft Certified Professional Developer – Enterprise Application Developer:<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>And I also acquired a few new MCTS certifications as a happy by-product:<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>My full transcript, including “legacy” certifications, is <a href="https://blog.iannelson.uk/content/files/MS_Learning_Transcript.pdf">here</a>.</p>
+<p>Phew! I think that the time has now come for me to take a bit of a break from the certification circus. They are a nice-to-have, but the opportunity cost is too high – there are many other ways in which I can spend what little spare time I have to better develop my skills.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>New Office Photos</title>
@@ -67,6 +199,9 @@
       <guid>https://bloghugo.iannelson.uk/new-office-photos/</guid>
       <description>&lt;p&gt;I &lt;a href=&#34;https://blog.iannelson.uk/new-office-plan/&#34;&gt;promised you some photos of my new office a while back&lt;/a&gt;, didn’t I? OK, here you go…&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;The Desk&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;The Computer&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;One of These Books Is Not Like The Others&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Bits n Bobs&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;In Gnasher We Trust&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I <a href="https://blog.iannelson.uk/new-office-plan/">promised you some photos of my new office a while back</a>, didn’t I? OK, here you go…<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted -->The Desk<!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->The Computer<!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->One of These Books Is Not Like The Others<!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->Bits n Bobs<!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->In Gnasher We Trust<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Seeking Kindred Spirits</title>
@@ -74,6 +209,12 @@
       <pubDate>Sun, 12 Apr 2009 14:04:00 +0000</pubDate>
       <guid>https://bloghugo.iannelson.uk/seeking-kindred-spirits/</guid>
       <description>&lt;p&gt;I’m coming round to the realization that my hugely enjoyable first contract at &lt;a href=&#34;http://www.ventura.co.uk&#34;&gt;Ventura&lt;/a&gt; last summer might have been something of an anomaly. That project was decidedly agile, test-driven, and used a bunch of modern technologies including Monorail, ExtJS, Subversion, NUnit and NHibernate. The requirements were well-defined, and the team was highly effective, with a pragmatic project management team who kept the development team free from bureaucratic processes, leaving us able to get on with delivering some cracking software in double-quick time.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I’m coming round to the realization that my hugely enjoyable first contract at <a href="http://www.ventura.co.uk">Ventura</a> last summer might have been something of an anomaly. That project was decidedly agile, test-driven, and used a bunch of modern technologies including Monorail, ExtJS, Subversion, NUnit and NHibernate. The requirements were well-defined, and the team was highly effective, with a pragmatic project management team who kept the development team free from bureaucratic processes, leaving us able to get on with delivering some cracking software in double-quick time.</p>
+<p>So, it has been something of a surprise to move onto pastures new and discover that there are still organisations out there who follow the <a href="http://en.wikipedia.org/wiki/Waterfall_model">Waterfall model</a> and highly prescriptive change control processes. It also seems that no amount of evangelism or proselytism from freelancers such as myself is likely to change the situation any time soon – it’s just the organisational culture. To be realistic, there comes a point in time at which I have to accept that fact, shut up, and knuckle down to achieving the project deliverables in the manner requested by the client. The customer is always right, as they say.</p>
+<p>As I bide my time looking for some new clients who share my development methodology ideologies, I’ve been trying to retain some semblance of sanity by keeping on top of agile techniques and technologies, and by seeking kindred spirits with whom to discuss the same. I was pleasantly surprised to discover the existence of the <a href="http://www.agileyorkshire.org">Agile Yorkshire Club</a>, who meet monthly in the back room of a pub in Leeds. So I pitched up last Wednesday, enjoyed the free beer, met some friendly and seemingly like-minded people, and listened to an interesting session by <a href="http://blogs.blackmarble.co.uk/blogs/rfennell">Richard Fennell</a> of Black Marble as he talked about <a href="http://www.amazon.co.uk/gp/product/0201699478?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0201699478">Alistair Cockburn’s Crystal Clear</a> methodology, which seemed to me to be essentially “Pragmatic SCRUM”.</p>
+<p>I’ve often heard people say that it’s a good idea to get involved with a local user group, or attend community events, and now I’m starting to appreciate why. In addition to the mind-broadening opportunities, the networking potential for freelancers is also an obvious benefit. If, like me, you’ve never before tried to get “out there” and meet other IT professionals, why not give it a shot? If a shy and reserved geek like me can do it, anyone can.</p>
+<p>And if you organise or know of other, similar groups local to Leeds, I’d be interested in hearing about them.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Failed MCP Exam 70-553 :(</title>
@@ -81,6 +222,12 @@
       <pubDate>Sun, 12 Apr 2009 13:04:00 +0000</pubDate>
       <guid>https://bloghugo.iannelson.uk/failed-mcp-exam-70-553/</guid>
       <description>&lt;p&gt;My current primary client has an annoying habit of closing for random days and half-days, including last Thursday afternoon. I decided to try to make the most of this time off, by taking &lt;a href=&#34;http://www.microsoft.com/learning/en/us/exams/70-553.mspx&#34;&gt;Microsoft exam 70-553&lt;/a&gt;, which has the snappy title “&lt;em&gt;UPGRADE: MCSD Microsoft .NET Skills to MCPD Enterprise Application Developer by Using the Microsoft .NET Framework: Part 1&lt;/em&gt;”. I’ve already passed the second part of the upgrade process (70-554), so passing this exam would give me no fewer than four new certifications, including the prestigious MCPD Enterprise Application Developer.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>My current primary client has an annoying habit of closing for random days and half-days, including last Thursday afternoon. I decided to try to make the most of this time off, by taking <a href="http://www.microsoft.com/learning/en/us/exams/70-553.mspx">Microsoft exam 70-553</a>, which has the snappy title “<em>UPGRADE: MCSD Microsoft .NET Skills to MCPD Enterprise Application Developer by Using the Microsoft .NET Framework: Part 1</em>”. I’ve already passed the second part of the upgrade process (70-554), so passing this exam would give me no fewer than four new certifications, including the prestigious MCPD Enterprise Application Developer.</p>
+<p>I was not as prepared as I should have been before facing such an exam, but it is currently available at a 40% discount, and having the afternoon to spare I thought it was worth a shot.</p>
+<p>Well, unfortunately I failed by a narrow margin. The exam is in three sections, covering the material from three other exams which is new to .NET 2.0. I passed both the <a href="http://www.microsoft.com/learning/en/us/exams/70-536.aspx">Application Development Foundation</a> and <a href="http://www.microsoft.com/learning/en/us/exams/70-528.mspx">Web-Based Client Development</a>, but fell short of passing the <a href="http://www.microsoft.com/learning/en/us/exams/70-526.mspx">Windows-Based Client Development</a> section by the equivalent of one question! That’s probably a fair result, as I’ve spent much less time working with Winforms than Webforms.</p>
+<p>So, back to the books I go, and await another suitable opportunity to retake the exam that doesn’t involve losing out on half a day’s revenue. Areas on which I plan to bone up include the TableLayoutPanel, ContextMenuStrip, PropertyGrid, ErrorProvider, BackgroundWorker, and ClickOnce deployment technologies.</p>
+<p>On the positive side, failing the exam has at least helped me to discover where there are gaps in my .NET knowledge, and enhanced my respect for the MS certifications in general – you can’t just pitch up on a whim and expect to pass these things, you really do have to know the syllabus material.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Zero Interest Bug</title>
@@ -92,6 +239,13 @@
 &lt;p&gt;From &lt;a href=&#34;http://www.contractoruk.com/004128.html&#34;&gt;Contractor UK&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Interest rates have plummeted from 5% to 2% since early October and are heading lower. Some analysts say 0% is not out of the question.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I started my career in professional software development a decade or so ago by testing and fixing banking code that had fallen victim to the millennium bug.</p>
+<p>Could the prospect of zero percent interest rates create a similar boom in demand for software developers?</p>
+<p>From <a href="http://www.contractoruk.com/004128.html">Contractor UK</a>:</p>
+<blockquote>
+<p>Interest rates have plummeted from 5% to 2% since early October and are heading lower. Some analysts say 0% is not out of the question.</p>
+<p>Imagine all the policy bounds checkers and field validation routines that need modifying to handle zero percent interest rates. The entire insurance industry will be clambering to find COBOL programmers able to understand 30 year old code and everybody else will benefit as demand escalates.</p></blockquote>
+]]></content:encoded>
     </item>
     <item>
       <title>12 Reasons Why I Love Unit Tests</title>
@@ -100,6 +254,58 @@
       <guid>https://bloghugo.iannelson.uk/12-reasons-why-i-love-unit-tests/</guid>
       <description>&lt;p&gt;On my continuing journey through this thrilling world of professional software development, I frequently encounter teams who hold no truck with this crazy new-fangled concept of unit testing. Heck, truth be told, I sometimes come across teams who don’t use &lt;em&gt;source control&lt;/em&gt;, but that’s by the bye.&lt;/p&gt;
 &lt;p&gt;In these situations, I try my best to lead by example, continuing to practise TDD on any new code that I cut, and insisting on covering with unit tests any pre-existing code which I have to modify. Sooner or later, this prompts someone to ask why I am doing this (often insinuating that I am wasting my time, and by implication the client’s money). At that point, flustered, I invariably struggle to remember or adequately articulate the many and various ways in which unit testing makes me a better developer. So, consider this blog post a personal aide-mémoire to help me the next time this occurs (as well as being a homage to &lt;a href=&#34;http://uk.youtube.com/watch?v=DW1AHrTNBao&#34;&gt;Jake Shillingford’s second-best song&lt;/a&gt;).&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>On my continuing journey through this thrilling world of professional software development, I frequently encounter teams who hold no truck with this crazy new-fangled concept of unit testing. Heck, truth be told, I sometimes come across teams who don’t use <em>source control</em>, but that’s by the bye.</p>
+<p>In these situations, I try my best to lead by example, continuing to practise TDD on any new code that I cut, and insisting on covering with unit tests any pre-existing code which I have to modify. Sooner or later, this prompts someone to ask why I am doing this (often insinuating that I am wasting my time, and by implication the client’s money). At that point, flustered, I invariably struggle to remember or adequately articulate the many and various ways in which unit testing makes me a better developer. So, consider this blog post a personal aide-mémoire to help me the next time this occurs (as well as being a homage to <a href="http://uk.youtube.com/watch?v=DW1AHrTNBao">Jake Shillingford’s second-best song</a>).</p>
+<p><strong>1. I know that my code works.</strong></p>
+<p>Let’s get the obvious one out of the way first. If I take the time to write unit tests for my code, then I know that the code “works” (i.e. that it behaves as I intended, or hopefully as the specification requested). Any time I want to check that my code works, I can do so with a few clicks. The confidence and feeling of well-being that this brings can’t be underestimated. If you don’t have unit tests, how do you know that your code works?</p>
+<p><strong>2. I know when I’m finished.</strong></p>
+<p>As you’ll know if you’ve read my <a href="https://blog.iannelson.uk/remember-the-milk/">post professing my undying love for Remember The Milk</a>, I’m fond of organising my life through to-do lists. When I’m developing software, the unit tests that I create before developing the code act as my to-do list, help me focus on what it is that I’m trying to achieve, without getting distracted making unrelated changes to the codebase. When all the tests go green, I know I’m done and can move on to the next task.</p>
+<p><strong>3. I can develop cleaner APIs.</strong></p>
+<p>I’m not much of a UI developer; I spend much more of my time working in the middle tier, making class libraries, object models, WCF services and the like. When practicing TDD, I write tests to consume my code before I write the code itself. This forces me to think about things like method signatures and member visibility. Should that method really be public? Do I really need that “out” parameter? Will all those overloads get used? If I didn’t write tests for the middle tier in this way, I wouldn’t consider these questions in quite so much detail, and these issues wouldn’t come to light until I (or worse, someone else), began consuming my code for real.</p>
+<p><strong>4. Testable code is well-designed code.</strong></p>
+<p>This one came as an unexpected surprise to me after I had been writing unit tests for a while and forced myself to make the effort to test code which I initially felt was difficult to test.</p>
+<p>It turns out that many of the techniques which can be used to make code more testable are the exact same techniques which make code better designed, understandable, flexible and maintainable.</p>
+<p>Be honest, when you’re cutting code, how often do you consider things like Low Coupling, High Cohesion, and adhering to the Single Responsibility Principle? Probably not often, I’ll bet. I know I didn’t. But since I started asking myself “How can I make this code testable?” I’ve been delighted to realise that my code magically acquired these properties as a pleasant side effect. Similarly, using techniques like Dependency Injection and Inversion of Control along with Mocking Frameworks for the purposes of testability also serves to make the solution more open to change, and reduces dependencies during the development process (no longer do you hear “Gee boss, I’d love to get started writing the Foo class, but it depends on the Bar class, and Dave hasn’t finished writing that, what with the accident with the bus and all…”).</p>
+<p><strong>5. I can refactor mercilessly and fearlessly.</strong></p>
+<blockquote>
+<p>“Nel-son!!”</p></blockquote>
+<p>I like refactoring. No, wait, scrub that – I <em>love</em> refactoring. Some people get their kicks from gardening, well, I could spend many happy hours weeding a big tangled codebase. Now, in the past, this has gotten me into trouble, when the “improvements” I’ve rashly made have inadvertently caused bugs (sorry John, Sion, Scott and Colin!). Since adopting TDD however, I’ve been confident that my code is sufficiently covered by unit tests that I may refactor mercilessly, safe in the knowledge that the test suite will highlight any unintended side effects. This results in a winning combination of clean code and co-workers who don’t have an urge to throttle me.</p>
+<p><strong>6. I Release Fewer Stupid Mistakes.</strong></p>
+<blockquote>
+<p>“Ah, yeah, silly me, I just copied-and-pasted a line in the DAL, and now all your customers are displaying as having the same forename and surname! Smith Smith, Brown Brown, ha ha!”</p></blockquote>
+<p>Perversely, some coders seem to wear their really dumb mistakes as a “badge of honour”, proof of their fallibility, a sign that they are human. It’s as if they are suggesting to their boss/client not to worry, that they <em>only</em> make dumb mistakes on the easy code, but concentrate much harder when coding the tough algorithms. Honest, guv’.</p>
+<p>I don’t buy this crap. Stupid mistakes are stupid mistakes, period. I think that dumb mistakes, uncaught at an early stage, waste the time of the test team, result in rework, and ultimately waste the client’s money. That’s nothing to laugh about. Covering even the simple, easy code with unit tests reduces the likelihood of these knucklehead bugs getting through, increasing my likelihood of a “right-first-time” reputation. And <em>that’s</em> something to be proud of.</p>
+<p><strong>7. Bugs don’t come back.</strong></p>
+<blockquote>
+<p>“But I’m <em>sure</em> we fixed that bug months ago!”</p></blockquote>
+<p>Before I fix a bug, I write a failing test. That test then becomes a permanent fixture in the test suite, and therefore I can be confident that no “undead bug” will ever come back to haunt me. It’s a very simple concept, but it works. Bug reactivations imply loose development practices, and that’s not an implication I want to be made about my work. Kill the bug once, and keep it dead.</p>
+<p><strong>8. It’s the fastest way to test my changes.</strong></p>
+<p>Testing my changes through artificial unit tests is invariably quicker than testing the functionality by calling it through “real life” use of the overall system.</p>
+<p>Suppose that I’m working on amended postage charge logic for an online retailer – I could test this by either:</p>
+<p>a) Repeatedly manually walking through the application, adding a product to my basket, attempting to “check out”, and calculating whether the displayed postage charge is as I expect, or</p>
+<p>b) Writing a unit test once to automate the testing of the new logic.</p>
+<p>Gee, let me think about that for a while…</p>
+<p><strong>9. I spend more time coding, less time in the debugger.</strong></p>
+<p>Stop me if this conversation sound<br>
+s at all familiar:</p>
+<blockquote>
+<p>“How was your day today, darling?”</p>
+<p>“Ugh, don’t ask. I spent, like, <em>seven hours</em> trying to track down a bug. I pulled out Reflector, and even started debugging into the .NET framework class library – I was convinced for a while there it was a problem in System.String. But it turned out I just had some Boolean logic the wrong way round.”</p>
+<p>“That’s nice, dear. More mange tout?”</p></blockquote>
+<p>Visual Studio has excellent debugging tools, but still, I’d rather be spending my time cutting new code, thanks all the same. I’m sure the clients who pay my invoices feel much the same. Catching the bugs early, through effective unit testing, means that I spend far less time in the debugger.</p>
+<p><strong>10. Writing documentation and sample code is boring.</strong></p>
+<p>Visiting the dentist. Cleaning the bathroom. Writing documentation. All things which I’d rather put off until tomorrow, thank you very much.</p>
+<p>If, on any given day, I have the choice between firing up Word and documenting my class library, or firing up Visual Studio and adding shiny new functionality to the same library, well, it’s no contest.</p>
+<p>But here’s the neat thing – having taken the time to create a comprehensive suite of unit tests for my own, selfish purposes, it turns out that potential consumers of my library can benefit from them as a de facto set of usage examples and documentation. Yay!</p>
+<p><strong>11. I can hand the code over to other people.</strong></p>
+<blockquote>
+<p>“Dave’s the only person who understands that code.”</p></blockquote>
+<p>Oh really? What happens when Dave is on holiday? Or quits to get a better-paid job? Or gets hit by a bus? That’s a bit of a risk for your project, surely.</p>
+<p>Maybe you’re a Dave, and your unique knowledge of a particular system means that you only ever get to work on that one application. Shiny new projects come along, and get handed to your colleagues, because you’re too busy supporting the Legacy App From Hell, until you quit to get that better paid job, or walk in front of a bus in desperation.</p>
+<p>If, on the other hand, you’ve covered the code in unit tests, then you have effectively documented the codebase, provided example usages, and made it near-impossible for any future developers to break existing functionality due to their ignorance of the system. They can try making a change, run the unit tests, and instantly find out whether their change works. This helps to make possible <a href="http://www.extremeprogramming.org/rules/collective.html">Collective Code Ownership</a>, a variety of work for all members of the team, and no risky dependencies on Dave and his jaywalking habits.</p>
+<p><strong>12. I’m A Professional</strong></p>
+<p>I’ll return to what I said in the opening sentence of this article – this is <em>professional</em> software development. This isn’t just my hobby, or my day job. It’s my career, my business, my passion and the livelihood of myself and my family. I strive to improve and hopefully excel at it. All the research and my own experience suggests that practicing TDD results in fewer defects, saves time in the medium and long term, and is generally the approach to be expected of a professional. If you’re looking for a quick-fix from a cowboy contractor, go elsewhere and save yourself some money… in the short term 🙂</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Going For It</title>
@@ -107,6 +313,16 @@
       <pubDate>Mon, 14 Jan 2008 12:01:00 +0000</pubDate>
       <guid>https://bloghugo.iannelson.uk/going-for-it/</guid>
       <description>&lt;p&gt;I’ve never been a fan of those &lt;a href=&#34;http://www.allposters.com/-st/Motivational-Posters_c12920_p6_.htm&#34;&gt;motivational posters&lt;/a&gt; that you see on office walls (usually in sales or marketing departments) that attempt to depict a word like “Opportunity” or “Teamwork” with a single image, usual of some nature scene or a lone individual rising above the odds to achieve a difficult goal. To my mind they always look a bit facile, glib and superficial. “Destiny” equates to a holiday villa on the Maldives?  “Integrity” is a Lion? “Success” appears to involve hang-gliding off towards the ocean in an action which brings to mind Reginald Perrin?! I demand more thought and more words from my motivational office decorations!&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I’ve never been a fan of those <a href="http://www.allposters.com/-st/Motivational-Posters_c12920_p6_.htm">motivational posters</a> that you see on office walls (usually in sales or marketing departments) that attempt to depict a word like “Opportunity” or “Teamwork” with a single image, usual of some nature scene or a lone individual rising above the odds to achieve a difficult goal. To my mind they always look a bit facile, glib and superficial. “Destiny” equates to a holiday villa on the Maldives?  “Integrity” is a Lion? “Success” appears to involve hang-gliding off towards the ocean in an action which brings to mind Reginald Perrin?! I demand more thought and more words from my motivational office decorations!</p>
+<p>For many many years, blu-tacked to my monitor at home has been an <a href="http://wilmergraphics.com/cgi-local/catalog/hazel.cgi/hzpi/u/HzSt01131116140m1117160U0n100m0m0n1513161710/hazel.cgi?action=serve&amp;item=categories/titles/inspiration1.htm#247">inspirational “wallet stuffer” by Bruce B. Wilmer</a> which was given to me by my mum. It’s a short poem entitled “Go For It!” which begins:</p>
+<p><em>“Shake off your doubts and then go for it.</em><br>
+<em>Check out your options and act.</em><br>
+<em>Find an approach to the future,</em><br>
+<em>And turn today’s dreams into fact.”</em></p>
+<p>I’ve seen those words on a daily basis for far too long. Today is the day that I stop simply reading them, and start acting upon them.</p>
+<p>After much deliberation, I’ve handed in my notice at Marshalls and begun setting myself up as a contractor. I have been mulling over the idea of going freelance for a long time, but have always had other distractions to worry about. Now that I’m married, settled in a new house, have obtained UK residency for Jocelyn, and baby Ben is settling down nicely, I figure that my life is finally getting to be stable and prosaic, and I should take this opportunity to stir things up a bit by handing in my notice with no certainty of regular (or indeed any) future income!</p>
+<p>I am filled with a heady mixture of trepidation and excitement. More details will, undoubtedly, appear on this blog in due course. Wish me luck!</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Ian Nelson, MCSD.Net</title>
@@ -115,6 +331,19 @@
       <guid>https://bloghugo.iannelson.uk/ian-nelson-mcsd-net/</guid>
       <description>&lt;p&gt;I am now a Microsoft Certified Solution Developer in .NET 1.x technologies. This is a qualification that I’ve been working towards on and (more often than not) off for the past four years or so. It’s not really the case that the exams were super-hard, just that it took occasional motivation to get round to taking them!&lt;/p&gt;
 &lt;p&gt;So, was it worth it?  Did I learn anything en route?  Did the exams boost my employability?  Would I be more inclined to employ someone with an MCSD than an applicant without?&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I am now a Microsoft Certified Solution Developer in .NET 1.x technologies. This is a qualification that I’ve been working towards on and (more often than not) off for the past four years or so. It’s not really the case that the exams were super-hard, just that it took occasional motivation to get round to taking them!</p>
+<p>So, was it worth it?  Did I learn anything en route?  Did the exams boost my employability?  Would I be more inclined to employ someone with an MCSD than an applicant without?</p>
+<p>Stepping back in time a little, my first real conversation about .Net was in November 2000, at a job interview for a position with <a href="http://www.ioko.com">ioko</a>{.} (then Infocom), when <a href="http://www.farend.co.uk/">Matthew</a>{.} asked me something vague along the lines of “what did I understand regarding Microsoft’s .NET initiative?”  I honestly can’t remember my answer, but it can’t have utterly sucked as I got the job, and started the following month.</p>
+<p>A year later, December 2001, and I attended the two-day .NET launch at the London Hilton, at which a certain Bill Gates gave a keynote speech explaining why .NET was the future. It was one of the few sessions at that conference which didn’t go over my head – the rest utterly blew my mind, and made me feel extremely ignorant – me with my VB6 and ASP3 skills!</p>
+<p>Another year passed, and a quiet market meant that I still hadn’t had any opportunity to cut my teeth on any .NET projects. But crucially (and in retrospect foolishly), I also hadn’t put any personal effort into learning these important new technologies. So, on 3rd December 2002, I ordered some self-study books for exams 70-315 and 70-316. Apparently expecting to learn by osmosis, I then popped them on my bookshelf, and headed off to Australia to visit my friends Bruce and Suzanne.</p>
+<p>When I got back from Down Under, in January 2003, my job at ioko was not waiting for me. That quiet market wasn’t getting any noisier, a cull had to occur, and, since I didn’t have any proven .Net skills…</p>
+<p>Redundancy wasn’t a pleasant experience, and I wanted to get back into the world of work ASAP (after all, the mortgage wasn’t going to pay itself), so I quickly took up what I always expected to be a stop-gap VB6/ASP job – the pay wasn’t great but it beat daytime TV, spamming the employment agencies and constantly refreshing jobserve.com. It was at this point in time I realised that the only person with the capability to improve my skills and career prospects was myself. For too long I had equated career success to “luck” in being placed on the right projects. Now it was time for me to invest some time and energy learning those all-important .NET skills that I’d been reading about for the past few years.</p>
+<p>For much of the long hot summer of 2003, I burnt the midnight oil developing a three-tier web application for the investment club of which I was the treasurer at that time. This served a number of purposes:  Of course, the website was useful to those who had access to it, but more importantly to me, it provided a way to develop the .NET skills that I saw as being the keys to a better job. Now, the obvious shortcoming of using a personal project as a way to learn a set of technologies is that you’re unlikely to stumble across those enterprise-y features in the Framework that are of particular use in business scenarios. So, I supplemented my late-night hacking sessions (which incidentally resulted in my neighbours complaining about my playing pop music at 2am) with some diligent studying of the 70-306 guide that I’d bought the previous winter. On 14th June 2003, after spending around £80 of my own cash to take the exam, I passed that test, becoming an MCP for the first time.</p>
+<p>Was it worth it?  I think so. My efforts meant I got a good grounding in aspects of the technologies that I would not otherwise have stumbled across, and it gave me something concrete and .NET-related to put on my CV (effectively saying “yeah, I know I haven’t worked with these technologies professionally, but that doesn’t mean I don’t understand them”). A few months later, as the market started to gradually pick up again, I got the job I still have – as a .NET developer for Marshalls. I’ve no doubt that the MCP exam helped to at least get my foot in the door.</p>
+<p>I took the remaining four exams at my leisure over the next few years. Whilst studying for the SQL Server (70-229), Web Services and Server Components (70-320) and Requirements and Architectures (70-300) exams, I always found myself learning several things that I hadn’t picked up on the job – in that sense at least, I think undertaking the exams was worthwhile. The final exam I took was the Windows App exam (70-316), and this was a bit of a stroll in all honesty, after the previous four exams and three year’s of .NET experience.</p>
+<p>Would I be more inclined to employ someone with an MCSD than an applicant without?  I think the qualification helps greatly in identifying potential candidates, but there are many other factors that make a good developer that aren’t covered in any depth by these exams. Design Patterns and OOP concepts in general were not really tested, even on the 70-300 exam. Knowledge of IIS was not covered on 70-306 – I guess it’s assumed that this is the realm of the Systems Administrator rather than the coder, but in reality (especially in small teams), a good ASP.NET developer needs an intimate understanding of how their web server works and is configured. What about covering topics such as source control, automated builds, and release management?  Issues such as unit testing and the benefits of code reviews were mentioned in the 70-300 exam, but there’s a difference between knowing the theory and applying this in practice. An MCSD qualification certainly demonstrates the former, but a few searching questions at interview are still required to prove the latter.</p>
+<p>So what’s next for me?  Upgrading to the “<a href="http://www.microsoft.com/learning/developer/eadev.mspx">MCPD: Enterprise Applications Developer</a>” qualification is the obvious path, and I’ll probably do so in due course, but right now I’d like to like to spend more time getting to grips with SQL Server 2005 by taking the relevant <a href="http://www.microsoft.com/learning/mcp/mcts/sql/default.mspx">MCTS exam (70-431)</a>. If that goes well, then maybe I’ll continue onto the <a href="http://www.microsoft.com/learning/mcp/mcitp/dbdev/default.mspx">MCITP: DB Dev</a> qualification. We’ll see.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>I’m an MCAD!</title>
@@ -122,6 +351,8 @@
       <pubDate>Sat, 13 Nov 2004 13:11:00 +0000</pubDate>
       <guid>https://bloghugo.iannelson.uk/im-an-mcad/</guid>
       <description>&lt;p&gt;Woohoo!  I just passed &lt;a href=&#34;http://www.microsoft.com/learning/exams/70-320.asp&#34;&gt;MS exam 70-320&lt;/a&gt; with a score of 936, and am now a &lt;a href=&#34;http://www.microsoft.com/learning/mcp/mcad/default.asp&#34;&gt;Microsoft Certified Application Developer&lt;/a&gt;!&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Woohoo!  I just passed <a href="http://www.microsoft.com/learning/exams/70-320.asp">MS exam 70-320</a> with a score of 936, and am now a <a href="http://www.microsoft.com/learning/mcp/mcad/default.asp">Microsoft Certified Application Developer</a>!</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

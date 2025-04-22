@@ -15,6 +15,20 @@
       <guid>https://bloghugo.iannelson.uk/who-reigns-supreme-parsing-our-whatsapp-chat-for-wordle-glory/</guid>
       <description>&lt;p&gt;Back in 2022, in a bid to outwit my mother in our daily Wordle battles, I wrote some C# code to explore optimal starting guesses. &lt;a href=&#34;https://blog.iannelson.uk/the-best-wordle-starter-words/&#34;&gt;You can read about that experiment here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Fast forward two years, and my Wordle addiction is alive and well. The daily challenge remains as compelling as ever, but it’s the family WhatsApp group – where scores are shared, victories boasted, and failures commiserated – that adds an extra layer of fun.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Back in 2022, in a bid to outwit my mother in our daily Wordle battles, I wrote some C# code to explore optimal starting guesses. <a href="https://blog.iannelson.uk/the-best-wordle-starter-words/">You can read about that experiment here</a>.</p>
+<p>Fast forward two years, and my Wordle addiction is alive and well. The daily challenge remains as compelling as ever, but it’s the family WhatsApp group – where scores are shared, victories boasted, and failures commiserated – that adds an extra layer of fun.</p>
+<p>As 2024 winds down, I decided to dust off my coding skills and whip up a quick C# console application. The goal? To parse an export of our WhatsApp chat, gather all the shared Wordle scores, and find out if my strategies have paid off this year. Spoiler alert: they haven’t.</p>
+<p>If you’ve got a similar Wordle-centric group chat with family or friends and fancy crowning your own Wordle Champion of the Year, the source code is available on GitHub: <a href="https://github.com/ianfnelson/WordleParser">WordleParser</a>.</p>
+<h2 class="wp-block-heading" id="how-it-works">How It Works</h2>
+<p>The application takes a single argument: the path to an exported chat text file. It parses the file using a <a href="https://github.com/ianfnelson/WordleParser/blob/main/WordleParser/WordleParser.cs#L46">regular expression</a> to extract anything resembling a Wordle score. <a href="https://github.com/ianfnelson/WordleParser/blob/main/WordleParser/WordleParser.cs#L27">Duplicate scores are weeded out</a>, and the <a href="https://github.com/ianfnelson/WordleParser/blob/main/WordleParser/WordleParser.cs#L32">average family score for each calendar day is logged</a>. For those unfortunate days when a puzzle remains unsolved, the application <a href="https://github.com/ianfnelson/WordleParser/blob/main/WordleParser/WordleParser.cs#L59">assigns a ‘seven’</a> to reflect the failure.</p>
+<p>The app then aggregates scores into calendar <a href="https://github.com/ianfnelson/WordleParser/blob/main/WordleParser/WordleParser.cs#L17">months</a> and <a href="https://github.com/ianfnelson/WordleParser/blob/main/WordleParser/WordleParser.cs#L11">years</a>, <a href="https://github.com/ianfnelson/WordleParser/blob/main/WordleParser/WordleParser.cs#L76">calculating each family member’s stats for the chosen date range</a>. Participants are ranked based on their mean difference from the average family score per day.</p>
+<p>For example, if three family members scored a 4, but one managed a dazzling 2, the day’s average would be 3.5. The three “fours” would each have a daily difference of +0.5, while the lucky “two” would boast a difference of -1.5.</p>
+<h2 class="wp-block-heading" id="the-results">The Results</h2>
+<p>So, who triumphed in the Nelson family Wordle-off this year? Did my painstaking analysis from 2022 finally give me the edge?</p>
+<p>Reader, it did not.</p>
+<p>Despite my best efforts, I only just managed to sneak into second place. Predictably, my mother reigned supreme, crushing us all with an average score of <strong>4.055</strong> and a mean difference from the family average of <strong>-0.128</strong>. This consistency made her our undisputed <strong>Wordle Family Champion of 2024</strong>.<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --><em>Image generated using OpenAI’s DALL·E tool.</em><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+]]></content:encoded>
     </item>
     <item>
       <title>The Best Wordle Starter Words</title>
@@ -22,6 +36,35 @@
       <pubDate>Tue, 18 Jan 2022 19:00:00 +0000</pubDate>
       <guid>https://bloghugo.iannelson.uk/the-best-wordle-starter-words/</guid>
       <description>&lt;p&gt;Like (it would seem) most of the rest of humanity, the start of my 2022 has been immeasurably enhanced by starting each day playing &lt;a href=&#34;https://www.powerlanguage.co.uk/&#34;&gt;Josh Wardle’s&lt;/a&gt; charming word game &lt;a href=&#34;https://www.powerlanguage.co.uk/wordle/&#34;&gt;Wordle&lt;/a&gt;. Which got me wondering – what are the best starter words to play in the opening lines at Wordle? I have been habitually using “&lt;strong&gt;ADIEU&lt;/strong&gt;” as my starter word, reasoning that it contains a large number of vowels. But is &lt;strong&gt;D&lt;/strong&gt; a particularly common consonant? And should I be trying to get &lt;strong&gt;O&lt;/strong&gt; in there rather than the less frequently used &lt;strong&gt;U&lt;/strong&gt;? I decided to do some computer-aided analysis to find the answer.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Like (it would seem) most of the rest of humanity, the start of my 2022 has been immeasurably enhanced by starting each day playing <a href="https://www.powerlanguage.co.uk/">Josh Wardle’s</a> charming word game <a href="https://www.powerlanguage.co.uk/wordle/">Wordle</a>. Which got me wondering – what are the best starter words to play in the opening lines at Wordle? I have been habitually using “<strong>ADIEU</strong>” as my starter word, reasoning that it contains a large number of vowels. But is <strong>D</strong> a particularly common consonant? And should I be trying to get <strong>O</strong> in there rather than the less frequently used <strong>U</strong>? I decided to do some computer-aided analysis to find the answer.</p>
+<p><em><strong>SPOILER WARNING</strong> – this blog post contains information that may lead you to play more optimal Wordle starter words than you otherwise would have done if left to your own imagination. If you consider that this may take the fun out of an enjoyable daily practice, then I suggest that you stop reading. Now.</em><!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted -->Photo by <a href="https://unsplash.com/@ryoji__iwata?utm_source=ghost&amp;utm_medium=referral&amp;utm_campaign=api-credit">Ryoji Iwata</a> / <a href="https://unsplash.com/?utm_source=ghost&amp;utm_medium=referral&amp;utm_campaign=api-credit">Unsplash</a><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h2 id="definition.wp-block-heading">Definition</h2>
+<p>Still here? OK, first a definition. What do I consider to be a good Wordle starter word? What makes one starter word better than another?</p>
+<p>I assert that the best Wordle starter words are those which are expected to result in the highest number of yellow (right letter, wrong spot) or green (right letter, right spot) tiles. Let’s call this E(Y|G).  As a tie-breaker, where two words have the same value of E(Y|G), I consider the better word to be the one which is expected to result in the highest number of green tiles – let’s call this E(G).</p>
+<p>I’ve seen alternative approaches posted on Twitter that rank guesses in different ways, such as one which was based on how many possible answers from the Wordle corpus are excluded by guessing them. But my brain doesn’t work that way round – I don’t have the full list of Wordle words in my head to sieve through, and instead seek the positive reinforcement of yellow and green tiles to use as the basis for my later guesses.</p>
+<h2 id="assumption.wp-block-heading">Assumption</h2>
+<p>There are 12,972 valid words in the Wordle dictionary. For the purposes of this analysis, I’m going to assume that they all have an equal likelihood of being the Wordle answer on any given day. Clearly this is not true. I’ve only been playing Wordle for a couple of weeks but it’s immediately apparent that the winning words tend to be those in common everyday use. I doubt that the game would have its current levels of popularity were this not the case. My nine year old son loves playing Wordle every day, and this shared common bond is one of the things that makes Wordle so fun. There was quite some brouhaha on Twitter when the answer to Wordle 207 was the US English spelling of “<strong>FAVOR</strong>“, I can only imagine what an uproar there would be if the answer was ever something truly random like “<strong>QAJAQ</strong>“, “<strong>XYLYL</strong>” or “<strong>HYPHY</strong>“. But I digress. Whatever aspects of curation are taking place to select the daily Wordle, be it automated or human, I’m going to ignore it and assume that the Wordle is chosen randomly from the list of valid Wordle words.</p>
+<h2 id="the-top-10-best-wordle-starter-words.wp-block-heading">The Top 10 Best Wordle Starter Words</h2>
+<p>This is your last chance to look away. Having iterated through all 168,272,784 pairs of guessed word and answer, here are the ten best Wordle starter words</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Therefore, if you want to turn over the highest number of yellow and green tiles on your first Wordle play, and favour seeing the green tiles, then “<strong>AEROS</strong>” is your best bet. By comparison my previous favourite of “<strong>ADIEU</strong>” has an E(Y|G) of 1.49229 and E(G) of 0.32886.</p>
+<h2 id="the-best-words-to-play-second.wp-block-heading">The Best Words To Play Second</h2>
+<p>But what comes next? What words are best to play on the second line? It depends how you like to play the game. If you’re like my mother, or have “hard mode” turned on, then your second and subsequent guesses will be influenced by the hints received in response to your first guess.</p>
+<p>On the other hand, if you’re like me, at this early stage you’ll want to continue exploring the full breadth of the alphabet to increase the probability of identifying additional letters in the answer. For example I have generally been following up my “<strong>ADIEU</strong>” starter with “<strong>GHOST</strong>” to finish off the vowels and include <strong>T</strong> and <strong>S</strong> in the mix.</p>
+<p>With this in mind, I extended my analysis to determine the combined E(Y|G) and E(G) values for pairs of valid Wordle words. All of the best results came from pairing together words that cover 10 distinct letters. Perhaps that seems intuitive, but it wasn’t a foregone conclusion. There are many guesses containing repeated letters which have excellent prospects, especially those with pairs of <strong>E</strong> or <strong>S</strong>. “<strong>EASER</strong>” is the best of these with an E(Y|G) of 1.68039, and pleasingly even “<strong>ARSES</strong>” weighs in with an E(Y|G) of 1.66489.</p>
+<p>Here are the ten best combinations of ten letters to cover with the first two guesses, with an example of two valid Wordle words covering those letters:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>By comparison, my previous favoured pairing of “<strong>ADIEU</strong>” and “<strong>GHOST</strong>” has an E(Y|G) of 2.7358. Switching to a combination of words that covers the letters AEILNORSTU such as “<strong>AEROS</strong>” and “<strong>UNLIT</strong>” should boost my expected number of hints from my first two guesses by 12%!</p>
+<h2 id="the-best-of-the-best.wp-block-heading">The Best of the Best</h2>
+<p>But which two words to pick? There are no fewer than <strong>300 combinations</strong> of valid Wordle words which cover those best ten letters, all having a combined E(Y|G) of 3.06429. Again, I decided to use E(G) as a tie-breaker, which leads to the following ranking of pairs of starting words:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="adieu-adieu.wp-block-heading">Adieu, “ADIEU”</h2>
+<p>So there you have it. Having crunched the numbers, my new pair of Wordle starter words from tomorrow morning shall be “<strong>TAILS</strong>” followed by “<strong>ROUEN</strong>“. <a href="https://twitter.com/ianfnelson">Follow me on Twitter</a> to see how it works out for me. I have a suspicion that despite this analysis, my mother will still reach the answer in fewer guesses than me more often than not!</p>
+]]></content:encoded>
     </item>
     <item>
       <title>On the Inherent Negativity of Computer Programmers</title>
@@ -32,6 +75,22 @@
 &lt;blockquote&gt;
 &lt;p&gt;“Do you think that programming computers for a living gives you a negative outlook on life?”&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Now, Scott is unfortunately responsible for administering occasional TLC to a codebase that I cut as long ago as 2004, so I assumed he was referring to this and was about to raise some complaints about my hand-rolled query object criteria framework or other coding horror. I steeled myself to defend my work as he continued to explain:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>A couple of weeks ago, early one morning, my friend and fellow coder Scott asked a curious question:</p>
+<blockquote>
+<p>“Do you think that programming computers for a living gives you a negative outlook on life?”</p></blockquote>
+<p>Now, Scott is unfortunately responsible for administering occasional TLC to a codebase that I cut as long ago as 2004, so I assumed he was referring to this and was about to raise some complaints about my hand-rolled query object criteria framework or other coding horror. I steeled myself to defend my work as he continued to explain:</p>
+<blockquote>
+<p>“Well, when coding we have to consider all the potential edge cases and exceptions – what happens if our methods get dodgy inputs etcetera. And it’s spilling over into my real life. We’re moving house at the moment, and I just find myself worrying about what happens if the buyers pull out, if we can’t get the mortgage, if the survey reveals problems… I’m really negative about the whole process.”</p></blockquote>
+<p>At the time I smiled and put this down to the notoriously tortuous British house-buying process, but the more I think about it, the more I think Scott might be onto something.<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>My wife and I are currently plotting a well-deserved summer vacation in sunnier climes, which theoretically should be an enjoyable task, right? But I can’t simply enjoy it and focus on the “sunny-day scenario”. My mind is full of edge cases (“What if we can’t fit all our stuff in the car?”), unhandled exceptions (“Will we get our passports in time?”), compatibility issues (“will our choice of dates suit my clients?”), unwise over-reliance on dependent components (“Will the airline have any child seats available?”) and of course user errors (“Suppose we book the wrong dates?!”). No focusing on the happy path for this codemonkey.</p>
+<p>The more I think about it, the more I see that Scott has a point. Professional software development forces us to anticipate invalid input, stupid users, hackers,  insufficient hardware, unreachable remote services, and whether our software can pass <a href="http://www.moserware.com/2008/02/does-your-code-pass-turkey-test.html">the Turkey test</a>. We consider SQL injection, cross-site scripting, buffer overflows, and countless other common <a href="http://en.wikipedia.org/wiki/Category:Computer_security_exploits">threats and exploits</a>. Not to mention worrying about what happens when other devs get their grubby mitts on our codebase, or when the client inevitably unleashes some game-changing requirements late in the lifecycle. We’re all about expecting the worse, coding <a href="http://en.wikipedia.org/wiki/Defensive_programming">defensively</a>, and decoupling ourselves from dependencies. The ever-present potential for high-profile failures caused by something as simple as an inverted boolean comparison, combined with the likelihood of critique and criticism from our fellow coders, DBAs, auditors and sysadmins is enough to turn most devs into a nervous wreck before they’ve so much as initialised a variable. That reminds me, I must check that my Professional Indemnity insurance policy is up to date.<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>So, anecdotal evidence and my own experience suggests to me that Border’s First Law is a truism. Programming Computers Can Cause Negativity, Cynicism and Pessimism.</p>
+<p>Are these necessarily negative traits to have, or can such enforced forethought and consideration of potential issues be a benefit in “real life”, away from the screen? I suspect as with many things, the answer is that there is some balance to be had. So – getting to the airport on time is A Good Thing. Spending a fortnight’s vacation panicking on the offchance that the flight operator goes bust is, probabilistically, a bit silly.</p>
+<p>I’m not sure where I’m going with this, or what the answer is, except perhaps to be a little more aware of this mindset and try to adopt a little restrain when applying programming principles to “real-life” conversations. Life, alas, is not a well-defined algorithm, and God knows it doesn’t come complete with a full suite of regression tests.</p>
+<p>PS – You know, I just remembered that I <a href="https://blog.iannelson.uk/edge-cases/">blogged about this topic before</a>!</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Deduplication Fail</title>
@@ -40,6 +99,9 @@
       <guid>https://bloghugo.iannelson.uk/deduplication-fail/</guid>
       <description>&lt;p&gt;Oh, the irony!&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Oh, the irony!<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+]]></content:encoded>
     </item>
     <item>
       <title>On Primality In Packsizes</title>
@@ -47,6 +109,13 @@
       <pubDate>Fri, 23 Oct 2009 10:10:00 +0000</pubDate>
       <guid>https://bloghugo.iannelson.uk/on-primality-in-packsizes/</guid>
       <description>&lt;p&gt;Benny George, our precocious two-year-old, is quite the fan of &lt;a href=&#34;http://www.bbc.co.uk/cbeebies/mistermaker/&#34;&gt;Mister Maker&lt;/a&gt;, and enjoys spending time doing arty crafty stuff with his mum. Now, the great thing about the BBC is that they tend to suggest projects which can be created using bits and bobs that you’re likely to have around the home – old cereal boxes and the like. But occasionally some specialist resources have to be procured in the name of Ben’s art, and so it was that Joce today spent £1.99 on a pack of the “googly eyes” so beloved of Maker.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Benny George, our precocious two-year-old, is quite the fan of <a href="http://www.bbc.co.uk/cbeebies/mistermaker/">Mister Maker</a>, and enjoys spending time doing arty crafty stuff with his mum. Now, the great thing about the BBC is that they tend to suggest projects which can be created using bits and bobs that you’re likely to have around the home – old cereal boxes and the like. But occasionally some specialist resources have to be procured in the name of Ben’s art, and so it was that Joce today spent £1.99 on a pack of the “googly eyes” so beloved of Maker.</p>
+<!-- raw HTML omitted -->
+<p>Here’s the thing though – I couldn’t help but noticing that these 20mm googly eyes come in packs of <em>seventeen</em>. Joce charitably suggested that this was simply the number of eyes that could fit in the packet, but I am more cynical. Can it really be a coincidence that <em>eyes</em> – which are surely generally found in pairs – are sold in an odd quantity, forcing the purchaser to buy slightly more than they required?</p>
+<p>And we’re not just looking at an odd number here – 17 is prime too, so even if you happened to be creating models of, say, <a href="http://en.wikipedia.org/wiki/Tuatara">the three-eyed Tuatara lizard</a>, you’re still going to end up with some product left over or feel obliged to buy another pack.</p>
+<p>Cunning folk, these googly eye marketers, and it makes me wonder why other manufacturers stick to selling their products in multiples of integers with many divisors. Ease of packaging, perhaps.</p>
+<p>What other products are sold in prime quantities?</p>
+]]></content:encoded>
     </item>
     <item>
       <title>New Office Photos</title>
@@ -55,6 +124,9 @@
       <guid>https://bloghugo.iannelson.uk/new-office-photos/</guid>
       <description>&lt;p&gt;I &lt;a href=&#34;https://blog.iannelson.uk/new-office-plan/&#34;&gt;promised you some photos of my new office a while back&lt;/a&gt;, didn’t I? OK, here you go…&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;The Desk&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;The Computer&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;One of These Books Is Not Like The Others&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Bits n Bobs&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;In Gnasher We Trust&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I <a href="https://blog.iannelson.uk/new-office-plan/">promised you some photos of my new office a while back</a>, didn’t I? OK, here you go…<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted -->The Desk<!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->The Computer<!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->One of These Books Is Not Like The Others<!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->Bits n Bobs<!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->In Gnasher We Trust<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Zero Interest Bug Arrives</title>
@@ -65,6 +137,13 @@
 &lt;p&gt;From &lt;a href=&#34;http://www.timesonline.co.uk/tol/money/property_and_mortgages/article5668432.ece&#34;&gt;The Times&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;“About 1,500 customers who took out a tracker mortgages pegged at 1.01 points below the base rate with Cheltenham &amp;amp; Gloucester (C&amp;amp;G), owned by Lloyds Banking Group, will be paying no interest at all on their home loans from next month.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;It is the first time that a mortgage lender has been forced to reduce the interest on their home loans to zero.&lt;/em&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>So, base rates are now down to 1.0%, and the <a href="https://blog.iannelson.uk/zero-interest-bug/">Zero Interest Bug</a> is not just conjecture.</p>
+<p>From <a href="http://www.timesonline.co.uk/tol/money/property_and_mortgages/article5668432.ece">The Times</a>:</p>
+<p><em>“About 1,500 customers who took out a tracker mortgages pegged at 1.01 points below the base rate with Cheltenham &amp; Gloucester (C&amp;G), owned by Lloyds Banking Group, will be paying no interest at all on their home loans from next month.</em></p>
+<p><em>It is the first time that a mortgage lender has been forced to reduce the interest on their home loans to zero.</em></p>
+<p><em>Lloyds Banking Group, now 43 per cent owned by the taxpayer and also the owner of C&amp;G, said that there was a zero floor to the deal and that <strong>because its computer systems could not cope with zero</strong>, it would be temporarily charging 0.001 per cent, or 8p a month for a borrower with a £100,000 mortgage. However, that money will be refunded.”</em></p>
+<p>I bet those jammy 1,500 people are feeling quite smug today. Needless to say, I’m still kicking myself very hard for fixing my mortgage last summer… sob!</p>
+]]></content:encoded>
     </item>
     <item>
       <title>What&#39;s In Your Wallet?</title>
@@ -73,6 +152,28 @@
       <guid>https://bloghugo.iannelson.uk/whats-in-your-wallet/</guid>
       <description>&lt;p&gt;My good buddy &lt;a href=&#34;http://www.johnsadventures.com&#34;&gt;John&lt;/a&gt; just published &lt;a href=&#34;http://www.johnsadventures.com/archives/2008/08/the-contents-of-my-wallet.html&#34;&gt;a typically navel-gazing post detailing the contents of his wallet&lt;/a&gt;, and went on to invite readers to divulge details of their own &lt;em&gt;billfolds&lt;/em&gt; in what I can only presume is some cunning and evil plan for mass identity-theft 🙂&lt;/p&gt;
 &lt;p&gt;Well, as I said in the comments to John’s post, I was surprised at the quantity of sentimental knick-knacks and memorabilia he has in there, compared to the rather prosaic and functional contents of my own wallet.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>My good buddy <a href="http://www.johnsadventures.com">John</a> just published <a href="http://www.johnsadventures.com/archives/2008/08/the-contents-of-my-wallet.html">a typically navel-gazing post detailing the contents of his wallet</a>, and went on to invite readers to divulge details of their own <em>billfolds</em> in what I can only presume is some cunning and evil plan for mass identity-theft 🙂</p>
+<p>Well, as I said in the comments to John’s post, I was surprised at the quantity of sentimental knick-knacks and memorabilia he has in there, compared to the rather prosaic and functional contents of my own wallet.<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>The wallet itself is a simple black leather one from <a href="http://www.burberry.com">Burberry</a>, and tonight contains the following:</p>
+<ul>
+<li>£90. In case you were thinking of mugging me, you should know that I don’t usually carry nearly so much.</li>
+<li>A bunch of receipts from the week. Come tomorrow evening the details will all have been religiously input into MS Money, and the receipts shredded.</li>
+<li>Four first-class stamps.</li>
+<li>A Starbucks card – essential for those occasional lunches with John 🙂</li>
+<li>Three credit cards, one from each of the major providers. You can never be sure which will be accepted, and the occasional system failure or over-zealous anti-fraud software has resulted in me having to offer all three before a transaction could be processed.</li>
+<li>A debit card, which I mostly use this for taking cash out of ATMs. I don’t see the point in using it for payments if I can help it, preferring to get the interest-free period and insurance that comes from using a credit card instead.</li>
+<li>My Microsoft Certified Professional card. I’m not sure what the point of carrying this is – maybe I won’t put it back!</li>
+<li>A “Club Toyota” membership card. I don’t really get the point of this one, either.</li>
+<li>A membership card for my local gym. This whole gym-going malarkey is a relatively new thing for me, and I’m grateful to my wifey for persuading me to join, as I feel much fitter for getting a bit of exercise a few times a week. I think having kids is a big incentive to start taking care of yourself, as you want to stick around as long as possible to share their lives.</li>
+<li>A Costco trade membership card. One of the nice perks of being a company director is being able to go to Costco and buy 45 toilet rolls and a gallon of Tabasco whenever I fancy!</li>
+<li>National Trust membership card. We find ourselves wandering round stately piles quite often, in an effort to Bentertain the one year old.</li>
+<li>Driving license.</li>
+<li>North Yorkshire County Libraries card. Libraries gave us power!</li>
+<li>“Loyalty” cards from Boots, Shell, WHSmith, Coop, Tesco and Nectar. I’m not very loyal, but I don’t look a gift horse in the mouth.</li>
+</ul>
+<p>And that’s your lot. Not very interesting really, eh?</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Edge Cases</title>
@@ -83,6 +184,21 @@
 &lt;p&gt;I must learn that these skills should not always be applied to my personal life though, as exemplified by a conversation with The Wife yesterday:&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;em&gt;Jocelyn (excitedly): “We’re going to have a ‘Secret Santa’ for all the babies in our antenatal group!”&lt;/em&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Ten years of professional software development have given me a healthy awareness of edge cases – I’m always trying to code defensively, validate input, catch exceptions, use assertions, and of course pick holes in sloppy specifications (“ah, but what if…”).</p>
+<p>I must learn that these skills should not always be applied to my personal life though, as exemplified by a conversation with The Wife yesterday:</p>
+<hr>
+<p><em>Jocelyn (excitedly): “We’re going to have a ‘Secret Santa’ for all the babies in our antenatal group!”</em></p>
+<p><em>Me: “Huh. How does that work then?”</em></p>
+<p><em>Jocelyn: “Well, we each buy a gift for under £10, put them into a bag, and each pick one.”</em></p>
+<p><em>Me: “What happens if you pick out the gift you bought?”</em></p>
+<p><em>Jocelyn (less excitedly): “Well, you put it back and pick another.”</em></p>
+<p><em>Me: “So, you have an even number of babies in the group?”</em></p>
+<p><em>Jocelyn (testily): “There are seven.”</em></p>
+<p><em>Me: “Then what happens if the last person picks their own gift?”</em></p>
+<p><em>Jocelyn (deflated): “Ian…!  OK, so we won’t open any gifts until they’re all selected – happy now?”</em></p>
+<hr>
+<p>I was. In my mind this is like recursively calling an algorithm if a post-check fails. It’s an unusual approach, but it should work OK here.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Postcode Validation</title>
@@ -92,6 +208,12 @@
       <description>&lt;p&gt;Wikipedia cracks me up sometimes. I’m sat here at my desk, trying to knock together some C# code to quickly validate an entered string as being a UK postcode. Naturally I turned to this &lt;a href=&#34;http://en.wikipedia.org/wiki/UK_postcodes&#34;&gt;Wikipedia article&lt;/a&gt; for assistance, where I find this quip:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&amp;ldquo;Automatic validation of postcodes on the basis of pattern feasibility is therefore almost impossible to design, and the system contains no self-validating feature such as a check digit. &lt;strong&gt;Completely accurate validation is only possible by attempting to deliver mail to the address, and verifying with the recipient.&lt;/strong&gt;&amp;rdquo;&lt;/em&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Wikipedia cracks me up sometimes. I’m sat here at my desk, trying to knock together some C# code to quickly validate an entered string as being a UK postcode. Naturally I turned to this <a href="http://en.wikipedia.org/wiki/UK_postcodes">Wikipedia article</a> for assistance, where I find this quip:</p>
+<blockquote>
+<p><em>&ldquo;Automatic validation of postcodes on the basis of pattern feasibility is therefore almost impossible to design, and the system contains no self-validating feature such as a check digit. <strong>Completely accurate validation is only possible by attempting to deliver mail to the address, and verifying with the recipient.</strong>&rdquo;</em></p></blockquote>
+<p>I think that’s what is known as a <a href="http://en.wikipedia.org/wiki/Long_running_transaction">long-running transaction</a>!!</p>
+<p><strong>Update</strong> – the C# code that I wrote to handle this issue is available <a href="https://blog.iannelson.uk/a-c-postcode-struct-with-parser/">here</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Spot The Misleading Graph</title>
@@ -101,6 +223,11 @@
       <description>&lt;p&gt;Fifty-three years since Darrell Huff published the seminal &lt;em&gt;&lt;a href=&#34;http://www.amazon.co.uk/gp/product/0140136290?ie=UTF8&amp;amp;tag=ianesbl-21&amp;amp;linkCode=as2&amp;amp;camp=1634&amp;amp;creative=6738&amp;amp;creativeASIN=0140136290&#34;&gt;How to Lie with Statistics&lt;/a&gt;&lt;/em&gt;, and still we have newspapers as august as &lt;em&gt;The Times&lt;/em&gt; pulling the oldest trick in the book:&lt;/p&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;p&gt;At first glance it all looks very impressive, but closer inspection of the comparison with sales of the Torygraph reveal a mere 8.7% sales lead, not more than double as suggested by the graphic.  Not fooled.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Fifty-three years since Darrell Huff published the seminal <em><a href="http://www.amazon.co.uk/gp/product/0140136290?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=6738&amp;creativeASIN=0140136290">How to Lie with Statistics</a></em>, and still we have newspapers as august as <em>The Times</em> pulling the oldest trick in the book:</p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>At first glance it all looks very impressive, but closer inspection of the comparison with sales of the Torygraph reveal a mere 8.7% sales lead, not more than double as suggested by the graphic.  Not fooled.</p>
+<p>Another favourite book of mine that covers the still-relevant topic of graphical integrity is Edward Tufte’s <em><a href="http://www.amazon.co.uk/gp/product/0961392142?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=6738&amp;creativeASIN=0961392142">The Visual Display of Quantitative Information</a></em><!-- raw HTML omitted -->.  It’s one of those timeless works that I look forward to sharing with the next generation.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Dangling Off A Skyscraper</title>
@@ -109,6 +236,24 @@
       <guid>https://bloghugo.iannelson.uk/dangling-off-a-skyscraper/</guid>
       <description>&lt;p&gt;I keep intending, and forgetting to post a couple of videos from our US holiday last April.  I suppose I was hoping to get round to writing up my paper notes from the holiday, but it’s becoming apparent that won’t happen anytime soon, so let’s skip forward to the funny bits:&lt;/p&gt;
 &lt;p&gt;We spent a couple of nights at the Stratosphere Hotel in Las Vegas, which is the tallest observation tower in the United States.  Atop the tower are three “thrill rides”, and I foolishly tried all of them whilst Jocelyn videoed proceedings from a safe distance.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I keep intending, and forgetting to post a couple of videos from our US holiday last April.  I suppose I was hoping to get round to writing up my paper notes from the holiday, but it’s becoming apparent that won’t happen anytime soon, so let’s skip forward to the funny bits:</p>
+<p>We spent a couple of nights at the Stratosphere Hotel in Las Vegas, which is the tallest observation tower in the United States.  Atop the tower are three “thrill rides”, and I foolishly tried all of them whilst Jocelyn videoed proceedings from a safe distance.</p>
+<p>The Big Shot, at 329m high is the highest ride in the world.  This is essentially a big pole with seats around the side that flings you straight up, quickly, and drops you down again.  You’ve probably seen these elsewhere, this is much the same except it happens to be on the top of a very tall building and hence offers mighty fine views over the Las Vegas desert.  We don’t have any video of this as it all happened a bit too quickly for Joce to catch.</p>
+<p>X-Scream, at 264m high is the third highest ride in the world.  This is basically a glorified bench that dangles off the edge of the building, and it is one of the scariest things I’ve ever experienced!  From inside the building Jocelyn captured the video below – turn up the volume to hear some Aussie tourists laughing at my predicament!<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>Insanity, at 274m high is the second highest ride in the world.  According to Wikipedia, “it dangles riders over the edge of the tower and then spins in a circular pattern at approximately forty miles per hour”.  This was also pretty scary, though the constant circular motion made it less terrifying than the X-Scream (with its stop-start “aha, you thought you were going to continue falling for another 100+ storeys” shenanigans).  Here’s a video of me on the Insanity – can’t think why I’m the only partipant…<!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<pre><code>&lt;div class=&quot;kg-gallery-image&quot;&gt;
+  &lt;img decoding=&quot;async&quot; src=&quot;https://cdn.iannelson.uk/uploads/2007/02/IMG_4374-1.JPG&quot; width=&quot;1600&quot; height=&quot;1200&quot; loading=&quot;lazy&quot; alt srcset=&quot;https://cdn.iannelson.uk/uploads/2023/08/IMG_4374-1.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/1_IMG_4374-1.jpg 1000w, https://cdn.iannelson.uk/uploads/2007/02/IMG_4374-1.JPG 1600w&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; /&gt;
+&lt;/div&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;div class=&quot;kg-gallery-image&quot;&gt;
+  &lt;img decoding=&quot;async&quot; src=&quot;https://cdn.iannelson.uk/uploads/2023/08/IMG_4381.jpg&quot; width=&quot;1600&quot; height=&quot;1200&quot; loading=&quot;lazy&quot; alt srcset=&quot;https://cdn.iannelson.uk/uploads/2023/08/1_IMG_4381.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_4381.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/IMG_4381.jpg 1600w&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; /&gt;
+&lt;/div&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+]]></content:encoded>
     </item>
     <item>
       <title>Computer Games I Have Loved</title>
@@ -117,6 +262,47 @@
       <guid>https://bloghugo.iannelson.uk/computer-games-i-have-loved/</guid>
       <description>&lt;p&gt;Isn’t it funny how one’s tastes change as maturity progresses?  I used to spend my summer holidays at the sea-side, playing in arcades and seeking the perfect milkshake (&lt;a href=&#34;http://www.snackspot.org.uk/thread.php?story=0408101147daa&#34;&gt;lime&lt;/a&gt;); more recently I’ve been spending them in the highlands, playing on the hills and seeking the perfect dram (&lt;a href=&#34;http://www.scotchwhisky.com/focus/lagavulin.htm&#34;&gt;lagavulin&lt;/a&gt;).  Hmmm…&lt;/p&gt;
 &lt;p&gt;I think I may have mentioned that the wife is away in the States for a while.  At the start of this period of solitude, I panicked, wondering whatever I could do with myself, and came to the conclusion that it would be a good idea to buy a computer game to while away the hours.  After all, I spent much of my formative years killing time on a variety of computer and console games, so why not rekindle that prior love affair?  So it was that I bought &lt;a href=&#34;http://thesims2.ea.com/&#34;&gt;The Sims 2&lt;/a&gt;, a truly excellent game, and had an enjoyable evening trying to motivate my wee Sims to improve their skills, better themselves, and generally enjoy life.  All good harmless fun.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Isn’t it funny how one’s tastes change as maturity progresses?  I used to spend my summer holidays at the sea-side, playing in arcades and seeking the perfect milkshake (<a href="http://www.snackspot.org.uk/thread.php?story=0408101147daa">lime</a>); more recently I’ve been spending them in the highlands, playing on the hills and seeking the perfect dram (<a href="http://www.scotchwhisky.com/focus/lagavulin.htm">lagavulin</a>).  Hmmm…</p>
+<p>I think I may have mentioned that the wife is away in the States for a while.  At the start of this period of solitude, I panicked, wondering whatever I could do with myself, and came to the conclusion that it would be a good idea to buy a computer game to while away the hours.  After all, I spent much of my formative years killing time on a variety of computer and console games, so why not rekindle that prior love affair?  So it was that I bought <a href="http://thesims2.ea.com/">The Sims 2</a>, a truly excellent game, and had an enjoyable evening trying to motivate my wee Sims to improve their skills, better themselves, and generally enjoy life.  All good harmless fun.</p>
+<p>The following evening, though, I came to resume my game, and…  I just couldn’t be bothered.  The whole concept seemed utterly pointless, a real waste of time.  Why squander an evening encouraging AI sims to develop their skills and improve their house when, here in the real life, I had bookcases to build, books to read, music to enjoy, new DVDs to watch, a fantastic city to go out and enjoy, and skills to learn for my own career?  It struck me that many of the finely-honed computer game skills I had developed over the past thirtyish years were of absolutely no use outside the parameters of those particular games.</p>
+<p>Since then, The Sims has sat on a shelf, and I’ve achieved loads over the past few weeks – Jocelyn is soon returning to find the house at the tidiest it’s been in years.  I told my mum all this (as you do).  She said I’m growing up.  About bloody time.</p>
+<p>But still, those earlier computer games <em>did</em> play a big part during the first three decades of my life, so, in way of tribute, here’s a quick rundown of the dozen games responsible for my most wasted hours:</p>
+<h2 id="grandstand-adman-2000.wp-block-heading">Grandstand Adman 2000</h2>
+<p>The first “console” I ever owned, this featured four (four!) different games – football, squash, tennis and practice.  Not only that, but it boasted configurable options for speed, angle, and bat-size!  You simply cannot appreciate how many hours I frittered away bouncing that square block against a wall until I encountered 15 “faults” – at which point I would press the reset button and repeat the process.  If I’m being charitable to my younger self, then I could suggest that this game at least helped me develop hand-eye coordination, and stopped me mithering my parents for a while.<br>
+“Real Sports Action”, says the box.  Well, only if football ever consisted of four vertical bars deflecting a square ball moving with constant speed.  Also – “Realistic Sound Effects”.  It beeped!  That was it!  But, y’know, it was all we had, so…<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p><em>Photo by <a href="http://computermuseum.50megs.com/collectionpong.htm">Erik Klooster</a></em></p>
+<h2 id="grandstand-bmx-flyer.wp-block-heading">Grandstand BMX Flyer</h2>
+<p>Oh, now this handheld LCD console was (is?) a most favourite game of mine.  I can still hum the tune, and I still know that my highest-ever score was 14,070.  Brilliant fun – highly addictive and an appealing concept for a seven year-old lad (“avoid the crows!”  “jump for the girl in the balloon!”  “kick dirt in the baddy’s face!”).<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p><em>Photo by <a href="http://www.handheldmuseum.com/Grandstand/BMXF.htm">Handheld Museum</a></em></p>
+<h2 id="starter-chess-commodore-16-.wp-block-heading">Starter Chess (Commodore 16)</h2>
+<p>I was always a Commodore kid.  Speccies and Amstrads, though much more popular with the gamers at school, just didn’t appeal to me.  I mean, seriously, how could you write computer programs for hours on end using a rubber keyboard?!  Oh, sure, they were much better for games, if you liked that kind of thing.  But the C16 came with games too, like.. Starter Chess!<br>
+OK, who am I kidding?  Starter Chess was, in all respects, an exercise in patience and sitting around watching a pitifully underpowered computer fail to do very much for what seemed like an interminably long time.  First you had to get the game to load, from cassette tape, which always took the best part of twenty minutes.  Then, after every chess move played by oneself, the Commodore spent a good five minutes plotting its next move (which it announced with a loud beep).  Not very exciting.  On the plus side, the computer player wasn’t particularly strong, so it was actually quite conceivable to win, even as a youngster.</p>
+<h2 id="fruit-machine-simulator-commodore-16-.wp-block-heading">Fruit Machine Simulator (Commodore 16)</h2>
+<p>I’m beginning to think I must’ve been a bit of a masochist as a child, because I absolutely loved this single-screen game which attempted to “simulate” a pretty simplistic fruit machine.  Press a key to enter some coins.  Press another key to pull the lever.  Maybe, just maybe, you then have the possibility of pressing further keys to “hold” or “nudge” – oh, the excitement was palpable.  It sounds really dull now, but I loved it at the time.  I remember trying to figure out the probability with which the various game events occurred – were they truly random, or were they influenced by the user’s actions?  What was the average length of a game, before you either went bust or accumulated the target winnings?  A future university career in mathematics was  already evident..</p>
+<h2 id="kickstart-commodore-16-.wp-block-heading">Kickstart (Commodore 16)</h2>
+<p>Of all the games I had for the C16, Kickstart was the only one that I remember as being truly playable, and remotely “fast”.  I was impressed at the time that such a game could run on a machine with such little RAM.  This was a motorbike game (as in the old TV show, Kickstart, which I also loved), and, like BMX Flyer years early, basically involved making the bike jump at the appropriate time – balloons were involved again too, and there was an irritating-to-adults soundtrack.  Quality.</p>
+<h2 id="lemmings-amiga-.wp-block-heading">Lemmings (Amiga)</h2>
+<p>The Christmas that brought me an Amiga 500 played a big part in sealing my future career direction.  For the first time, I was able to tinker with a real operating system (with GUI), more powerful programming languages, hard disks, multitasking applications, etc.  But that Christmas day itself was mostly spent playing Lemmings, which should need no introduction as it’s one of the most popular games of its time, and has been ported across to many platforms, including DHTML!<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<h2 id="stunt-car-racer-amiga-.wp-block-heading">Stunt Car Racer (Amiga)</h2>
+<p>Stunt Car Racer was initially a very hard game.  But, persevere and you would discover the “knack” to each of the eight challenging courses.  So, persevere I did, and eventually reached the top of division one!  It seemed like such an achievement at the time, but it’s not exactly something I can put on my CV in 2005, is it?<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<h2 id="gods-amiga-.wp-block-heading">Gods (Amiga)</h2>
+<p>Gods was a platform game by the Bitmap Brothers, with a kicking introductory theme tune, and the game was pretty cool too.  Lots of different weapons, puzzles, and backgrounds ensured a game which remained enjoyable as you progressed through the levels.  Also a good variety of monsters, who boasted a much-hyped AI, in stark contrast to the usual sprites of the day who tended to attack by following predictable (circular) routes.  Brilliant.<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<h2 id="civilization-series-amiga-pc-.wp-block-heading">Civilization series (Amiga / PC)</h2>
+<p>Of all the games mentioned, I have spent the most time playing the various incarnations of Civilization on the Amiga and latterly on the PC.  Indeed, Civ 3 with the Play The World expansion gets my vote for greatest computer game of all time.  It’s such a brilliant concept – start with a few stone-age settlers in 4000BC and nurture them through 6000 years of growth, discovery, technological development, war and peace until they either achieve world domination or make the leap to Alpha Centauri (OK, I hear there are some other victory conditions, but these are the only two I’ve ever really found interesting).  The level of attachment you can feel to your civilization after playing this game for an entire weekend is really quite disturbing.  Addictive to the extreme, and often responsible for my eyes feeling very sore indeed…<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<h2 id="worms-pc-.wp-block-heading">Worms (PC)</h2>
+<p>If it wasn’t for Worms, I suspect myself and some of the other Grovey Roaders would have achieved 2:1 degrees instead of the 2:2s we all took from Nottingham uni.  But, alas, Worms was just such good fun, and so sociable… what better way to spend evenings in our final year than commanding crack squads of four worms each to kick each other’s butts to entertaining effect?  Well, except for going to The Irish, of course.</p>
+<h2 id="quake-pc-.wp-block-heading">Quake (PC)</h2>
+<p>I missed the whole Doom thing as I didn’t get a PC until leaving uni in 1997. Quake was therefore the first FPS I ever played, and thus swiftly passed another summer of my youth.</p>
+<h2 id="gran-turismo-2-playstation-.wp-block-heading">Gran Turismo 2 (Playstation)</h2>
+<p>GT2 was the reason I bought a Playstation, and it was the only PSX game I played for any length of time.  At the time I had a Ford Puma, so within the game I made a point of buying the exact same model in the same colour.  How sad is that?  As with my recent Sims 2 epiphany, I was eventually struck by the thought “why am I doing this within the virtual confines of a computer game when I could be doing it out in the real world?”.  I didn’t explain this line of reasoning to the magistrate though, and the six points should come off my driving licence in a few year’s time… 😉</p>
+<p>There you have it, the dirty dozen responsible for wasting much of the best years of my life.  Who knows, without those distractions, maybe by now I would otherwise be a Nobel laureate, or rich and famous…  or maybe I would have no hand-eye coordination, be unable to use a mouse, and not have the programming talents that now put food on our table.  Hmmm…</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Project Euler</title>
@@ -124,6 +310,8 @@
       <pubDate>Mon, 22 Aug 2005 20:08:00 +0000</pubDate>
       <guid>https://bloghugo.iannelson.uk/project-euler/</guid>
       <description>&lt;p&gt;If you like maths problems, and you like programming (and hey, who doesn’t?), then you’ll love &lt;a href=&#34;http://mathschallenge.net/index.php?section=project&#34;&gt;Project Euler&lt;/a&gt;.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>If you like maths problems, and you like programming (and hey, who doesn’t?), then you’ll love <a href="http://mathschallenge.net/index.php?section=project">Project Euler</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>999999999..</title>
@@ -132,6 +320,10 @@
       <guid>https://bloghugo.iannelson.uk/zetafax-999/</guid>
       <description>&lt;p&gt;Never underestimate the stupidity of users—or the benefits of a little field validation.&lt;/p&gt;
 &lt;p&gt;One of the web-based systems I’ve been developing allows users to enter a customer’s fax number and automatically fax confirmation details (using Zetafax). It’s been working pretty well—until we discovered a flaw today. One user, tired of obtaining valid fax details from customers, had been entering a string of nines and then actually attempting to send the fax to this number.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Never underestimate the stupidity of users—or the benefits of a little field validation.</p>
+<p>One of the web-based systems I’ve been developing allows users to enter a customer’s fax number and automatically fax confirmation details (using Zetafax). It’s been working pretty well—until we discovered a flaw today. One user, tired of obtaining valid fax details from customers, had been entering a string of nines and then actually attempting to send the fax to this number.</p>
+<p>We first learned of this issue today, when West Yorkshire Police asked us to stop trying to send faxes to the emergency services!</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

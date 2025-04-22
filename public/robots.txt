@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://bloghugo.iannelson.uk/sitemap.xml
