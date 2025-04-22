@@ -59,7 +59,7 @@
 </noscript><meta property="og:url" content="https://bloghugo.iannelson.uk/categories/tech/">
   <meta property="og:site_name" content="Ian Nelson">
   <meta property="og:title" content="Tech">
-  <meta property="og:locale" content="en-gb">
+  <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Tech">
@@ -107,6 +107,31 @@
             </div>
         </div>
         <ul id="menu">
+            <li>
+                <a href="https://bloghugo.iannelson.uk/testimonials" title="Testimonials">
+                    <span>Testimonials</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://bloghugo.iannelson.uk/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://bloghugo.iannelson.uk/categories" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://bloghugo.iannelson.uk/search/" title="Search">
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:ian@iannelson.uk" title="Email">
+                    <span>Email</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -116,82 +141,6 @@
     Tech
   </h1>
 </header>
-
-<article class="post-entry tag-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://cdn.iannelson.uk/uploads/2011/09/bamboo-1.jpg" alt="">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Wacom Bamboo
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Almost everyone who has wandered past the various desks that I’ve occupied over the last year has passed comment on my Wacom Bamboo Pen Graphics Tablet. So, let me say a few words about my experiences with that.
-For the longest time, I had been perfectly content to use various Logitech VX / MX mouses as my secondary input device, occasionally using a Microsoft Arc Mouse (very convenient to carry around in my rucksack).
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2011-09-13 10:09:00 +0000 +0000'>September 13, 2011</span></footer>
-  <a class="entry-link" aria-label="post link to Wacom Bamboo" href="https://bloghugo.iannelson.uk/wacom-bamboo/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Schoolboy Error Of The Day
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>This dumb mistake just cost me an hour spelunking around in the debugger:
-(where source is e.g. “http://foo.com/status/all-is-good“)
-Fortunately the ramifications were picked up in the acceptance tests, but the root cause wasn’t at all obvious from such a high level.
-Lesson for the day – code is never too trivial to warrant unit testing.
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2011-08-17 08:08:00 +0000 +0000'>August 17, 2011</span></footer>
-  <a class="entry-link" aria-label="post link to Schoolboy Error Of The Day" href="https://bloghugo.iannelson.uk/schoolboy-error-of-the-day/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Entity Framework Week Part 5: Concluding Thoughts
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>This is the fifth in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. The introductory post in the series is here.
-I am lucky to have had the opportunity to spend a time-boxed period playing with Entity Framework Code-First in a real-world scenario, and to get paid for the privilege! I now have a clearer understanding of how it has progressed during the last few years, what its strong points are, and where it still has shortcomings compared to the much more mature NHibernate framework.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2011-03-11 09:03:00 +0000 GMT'>March 11, 2011</span></footer>
-  <a class="entry-link" aria-label="post link to Entity Framework Week Part 5: Concluding Thoughts" href="https://bloghugo.iannelson.uk/entity-framework-week-part-5-concluding-thoughts/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Entity Framework Week Part 4: Features and Further Investigations
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>This is the fourth in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. The introductory post in the series is here.
-I didn’t want this series of posts to descend into a point-scoring NHibernate-versus-Entity Framework comparison, but…
-I now have a basic proof-of-concept up and running, with my client’s nascent application now being powered by Entity Framework Code-First CTP5 rather than a hand-rolled DAL. So, I had some time to consider future functional and non-functional requirements that the team would be asked to develop and support, and investigate how EF would meet the challenge.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2011-03-10 09:03:00 +0000 GMT'>March 10, 2011</span></footer>
-  <a class="entry-link" aria-label="post link to Entity Framework Week Part 4: Features and Further Investigations" href="https://bloghugo.iannelson.uk/entity-framework-week-part-4-features-and-further-investigations/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Entity Framework Week Part 3: Runtime Issues Encountered
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>This is the third in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. The introductory post in the series is here.
-Having configured and initialized Entity Framework, and tweaked the mappings, by Day 3 I was all set to start consuming my shiny new DbContext implementation from the application code, and actually get some CRUD work done. Not unexpectedly, I hit a few issues along the way…
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2011-03-09 09:03:00 +0000 GMT'>March 9, 2011</span></footer>
-  <a class="entry-link" aria-label="post link to Entity Framework Week Part 3: Runtime Issues Encountered" href="https://bloghugo.iannelson.uk/entity-framework-week-part-3-runtime-issues-encountered/"></a>
-</article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
@@ -264,6 +213,153 @@ I felt quite violated. My poor app, what had it done to deserve this despicable 
   </div>
   <footer class="entry-footer"><span title='2010-11-08 05:11:00 +0000 GMT'>November 8, 2010</span></footer>
   <a class="entry-link" aria-label="post link to Enterprise Integration Anti-Patterns #1 – The Shared Database" href="https://bloghugo.iannelson.uk/enterprise-integration-anti-patterns-1-the-shared-database/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">MVC – Where To Put Business Logic?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I just had an email from a friend asking where business logic should go when using MVC – the controller or the model.
+I thought I’d share my reply:
+I think asking whether the business logic should go in the Model or the Controller is a false dichotomy. There are different kinds of business logic, and there’s also the possibility of putting it somewhere else entirely.
+Much business logic does indeed belong in the model, particularly stuff like encapsulating calculations and projections, adding meaning to raw data properties, and ensuring domain objects are maintained in a valid state. I see this as the traditional side of OO design – encapsulating logic and restricting accessibility.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2010-11-03 12:11:00 +0000 GMT'>November 3, 2010</span></footer>
+  <a class="entry-link" aria-label="post link to MVC – Where To Put Business Logic?" href="https://bloghugo.iannelson.uk/mvc-where-to-put-business-logic/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Testing IoC Registrations
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>When I first started writing automated unit tests for my code, I remember getting carried away writing lots of tiny little tests, each with a single Assert. It felt good initially to see all those green ticks, but rapidly became a maintenance headache, and I am now happier having fewer less-brittle tests that do more.
+I think it’s great when tools like AutoMapper provide powerful methods like…
+…allowing me to test large swathes of the system configuration with a single, stable test.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2010-04-09 14:04:00 +0000 +0000'>April 9, 2010</span></footer>
+  <a class="entry-link" aria-label="post link to Testing IoC Registrations" href="https://bloghugo.iannelson.uk/testing-ioc-registrations/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Testing LINQ Queries
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I’ve been asked “How do you test LINQ queries?” a couple of times in the past few months, so I thought I’d blog my answer for the benefit of all you lovely people.
+Firstly I should explain how I’ve been doing most of my data access in recent months. I find that the Repository pattern, and particularly the .NET implementation described here by Fabio Maulo meets the vast majority of requirements I have in my applications, and I fall back on additionally using custom DAOs when required.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2010-04-09 13:04:00 +0000 +0000'>April 9, 2010</span></footer>
+  <a class="entry-link" aria-label="post link to Testing LINQ Queries" href="https://bloghugo.iannelson.uk/testing-linq-queries/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">WCF – Global Exception Handling
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I’ve done a fair bit of WCF development recently (and amazingly I came out of it relatively unscathed, both psychologically and emotionally). Using Castle Windsor’s WCF Facility helped a great deal, but I still found myself writing a fair bit of infrastructure and plumbing code. I thought I’d blog some of these code snippets lest I forget, and on the offchance they might help others.
+One of the things I wanted to achieve was to ensure that any unhandled exceptions that propagated to the top of the stack were logged. The following custom EndpointBehavior achieves that. I’m using Castle Logging Facility here, but you could of course swap out the logging code for whatever error handling code you require.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2010-04-09 13:04:00 +0000 +0000'>April 9, 2010</span></footer>
+  <a class="entry-link" aria-label="post link to WCF – Global Exception Handling" href="https://bloghugo.iannelson.uk/wcf-global-exception-handling/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">WCF – Logging Before and After Operation Invocation
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Here’s another custom WCF EndpointBehavior I found useful recently.
+Not content with logging all unhandled errors, I wanted to output a DEBUG level log message before and after every operation invocation. As before, I’m using the Castle Windsor Logging Facility to handle my logging, but you can swap that out for your logger of choice if required.
+Firstly, here’s the EndPointBehaviour itself. This adds a custom CallContextInitializer to every service operation:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2010-04-09 13:04:00 +0000 +0000'>April 9, 2010</span></footer>
+  <a class="entry-link" aria-label="post link to WCF – Logging Before and After Operation Invocation" href="https://bloghugo.iannelson.uk/wcf-logging-before-and-after-operation-invocation/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">WCF – NHibernate Unit Of Work Endpoint Behavior
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>OK, my last WCF-related code snippet of the day, I promise. This is quite similar to the last one. I required that the WCF service I was developing started a new NHibernate Session for each invocation, and closed it after invocation (i.e. session-per-request). I couldn’t rely on the ASP.NET session start and end events in global.asax as this particular WCF service was to respond to MSMQ messages rather than HTTP.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2010-04-09 13:04:00 +0000 +0000'>April 9, 2010</span></footer>
+  <a class="entry-link" aria-label="post link to WCF – NHibernate Unit Of Work Endpoint Behavior" href="https://bloghugo.iannelson.uk/wcf-nhibernate-unit-of-work-endpoint-behavior/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">An MVC Gotcha and the PRG Pattern
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>If you’ve recently moved across to ASP.NET MVC development following years of wrangling with the leaky abstraction that was WebForms, you may have encountered some seemingly curious behaviour when posting back to the same URL.
+Suppose we have the following simple, contrived and utterly imagination-free model:
+Here’s a view:
+And here’s the controller:
+Note that we have two separate Index actions – one for HTTP GET which instantiates and displays a new FooModel instance, and one for HTTP POST which modifies one of the properties on the posted FooModel instance before re-rendering the view.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2010-04-09 10:04:00 +0000 +0000'>April 9, 2010</span></footer>
+  <a class="entry-link" aria-label="post link to An MVC Gotcha and the PRG Pattern" href="https://bloghugo.iannelson.uk/an-mvc-gotcha-and-the-prg-pattern/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">MoreLINQ – IEnumerable Extension From Jon Skeet
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I’ve just become aware of this MoreLINQ project containing some neat IEnumerable extensions authored by the inimitable Jon Skeet.
+I particularly like the look of DistinctBy – that’s gotta be a lot easier than passing custom instances of IEqualityComparer into Distinct().
+Fun fact – I used to work with someone who went to school with Jon Skeet! True Story!
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2010-03-30 10:03:00 +0000 +0000'>March 30, 2010</span></footer>
+  <a class="entry-link" aria-label="post link to MoreLINQ – IEnumerable Extension From Jon Skeet" href="https://bloghugo.iannelson.uk/morelinq-ienumerable-extension-from-jon-skeet/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">On the Inherent Negativity of Computer Programmers
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>A couple of weeks ago, early one morning, my friend and fellow coder Scott asked a curious question:
+“Do you think that programming computers for a living gives you a negative outlook on life?”
+Now, Scott is unfortunately responsible for administering occasional TLC to a codebase that I cut as long ago as 2004, so I assumed he was referring to this and was about to raise some complaints about my hand-rolled query object criteria framework or other coding horror. I steeled myself to defend my work as he continued to explain:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2010-02-01 20:02:00 +0000 GMT'>February 1, 2010</span></footer>
+  <a class="entry-link" aria-label="post link to On the Inherent Negativity of Computer Programmers" href="https://bloghugo.iannelson.uk/on-the-inherent-negativity-of-computer-programmers/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Deduplication Fail
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Oh, the irony!
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2009-12-02 12:12:00 +0000 GMT'>December 2, 2009</span></footer>
+  <a class="entry-link" aria-label="post link to Deduplication Fail" href="https://bloghugo.iannelson.uk/deduplication-fail/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

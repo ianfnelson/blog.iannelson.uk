@@ -59,7 +59,7 @@
 </noscript><meta property="og:url" content="https://bloghugo.iannelson.uk/tags/tidy/">
   <meta property="og:site_name" content="Ian Nelson">
   <meta property="og:title" content="Tidy">
-  <meta property="og:locale" content="en-gb">
+  <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Tidy">
@@ -107,6 +107,31 @@
             </div>
         </div>
         <ul id="menu">
+            <li>
+                <a href="https://bloghugo.iannelson.uk/testimonials" title="Testimonials">
+                    <span>Testimonials</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://bloghugo.iannelson.uk/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://bloghugo.iannelson.uk/categories" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://bloghugo.iannelson.uk/search/" title="Search">
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:ian@iannelson.uk" title="Email">
+                    <span>Email</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -118,162 +143,224 @@
 </header>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn.iannelson.uk/uploads/2007/05/iStock_000002294861XSmall-1.jpg" alt="">
+</figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Zero Interest Bug
+    <h2 class="entry-hint-parent">SQL 2005 Unleashed
     </h2>
   </header>
   <div class="entry-content">
-    <p>I started my career in professional software development a decade or so ago by testing and fixing banking code that had fallen victim to the millennium bug.
-Could the prospect of zero percent interest rates create a similar boom in demand for software developers?
-From Contractor UK:
-Interest rates have plummeted from 5% to 2% since early October and are heading lower. Some analysts say 0% is not out of the question.
+    <p>Many moons (and about four jobs) ago, a wise DBA by the name of David Hanson once recommended to me a book called Microsoft SQL Server 2000 Unleashed. I took his advice, bought a copy, and it rapidly became one of the most dog-eared and oft-thumbed computing books I have ever owned. It is comprehensive, deep, broad, well-written and covers everything one might ever wish to know about SQL Server 2000. With its help and guidance I came to love and respect Microsoft’s premier database product, passing the 70-229 exam by a comfortable margin.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2008-12-19 12:12:00 +0000 GMT'>December 19, 2008</span></footer>
-  <a class="entry-link" aria-label="post link to Zero Interest Bug" href="https://bloghugo.iannelson.uk/zero-interest-bug/"></a>
+  <footer class="entry-footer"><span title='2007-05-18 06:05:00 +0000 +0000'>May 18, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to SQL 2005 Unleashed" href="https://bloghugo.iannelson.uk/sql-2005-unleashed/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">MSB3247 – Dependent Assembly Conflicts
+    <h2 class="entry-hint-parent">MSDN Technical Roadshow 2007
     </h2>
   </header>
   <div class="entry-content">
-    <p>Earlier today a dev came over to ask me about a compiler warning he was getting when building a .NET solution:
-MSB3247: Found conflicts between different versions of the same dependent assembly.
-This is basically telling you that one project or dependency in your solution is referencing one version of an assembly, whilst another project or dependency is trying to reference a different version of the same assembly. Unhelpfully, the message and build output don’t tell you which dependent assembly is causing the problem!
+    <p>I’m off to the MSDN Technical roadshow in Harrogate tomorrow, and am actually really looking forward to it this time. These events are free, so always well worth attending when they’re local, but some years are certainly better than others – it mostly depends on the material being covered. I remember one year circa 2003-4, when .NET was well established, but before the Whidbey release, so the majority of the day was effectively just a sales pitch covering elementary .NET concepts, presumably for those laggards who hadn’t yet made the great leap from VB6. Another data-binding demo, anybody? Yawn.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2008-12-04 21:12:00 +0000 GMT'>December 4, 2008</span></footer>
-  <a class="entry-link" aria-label="post link to MSB3247 – Dependent Assembly Conflicts" href="https://bloghugo.iannelson.uk/msb3247-dependent-assembly-conflicts/"></a>
+  <footer class="entry-footer"><span title='2007-03-12 22:03:00 +0000 GMT'>March 12, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to MSDN Technical Roadshow 2007" href="https://bloghugo.iannelson.uk/msdn-technical-roadshow-2007/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Performance of Loops on Collections
+    <h2 class="entry-hint-parent">More Tufte Books
     </h2>
   </header>
   <div class="entry-content">
-    <p>Interesting article from Patrick Smacchia (the NDepend guy) in which he runs some benchmarks on the cost of looping in different ways over different constructs and comes to the conclusion that:
-“looping on array using for is 5 times cheaper than looping on List using foreach (which I believe, is what we all do)”
-Well worth a read, although I suspect that in my solutions the bottlenecks will remain the out-of-process calls, i.e. database access and web service calls. Still, a 5x gain is not to be sniffed at.
+    <p>When I mentioned Edward R. Tufte’s excellent The Visual Display of Quantitative Information in a recent blog post, it prompted me to search North Yorkshire’s online library catalogue to see if they had any more of the great man’s works. I was delighted to find that both Envisioning Information and Visual Explanations were available, yet languishing in a storage room somewhere rather than being on the shelves of one of the county’s libraries! So, I placed a request and they turned up at my local branch a few days later.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2008-11-28 12:11:00 +0000 GMT'>November 28, 2008</span></footer>
-  <a class="entry-link" aria-label="post link to Performance of Loops on Collections" href="https://bloghugo.iannelson.uk/performance-of-loops-on-collections/"></a>
+  <footer class="entry-footer"><span title='2007-02-28 21:02:00 +0000 GMT'>February 28, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to More Tufte Books" href="https://bloghugo.iannelson.uk/more-tufte-books/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Spot The Misleading Graph
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Fifty-three years since Darrell Huff published the seminal How to Lie with Statistics, and still we have newspapers as august as The Times pulling the oldest trick in the book:
+At first glance it all looks very impressive, but closer inspection of the comparison with sales of the Torygraph reveal a mere 8.7% sales lead, not more than double as suggested by the graphic. Not fooled.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-02-19 19:02:00 +0000 GMT'>February 19, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to Spot The Misleading Graph" href="https://bloghugo.iannelson.uk/spot-the-misleading-graph/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://cdn.iannelson.uk/uploads/2008/11/photo-1523976888287-7454b4df44f4.jpg" alt="">
+        <img loading="lazy" src="https://cdn.iannelson.uk/uploads/2007/02/IMG_4374.jpg" alt="">
 </figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">12 Reasons Why I Love Unit Tests
+    <h2 class="entry-hint-parent">Dangling Off A Skyscraper
     </h2>
   </header>
   <div class="entry-content">
-    <p>On my continuing journey through this thrilling world of professional software development, I frequently encounter teams who hold no truck with this crazy new-fangled concept of unit testing. Heck, truth be told, I sometimes come across teams who don’t use source control, but that’s by the bye.
-In these situations, I try my best to lead by example, continuing to practise TDD on any new code that I cut, and insisting on covering with unit tests any pre-existing code which I have to modify. Sooner or later, this prompts someone to ask why I am doing this (often insinuating that I am wasting my time, and by implication the client’s money). At that point, flustered, I invariably struggle to remember or adequately articulate the many and various ways in which unit testing makes me a better developer. So, consider this blog post a personal aide-mémoire to help me the next time this occurs (as well as being a homage to Jake Shillingford’s second-best song).
+    <p>I keep intending, and forgetting to post a couple of videos from our US holiday last April. I suppose I was hoping to get round to writing up my paper notes from the holiday, but it’s becoming apparent that won’t happen anytime soon, so let’s skip forward to the funny bits:
+We spent a couple of nights at the Stratosphere Hotel in Las Vegas, which is the tallest observation tower in the United States. Atop the tower are three “thrill rides”, and I foolishly tried all of them whilst Jocelyn videoed proceedings from a safe distance.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2008-11-11 22:11:00 +0000 GMT'>November 11, 2008</span></footer>
-  <a class="entry-link" aria-label="post link to 12 Reasons Why I Love Unit Tests" href="https://bloghugo.iannelson.uk/12-reasons-why-i-love-unit-tests/"></a>
+  <footer class="entry-footer"><span title='2007-02-11 16:02:00 +0000 GMT'>February 11, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to Dangling Off A Skyscraper" href="https://bloghugo.iannelson.uk/dangling-off-a-skyscraper/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Ian Nelson, MCSD.Net
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I am now a Microsoft Certified Solution Developer in .NET 1.x technologies. This is a qualification that I’ve been working towards on and (more often than not) off for the past four years or so. It’s not really the case that the exams were super-hard, just that it took occasional motivation to get round to taking them!
+So, was it worth it? Did I learn anything en route? Did the exams boost my employability? Would I be more inclined to employ someone with an MCSD than an applicant without?
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-02-11 16:02:00 +0000 GMT'>February 11, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to Ian Nelson, MCSD.Net" href="https://bloghugo.iannelson.uk/ian-nelson-mcsd-net/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://cdn.iannelson.uk/uploads/2008/09/british-wifey_2822763194_o-1.jpg" alt="">
+        <img loading="lazy" src="https://cdn.iannelson.uk/uploads/2006/11/we-will-remember-them_295407300_o-1.jpg" alt="">
 </figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">A British Wifey
+    <h2 class="entry-hint-parent">For Our Tomorrows
     </h2>
   </header>
   <div class="entry-content">
-    <p>Today was a proud day indeed. Remember four years ago when I blogged about Jocelyn getting a fiancee visa from the British Consulate in Los Angeles, which paved the way for her to travel to Blighty with the intention of marrying me..?
-Well, since then we’ve turned that fiancee visa into a limited leave visa, and then into a settlement visa. We have spent over £2000 on government fees for these various rubber stamps – outrageously high amounts which resulted in letters being sent to and from the Home Office. Along the way, we got married, moved house, and of course Benjamin came along to change our lives forever (in a good way, of course, Son!).
+    <p>On this Remembrance Sunday, permit me to share with you a photo that my cousin Helen took this week of our Granduncle’s grave in France.
+Private William Henry Worfolk (1896 – 1916) of the York and Lancaster Regiment was my Grandfather’s elder brother (by four years), and was only just old enough to fight (and die) in the First World War. A couple of years later and it could just as easily have been my grandfather, and then I wouldn’t be here to tell you this tale. Ninety years on from that most bloody of wars, we still have much to be thankful for.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2008-09-02 21:09:00 +0000 +0000'>September 2, 2008</span></footer>
-  <a class="entry-link" aria-label="post link to A British Wifey" href="https://bloghugo.iannelson.uk/a-british-wifey/"></a>
+  <footer class="entry-footer"><span title='2006-11-12 20:11:00 +0000 GMT'>November 12, 2006</span></footer>
+  <a class="entry-link" aria-label="post link to For Our Tomorrows" href="https://bloghugo.iannelson.uk/for-our-tomorrows/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">A Genealogical Milestone
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Late last night I reached a small but significant milestone in my family tree research: I now know the names of my sixteen great-great-grandparents! Or so I believe – I just need to wait for a couple of certificates to arrive from the GRO to prove my theories.
+So, who do I think I am? Well, at this stage it appears that my blood is:
+50.0% English 37.5% Scottish 12.5% Irish Those sixteen ancestors were born between 1829 and 1860.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-11-06 08:11:00 +0000 GMT'>November 6, 2006</span></footer>
+  <a class="entry-link" aria-label="post link to A Genealogical Milestone" href="https://bloghugo.iannelson.uk/a-genealogical-milestone/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Genealogy – My New Winter Hobby
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>“INTPs are always so mentally active that they continually delve into new interests… The interests of an INTP would be enough to occupy him for several lifetimes if that were possible.”
+— A description of the INTP personality type, Paul James.
+I’ve been in need of a new hobby for a while now. The mental challenges offered from getting married, changing jobs and moving home have passed, and my free evenings and weekends were becoming prone to bouts of restlessness and sighs of “I’m bored”. This is not a good thing.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-10-01 19:10:00 +0000 +0000'>October 1, 2006</span></footer>
+  <a class="entry-link" aria-label="post link to Genealogy – My New Winter Hobby" href="https://bloghugo.iannelson.uk/genealogy-my-new-winter-hobby/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">A Serializable KeyValuePair Class
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Having accepted that Returning DataSets from WebServices is the Spawn of Satan and Represents All That Is Truly Evil in the World (or at least, not exactly best practice), I’ve been trying to make a conscious effort to instead use lightweight custom objects in my middle tier, to be exposed via web services for use by other applications. I felt sure that some of the new Generic classes in the .NET 2.0 FCL would help me in my quest. Specifically, as I often need to expose simple arrays of Key/Value Pair metadata, I planned to create an instance of the System.Collections.ObjectModel.Collection class, containing a bunch of System.Collections.Generic.KeyValuePair objects. ...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-09-17 17:09:00 +0000 +0000'>September 17, 2006</span></footer>
+  <a class="entry-link" aria-label="post link to A Serializable KeyValuePair Class" href="https://bloghugo.iannelson.uk/a-serializable-keyvaluepair-class/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Big Integer
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>As I mentioned last summer, I do enjoy whiling away a few hours attempting to solve the maths / progamming challenges set on Project Euler. My language of choice for most puzzles is C#, but this hampered me on some of the questions as there is no in-built support for really big integers.
+However, a little bit of Googling and I came across this excellent BigInteger class on Code Project which does everything I need and more – and it seems bloody fast, too. Thanks to this class, I’ve been able to knock off several more problems this weekend, and now have a rating of “11% Genius” – still some way to go, then…
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-07-17 08:07:00 +0000 +0000'>July 17, 2006</span></footer>
+  <a class="entry-link" aria-label="post link to Big Integer" href="https://bloghugo.iannelson.uk/big-integer/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://cdn.iannelson.uk/uploads/2008/08/whats-in-your-wallet_2746862973_o-1.jpg" alt="">
+        <img loading="lazy" src="https://cdn.iannelson.uk/uploads/2006/05/photo-1504754524776-8f4f37790ca0.jpg" alt="">
 </figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">What&#39;s In Your Wallet?
+    <h2 class="entry-hint-parent">USA Trip 2006: Breakfast Prep
     </h2>
   </header>
   <div class="entry-content">
-    <p>My good buddy John just published a typically navel-gazing post detailing the contents of his wallet, and went on to invite readers to divulge details of their own billfolds in what I can only presume is some cunning and evil plan for mass identity-theft 🙂
-Well, as I said in the comments to John’s post, I was surprised at the quantity of sentimental knick-knacks and memorabilia he has in there, compared to the rather prosaic and functional contents of my own wallet.
+    <p>On our first morning in California, we headed out to breakfast, which was preceded by a short session of Breakfast Prep’, courtesy of Jocelyn. It had been a couple of years since I’d last had Breakfast In America, and I’d forgotten how to respond to the awesome number of choices and options that would be flung in my direction by the waitperson.
+Here’s how you order breakfast in Britain:
+&lt;td&gt; &amp;#8220;&lt;a href=&#34;http://en.wikipedia.org/wiki/Full_English_Breakfast&#34;&gt;Full English Breakfast&lt;/a&gt;, please.&amp;#8221; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; Waitress: &lt;/td&gt; &lt;td&gt; &amp;#8220;D’you want tea or coffee with that?&amp;#8221; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; Diner: &lt;/td&gt; &lt;td&gt; &amp;#8220;Tea, please.&amp;#8221; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; Waitress: &lt;/td&gt; &lt;td&gt; &amp;#8220;OK.&amp;#8221; &lt;/td&gt; &lt;/tr&gt; In due course, the standard, empire-forging breakfast is served, and is consumed heartily, perhaps after a little trading with your breakfasting companions (“I’ll swap you my tomatoes for a rasher of your bacon?”). Everybody knows what is expected, nobody has tricky decisions to make, there are no surprises, and everyone enjoys what they get – and if they don’t enjoy it, well, they don’t mention it, because complaining about such things just wouldn’t be British, damn it.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2008-08-09 21:08:00 +0000 +0000'>August 9, 2008</span></footer>
-  <a class="entry-link" aria-label="post link to What&#39;s In Your Wallet?" href="https://bloghugo.iannelson.uk/whats-in-your-wallet/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://cdn.iannelson.uk/uploads/2008/08/61b4lHKlNYL._SL1205_-3.jpg" alt="">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">A Keyboard Makes A Hell Of A Difference
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>It occurred to me recently that I’m not getting any younger, and that sitting hunched over a keyboard for a dozen hours a day will probably lead to some form of RSI sooner or later. So I started looking for ways to improve my daily working environment.
-Unlike John, I can’t afford a Herman Miller chair, and even if I could, I’m a freelancer rather than a telecommuter* so I would have to regularly carry the chair on the train to client sites, where they would probably ostracise me for being a weirdo who brings his own chair to the office. So I looked for something a little more portable, and decided that perhaps it was finally time for me to try one of those fancy split ergonomic keyboards that I’ve always scoffed at. After reading a few review on Amazon, I plumped for the Microsoft Natural Ergonomic Keyboard 4000.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2008-08-01 16:08:00 +0000 +0000'>August 1, 2008</span></footer>
-  <a class="entry-link" aria-label="post link to A Keyboard Makes A Hell Of A Difference" href="https://bloghugo.iannelson.uk/a-keyboard-makes-a-hell-of-a-difference/"></a>
+  <footer class="entry-footer"><span title='2006-05-20 15:05:00 +0000 +0000'>May 20, 2006</span></footer>
+  <a class="entry-link" aria-label="post link to USA Trip 2006: Breakfast Prep" href="https://bloghugo.iannelson.uk/usa-trip-2006-breakfast-prep/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Database Design – Still Important In These ORM-Obsessed Days
+    <h2 class="entry-hint-parent">USA Trip 2006: Arrival
     </h2>
   </header>
   <div class="entry-content">
-    <p>Tobin blogged earlier this week about how quality ORM tools like NHibernate make it easier to code to normalized schemas.
-Here’s a corollary for you: The use of ORM tools doesn’t absolve the need to maintain good database design principles, and even NHibernate won’t save you from your own stupidity.
-Following an application upgrade release last night, I’ve spent a disproportionate amount of today trying to debug the following exception, which appeared to originate in an area of the codebase which I personally had heavily modified:
+    <p>Monday 10th April 2006
+The sun was still shining as we touched down at SFO, about 22 hours after we’d woken up. If every day could last that long, I swear I’d get more work done – or maybe I’d just spend more time playing Civilization…
+We picked up the car – a Pontiac Impala which initially seemed unfeasibly huge compared to our Focus, but it’s funny how quickly you adjust and get used to the size, making use of the available space – then it was off down US 101 on the final leg of our journey. Despite it being rush hour, we had a swift journey due to being able to use the Car Pool lane (by virtue of not being a single-occupant vehicle). I was amazed how under-utilised this lane was, and started wondering how much of an incentive would be needed for more Bay area commuters to start sharing rides – there’s another good question for the economists to ponder.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2008-07-29 16:07:00 +0000 +0000'>July 29, 2008</span></footer>
-  <a class="entry-link" aria-label="post link to Database Design – Still Important In These ORM-Obsessed Days" href="https://bloghugo.iannelson.uk/database-design-still-important-in-these-orm-obsessed-days/"></a>
+  <footer class="entry-footer"><span title='2006-05-08 13:05:00 +0000 +0000'>May 8, 2006</span></footer>
+  <a class="entry-link" aria-label="post link to USA Trip 2006: Arrival" href="https://bloghugo.iannelson.uk/usa-trip-2006-arrival/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Remember The Milk
+    <h2 class="entry-hint-parent">USA Trip 2006: Journey
     </h2>
   </header>
   <div class="entry-content">
-    <p>In response to a blog post that I’d shared in Google Reader, Jez emailed me to ask:
-“Do you use RTM? It’s always been one of those web apps that seem really useful, but I’ve never made the leap to actually using it in anger. I suppose you need to adopt it in tandem with the five-point GTD philosophy to get real benefit?”
-My response:
-“Yes, I do use RTM, and I love it. I’ve been looking for a decent way of managing my to-do lists effectively for years, and RTM really scratches that itch! I now have the web app permanently open in a Firefox tab, and use “MilkSync” to synchronize with my Pocket PC every half hour.
+    <p>_Monday 10th April 2006
+Travelling West during the daytime is a blast, especially on a sunny day. Time it right and you can experience daylight for 24 hours, which afforded me time to catch up on some reading. For Christmas Joce had given a book entitled Freakonomics – A Rogue Economist Explores The Hidden Side Of Eveything, and now I finally had time to read through it. I surprised myself by finishing it by the time we reached Chicago – this may be a chunky hardback book on economics, but it’s also really interesting and easy-going.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2008-06-26 06:06:00 +0000 +0000'>June 26, 2008</span></footer>
-  <a class="entry-link" aria-label="post link to Remember The Milk" href="https://bloghugo.iannelson.uk/remember-the-milk/"></a>
+  <footer class="entry-footer"><span title='2006-05-08 13:05:00 +0000 +0000'>May 8, 2006</span></footer>
+  <a class="entry-link" aria-label="post link to USA Trip 2006: Journey" href="https://bloghugo.iannelson.uk/usa-trip-2006-journey/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">On the Joys of Object-Relational Mapping
+    <h2 class="entry-hint-parent">USA Trip 2006: Departure
     </h2>
   </header>
   <div class="entry-content">
-    <p>My name is Ian Nelson. I’m a recovering SQL addict. It’s been four weeks since my last stored procedure.
-One of my reasons for leaving my cosy permanent job and entering the scary cut-throat world of freelancing was to get a broader exposure to different tools, technologies and methodologies, while remaining with my feet planted firmly in the .NET universe. So, when I got offered a position in a team who were using Subversion, Monorail, Ext.JS, NUnit, Oracle and NHibernate, I jumped at the opportunity.
+    <p>Last month Jocelyn and I took a trip to the States to visit friends and family, attend Teri &amp; Jimmy’s wedding, and take a vacation to Nevada and Arizona.
+So, there we were, sitting at the departure gate at Manchester Airport on a bright Monday morning, having awoken at 0430 to make our way across the Pennines. A few seats away were a group of teenagers. They were from Michigan, and they were annoyingly noisy. Thus began our American adventure.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2008-04-09 19:04:00 +0000 +0000'>April 9, 2008</span></footer>
-  <a class="entry-link" aria-label="post link to On the Joys of Object-Relational Mapping" href="https://bloghugo.iannelson.uk/on-the-joys-of-object-relational-mapping/"></a>
+  <footer class="entry-footer"><span title='2006-05-02 21:05:00 +0000 +0000'>May 2, 2006</span></footer>
+  <a class="entry-link" aria-label="post link to USA Trip 2006: Departure" href="https://bloghugo.iannelson.uk/usa-trip-2006-departure/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

@@ -3,19 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://bloghugo.iannelson.uk/categories/</loc>
-    <lastmod>2025-04-21T22:37:52+01:00</lastmod>
+    <lastmod>2025-04-21T23:05:40+01:00</lastmod>
   </url><url>
     <loc>https://bloghugo.iannelson.uk/categories/family/</loc>
-    <lastmod>2025-04-21T22:21:59+01:00</lastmod>
+    <lastmod>2025-04-21T23:05:40+01:00</lastmod>
   </url><url>
     <loc>https://bloghugo.iannelson.uk/categories/fun/</loc>
     <lastmod>2025-04-21T22:21:59+01:00</lastmod>
   </url><url>
     <loc>https://bloghugo.iannelson.uk/</loc>
-    <lastmod>2025-04-21T22:37:52+01:00</lastmod>
+    <lastmod>2025-04-21T23:05:40+01:00</lastmod>
   </url><url>
     <loc>https://bloghugo.iannelson.uk/posts/</loc>
-    <lastmod>2025-04-21T22:37:52+01:00</lastmod>
+    <lastmod>2025-04-21T23:05:40+01:00</lastmod>
   </url><url>
     <loc>https://bloghugo.iannelson.uk/who-reigns-supreme-parsing-our-whatsapp-chat-for-wordle-glory/</loc>
     <lastmod>2025-04-21T22:21:59+01:00</lastmod>
@@ -51,7 +51,7 @@
     <lastmod>2025-04-21T22:21:59+01:00</lastmod>
   </url><url>
     <loc>https://bloghugo.iannelson.uk/funny-things-my-kids-have-said/</loc>
-    <lastmod>2025-04-21T22:21:59+01:00</lastmod>
+    <lastmod>2025-04-21T23:05:40+01:00</lastmod>
   </url><url>
     <loc>https://bloghugo.iannelson.uk/categories/hills/</loc>
     <lastmod>2025-04-21T22:21:59+01:00</lastmod>
@@ -90,7 +90,7 @@
     <lastmod>2025-04-21T22:37:52+01:00</lastmod>
   </url><url>
     <loc>https://bloghugo.iannelson.uk/testimonials/</loc>
-    <lastmod>2025-04-21T22:21:59+01:00</lastmod>
+    <lastmod>2025-04-21T23:05:40+01:00</lastmod>
   </url><url>
     <loc>https://bloghugo.iannelson.uk/how-to-install-rabbitmq-server-in-docker-on-a-synology-nas/</loc>
     <lastmod>2025-04-21T22:21:59+01:00</lastmod>
@@ -610,5 +610,7 @@
   </url><url>
     <loc>https://bloghugo.iannelson.uk/meall-a-chrasgaidh/</loc>
     <lastmod>2025-04-21T22:21:59+01:00</lastmod>
+  </url><url>
+    <loc>https://bloghugo.iannelson.uk/archives/</loc>
   </url>
 </urlset>
