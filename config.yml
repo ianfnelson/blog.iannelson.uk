@@ -17,8 +17,6 @@ params:
   mainSections: ["posts"]
   ShowFullTextinRSS: true
   ShowFooter: true
-  footer:
-    text: '[FamilyTree](https://familytree.iannelson.uk) · [Archive](archives) · [Categories](categories)'
   homeInfoParams:
     Title: Hi. I’m Ian.
     Content: |
