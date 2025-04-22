@@ -14,15 +14,15 @@ permalinks:
 params:
   mainSections: ["posts"]
   ShowFullTextinRSS: true
+  ShowFooter: true
+  footer:
+    text: '[FamilyTree](https://familytree.iannelson.uk) · [Archive](archives) · [Categories](categories)'
   homeInfoParams:
     Title: Hi. I’m Ian.
     Content: |
       I write code for a living and words for fun.
-
       This blog is a dumping ground for thoughts on software architecture, books I pretend I understood, Wordle triumphs, and walks up hills that seemed like a good idea at the time.
-
       Expect a mix of tech nerdery, midlife musings, and the occasional rant disguised as insight.
-
       Make of it what you will.
 
   socialIcons:
@@ -47,7 +47,6 @@ outputs:
   home:
       - HTML
       - RSS
-      - JSON
 
 pagination:
   disableAliases: false
@@ -62,17 +61,15 @@ languages:
       tag: tags
     menu:
       main:
-        - name: Testimonials
-          url: testimonials
-          weight: 1
         - name: Archive
           url: archives
-          weight: 3
+          weight: 1
         - name: Categories
           url: categories
+          weight: 3
+        - name: Testimonials
+          url: testimonials
           weight: 5
-        - name: Search
-          url: search/
-          weight: 10
         - name: Family Tree
           url: https://familytree.iannelson.uk
+          weight: 10

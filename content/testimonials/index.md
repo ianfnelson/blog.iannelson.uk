@@ -1,6 +1,5 @@
 ---
 title: Testimonials
-author: ian
 type: page
 date: 2020-02-14T20:06:54+00:00
 cover: 
