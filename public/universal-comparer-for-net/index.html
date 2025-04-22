@@ -55,7 +55,21 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="https://bloghugo.iannelson.uk/universal-comparer-for-net/">
+</noscript>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-5JMKSPFQKQ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-5JMKSPFQKQ');
+        }
+      </script><meta property="og:url" content="https://bloghugo.iannelson.uk/universal-comparer-for-net/">
   <meta property="og:site_name" content="Ian Nelson">
   <meta property="og:title" content="Universal Comparer for .NET">
   <meta property="og:description" content="Back in November 2004, I had the idea of making a “Generic Sorter for Strongly-Typed Collections”, by harnessing the mighty power of reflection. Well, earlier this month somebody anonymously emailed me some code that takes this to a whole different level, enabling sorting on multiple properties and to arbitrary depths within the domain model hierarchy, all by taking a single SQL-like parameter. It’s really very clever indeed, and I’m going to use this method in the future – thanks, anonymous code fairy!">

@@ -55,7 +55,21 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="https://bloghugo.iannelson.uk/a-generic-sorter-for-strongly-typed-collections/">
+</noscript>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-5JMKSPFQKQ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-5JMKSPFQKQ');
+        }
+      </script><meta property="og:url" content="https://bloghugo.iannelson.uk/a-generic-sorter-for-strongly-typed-collections/">
   <meta property="og:site_name" content="Ian Nelson">
   <meta property="og:title" content="A Generic Sorter For Strongly-Typed Collections">
   <meta property="og:description" content="Late last night I was doing some development work on a website for our investment club. I had a strongly-typed collection of “Stock” objects, and wanted to be able to sort them on any parameter (StockName, SharePrice, Volume, MarketCap, etc..) in either descending or ascending order. I didn’t want to have to write a separate comparer for each property. Reflection to the rescue! Below is a GenericSorter class, the use of which allows for the development of a Sort() method on the collection taking as a parameter the name of the property on which to sort. Smart.">

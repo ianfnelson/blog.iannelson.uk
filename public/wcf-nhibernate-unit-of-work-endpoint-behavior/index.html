@@ -55,7 +55,21 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="https://bloghugo.iannelson.uk/wcf-nhibernate-unit-of-work-endpoint-behavior/">
+</noscript>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-5JMKSPFQKQ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-5JMKSPFQKQ');
+        }
+      </script><meta property="og:url" content="https://bloghugo.iannelson.uk/wcf-nhibernate-unit-of-work-endpoint-behavior/">
   <meta property="og:site_name" content="Ian Nelson">
   <meta property="og:title" content="WCF – NHibernate Unit Of Work Endpoint Behavior">
   <meta property="og:description" content="OK, my last WCF-related code snippet of the day, I promise. This is quite similar to the last one. I required that the WCF service I was developing started a new NHibernate Session for each invocation, and closed it after invocation (i.e. session-per-request). I couldn’t rely on the ASP.NET session start and end events in global.asax as this particular WCF service was to respond to MSMQ messages rather than HTTP.">

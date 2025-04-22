@@ -55,7 +55,21 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="https://bloghugo.iannelson.uk/nhibernate/">
+</noscript>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-5JMKSPFQKQ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-5JMKSPFQKQ');
+        }
+      </script><meta property="og:url" content="https://bloghugo.iannelson.uk/nhibernate/">
   <meta property="og:site_name" content="Ian Nelson">
   <meta property="og:title" content="NHibernate">
   <meta property="og:description" content="There’s so much good open-source .Net development going on these days – .Text, nGallery, nUnit, etc – it’s a really interesting time to be a developer. My colleague Colin just drew my attention to nHibernate, an object persistence library for relational databases. TheServerSide.net has an excellent article summarising its use. Having just finished a long project where a large amount of time was spent writing “plumbing” code to persist objects to and from a SQL Server database, I’m finding the idea of using an O/R mapper such as this very appealing the next time round. Just as incorporating the MS DAAB block into solutions has reduced the amount of data access code required, I’m hopeful that embracing frameworks such as nHibernate will leave us with more time to spend focusing on addressing the business needs and less on re-solving technical issues.">

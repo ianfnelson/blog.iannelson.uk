@@ -56,7 +56,21 @@ One of the things I wanted to achieve was to ensure that any unhandled exception
         }
 
     </style>
-</noscript><meta property="og:url" content="https://bloghugo.iannelson.uk/wcf-global-exception-handling/">
+</noscript>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-5JMKSPFQKQ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-5JMKSPFQKQ');
+        }
+      </script><meta property="og:url" content="https://bloghugo.iannelson.uk/wcf-global-exception-handling/">
   <meta property="og:site_name" content="Ian Nelson">
   <meta property="og:title" content="WCF – Global Exception Handling">
   <meta property="og:description" content="I’ve done a fair bit of WCF development recently (and amazingly I came out of it relatively unscathed, both psychologically and emotionally). Using Castle Windsor’s WCF Facility helped a great deal, but I still found myself writing a fair bit of infrastructure and plumbing code. I thought I’d blog some of these code snippets lest I forget, and on the offchance they might help others.

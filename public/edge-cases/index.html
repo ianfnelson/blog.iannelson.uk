@@ -58,7 +58,21 @@ Jocelyn (excitedly): “We’re going to have a ‘Secret Santa’ for all the b
         }
 
     </style>
-</noscript><meta property="og:url" content="https://bloghugo.iannelson.uk/edge-cases/">
+</noscript>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-5JMKSPFQKQ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-5JMKSPFQKQ');
+        }
+      </script><meta property="og:url" content="https://bloghugo.iannelson.uk/edge-cases/">
   <meta property="og:site_name" content="Ian Nelson">
   <meta property="og:title" content="Edge Cases">
   <meta property="og:description" content="Ten years of professional software development have given me a healthy awareness of edge cases – I’m always trying to code defensively, validate input, catch exceptions, use assertions, and of course pick holes in sloppy specifications (“ah, but what if…”).

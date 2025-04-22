@@ -58,7 +58,21 @@ Well worth a read, although I suspect that in my solutions the bottlenecks will 
         }
 
     </style>
-</noscript><meta property="og:url" content="https://bloghugo.iannelson.uk/performance-of-loops-on-collections/">
+</noscript>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-5JMKSPFQKQ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-5JMKSPFQKQ');
+        }
+      </script><meta property="og:url" content="https://bloghugo.iannelson.uk/performance-of-loops-on-collections/">
   <meta property="og:site_name" content="Ian Nelson">
   <meta property="og:title" content="Performance of Loops on Collections">
   <meta property="og:description" content="Interesting article from Patrick Smacchia (the NDepend guy) in which he runs some benchmarks on the cost of looping in different ways over different constructs and comes to the conclusion that:

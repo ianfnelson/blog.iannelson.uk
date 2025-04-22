@@ -55,7 +55,21 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="https://bloghugo.iannelson.uk/a-serializable-keyvaluepair-class/">
+</noscript>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-5JMKSPFQKQ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-5JMKSPFQKQ');
+        }
+      </script><meta property="og:url" content="https://bloghugo.iannelson.uk/a-serializable-keyvaluepair-class/">
   <meta property="og:site_name" content="Ian Nelson">
   <meta property="og:title" content="A Serializable KeyValuePair Class">
   <meta property="og:description" content="Having accepted that Returning DataSets from WebServices is the Spawn of Satan and Represents All That Is Truly Evil in the World (or at least, not exactly best practice), I’ve been trying to make a conscious effort to instead use lightweight custom objects in my middle tier, to be exposed via web services for use by other applications. I felt sure that some of the new Generic classes in the .NET 2.0 FCL would help me in my quest. Specifically, as I often need to expose simple arrays of Key/Value Pair metadata, I planned to create an instance of the System.Collections.ObjectModel.Collection class, containing a bunch of System.Collections.Generic.KeyValuePair objects. ">

@@ -57,7 +57,21 @@ I think it’s great when tools like AutoMapper provide powerful methods like…
         }
 
     </style>
-</noscript><meta property="og:url" content="https://bloghugo.iannelson.uk/testing-ioc-registrations/">
+</noscript>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-5JMKSPFQKQ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-5JMKSPFQKQ');
+        }
+      </script><meta property="og:url" content="https://bloghugo.iannelson.uk/testing-ioc-registrations/">
   <meta property="og:site_name" content="Ian Nelson">
   <meta property="og:title" content="Testing IoC Registrations">
   <meta property="og:description" content="When I first started writing automated unit tests for my code, I remember getting carried away writing lots of tiny little tests, each with a single Assert. It felt good initially to see all those green ticks, but rapidly became a maintenance headache, and I am now happier having fewer less-brittle tests that do more.

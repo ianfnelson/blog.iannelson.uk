@@ -59,7 +59,21 @@ Castle.MicroKernel.Handlers.HandlerException: Can’t create component ‘Marsha
         }
 
     </style>
-</noscript><meta property="og:url" content="https://bloghugo.iannelson.uk/castle-windsor-array-resolution-gotcha/">
+</noscript>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-5JMKSPFQKQ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-5JMKSPFQKQ');
+        }
+      </script><meta property="og:url" content="https://bloghugo.iannelson.uk/castle-windsor-array-resolution-gotcha/">
   <meta property="og:site_name" content="Ian Nelson">
   <meta property="og:title" content="Castle Windsor Array Resolution Gotcha">
   <meta property="og:description" content="The shiny new system which I’ve recently been developing makes heavy use of the Chain of Responsibility pattern, and as such a number of service classes take an array of objects in the constructor:

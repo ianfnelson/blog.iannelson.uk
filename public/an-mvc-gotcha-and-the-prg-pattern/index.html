@@ -59,7 +59,21 @@ Note that we have two separate Index actions – one for HTTP GET which instanti
         }
 
     </style>
-</noscript><meta property="og:url" content="https://bloghugo.iannelson.uk/an-mvc-gotcha-and-the-prg-pattern/">
+</noscript>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-5JMKSPFQKQ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-5JMKSPFQKQ');
+        }
+      </script><meta property="og:url" content="https://bloghugo.iannelson.uk/an-mvc-gotcha-and-the-prg-pattern/">
   <meta property="og:site_name" content="Ian Nelson">
   <meta property="og:title" content="An MVC Gotcha and the PRG Pattern">
   <meta property="og:description" content="If you’ve recently moved across to ASP.NET MVC development following years of wrangling with the leaky abstraction that was WebForms, you may have encountered some seemingly curious behaviour when posting back to the same URL.
