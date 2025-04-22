@@ -34,7 +34,3 @@ build/
 *.swo
 *.bak
 *.tmp
-
-# Output of Hugo, Jekyll, etc. (comment out if not using)
-public/
-_site/
