@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Apr 2025 20:51:57 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 23 Apr 2025 21:04:38 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Who Reigns Supreme? Parsing Our WhatsApp Chat for Wordle Glory</title>
@@ -1661,7 +1661,7 @@ If there is a problem of some kind (say, a user already exists with the specifie
 <p>Oh, and a year or so later, I worked all summer long to save the £400 I needed to buy a 20Mb hard drive. Yes, twenty whole megabytes to play with – just imagine the opportunities that this presented to me!</p>
 <p>What about you, dear reader? Do you have any fond memories of your earliest computer hardware?</p>
 <hr>
-<p>Image by Museo del Computer – <a href="http://www.retrocomputing.net/">http://www.retrocomputing.net/</a></p>
+<p>Image by <a href="http://www.retrocomputing.net/">Museo del Computer</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1863,12 +1863,12 @@ nents entirely, leaving it free to devote all its attention on the few assemblie
       <pubDate>Wed, 17 Aug 2011 08:08:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/schoolboy-error-of-the-day/</guid>
       <description>&lt;p&gt;This dumb mistake just cost me an hour spelunking around in the debugger:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;code&gt;var status = source.Substring(source.LastIndexOf(&amp;quot;/&amp;quot; + 1));&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;(where source is e.g. “&lt;a href=&#34;http://foo.com/status/all-is-good&#34;&gt;http://foo.com/status/all-is-good&lt;/a&gt;“)&lt;/p&gt;
 &lt;p&gt;Fortunately the ramifications were picked up in the acceptance tests, but the root cause wasn’t at all obvious from such a high level.&lt;/p&gt;
 &lt;p&gt;Lesson for the day – code is never too trivial to warrant unit testing.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>This dumb mistake just cost me an hour spelunking around in the debugger:</p>
-<!-- raw HTML omitted -->
+<p><code>var status = source.Substring(source.LastIndexOf(&quot;/&quot; + 1));</code></p>
 <p>(where source is e.g. “<a href="http://foo.com/status/all-is-good">http://foo.com/status/all-is-good</a>“)</p>
 <p>Fortunately the ramifications were picked up in the acceptance tests, but the root cause wasn’t at all obvious from such a high level.</p>
 <p>Lesson for the day – code is never too trivial to warrant unit testing.</p>
