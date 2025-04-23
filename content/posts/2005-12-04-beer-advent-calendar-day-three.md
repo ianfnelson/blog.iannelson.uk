@@ -5,6 +5,8 @@ date: 2005-12-04T01:12:00+00:00
 url: /beer-advent-calendar-day-three/
 
 categories:
+  - Fun
+tags:
   - Beer
 
 ---

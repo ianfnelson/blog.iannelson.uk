@@ -5,6 +5,8 @@ date: 2005-12-09T23:12:00+00:00
 url: /beer-advent-calendar-day-nine/
 
 categories:
+  - Fun
+tags:
   - Beer
 tags:
   - tidy

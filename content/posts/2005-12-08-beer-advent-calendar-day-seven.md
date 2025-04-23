@@ -7,6 +7,8 @@ cover:
   image: https://cdn.iannelson.uk/uploads/2005/12/connie1_large_71473873_o-1.jpg
 
 categories:
+  - Fun
+tags:
   - Beer
 tags:
   - tidy

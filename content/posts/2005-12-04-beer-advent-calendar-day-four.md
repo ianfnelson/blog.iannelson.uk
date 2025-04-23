@@ -5,6 +5,8 @@ date: 2005-12-04T22:12:00+00:00
 url: /beer-advent-calendar-day-four/
 
 categories:
+  - Fun
+tags:
   - Beer
 
 ---

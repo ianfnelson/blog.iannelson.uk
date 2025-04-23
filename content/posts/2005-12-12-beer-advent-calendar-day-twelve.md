@@ -5,6 +5,8 @@ date: 2005-12-12T22:12:00+00:00
 url: /beer-advent-calendar-day-twelve/
 
 categories:
+  - Fun
+tags:
   - Beer
 tags:
   - tidy

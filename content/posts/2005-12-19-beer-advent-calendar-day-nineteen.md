@@ -5,6 +5,8 @@ date: 2005-12-19T20:12:00+00:00
 url: /beer-advent-calendar-day-nineteen/
 
 categories:
+  - Fun
+tags:
   - Beer
 tags:
   - tidy

@@ -7,6 +7,8 @@ cover:
   image: https://cdn.iannelson.uk/uploads/2005/12/delirium_nocturnum_150-1.jpg
 
 categories:
+  - Fun
+tags:
   - Beer
 tags:
   - tidy
