@@ -1,6 +1,6 @@
 ---
 title: 'USA Trip 2006: Arrival'
-
+series: 'USA Trip 2006'
 date: 2006-05-08T13:05:00+00:00
 url: /usa-trip-2006-arrival/
 
