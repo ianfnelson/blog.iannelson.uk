@@ -79,7 +79,7 @@ One of things I wanted to run on my own Synology NAS is RabbitMQ, the popular op
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2020-01-25T23:46:56+00:00">
-    <meta property="article:modified_time" content="2025-04-23T21:18:19+01:00">
+    <meta property="article:modified_time" content="2025-04-23T21:46:40+01:00">
     <meta property="og:image" content="https://blogstouks01.z33.web.core.windows.net/2020/01/2020-01-13_21-25-45-1.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://blogstouks01.z33.web.core.windows.net/2020/01/2020-01-13_21-25-45-1.png">
@@ -122,7 +122,7 @@ One of things I wanted to run on my own Synology NAS is RabbitMQ, the popular op
   "wordCount" : "734",
   "inLanguage": "en",
   "image":"https://blogstouks01.z33.web.core.windows.net/2020/01/2020-01-13_21-25-45-1.png","datePublished": "2020-01-25T23:46:56Z",
-  "dateModified": "2025-04-23T21:18:19+01:00",
+  "dateModified": "2025-04-23T21:46:40+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://blog.iannelson.uk/how-to-install-rabbitmq-server-in-docker-on-a-synology-nas/"
@@ -242,7 +242,7 @@ One of things I wanted to run on my own Synology NAS is RabbitMQ, the popular op
 <p>Containers should generally be treated as being replaceable, with any data that you care about being kept outside of the container. To this end, create a folder on the NAS that can be used as a volume for the /var/lib/rabbitmq mount path. This ensures all the data from the RabbitMQ instance exists outside of the container itself and won’t be lost if the container needs to be destroyed and recreated for any reason (such as upgrading to a new version of RabbitMQ).<br>
 I also suggest creating a blank RabbitMQ config file – rabbitmq.conf – and mounting this file to the path /etc/rabbitmq/rabbitmq.conf .</p>
 <!-- raw HTML omitted -->
-<p>RabbitMQ with the management plugin enabled uses ports 4369, 5671, 5672, 15671, 15672 and 25672. There’s a low probability of these ports already being in use by other applications on the NAS, so map those container ports to the same local ports.<!-- raw HTML omitted --></p>
+<p>RabbitMQ with the management plugin enabled uses ports 4369, 5671, 5672, 15671, 15672 and 25672. There’s a low probability of these ports already being in use by other applications on the NAS, so map those container ports to the same local ports.</p>
 <p><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2020-01-13_20-57-55.png"><!-- raw HTML omitted --></a><!-- raw HTML omitted --></p>
 <p>Check the Environment variables tab. The defaults should be fine; you may wish to specify a particular <a href="https://www.rabbitmq.com/cli.html#node-names">node name</a> – this can be done using the RABBITMQ_NODENAME environment variable</p>
 <!-- raw HTML omitted -->
