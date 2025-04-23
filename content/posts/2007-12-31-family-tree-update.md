@@ -1,15 +1,13 @@
 ---
 title: Family Tree Update
-
 date: 2007-12-31T22:12:00+00:00
 url: /family-tree-update/
 cover: 
   image: https://cdn.iannelson.uk/uploads/2007/12/gedhtree_2-1.png
-
 categories:
   - Genealogy
 tags:
-  - tidy
+  - Genealogy
 
 ---
 With the return of the dark wintry nights to this sceptered isle, I’ve been taking the opportunity to flesh out [my Family Tree][1] a little more.

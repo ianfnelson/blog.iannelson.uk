@@ -1,16 +1,14 @@
 ---
 title: For Our Tomorrows
-
 date: 2006-11-12T20:11:00+00:00
 url: /for-our-tomorrows/
 cover: 
   image: https://cdn.iannelson.uk/uploads/2006/11/we-will-remember-them_295407300_o-1.jpg
-
 categories:
   - Family
   - Genealogy
 tags:
-  - tidy
+  - Genealogy
 
 ---
 On this Remembrance Sunday, permit me to share with you a photo that my cousin Helen took this week of our Granduncle’s grave in France.

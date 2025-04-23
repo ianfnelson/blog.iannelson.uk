@@ -1,13 +1,11 @@
 ---
 title: Genealogy – My New Winter Hobby
-
 date: 2006-10-01T19:10:00+00:00
 url: /genealogy-my-new-winter-hobby/
-
 categories:
   - Genealogy
 tags:
-  - tidy
+  - Genealogy
 
 ---
 _&#8220;INTPs are always so mentally active that they continually delve into new interests&#8230; The interests of an INTP would be enough to occupy him for several lifetimes if that were possible.&#8221;_
