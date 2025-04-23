@@ -6,7 +6,7 @@
     <description>Recent content on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Apr 2025 19:00:14 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 23 Apr 2025 19:03:54 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Who Reigns Supreme? Parsing Our WhatsApp Chat for Wordle Glory</title>
@@ -2926,11 +2926,11 @@ tle doubt. I didn’t share these timings with Jocelyn, but I’m sure she was w
       <description>&lt;p&gt;OK, dear readers, today I’d like to talk about tools.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;p&gt;Software development isn’t really so different from traditional skilled crafts in that it is important to have an understanding of the tools available to help you create a quality products in the least amount of time possible.&lt;/p&gt;
-&lt;p&gt;For .NET developers, the Visual Studio IDE is usually just the starting point, and most of us will come to rely on some of the tools listed in Scott Hanselman’s famous &lt;a href=&#34;http://www.hanselman.com/tools&#34;&gt;tools list&lt;/a&gt;. Personally, I can’t imagine coding without first installing &lt;a href=&#34;http://www.devexpress.com/refactor&#34;&gt;Refactor Pro&lt;/a&gt;, editing text files in anything other than &lt;a href=&#34;http://www.textpad.com&#34;&gt;TextPad&lt;/a&gt;, or working on a machine that doesn’t have &lt;a href=&#34;https://blog.iannelson.uk/snagit/&#34;&gt;Snag It&lt;/a&gt; installed.&lt;/p&gt;</description>
+&lt;p&gt;For .NET developers, the Visual Studio IDE is usually just the starting point, and most of us will come to rely on some of the tools listed in Scott Hanselman’s famous &lt;a href=&#34;http://www.hanselman.com/tools&#34;&gt;tools list&lt;/a&gt;. Personally, I can’t imagine coding without first installing &lt;a href=&#34;http://www.devexpress.com/refactor&#34;&gt;Refactor Pro&lt;/a&gt;, editing text files in anything other than &lt;a href=&#34;http://www.textpad.com&#34;&gt;TextPad&lt;/a&gt;, or working on a machine that doesn’t have Snag It installed.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>OK, dear readers, today I’d like to talk about tools.<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
 <p>Software development isn’t really so different from traditional skilled crafts in that it is important to have an understanding of the tools available to help you create a quality products in the least amount of time possible.</p>
-<p>For .NET developers, the Visual Studio IDE is usually just the starting point, and most of us will come to rely on some of the tools listed in Scott Hanselman’s famous <a href="http://www.hanselman.com/tools">tools list</a>. Personally, I can’t imagine coding without first installing <a href="http://www.devexpress.com/refactor">Refactor Pro</a>, editing text files in anything other than <a href="http://www.textpad.com">TextPad</a>, or working on a machine that doesn’t have <a href="https://blog.iannelson.uk/snagit/">Snag It</a> installed.</p>
+<p>For .NET developers, the Visual Studio IDE is usually just the starting point, and most of us will come to rely on some of the tools listed in Scott Hanselman’s famous <a href="http://www.hanselman.com/tools">tools list</a>. Personally, I can’t imagine coding without first installing <a href="http://www.devexpress.com/refactor">Refactor Pro</a>, editing text files in anything other than <a href="http://www.textpad.com">TextPad</a>, or working on a machine that doesn’t have Snag It installed.</p>
 <h4 id="mri-for-your-net-application">MRI For Your .NET Application</h4>
 <p>Another one of the tools that I reach for frequently, and the subject of this blog post, is <strong><a href="http://www.ndepend.com">NDepend</a></strong>, which performs rapid static analysis of a set of .NET assemblies and provides a deliciously visual interface for interpreting and understanding the results. Through the use of this tool, architects and developers can quickly spot problems or potential areas for improvements in a codebase. It’s essentially an MRI Scanner for your .NET code!<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
