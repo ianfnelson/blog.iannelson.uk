@@ -10,7 +10,7 @@ categories:
   - Hills
 
 ---
-I’ve finally gotten round to processing and uploading photos from [Paulo’s Last Munro weekend][1]. The weather on Ben More was truly appalling, so the majority of the images were, unsurprisingly, taken within the cosy confines of the [Craignure Inn][2], who gave us a wonderfully warm welcome.<figure class="kg-card kg-gallery-card kg-width-wide"> 
+I’ve finally gotten round to processing and uploading photos from Paulo’s Last Munro weekend. The weather on Ben More was truly appalling, so the majority of the images were, unsurprisingly, taken within the cosy confines of the [Craignure Inn][2], who gave us a wonderfully warm welcome.<figure class="kg-card kg-gallery-card kg-width-wide"> 
 
 <div class="kg-gallery-container">
   <div class="kg-gallery-row">
@@ -52,5 +52,4 @@ I’ve finally gotten round to processing and uploading photos from [Paulo’s L
   </div>
 </div></figure>
 
- [1]: https://blog.iannelson.uk/hebrides-bound-but-can-i-still-rough-it/
  [2]: http://www.craignure-inn.co.uk/
