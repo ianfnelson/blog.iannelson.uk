@@ -5,7 +5,6 @@ date: 2011-03-09T09:03:00+00:00
 url: /entity-framework-week-part-3-runtime-issues-encountered/
 series:
   - 'Entity Framework Week'
-weight: 3
 categories:
   - Tech
 tags:

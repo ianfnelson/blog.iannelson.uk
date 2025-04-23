@@ -5,7 +5,6 @@ date: 2011-03-10T09:03:00+00:00
 url: /entity-framework-week-part-4-features-and-further-investigations/
 series:
   - 'Entity Framework Week'
-weight: 4
 categories:
   - Tech
 tags:
