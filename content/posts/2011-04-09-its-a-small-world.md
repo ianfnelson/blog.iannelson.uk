@@ -44,7 +44,7 @@ To be honest this news is still sinking in, and I’m not sure what comments to 
 
 Oh, and John – welcome to the family, cousin!
 
- [1]: https://blog.iannelson.uk/tag/genealogy
+ [1]: https://blog.iannelson.uk/tags/genealogy
  [2]: https://familytree.iannelson.uk
  [3]: http://www.scotlandspeople.gov.uk
  [4]: http://johnsadventures.com/
