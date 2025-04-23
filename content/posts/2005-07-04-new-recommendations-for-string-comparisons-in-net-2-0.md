@@ -6,8 +6,6 @@ url: /new-recommendations-for-string-comparisons-in-net-2-0/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

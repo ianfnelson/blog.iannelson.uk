@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 On which we summitted the seventh-highest mountain in Scotland, the 1234m Aonach Beag. Plans to continue across to neighbouring Aonach Mor had to be abandoned due to poor visibility.<figure class="kg-card kg-gallery-card kg-width-wide"> 

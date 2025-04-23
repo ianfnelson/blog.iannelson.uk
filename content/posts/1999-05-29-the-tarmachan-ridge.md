@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 Meall nan Tarmachan, 1044m / 3425ft<figure class="kg-card kg-gallery-card kg-width-wide"> 

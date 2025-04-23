@@ -6,8 +6,6 @@ url: /wcf-nhibernate-unit-of-work-endpoint-behavior/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 OK, my last WCF-related code snippet of the day, I promise. This is quite similar to the last one. I required that the WCF service I was developing started a new NHibernate Session for each invocation, and closed it after invocation (i.e. session-per-request). I couldn’t rely on the ASP.NET session start and end events in global.asax as this particular WCF service was to respond to MSMQ messages rather than HTTP.

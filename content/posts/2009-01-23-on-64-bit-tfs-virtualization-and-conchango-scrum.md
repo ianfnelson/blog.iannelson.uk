@@ -6,8 +6,6 @@ url: /on-64-bit-tfs-virtualization-and-conchango-scrum/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

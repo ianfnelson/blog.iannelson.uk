@@ -7,8 +7,6 @@ series:
   - 'Entity Framework Week'
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 In February 2011 I found myself doing some contract development work in a team that was still doing data access using raw ADO.NET and stored procedures. Being the [NHibernate][1] fanboy that I am, I naturally attempted to persuade them of the benefits of moving over to NH, even going so far as to develop (in my own time) an NH-powered version of their application.

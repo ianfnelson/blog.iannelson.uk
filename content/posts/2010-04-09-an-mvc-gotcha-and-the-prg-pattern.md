@@ -6,8 +6,6 @@ url: /an-mvc-gotcha-and-the-prg-pattern/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 If you’ve recently moved across to ASP.NET MVC development following years of wrangling with the leaky abstraction that was WebForms, you may have encountered some seemingly curious behaviour when posting back to the same URL.

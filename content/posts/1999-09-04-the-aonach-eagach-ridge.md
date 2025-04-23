@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 A misty day scrambling along the Aonach Eagach ridge.<figure class="kg-card kg-gallery-card kg-width-wide"> 

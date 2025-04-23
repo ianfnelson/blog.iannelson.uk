@@ -9,8 +9,6 @@ cover:
 categories:
   - Work
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

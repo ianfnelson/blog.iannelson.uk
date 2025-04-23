@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 A great day bagging the two Munros that make up Beinn a’Bheithir &#8211; Sgorr Dheargh (1024m) and Sgorr Dhonuill (1001m)<figure class="kg-card kg-gallery-card kg-width-wide"> 

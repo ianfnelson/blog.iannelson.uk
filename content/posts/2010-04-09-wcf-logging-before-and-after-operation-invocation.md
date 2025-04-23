@@ -6,8 +6,6 @@ url: /wcf-logging-before-and-after-operation-invocation/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 Here’s another custom WCF EndpointBehavior I found useful recently.

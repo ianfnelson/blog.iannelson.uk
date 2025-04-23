@@ -6,8 +6,6 @@ url: /a-linq-gotcha-first-operator/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

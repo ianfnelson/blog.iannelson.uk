@@ -9,8 +9,6 @@ cover:
 categories:
   - Books
   - Tech
-tags:
-  - tidy
 
 ---
 Sometimes, when you join a new team as a .NET developer, the team lead proudly points you in the direction of a Word document or wiki page detailing the team’s house coding standards.<figure class="kg-card kg-image-card">

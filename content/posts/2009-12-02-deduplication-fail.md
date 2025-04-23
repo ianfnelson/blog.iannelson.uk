@@ -7,8 +7,6 @@ url: /deduplication-fail/
 categories:
   - Fun
   - Tech
-tags:
-  - tidy
 
 ---
 Oh, the irony!<figure class="kg-card kg-image-card">

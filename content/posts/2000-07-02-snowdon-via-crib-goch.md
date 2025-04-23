@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 Similarly to [my traverse of the Aonach Eagach ridge last year][1], the scale of the perilous drops aside me were hidden by cloud.<figure class="kg-card kg-gallery-card kg-width-wide"> 

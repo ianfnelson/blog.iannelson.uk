@@ -7,8 +7,6 @@ url: /on-the-inherent-negativity-of-computer-programmers/
 categories:
   - Fun
   - Tech
-tags:
-  - tidy
 
 ---
 A couple of weeks ago, early one morning, my friend and fellow coder Scott asked a curious question:

@@ -6,8 +6,6 @@ url: /sql-server-point-in-time-restore/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

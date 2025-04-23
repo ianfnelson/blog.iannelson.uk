@@ -6,8 +6,6 @@ url: /a-serializable-keyvaluepair-class/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

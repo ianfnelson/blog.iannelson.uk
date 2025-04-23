@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 Day Three &#8211; Beinn A’Chaorainn (3,550ft / 1,082m), Beinn Bhreac (3,054ft / 931m).

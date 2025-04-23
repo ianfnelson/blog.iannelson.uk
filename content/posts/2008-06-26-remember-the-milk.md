@@ -6,8 +6,6 @@ url: /remember-the-milk/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 In response to [a blog post][1] that I’d shared in Google Reader, [Jez][2] emailed me to ask:

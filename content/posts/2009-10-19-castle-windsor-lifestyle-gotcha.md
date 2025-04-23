@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 I always knew my lifestyle choices would come back to bite me some day…<figure class="kg-card kg-image-card">

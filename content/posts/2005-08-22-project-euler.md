@@ -6,8 +6,6 @@ url: /project-euler/
 
 categories:
   - Fun
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

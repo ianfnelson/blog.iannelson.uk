@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 Messing about on Stanage Edge, near Hathersage.<figure class="kg-card kg-gallery-card kg-width-wide"> 

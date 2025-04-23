@@ -9,8 +9,6 @@ cover:
 categories:
   - Fun
   - Travel
-tags:
-  - tidy
 
 ---
 I keep intending, and forgetting to post a couple of videos from our US holiday last April.  I suppose I was hoping to get round to writing up my paper notes from the holiday, but it’s becoming apparent that won’t happen anytime soon, so let’s skip forward to the funny bits:

@@ -6,8 +6,6 @@ url: /msdn-technical-roadshow-2007/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

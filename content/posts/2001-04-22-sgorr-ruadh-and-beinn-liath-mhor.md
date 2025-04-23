@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 Another great day on snow-kissed hills.<figure class="kg-card kg-gallery-card kg-width-wide"> 

@@ -8,8 +8,6 @@ categories:
   - Fun
 tags:
   - Beer
-tags:
-  - tidy
 
 ---
 I just realised that I forgot to blog about yesterday’s advent beer.  Sorry for keeping you all on tenterhooks like that!

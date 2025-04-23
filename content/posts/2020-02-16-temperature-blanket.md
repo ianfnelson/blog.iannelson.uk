@@ -9,8 +9,6 @@ cover:
 categories:
   - Family
   - Tech
-tags:
-  - tidy
 
 ---
 As the resident geek in our family, it won’t surprise you to hear that I am occasionally approached by Jocelyn and our kids to provide tech support. Sadly, most of these queries are invariably of the &#8220;how do I print from my phone&#8221; or &#8220;the Sky box stopped working&#8221; ilk, and rarely trouble my software skills. So it came as a pleasant surprise when I recently encountered a genuine reason to use .NET, APIs and Docker in support of one of Jocelyn’s craft projects.

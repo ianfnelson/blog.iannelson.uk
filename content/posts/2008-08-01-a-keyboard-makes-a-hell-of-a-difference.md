@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 It occurred to me recently that I’m not getting any younger, and that sitting hunched over a keyboard for a dozen hours a day will probably lead to some form of RSI sooner or later. So I started looking for ways to improve my daily working environment.

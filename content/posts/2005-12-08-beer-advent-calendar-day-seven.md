@@ -10,8 +10,6 @@ categories:
   - Fun
 tags:
   - Beer
-tags:
-  - tidy
 
 ---
 Wednesday night’s tipple was the rather strange 5% ABV [Kronenbourg Blanc][1], from UK brewing giant [Scottish & Newcastle][2].  Described as a &#8220;refreshing, fruity white beer&#8221;, this is in fact blatantly piss-coloured (which probably explains why it comes in an opaque bottle).  I found this to be more reminiscent of a weak cider or some kind of bizarre citrus alcopop than anything deserving to have the word &#8220;beer&#8221; on the label.  Still, try everything once except Morris Dancing and incest, as the saying goes.

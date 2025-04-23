@@ -6,8 +6,6 @@ url: /testing-linq-queries/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 I’ve been asked “How do you test LINQ queries?” a couple of times in the past few months, so I thought I’d blog my answer for the benefit of all you lovely people.

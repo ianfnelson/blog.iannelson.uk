@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 My second Munro. Lots of fun in the snow.<figure class="kg-card kg-gallery-card kg-width-wide"> 

@@ -10,8 +10,6 @@ categories:
   - Fun
 tags:
   - Beer
-tags:
-  - tidy
 
 ---
 <figure class="kg-card kg-image-card"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/delirium_nocturnum_150.jpg" class="kg-image" alt loading="lazy" /></figure> 

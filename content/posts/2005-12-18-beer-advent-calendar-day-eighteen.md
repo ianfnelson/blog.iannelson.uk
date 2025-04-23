@@ -8,8 +8,6 @@ categories:
   - Fun
 tags:
   - Beer
-tags:
-  - tidy
 
 ---
 There’s something a wee bit disappointing about picking up a bottle labelled &#8220;MOROCCO ALE&#8221; and finding that it is, in fact, from nowhere more distant than Harrogate &#8211; the Daleside Brewery to be precise.  According to the label:

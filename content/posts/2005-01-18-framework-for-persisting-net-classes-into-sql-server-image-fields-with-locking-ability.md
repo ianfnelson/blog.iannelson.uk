@@ -6,8 +6,6 @@ url: /framework-for-persisting-net-classes-into-sql-server-image-fields-with-loc
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

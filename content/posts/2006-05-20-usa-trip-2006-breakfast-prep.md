@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Travel
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

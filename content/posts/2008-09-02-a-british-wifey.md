@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Family
-tags:
-  - tidy
 
 ---
 Today was a proud day indeed. Remember four years ago when I blogged about Jocelyn getting a fiancee visa from the British Consulate in Los Angeles, which paved the way for her to travel to Blighty with the intention of marrying me..?

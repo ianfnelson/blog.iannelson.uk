@@ -7,8 +7,6 @@ url: /zero-interest-bug-arrives/
 categories:
   - Fun
   - Tech
-tags:
-  - tidy
 
 ---
 So, base rates are now down to 1.0%, and the [Zero Interest Bug][1] is not just conjecture.

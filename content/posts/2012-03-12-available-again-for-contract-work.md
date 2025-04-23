@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Work
-tags:
-  - tidy
 
 ---
 #### Are you plagued by bad code smells? {#are-you-plagued-by-bad-code-smells}<figure class="kg-card kg-image-card">

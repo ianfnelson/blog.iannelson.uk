@@ -6,8 +6,6 @@ url: /agile-yorkshire-the-pub-gojko-adzic-10th-june-2009/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

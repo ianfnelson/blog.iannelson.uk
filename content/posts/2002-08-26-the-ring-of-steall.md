@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 A superlative day in the hills with Richard, Melanie, Hugh and Harriet.

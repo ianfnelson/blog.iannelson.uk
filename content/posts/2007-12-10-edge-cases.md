@@ -6,8 +6,6 @@ url: /edge-cases/
 
 categories:
   - Fun
-tags:
-  - tidy
 
 ---
 Ten years of professional software development have given me a healthy awareness of edge cases &#8211; I’m always trying to code defensively, validate input, catch exceptions, use assertions, and of course pick holes in sloppy specifications (&#8220;ah, but what if&#8230;&#8221;).

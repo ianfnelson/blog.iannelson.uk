@@ -6,8 +6,6 @@ url: /on-the-joys-of-object-relational-mapping/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

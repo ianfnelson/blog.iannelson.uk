@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 Sunday a handful of us bagged Ben Wyvis, where apparently Martin Moran was avalanched during his record breaking winter munro expedition.  Our trip up to the top was thankfully less life-threatening, with the only dangers coming from the many snowball fights, or riding over rocks during the pitifully slow bum-slide back to the soggy foothills.  But the sun was out in force, as were the views.  It was a good start to the holiday proper, and served as a gentle reminder how unfit I am, as I soon found myself lagging behind all and sundry during the ascent.<figure class="kg-card kg-image-card">

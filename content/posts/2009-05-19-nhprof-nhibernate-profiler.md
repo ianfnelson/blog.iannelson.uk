@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 The inimitable [Ayende Rahien][1] is close to releasing version 1.0 of his [NHibernate Profiler][2] tool, and it really is shaping up to be a rather lovely little addition to my developer toolbox.

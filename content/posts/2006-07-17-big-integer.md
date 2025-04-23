@@ -6,8 +6,6 @@ url: /big-integer/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 As I mentioned [last summer][1], I do enjoy whiling away a few hours attempting to solve the maths / progamming challenges set on [Project Euler][2]. My language of choice for most puzzles is C#, but this hampered me on some of the questions as there is no in-built support for really big integers.

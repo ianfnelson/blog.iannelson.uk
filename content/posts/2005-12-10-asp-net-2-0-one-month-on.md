@@ -6,8 +6,6 @@ url: /asp-net-2-0-one-month-on/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 It’s over a month now since Visual Studio 2005 officially RTM’d, and during that time I’ve been fortunate enough to have been using it for the majority of my time on most working days. One of the things we’re trying to achieve is the integration of several distinct internal corporate web applications into a bespoke portal system, with single sign-on, common authorization model, common look and feel, etc. There’s been quite a heavy R&D / proof-of-concept aspect to the workload so far, as we try out different ways of achieving this, and grow familiar with the new technologies available to us in ASP.NET 2.0.

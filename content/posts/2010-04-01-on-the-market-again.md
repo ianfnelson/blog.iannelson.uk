@@ -6,8 +6,6 @@ url: /on-the-market-again/
 
 categories:
   - Work
-tags:
-  - tidy
 
 ---
 This blog post comes to you live from a Starbucks in the north of England.

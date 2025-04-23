@@ -6,8 +6,6 @@ url: /extreme-net/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Fun
-tags:
-  - tidy
 
 ---
 My good buddy [John][1] just published [a typically navel-gazing post detailing the contents of his wallet][2], and went on to invite readers to divulge details of their own _billfolds_ in what I can only presume is some cunning and evil plan for mass identity-theft 🙂

@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 A couple of days in the wonderfully remote Fisherfield Forest, staying at the delightful Shenavall Bothy.<figure class="kg-card kg-gallery-card kg-width-wide"> 

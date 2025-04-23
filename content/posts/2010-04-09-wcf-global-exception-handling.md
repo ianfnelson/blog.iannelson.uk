@@ -6,8 +6,6 @@ url: /wcf-global-exception-handling/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 I’ve done a fair bit of WCF development recently (and amazingly I came out of it relatively unscathed, both psychologically and emotionally). Using Castle Windsor’s WCF Facility helped a great deal, but I still found myself writing a fair bit of infrastructure and plumbing code. I thought I’d blog some of these code snippets lest I forget, and on the offchance they might help others.

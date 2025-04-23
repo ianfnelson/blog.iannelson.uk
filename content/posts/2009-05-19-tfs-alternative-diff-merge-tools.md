@@ -6,8 +6,6 @@ url: /tfs-alternative-diff-merge-tools/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 There are many things I love about Team Foundation Server, but the supplied diff/merge tool is not one of them. It is &#8211; how can I put this? – somewhat basic. Indeed, I’ve heard tell of people going out of their way to avoid merges purely because they find the process so clunky.

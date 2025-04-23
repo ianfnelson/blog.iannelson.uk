@@ -6,8 +6,6 @@ url: /database-design-still-important-in-these-orm-obsessed-days/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 [Tobin blogged earlier this week][1] about how quality ORM tools like NHibernate make it easier to code to normalized schemas.

@@ -6,8 +6,6 @@ url: /johns-background-switcher/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

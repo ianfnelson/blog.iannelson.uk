@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Travel
-tags:
-  - tidy
 
 ---
 <figure class="kg-card kg-image-card"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/twelve-apostles_13454971_o.jpg" class="kg-image" alt="Twelve Apostles, before Sunday's collapse" loading="lazy" /></figure> 

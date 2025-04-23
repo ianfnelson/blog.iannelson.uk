@@ -7,8 +7,6 @@ url: /postcode-validation/
 categories:
   - Fun
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

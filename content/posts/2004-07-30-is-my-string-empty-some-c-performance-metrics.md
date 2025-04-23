@@ -6,8 +6,6 @@ url: /is-my-string-empty-some-c-performance-metrics/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

@@ -6,8 +6,6 @@ url: /stopwatch-class-for-net-1-1/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

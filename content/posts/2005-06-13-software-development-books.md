@@ -7,8 +7,6 @@ url: /software-development-books/
 categories:
   - Books
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

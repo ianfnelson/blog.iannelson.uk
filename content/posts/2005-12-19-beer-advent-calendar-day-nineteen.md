@@ -8,8 +8,6 @@ categories:
   - Fun
 tags:
   - Beer
-tags:
-  - tidy
 
 ---
 Smuggler’s Ale is another bottled beer which found its way into my calendar via an [Asda beer competition][1].  It’s 5% ABV, with hints of treacle, and is really rather enjoyable.

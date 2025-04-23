@@ -6,8 +6,6 @@ url: /testing-ioc-registrations/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

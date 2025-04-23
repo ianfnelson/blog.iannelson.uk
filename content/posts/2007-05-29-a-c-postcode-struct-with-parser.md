@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <figure class="kg-card kg-image-card"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/iStock_000003192621XSmall.jpg" class="kg-image" alt loading="lazy" /></figure> 

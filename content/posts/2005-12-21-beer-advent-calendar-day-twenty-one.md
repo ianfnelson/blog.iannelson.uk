@@ -8,8 +8,6 @@ categories:
   - Fun
 tags:
   - Beer
-tags:
-  - tidy
 
 ---
 &#8220;Jingle Knockers&#8221; isn’t exactly a phrase that inspires confidence, but this 5.5% ABV from [Skinner’s Brewery][1] in Cornwall is really good, definitely on a par with the stuff I’ve tried from Hambleton Ales and the Harviestoun Brewery.  Smooth and strong, with subtle hints of Christmas pud &#8211; mmmm&#8230;

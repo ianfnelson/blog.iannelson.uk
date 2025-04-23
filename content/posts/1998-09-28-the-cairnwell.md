@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 Does anybody else think Savage Garden sound like Spandau Ballet?  Sorry, just had to get that off my chest&#8230;<figure class="kg-card kg-image-card">

@@ -5,8 +5,6 @@ date: 2011-03-11T09:03:00+00:00
 url: /entity-framework-week-part-5-concluding-thoughts/
 series:
   - 'Entity Framework Week'
-tags:
-  - tidy
 
 ---
 _This is the fifth in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. [The introductory post in the series is here][1]._

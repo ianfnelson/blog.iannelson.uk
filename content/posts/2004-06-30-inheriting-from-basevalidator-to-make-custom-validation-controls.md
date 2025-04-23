@@ -6,8 +6,6 @@ url: /inheriting-from-basevalidator-to-make-custom-validation-controls/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

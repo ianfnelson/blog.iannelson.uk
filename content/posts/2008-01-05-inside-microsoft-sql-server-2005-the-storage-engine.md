@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 During 2007, I unexpectedly achieved a long-held ambition by increasing the number of books I regularly read (as opposed to merely buying, then leaving them to languish on the bookcase!). I read plenty of techie books of course, but also made use of local libraries and devoured plenty of books on other subjects, and even found time for some fiction. I think having a young baby in the house was partially responsible for this achievement &#8211; not much else to do of an evening any more!

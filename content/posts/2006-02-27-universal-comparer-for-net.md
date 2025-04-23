@@ -6,8 +6,6 @@ url: /universal-comparer-for-net/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

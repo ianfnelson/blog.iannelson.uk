@@ -9,8 +9,6 @@ cover:
 categories:
   - Work
   - Fun
-tags:
-  - tidy
 
 ---
 I promised you some photos of my new office a while back, didn’t I? OK, here you go&#8230;<figure class="kg-card kg-image-card kg-card-hascaption">

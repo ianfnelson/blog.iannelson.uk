@@ -6,8 +6,6 @@ url: /castle-windsor-array-resolution-gotcha/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

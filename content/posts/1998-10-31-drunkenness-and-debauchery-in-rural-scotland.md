@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 I still can’t quite believe that we all woke up at 6:30am on a Saturday.  But evidently it happened.  The journey up to Killin was fantastic, truly amazing.  All the floods, cloud, and rain had been left behind in England &#8211; we had clear open skies and sunny snow-topped peaks.  Bruce quickly ran out of superlatives, and decided to start inventing more, declaring this to be a &#8216;riptastic’ day.  We had to park up occasionally during the journey to take more photos, the scenery was just so fine.<figure class="kg-card kg-image-card kg-card-hascaption">

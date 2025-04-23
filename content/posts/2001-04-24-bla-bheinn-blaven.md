@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 The Foot and Mouth outbreak fortunately did not prevent us from having a fine day bagging Bla Bheinn on the Isle of Skye.<figure class="kg-card kg-gallery-card kg-width-wide"> 

@@ -6,8 +6,6 @@ url: /usa-trip-2006-arrival/
 
 categories:
   - Travel
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

@@ -6,8 +6,6 @@ url: /agile-yorkshire-the-pub-exploratory-testing-may-13th/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 If I can get a pass out from helping to look after the burgeoning Nelson family for an evening, I’ll be going along to this Agile Yorkshire session next Wednesday.

@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 Last week I had the pleasure of spending a few days in London attending the [Software Architect 2007][1] conference at the Barbican centre. It was a good conference, providing me with some useful and interesting new ideas and food for thought, whilst confirming that our team at [Marshalls][2] are generally going about things in &#8220;the right way&#8221;, which is nice.

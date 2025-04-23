@@ -6,8 +6,6 @@ url: /a-generic-sorter-for-strongly-typed-collections/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

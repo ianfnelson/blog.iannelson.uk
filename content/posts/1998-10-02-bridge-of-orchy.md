@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 Day Five &#8211; Beinn Dorain (3,530ft, 1,076m), Beinn An Dothaidh (3,287 ft, 1,002m)

@@ -7,8 +7,6 @@ series:
   - 'Entity Framework Week'
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 _This is the third in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. [The introductory post in the series is here][1]._

@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 [@Jez][1] [tweeted][2] last night:<figure class="kg-card kg-embed-card"> 

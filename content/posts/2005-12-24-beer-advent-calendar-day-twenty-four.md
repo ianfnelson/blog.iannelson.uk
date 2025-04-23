@@ -8,8 +8,6 @@ categories:
   - Fun
 tags:
   - Beer
-tags:
-  - tidy
 
 ---
 <figure class="wp-block-image"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/hertog-jan-doppio-double_76906363_o.jpg" alt="" /><figcaption class="wp-element-caption">Hertog Jan Doppio Double</figcaption></figure> 

@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 Day Two &#8211; Carn A’Mhaim (3,402ft / 1,037m), Ben Macdui (4,295ft / 1,309m).

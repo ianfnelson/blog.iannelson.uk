@@ -8,8 +8,6 @@ categories:
   - Fun
 tags:
   - Beer
-tags:
-  - tidy
 
 ---
 Gadzooks!  Who would have thought that it would be so difficult to find a few minutes each day to transcribe a few words about a bottle of beer?  But it is &#8211; especially as we enter the party season and my evenings are filled with festivities.

@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 A couple of fine Grahams bagged on a short, steep lunchtime walk.

@@ -6,8 +6,6 @@ url: /10-things-that-should-be-more-popular/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

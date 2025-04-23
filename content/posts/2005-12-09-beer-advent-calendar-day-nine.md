@@ -8,8 +8,6 @@ categories:
   - Fun
 tags:
   - Beer
-tags:
-  - tidy
 
 ---
 [Rosey Nosey][1] by Bateman’s Brewery has a deceptively cutesy name, but it turns out to be a really decent-quality ale with plenty of flavour and a pleasing warmth. If you have to buy one festive-themed beer this year, you could do much worse than this one.

@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 I’ve finally gotten round to processing and uploading photos from [Paulo’s Last Munro weekend][1]. The weather on Ben More was truly appalling, so the majority of the images were, unsurprisingly, taken within the cosy confines of the [Craignure Inn][2], who gave us a wonderfully warm welcome.<figure class="kg-card kg-gallery-card kg-width-wide"> 

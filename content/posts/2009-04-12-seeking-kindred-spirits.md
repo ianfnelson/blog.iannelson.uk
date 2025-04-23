@@ -7,8 +7,6 @@ url: /seeking-kindred-spirits/
 categories:
   - Work
   - Tech
-tags:
-  - tidy
 
 ---
 I’m coming round to the realization that my hugely enjoyable first contract at [Ventura][1] last summer might have been something of an anomaly. That project was decidedly agile, test-driven, and used a bunch of modern technologies including Monorail, ExtJS, Subversion, NUnit and NHibernate. The requirements were well-defined, and the team was highly effective, with a pragmatic project management team who kept the development team free from bureaucratic processes, leaving us able to get on with delivering some cracking software in double-quick time.

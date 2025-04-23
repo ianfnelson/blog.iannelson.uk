@@ -7,8 +7,6 @@ url: /spot-the-misleading-graph/
 categories:
   - Books
   - Fun
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

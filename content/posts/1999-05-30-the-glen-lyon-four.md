@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 A hot spring day taking in a circuitous route around the Glen Lyon four.

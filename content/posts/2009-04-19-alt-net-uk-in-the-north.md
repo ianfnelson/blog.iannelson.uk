@@ -6,8 +6,6 @@ url: /alt-net-uk-in-the-north/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

@@ -6,8 +6,6 @@ url: /performance-of-loops-on-collections/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 [Interesting article][1] from [Patrick Smacchia][2] (the [NDepend][3] guy) in which he runs some benchmarks on the cost of looping in different ways over different constructs and comes to the conclusion that:

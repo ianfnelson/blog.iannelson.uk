@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Family
-tags:
-  - tidy
 
 ---
 It gives me the utmost pleasure to announce the birth of Miss Isla Grace Nelson.<figure class="kg-card kg-image-card">

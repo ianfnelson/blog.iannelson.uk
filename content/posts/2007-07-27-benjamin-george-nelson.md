@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Family
-tags:
-  - tidy
 
 ---
 It gives me unparalleled joy to announce the birth of Mr Benjamin George Nelson.

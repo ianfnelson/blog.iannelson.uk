@@ -6,8 +6,6 @@ url: /schoolboy-error-of-the-day/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

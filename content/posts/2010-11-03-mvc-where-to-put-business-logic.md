@@ -6,8 +6,6 @@ url: /mvc-where-to-put-business-logic/
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 <!--kg-card-begin: html-->

@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 One of the least surprising but more significant announcements to come out of [Mix ‘09][1] last week was the general availability of [ASP.NET MVC 1.0][2]. The development process for this framework has been very transparent, with no fewer than eight previews, betas and release candidates made available over the past year or so.

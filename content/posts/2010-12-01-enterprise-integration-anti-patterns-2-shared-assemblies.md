@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 Having slain the beast that is [Shared Database][1], the next dragon to appear on my Enterprise Integration horizon is Shared Assemblies. That is, the suggestion that Application A can leverage the functionality of Application B by simply adding references to B’s DLLs. After all, this potential for reuse is why we put our code in reusable assemblies in the first place, isn’t it..?!<figure class="kg-card kg-image-card">

@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 <figure class="kg-card kg-image-card"><img decoding="async" src="https://cdn.iannelson.uk/uploads/1999/03/2013_03_04_22_25_05-1.jpg" class="kg-image" alt loading="lazy" /></figure> 

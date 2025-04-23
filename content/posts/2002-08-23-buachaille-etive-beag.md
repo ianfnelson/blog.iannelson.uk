@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 The little sibling to [Buachaille Etive Mor][1].<figure class="kg-card kg-gallery-card kg-width-wide"> 

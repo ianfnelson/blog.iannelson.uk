@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 Four big ones in the bag, thanks to an overnight stay at Corrour Bothy:

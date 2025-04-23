@@ -6,8 +6,6 @@ cover:
   image: https://cdn.iannelson.uk/uploads/1999/04/2013_03_04_22_25_45.jpg
 categories:
   - Hills
-tags:
-  - tidy
 
 ---
 I first wandered up the long track toward Beinn Dearg a year ago, when Daffy insisted we leave it at an early stage and clamber up through snow-covered heather onto a large rounded ridge which seemed to go on forever before finally nearing the summit of Eididh nan Clach Geala. Fortunately no such deviations were ordered this year, which was just as well since I was on strangely good form viz-a-viz walking, and enjoyed setting a pace up the stream-crossed path until it eventually disappeared, at which point I reverted to my more familiar snail’s pace.

@@ -9,8 +9,6 @@ cover:
 categories:
   - Fun
   - Tech
-tags:
-  - tidy
 
 ---
 Isn’t it funny how one’s tastes change as maturity progresses? &nbsp;I used to spend my summer holidays at the sea-side, playing in arcades and seeking the perfect milkshake ([lime][1]); more recently I’ve been spending them in the highlands, playing on the hills and seeking the perfect dram ([lagavulin][2]). &nbsp;Hmmm&#8230;

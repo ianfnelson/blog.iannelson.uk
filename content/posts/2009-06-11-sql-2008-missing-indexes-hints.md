@@ -8,8 +8,6 @@ cover:
 
 categories:
   - Tech
-tags:
-  - tidy
 
 ---
 Improvements to the Execution Plan UI in SQL Server Management Studio 2008 sure do make it a doddle to improve query execution time.
