@@ -1,6 +1,5 @@
 ---
 title: 'Friday Retrospective: My First Printer'
-
 date: 2014-04-25T05:30:00+00:00
 url: /friday-retrospective-my-first-printer/
 cover: 
@@ -26,4 +25,4 @@ What about you, dear reader? Do you have any fond memories of your earliest comp
 
 * * *
 
-Image by Museo del Computer &#8211; <http://www.retrocomputing.net/>
+Image by [Museo del Computer](http://www.retrocomputing.net/)
