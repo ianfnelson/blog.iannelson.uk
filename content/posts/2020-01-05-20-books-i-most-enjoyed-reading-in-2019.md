@@ -1,6 +1,6 @@
 ---
 title: The 20 Books I Most Enjoyed Reading in 2019
-
+series: 'Books of the Year'
 date: 2020-01-05T22:40:00+00:00
 url: /20-books-i-most-enjoyed-reading-in-2019/
 cover: 

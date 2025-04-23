@@ -1,6 +1,6 @@
 ---
 title: The Books I Most Enjoyed Reading in 2021
-
+series: 'Books of the Year'
 date: 2021-12-15T21:21:01+00:00
 url: /the-books-i-most-enjoyed-reading-in-2021/
 cover: 

@@ -6,8 +6,15 @@
     <description>Recent content in Series on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Apr 2025 08:53:10 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 23 Apr 2025 08:55:03 +0100</lastBuildDate>
     <atom:link href="https://bloghugo.iannelson.uk/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Books of the Year</title>
+      <link>https://bloghugo.iannelson.uk/series/books-of-the-year/</link>
+      <pubDate>Sat, 14 Dec 2024 16:31:33 +0000</pubDate>
+      <guid>https://bloghugo.iannelson.uk/series/books-of-the-year/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Entity Framework Week</title>
       <link>https://bloghugo.iannelson.uk/series/entity-framework-week/</link>

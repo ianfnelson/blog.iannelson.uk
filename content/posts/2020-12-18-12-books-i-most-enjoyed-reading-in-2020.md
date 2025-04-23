@@ -1,6 +1,6 @@
 ---
 title: The 12 Books I Most Enjoyed Reading in 2020
-
+series: 'Books of the Year'
 date: 2020-12-18T07:07:55+00:00
 url: /12-books-i-most-enjoyed-reading-in-2020/
 cover: 
