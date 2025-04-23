@@ -11,16 +11,16 @@
 As discussed recently, I’ve been trying to knock together a class struct to represent a UK postcode, provide a means of parsing a string as potentially being a valid postcode (or optionally just an outer code), and split that postcode into “outer” and “inner” code.
 I say potentially because, as you’ll know if you’ve looked into this topic at all, it’s impossible to validate whether a string truly does represent a postcode without querying the (copyrighted and expensive-to-license) Postcode Address File.  As a result, my solution is not very stringent – it is possible to persuade it to successfully parse an invalid postcode, but hopefully there should be no occasions when a valid postcode is rejected.">
 <meta name="author" content="">
-<link rel="canonical" href="https://bloghugo.iannelson.uk/a-c-postcode-struct-with-parser/">
+<link rel="canonical" href="https://blog.iannelson.uk/a-c-postcode-struct-with-parser/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.507965cef202c8ad6ac74222b0ed770dc0aaeab2c82c87ebdbd46b4f8b3196e2.css" integrity="sha256-UHllzvICyK1qx0IisO13DcCq6rLILIfr29RrT4sxluI=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://bloghugo.iannelson.uk/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://bloghugo.iannelson.uk/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://bloghugo.iannelson.uk/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://bloghugo.iannelson.uk/apple-touch-icon.png">
-<link rel="mask-icon" href="https://bloghugo.iannelson.uk/safari-pinned-tab.svg">
+<link rel="icon" href="https://blog.iannelson.uk/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://blog.iannelson.uk/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://blog.iannelson.uk/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://blog.iannelson.uk/apple-touch-icon.png">
+<link rel="mask-icon" href="https://blog.iannelson.uk/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://bloghugo.iannelson.uk/a-c-postcode-struct-with-parser/">
+<link rel="alternate" hreflang="en" href="https://blog.iannelson.uk/a-c-postcode-struct-with-parser/">
 <noscript>
     <style>
         #theme-toggle,
@@ -71,7 +71,7 @@ I say potentially because, as you’ll know if you’ve looked into this topic a
           gtag('js', new Date());
           gtag('config', 'G-5JMKSPFQKQ');
         }
-      </script><meta property="og:url" content="https://bloghugo.iannelson.uk/a-c-postcode-struct-with-parser/">
+      </script><meta property="og:url" content="https://blog.iannelson.uk/a-c-postcode-struct-with-parser/">
   <meta property="og:site_name" content="Ian Nelson">
   <meta property="og:title" content="A C# Postcode Struct with Parser">
   <meta property="og:description" content=" As discussed recently, I’ve been trying to knock together a class struct to represent a UK postcode, provide a means of parsing a string as potentially being a valid postcode (or optionally just an outer code), and split that postcode into “outer” and “inner” code.
@@ -100,13 +100,13 @@ I say potentially because, as you’ll know if you’ve looked into this topic a
       "@type": "ListItem",
       "position":  1 ,
       "name": "Posts",
-      "item": "https://bloghugo.iannelson.uk/posts/"
+      "item": "https://blog.iannelson.uk/posts/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "A C# Postcode Struct with Parser",
-      "item": "https://bloghugo.iannelson.uk/a-c-postcode-struct-with-parser/"
+      "item": "https://blog.iannelson.uk/a-c-postcode-struct-with-parser/"
     }
   ]
 }
@@ -128,14 +128,14 @@ I say potentially because, as you’ll know if you’ve looked into this topic a
   "dateModified": "2025-04-21T22:21:59+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://bloghugo.iannelson.uk/a-c-postcode-struct-with-parser/"
+    "@id": "https://blog.iannelson.uk/a-c-postcode-struct-with-parser/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Ian Nelson",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://bloghugo.iannelson.uk/favicon.ico"
+      "url": "https://blog.iannelson.uk/favicon.ico"
     }
   }
 }
@@ -157,7 +157,7 @@ I say potentially because, as you’ll know if you’ve looked into this topic a
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://bloghugo.iannelson.uk/" accesskey="h" title="Ian Nelson (Alt + H)">Ian Nelson</a>
+            <a href="https://blog.iannelson.uk/" accesskey="h" title="Ian Nelson (Alt + H)">Ian Nelson</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -183,17 +183,17 @@ I say potentially because, as you’ll know if you’ve looked into this topic a
         </div>
         <ul id="menu">
             <li>
-                <a href="https://bloghugo.iannelson.uk/archives" title="Archive">
+                <a href="https://blog.iannelson.uk/archives" title="Archive">
                     <span>Archive</span>
                 </a>
             </li>
             <li>
-                <a href="https://bloghugo.iannelson.uk/categories" title="Categories">
+                <a href="https://blog.iannelson.uk/categories" title="Categories">
                     <span>Categories</span>
                 </a>
             </li>
             <li>
-                <a href="https://bloghugo.iannelson.uk/testimonials" title="Testimonials">
+                <a href="https://blog.iannelson.uk/testimonials" title="Testimonials">
                     <span>Testimonials</span>
                 </a>
             </li>
@@ -239,14 +239,14 @@ I say potentially because, as you’ll know if you’ve looked into this topic a
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://bloghugo.iannelson.uk/tags/tidy/">Tidy</a></li>
+      <li><a href="https://blog.iannelson.uk/tags/tidy/">Tidy</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="https://bloghugo.iannelson.uk/">Ian Nelson</a></span> · 
+        <span>&copy; 2025 <a href="https://blog.iannelson.uk/">Ian Nelson</a></span> · 
 
     <span>
         Powered by

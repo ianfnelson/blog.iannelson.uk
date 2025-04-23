@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Series on Ian Nelson</title>
-    <link>https://bloghugo.iannelson.uk/series/</link>
+    <link>https://blog.iannelson.uk/series/</link>
     <description>Recent content in Series on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
     <lastBuildDate>Wed, 23 Apr 2025 09:56:16 +0100</lastBuildDate>
-    <atom:link href="https://bloghugo.iannelson.uk/series/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.iannelson.uk/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Books of the Year</title>
-      <link>https://bloghugo.iannelson.uk/series/books-of-the-year/</link>
+      <link>https://blog.iannelson.uk/series/books-of-the-year/</link>
       <pubDate>Sat, 14 Dec 2024 16:31:33 +0000</pubDate>
-      <guid>https://bloghugo.iannelson.uk/series/books-of-the-year/</guid>
+      <guid>https://blog.iannelson.uk/series/books-of-the-year/</guid>
       <description></description>
     </item>
     <item>
       <title>Entity Framework Week</title>
-      <link>https://bloghugo.iannelson.uk/series/entity-framework-week/</link>
+      <link>https://blog.iannelson.uk/series/entity-framework-week/</link>
       <pubDate>Fri, 11 Mar 2011 09:03:00 +0000</pubDate>
-      <guid>https://bloghugo.iannelson.uk/series/entity-framework-week/</guid>
+      <guid>https://blog.iannelson.uk/series/entity-framework-week/</guid>
       <description></description>
     </item>
     <item>
       <title>USA Trip 2006</title>
-      <link>https://bloghugo.iannelson.uk/series/usa-trip-2006/</link>
+      <link>https://blog.iannelson.uk/series/usa-trip-2006/</link>
       <pubDate>Sat, 20 May 2006 15:05:00 +0000</pubDate>
-      <guid>https://bloghugo.iannelson.uk/series/usa-trip-2006/</guid>
+      <guid>https://blog.iannelson.uk/series/usa-trip-2006/</guid>
       <description></description>
     </item>
     <item>
       <title>Beer Advent Calendar 2005</title>
-      <link>https://bloghugo.iannelson.uk/series/beer-advent-calendar-2005/</link>
+      <link>https://blog.iannelson.uk/series/beer-advent-calendar-2005/</link>
       <pubDate>Sat, 24 Dec 2005 17:12:00 +0000</pubDate>
-      <guid>https://bloghugo.iannelson.uk/series/beer-advent-calendar-2005/</guid>
+      <guid>https://blog.iannelson.uk/series/beer-advent-calendar-2005/</guid>
       <description></description>
     </item>
   </channel>

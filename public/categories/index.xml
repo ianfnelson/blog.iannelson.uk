@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Ian Nelson</title>
-    <link>https://bloghugo.iannelson.uk/categories/</link>
+    <link>https://blog.iannelson.uk/categories/</link>
     <description>Recent content in Categories on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
     <lastBuildDate>Wed, 23 Apr 2025 09:56:16 +0100</lastBuildDate>
-    <atom:link href="https://bloghugo.iannelson.uk/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.iannelson.uk/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Family</title>
-      <link>https://bloghugo.iannelson.uk/categories/family/</link>
+      <link>https://blog.iannelson.uk/categories/family/</link>
       <pubDate>Tue, 31 Dec 2024 15:42:39 +0000</pubDate>
-      <guid>https://bloghugo.iannelson.uk/categories/family/</guid>
+      <guid>https://blog.iannelson.uk/categories/family/</guid>
       <description></description>
     </item>
     <item>
       <title>Fun</title>
-      <link>https://bloghugo.iannelson.uk/categories/fun/</link>
+      <link>https://blog.iannelson.uk/categories/fun/</link>
       <pubDate>Tue, 31 Dec 2024 15:42:39 +0000</pubDate>
-      <guid>https://bloghugo.iannelson.uk/categories/fun/</guid>
+      <guid>https://blog.iannelson.uk/categories/fun/</guid>
       <description></description>
     </item>
     <item>
       <title>Books</title>
-      <link>https://bloghugo.iannelson.uk/categories/books/</link>
+      <link>https://blog.iannelson.uk/categories/books/</link>
       <pubDate>Sat, 14 Dec 2024 16:31:33 +0000</pubDate>
-      <guid>https://bloghugo.iannelson.uk/categories/books/</guid>
+      <guid>https://blog.iannelson.uk/categories/books/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech</title>
-      <link>https://bloghugo.iannelson.uk/categories/tech/</link>
+      <link>https://blog.iannelson.uk/categories/tech/</link>
       <pubDate>Sun, 20 Oct 2024 22:09:29 +0000</pubDate>
-      <guid>https://bloghugo.iannelson.uk/categories/tech/</guid>
+      <guid>https://blog.iannelson.uk/categories/tech/</guid>
       <description></description>
     </item>
     <item>
       <title>Travel</title>
-      <link>https://bloghugo.iannelson.uk/categories/travel/</link>
+      <link>https://blog.iannelson.uk/categories/travel/</link>
       <pubDate>Sun, 20 Oct 2024 22:09:29 +0000</pubDate>
-      <guid>https://bloghugo.iannelson.uk/categories/travel/</guid>
+      <guid>https://blog.iannelson.uk/categories/travel/</guid>
       <description></description>
     </item>
     <item>
       <title>Work</title>
-      <link>https://bloghugo.iannelson.uk/categories/work/</link>
+      <link>https://blog.iannelson.uk/categories/work/</link>
       <pubDate>Wed, 11 Jan 2023 13:41:19 +0000</pubDate>
-      <guid>https://bloghugo.iannelson.uk/categories/work/</guid>
+      <guid>https://blog.iannelson.uk/categories/work/</guid>
       <description></description>
     </item>
     <item>
       <title>Hills</title>
-      <link>https://bloghugo.iannelson.uk/categories/hills/</link>
+      <link>https://blog.iannelson.uk/categories/hills/</link>
       <pubDate>Mon, 29 Aug 2022 20:00:00 +0000</pubDate>
-      <guid>https://bloghugo.iannelson.uk/categories/hills/</guid>
+      <guid>https://blog.iannelson.uk/categories/hills/</guid>
       <description></description>
     </item>
     <item>
       <title>Genealogy</title>
-      <link>https://bloghugo.iannelson.uk/categories/genealogy/</link>
+      <link>https://blog.iannelson.uk/categories/genealogy/</link>
       <pubDate>Sat, 09 Apr 2011 19:04:00 +0000</pubDate>
-      <guid>https://bloghugo.iannelson.uk/categories/genealogy/</guid>
+      <guid>https://blog.iannelson.uk/categories/genealogy/</guid>
       <description></description>
     </item>
     <item>
       <title>Miscellany</title>
-      <link>https://bloghugo.iannelson.uk/categories/miscellany/</link>
+      <link>https://blog.iannelson.uk/categories/miscellany/</link>
       <pubDate>Thu, 13 Jul 2006 11:07:00 +0000</pubDate>
-      <guid>https://bloghugo.iannelson.uk/categories/miscellany/</guid>
+      <guid>https://blog.iannelson.uk/categories/miscellany/</guid>
       <description></description>
     </item>
     <item>
       <title>Beer</title>
-      <link>https://bloghugo.iannelson.uk/categories/beer/</link>
+      <link>https://blog.iannelson.uk/categories/beer/</link>
       <pubDate>Sat, 24 Dec 2005 17:12:00 +0000</pubDate>
-      <guid>https://bloghugo.iannelson.uk/categories/beer/</guid>
+      <guid>https://blog.iannelson.uk/categories/beer/</guid>
       <description></description>
     </item>
   </channel>

@@ -10,16 +10,16 @@
 <meta name="description" content="In February 2011 I found myself doing some contract development work in a team that was still doing data access using raw ADO.NET and stored procedures. Being the NHibernate fanboy that I am, I naturally attempted to persuade them of the benefits of moving over to NH, even going so far as to develop (in my own time) an NH-powered version of their application.
 My efforts were partially successful. The team were sold on the idea of using an ORM, but wanted me to develop a second proof of concept using Microsoft ADO.NET Entity Framework rather than NHibernate. This prompted much mirth amongst my FaceBook friends.">
 <meta name="author" content="">
-<link rel="canonical" href="https://bloghugo.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/">
+<link rel="canonical" href="https://blog.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.507965cef202c8ad6ac74222b0ed770dc0aaeab2c82c87ebdbd46b4f8b3196e2.css" integrity="sha256-UHllzvICyK1qx0IisO13DcCq6rLILIfr29RrT4sxluI=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://bloghugo.iannelson.uk/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://bloghugo.iannelson.uk/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://bloghugo.iannelson.uk/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://bloghugo.iannelson.uk/apple-touch-icon.png">
-<link rel="mask-icon" href="https://bloghugo.iannelson.uk/safari-pinned-tab.svg">
+<link rel="icon" href="https://blog.iannelson.uk/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://blog.iannelson.uk/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://blog.iannelson.uk/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://blog.iannelson.uk/apple-touch-icon.png">
+<link rel="mask-icon" href="https://blog.iannelson.uk/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://bloghugo.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/">
+<link rel="alternate" hreflang="en" href="https://blog.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/">
 <noscript>
     <style>
         #theme-toggle,
@@ -70,7 +70,7 @@ My efforts were partially successful. The team were sold on the idea of using an
           gtag('js', new Date());
           gtag('config', 'G-5JMKSPFQKQ');
         }
-      </script><meta property="og:url" content="https://bloghugo.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/">
+      </script><meta property="og:url" content="https://blog.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/">
   <meta property="og:site_name" content="Ian Nelson">
   <meta property="og:title" content="Entity Framework Week Part 1: Introduction, Configuration and Initialization">
   <meta property="og:description" content="In February 2011 I found myself doing some contract development work in a team that was still doing data access using raw ADO.NET and stored procedures. Being the NHibernate fanboy that I am, I naturally attempted to persuade them of the benefits of moving over to NH, even going so far as to develop (in my own time) an NH-powered version of their application.
@@ -81,10 +81,10 @@ My efforts were partially successful. The team were sold on the idea of using an
     <meta property="article:published_time" content="2011-03-07T09:03:00+00:00">
     <meta property="article:modified_time" content="2025-04-23T08:46:10+01:00">
     <meta property="article:tag" content="Tidy">
-      <meta property="og:see_also" content="https://bloghugo.iannelson.uk/entity-framework-week-part-5-concluding-thoughts/">
-      <meta property="og:see_also" content="https://bloghugo.iannelson.uk/entity-framework-week-part-4-features-and-further-investigations/">
-      <meta property="og:see_also" content="https://bloghugo.iannelson.uk/entity-framework-week-part-3-runtime-issues-encountered/">
-      <meta property="og:see_also" content="https://bloghugo.iannelson.uk/entity-framework-week-part-2-conventions-and-fluent-mappings/">
+      <meta property="og:see_also" content="https://blog.iannelson.uk/entity-framework-week-part-5-concluding-thoughts/">
+      <meta property="og:see_also" content="https://blog.iannelson.uk/entity-framework-week-part-4-features-and-further-investigations/">
+      <meta property="og:see_also" content="https://blog.iannelson.uk/entity-framework-week-part-3-runtime-issues-encountered/">
+      <meta property="og:see_also" content="https://blog.iannelson.uk/entity-framework-week-part-2-conventions-and-fluent-mappings/">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Entity Framework Week Part 1: Introduction, Configuration and Initialization">
 <meta name="twitter:description" content="In February 2011 I found myself doing some contract development work in a team that was still doing data access using raw ADO.NET and stored procedures. Being the NHibernate fanboy that I am, I naturally attempted to persuade them of the benefits of moving over to NH, even going so far as to develop (in my own time) an NH-powered version of their application.
@@ -100,13 +100,13 @@ My efforts were partially successful. The team were sold on the idea of using an
       "@type": "ListItem",
       "position":  1 ,
       "name": "Posts",
-      "item": "https://bloghugo.iannelson.uk/posts/"
+      "item": "https://blog.iannelson.uk/posts/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Entity Framework Week Part 1: Introduction, Configuration and Initialization",
-      "item": "https://bloghugo.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/"
+      "item": "https://blog.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/"
     }
   ]
 }
@@ -128,14 +128,14 @@ My efforts were partially successful. The team were sold on the idea of using an
   "dateModified": "2025-04-23T08:46:10+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://bloghugo.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/"
+    "@id": "https://blog.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Ian Nelson",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://bloghugo.iannelson.uk/favicon.ico"
+      "url": "https://blog.iannelson.uk/favicon.ico"
     }
   }
 }
@@ -157,7 +157,7 @@ My efforts were partially successful. The team were sold on the idea of using an
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://bloghugo.iannelson.uk/" accesskey="h" title="Ian Nelson (Alt + H)">Ian Nelson</a>
+            <a href="https://blog.iannelson.uk/" accesskey="h" title="Ian Nelson (Alt + H)">Ian Nelson</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -183,17 +183,17 @@ My efforts were partially successful. The team were sold on the idea of using an
         </div>
         <ul id="menu">
             <li>
-                <a href="https://bloghugo.iannelson.uk/archives" title="Archive">
+                <a href="https://blog.iannelson.uk/archives" title="Archive">
                     <span>Archive</span>
                 </a>
             </li>
             <li>
-                <a href="https://bloghugo.iannelson.uk/categories" title="Categories">
+                <a href="https://blog.iannelson.uk/categories" title="Categories">
                     <span>Categories</span>
                 </a>
             </li>
             <li>
-                <a href="https://bloghugo.iannelson.uk/testimonials" title="Testimonials">
+                <a href="https://blog.iannelson.uk/testimonials" title="Testimonials">
                     <span>Testimonials</span>
                 </a>
             </li>
@@ -256,14 +256,14 @@ My efforts were partially successful. The team were sold on the idea of using an
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://bloghugo.iannelson.uk/tags/tidy/">Tidy</a></li>
+      <li><a href="https://blog.iannelson.uk/tags/tidy/">Tidy</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="https://bloghugo.iannelson.uk/">Ian Nelson</a></span> · 
+        <span>&copy; 2025 <a href="https://blog.iannelson.uk/">Ian Nelson</a></span> · 
 
     <span>
         Powered by

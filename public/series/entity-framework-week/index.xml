@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Entity Framework Week on Ian Nelson</title>
-    <link>https://bloghugo.iannelson.uk/series/entity-framework-week/</link>
+    <link>https://blog.iannelson.uk/series/entity-framework-week/</link>
     <description>Recent content in Entity Framework Week on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
     <lastBuildDate>Wed, 23 Apr 2025 08:46:10 +0100</lastBuildDate>
-    <atom:link href="https://bloghugo.iannelson.uk/series/entity-framework-week/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.iannelson.uk/series/entity-framework-week/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Entity Framework Week Part 5: Concluding Thoughts</title>
-      <link>https://bloghugo.iannelson.uk/entity-framework-week-part-5-concluding-thoughts/</link>
+      <link>https://blog.iannelson.uk/entity-framework-week-part-5-concluding-thoughts/</link>
       <pubDate>Fri, 11 Mar 2011 09:03:00 +0000</pubDate>
-      <guid>https://bloghugo.iannelson.uk/entity-framework-week-part-5-concluding-thoughts/</guid>
+      <guid>https://blog.iannelson.uk/entity-framework-week-part-5-concluding-thoughts/</guid>
       <description>&lt;p&gt;&lt;em&gt;This is the fifth in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. &lt;a href=&#34;https://blog.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/&#34;&gt;The introductory post in the series is here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I am lucky to have had the opportunity to spend a time-boxed period playing with &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/bb399572.aspx&#34;&gt;Entity Framework&lt;/a&gt; Code-First in a real-world scenario, and to get paid for the privilege! I now have a clearer understanding of how it has progressed during the last few years, what its strong points are, and where it still has shortcomings compared to the much more mature &lt;a href=&#34;http://www.nhforge.org&#34;&gt;NHibernate&lt;/a&gt; framework.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><em>This is the fifth in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. <a href="https://blog.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/">The introductory post in the series is here</a>.</em></p>
@@ -40,9 +40,9 @@
     </item>
     <item>
       <title>Entity Framework Week Part 4: Features and Further Investigations</title>
-      <link>https://bloghugo.iannelson.uk/entity-framework-week-part-4-features-and-further-investigations/</link>
+      <link>https://blog.iannelson.uk/entity-framework-week-part-4-features-and-further-investigations/</link>
       <pubDate>Thu, 10 Mar 2011 09:03:00 +0000</pubDate>
-      <guid>https://bloghugo.iannelson.uk/entity-framework-week-part-4-features-and-further-investigations/</guid>
+      <guid>https://blog.iannelson.uk/entity-framework-week-part-4-features-and-further-investigations/</guid>
       <description>&lt;p&gt;&lt;em&gt;This is the fourth in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. &lt;a href=&#34;https://blog.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/&#34;&gt;The introductory post in the series is here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I didn’t want this series of posts to descend into a point-scoring &lt;a href=&#34;http://www.nhforge.org&#34;&gt;NHibernate&lt;/a&gt;-versus-&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/bb399572.aspx&#34;&gt;Entity Framework&lt;/a&gt; comparison, but…&lt;/p&gt;
 &lt;p&gt;I now have a basic proof-of-concept up and running, with my client’s nascent application now being powered by Entity Framework Code-First CTP5 rather than a hand-rolled DAL. So, I had some time to consider future functional and non-functional requirements that the team would be asked to develop and support, and investigate how EF would meet the challenge.&lt;/p&gt;</description>
@@ -73,9 +73,9 @@
     </item>
     <item>
       <title>Entity Framework Week Part 3: Runtime Issues Encountered</title>
-      <link>https://bloghugo.iannelson.uk/entity-framework-week-part-3-runtime-issues-encountered/</link>
+      <link>https://blog.iannelson.uk/entity-framework-week-part-3-runtime-issues-encountered/</link>
       <pubDate>Wed, 09 Mar 2011 09:03:00 +0000</pubDate>
-      <guid>https://bloghugo.iannelson.uk/entity-framework-week-part-3-runtime-issues-encountered/</guid>
+      <guid>https://blog.iannelson.uk/entity-framework-week-part-3-runtime-issues-encountered/</guid>
       <description>&lt;p&gt;&lt;em&gt;This is the third in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. &lt;a href=&#34;https://blog.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/&#34;&gt;The introductory post in the series is here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Having configured and initialized &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/bb399572.aspx&#34;&gt;Entity Framework&lt;/a&gt;, and tweaked the mappings, by Day 3 I was all set to start consuming my shiny new DbContext implementation from the application code, and actually get some CRUD work done. Not unexpectedly, I hit a few issues along the way…&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><em>This is the third in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. <a href="https://blog.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/">The introductory post in the series is here</a>.</em></p>
@@ -126,9 +126,9 @@ this approach. Nevertheless, I tried to do things properly and replaced the auto
     </item>
     <item>
       <title>Entity Framework Week Part 2: Conventions and Fluent Mappings</title>
-      <link>https://bloghugo.iannelson.uk/entity-framework-week-part-2-conventions-and-fluent-mappings/</link>
+      <link>https://blog.iannelson.uk/entity-framework-week-part-2-conventions-and-fluent-mappings/</link>
       <pubDate>Tue, 08 Mar 2011 09:03:00 +0000</pubDate>
-      <guid>https://bloghugo.iannelson.uk/entity-framework-week-part-2-conventions-and-fluent-mappings/</guid>
+      <guid>https://blog.iannelson.uk/entity-framework-week-part-2-conventions-and-fluent-mappings/</guid>
       <description>&lt;p&gt;&lt;em&gt;This is the second in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. &lt;a href=&#34;https://blog.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/&#34;&gt;The introductory post in the series is here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;As mentioned in yesterday’s post, I was attempting to use &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/bb399572.aspx&#34;&gt;Entity Framework&lt;/a&gt; Code-First CTP5 to map an existing domain model to an existing database schema. Fortunately the project was in its infancy and there was a high degree of cohesion between the two models. I therefore didn’t anticipate too many difficulties ahead – the occasional naming discrepancy to resolve, and table-per-hierarchy mappings that would need their discriminators specifying – nothing too complicated really. I hoped to make as few changes as possible to either the database schema or domain model.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><em>This is the second in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. <a href="https://blog.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/">The introductory post in the series is here</a>.</em></p>
@@ -169,9 +169,9 @@ und on Stack Overflow revealed that I was not the only person currently banging 
     </item>
     <item>
       <title>Entity Framework Week Part 1: Introduction, Configuration and Initialization</title>
-      <link>https://bloghugo.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/</link>
+      <link>https://blog.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/</link>
       <pubDate>Mon, 07 Mar 2011 09:03:00 +0000</pubDate>
-      <guid>https://bloghugo.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/</guid>
+      <guid>https://blog.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/</guid>
       <description>&lt;p&gt;In February 2011 I found myself doing some contract development work in a team that was still doing data access using raw ADO.NET and stored procedures. Being the &lt;a href=&#34;http://www.nhforge.org&#34;&gt;NHibernate&lt;/a&gt; fanboy that I am, I naturally attempted to persuade them of the benefits of moving over to NH, even going so far as to develop (in my own time) an NH-powered version of their application.&lt;/p&gt;
 &lt;p&gt;My efforts were &lt;em&gt;partially&lt;/em&gt; successful. The team were sold on the idea of using an ORM, but wanted me to develop a second proof of concept using Microsoft ADO.NET &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/bb399572.aspx&#34;&gt;Entity Framework&lt;/a&gt; rather than NHibernate. This prompted much mirth amongst my FaceBook friends.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>In February 2011 I found myself doing some contract development work in a team that was still doing data access using raw ADO.NET and stored procedures. Being the <a href="http://www.nhforge.org">NHibernate</a> fanboy that I am, I naturally attempted to persuade them of the benefits of moving over to NH, even going so far as to develop (in my own time) an NH-powered version of their application.</p>
