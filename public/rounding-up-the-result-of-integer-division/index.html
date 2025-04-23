@@ -9,7 +9,8 @@
 <meta name="keywords" content="tidy">
 <meta name="description" content="Here’s a damn useful piece of information which should be in the armoury of every modern codemonkey:
 
-
+In Java, if it is required to round up the result of dividing m by n (where m and n are integers), one should compute (m&#43;n-1)/n
+Source: Number Conversion, Roland Backhouse, 2001
 I’ve used this deliciously elegant result in production J2EE code in the past, but it’s equally valid in C#, as long as you can make the additional assertion that m/n is positive. This is because whilst Java treats integer division by rounding to zero, C# merely truncates the result (in an unchecked context). In my experience, the most frequentuse for this result is the deft answering of questions such as “if I have x items in my dataset and I display y per page, how many pages do I have in total?”, where it is obviously safe to make the assertion of a positive result.">
 <meta name="author" content="">
 <link rel="canonical" href="https://bloghugo.iannelson.uk/rounding-up-the-result-of-integer-division/">
@@ -76,6 +77,8 @@ I’ve used this deliciously elegant result in production J2EE code in the past,
   <meta property="og:site_name" content="Ian Nelson">
   <meta property="og:title" content="Rounding Up The Result of Integer Division">
   <meta property="og:description" content="Here’s a damn useful piece of information which should be in the armoury of every modern codemonkey:
+In Java, if it is required to round up the result of dividing m by n (where m and n are integers), one should compute (m&#43;n-1)/n
+Source: Number Conversion, Roland Backhouse, 2001
 I’ve used this deliciously elegant result in production J2EE code in the past, but it’s equally valid in C#, as long as you can make the additional assertion that m/n is positive. This is because whilst Java treats integer division by rounding to zero, C# merely truncates the result (in an unchecked context). In my experience, the most frequentuse for this result is the deft answering of questions such as “if I have x items in my dataset and I display y per page, how many pages do I have in total?”, where it is obviously safe to make the assertion of a positive result.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
@@ -87,7 +90,8 @@ I’ve used this deliciously elegant result in production J2EE code in the past,
 <meta name="twitter:title" content="Rounding Up The Result of Integer Division">
 <meta name="twitter:description" content="Here’s a damn useful piece of information which should be in the armoury of every modern codemonkey:
 
-
+In Java, if it is required to round up the result of dividing m by n (where m and n are integers), one should compute (m&#43;n-1)/n
+Source: Number Conversion, Roland Backhouse, 2001
 I’ve used this deliciously elegant result in production J2EE code in the past, but it’s equally valid in C#, as long as you can make the additional assertion that m/n is positive. This is because whilst Java treats integer division by rounding to zero, C# merely truncates the result (in an unchecked context). In my experience, the most frequentuse for this result is the deft answering of questions such as “if I have x items in my dataset and I display y per page, how many pages do I have in total?”, where it is obviously safe to make the assertion of a positive result.">
 
 
@@ -117,12 +121,12 @@ I’ve used this deliciously elegant result in production J2EE code in the past,
   "@type": "BlogPosting",
   "headline": "Rounding Up The Result of Integer Division",
   "name": "Rounding Up The Result of Integer Division",
-  "description": "Here’s a damn useful piece of information which should be in the armoury of every modern codemonkey:\nI’ve used this deliciously elegant result in production J2EE code in the past, but it’s equally valid in C#, as long as you can make the additional assertion that m/n is positive. This is because whilst Java treats integer division by rounding to zero, C# merely truncates the result (in an unchecked context). In my experience, the most frequentuse for this result is the deft answering of questions such as “if I have x items in my dataset and I display y per page, how many pages do I have in total?”, where it is obviously safe to make the assertion of a positive result.\n",
+  "description": "Here’s a damn useful piece of information which should be in the armoury of every modern codemonkey:\nIn Java, if it is required to round up the result of dividing m by n (where m and n are integers), one should compute (m+n-1)/n\nSource: Number Conversion, Roland Backhouse, 2001\nI’ve used this deliciously elegant result in production J2EE code in the past, but it’s equally valid in C#, as long as you can make the additional assertion that m/n is positive. This is because whilst Java treats integer division by rounding to zero, C# merely truncates the result (in an unchecked context). In my experience, the most frequentuse for this result is the deft answering of questions such as “if I have x items in my dataset and I display y per page, how many pages do I have in total?”, where it is obviously safe to make the assertion of a positive result.\n",
   "keywords": [
     "tidy"
   ],
-  "articleBody": "Here’s a damn useful piece of information which should be in the armoury of every modern codemonkey:\nI’ve used this deliciously elegant result in production J2EE code in the past, but it’s equally valid in C#, as long as you can make the additional assertion that m/n is positive. This is because whilst Java treats integer division by rounding to zero, C# merely truncates the result (in an unchecked context). In my experience, the most frequentuse for this result is the deft answering of questions such as “if I have x items in my dataset and I display y per page, how many pages do I have in total?”, where it is obviously safe to make the assertion of a positive result.\n",
-  "wordCount" : "122",
+  "articleBody": "Here’s a damn useful piece of information which should be in the armoury of every modern codemonkey:\nIn Java, if it is required to round up the result of dividing m by n (where m and n are integers), one should compute (m+n-1)/n\nSource: Number Conversion, Roland Backhouse, 2001\nI’ve used this deliciously elegant result in production J2EE code in the past, but it’s equally valid in C#, as long as you can make the additional assertion that m/n is positive. This is because whilst Java treats integer division by rounding to zero, C# merely truncates the result (in an unchecked context). In my experience, the most frequentuse for this result is the deft answering of questions such as “if I have x items in my dataset and I display y per page, how many pages do I have in total?”, where it is obviously safe to make the assertion of a positive result.\n",
+  "wordCount" : "154",
   "inLanguage": "en",
   "datePublished": "2005-09-06T11:09:00Z",
   "dateModified": "2025-04-21T22:16:26+01:00",
@@ -224,8 +228,9 @@ I’ve used this deliciously elegant result in production J2EE code in the past,
 </div>
   </header> 
   <div class="post-content"><p>Here’s a damn useful piece of information which should be in the armoury of every modern codemonkey:</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<blockquote>
+<p>In Java, if it is required to round up the result of dividing <code>m</code> by <code>n</code> (where <code>m</code> and <code>n</code> are integers), one should compute <code>(m+n-1)/n</code></p></blockquote>
+<p>Source: <a href="http://www.cs.nott.ac.uk/%7Ercb/G51MPC/slides/NumberLogic.pdf">Number Conversion, Roland Backhouse, 2001</a></p>
 <p>I’ve used this deliciously elegant result in production J2EE code in the past, but it’s equally valid in C#, <em>as long as you can make the additional assertion that m/n is positive</em>. This is because whilst Java treats integer division by rounding to zero, <a href="http://msdn2.microsoft.com/library/6a71f45d%28en-us,vs.80%29.aspx">C# merely truncates the result</a> (in an unchecked context). In my experience, the most frequentuse for this result is the deft answering of questions such as “if I have x items in my dataset and I display y per page, how many pages do I have in total?”, where it is obviously safe to make the assertion of a positive result.</p>
 
 

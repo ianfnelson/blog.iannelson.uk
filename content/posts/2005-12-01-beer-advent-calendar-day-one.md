@@ -14,11 +14,7 @@ Today I’m enjoying **[Young’s Christmas Pudding Ale][1]**, which is 5.5% AB
 
 The tasting notes say:
 
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-  <p>
-    With its warming, dark ruby character and the splendid luscious flavour of dried fruit, Young’s Christmas Pudding Ale is an inspirational addition to any Christmas feast or fireside gathering.
-  </p>
-</blockquote>
+> With its warming, dark ruby character and the splendid luscious flavour of dried fruit, Young’s Christmas Pudding Ale is an inspirational addition to any Christmas feast or fireside gathering.
 
 I say it’s tasty—pleasant as a singleton but probably a bit too fruity for a prolonged sesh. It really does smell like figgy pudding, too!
 

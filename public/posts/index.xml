@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Apr 2025 08:55:03 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 23 Apr 2025 08:56:50 +0100</lastBuildDate>
     <atom:link href="https://bloghugo.iannelson.uk/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Who Reigns Supreme? Parsing Our WhatsApp Chat for Wordle Glory</title>
@@ -106,6 +106,8 @@ Obsess over quality.</p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
 <p>I had never been to Porto before, so took the opportunity to spend the weekend prior to the conference doing the tourist thing. The October weather was fantastic for walking around the historic city centre, taking in the cathedral, Torre dos Clérigos, and views of the Duoro river. My goodness, but it’s hilly though!</p>
 <p>From my journal that Sunday:</p>
+<blockquote>
+<p>“I realised that Porto doesn’t just appeal to my sense of sight. Of course the views are fantastic, but on a sunny Sunday like today there is also excellent music that carries far and wide from a range of talented buskers. Electric acoustic guitars and electric violins seemed to be the order of the day, with a mixture of classic and popular tunes. Porto also smells nice – people seem to have a variety of different fragrances that differ from those that I usually smell in Leeds. Of course there are great tastes in the form of the wines and seafood. And finally there are even things to touch – ceramic tiles, cork panels etc. Truly, this city is a feast for the senses.”</p></blockquote>
 <!-- raw HTML omitted -->
 <p><a href="https://cdn.iannelson.uk/uploads/2024/10/IMG_7417.jpeg"><!-- raw HTML omitted --></a><!-- raw HTML omitted --> <!-- raw HTML omitted --><a href="https://cdn.iannelson.uk/uploads/2024/10/IMG_7427.jpeg"><!-- raw HTML omitted --></a><!-- raw HTML omitted --> <!-- raw HTML omitted --><a href="https://cdn.iannelson.uk/uploads/2024/10/IMG_7438.jpeg"><!-- raw HTML omitted --></a><!-- raw HTML omitted --> <!-- raw HTML omitted --><a href="https://cdn.iannelson.uk/uploads/2024/10/IMG_7462.jpeg"><!-- raw HTML omitted --></a><!-- raw HTML omitted --> <!-- raw HTML omitted --><a href="https://cdn.iannelson.uk/uploads/2024/10/IMG_7478.jpeg"><!-- raw HTML omitted --></a><!-- raw HTML omitted --> <!-- raw HTML omitted --><a href="https://cdn.iannelson.uk/uploads/2024/10/IMG_7498.jpeg"><!-- raw HTML omitted --></a><!-- raw HTML omitted --> <!-- raw HTML omitted --><a href="https://cdn.iannelson.uk/uploads/2024/10/IMG_7508.jpeg"><!-- raw HTML omitted --></a><!-- raw HTML omitted --> <!-- raw HTML omitted --><a href="https://cdn.iannelson.uk/uploads/2024/10/IMG_7514.jpeg"><!-- raw HTML omitted --></a><!-- raw HTML omitted --> <!-- raw HTML omitted --><a href="https://cdn.iannelson.uk/uploads/2024/10/IMG_7549.jpeg"><!-- raw HTML omitted --></a><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
 <h2 class="wp-block-heading" id="workshop-8211-designing-microservices">Workshop – Designing Microservices</h2>
@@ -4391,7 +4393,8 @@ Let’s face it, when was the last time you changed your background?  Wouldn’
       <content:encoded><![CDATA[<p>This is surely one of the best ideas I’ve ever had! I’ve followed through with my plan to buy twenty-four beers from around the world to count down the days until Christmas. Their names are all written on slips of folded paper in a small vase (nobody actually draws things out of a hat anymore, do they?).</p>
 <p>Today I’m enjoying <strong><a href="http://www.youngsathome.co.uk/">Young’s Christmas Pudding Ale</a></strong>, which is 5.5% ABV according to the bottle but only 5.0% according to the website—don’t believe everything you read on the web, eh?</p>
 <p>The tasting notes say:</p>
-<!-- raw HTML omitted -->
+<blockquote>
+<p>With its warming, dark ruby character and the splendid luscious flavour of dried fruit, Young’s Christmas Pudding Ale is an inspirational addition to any Christmas feast or fireside gathering.</p></blockquote>
 <p>I say it’s tasty—pleasant as a singleton but probably a bit too fruity for a prolonged sesh. It really does smell like figgy pudding, too!</p>
 <p>If this were a track on my iPod, I’d probably give it four stars.</p>
 <p>Jocelyn says: “Huh? I can’t taste any fruit. Nope, tastes like beer to me. I’d prefer a Guinness.”</p>
@@ -4404,12 +4407,14 @@ Let’s face it, when was the last time you changed your background?  Wouldn’
       <pubDate>Tue, 06 Sep 2005 11:09:00 +0000</pubDate>
       <guid>https://bloghugo.iannelson.uk/rounding-up-the-result-of-integer-division/</guid>
       <description>&lt;p&gt;Here’s a damn useful piece of information which should be in the armoury of every modern codemonkey:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In Java, if it is required to round up the result of dividing &lt;code&gt;m&lt;/code&gt; by &lt;code&gt;n&lt;/code&gt; (where &lt;code&gt;m&lt;/code&gt; and &lt;code&gt;n&lt;/code&gt; are integers), one should compute &lt;code&gt;(m+n-1)/n&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Source: &lt;a href=&#34;http://www.cs.nott.ac.uk/%7Ercb/G51MPC/slides/NumberLogic.pdf&#34;&gt;Number Conversion, Roland Backhouse, 2001&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I’ve used this deliciously elegant result in production J2EE code in the past, but it’s equally valid in C#, &lt;em&gt;as long as you can make the additional assertion that m/n is positive&lt;/em&gt;. This is because whilst Java treats integer division by rounding to zero, &lt;a href=&#34;http://msdn2.microsoft.com/library/6a71f45d%28en-us,vs.80%29.aspx&#34;&gt;C# merely truncates the result&lt;/a&gt; (in an unchecked context). In my experience, the most frequentuse for this result is the deft answering of questions such as “if I have x items in my dataset and I display y per page, how many pages do I have in total?”, where it is obviously safe to make the assertion of a positive result.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Here’s a damn useful piece of information which should be in the armoury of every modern codemonkey:</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<blockquote>
+<p>In Java, if it is required to round up the result of dividing <code>m</code> by <code>n</code> (where <code>m</code> and <code>n</code> are integers), one should compute <code>(m+n-1)/n</code></p></blockquote>
+<p>Source: <a href="http://www.cs.nott.ac.uk/%7Ercb/G51MPC/slides/NumberLogic.pdf">Number Conversion, Roland Backhouse, 2001</a></p>
 <p>I’ve used this deliciously elegant result in production J2EE code in the past, but it’s equally valid in C#, <em>as long as you can make the additional assertion that m/n is positive</em>. This is because whilst Java treats integer division by rounding to zero, <a href="http://msdn2.microsoft.com/library/6a71f45d%28en-us,vs.80%29.aspx">C# merely truncates the result</a> (in an unchecked context). In my experience, the most frequentuse for this result is the deft answering of questions such as “if I have x items in my dataset and I display y per page, how many pages do I have in total?”, where it is obviously safe to make the assertion of a positive result.</p>
 ]]></content:encoded>
     </item>

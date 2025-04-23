@@ -340,6 +340,8 @@ Today I’m enjoying Young’s Christmas Pudding Ale, which is 5.5% ABV accordi
   </header>
   <div class="entry-content">
     <p>Here’s a damn useful piece of information which should be in the armoury of every modern codemonkey:
+In Java, if it is required to round up the result of dividing m by n (where m and n are integers), one should compute (m&#43;n-1)/n
+Source: Number Conversion, Roland Backhouse, 2001
 I’ve used this deliciously elegant result in production J2EE code in the past, but it’s equally valid in C#, as long as you can make the additional assertion that m/n is positive. This is because whilst Java treats integer division by rounding to zero, C# merely truncates the result (in an unchecked context). In my experience, the most frequentuse for this result is the deft answering of questions such as “if I have x items in my dataset and I display y per page, how many pages do I have in total?”, where it is obviously safe to make the assertion of a positive result.
 ...</p>
   </div>
