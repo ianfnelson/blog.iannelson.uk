@@ -1,15 +1,11 @@
 ---
 title: Framework for Persisting .NET Classes Into SQL Server Image Fields, With Locking Ability
-
 date: 2005-01-18T23:01:00+00:00
 url: /framework-for-persisting-net-classes-into-sql-server-image-fields-with-locking-ability/
-
 categories:
   - Tech
 
 ---
-<!--kg-card-begin: html-->
-
 There seems to have been a lack of .NET-related stuff on this blog recently, so let me show you something I cobbled together for work purposes last Wednesday:
 
 A common requirement we have in our ASP.NET applications is how to reliably persist object instances&nbsp;for a lengthy period of time. End users shouldn’t have to concern themselves with the concept of Session expiry, and it’s unacceptable for them to return to their PC after nipping off for a coffee to be confronted with the dreaded "Object reference not set to an instance of an object" when they try to continue editing their basket / sales order / timesheet / whatever.
@@ -50,18 +46,11 @@ Feel free to use and cannibalize this code as you see fit. Let me know if you fi
 
 I’ve reworked this code for .NET 2.0, and removed the dependency on the Microsoft Data Access Application Block. Also, the NUnit tests have been replaced with VS2005 unit tests.
 
-  * [**Download .NET 2.0 version**][4] (86 Kb)
-  * [**Download .NET 1.1 version**][5] (116 Kb)
-
 **Updated 17 October 2011:**
 
 This project has been [migrated to GitHub][6].
 
-<!--kg-card-end: html-->
-
  [1]: http://www.martinfowler.com
  [2]: http://www.amazon.co.uk/exec/obidos/ASIN/0321127420
  [3]: http://www.eggheadcafe.com/articles/20020929.asp
- [4]: https://blog.iannelson.uk/content/images/iannelsondatastorage20.zip
- [5]: https://blog.iannelson.uk/content/images/iannelsondatastorage10.zip
  [6]: https://github.com/ianfnelson/DataStorage

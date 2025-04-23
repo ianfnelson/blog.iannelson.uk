@@ -20,4 +20,4 @@ My full transcript, including “legacy” certifications, is [here][1].
 
 Phew! I think that the time has now come for me to take a bit of a break from the certification circus. They are a nice-to-have, but the opportunity cost is too high – there are many other ways in which I can spend what little spare time I have to better develop my skills.
 
- [1]: https://blog.iannelson.uk/content/files/MS_Learning_Transcript.pdf
+ [1]: https://files.iannelson.uk/MS_Learning_Transcript.pdf
