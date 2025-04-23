@@ -6,7 +6,7 @@
     <description>Recent content in Tech on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Apr 2025 19:18:23 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 23 Apr 2025 19:51:32 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NDC Porto 2024</title>
@@ -1933,10 +1933,6 @@ OK, who am I kidding?  Starter Chess was, in all respects, an exercise in patie
 <hr>
 <p><strong>Updated 30 October 2005:</strong></p>
 <p>I’ve reworked this code for .NET 2.0, and removed the dependency on the Microsoft Data Access Application Block. Also, the NUnit tests have been replaced with VS2005 unit tests.</p>
-<ul>
-<li><a href="https://blog.iannelson.uk/content/images/iannelsondatastorage20.zip"><strong>Download .NET 2.0 version</strong></a> (86 Kb)</li>
-<li><a href="https://blog.iannelson.uk/content/images/iannelsondatastorage10.zip"><strong>Download .NET 1.1 version</strong></a> (116 Kb)</li>
-</ul>
 <p><strong>Updated 17 October 2011:</strong></p>
 <p>This project has been <a href="https://github.com/ianfnelson/DataStorage">migrated to GitHub</a>.</p>
 ]]></content:encoded>
