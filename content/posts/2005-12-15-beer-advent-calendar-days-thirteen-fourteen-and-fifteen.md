@@ -1,6 +1,6 @@
 ---
 title: Beer Advent Calendar – Days Thirteen, Fourteen and Fifteen!
-
+series: 'Beer Advent Calendar 2005'
 date: 2005-12-15T19:12:00+00:00
 url: /beer-advent-calendar-days-thirteen-fourteen-and-fifteen/
 

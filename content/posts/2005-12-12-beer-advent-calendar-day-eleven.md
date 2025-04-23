@@ -1,6 +1,6 @@
 ---
 title: Beer Advent Calendar – Day Eleven
-
+series: 'Beer Advent Calendar 2005'
 date: 2005-12-12T15:12:00+00:00
 url: /beer-advent-calendar-day-eleven/
 

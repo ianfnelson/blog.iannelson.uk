@@ -1,6 +1,6 @@
 ---
 title: Beer Advent Calendar – Day Eighteen
-
+series: 'Beer Advent Calendar 2005'
 date: 2005-12-18T21:12:00+00:00
 url: /beer-advent-calendar-day-eighteen/
 
