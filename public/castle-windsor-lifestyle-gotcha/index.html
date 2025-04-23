@@ -80,10 +80,10 @@ I’ve been making heavy use of the Castle Windsor container to handle dependenc
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2009-10-19T05:10:00+00:00">
-    <meta property="article:modified_time" content="2025-04-23T19:18:23+01:00">
-    <meta property="og:image" content="https://cdn.iannelson.uk/uploads/2009/10/iStock_000000942732XSmall_2-1.jpg">
+    <meta property="article:modified_time" content="2025-04-23T20:51:57+01:00">
+    <meta property="og:image" content="https://blogstouks01.z33.web.core.windows.net/2009/10/iStock_000000942732XSmall_2-1.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://cdn.iannelson.uk/uploads/2009/10/iStock_000000942732XSmall_2-1.jpg">
+<meta name="twitter:image" content="https://blogstouks01.z33.web.core.windows.net/2009/10/iStock_000000942732XSmall_2-1.jpg">
 <meta name="twitter:title" content="Castle Windsor Lifestyle Gotcha">
 <meta name="twitter:description" content="I always knew my lifestyle choices would come back to bite me some day…
  
@@ -123,8 +123,8 @@ I’ve been making heavy use of the Castle Windsor container to handle dependenc
   "articleBody": "I always knew my lifestyle choices would come back to bite me some day…\nI’ve been making heavy use of the Castle Windsor container to handle dependency and configuration management in the shiny new system that I’m currently developing. For the most part it’s been an absolute blast, allowing me to easily create a loosely-coupled system architecture and focus my efforts on what the system should be achieving for the client, rather than worrying about how it all hangs together.\nBut recently I encountered a bit of a gotcha which made me think that perhaps I should spend some more time understanding exactly what Windsor is doing in the background.\nSee, it turns out that the default lifestyle for components registered with Windsor is Singleton. So, every time I asked Windsor for an IFooRepository, it supplied me with exactly the same concrete instance of FooRepository. Which would have been fine if it weren’t for the fact that FooRepository happened to indirectly hold a private reference to a thread-afine NHibernate session context. Ouchy.\nThe system I’m developing is a WCF service, and I’m using a Unit of Work pattern to open an NH session before the operation is invoked, and close it afterwards. To make this work, I simply needed to make sure that FooRepository (and any Castle-fulfilled component which has an IFooRepository dependency) has a transient lifestyle. Indeed, on further reflection, for most of the systems I develop, the transient lifestyles should be my default choice, and I do wonder why the Windsor developers chose to make singleton the default.\nDavy Brion has more info on this topic in this blog post – Windsor and Component Instance Lifetimes.\nSo, moral of the story – understand how your IoC container is fulfilling your requests, and be prepared to specify non-default behaviours if necessary. Convention over configuration is only a benefit if you’re happy with the conventions.\n",
   "wordCount" : "315",
   "inLanguage": "en",
-  "image":"https://cdn.iannelson.uk/uploads/2009/10/iStock_000000942732XSmall_2-1.jpg","datePublished": "2009-10-19T05:10:00Z",
-  "dateModified": "2025-04-23T19:18:23+01:00",
+  "image":"https://blogstouks01.z33.web.core.windows.net/2009/10/iStock_000000942732XSmall_2-1.jpg","datePublished": "2009-10-19T05:10:00Z",
+  "dateModified": "2025-04-23T20:51:57+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://blog.iannelson.uk/castle-windsor-lifestyle-gotcha/"
@@ -223,7 +223,7 @@ I’ve been making heavy use of the Castle Windsor container to handle dependenc
 </div>
   </header> 
 <figure class="entry-cover">
-        <img loading="eager" src="https://cdn.iannelson.uk/uploads/2009/10/iStock_000000942732XSmall_2-1.jpg" alt="">
+        <img loading="eager" src="https://blogstouks01.z33.web.core.windows.net/2009/10/iStock_000000942732XSmall_2-1.jpg" alt="">
         
 </figure>
   <div class="post-content"><p>I always knew my lifestyle choices would come back to bite me some day…<!-- raw HTML omitted --></p>
