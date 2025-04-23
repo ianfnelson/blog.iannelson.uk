@@ -24,9 +24,9 @@ Touching, contemplative, warm and kind throughout, there is plenty of food for t
 [Boy Parts][2] by Eliza Clark
 
 This is a bit of a cheat, as I read this book in a couple of short days at the back end of 2020, in that weird downtime period between Christmas and New Year, at the recommendation of my good friend and erstwhile luncheon companion Stephanie.  
-I haven’t read much fiction in recent years (only one novel made it on to last my annual round up last year) and tend to gravitate towards authors who are white male Boomers or Gen X. Eliza Clark made me realise what I had been missing &#8211; new generations of writers from different backgrounds with contemporary stories to entertain me.
+I haven’t read much fiction in recent years (only one novel made it on to last my annual round up last year) and tend to gravitate towards authors who are white male Boomers or Gen X. Eliza Clark made me realise what I had been missing – new generations of writers from different backgrounds with contemporary stories to entertain me.
 
-_Boy Parts_ is a whirlwind ride &#8211; smart, funny, stylish and cinematic &#8211; that was genuinely unputdownable (except for the moments when I had to Google some unfamiliar terms, none of which I am going to repeat here). I’m grateful to this title for reawakening my interest in contemporary fiction and broadening my horizons, and hope that further novels from Eliza Clark will soon be forthcoming.<figure class="kg-card kg-image-card">
+_Boy Parts_ is a whirlwind ride – smart, funny, stylish and cinematic – that was genuinely unputdownable (except for the moments when I had to Google some unfamiliar terms, none of which I am going to repeat here). I’m grateful to this title for reawakening my interest in contemporary fiction and broadening my horizons, and hope that further novels from Eliza Clark will soon be forthcoming.<figure class="kg-card kg-image-card">
 
 <img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/122052_41r9Vb6myvL._SL500.jpg" alt="" /> </figure> 
 
@@ -54,13 +54,13 @@ A Brexit subplot and Covid backdrop gave this a contemporary spin, making it an 
 
 [A World Without Email: Reimagining Work in the Age of Overload][6] by Cal Newport
 
-One of those books that you’d love your bosses or clients to read. Having worked wholly remotely since March 2020, and as part of a geo-distributed team for countless years before then, I find myself constantly plugged into what Newport accurately calls the &#8220;Hyperactive Hive Mind&#8221; approach to modern knowledge work. His argument is that real-time communication tools like Slack and Email serve  to distract us and rob us of the opportunity to focus deeply and achieve truly meaningful productivity.
+One of those books that you’d love your bosses or clients to read. Having worked wholly remotely since March 2020, and as part of a geo-distributed team for countless years before then, I find myself constantly plugged into what Newport accurately calls the “Hyperactive Hive Mind” approach to modern knowledge work. His argument is that real-time communication tools like Slack and Email serve  to distract us and rob us of the opportunity to focus deeply and achieve truly meaningful productivity.
 
 Split into two sections, this book first explores the case against such tooling, before secondly offering a series of principles and processes for how to rise above the noise and regain more structured and productive workflows. I read this book early in 2021 and appreciated greatly the valuable tactics and strategies it offers.
 
 [Crossroads: In Search of the Moments that Changed Music][7] by Mark Radcliffe
 
-This summer I tried (and failed) for a second time to read _[Yeah Yeah Yeah &#8211; The Story of Modern Pop][8]_ by St Etienne’s Bob Stanley. It seems like the kind of book that in theory I ought to like, but in practice I find it too comprehensive, worthy, and academic to be enjoyable. Perhaps I should skim through to the bits about the bands I care for.
+This summer I tried (and failed) for a second time to read _[Yeah Yeah Yeah – The Story of Modern Pop][8]_ by St Etienne’s Bob Stanley. It seems like the kind of book that in theory I ought to like, but in practice I find it too comprehensive, worthy, and academic to be enjoyable. Perhaps I should skim through to the bits about the bands I care for.
 
 Conversely, I found _Crossroads: In Search of the Moments that Changed Music_ to be exactly the kind of music literature that floats my boat. It is packed with information, but delivers this with a fast-paced warm-hearted anecdotal style, much as you might expect from listening to Radcliffe speaking on the radio between records.
 
@@ -96,13 +96,13 @@ Food, sex, religion, and then some more food for good measure. The eating scenes
 
 [The Rules of Living Well][17] by Richard Templar
 
-I am a sucker for Richard Templar’s &#8220;Rules&#8221; series of books with their bite-sized advice on how to approach Life, Wealth, Work, Management, Love, and more. This &#8220;..Living Well&#8221; volume was published at an apposite time, when lockdowns and the covid pandemic have made many of us reconsider what is truly important in life and how to look after our mental and physical health.
+I am a sucker for Richard Templar’s “Rules” series of books with their bite-sized advice on how to approach Life, Wealth, Work, Management, Love, and more. This “..Living Well” volume was published at an apposite time, when lockdowns and the covid pandemic have made many of us reconsider what is truly important in life and how to look after our mental and physical health.
 
 [Small Data: The Tiny Clues that Uncover Huge Trends][18] by Martin Lindstrom
 
 This book sat unopened on my Kindle for five years since I bought it in June 2016 before I read it on a sun lounger in a couple of days during the August of 2021. I shouldn’t have waited so long.
 
-Lindstrom is a brand consultant who eschews Big Data and the soulless inferences it produces, in favour of more traditional anthropological research methods &#8211; talking to the natives in various target markets throughout the world to understand what really makes them tick. There are many interesting and insightful case studies included here, with chapter titles such as &#8220;Fanning Desire: How Siberian Refrigerator Doors and a Saudi Arabian Mall Created a Revolutionary Website for Russian Women&#8221; and &#8220;The United Colors of India: Selling Breakfast Cereals to Two Generations of Warring Women&#8221;.
+Lindstrom is a brand consultant who eschews Big Data and the soulless inferences it produces, in favour of more traditional anthropological research methods – talking to the natives in various target markets throughout the world to understand what really makes them tick. There are many interesting and insightful case studies included here, with chapter titles such as “Fanning Desire: How Siberian Refrigerator Doors and a Saudi Arabian Mall Created a Revolutionary Website for Russian Women” and “The United Colors of India: Selling Breakfast Cereals to Two Generations of Warring Women”.
 
 [Software Engineering at Google: Lessons Learned from Programming Over Time][19] curated by Titus Winters, Tom Manschreck and Hyrum Wright
 
@@ -113,7 +113,7 @@ Of course in truth, most of us will never work on systems with nearly so many us
 
 [This is Going to Hurt: Secret Diaries of a Junior Doctor][21] by Adam Kay
 
-A highly engaging set of diaries from Kay’s time as a junior doctor in the NHS, this is one of the better &#8220;secret diary of&#8230;&#8221; books that seem to be en vogue in recent years. Very funny, frequently heartbreaking, and generally politically maddening, this book offered some eye-opening insights into the true nature of a very difficult career path.
+A highly engaging set of diaries from Kay’s time as a junior doctor in the NHS, this is one of the better “secret diary of&#8230;” books that seem to be en vogue in recent years. Very funny, frequently heartbreaking, and generally politically maddening, this book offered some eye-opening insights into the true nature of a very difficult career path.
 
  [1]: https://amzn.to/3jwAUs6
  [2]: https://amzn.to/3prg6CZ

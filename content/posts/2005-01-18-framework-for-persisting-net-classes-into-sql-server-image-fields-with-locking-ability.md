@@ -28,9 +28,9 @@ If you additionally want to ensure that no other users have also stored an objec
 
     DataStore.Add("joebloggs","order1234",objOrder,true);  
 
-this would throw an ObjectLockedException if any user other than &#8220;joebloggs&#8221; had previously locked an object called &#8220;order1234&#8221;.
+this would throw an ObjectLockedException if any user other than “joebloggs” had previously locked an object called “order1234”.
 
-To retrieve an object, use the Get method. If the object is not found, this will return null. Otherwise, an instance of PersistedObject will be returned &#8211; this details information such&nbsp;the datetime at which the object was originally stored and last stored, as well as whether it is locked. The actual object itself is accessible through a "StoredObject" property.
+To retrieve an object, use the Get method. If the object is not found, this will return null. Otherwise, an instance of PersistedObject will be returned – this details information such&nbsp;the datetime at which the object was originally stored and last stored, as well as whether it is locked. The actual object itself is accessible through a "StoredObject" property.
 
 So, to retrieve the sales order object above from the store, a call would be like this:
 

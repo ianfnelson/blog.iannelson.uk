@@ -15,7 +15,7 @@ One of the least surprising but more significant announcements to come out of [M
 Microsoft are being careful to tout ASP.NET MVC as being “an alternative, not a replacement, for ASP.NET Web Forms”, but just look at their list of some of its benefits:
 
   * Clear separation of concerns
-  * Testability &#8211; support for Test-Driven Development
+  * Testability – support for Test-Driven Development
   * Fine-grained control over HTML and JavaScript
   * Intuitive URLs
 
@@ -25,7 +25,7 @@ Which begs the question – if you were kicking off development of a new web-bas
 
 And that’s probably no bad thing. Sure, for those of us who lived through the static web, CGI forms and classic ASP, ASP.NET was a godsend, with its cunning state management techniques, custom controls, and page lifecycle events. But, even in the hands of decent developers, it does tend to promote a magic pushbutton anti-pattern, with untestable business logic frequently dumped in the code-behind. So, as a fanboy of OOP, TDD, and Separation of Concerns, this eventual release of ASP.NET MVC comes as a source of great pleasure to me, and means that I can look forward to many more years of enjoyably developing web apps on the MS platform.
 
-But hang on a cotton-picking minute – what exactly is truly new, here? Haven’t we been able to do MVC development on the MS platform for years, using [Castle Monorail][3]? Well, yes we have &#8211; I had the pleasure of using it last summer when developing systems for [Child Maintenance Options][4]. And Monorail itself was inspired by [Ruby on Rails][5], and the J2EE platform has had [Apache Struts][6] for donkey’s years (I used it briefly in the summer of 2002 when developing systems for [Three][7]).
+But hang on a cotton-picking minute – what exactly is truly new, here? Haven’t we been able to do MVC development on the MS platform for years, using [Castle Monorail][3]? Well, yes we have – I had the pleasure of using it last summer when developing systems for [Child Maintenance Options][4]. And Monorail itself was inspired by [Ruby on Rails][5], and the J2EE platform has had [Apache Struts][6] for donkey’s years (I used it briefly in the summer of 2002 when developing systems for [Three][7]).
 
 So, if we could do this stuff already, even on the ASP.NET platform, why does the release of ASP.NET MVC still matter so much?
 

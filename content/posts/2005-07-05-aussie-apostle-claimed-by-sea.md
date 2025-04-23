@@ -16,7 +16,7 @@ Holy cow, one of the limestone towers at Australia’s Twelve Apostles park has 
 
   * [BBC News coverage][1]
   * [Google News coverage][2]
-  * [Flickr Photos &#8211; &#8216;twelveapostles’ tag][3]
+  * [Flickr Photos – &#8216;twelveapostles’ tag][3]
 
  [1]: http://news.bbc.co.uk/1/hi/world/asia-pacific/4647857.stm
  [2]: http://news.google.co.uk/news?hl=en&ned=uk&q=twelve+apostles

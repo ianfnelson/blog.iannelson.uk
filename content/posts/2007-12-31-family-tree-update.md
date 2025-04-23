@@ -12,9 +12,9 @@ tags:
 ---
 With the return of the dark wintry nights to this sceptered isle, I’ve been taking the opportunity to flesh out [my Family Tree][1] a little more.
 
-And it isn’t just the addition of young [Benjamin][2] &#8211; since I last uploaded a tree eleven months ago, I’ve increased the number of individuals in my database by 55, to a total of 1114 from 307 family groups.
+And it isn’t just the addition of young [Benjamin][2] – since I last uploaded a tree eleven months ago, I’ve increased the number of individuals in my database by 55, to a total of 1114 from 307 family groups.
 
-But more than that, the quality and number of facts for many individuals has increased. This year, I’m trying to methodically work through my ancestors in a bit more detail and fill in some of the tricky gaps that I left last year when everything was new to me and there were plenty of &#8220;easy pickings&#8221; to be had.
+But more than that, the quality and number of facts for many individuals has increased. This year, I’m trying to methodically work through my ancestors in a bit more detail and fill in some of the tricky gaps that I left last year when everything was new to me and there were plenty of “easy pickings” to be had.
 
 I must say, it’s sometimes quite a depressing affair, this family history research. No long-lost aristocratic lineage with associated fortunes unearthed thus far! One side of my mother’s family were steel workers in Sheffield, while the other were agricultural labourers in Lincolnshire and at one point in time five siblings from the same family died of diphtheria within a fortnight of each other.
 

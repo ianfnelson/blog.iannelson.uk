@@ -31,19 +31,19 @@ Just take a look at the out-of-the-box features you can expect from an Ian Nelso
   * Hands-On Coder with a penchant for developing maintainable, loosely-coupled OO architectures.
   * Effective client-facing skills; has led analysis, design and development of successful high-profile projects.
   * Confirmed Agilist and exponent of test-driven development, continuous integration and deployment.
-  * Microsoft Certified &#8211; Professional Developer (Enterprise Applications), Technology Specialised in SQL Server and Business Intelligence.
+  * Microsoft Certified – Professional Developer (Enterprise Applications), Technology Specialised in SQL Server and Business Intelligence.
 
 Languages, technologies and methodologies used will be subject to naturalvariance from project to project; however the core technical skills you can expect to see an Ian Nelson leveraging will include:
 
-  * C# (1.0 &#8211; 4.0), including lashings of lovely LINQ.
-  * .NET Framework (1.0 &#8211; 4.0)
+  * C# (1.0 – 4.0), including lashings of lovely LINQ.
+  * .NET Framework (1.0 – 4.0)
   * ASP.NET, MVC, OpenRasta
   * REST, WCF, SOA, MSMQ
   * WPF, MVVM, Prism
   * Workflow Foundation
-  * SQL Server (7.0 &#8211; 2008 R2)
+  * SQL Server (7.0 – 2008 R2)
   * ETL, SSIS, SSAS, SSRS
-  * Oracle Database (8i &#8211; 10g)
+  * Oracle Database (8i – 10g)
   * NHibernate, Fluent NHibernate, NHProf
   * OOP, Design Patterns
   * DI / IoC (Castle Windsor)
@@ -68,31 +68,31 @@ Languages, technologies and methodologies used will be subject to naturalvarianc
 
 Don’t just take our word for it! Listen to the experiences of other satisfied customers:
 
-> &#8220;Ian is one of the most hard working and professional individuals that I have had the pleasure to work with. His methodical approach allows him to digest the problem put before him prior to making a reasoned and rational suggestion.
+> “Ian is one of the most hard working and professional individuals that I have had the pleasure to work with. His methodical approach allows him to digest the problem put before him prior to making a reasoned and rational suggestion.
 
 > Ian’s development skills and knowledge were able to cope with every challenge, identifying one or more solutions for every scenario that I put forward as Product Owner. This then allowed me to then pick the best solution for the project.
 
-> Ian is a consummate team player and worked efficiently and effectively with the other members of the development team. He always made himself available for me to ask questions to help me understand the technical aspect of a story. Ian’s expertise and problem solving skills have helped to drive the project forward and I am extremely grateful for the contribution that he has made. He will be greatly missed, not just by me, but by the whole of the team.&#8221;
+> Ian is a consummate team player and worked efficiently and effectively with the other members of the development team. He always made himself available for me to ask questions to help me understand the technical aspect of a story. Ian’s expertise and problem solving skills have helped to drive the project forward and I am extremely grateful for the contribution that he has made. He will be greatly missed, not just by me, but by the whole of the team.”
 
 Robin Hackshall, Senior Information Analyst, [Health and Social Care Information Centre][1]
 
-> &#8220;Ian is able to take high-level business requirements and swiftly design and produce a set of solid, scalable, and efficient systems, and with meticulous attention to detail. Ian’s grasp of agile tools, design patterns, and NHibernate in particular are masterful, and I would recommend him without hesitation.&#8221;
+> “Ian is able to take high-level business requirements and swiftly design and produce a set of solid, scalable, and efficient systems, and with meticulous attention to detail. Ian’s grasp of agile tools, design patterns, and NHibernate in particular are masterful, and I would recommend him without hesitation.”
 
 Ashfaq Hussain, Freelance Application Developer, [Health and Social Care Information Centre][1]
 
-> &#8220;Impressed how quickly you’ve done this. Take the rest of the week off.&#8221;
+> “Impressed how quickly you’ve done this. Take the rest of the week off.”
 
 Giles Foster, Principal Information Analyst, [Health and Social Care Information Centre][1]
 
-> &#8220;Ian is a SSIS Magician!&#8221;
+> “Ian is a SSIS Magician!”
 
 Paul Campbell, Director, [Decorated World][2]
 
-> &#8220;Ian worked on a particularly troublesome project for me for eight months at NHS Choices without complaint. His development skills and knowledge are exemplary and his NHibernate knowledge is second to none. He worked well with all the members of the team and helped me to introduce pair programming and push the test driven development agenda. I will employ Ian whenever I have the chance.&#8221;
+> “Ian worked on a particularly troublesome project for me for eight months at NHS Choices without complaint. His development skills and knowledge are exemplary and his NHibernate knowledge is second to none. He worked well with all the members of the team and helped me to introduce pair programming and push the test driven development agenda. I will employ Ian whenever I have the chance.”
 
 Nick Porthouse, Development Manager, [NHS Choices][3]
 
-> &#8220;You’re good at solving problems, Daddy.&#8221;
+> “You’re good at solving problems, Daddy.”
 
 Ben Nelson (aged 4)
 
@@ -102,12 +102,12 @@ Every Ian Nelson arrives fully charged and ready to code, with no batteries or a
 
 ### But that’s not all! {#but-that-s-not-all-}
 
-Order today and your shiny new Ian Nelson will arrive complete with his own coffee, index cards, kanban avatar, Pukka pad and high-powered eight-core Dell Precision laptop, installed with fully licensed development software and ready to cut high quality test-driven code before you can say &#8220;how about a nice game of Planning Poker Dr Falken?&#8221;
+Order today and your shiny new Ian Nelson will arrive complete with his own coffee, index cards, kanban avatar, Pukka pad and high-powered eight-core Dell Precision laptop, installed with fully licensed development software and ready to cut high quality test-driven code before you can say “how about a nice game of Planning Poker Dr Falken?”
 
-If you owe it to yourself, your project and your stakeholders to deliver the most effective, bug-free, performant, scalable and maintainable solution possible, then you need an Ian Nelson on your team. But remember &#8211; this offer is _not_ available in the shops! Don’t delay &#8211; call today! Our trained operators are waiting to take your call  
+If you owe it to yourself, your project and your stakeholders to deliver the most effective, bug-free, performant, scalable and maintainable solution possible, then you need an Ian Nelson on your team. But remember – this offer is _not_ available in the shops! Don’t delay – call today! Our trained operators are waiting to take your call  
 &#8230;
 
-#### 07901 828483 &#8211; <a>ian@iannelson.uk</a> {#07901-828483-ian-iannelson-systems}
+#### 07901 828483 – <a>ian@iannelson.uk</a> {#07901-828483-ian-iannelson-systems}
 
  [1]: http://www.ic.nhs.uk/
  [2]: http://www.decoratedworld.co.uk/

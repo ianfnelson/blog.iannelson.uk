@@ -34,7 +34,7 @@ The second phone call came at 14:50. It was just 17 seconds long:
 
 “You want me to come home?”
 
-“Mmmmm, yeah &#8211; I think you’d better. Can you make the 3:15 train?”
+“Mmmmm, yeah – I think you’d better. Can you make the 3:15 train?”
 
 “If I run. Speak to you soon.”
 
@@ -42,7 +42,7 @@ As I arrived at the station, I wondered whether I should pick up a copy of the d
 
 <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/islas-birthplace_3487324430_o.jpg" class="kg-image" alt="Isla's Birthplace" loading="lazy" /> </figure> 
 
-As it happened, on the platform I bumped into Ruth, mother of one of Ben’s pals, so I had some company and conversation for the journey. That evening Ruth posted a comment on my Facebook page saying “Talk about cool, calm & collected. You were more in control than me when I saw you this afternoon!!!”. This is true &#8211; Ruth had something of an “eeek!” expression on her face for most of the train ride. I, meanwhile, anticipated many hours of agonizing (and for me, boring) labour ahead before any real excitement (little did I know!), so I avoided Ruth’s panicked gaze by tweeting.<figure class="kg-card kg-embed-card"> 
+As it happened, on the platform I bumped into Ruth, mother of one of Ben’s pals, so I had some company and conversation for the journey. That evening Ruth posted a comment on my Facebook page saying “Talk about cool, calm & collected. You were more in control than me when I saw you this afternoon!!!”. This is true – Ruth had something of an “eeek!” expression on her face for most of the train ride. I, meanwhile, anticipated many hours of agonizing (and for me, boring) labour ahead before any real excitement (little did I know!), so I avoided Ruth’s panicked gaze by tweeting.<figure class="kg-card kg-embed-card"> 
 
 <blockquote class="twitter-tweet">
   <p lang="en" dir="ltr">
@@ -100,7 +100,7 @@ When my mum arrived at ours around 17:00, I instinctively went to make her a cup
 
 After providing the details requested (including “can I have a number beginning with ‘D’” – what kind of _number_ begins with ‘D’ I wondered? Hexadecimal? I decided not to pursue that discussion at the present) she asked to speak to Jocelyn. I don’t know what they talked about – Joce just said “yes” three or four times, then put the phone down and told me we were to go to the hospital immediately. I was a tad disappointed that I wouldn’t be able to drink the cup of coffee that I’d just made myself, but thought it wise to keep this thought to myself, too.
 
-### Call #5 &#8211; 999 {#call-5-999}
+### Call #5 – 999 {#call-5-999}
 
 [Google maps][5] tells me that the 17.3 mile journey from our home to York District Hospital takes around 33 minutes. It’s strange, in my head I always think of it as being much shorter, I don’t know why. On this particular day, travelling at rush hour, it would have taken us even longer, due to heavy traffic and road works.<figure class="kg-card kg-image-card">
 
@@ -129,7 +129,7 @@ Now, I’ve never had cause to phone 999 before. I had flashbacks to primary sch
 
 “OK. I need to figure out exactly where you are. Have you gone over the river?”
 
-“Er, I’m not sure&#8221;. I wasn’t certain to which river she was referring (Ouse, Foss, Wharf?) and I couldn’t remember which was which anyway, so it seemed futile asking.
+“Er, I’m not sure”. I wasn’t certain to which river she was referring (Ouse, Foss, Wharf?) and I couldn’t remember which was which anyway, so it seemed futile asking.
 
 “Is there a lay-by or somewhere you can pull off the road and park?”
 

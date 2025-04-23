@@ -38,7 +38,7 @@ Here are a few of the resources that I found particularly useful during my EF we
   * [Programming Entity Framework, Second Edition][6]
   * [Dino Esposito – A Feature-Driven Comparison of EF and NH][7]
   * [ADO.NET Team Blog][8]
-  * [Using DbContext in EF Feature CTP5 &#8211; a series of 12 blog posts][9]
+  * [Using DbContext in EF Feature CTP5 – a series of 12 blog posts][9]
   * [David Ebbo – Using Dynamic Data With EF Code First and NuGet][10]
 
  [1]: https://blog.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/

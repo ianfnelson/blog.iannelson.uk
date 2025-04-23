@@ -17,7 +17,7 @@ Wikipedia cracks me up sometimes. I’m sat here at my desk, trying to knock tog
 
 I think that’s what is known as a [long-running transaction][2]!!
 
-**Update** &#8211; the C# code that I wrote to handle this issue is available [here][3].
+**Update** – the C# code that I wrote to handle this issue is available [here][3].
 
 <!--kg-card-end: html-->
 

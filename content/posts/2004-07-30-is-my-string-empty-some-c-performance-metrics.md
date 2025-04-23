@@ -10,7 +10,7 @@ categories:
 ---
 <!--kg-card-begin: html-->
 
-**Update (25/02/2006)** &#8211; Hey, we now have [String.IsNullOrEmpty][1], you know!
+**Update (25/02/2006)** – Hey, we now have [String.IsNullOrEmpty][1], you know!
 
 * * *
 

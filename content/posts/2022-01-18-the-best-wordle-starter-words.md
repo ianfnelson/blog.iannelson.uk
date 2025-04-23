@@ -11,9 +11,9 @@ categories:
   - Fun
 
 ---
-Like (it would seem) most of the rest of humanity, the start of my 2022 has been immeasurably enhanced by starting each day playing [Josh Wardle’s][1] charming word game [Wordle][2]. Which got me wondering &#8211; what are the best starter words to play in the opening lines at Wordle? I have been habitually using &#8220;**ADIEU**&#8221; as my starter word, reasoning that it contains a large number of vowels. But is **D** a particularly common consonant? And should I be trying to get **O** in there rather than the less frequently used **U**? I decided to do some computer-aided analysis to find the answer.
+Like (it would seem) most of the rest of humanity, the start of my 2022 has been immeasurably enhanced by starting each day playing [Josh Wardle’s][1] charming word game [Wordle][2]. Which got me wondering – what are the best starter words to play in the opening lines at Wordle? I have been habitually using “**ADIEU**” as my starter word, reasoning that it contains a large number of vowels. But is **D** a particularly common consonant? And should I be trying to get **O** in there rather than the less frequently used **U**? I decided to do some computer-aided analysis to find the answer.
 
-_**SPOILER WARNING** &#8211; this blog post contains information that may lead you to play more optimal Wordle starter words than you otherwise would have done if left to your own imagination. If you consider that this may take the fun out of an enjoyable daily practice, then I suggest that you stop reading. Now._<figure class="wp-block-image">
+_**SPOILER WARNING** – this blog post contains information that may lead you to play more optimal Wordle starter words than you otherwise would have done if left to your own imagination. If you consider that this may take the fun out of an enjoyable daily practice, then I suggest that you stop reading. Now._<figure class="wp-block-image">
 
 <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/photo-1512799906445-d591d53082c0cropentropyampcstinysrgbampfitmaxampfmjpgampixidMnwxMTc3M3wwfDF8c2VhcmNofDR8fGNsb3NlZCUyMGV5ZXN8ZW58MHx8fHwxNjQyNTM4MzU2ampixlibrb-1.2.jpg" alt="blindness" /> <figcaption class="wp-element-caption">Photo by [Ryoji Iwata][3] / [Unsplash][4]</figcaption></figure> 
 
@@ -21,13 +21,13 @@ _**SPOILER WARNING** &#8211; this blog post contains information that may lead y
 
 Still here? OK, first a definition. What do I consider to be a good Wordle starter word? What makes one starter word better than another?
 
-I assert that the best Wordle starter words are those which are expected to result in the highest number of yellow (right letter, wrong spot) or green (right letter, right spot) tiles. Let’s call this E(Y|G). &nbsp;As a tie-breaker, where two words have the same value of E(Y|G), I consider the better word to be the one which is expected to result in the highest number of green tiles &#8211; let’s call this E(G).
+I assert that the best Wordle starter words are those which are expected to result in the highest number of yellow (right letter, wrong spot) or green (right letter, right spot) tiles. Let’s call this E(Y|G). &nbsp;As a tie-breaker, where two words have the same value of E(Y|G), I consider the better word to be the one which is expected to result in the highest number of green tiles – let’s call this E(G).
 
-I’ve seen alternative approaches posted on Twitter that rank guesses in different ways, such as one which was based on how many possible answers from the Wordle corpus are excluded by guessing them. But my brain doesn’t work that way round &#8211; I don’t have the full list of Wordle words in my head to sieve through, and instead seek the positive reinforcement of yellow and green tiles to use as the basis for my later guesses.
+I’ve seen alternative approaches posted on Twitter that rank guesses in different ways, such as one which was based on how many possible answers from the Wordle corpus are excluded by guessing them. But my brain doesn’t work that way round – I don’t have the full list of Wordle words in my head to sieve through, and instead seek the positive reinforcement of yellow and green tiles to use as the basis for my later guesses.
 
 ## Assumption {#assumption.wp-block-heading}
 
-There are 12,972 valid words in the Wordle dictionary. For the purposes of this analysis, I’m going to assume that they all have an equal likelihood of being the Wordle answer on any given day. Clearly this is not true. I’ve only been playing Wordle for a couple of weeks but it’s immediately apparent that the winning words tend to be those in common everyday use. I doubt that the game would have its current levels of popularity were this not the case. My nine year old son loves playing Wordle every day, and this shared common bond is one of the things that makes Wordle so fun. There was quite some brouhaha on Twitter when the answer to Wordle 207 was the US English spelling of &#8220;**FAVOR**&#8220;, I can only imagine what an uproar there would be if the answer was ever something truly random like &#8220;**QAJAQ**&#8220;, &#8220;**XYLYL**&#8221; or &#8220;**HYPHY**&#8220;. But I digress. Whatever aspects of curation are taking place to select the daily Wordle, be it automated or human, I’m going to ignore it and assume that the Wordle is chosen randomly from the list of valid Wordle words.
+There are 12,972 valid words in the Wordle dictionary. For the purposes of this analysis, I’m going to assume that they all have an equal likelihood of being the Wordle answer on any given day. Clearly this is not true. I’ve only been playing Wordle for a couple of weeks but it’s immediately apparent that the winning words tend to be those in common everyday use. I doubt that the game would have its current levels of popularity were this not the case. My nine year old son loves playing Wordle every day, and this shared common bond is one of the things that makes Wordle so fun. There was quite some brouhaha on Twitter when the answer to Wordle 207 was the US English spelling of “**FAVOR**“, I can only imagine what an uproar there would be if the answer was ever something truly random like “**QAJAQ**“, “**XYLYL**” or “**HYPHY**“. But I digress. Whatever aspects of curation are taking place to select the daily Wordle, be it automated or human, I’m going to ignore it and assume that the Wordle is chosen randomly from the list of valid Wordle words.
 
 ## The Top 10 Best Wordle Starter Words {#the-top-10-best-wordle-starter-words.wp-block-heading}
 
@@ -45,15 +45,15 @@ This is your last chance to look away. Having iterated through all 168,272,784 p
 9.     ALOES   1.84983   0.67175
 10.    LARES   1.84968   0.79579</pre>
 
-Therefore, if you want to turn over the highest number of yellow and green tiles on your first Wordle play, and favour seeing the green tiles, then &#8220;**AEROS**&#8221; is your best bet. By comparison my previous favourite of &#8220;**ADIEU**&#8221; has an E(Y|G) of 1.49229 and E(G) of 0.32886.
+Therefore, if you want to turn over the highest number of yellow and green tiles on your first Wordle play, and favour seeing the green tiles, then “**AEROS**” is your best bet. By comparison my previous favourite of “**ADIEU**” has an E(Y|G) of 1.49229 and E(G) of 0.32886.
 
 ## The Best Words To Play Second {#the-best-words-to-play-second.wp-block-heading}
 
-But what comes next? What words are best to play on the second line? It depends how you like to play the game. If you’re like my mother, or have &#8220;hard mode&#8221; turned on, then your second and subsequent guesses will be influenced by the hints received in response to your first guess.
+But what comes next? What words are best to play on the second line? It depends how you like to play the game. If you’re like my mother, or have “hard mode” turned on, then your second and subsequent guesses will be influenced by the hints received in response to your first guess.
 
-On the other hand, if you’re like me, at this early stage you’ll want to continue exploring the full breadth of the alphabet to increase the probability of identifying additional letters in the answer. For example I have generally been following up my &#8220;**ADIEU**&#8221; starter with &#8220;**GHOST**&#8221; to finish off the vowels and include **T** and **S** in the mix.
+On the other hand, if you’re like me, at this early stage you’ll want to continue exploring the full breadth of the alphabet to increase the probability of identifying additional letters in the answer. For example I have generally been following up my “**ADIEU**” starter with “**GHOST**” to finish off the vowels and include **T** and **S** in the mix.
 
-With this in mind, I extended my analysis to determine the combined E(Y|G) and E(G) values for pairs of valid Wordle words. All of the best results came from pairing together words that cover 10 distinct letters. Perhaps that seems intuitive, but it wasn’t a foregone conclusion. There are many guesses containing repeated letters which have excellent prospects, especially those with pairs of **E** or **S**. &#8220;**EASER**&#8221; is the best of these with an E(Y|G) of 1.68039, and pleasingly even &#8220;**ARSES**&#8221; weighs in with an E(Y|G) of 1.66489.
+With this in mind, I extended my analysis to determine the combined E(Y|G) and E(G) values for pairs of valid Wordle words. All of the best results came from pairing together words that cover 10 distinct letters. Perhaps that seems intuitive, but it wasn’t a foregone conclusion. There are many guesses containing repeated letters which have excellent prospects, especially those with pairs of **E** or **S**. “**EASER**” is the best of these with an E(Y|G) of 1.68039, and pleasingly even “**ARSES**” weighs in with an E(Y|G) of 1.66489.
 
 Here are the ten best combinations of ten letters to cover with the first two guesses, with an example of two valid Wordle words covering those letters:
 
@@ -69,7 +69,7 @@ Here are the ten best combinations of ten letters to cover with the first two gu
 9.     ADEILNORSU   ADORN, ILEUS    3.00763
 10.    AEILORSTUY   AIERY, LOTUS    3.00601</pre>
 
-By comparison, my previous favoured pairing of &#8220;**ADIEU**&#8221; and &#8220;**GHOST**&#8221; has an E(Y|G) of 2.7358. Switching to a combination of words that covers the letters AEILNORSTU such as &#8220;**AEROS**&#8221; and &#8220;**UNLIT**&#8221; should boost my expected number of hints from my first two guesses by 12%!
+By comparison, my previous favoured pairing of “**ADIEU**” and “**GHOST**” has an E(Y|G) of 2.7358. Switching to a combination of words that covers the letters AEILNORSTU such as “**AEROS**” and “**UNLIT**” should boost my expected number of hints from my first two guesses by 12%!
 
 ## The Best of the Best {#the-best-of-the-best.wp-block-heading}
 
@@ -87,9 +87,9 @@ But which two words to pick? There are no fewer than **300 combinations** of val
 9.     TAINS    1.59382         LOURE    1.47047         1.11443
 10.    RANTS    1.61849         LOUIE    1.44581         1.11417</pre>
 
-## Adieu, &#8220;ADIEU&#8221; {#adieu-adieu.wp-block-heading}
+## Adieu, “ADIEU” {#adieu-adieu.wp-block-heading}
 
-So there you have it. Having crunched the numbers, my new pair of Wordle starter words from tomorrow morning shall be &#8220;**TAILS**&#8221; followed by &#8220;**ROUEN**&#8220;. [Follow me on Twitter][5] to see how it works out for me. I have a suspicion that despite this analysis, my mother will still reach the answer in fewer guesses than me more often than not!
+So there you have it. Having crunched the numbers, my new pair of Wordle starter words from tomorrow morning shall be “**TAILS**” followed by “**ROUEN**“. [Follow me on Twitter][5] to see how it works out for me. I have a suspicion that despite this analysis, my mother will still reach the answer in fewer guesses than me more often than not!
 
  [1]: https://www.powerlanguage.co.uk/
  [2]: https://www.powerlanguage.co.uk/wordle/

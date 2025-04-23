@@ -8,7 +8,7 @@ categories:
   - Tech
 
 ---
-There are many things I love about Team Foundation Server, but the supplied diff/merge tool is not one of them. It is &#8211; how can I put this? – somewhat basic. Indeed, I’ve heard tell of people going out of their way to avoid merges purely because they find the process so clunky.
+There are many things I love about Team Foundation Server, but the supplied diff/merge tool is not one of them. It is – how can I put this? – somewhat basic. Indeed, I’ve heard tell of people going out of their way to avoid merges purely because they find the process so clunky.
 
 Here’s the good news – you can easily configure TFS to use a different, third-party, diff/merge tool, perhaps the one you’ve grown to know and love over many years of happy software development using other SCM products. Maybe you like [WinMerge][1], or love [TortoiseMerge][2]. Perhaps you’re like my friend [John][3] and swear by [SourceGear DiffMerge][4]. Or maybe, like me, you’re a [Beyond Compare][5] fanboy. No problem, they can all be used by TFS. Here’s how:
 

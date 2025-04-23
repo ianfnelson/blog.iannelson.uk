@@ -10,7 +10,7 @@ categories:
   - Hills
 
 ---
-Day Five &#8211; Beinn Dorain (3,530ft, 1,076m), Beinn An Dothaidh (3,287 ft, 1,002m)
+Day Five – Beinn Dorain (3,530ft, 1,076m), Beinn An Dothaidh (3,287 ft, 1,002m)
 
 More rain. Can you spot a pattern, dear reader? So we sped over to the western highlands and bagged a couple of munros near Bridge of Orchy, close to our rendezvous with Bruce. I actually quite enjoyed myself, but don’t tell anybody&#8230;<figure class="kg-card kg-image-card">
 

@@ -22,13 +22,13 @@ First, open up Package Center and search for the free Third-Party Docker package
   <figure class="aligncenter"><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_20-48-59-3.png"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_20-48-59-3.png" alt="" /></a></figure>
 </div>
 
-Within the Docker package, we need to search the Registry for the rabbitmq image. Look for the image with the &#8220;Official Image&#8221; icon next to it, which should be near the top of the search results.
+Within the Docker package, we need to search the Registry for the rabbitmq image. Look for the image with the “Official Image” icon next to it, which should be near the top of the search results.
 
 <div class="wp-block-image">
   <figure class="aligncenter"><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_20-50-09-1.png"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_20-50-09-1.png" alt="" /></a></figure>
 </div>
 
-Choose a tag to install. I recommend selecting a recent build with the &#8220;management&#8221; suffix &#8211; these tags have the RabbitMQ management plugin installed and enabled by default, which is available on the standard management port of 15672.
+Choose a tag to install. I recommend selecting a recent build with the “management” suffix – these tags have the RabbitMQ management plugin installed and enabled by default, which is available on the standard management port of 15672.
 
 <div class="wp-block-image">
   <figure class="aligncenter"><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_20-51-02.png"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_20-51-02.png" alt="" /></a></figure>
@@ -53,7 +53,7 @@ Check Enable auto-restart so that the container automatically restarts, should i
 </div>
 
 Containers should generally be treated as being replaceable, with any data that you care about being kept outside of the container. To this end, create a folder on the NAS that can be used as a volume for the /var/lib/rabbitmq mount path. This ensures all the data from the RabbitMQ instance exists outside of the container itself and won’t be lost if the container needs to be destroyed and recreated for any reason (such as upgrading to a new version of RabbitMQ).  
-I also suggest creating a blank RabbitMQ config file &#8211; rabbitmq.conf &#8211; and mounting this file to the path /etc/rabbitmq/rabbitmq.conf .
+I also suggest creating a blank RabbitMQ config file – rabbitmq.conf – and mounting this file to the path /etc/rabbitmq/rabbitmq.conf .
 
 <div class="wp-block-image">
   <figure class="aligncenter"><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_20-56-21.png"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_20-56-21.png" alt="" /></a></figure>
@@ -63,7 +63,7 @@ RabbitMQ with the management plugin enabled uses ports 4369, 5671, 5672, 15671, 
 
 [<img loading="lazy" decoding="async" width="1024" height="862" src="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2020-01-13_20-57-55-1024x862.png" alt="" class="wp-image-8147" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2020-01-13_20-57-55-1024x862.png 1024w, https://blogstouks01.z33.web.core.windows.net/2023/08/1_2020-01-13_20-57-55-300x252.png 300w, https://blogstouks01.z33.web.core.windows.net/2023/08/1_2020-01-13_20-57-55-768x646.png 768w, https://blogstouks01.z33.web.core.windows.net/2023/08/1_2020-01-13_20-57-55.png 1181w" sizes="auto, (max-width: 1024px) 100vw, 1024px" />][4]</figure> 
 
-Check the Environment variables tab. The defaults should be fine; you may wish to specify a particular [node name][5] &#8211; this can be done using the RABBITMQ_NODENAME environment variable
+Check the Environment variables tab. The defaults should be fine; you may wish to specify a particular [node name][5] – this can be done using the RABBITMQ_NODENAME environment variable
 
 <div class="wp-block-image">
   <figure class="aligncenter"><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-00-52.png"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-00-52.png" alt="" /></a></figure>
@@ -81,7 +81,7 @@ The RabbitMQ docker container will start, and if everything has gone to plan, it
   <figure class="aligncenter"><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-03-05.png"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-03-05.png" alt="" /></a></figure>
 </div>
 
-From the details, click the Log tab. If startup has been successful, you will the &#8220;Server startup complete; 3 plugins started.&#8221; message as shown below. Otherwise, these logs should give a useful indication what has gone wrong.
+From the details, click the Log tab. If startup has been successful, you will the “Server startup complete; 3 plugins started.” message as shown below. Otherwise, these logs should give a useful indication what has gone wrong.
 
 <div class="wp-block-image">
   <figure class="aligncenter"><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-04-02-1.png"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-04-02-1.png" alt="" /></a></figure>
@@ -93,13 +93,13 @@ The RabbitMQ mnesia folder will be initialized in the folder specified earlier a
   <figure class="aligncenter"><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-05-05.png"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-05-05.png" alt="" /></a></figure>
 </div>
 
-The RabbitMQ Management portal will be accessible through a web browser at port 15672 on your NAS’s hostname or IP address. But if you try to login using the default guest/guest credentials you will likely be met with the &#8220;User can only log in via localhost&#8221; message shown below. That’s not an option from the Synology NAS, which doesn’t have any web browser installed.
+The RabbitMQ Management portal will be accessible through a web browser at port 15672 on your NAS’s hostname or IP address. But if you try to login using the default guest/guest credentials you will likely be met with the “User can only log in via localhost” message shown below. That’s not an option from the Synology NAS, which doesn’t have any web browser installed.
 
 <div class="wp-block-image">
   <figure class="aligncenter"><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-06-24-1.png"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-06-24-1.png" alt="" /></a></figure>
 </div>
 
-There are a couple of solutions to this quandary. The rabbitmq.conf file created earlier could be edited to allow the guest user to connect from a remote host by setting the loopback_users configuration to none &#8211; [details here][6].
+There are a couple of solutions to this quandary. The rabbitmq.conf file created earlier could be edited to allow the guest user to connect from a remote host by setting the loopback_users configuration to none – [details here][6].
 
 Alternatively, the rabbitmqctl utility can be used to add a new user with administrator rights, as shown in the screenshot below.
 

@@ -11,8 +11,8 @@ This dumb mistake just cost me an hour spelunking around in the debugger:
 
 `var status = source.Substring(source.LastIndexOf("/" + 1));`
 
-(where source is e.g. &#8220;<http://foo.com/status/all-is-good>&#8220;)
+(where source is e.g. “<http://foo.com/status/all-is-good>“)
 
 Fortunately the ramifications were picked up in the acceptance tests, but the root cause wasn’t at all obvious from such a high level.
 
-Lesson for the day &#8211; code is never too trivial to warrant unit testing.
+Lesson for the day – code is never too trivial to warrant unit testing.

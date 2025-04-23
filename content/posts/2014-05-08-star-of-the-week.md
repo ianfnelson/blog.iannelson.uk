@@ -13,9 +13,9 @@ categories:
 ---
 As a lowly _sellsword_ amongst the ensemble cast that make up the incestuous York/Leeds IT scene, I am not usually one to be influenced by the promise of titles and honours.
 
-Time was, long ago, in my first graduate job, that I yearned for a promotion from &#8220;Solution Developer&#8221; to &#8220;Development Specialist&#8221;. Now I give little consideration to what I’m called, and sell my services on the basis of what I can _do_, and the value I can bring to a project and an organisation.
+Time was, long ago, in my first graduate job, that I yearned for a promotion from “Solution Developer” to “Development Specialist”. Now I give little consideration to what I’m called, and sell my services on the basis of what I can _do_, and the value I can bring to a project and an organisation.
 
-So, imagine my surprise when I recently returned to my desk at a client site to find the certificate below resting on my keyboard. It seems my highborn masters had seen fit to dub me (with tongue firmly in cheek, I presume), as their &#8220;Star of the Week&#8221;!
+So, imagine my surprise when I recently returned to my desk at a client site to find the certificate below resting on my keyboard. It seems my highborn masters had seen fit to dub me (with tongue firmly in cheek, I presume), as their “Star of the Week”!
 
 <div class="wp-block-image">
   <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/StarOfTheWeek.jpg" alt="Star Of The Week Certificate" /></figure>
@@ -23,9 +23,9 @@ So, imagine my surprise when I recently returned to my desk at a client site to 
 
 What had I done to deserve this honour?
 
-The client had an existing solution to generate an XML feed summarising the information held within a database. Unfortunately this process was slow &#8211; it took around 45 seconds &#8211; and even though the output was aggressively cached, this was still causing a problem.
+The client had an existing solution to generate an XML feed summarising the information held within a database. Unfortunately this process was slow – it took around 45 seconds – and even though the output was aggressively cached, this was still causing a problem.
 
-I actually enjoy occasionally tackling problems like this, where there is an existing solution that meets all functional requirements and my task is simply to improve some nonfunctional requirement &#8211; make it faster, make it more maintainable, make it scalable, update the technology stack, etc. The goal is much clearer when you have a reference solution to mimic than when starting with a blank page and having to tease out acceptance criteria from fickle humans!
+I actually enjoy occasionally tackling problems like this, where there is an existing solution that meets all functional requirements and my task is simply to improve some nonfunctional requirement – make it faster, make it more maintainable, make it scalable, update the technology stack, etc. The goal is much clearer when you have a reference solution to mimic than when starting with a blank page and having to tease out acceptance criteria from fickle humans!
 
 Unsurprisingly, some baseline profiling revealed that the problems lay in the data access layer, and with the help of Hibernating Rhino’s [Entity Framework Profiler][1], I was able to determine that over 35,000 separate database calls were being issued to create a file of a few megabytes.
 

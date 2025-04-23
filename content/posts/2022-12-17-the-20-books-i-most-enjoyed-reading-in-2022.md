@@ -31,7 +31,7 @@ When I was in my twenties I couldn’t fathom the appeal of biographies. Why, I 
 
 Well, I’m not sure exactly when I changed my opinion on this, but I must have done so because I now find myself reading several biographies each year, and they frequently appear atop my end-of-year blog posts. Other celebrity autobiographies that I enjoyed in 2022 were _[The Gift of a Radio: My Childhood and Other Train Wrecks][6]_ by broadcaster Justin Webb, and _[Coal Black Mornings][7]_ by Suede frontman Brett Anderson.
 
-The concept behind Cocker’s autobiography (or &#8220;inventory&#8221;) is that he cleaned out an attic space during the Covid lockdowns, deciding whether to &#8220;keep or cob&#8221; accumulated treasures/junk. This provides a conceit for many entertaining anecdotes about his life growing up in Sheffield and becoming lead singer of Pulp, all written in a most idiosyncratic style. Highlights for me included a detailed explanation of how he came to be hospitalised after fall out of a window while trying to impress a girl, and a wonderful piece on interviewing the late Leonard Cohen during his time as a BBC Radio 6 Music DJ.
+The concept behind Cocker’s autobiography (or “inventory”) is that he cleaned out an attic space during the Covid lockdowns, deciding whether to “keep or cob” accumulated treasures/junk. This provides a conceit for many entertaining anecdotes about his life growing up in Sheffield and becoming lead singer of Pulp, all written in a most idiosyncratic style. Highlights for me included a detailed explanation of how he came to be hospitalised after fall out of a window while trying to impress a girl, and a wonderful piece on interviewing the late Leonard Cohen during his time as a BBC Radio 6 Music DJ.
 
 I was sorely tempted to get the audiobook of this to hear Jarvis’s own narration, but plumped for the hardback instead which is wonderfully typeset and illustrated with many photographs of the items saved from the loft.
 
@@ -43,9 +43,9 @@ I was sorely tempted to get the audiobook of this to hear Jarvis’s own narrati
 
 This was a present from my wife Jocelyn for Christmas 2021. I had not been previously aware of it, so was pleasantly surprised when it became one of my favourite books of the year.
 
-Vanhoenacker is a commercial airline pilot who has flown short-haul and long-haul routes for British Airways from a base in London to cities all over the world. He writes engagingly and romantically about all aspects of flying &#8211; the machines, the processes and procedures, the navigation systems, but mostly how it _feels_ to transport and be transported so rapidly across space and time.
+Vanhoenacker is a commercial airline pilot who has flown short-haul and long-haul routes for British Airways from a base in London to cities all over the world. He writes engagingly and romantically about all aspects of flying – the machines, the processes and procedures, the navigation systems, but mostly how it _feels_ to transport and be transported so rapidly across space and time.
 
-The prose is ethereal and dreamlike, in a manner not dissimilar to the jet lag and &#8220;place lag&#8221; that it describes. Vanhoenacker captures well the magic of aviation and inspires a desire to travel once again, following years of Covid lockdowns.
+The prose is ethereal and dreamlike, in a manner not dissimilar to the jet lag and “place lag” that it describes. Vanhoenacker captures well the magic of aviation and inspires a desire to travel once again, following years of Covid lockdowns.
 
 <div class="wp-block-image">
   <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/skyfaring.jpg" alt="" /></figure>
@@ -65,7 +65,7 @@ Nourishing and inspiring, this book is the reason that I have spent less of my f
 
 My favourite work of fiction this year was this sparkling debut novel that captured the zeitgeist in a manner that reminded me of Douglas Coupland novels in the early 1990s. Obsessive engineer Ada designs storage boxes for STÄDA, a furniture manufacturer that comes across as a cross between Ikea and a Silicon Valley big tech company.
 
-This is a darkly humorous and suspenseful novel that is an easy read. Having bought and enjoyed it in the States around New Year prior to its UK release, I mailed my copy to my friend and erstwhile colleague Steph, as I knew she’d love it too. She soon messaged &#8220;I devoured it. I’m reeling. Thank you&#8221;.
+This is a darkly humorous and suspenseful novel that is an easy read. Having bought and enjoyed it in the States around New Year prior to its UK release, I mailed my copy to my friend and erstwhile colleague Steph, as I knew she’d love it too. She soon messaged “I devoured it. I’m reeling. Thank you”.
 
 <div class="wp-block-image">
   <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/box.jpg" alt="" /></figure>
@@ -75,7 +75,7 @@ This is a darkly humorous and suspenseful novel that is an easy read. Having bou
 
 ### [A Thousand Brains: A New Theory of Intelligence][11] by Jeff Hawkins {#a-thousand-brains-a-new-theory-of-intelligence-by-jeff-hawkins.wp-block-heading}
 
-I bought this book after it was recommended by Bill Gates in one of his periodic [Gates Notes][12] emails. It is brimming with fascinating theories on how the human brain works &#8211; I was particularly taken by the explanation of &#8220;frames of reference&#8221; as a model for the way in which we comprehend the world.
+I bought this book after it was recommended by Bill Gates in one of his periodic [Gates Notes][12] emails. It is brimming with fascinating theories on how the human brain works – I was particularly taken by the explanation of “frames of reference” as a model for the way in which we comprehend the world.
 
 ### [Bewilderment][13] by Richard Powers {#bewilderment-by-richard-powers.wp-block-heading}
 
@@ -92,7 +92,7 @@ ut one evening this year I lingered for a little while over a crossword in _New 
 
 This epiphany caused a curious tingle in my brain which I wanted to experience again. So I sought assistance via this excellent textbook-like work, which takes the reader on a step-by-step course explaining the different types of clues to be found in cryptic crosswords and techniques for solving these.
 
-Thanks to this book, I now find myself capable of tackling the relatively easy _Everyman_ crossword in _The Observer_ each week, and sometimes the cryptic crossword in _New Statesman_, dependent on the setter. The tingles in my brain keep coming along with those &#8220;a-ha!&#8221; moments when the penny drops on a cute parsing. I’m enjoying building my vocabulary and general knowledge, and hope to build up to tackling the tougher problems in the national dailies next year.
+Thanks to this book, I now find myself capable of tackling the relatively easy _Everyman_ crossword in _The Observer_ each week, and sometimes the cryptic crossword in _New Statesman_, dependent on the setter. The tingles in my brain keep coming along with those “a-ha!” moments when the penny drops on a cute parsing. I’m enjoying building my vocabulary and general knowledge, and hope to build up to tackling the tougher problems in the national dailies next year.
 
 ### [Exponential: How Accelerating Technology is Leaving Us Behind and What to Do About It][15] by Azeem Azhar {#exponential-how-accelerating-technology-is-leaving-us-behind-and-what-to-do-about-it-by-azeem-azhar.wp-block-heading}
 
@@ -100,9 +100,9 @@ This book considers the potential impact upon the world of technologies that are
 
 ### [Software Architecture: The Hard Parts. Modern Trade-Off Analyses for Distributed Architectures][16] by Neal Ford, Mark Richards, Pramod Sadalage and Zhamak Dehghani {#software-architecture-the-hard-parts-modern-trade-off-analyses-for-distributed-architectures-by-neal-ford-mark-richards-pramod-sadalage-and-zhamak-dehghani.wp-block-heading}
 
-This was my favourite technical book of the year. The weak joke about software architecture is that the answer to any question is &#8220;it depends&#8221;. As a result of this truism, most other books on the subject tend to give an overview of various nonfunctional considerations (scalability, deployability, testability, extensibility, etc) while stopping short of offering any firm guidance. After all, &#8220;it depends&#8221; on the specific system and business drivers.
+This was my favourite technical book of the year. The weak joke about software architecture is that the answer to any question is “it depends”. As a result of this truism, most other books on the subject tend to give an overview of various nonfunctional considerations (scalability, deployability, testability, extensibility, etc) while stopping short of offering any firm guidance. After all, “it depends” on the specific system and business drivers.
 
-&#8220;The Hard Parts&#8221; faces head-on the complexities involved in making such trade-off decisions in the world of distributed systems in general and microservices in particular. Aided by an extended case study that runs throughout the book, it offers techniques to identify appropriate levels of reuse, decomposition, data ownership, distributed workflows, transactional sagas, and more. I particularly appreciated one of the later chapters on managing analytical data, which compared traditional Data Warehouses and Data Lakes with a more contemporary Data Mesh approach.
+“The Hard Parts” faces head-on the complexities involved in making such trade-off decisions in the world of distributed systems in general and microservices in particular. Aided by an extended case study that runs throughout the book, it offers techniques to identify appropriate levels of reuse, decomposition, data ownership, distributed workflows, transactional sagas, and more. I particularly appreciated one of the later chapters on managing analytical data, which compared traditional Data Warehouses and Data Lakes with a more contemporary Data Mesh approach.
 
 <div class="wp-block-image">
   <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/51qZnL-B63L._SX379_BO1-204-203-200.jpg" alt="" /></figure>
@@ -136,7 +136,7 @@ I enjoyed studying Game theory at university in the mid-1990s where part of the 
 
 ### [Trillions: How a Band of Wall Street Renegades Invented the Index Fund and Changed Finance Forever][22] by Robin Wigglesworth {#trillions-how-a-band-of-wall-street-renegades-invented-the-index-fund-and-changed-finance-forever-by-robin-wigglesworth.wp-block-heading}
 
-My favourite financial book of the year, this history of index funds is a surprisingly mesmerising confluence of economics, history, mathematics, psychology, computer science and more. In addition to focusing on the cost savings that can be had to individuals who choose to invest via index funds rather than active managers, it also touches on the implications for corporate governance of the large proportion of companies now owned by &#8220;passive&#8221; funds.
+My favourite financial book of the year, this history of index funds is a surprisingly mesmerising confluence of economics, history, mathematics, psychology, computer science and more. In addition to focusing on the cost savings that can be had to individuals who choose to invest via index funds rather than active managers, it also touches on the implications for corporate governance of the large proportion of companies now owned by “passive” funds.
 
 ### [Hope and Glory: A People’s History of Modern Britain][23] by Stuart Maconie {#hope-and-glory-a-peoples-history-of-modern-britain-by-stuart-maconie.wp-block-heading}
 
@@ -164,7 +164,7 @@ By contrast, _Reclaiming Conversation_ argues that we have now taken this search
 
 I have been making an attempt to supplement my predominantly contemporary reading diet with the occasional classic novel, and I especially enjoyed reading these two during 2022, in addition to _[The Catcher In The Rye][29]_ and _[Of Mice and Men][30]_.
 
-_Catch-22_ had been recommended to me by my friend Jonathan Telfer when we were at university together in 1995, then again last year by colleague Magnus John when the character of Major Major somehow came up in conversation during a code review. I eventually succumbed to listening to the audiobook version narrated by Canadian actor Trevor White which is excellent &#8211; the dialogue in this funny and profound novel really benefits from being spoken aloud.
+_Catch-22_ had been recommended to me by my friend Jonathan Telfer when we were at university together in 1995, then again last year by colleague Magnus John when the character of Major Major somehow came up in conversation during a code review. I eventually succumbed to listening to the audiobook version narrated by Canadian actor Trevor White which is excellent – the dialogue in this funny and profound novel really benefits from being spoken aloud.
 
 I had bought a paperback of _A Clockwork Orange_ in 1998 and not yet read it until this October. I think the prospect of tackling the _Nadsat_ slang which is used in much of the narrative had dissuaded me from starting this book for so long, but in the event this proved little barrier to understanding and enjoying this short novel. The context in which the slang words were used aided comprehension, as did familiarity with the storyline from having seen Stanley Kubrick’s film adaptation.
 

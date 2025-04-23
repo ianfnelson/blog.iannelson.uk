@@ -14,7 +14,7 @@ Last month Jocelyn and I took a trip to the States to visit friends and family, 
 
 So, there we were, sitting at the departure gate at Manchester Airport on a bright Monday morning, having awoken at 0430 to make our way across the Pennines.&nbsp; A few seats away were a group of teenagers.&nbsp; They were from Michigan, and they were annoyingly noisy.&nbsp; Thus began our American adventure.
 
-Joce was the first to show irritation at her countrymen &#8211; "God, why is it that only the fat obnoxious noisy American choose to travel abroad?".&nbsp; In retrospect, I’m not sure that’s true &#8211; it’s just that, by their nature, you’re more likely to notice obnoxious noisy people, of any nationality, and the non-native accents just make them stand out even more.&nbsp; As it happened, there were some British teens mixed into the group &#8211; some kind of exchange trip between West Yorkshire and Michigan, no doubt providing some well-earned relief for the parents.
+Joce was the first to show irritation at her countrymen – "God, why is it that only the fat obnoxious noisy American choose to travel abroad?".&nbsp; In retrospect, I’m not sure that’s true – it’s just that, by their nature, you’re more likely to notice obnoxious noisy people, of any nationality, and the non-native accents just make them stand out even more.&nbsp; As it happened, there were some British teens mixed into the group – some kind of exchange trip between West Yorkshire and Michigan, no doubt providing some well-earned relief for the parents.
 
 Ignoring this noise, we focused our attentions instead on the cute little lass (circa 2 or 3 years?) wandering round with wide eyes, and playing with her dad.&nbsp;  
 "We’ll have kids like that," Joce told me.&nbsp;

@@ -16,7 +16,7 @@ In the grand scheme of things, ’tis but a minor achievement, but I was quite c
   <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/04_01_2012_20_28_21.png" alt="Stack Overflow - Ian Nelson Profile" /></figure>
 </div>
 
-My girls made me a special &#8220;10K&#8221; cake to celebrate 🙂
+My girls made me a special “10K” cake to celebrate 🙂
 
 <div class="wp-block-image">
   <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_7069_edited_1.jpg" alt="Isla Baking" /></figure>

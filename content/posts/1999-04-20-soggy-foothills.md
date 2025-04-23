@@ -14,7 +14,7 @@ Sunday a handful of us bagged Ben Wyvis, where apparently Martin Moran was avala
 
 <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_25_25.jpg" class="kg-image" alt loading="lazy" /> </figure> 
 
-Monday I headed north with Rich, Becks, and Dave, with a view to climbing Conival and Ben More Assynt.  This was more exhausting than the previous day, but offered more rewards &#8211; sinuous snow-covered ridges to wander along, and some fine views over the fascinating topography of the northern highlands &#8211; Suilven, Ben Hope, Ben Klibreck, and others all seemed much closer than I suspect they really were.<figure class="kg-card kg-gallery-card kg-width-wide"> 
+Monday I headed north with Rich, Becks, and Dave, with a view to climbing Conival and Ben More Assynt.  This was more exhausting than the previous day, but offered more rewards – sinuous snow-covered ridges to wander along, and some fine views over the fascinating topography of the northern highlands – Suilven, Ben Hope, Ben Klibreck, and others all seemed much closer than I suspect they really were.<figure class="kg-card kg-gallery-card kg-width-wide"> 
 
 <div class="kg-gallery-container">
   <div class="kg-gallery-row">

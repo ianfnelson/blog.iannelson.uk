@@ -46,8 +46,8 @@ Too late in the day, I dusted down Occam’s trusty razor, and realised that whi
 
 <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/pkviolation.png" class="kg-image" alt loading="lazy" /> </figure> 
 
-Removing the duplicated entry for &#8220;Other&#8221;, which was incorrectly using the same ID as &#8220;Website&#8221;, solved my problems instantly. And needless to say, I’ve made a note to go add a primary key to that table at the earliest opportunity.
+Removing the duplicated entry for “Other”, which was incorrectly using the same ID as “Website”, solved my problems instantly. And needless to say, I’ve made a note to go add a primary key to that table at the earliest opportunity.
 
-The moral of this cautionary tale &#8211; using an ORM makes your life as an application developer easier, makes it faster to develop a DAL, and (to a large extent) decouples your application from your choice of database. What it doesn’t do is allow you to forget the tenets of good database design, in fact as Tobin points out it actually serves to encourage them.
+The moral of this cautionary tale – using an ORM makes your life as an application developer easier, makes it faster to develop a DAL, and (to a large extent) decouples your application from your choice of database. What it doesn’t do is allow you to forget the tenets of good database design, in fact as Tobin points out it actually serves to encourage them.
 
  [1]: http://www.tobinharris.com/2008/7/28/is-or-m-is-encouraging-db-normalization

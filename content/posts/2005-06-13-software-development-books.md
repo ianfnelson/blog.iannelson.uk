@@ -11,7 +11,7 @@ categories:
 ---
 <!--kg-card-begin: html-->
 
-Elizabeth Keogh has been blogging her [advice for software-developer apprentices][1], and recommends buying and reading a selection of good software development books. I think this is sound advice &#8211; personally I felt that my career and abilities starting taking off when I stopped reading tech-specific Wrox tomes that were obsolete within six months of publication and started buying timeless Addison-Wesley hardbacks. Why so many newbie coders insist on rediscovering solutions to well-known problems instead of leveraging the knowledge of our programming forebears is beyond me, but most of us have behaved in this way at some point. Give yourself a leg-up and read some decent software design books.
+Elizabeth Keogh has been blogging her [advice for software-developer apprentices][1], and recommends buying and reading a selection of good software development books. I think this is sound advice – personally I felt that my career and abilities starting taking off when I stopped reading tech-specific Wrox tomes that were obsolete within six months of publication and started buying timeless Addison-Wesley hardbacks. Why so many newbie coders insist on rediscovering solutions to well-known problems instead of leveraging the knowledge of our programming forebears is beyond me, but most of us have behaved in this way at some point. Give yourself a leg-up and read some decent software design books.
 
 If I had to make a list, the books I would currently prescribe for new graduates entering a career of enterprise OO development would be:
 
@@ -21,7 +21,7 @@ If I had to make a list, the books I would currently prescribe for new graduates
   4. [_Design Patterns_][5]
   5. [_Patterns of Enterprise Application Architecture_][6]
 
-and if I was feeling cynical I’d&nbsp;perhaps also advise a copy of [_The Career Programmer &#8211; Guerilla Tactics for an Imperfect World_][7] be kept stashed in a laptop bag&#8230;
+and if I was feeling cynical I’d&nbsp;perhaps also advise a copy of [_The Career Programmer – Guerilla Tactics for an Imperfect World_][7] be kept stashed in a laptop bag&#8230;
 
 <!--kg-card-end: html-->
 

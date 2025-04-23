@@ -21,17 +21,17 @@ The wallet itself is a simple black leather one from [Burberry][3], and tonight 
   * £90. In case you were thinking of mugging me, you should know that I don’t usually carry nearly so much.
   * A bunch of receipts from the week. Come tomorrow evening the details will all have been religiously input into MS Money, and the receipts shredded.
   * Four first-class stamps.
-  * A Starbucks card &#8211; essential for those occasional lunches with John 🙂
+  * A Starbucks card – essential for those occasional lunches with John 🙂
   * Three credit cards, one from each of the major providers. You can never be sure which will be accepted, and the occasional system failure or over-zealous anti-fraud software has resulted in me having to offer all three before a transaction could be processed.
   * A debit card, which I mostly use this for taking cash out of ATMs. I don’t see the point in using it for payments if I can help it, preferring to get the interest-free period and insurance that comes from using a credit card instead.
-  * My Microsoft Certified Professional card. I’m not sure what the point of carrying this is &#8211; maybe I won’t put it back!
-  * A &#8220;Club Toyota&#8221; membership card. I don’t really get the point of this one, either.
+  * My Microsoft Certified Professional card. I’m not sure what the point of carrying this is – maybe I won’t put it back!
+  * A “Club Toyota” membership card. I don’t really get the point of this one, either.
   * A membership card for my local gym. This whole gym-going malarkey is a relatively new thing for me, and I’m grateful to my wifey for persuading me to join, as I feel much fitter for getting a bit of exercise a few times a week. I think having kids is a big incentive to start taking care of yourself, as you want to stick around as long as possible to share their lives.
   * A Costco trade membership card. One of the nice perks of being a company director is being able to go to Costco and buy 45 toilet rolls and a gallon of Tabasco whenever I fancy!
   * National Trust membership card. We find ourselves wandering round stately piles quite often, in an effort to Bentertain the one year old.
   * Driving license.
   * North Yorkshire County Libraries card. Libraries gave us power!
-  * &#8220;Loyalty&#8221; cards from Boots, Shell, WHSmith, Coop, Tesco and Nectar. I’m not very loyal, but I don’t look a gift horse in the mouth.
+  * “Loyalty” cards from Boots, Shell, WHSmith, Coop, Tesco and Nectar. I’m not very loyal, but I don’t look a gift horse in the mouth.
 
 And that’s your lot. Not very interesting really, eh?
 

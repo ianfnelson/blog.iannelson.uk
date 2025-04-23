@@ -11,13 +11,13 @@ categories:
   - Hills
 
 ---
-My daughter Isla pronounced [our April walk up Pen-y-Ghent][1] to have been &#8220;a bit boring&#8221;. Apparently she enjoyed the scrambling and the views but not the lengthy slog. Fair enough.
+My daughter Isla pronounced [our April walk up Pen-y-Ghent][1] to have been “a bit boring”. Apparently she enjoyed the scrambling and the views but not the lengthy slog. Fair enough.
 
-So, looking for something more interesting for our next Dad and Daughter trip into the hills, I armed myself with a copy of &#8220;[Scrambles In The Dark Peak][2]&#8221; by Terry Sleaford and Tom Corker, and today we set off to tackle the first route in the book.
+So, looking for something more interesting for our next Dad and Daughter trip into the hills, I armed myself with a copy of “[Scrambles In The Dark Peak][2]” by Terry Sleaford and Tom Corker, and today we set off to tackle the first route in the book.
 
 Starting at a lay-by high on Saddleworth Moor, we dropped down into Rimmon Pit Clough, before scrambling up again to the Raven Stones and The Trinnacle.
 
-The route back to the road was mostly a gradual climb across open moorland &#8211; tiring work for middle-aged legs that made the overall walk feel much longer than its eight kilometres!<figure class="kg-card kg-gallery-card kg-width-wide"> 
+The route back to the road was mostly a gradual climb across open moorland – tiring work for middle-aged legs that made the overall walk feel much longer than its eight kilometres!<figure class="kg-card kg-gallery-card kg-width-wide"> 
 
 <div class="kg-gallery-container">
   <div class="kg-gallery-row">

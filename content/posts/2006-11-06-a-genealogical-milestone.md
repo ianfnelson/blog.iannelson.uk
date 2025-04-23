@@ -10,7 +10,7 @@ tags:
 ---
 <!--kg-card-begin: html-->
 
-Late last night I reached a small but significant milestone in my family tree research:&nbsp; I now know the names of my sixteen great-great-grandparents!&nbsp; Or so I believe &#8211; I just need to wait for a couple of certificates to arrive from the GRO to prove my theories.
+Late last night I reached a small but significant milestone in my family tree research:&nbsp; I now know the names of my sixteen great-great-grandparents!&nbsp; Or so I believe – I just need to wait for a couple of certificates to arrive from the GRO to prove my theories.
 
 So, who do I think I am?&nbsp; Well, at this stage it appears that my blood is:
 

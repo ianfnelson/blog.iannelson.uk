@@ -26,7 +26,7 @@ Easy, right? And yet at runtime Windsor surprised me by throwing this exception 
 > 
 > Keys (components with specific keys)
 > 
-> &#8211; leadAllocators which was not registered.
+> – leadAllocators which was not registered.
 
 Huh?! What gives? Well, a little Googling revealed [this post][1] from Castle founder Hamilton Verissimo explaining that by default the Castle MicroKernel expects me to define what should be included in the array. But he goes on to explain that the behaviour I desire can be achieved by registering a custom subresolver with the microkernel. That subresolver has since been included in the Castle Windsor distro, so in actual fact all I needed to do was add the following line of code when configuring my container:
 

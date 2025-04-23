@@ -12,7 +12,7 @@ categories:
 ---
 Near the end of 2018, I stumbled upon a thread of tweets by First Minister of Scotland Nicola Sturgeon in which she shared some of the many books that she had enjoyed during that year. I was both amazed and ashamed that a leader of a nation could consume so much literature whilst I, a mere sellsword codemonkey, barely got through a book every month (or two).
 
-It wasn’t that I didn’t enjoy reading &#8211; I have always loved reading (and buying) books &#8211; it was just that I had somehow convinced myself that I didn’t have the time to read. I realised that this simply wasn’t true, that I could easily make time to read if I so desired, and vowed to consume more books during 2019.
+It wasn’t that I didn’t enjoy reading – I have always loved reading (and buying) books – it was just that I had somehow convinced myself that I didn’t have the time to read. I realised that this simply wasn’t true, that I could easily make time to read if I so desired, and vowed to consume more books during 2019.
 
 Pleasingly, I’ve been quite successful in my endeavours. [Audible][1] has helped greatly, turning otherwise dead time spent commuting, walking the dog, mowing the lawn, or working out at the gym into productive book consumption time.
 
@@ -74,7 +74,7 @@ A relatively short book that, in places, inevitably covers some of the same grou
 
 **[Fifty Things That Made the Modern Economy][12]** by Tim Harford
 
-A lovely easy book to dip into. Fifty bite-sized micro-documentaries explaining how the modern economy as we know it was formed. I listened to much of this while decorating my study and mowing the lawn. I fear it may have resulted in my becoming a tedious bore (&#8220;Did you know&#8230;?&#8221;) in conversations with Mrs Nelson for weeks afterwards.
+A lovely easy book to dip into. Fifty bite-sized micro-documentaries explaining how the modern economy as we know it was formed. I listened to much of this while decorating my study and mowing the lawn. I fear it may have resulted in my becoming a tedious bore (“Did you know&#8230;?”) in conversations with Mrs Nelson for weeks afterwards.
 
 [**Gotta Get Theroux This: My Life and Strange Times in Television**][13] by Louis Theroux
 

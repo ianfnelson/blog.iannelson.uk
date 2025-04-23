@@ -8,14 +8,14 @@ categories:
   - Work
 
 ---
-I’ve never been a fan of those [motivational posters][1] that you see on office walls (usually in sales or marketing departments) that attempt to depict a word like &#8220;Opportunity&#8221; or &#8220;Teamwork&#8221; with a single image, usual of some nature scene or a lone individual rising above the odds to achieve a difficult goal. To my mind they always look a bit facile, glib and superficial. &#8220;Destiny&#8221; equates to a holiday villa on the Maldives?  &#8220;Integrity&#8221; is a Lion? &#8220;Success&#8221; appears to involve hang-gliding off towards the ocean in an action which brings to mind Reginald Perrin?! I demand more thought and more words from my motivational office decorations!
+I’ve never been a fan of those [motivational posters][1] that you see on office walls (usually in sales or marketing departments) that attempt to depict a word like “Opportunity” or “Teamwork” with a single image, usual of some nature scene or a lone individual rising above the odds to achieve a difficult goal. To my mind they always look a bit facile, glib and superficial. “Destiny” equates to a holiday villa on the Maldives?  “Integrity” is a Lion? “Success” appears to involve hang-gliding off towards the ocean in an action which brings to mind Reginald Perrin?! I demand more thought and more words from my motivational office decorations!
 
-For many many years, blu-tacked to my monitor at home has been an [inspirational &#8220;wallet stuffer&#8221; by Bruce B. Wilmer][2] which was given to me by my mum. It’s a short poem entitled &#8220;Go For It!&#8221; which begins:
+For many many years, blu-tacked to my monitor at home has been an [inspirational “wallet stuffer” by Bruce B. Wilmer][2] which was given to me by my mum. It’s a short poem entitled “Go For It!” which begins:
 
-_&#8220;Shake off your doubts and then go for it._  
+_“Shake off your doubts and then go for it._  
 _Check out your options and act._  
 _Find an approach to the future,_  
-_And turn today’s dreams into fact.&#8221;_
+_And turn today’s dreams into fact.”_
 
 I’ve seen those words on a daily basis for far too long. Today is the day that I stop simply reading them, and start acting upon them.
 

@@ -14,7 +14,7 @@ Today was a proud day indeed. Remember four years ago when I blogged about Jocel
 
 ![Fiancee Visa!](https://blogstouks01.z33.web.core.windows.net/2023/08/fiancee-visa_18183343_o.jpg)
 
-Well, since then we’ve turned that fiancee visa into a limited leave visa, and then into a settlement visa. We have spent over £2000 on government fees for these various rubber stamps &#8211; outrageously high amounts which resulted in letters being sent to and from the Home Office. Along the way, we got married, moved house, and of course [Benjamin][1] came along to change our lives forever (in a good way, of course, Son!).
+Well, since then we’ve turned that fiancee visa into a limited leave visa, and then into a settlement visa. We have spent over £2000 on government fees for these various rubber stamps – outrageously high amounts which resulted in letters being sent to and from the Home Office. Along the way, we got married, moved house, and of course [Benjamin][1] came along to change our lives forever (in a good way, of course, Son!).
 
 But I’m proud to report that today Jocelyn collected a certificate of naturalisation from Peter Sowray, Chairman of North Yorkshire County Council, granting her full British Citizenship.
 

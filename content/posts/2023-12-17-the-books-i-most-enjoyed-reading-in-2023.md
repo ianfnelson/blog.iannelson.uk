@@ -21,7 +21,7 @@ There is no flab in this book, it ploughs on at quite a fast pace through Stewar
 
 ## [Tomorrow, and Tomorrow, and Tomorrow][4] by Gabrielle Zevin 
 
-In 2023 I rediscovered the pleasure of playing computer games, eighteen years after writing a fairly grumpy blog post in which I declared that &#8220;[The whole concept seemed utterly pointless, a real waste of time][5]&#8220;. A spring break between contracts coincided with the release of _Zelda: Tears of the Kingdom_, which I bought on a whim after stumbling across [Keza MacDonald’s effusive five-star review in _The Guardian_][6]. Since then I’ve spent 167 hours playing that wonderful game, and have also relaxed by playing _[Creaks][7]_ on Apple Arcade and _[Return to Monkey Island][8]_ (32 years after playing the original on the Amiga).
+In 2023 I rediscovered the pleasure of playing computer games, eighteen years after writing a fairly grumpy blog post in which I declared that “[The whole concept seemed utterly pointless, a real waste of time][5]“. A spring break between contracts coincided with the release of _Zelda: Tears of the Kingdom_, which I bought on a whim after stumbling across [Keza MacDonald’s effusive five-star review in _The Guardian_][6]. Since then I’ve spent 167 hours playing that wonderful game, and have also relaxed by playing _[Creaks][7]_ on Apple Arcade and _[Return to Monkey Island][8]_ (32 years after playing the original on the Amiga).
 
 It was with this background that I that I read _Tomorrow, and Tomorrow, and Tomorrow_ towards the end of the year. It’s a novel set over several decades about two friends who collaborate to develop and publish increasingly epic computer games whilst navigating romances, friendship, fallouts, family, health challenges, and other life-changing events. It’s very touching and heartfelt, and caused me to think about the value of play in our lives, and of maintaining friendships over extended periods.
 
@@ -29,7 +29,7 @@ It was with this background that I that I read _Tomorrow, and Tomorrow, and Tomo
 
 ## [Surrender: 40 Songs, One Story][9] by Bono 
 
-Faced with a &#8220;to-read&#8221; list that now numbers into the seventies, I made a point of actively abandoning some books that I was not enjoying during 2023, rather than struggling through them to the bitter end. As my wife Jocelyn is fond of reminding me, life is too short to read books that you’re not enjoying. Cognisant of my maturing years and the theories of [Optimal Stopping][10], I’ve also tended to stick to favourite genres this year rather than trying something new.
+Faced with a “to-read” list that now numbers into the seventies, I made a point of actively abandoning some books that I was not enjoying during 2023, rather than struggling through them to the bitter end. As my wife Jocelyn is fond of reminding me, life is too short to read books that you’re not enjoying. Cognisant of my maturing years and the theories of [Optimal Stopping][10], I’ve also tended to stick to favourite genres this year rather than trying something new.
 
 So, given that I enjoy biographies, and also enjoy books on rock music, Bono’s autobiography was always destined to be high on my list of favourite reads for the year. It covers U2’s lengthy career from their early schooldays in Dublin through to being the biggest band in the world, releasing classic zeitgeist-defining records including _The Joshua Tree_ and _Achtung Baby_. There is an impressive cast of supporting characters mentioned in the many anecdotes in this book, including Pope John Paul II, Bill Clinton, Tony Blair, Frank Sinatra, and countless others. At one point Mikhail Gorbachev pops in for tea on a Sunday afternoon.
 
@@ -49,7 +49,7 @@ A huge book comprised of many short and easily-digestible chapters that occupied
 
 ## [The Nanny State Made Me: A Story of Britain and How to Save It][15] and [The Full English: A Journey in Search of a Country and its People][16] by Stuart Maconie 
 
-Two books by DJ Stuart Maconie make my list of favourites this year. _The Nanny State Made Me_ iterates through stages in Maconie’s life, highlighting how at each point the welfare state in the UK provided him with the necessary support to become a useful and productive member of society. As with most Maconie books the politics is interspersed with an abundance of cultural references, and this helped to boost my &#8220;to watch&#8221;/&#8221;to listen&#8221; lists.
+Two books by DJ Stuart Maconie make my list of favourites this year. _The Nanny State Made Me_ iterates through stages in Maconie’s life, highlighting how at each point the welfare state in the UK provided him with the necessary support to become a useful and productive member of society. As with most Maconie books the politics is interspersed with an abundance of cultural references, and this helped to boost my “to watch”/”to listen” lists.
 
 In _The Full English_, Maconie retraces a journey through England originally taken by J.B.Priestley in his travelogue _[English Journey][17]_ in 1934, comparing and contrasting how the nation has changed in the intervening decades. Despite acknowledging that there is much that needs improving in England, there is also a love and sentimentality for the nation in evidence here. I was surprised to learn that Maconie’s father used to work for the same now-defunct manufacturer that employed my own Dad, so felt quite connected to those passages. I was also amused to hear him, as a proud Lancastrian, extol the virtues of Ilkley and admit that he could conceive of living there.
 
@@ -61,11 +61,11 @@ In this series of essays adapted from his podcast, novelist John Green reviews a
 
 The oldest book on my list this year, _White Noise_ was written in 1985. Some of the characters and events depicted seemed oddly familiar – maybe it’s deja vu, but I can’t preclude having read this book previously and forgotten having done so!
 
-I enjoyed this more than _[Great Jones Street][20]_, also by DeLillo, which I read in 2019 but which didn’t make my annual blog post that year. It is written in the first person from the POV of the protagonist, a male middle-aged college professor in a sleepy American town who has developed the field of &#8220;Hitler Studies&#8221;. Despite being almost forty years old, it covers themes of consumer culture, academia and mortality which remain relevant.
+I enjoyed this more than _[Great Jones Street][20]_, also by DeLillo, which I read in 2019 but which didn’t make my annual blog post that year. It is written in the first person from the POV of the protagonist, a male middle-aged college professor in a sleepy American town who has developed the field of “Hitler Studies”. Despite being almost forty years old, it covers themes of consumer culture, academia and mortality which remain relevant.
 
 ## [The Storyteller: Tales of Life and Music][21] by Dave Grohl 
 
-Another rock autobiography, and a brilliant collection of stories. Dave Grohl comes across as a very humble and lucky individual who can’t quite believe his good fortune at being a driving force behind some of the most successful bands in the world. There is an ordinariness to Grohl’s tales that is quite striking when compared to Bono’s book. Extended passages and chapters are given over to (surprisingly entertaining) anecdotes about losing a wallet at a gas station, or shopping for toys with his daughters. Yes, there’s a cast of famous names &#8211; Paul McCartney pops round to play the piano &#8211; but it’s all so natural and down to earth that you can’t begrudge Grohl his good fortune.
+Another rock autobiography, and a brilliant collection of stories. Dave Grohl comes across as a very humble and lucky individual who can’t quite believe his good fortune at being a driving force behind some of the most successful bands in the world. There is an ordinariness to Grohl’s tales that is quite striking when compared to Bono’s book. Extended passages and chapters are given over to (surprisingly entertaining) anecdotes about losing a wallet at a gas station, or shopping for toys with his daughters. Yes, there’s a cast of famous names – Paul McCartney pops round to play the piano – but it’s all so natural and down to earth that you can’t begrudge Grohl his good fortune.
 
 ![The Storyteller cover](https://blogstouks01.z33.web.core.windows.net/2023/12/51YPIMud0eL._SL500_.jpg)
 
@@ -79,9 +79,9 @@ I knew nothing about the plot of this novel before I started reading it; I certa
 
 Most of the tech books that I read in 2023 were focused on specific technologies, as I moved on from a much-loved five-year contract at NHS Digital and had to grok an unfamiliar tech stack. This delightful and relatively short book was one of the only tech-agnostic software books that I read, and I wish that it had been available to me much earlier in my career.
 
-Ousterhout writes engagingly about complex software design topics, offering opinions and philosophies for an approach to development that can sometimes be at odds with that espoused in the better-known _Clean Code_ by Robert Martin. I know that I won’t follow all of the advice given in this philosophy (I’ve never been a fan of code comments, for instance), but have taken to heart chapters on writing general purpose modules, and &#8220;different layer, different abstraction&#8221;.
+Ousterhout writes engagingly about complex software design topics, offering opinions and philosophies for an approach to development that can sometimes be at odds with that espoused in the better-known _Clean Code_ by Robert Martin. I know that I won’t follow all of the advice given in this philosophy (I’ve never been a fan of code comments, for instance), but have taken to heart chapters on writing general purpose modules, and “different layer, different abstraction”.
 
-As I write this I note that it is flagged on Amazon as being one of the &#8220;Most Gifted&#8221; books in the Software Design genre, and that doesn’t surprise me – it’s a book that I would like those who I collaborate with to have read and absorbed.
+As I write this I note that it is flagged on Amazon as being one of the “Most Gifted” books in the Software Design genre, and that doesn’t surprise me – it’s a book that I would like those who I collaborate with to have read and absorbed.
 
 ## [Why Is This Lying Bastard Lying To Me? Searching for the Truth on Political TV][24] by Rob Burley 
 

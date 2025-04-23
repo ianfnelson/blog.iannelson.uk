@@ -24,7 +24,7 @@ Here’s how you order breakfast in Britain:
       </td>
       
       <td>
-        &#8220;<a href="http://en.wikipedia.org/wiki/Full_English_Breakfast">Full English Breakfast</a>, please.&#8221;
+        “<a href="http://en.wikipedia.org/wiki/Full_English_Breakfast">Full English Breakfast</a>, please.”
       </td>
     </tr>
     
@@ -34,7 +34,7 @@ Here’s how you order breakfast in Britain:
       </td>
       
       <td>
-        &#8220;D’you want tea or coffee with that?&#8221;
+        “D’you want tea or coffee with that?”
       </td>
     </tr>
     
@@ -44,7 +44,7 @@ Here’s how you order breakfast in Britain:
       </td>
       
       <td>
-        &#8220;Tea, please.&#8221;
+        “Tea, please.”
       </td>
     </tr>
     
@@ -54,7 +54,7 @@ Here’s how you order breakfast in Britain:
       </td>
       
       <td>
-        &#8220;OK.&#8221;
+        “OK.”
       </td>
     </tr>
   </table>
@@ -72,7 +72,7 @@ Now, compare that if you will to the American breakfasting experience.  The she
       </td>
       
       <td>
-        &#8220;Are you ready to order?&#8221;
+        “Are you ready to order?”
       </td>
     </tr>
     
@@ -82,7 +82,7 @@ Now, compare that if you will to the American breakfasting experience.  The she
       </td>
       
       <td>
-        &#8220;I think so.  I’ll have the Sausage and Eggs, please.&#8221;
+        “I think so.  I’ll have the Sausage and Eggs, please.”
       </td>
     </tr>
     
@@ -92,7 +92,7 @@ Now, compare that if you will to the American breakfasting experience.  The she
       </td>
       
       <td>
-        &#8220;Do you want links sausages or patty?
+        “Do you want links sausages or patty?
       </td>
     </tr>
     
@@ -102,7 +102,7 @@ Now, compare that if you will to the American breakfasting experience.  The she
       </td>
       
       <td>
-        &#8220;Oh.  Um, links, please.&#8221;
+        “Oh.  Um, links, please.”
       </td>
     </tr>
     
@@ -112,7 +112,7 @@ Now, compare that if you will to the American breakfasting experience.  The she
       </td>
       
       <td>
-        &#8220;How do you want your eggs?
+        “How do you want your eggs?
       </td>
     </tr>
     
@@ -122,7 +122,7 @@ Now, compare that if you will to the American breakfasting experience.  The she
       </td>
       
       <td>
-        &#8220;Fried, please.&#8221;
+        “Fried, please.”
       </td>
     </tr>
     
@@ -132,7 +132,7 @@ Now, compare that if you will to the American breakfasting experience.  The she
       </td>
       
       <td>
-        &#8220;Fried how?&#8221;
+        “Fried how?”
       </td>
     </tr>
     
@@ -142,7 +142,7 @@ Now, compare that if you will to the American breakfasting experience.  The she
       </td>
       
       <td>
-        &#8220;Fried how?  In a frying pan, preferably!&#8221;
+        “Fried how?  In a frying pan, preferably!”
       </td>
     </tr>
     
@@ -152,7 +152,7 @@ Now, compare that if you will to the American breakfasting experience.  The she
       </td>
       
       <td>
-        &#8220;Over hard, over easy, over medium, or sunny side up?&#8221;
+        “Over hard, over easy, over medium, or sunny side up?”
       </td>
     </tr>
     
@@ -162,7 +162,7 @@ Now, compare that if you will to the American breakfasting experience.  The she
       </td>
       
       <td>
-        &#8220;What the&#8230;?&#8221;
+        “What the&#8230;?”
       </td>
     </tr>
     
@@ -172,7 +172,7 @@ Now, compare that if you will to the American breakfasting experience.  The she
       </td>
       
       <td>
-        &#8220;You have them sunny side up, honey.&#8221;
+        “You have them sunny side up, honey.”
       </td>
     </tr>
     
@@ -182,7 +182,7 @@ Now, compare that if you will to the American breakfasting experience.  The she
       </td>
       
       <td>
-        &#8220;Oh, OK.  Sunny side up then, please.&#8221;
+        “Oh, OK.  Sunny side up then, please.”
       </td>
     </tr>
     
@@ -192,7 +192,7 @@ Now, compare that if you will to the American breakfasting experience.  The she
       </td>
       
       <td>
-        &#8220;And what two sides would you like?&#8221;
+        “And what two sides would you like?”
       </td>
     </tr>
     
@@ -202,7 +202,7 @@ Now, compare that if you will to the American breakfasting experience.  The she
       </td>
       
       <td>
-        &#8220;I beg your pardon?&#8221;
+        “I beg your pardon?”
       </td>
     </tr>
     
@@ -212,7 +212,7 @@ Now, compare that if you will to the American breakfasting experience.  The she
       </td>
       
       <td>
-        &#8220;You get a choice of two side options from the list there&#8230;&#8221;
+        “You get a choice of two side options from the list there&#8230;”
       </td>
     </tr>
   </table>
@@ -228,7 +228,7 @@ I consult the list, by this time panicking a tad, and wondering what exactly “
       </td>
       
       <td>
-        &#8220;OK, I’ll go for hash browns and bacon, please.&#8221;
+        “OK, I’ll go for hash browns and bacon, please.”
       </td>
     </tr>
     
@@ -238,7 +238,7 @@ I consult the list, by this time panicking a tad, and wondering what exactly “
       </td>
       
       <td>
-        &#8220;And what would you like to drink with that?&#8221;
+        “And what would you like to drink with that?”
       </td>
     </tr>
     
@@ -248,7 +248,7 @@ I consult the list, by this time panicking a tad, and wondering what exactly “
       </td>
       
       <td>
-        &#8220;Coffee, please.&#8221;
+        “Coffee, please.”
       </td>
     </tr>
     
@@ -258,7 +258,7 @@ I consult the list, by this time panicking a tad, and wondering what exactly “
       </td>
       
       <td>
-        &#8220;Latte, Americano, Cappuccino, Espresso&#8230;?  Decaf or Regular&#8230;?&#8221;
+        “Latte, Americano, Cappuccino, Espresso&#8230;?  Decaf or Regular&#8230;?”
       </td>
     </tr>
     
@@ -268,7 +268,7 @@ I consult the list, by this time panicking a tad, and wondering what exactly “
       </td>
       
       <td>
-        &#8220;Oh God, er, regular cappuccino, please.&#8221;
+        “Oh God, er, regular cappuccino, please.”
       </td>
     </tr>
     
@@ -278,7 +278,7 @@ I consult the list, by this time panicking a tad, and wondering what exactly “
       </td>
       
       <td>
-        &#8220;And what bread would you like for your toast?&#8221;
+        “And what bread would you like for your toast?”
       </td>
     </tr>
     
@@ -288,7 +288,7 @@ I consult the list, by this time panicking a tad, and wondering what exactly “
       </td>
       
       <td>
-        &#8220;Brown, please.&#8221;
+        “Brown, please.”
       </td>
     </tr>
     
@@ -298,7 +298,7 @@ I consult the list, by this time panicking a tad, and wondering what exactly “
       </td>
       
       <td>
-        &#8220;Brown?!&#8221;
+        “Brown?!”
       </td>
     </tr>
     
@@ -308,7 +308,7 @@ I consult the list, by this time panicking a tad, and wondering what exactly “
       </td>
       
       <td>
-        &#8220;He means &#8216;wheat’.&#8221;
+        “He means &#8216;wheat’.”
       </td>
     </tr>
     
@@ -318,7 +318,7 @@ I consult the list, by this time panicking a tad, and wondering what exactly “
       </td>
       
       <td>
-        &#8220;OK, coming up..&#8221;
+        “OK, coming up..”
       </td>
     </tr>
   </table>
@@ -336,7 +336,7 @@ Even the simplest snippets of dialogue can provoke unexpected reactions.  Back 
       </td>
       
       <td>
-        &#8220;So, how were your eggs?
+        “So, how were your eggs?
       </td>
     </tr>
     
@@ -346,7 +346,7 @@ Even the simplest snippets of dialogue can provoke unexpected reactions.  Back 
       </td>
       
       <td>
-        &#8220;They were lovely, thank you.&#8221;
+        “They were lovely, thank you.”
       </td>
     </tr>
     
@@ -356,7 +356,7 @@ Even the simplest snippets of dialogue can provoke unexpected reactions.  Back 
       </td>
       
       <td>
-        &#8220;<em>Lovely</em>?!  Ha ha!  Where the hell are <em>you</em> from?!&#8221;
+        “<em>Lovely</em>?!  Ha ha!  Where the hell are <em>you</em> from?!”
       </td>
     </tr>
   </table>

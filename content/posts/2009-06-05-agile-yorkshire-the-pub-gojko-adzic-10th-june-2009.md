@@ -12,7 +12,7 @@ categories:
 
 If you’re in the Leeds area next Wednesday, why not come along to this Agile Yorkshire session?
 
-> ### 10th June &#8211; Gojko Adzic: Slim, The Future Of FitNesse
+> ### 10th June – Gojko Adzic: Slim, The Future Of FitNesse
 > 
 > #### Details
 > 

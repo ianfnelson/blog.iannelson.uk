@@ -12,11 +12,11 @@ categories:
 
 A few days ago a friend emailed me the following question regarding NHibernate mappings for a solution he’s currently developing:
 
-> &ldquo;I have an idea entity that has a collection of comment entities and I need to get the comment count for each idea. I made a massive mistake at the beginning by calling idea.Comments.Count (even worse, I did it in the view!), which due to the collection being lazy-loaded caused about 10 database calls so performance was sluggish even with second level cache. I was therefore wondering how you would do it &#8211; would you use HQL and use Comments.size or would you do something differently?&rdquo;
+> &ldquo;I have an idea entity that has a collection of comment entities and I need to get the comment count for each idea. I made a massive mistake at the beginning by calling idea.Comments.Count (even worse, I did it in the view!), which due to the collection being lazy-loaded caused about 10 database calls so performance was sluggish even with second level cache. I was therefore wondering how you would do it – would you use HQL and use Comments.size or would you do something differently?&rdquo;
 
 Now, I&rsquo;ve been pretty busy recently, so before I had opportunity to respond properly, he sent this follow-up:
 
-> "After looking for a solution for getting a Comment count back for each Idea, I found using the Nhibernate Formula method does the job &#8211; just wanting to make sure I was on the right track in terms of performance etc. My mapping class is as follows:"
+> "After looking for a solution for getting a Comment count back for each Idea, I found using the Nhibernate Formula method does the job – just wanting to make sure I was on the right track in terms of performance etc. My mapping class is as follows:"
 > 
 > 
 
@@ -26,7 +26,7 @@ I considered this for a while, and sent the following suggestions:
 > 
 >   1. I try to minimize my use of strings (and especially SQL) so as to make refactorings easier, and lessen the potential for runtime exceptions.
 >   2. The default NH behaviour will be to evaluate that formula every time an Idea entity is loaded, which might not be desirable and could negatively impact on performance when loading your idea entities. I’m not sure if the recently-added [Lazy Properties feature][1] of NH can be applied to these derived properties; if so then that could be used to negate this argument.
->   3. I try to avoid putting logic (however simple) in the OR mapping layer, as future developers are unlikely to expect to find it there! I like to reduce the element of surprise in my solutions, and put such logic in the domain layer. I think logic in the OR layer limits options going forward &#8211; for example if you subsequently decide all comments have to be moderated, does the CommentCount formula have to be modified to exclude comments awaiting moderation..?
+>   3. I try to avoid putting logic (however simple) in the OR mapping layer, as future developers are unlikely to expect to find it there! I like to reduce the element of surprise in my solutions, and put such logic in the domain layer. I think logic in the OR layer limits options going forward – for example if you subsequently decide all comments have to be moderated, does the CommentCount formula have to be modified to exclude comments awaiting moderation..?
 > 
 > So, what would I do? Here are two options, depending on how often you’re using the CommentCount property:
 > 

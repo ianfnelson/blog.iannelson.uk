@@ -19,7 +19,7 @@ In these situations, I try my best to lead by example, continuing to practise TD
 
 **1. I know that my code works.**
 
-Let’s get the obvious one out of the way first. If I take the time to write unit tests for my code, then I know that the code &#8220;works&#8221; (i.e. that it behaves as I intended, or hopefully as the specification requested). Any time I want to check that my code works, I can do so with a few clicks. The confidence and feeling of well-being that this brings can’t be underestimated. If you don’t have unit tests, how do you know that your code works?
+Let’s get the obvious one out of the way first. If I take the time to write unit tests for my code, then I know that the code “works” (i.e. that it behaves as I intended, or hopefully as the specification requested). Any time I want to check that my code works, I can do so with a few clicks. The confidence and feeling of well-being that this brings can’t be underestimated. If you don’t have unit tests, how do you know that your code works?
 
 **2. I know when I’m finished.**
 
@@ -27,7 +27,7 @@ As you’ll know if you’ve read my [post professing my undying love for Rememb
 
 **3. I can develop cleaner APIs.**
 
-I’m not much of a UI developer; I spend much more of my time working in the middle tier, making class libraries, object models, WCF services and the like. When practicing TDD, I write tests to consume my code before I write the code itself. This forces me to think about things like method signatures and member visibility. Should that method really be public? Do I really need that &#8220;out&#8221; parameter? Will all those overloads get used? If I didn’t write tests for the middle tier in this way, I wouldn’t consider these questions in quite so much detail, and these issues wouldn’t come to light until I (or worse, someone else), began consuming my code for real.
+I’m not much of a UI developer; I spend much more of my time working in the middle tier, making class libraries, object models, WCF services and the like. When practicing TDD, I write tests to consume my code before I write the code itself. This forces me to think about things like method signatures and member visibility. Should that method really be public? Do I really need that “out” parameter? Will all those overloads get used? If I didn’t write tests for the middle tier in this way, I wouldn’t consider these questions in quite so much detail, and these issues wouldn’t come to light until I (or worse, someone else), began consuming my code for real.
 
 **4. Testable code is well-designed code.**
 
@@ -35,35 +35,35 @@ This one came as an unexpected surprise to me after I had been writing unit test
 
 It turns out that many of the techniques which can be used to make code more testable are the exact same techniques which make code better designed, understandable, flexible and maintainable.
 
-Be honest, when you’re cutting code, how often do you consider things like Low Coupling, High Cohesion, and adhering to the Single Responsibility Principle? Probably not often, I’ll bet. I know I didn’t. But since I started asking myself &#8220;How can I make this code testable?&#8221; I’ve been delighted to realise that my code magically acquired these properties as a pleasant side effect. Similarly, using techniques like Dependency Injection and Inversion of Control along with Mocking Frameworks for the purposes of testability also serves to make the solution more open to change, and reduces dependencies during the development process (no longer do you hear &#8220;Gee boss, I’d love to get started writing the Foo class, but it depends on the Bar class, and Dave hasn’t finished writing that, what with the accident with the bus and all…&#8221;).
+Be honest, when you’re cutting code, how often do you consider things like Low Coupling, High Cohesion, and adhering to the Single Responsibility Principle? Probably not often, I’ll bet. I know I didn’t. But since I started asking myself “How can I make this code testable?” I’ve been delighted to realise that my code magically acquired these properties as a pleasant side effect. Similarly, using techniques like Dependency Injection and Inversion of Control along with Mocking Frameworks for the purposes of testability also serves to make the solution more open to change, and reduces dependencies during the development process (no longer do you hear “Gee boss, I’d love to get started writing the Foo class, but it depends on the Bar class, and Dave hasn’t finished writing that, what with the accident with the bus and all…”).
 
 **5. I can refactor mercilessly and fearlessly.**
 
-> &#8220;Nel-son!!&#8221;
+> “Nel-son!!”
 
-I like refactoring. No, wait, scrub that – I _love_ refactoring. Some people get their kicks from gardening, well, I could spend many happy hours weeding a big tangled codebase. Now, in the past, this has gotten me into trouble, when the &#8220;improvements&#8221; I’ve rashly made have inadvertently caused bugs (sorry John, Sion, Scott and Colin!). Since adopting TDD however, I’ve been confident that my code is sufficiently covered by unit tests that I may refactor mercilessly, safe in the knowledge that the test suite will highlight any unintended side effects. This results in a winning combination of clean code and co-workers who don’t have an urge to throttle me.
+I like refactoring. No, wait, scrub that – I _love_ refactoring. Some people get their kicks from gardening, well, I could spend many happy hours weeding a big tangled codebase. Now, in the past, this has gotten me into trouble, when the “improvements” I’ve rashly made have inadvertently caused bugs (sorry John, Sion, Scott and Colin!). Since adopting TDD however, I’ve been confident that my code is sufficiently covered by unit tests that I may refactor mercilessly, safe in the knowledge that the test suite will highlight any unintended side effects. This results in a winning combination of clean code and co-workers who don’t have an urge to throttle me.
 
 **6. I Release Fewer Stupid Mistakes.**
 
-> &#8220;Ah, yeah, silly me, I just copied-and-pasted a line in the DAL, and now all your customers are displaying as having the same forename and surname! Smith Smith, Brown Brown, ha ha!&#8221;
+> “Ah, yeah, silly me, I just copied-and-pasted a line in the DAL, and now all your customers are displaying as having the same forename and surname! Smith Smith, Brown Brown, ha ha!”
 
-Perversely, some coders seem to wear their really dumb mistakes as a &#8220;badge of honour&#8221;, proof of their fallibility, a sign that they are human. It’s as if they are suggesting to their boss/client not to worry, that they _only_ make dumb mistakes on the easy code, but concentrate much harder when coding the tough algorithms. Honest, guv’.
+Perversely, some coders seem to wear their really dumb mistakes as a “badge of honour”, proof of their fallibility, a sign that they are human. It’s as if they are suggesting to their boss/client not to worry, that they _only_ make dumb mistakes on the easy code, but concentrate much harder when coding the tough algorithms. Honest, guv’.
 
-I don’t buy this crap. Stupid mistakes are stupid mistakes, period. I think that dumb mistakes, uncaught at an early stage, waste the time of the test team, result in rework, and ultimately waste the client’s money. That’s nothing to laugh about. Covering even the simple, easy code with unit tests reduces the likelihood of these knucklehead bugs getting through, increasing my likelihood of a &#8220;right-first-time&#8221; reputation. And _that’s_ something to be proud of.
+I don’t buy this crap. Stupid mistakes are stupid mistakes, period. I think that dumb mistakes, uncaught at an early stage, waste the time of the test team, result in rework, and ultimately waste the client’s money. That’s nothing to laugh about. Covering even the simple, easy code with unit tests reduces the likelihood of these knucklehead bugs getting through, increasing my likelihood of a “right-first-time” reputation. And _that’s_ something to be proud of.
 
 **7. Bugs don’t come back.**
 
-> &#8220;But I’m _sure_ we fixed that bug months ago!&#8221;
+> “But I’m _sure_ we fixed that bug months ago!”
 
-Before I fix a bug, I write a failing test. That test then becomes a permanent fixture in the test suite, and therefore I can be confident that no &#8220;undead bug&#8221; will ever come back to haunt me. It’s a very simple concept, but it works. Bug reactivations imply loose development practices, and that’s not an implication I want to be made about my work. Kill the bug once, and keep it dead.
+Before I fix a bug, I write a failing test. That test then becomes a permanent fixture in the test suite, and therefore I can be confident that no “undead bug” will ever come back to haunt me. It’s a very simple concept, but it works. Bug reactivations imply loose development practices, and that’s not an implication I want to be made about my work. Kill the bug once, and keep it dead.
 
 **8. It’s the fastest way to test my changes.**
 
-Testing my changes through artificial unit tests is invariably quicker than testing the functionality by calling it through &#8220;real life&#8221; use of the overall system.
+Testing my changes through artificial unit tests is invariably quicker than testing the functionality by calling it through “real life” use of the overall system.
 
-Suppose that I’m working on amended postage charge logic for an online retailer &#8211; I could test this by either:
+Suppose that I’m working on amended postage charge logic for an online retailer – I could test this by either:
 
-a) Repeatedly manually walking through the application, adding a product to my basket, attempting to &#8220;check out&#8221;, and calculating whether the displayed postage charge is as I expect, or
+a) Repeatedly manually walking through the application, adding a product to my basket, attempting to “check out”, and calculating whether the displayed postage charge is as I expect, or
 
 b) Writing a unit test once to automate the testing of the new logic.
 
@@ -74,11 +74,11 @@ Gee, let me think about that for a while&#8230;
 Stop me if this conversation sound  
 s at all familiar:
 
-> &#8220;How was your day today, darling?&#8221;
+> “How was your day today, darling?”
 > 
-> &#8220;Ugh, don’t ask. I spent, like, _seven hours_ trying to track down a bug. I pulled out Reflector, and even started debugging into the .NET framework class library &#8211; I was convinced for a while there it was a problem in System.String. But it turned out I just had some Boolean logic the wrong way round.&#8221;
+> “Ugh, don’t ask. I spent, like, _seven hours_ trying to track down a bug. I pulled out Reflector, and even started debugging into the .NET framework class library – I was convinced for a while there it was a problem in System.String. But it turned out I just had some Boolean logic the wrong way round.”
 > 
-> &#8220;That’s nice, dear. More mange tout?&#8221;
+> “That’s nice, dear. More mange tout?”
 
 Visual Studio has excellent debugging tools, but still, I’d rather be spending my time cutting new code, thanks all the same. I’m sure the clients who pay my invoices feel much the same. Catching the bugs early, through effective unit testing, means that I spend far less time in the debugger.
 
@@ -92,7 +92,7 @@ But here’s the neat thing – having taken the time to create a comprehensive 
 
 **11. I can hand the code over to other people.**
 
-> &#8220;Dave’s the only person who understands that code.&#8221;
+> “Dave’s the only person who understands that code.”
 
 Oh really? What happens when Dave is on holiday? Or quits to get a better-paid job? Or gets hit by a bus? That’s a bit of a risk for your project, surely.
 

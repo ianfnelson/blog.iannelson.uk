@@ -17,14 +17,14 @@ I think I may have mentioned that the wife is away in the States for a while. &n
 
 The following evening, though, I came to resume my game, and&#8230; &nbsp;I just couldn’t be bothered. &nbsp;The whole concept seemed utterly pointless, a real waste of time. &nbsp;Why squander an evening encouraging AI sims to develop their skills and improve their house when, here in the real life, I had bookcases to build, books to read, music to enjoy, new DVDs to watch, a fantastic city to go out and enjoy, and skills to learn for my own career? &nbsp;It struck me that many of the finely-honed computer game skills I had developed over the past thirtyish years were of absolutely no use outside the parameters of those particular games.
 
-Since then, The Sims has sat on a shelf, and I’ve achieved loads over the past few weeks &#8211; Jocelyn is soon returning to find the house at the tidiest it’s been in years. &nbsp;I told my mum all this (as you do). &nbsp;She said I’m growing up. &nbsp;About bloody time.
+Since then, The Sims has sat on a shelf, and I’ve achieved loads over the past few weeks – Jocelyn is soon returning to find the house at the tidiest it’s been in years. &nbsp;I told my mum all this (as you do). &nbsp;She said I’m growing up. &nbsp;About bloody time.
 
 But still, those earlier computer games _did_ play a big part during the first three decades of my life, so, in way of tribute, here’s a quick rundown of the dozen games responsible for my most wasted hours:
 
 ## Grandstand Adman 2000 {#grandstand-adman-2000.wp-block-heading}
 
-The first &#8220;console&#8221; I ever owned, this featured four (four!) different games &#8211; football, squash, tennis and practice. &nbsp;Not only that, but it boasted configurable options for speed, angle, and bat-size! &nbsp;You simply cannot appreciate how many hours I frittered away bouncing that square block against a wall until I encountered 15 &#8220;faults&#8221; &#8211; at which point I would press the reset button and repeat the process. &nbsp;If I’m being charitable to my younger self, then I could suggest that this game at least helped me develop hand-eye coordination, and stopped me mithering my parents for a while.  
-&#8220;Real Sports Action&#8221;, says the box. &nbsp;Well, only if football ever consisted of four vertical bars deflecting a square ball moving with constant speed. &nbsp;Also &#8211; &#8220;Realistic Sound Effects&#8221;. &nbsp;It beeped! &nbsp;That was it! &nbsp;But, y’know, it was all we had, so&#8230;<figure class="wp-block-image">
+The first “console” I ever owned, this featured four (four!) different games – football, squash, tennis and practice. &nbsp;Not only that, but it boasted configurable options for speed, angle, and bat-size! &nbsp;You simply cannot appreciate how many hours I frittered away bouncing that square block against a wall until I encountered 15 “faults” – at which point I would press the reset button and repeat the process. &nbsp;If I’m being charitable to my younger self, then I could suggest that this game at least helped me develop hand-eye coordination, and stopped me mithering my parents for a while.  
+“Real Sports Action”, says the box. &nbsp;Well, only if football ever consisted of four vertical bars deflecting a square ball moving with constant speed. &nbsp;Also – “Realistic Sound Effects”. &nbsp;It beeped! &nbsp;That was it! &nbsp;But, y’know, it was all we had, so&#8230;<figure class="wp-block-image">
 
 <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/grandstand-adman-2000_35626038_o.jpg" alt="Grandstand Adman 2000" /> </figure> 
 
@@ -32,7 +32,7 @@ _Photo by [Erik Klooster][4]_
 
 ## Grandstand BMX Flyer {#grandstand-bmx-flyer.wp-block-heading}
 
-Oh, now this handheld LCD console was (is?) a most favourite game of mine. &nbsp;I can still hum the tune, and I still know that my highest-ever score was 14,070. &nbsp;Brilliant fun &#8211; highly addictive and an appealing concept for a seven year-old lad (&#8220;avoid the crows!&#8221; &nbsp;&#8220;jump for the girl in the balloon!&#8221; &nbsp;&#8220;kick dirt in the baddy’s face!&#8221;).<figure class="wp-block-image">
+Oh, now this handheld LCD console was (is?) a most favourite game of mine. &nbsp;I can still hum the tune, and I still know that my highest-ever score was 14,070. &nbsp;Brilliant fun – highly addictive and an appealing concept for a seven year-old lad (“avoid the crows!” &nbsp;“jump for the girl in the balloon!” &nbsp;“kick dirt in the baddy’s face!”).<figure class="wp-block-image">
 
 <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/grandstand-bmxflyerboxfrontjpg_35626067_o.jpg" alt="Grandstand BMX Flyer" /> </figure> 
 
@@ -45,11 +45,11 @@ OK, who am I kidding? &nbsp;Starter Chess was, in all respects, an exercise in p
 
 ## Fruit Machine Simulator (Commodore 16) {#fruit-machine-simulator-commodore-16-.wp-block-heading}
 
-I’m beginning to think I must’ve been a bit of a masochist as a child, because I absolutely loved this single-screen game which attempted to &#8220;simulate&#8221; a pretty simplistic fruit machine. &nbsp;Press a key to enter some coins. &nbsp;Press another key to pull the lever. &nbsp;Maybe, just maybe, you then have the possibility of pressing further keys to &#8220;hold&#8221; or &#8220;nudge&#8221; &#8211; oh, the excitement was palpable. &nbsp;It sounds really dull now, but I loved it at the time. &nbsp;I remember trying to figure out the probability with which the various game events occurred &#8211; were they truly random, or were they influenced by the user’s actions? &nbsp;What was the average length of a game, before you either went bust or accumulated the target winnings? &nbsp;A future university career in mathematics was &nbsp;already evident..
+I’m beginning to think I must’ve been a bit of a masochist as a child, because I absolutely loved this single-screen game which attempted to “simulate” a pretty simplistic fruit machine. &nbsp;Press a key to enter some coins. &nbsp;Press another key to pull the lever. &nbsp;Maybe, just maybe, you then have the possibility of pressing further keys to “hold” or “nudge” – oh, the excitement was palpable. &nbsp;It sounds really dull now, but I loved it at the time. &nbsp;I remember trying to figure out the probability with which the various game events occurred – were they truly random, or were they influenced by the user’s actions? &nbsp;What was the average length of a game, before you either went bust or accumulated the target winnings? &nbsp;A future university career in mathematics was &nbsp;already evident..
 
 ## Kickstart (Commodore 16) {#kickstart-commodore-16-.wp-block-heading}
 
-Of all the games I had for the C16, Kickstart was the only one that I remember as being truly playable, and remotely &#8220;fast&#8221;. &nbsp;I was impressed at the time that such a game could run on a machine with such little RAM. &nbsp;This was a motorbike game (as in the old TV show, Kickstart, which I also loved), and, like BMX Flyer years early, basically involved making the bike jump at the appropriate time &#8211; balloons were involved again too, and there was an irritating-to-adults soundtrack. &nbsp;Quality.
+Of all the games I had for the C16, Kickstart was the only one that I remember as being truly playable, and remotely “fast”. &nbsp;I was impressed at the time that such a game could run on a machine with such little RAM. &nbsp;This was a motorbike game (as in the old TV show, Kickstart, which I also loved), and, like BMX Flyer years early, basically involved making the bike jump at the appropriate time – balloons were involved again too, and there was an irritating-to-adults soundtrack. &nbsp;Quality.
 
 ## Lemmings (Amiga) {#lemmings-amiga-.wp-block-heading}
 
@@ -61,7 +61,7 @@ The Christmas that brought me an Amiga 500 played a big part in sealing my futur
 
 ## Stunt Car Racer (Amiga) {#stunt-car-racer-amiga-.wp-block-heading}
 
-Stunt Car Racer was initially a very hard game. &nbsp;But, persevere and you would discover the &#8220;knack&#8221; to each of the eight challenging courses. &nbsp;So, persevere I did, and eventually reached the top of division one! &nbsp;It seemed like such an achievement at the time, but it’s not exactly something I can put on my CV in 2005, is it?<figure class="wp-block-image">
+Stunt Car Racer was initially a very hard game. &nbsp;But, persevere and you would discover the “knack” to each of the eight challenging courses. &nbsp;So, persevere I did, and eventually reached the top of division one! &nbsp;It seemed like such an achievement at the time, but it’s not exactly something I can put on my CV in 2005, is it?<figure class="wp-block-image">
 
 <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/stunt_car_racer_06_35626365_o.gif" alt="Stunt Car Racer" /> </figure> 
 
@@ -77,7 +77,7 @@ Gods was a platform game by the Bitmap Brothers, with a kicking introductory the
 
 ## Civilization series (Amiga / PC) {#civilization-series-amiga-pc-.wp-block-heading}
 
-Of all the games mentioned, I have spent the most time playing the various incarnations of Civilization on the Amiga and latterly on the PC. &nbsp;Indeed, Civ 3 with the Play The World expansion gets my vote for greatest computer game of all time. &nbsp;It’s such a brilliant concept &#8211; start with a few stone-age settlers in 4000BC and nurture them through 6000 years of growth, discovery, technological development, war and peace until they either achieve world domination or make the leap to Alpha Centauri (OK, I hear there are some other victory conditions, but these are the only two I’ve ever really found interesting). &nbsp;The level of attachment you can feel to your civilization after playing this game for an entire weekend is really quite disturbing. &nbsp;Addictive to the extreme, and often responsible for my eyes feeling very sore indeed&#8230;<figure class="wp-block-image">
+Of all the games mentioned, I have spent the most time playing the various incarnations of Civilization on the Amiga and latterly on the PC. &nbsp;Indeed, Civ 3 with the Play The World expansion gets my vote for greatest computer game of all time. &nbsp;It’s such a brilliant concept – start with a few stone-age settlers in 4000BC and nurture them through 6000 years of growth, discovery, technological development, war and peace until they either achieve world domination or make the leap to Alpha Centauri (OK, I hear there are some other victory conditions, but these are the only two I’ve ever really found interesting). &nbsp;The level of attachment you can feel to your civilization after playing this game for an entire weekend is really quite disturbing. &nbsp;Addictive to the extreme, and often responsible for my eyes feeling very sore indeed&#8230;<figure class="wp-block-image">
 
 <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/civ3jpg_35626007_o.jpg" alt="Civilization 3" /> </figure> 
 
@@ -93,7 +93,7 @@ I missed the whole Doom thing as I didn’t get a PC until leaving uni in 1997. 
 
 ## Gran Turismo 2 (Playstation) {#gran-turismo-2-playstation-.wp-block-heading}
 
-GT2 was the reason I bought a Playstation, and it was the only PSX game I played for any length of time. &nbsp;At the time I had a Ford Puma, so within the game I made a point of buying the exact same model in the same colour. &nbsp;How sad is that? &nbsp;As with my recent Sims 2 epiphany, I was eventually struck by the thought &#8220;why am I doing this within the virtual confines of a computer game when I could be doing it out in the real world?&#8221;. &nbsp;I didn’t explain this line of reasoning to the magistrate though, and the six points should come off my driving licence in a few year’s time&#8230; 😉
+GT2 was the reason I bought a Playstation, and it was the only PSX game I played for any length of time. &nbsp;At the time I had a Ford Puma, so within the game I made a point of buying the exact same model in the same colour. &nbsp;How sad is that? &nbsp;As with my recent Sims 2 epiphany, I was eventually struck by the thought “why am I doing this within the virtual confines of a computer game when I could be doing it out in the real world?”. &nbsp;I didn’t explain this line of reasoning to the magistrate though, and the six points should come off my driving licence in a few year’s time&#8230; 😉
 
 There you have it, the dirty dozen responsible for wasting much of the best years of my life. &nbsp;Who knows, without those distractions, maybe by now I would otherwise be a Nobel laureate, or rich and famous&#8230; &nbsp;or maybe I would have no hand-eye coordination, be unable to use a mouse, and not have the programming talents that now put food on our table. &nbsp;Hmmm&#8230;
 
