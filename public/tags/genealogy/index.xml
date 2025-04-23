@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Genealogy on Ian Nelson</title>
-    <link>https://blog.iannelson.uk/categories/genealogy/</link>
+    <link>https://blog.iannelson.uk/tags/genealogy/</link>
     <description>Recent content in Genealogy on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
     <lastBuildDate>Wed, 23 Apr 2025 19:16:47 +0100</lastBuildDate>
-    <atom:link href="https://blog.iannelson.uk/categories/genealogy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.iannelson.uk/tags/genealogy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>It&#39;s A Small World</title>
       <link>https://blog.iannelson.uk/its-a-small-world/</link>

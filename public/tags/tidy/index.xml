@@ -6,7 +6,7 @@
     <description>Recent content in Tidy on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Apr 2025 19:11:28 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 23 Apr 2025 19:08:44 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/tags/tidy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Temperature Blanket – A Rare Opportunity for My Coding to Assist Jocelyn&#39;s Crafting</title>
@@ -176,30 +176,6 @@ There was a good mixture of hard technical advice (how to handle versioning, aut
 <p>(where source is e.g. “<a href="http://foo.com/status/all-is-good">http://foo.com/status/all-is-good</a>“)</p>
 <p>Fortunately the ramifications were picked up in the acceptance tests, but the root cause wasn’t at all obvious from such a high level.</p>
 <p>Lesson for the day – code is never too trivial to warrant unit testing.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>It&#39;s A Small World</title>
-      <link>https://blog.iannelson.uk/its-a-small-world/</link>
-      <pubDate>Sat, 09 Apr 2011 19:04:00 +0000</pubDate>
-      <guid>https://blog.iannelson.uk/its-a-small-world/</guid>
-      <description>&lt;p&gt;It’s been a long time since I posted a blog entry tagged with “&lt;a href=&#34;https://blog.iannelson.uk/tags/genealogy&#34;&gt;genealogy&lt;/a&gt;” (over three years, in fact). I find it to be a hobby that I pursue in fits and starts – periods of all-encompassing obsession followed by long periods of total inactivity. But the old &lt;a href=&#34;https://familytree.iannelson.uk&#34;&gt;Family Tree&lt;/a&gt; has been fleshed out nicely since I last updated you, dear reader. It has also acquired a most surprising and welcome addition.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>It’s been a long time since I posted a blog entry tagged with “<a href="https://blog.iannelson.uk/tags/genealogy">genealogy</a>” (over three years, in fact). I find it to be a hobby that I pursue in fits and starts – periods of all-encompassing obsession followed by long periods of total inactivity. But the old <a href="https://familytree.iannelson.uk">Family Tree</a> has been fleshed out nicely since I last updated you, dear reader. It has also acquired a most surprising and welcome addition.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted -->My Dad and his Granny, Isabella Birrell<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<p>I’ve continued to concentrate on improving the quality and depth of the records and sources that I hold for more recent generations, rather than attempting to trace lines far into the dim and distant past. As more and more contemporary records are released into the public domain (and increasingly placed online as a matter of course), this task becomes easier, and throws up the possibility of making the kind of startling discovery that I encountered last Wednesday evening.</p>
-<p>Those of you living in the U.K. will be aware that every household was required by law to complete a decennial census return last month. A few days later, under the 100 year rule, the 1911 census of Scotland was made available online at the <a href="http://www.scotlandspeople.gov.uk">Scotland’s People</a> website. I had been eagerly anticipating this event since developing an interest in my family history, so I wasted no time in scouring the records for additional details of my relatives from north of the border.</p>
-<p>It wasn’t long before this new trove of data revealed that my great-grandmother, Isabella Birrell, had an additional sibling that I wasn’t previously aware of, named on the 1911 census as “Annie”, aged 5.</p>
-<p>A quick cross-reference with the birth records and I learned that the full name of my newly-found great-great-aunt was Ann Cunningham Birrell, born 1905.</p>
-<p>I then searched the marriage records to see if Ann had ever wed, which was when things started to take an unexpected twist:<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<p>John Conners from Dundee? Now why does that ring a bell?<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<p>Oh yeah! That’ll be it! I have a very good friend named <a href="http://johnsadventures.com/">John Conners</a> who I met when we worked together at <a href="http://www.marshalls.co.uk">Marshalls</a> for a little over two years, and he hails from Dundee too! Coincidence? I dropped him a quick email containing details of Ann and his namesake. Thirty minutes later I received his reply:<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<p>Well, it looks like this. John’s grandmother is the younger sister (by almost 20 years) of my great-grandmother Isabella. Which makes John and I second cousins once removed!<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<p>To be honest this news is still sinking in, and I’m not sure what comments to make or conclusions to draw. Except to say that it truly is a small world, and when embarking on seemingly prosaic family tree investigations, you just never know what you might discover. After five years of “bone-digging” and adding the names of often ancient and obscure relatives into my family tree, it’s a very strange feeling to be adding the details of a good friend and erstwhile colleague to that same database.</p>
-<p>Oh, and John – welcome to the family, cousin!</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1431,23 +1407,6 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
 ]]></content:encoded>
     </item>
     <item>
-      <title>Family Tree Update</title>
-      <link>https://blog.iannelson.uk/family-tree-update/</link>
-      <pubDate>Mon, 31 Dec 2007 22:12:00 +0000</pubDate>
-      <guid>https://blog.iannelson.uk/family-tree-update/</guid>
-      <description>&lt;p&gt;With the return of the dark wintry nights to this sceptered isle, I’ve been taking the opportunity to flesh out &lt;a href=&#34;https://familytree.iannelson.uk&#34;&gt;my Family Tree&lt;/a&gt; a little more.&lt;/p&gt;
-&lt;p&gt;And it isn’t just the addition of young &lt;a href=&#34;https://blog.iannelson.uk/benjamin-george-nelson/&#34;&gt;Benjamin&lt;/a&gt; – since I last uploaded a tree eleven months ago, I’ve increased the number of individuals in my database by 55, to a total of 1114 from 307 family groups.&lt;/p&gt;
-&lt;p&gt;But more than that, the quality and number of facts for many individuals has increased. This year, I’m trying to methodically work through my ancestors in a bit more detail and fill in some of the tricky gaps that I left last year when everything was new to me and there were plenty of “easy pickings” to be had.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>With the return of the dark wintry nights to this sceptered isle, I’ve been taking the opportunity to flesh out <a href="https://familytree.iannelson.uk">my Family Tree</a> a little more.</p>
-<p>And it isn’t just the addition of young <a href="https://blog.iannelson.uk/benjamin-george-nelson/">Benjamin</a> – since I last uploaded a tree eleven months ago, I’ve increased the number of individuals in my database by 55, to a total of 1114 from 307 family groups.</p>
-<p>But more than that, the quality and number of facts for many individuals has increased. This year, I’m trying to methodically work through my ancestors in a bit more detail and fill in some of the tricky gaps that I left last year when everything was new to me and there were plenty of “easy pickings” to be had.</p>
-<p>I must say, it’s sometimes quite a depressing affair, this family history research. No long-lost aristocratic lineage with associated fortunes unearthed thus far! One side of my mother’s family were steel workers in Sheffield, while the other were agricultural labourers in Lincolnshire and at one point in time five siblings from the same family died of diphtheria within a fortnight of each other.</p>
-<p>My father’s ancestors were coal-miners from Scotland, and invariably died at an early age, including my g.g.g.grandfather John Allan who died on 21st January 1863 at the age of 35 when the roof of the mine he was working in collapsed on him. Then there are all the people who never reached adulthood at all, or never married, or my great-granduncle William Henry Worfolk who <a href="http://www.cwgc.org/search/certificate.aspx?casualty=75262">died in the Battle of the Somme at the age of 20</a>.  Given all these setbacks to my gene pool, it’s quite remarkable that I’m here at all!</p>
-<p><a href="https://familytree.iannelson.uk">All the details are online here</a>. Incidentally, these pages were created automatically using <a href="http://www.gedhtree.com/">GedHTree</a>, a Windows program which converts GEDCOM files into HTML pages. I have to say, it has a fugly UI (screenshot below) of the sort that tends to make the pages of <a href="http://thedailywtf.com/">The Daily WTF</a>, but once you’ve gotten used to it, it does what it says on the tin, and I’m happy to have paid for a registered copy.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>A LINQ Gotcha – First Operator</title>
       <link>https://blog.iannelson.uk/a-linq-gotcha-first-operator/</link>
       <pubDate>Fri, 14 Dec 2007 14:12:00 +0000</pubDate>
@@ -1720,70 +1679,6 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
 <p>I took the remaining four exams at my leisure over the next few years. Whilst studying for the SQL Server (70-229), Web Services and Server Components (70-320) and Requirements and Architectures (70-300) exams, I always found myself learning several things that I hadn’t picked up on the job – in that sense at least, I think undertaking the exams was worthwhile. The final exam I took was the Windows App exam (70-316), and this was a bit of a stroll in all honesty, after the previous four exams and three year’s of .NET experience.</p>
 <p>Would I be more inclined to employ someone with an MCSD than an applicant without?  I think the qualification helps greatly in identifying potential candidates, but there are many other factors that make a good developer that aren’t covered in any depth by these exams. Design Patterns and OOP concepts in general were not really tested, even on the 70-300 exam. Knowledge of IIS was not covered on 70-306 – I guess it’s assumed that this is the realm of the Systems Administrator rather than the coder, but in reality (especially in small teams), a good ASP.NET developer needs an intimate understanding of how their web server works and is configured. What about covering topics such as source control, automated builds, and release management?  Issues such as unit testing and the benefits of code reviews were mentioned in the 70-300 exam, but there’s a difference between knowing the theory and applying this in practice. An MCSD qualification certainly demonstrates the former, but a few searching questions at interview are still required to prove the latter.</p>
 <p>So what’s next for me?  Upgrading to the “<a href="http://www.microsoft.com/learning/developer/eadev.mspx">MCPD: Enterprise Applications Developer</a>” qualification is the obvious path, and I’ll probably do so in due course, but right now I’d like to like to spend more time getting to grips with SQL Server 2005 by taking the relevant <a href="http://www.microsoft.com/learning/mcp/mcts/sql/default.mspx">MCTS exam (70-431)</a>. If that goes well, then maybe I’ll continue onto the <a href="http://www.microsoft.com/learning/mcp/mcitp/dbdev/default.mspx">MCITP: DB Dev</a> qualification. We’ll see.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>For Our Tomorrows</title>
-      <link>https://blog.iannelson.uk/for-our-tomorrows/</link>
-      <pubDate>Sun, 12 Nov 2006 20:11:00 +0000</pubDate>
-      <guid>https://blog.iannelson.uk/for-our-tomorrows/</guid>
-      <description>&lt;p&gt;On this Remembrance Sunday, permit me to share with you a photo that my cousin Helen took this week of our Granduncle’s grave in France.&lt;/p&gt;
-&lt;p&gt;Private William Henry Worfolk (1896 – 1916) of the York and Lancaster Regiment was my Grandfather’s elder brother (by four years), and was only just old enough to fight (and die) in the First World War.  A couple of years later and it could just as easily have been my grandfather, and then I wouldn’t be here to tell you this tale.  Ninety years on from that most bloody of wars, we still have much to be thankful for.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>On this Remembrance Sunday, permit me to share with you a photo that my cousin Helen took this week of our Granduncle’s grave in France.</p>
-<p>Private William Henry Worfolk (1896 – 1916) of the York and Lancaster Regiment was my Grandfather’s elder brother (by four years), and was only just old enough to fight (and die) in the First World War.  A couple of years later and it could just as easily have been my grandfather, and then I wouldn’t be here to tell you this tale.  Ninety years on from that most bloody of wars, we still have much to be thankful for.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>A Genealogical Milestone</title>
-      <link>https://blog.iannelson.uk/a-genealogical-milestone/</link>
-      <pubDate>Mon, 06 Nov 2006 08:11:00 +0000</pubDate>
-      <guid>https://blog.iannelson.uk/a-genealogical-milestone/</guid>
-      <description>&lt;p&gt;Late last night I reached a small but significant milestone in my family tree research:  I now know the names of my sixteen great-great-grandparents!  Or so I believe – I just need to wait for a couple of certificates to arrive from the GRO to prove my theories.&lt;/p&gt;
-&lt;p&gt;So, who do I think I am?  Well, at this stage it appears that my blood is:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;50.0% English&lt;/li&gt;
-&lt;li&gt;37.5% Scottish&lt;/li&gt;
-&lt;li&gt;12.5% Irish&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Those sixteen ancestors were born between 1829 and 1860.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Late last night I reached a small but significant milestone in my family tree research:  I now know the names of my sixteen great-great-grandparents!  Or so I believe – I just need to wait for a couple of certificates to arrive from the GRO to prove my theories.</p>
-<p>So, who do I think I am?  Well, at this stage it appears that my blood is:</p>
-<ul>
-<li>50.0% English</li>
-<li>37.5% Scottish</li>
-<li>12.5% Irish</li>
-</ul>
-<p>Those sixteen ancestors were born between 1829 and 1860.</p>
-<p>I haven’t yet updated my <a href="http://familytree.iannelson.uk">online family tree</a>, but will do so later today.</p>
-<p>I suspect that this marks the end of the &ldquo;easy bit&rdquo; of my research, and doubt that I’ll ever succeed in discovering the names of all of my 32 great-great-great-grandparents.  Still, you never know…</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Genealogy – My New Winter Hobby</title>
-      <link>https://blog.iannelson.uk/genealogy-my-new-winter-hobby/</link>
-      <pubDate>Sun, 01 Oct 2006 19:10:00 +0000</pubDate>
-      <guid>https://blog.iannelson.uk/genealogy-my-new-winter-hobby/</guid>
-      <description>&lt;p&gt;&lt;em&gt;“INTPs are always so mentally active that they continually delve into new interests… The interests of an INTP would be enough to occupy him for several lifetimes if that were possible.”&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;— &lt;a href=&#34;http://www.intp.org/intprofile.html&#34;&gt;A description of the INTP personality type, Paul James&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I’ve been in need of a new hobby for a while now.  The mental challenges offered from getting married, changing jobs and moving home have passed, and my free evenings and weekends were becoming prone to bouts of restlessness and sighs of “I’m bored”.  This is not a good thing.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p><em>“INTPs are always so mentally active that they continually delve into new interests… The interests of an INTP would be enough to occupy him for several lifetimes if that were possible.”</em></p>
-<p>— <a href="http://www.intp.org/intprofile.html">A description of the INTP personality type, Paul James</a>.</p>
-<p>I’ve been in need of a new hobby for a while now.  The mental challenges offered from getting married, changing jobs and moving home have passed, and my free evenings and weekends were becoming prone to bouts of restlessness and sighs of “I’m bored”.  This is not a good thing.</p>
-<p>I’ve been toying with the idea of buying a Digital SLR for a while, but the initial outlay for all the required kit would be close to four figures, a sum not easy to come by after the aforementioned marriage and house move.  Besides, I’m not sure that taking up a pastime which is essentially outdoor in nature is a good idea as the nights draw in and we enter the almost perpetual darkness of a British winter.</p>
-<p>So, inspired by <a href="http://en.wikipedia.org/wiki/Who_Do_You_Think_You_Are%3F">WDYTYA</a> and the wife’s purchase of a <a href="http://www.marthastewart.com/page.jhtml?type=content&amp;id=channel1558">Martha Stewart genealogy fan chart</a>, I decided that the time was right for me to do one of those “things I’ve always meant to do” and start tracing our family trees.</p>
-<p>Like life insurance, dating, and selling unwanted tat to unsuspecting strangers, genealogy is one of those areas that has been radically transformed by the proliferation of the web.  I can’t imagine how much slower it would be to undertake this research just ten or fifteen years ago.  Sites like <a href="http://www.ancestry.com">Ancestry</a>, <a href="http://www.scotlandspeople.gov.uk">Scotland’s People</a>, and even simple things like online certificate ordering from the <a href="http://www.gro.gov.uk/gro/content/">GRO</a> have really reduced the time taken to trace lines back, at least over the last couple of centuries.  A couple of months ago I knew the names of six of my direct ancestors (i.e. my parents and grandparents).  Today I know 66, with more potential lines of research still untapped.  My database currently contains 298 individuals, with more to be keyed in later tonight.  Virtually all of this has been discovered via an ethernet cable without leaving the comfort of my office.</p>
-<p>But on some of my lineage I’m now starting to reach the limits of what is possible using the web alone.  It turns out that my great-great-grandfather, John Nelson, was born in County Monaghan, Ireland, in the mid-nineteenth century.  The Irish government are being somewhat tardy at putting their records online, so if I want to know more I’m going to have to find out in person.  Fortunately, we already have plans to visit Dublin later this month, so a visit to the Irish GRO isn’t entirely out of the question.</p>
-<p>I’m still very much a beginner at this game, but here are a few links and tips that I’ve amassed so far:</p>
-<ul>
-<li>Decent genealogy software will make it much easier to keep track of your findings.  <a href="http://www.amazon.co.uk/Think-Family-Tree-Maker-Deluxe/dp/B000BD3FNA">Amazon have</a> the BBC-branded version of GSP’s <a href="http://www.familytreemaker.com">Family Tree Maker</a> software for £19.99, which I’ve found to be more than adequate so far.  This comes with a free thirty-day subscription to the UK datasets on Ancestry.co.uk.  Of course if, like Jocelyn and I, you are interested in relatives from both sides of the pond, you’ll probably end up buying a “World” subscription to Ancestry anyway.</li>
-<li>If your software offers the ability to give each individual in your database a unique reference number, use it!  Half the folk in my tree seem to be called Benjamin, Joseph and William, and it’s all too easy to get them confused!</li>
-<li>From the earliest stages of your research, keep a note of your sources.  This can’t be emphasised enough, as you risk having to repeat your research otherwise.  I failed to note my sources initially as I got caught up in the fun of the research, and now I look at some facts in my database and wonder “but how do I know that?”.</li>
-<li>If, like me, you have Scottish blood, then <a href="http://www.scotlandspeople.gov.uk">Scotland’s People</a> is an invaluable trove of information, with digitized BMD records going back to 1855, the Scottish census returns, and searchable parish records to 1513.</li>
-<li>Don’t jump to conclusions.  Just because a search only yields one result doesn’t mean it’s the individual you seek.  Datasets can be incomplete, or names can be spelled differently (William, Willm, Wm, Will, Willie; Benjamin, Benjm, Ben, Benny…).  I am now the proud owner of a birth certificate for an individual who shares the name and birth year of one of my ancestors, but isn’t him!</li>
-<li><a href="http://www.ancestryfamilytree.net/search/rectype/trees/owt/">OneWorldTree</a> and other sites which allow you to link your tree to others can be a great way of sharing research and rapidly discovering entire branches of your family, but take everything with a large pinch of salt!  You don’t believe everything you read on the internet, do you?  Before convincing yourself that you’ve traced your family all the way back to Adam, get sources for all the pertinent facts.</li>
-<li><a href="http://www.amazon.co.uk/Genealogists-Internet-Peter-Christian/dp/190336583X">“The Genealogist’s Internet” by Peter Christian</a> is a mine of useful information for those using the net to undertake this kind of research.  I’m sure other books will prove useful for the next (offline) stages of my investigation, but I’m still waiting for Amazon to deliver a couple of those.</li>
-</ul>
 ]]></content:encoded>
     </item>
     <item>
