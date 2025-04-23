@@ -6,7 +6,7 @@
     <description>Recent content on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Apr 2025 21:04:38 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 23 Apr 2025 21:18:19 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Who Reigns Supreme? Parsing Our WhatsApp Chat for Wordle Glory</title>
@@ -19,11 +19,11 @@
 <p>Fast forward two years, and my Wordle addiction is alive and well. The daily challenge remains as compelling as ever, but it’s the family WhatsApp group – where scores are shared, victories boasted, and failures commiserated – that adds an extra layer of fun.</p>
 <p>As 2024 winds down, I decided to dust off my coding skills and whip up a quick C# console application. The goal? To parse an export of our WhatsApp chat, gather all the shared Wordle scores, and find out if my strategies have paid off this year. Spoiler alert: they haven’t.</p>
 <p>If you’ve got a similar Wordle-centric group chat with family or friends and fancy crowning your own Wordle Champion of the Year, the source code is available on GitHub: <a href="https://github.com/ianfnelson/WordleParser">WordleParser</a>.</p>
-<h2 class="wp-block-heading" id="how-it-works">How It Works</h2>
+<h2 id="how-it-works">How It Works</h2>
 <p>The application takes a single argument: the path to an exported chat text file. It parses the file using a <a href="https://github.com/ianfnelson/WordleParser/blob/main/WordleParser/WordleParser.cs#L46">regular expression</a> to extract anything resembling a Wordle score. <a href="https://github.com/ianfnelson/WordleParser/blob/main/WordleParser/WordleParser.cs#L27">Duplicate scores are weeded out</a>, and the <a href="https://github.com/ianfnelson/WordleParser/blob/main/WordleParser/WordleParser.cs#L32">average family score for each calendar day is logged</a>. For those unfortunate days when a puzzle remains unsolved, the application <a href="https://github.com/ianfnelson/WordleParser/blob/main/WordleParser/WordleParser.cs#L59">assigns a ‘seven’</a> to reflect the failure.</p>
 <p>The app then aggregates scores into calendar <a href="https://github.com/ianfnelson/WordleParser/blob/main/WordleParser/WordleParser.cs#L17">months</a> and <a href="https://github.com/ianfnelson/WordleParser/blob/main/WordleParser/WordleParser.cs#L11">years</a>, <a href="https://github.com/ianfnelson/WordleParser/blob/main/WordleParser/WordleParser.cs#L76">calculating each family member’s stats for the chosen date range</a>. Participants are ranked based on their mean difference from the average family score per day.</p>
 <p>For example, if three family members scored a 4, but one managed a dazzling 2, the day’s average would be 3.5. The three “fours” would each have a daily difference of +0.5, while the lucky “two” would boast a difference of -1.5.</p>
-<h2 class="wp-block-heading" id="the-results">The Results</h2>
+<h2 id="the-results">The Results</h2>
 <p>So, who triumphed in the Nelson family Wordle-off this year? Did my painstaking analysis from 2022 finally give me the edge?</p>
 <p>Reader, it did not.</p>
 <p>Despite my best efforts, I only just managed to sneak into second place. Predictably, my mother reigned supreme, crushing us all with an average score of <strong>4.055</strong> and a mean difference from the family average of <strong>-0.128</strong>. This consistency made her our undisputed <strong>Wordle Family Champion of 2024</strong>.<!-- raw HTML omitted --></p>
@@ -45,17 +45,17 @@
 <p>During this same period, Kara Swisher has covered that ever-changing technology sector for outlets including <em>The Washington Post</em>, <em>The Wall Street Journal</em> and <em>The New York Times</em>. <em>Burn Book</em> is a sharp, irreverent critique of the technology industry, blending memoir, satire and journalism. It delivers a candid account of tech’s rise to dominance and its often-problematic relationship with power, ethics, and accountability. Swisher doesn’t shy away from naming names, offering unfiltered takes on figures such as Elon Musk, Mark Zuckerberg, Steve Jobs, Bill Gates, Jeff Bezos, and many others. There is a wealth of great anecdotes here, and no small amount of disdain for many of the man-child Silicon Valley tech bros who have changed our world so completely over the last thirty years.</p>
 <p>My favourite technical book of the year was the second edition of <a href="https://amzn.to/3BtC6su"><strong>Building Microservices: Designing Fine-Grained Systems</strong></a> by Sam Newman, who I had the pleasure of learning from when I attended his two-day Microservices workshop at <a href="https://blog.iannelson.uk/ndc-porto-2024/">NDC Porto 2024</a> in October. Although ostensibly focused on Microservices, this 600-page tome offers plenty of good advice that applies more broadly to the design, implementation, and operation of any modern software system. Newman writes engagingly, backing up his candid opinions with case studies and offering concrete advice wherever possible. Highly recommended.</p>
 <p>Away from the code face, I’ve appreciated the insights into effective technical leadership that I have gained from two complementary books <strong><a href="https://amzn.to/3OWqYHN">Staff Engineer: Leadership Beyond the Management Track</a></strong> by Will Larson and <a href="https://amzn.to/41GcH9w"><strong>The Staff Engineer’s Path: A Guide for Individual Contributors Navigating Growth and Change</strong></a> by Tanya Reilly. Both offer plenty of practical advice and insights for anyone in (or aspiring to enter) a “Staff Plus” role.</p>
-<h2 class="wp-block-heading" id="politics">Politics</h2>
+<h2 id="politics">Politics</h2>
 <p>I spent some of my early summer weekends accumulating blisters as I walked the local streets delivering campaign material to help re-elect our excellent local MP Keir Mather. For background encouragement I did this while listening to the audiobook of <a href="https://amzn.to/4grzt9D"><strong>This Time No Mistakes: How to Remake Britain</strong></a> by Will Hutton. It is a wide-ranging treatise covering over a century of political history on both sides of the Atlantic and attributes the UK’s current political and economic challenges to persistent adherence to free-market ideologies and minimal state intervention over the past 45 years. Drawing inspiration from early 20th-century New Liberalism and the post-1945 Labour government, Hutton advocates for a blend of ethical socialism and progressive liberalism, which he refers to as the “We Society”, balancing individual aspirations with collective welfare. Occasionally I found this a little too dry and worthy for my liking, with the recounted historical events seeming far removed from current day politics. But generally it kept me inspired and motivated, particularly in the more forward-looking sections that offered a manifesto for change.</p>
 <!-- raw HTML omitted -->
 <p>My favourite book by a politician this year was only tangentially about politics. <strong><a href="https://amzn.to/3D7fH4L">One Boy, Two Bills and a Fry-Up: A Memoir of Growing Up and Getting On</a></strong> is an engaging memoir by current Health Secretary Wes Streeting, recounting his experiences growing up in poverty with teenage parents who struggled to make ends meet. Despite the hardships faced, Streeting highlights the love and support from his family, and also the opportunities afforded to him by impactful teachers, ultimately leading to attending Cambridge University and embarking on a career in politics. Streeting wears his heart on his sleeve, making for a very personal memoir that offers human-centric vignettes into the factors that shaped his ideology.</p>
-<h2 class="wp-block-heading" id="money-and-risk">Money and Risk</h2>
+<h2 id="money-and-risk">Money and Risk</h2>
 <p>I read a second autobiography this summer by another boy from a modest upbringing in East London who made a better life for himself, though this one followed a very different path from that of the Health Secretary. <strong><a href="https://amzn.to/49v70NU">The Trading Game: A Confession</a></strong> by Gary Stevenson details the author’s ascent to become a leading trader at Citibank, working on the Short-Term Interest Rate Trading desks in London and later Tokyo. The memoir delves into the opulent yet morally ambiguous lifestyle of high finance, exposing systemic flaws and the widening wealth gap in the years that followed the 2007-8 global financial crisis. Despite his success, Stevenson grappled with the ethical implications of profiting from the economic downturns that adversely affected the less affluent, and he has since become an advocate for economic equality, using his platform to educate the public on financial disparities. I didn’t particularly relish the chapters describing bankers’ hedonism, but I was fascinated by later sections detailing the corporate games played by Citibank as Stevenson sought to leave the organisation.</p>
 <p>Most of us will never have the levels of money that bring the kind of ethical dilemmas faced by Gary Stevenson. For the rest of us, advice on how to manage our own more modest finances can be found in <strong><a href="https://amzn.to/4ismC90">The Psychology of Money: Timeless lessons on wealth, greed, and happiness</a></strong> by Morgan Housel. Housel argues that financial success and security is not necessarily linked to intelligence or mathematical skill but to understanding human nature and managing emotions like greed, fear, and envy. The book is written in a conversational and approachable style, combining research with 19 short stories emphasising that managing money well requires understanding yourself and your relationship with money.</p>
 <p>In a similar vein, <strong><a href="https://amzn.to/3P596L3">On the Edge: The Art of Risking Everything</a></strong> by Nate Silver digs into the psyche and strategies of individuals who thrive in high-stakes environments, from poker players to venture capitalists. He introduces the concept of “The River”, representing a community of analytical, independent-minded and risk tolerant individuals, and contrasts it with “The Village,” symbolising risk-averse, conventional thinkers. There is a huge amount of information in this book about gambling, particularly poker, which rekindled some of my interest in the game theory branch of mathematics. There are also some fascinating chapters recounting Silver’s meetings with Sam Bankman-Fried during the tumultuous period following cryptocurrency exchange FTX’s collapse and preceding his incarceration. It’s clear that Bankman-Fried had a very different relationship with risk than most of us, and this serves as a cautionary tale, illustrating the perils of risk-taking without understanding the potential consequences.</p>
 <!-- raw HTML omitted -->
 <p>Game-playing and risk-taking without the potential for such life-changing consequences is the subject of <strong><!-- raw HTML omitted -->Around the World in 80 Games<!-- raw HTML omitted --></strong> by British mathematician Marcus du Sautoy. The Jules Verne-inspired narrative circumnavigates the globe and explores a diverse array of games, from ancient board games like the Royal Game of Ur to contemporary favourite such as Settlers of Catan. It considers the cultural significance of games, and the roles they play in different societies, in addition to investigating the mathematical concepts underpinning these games, including probability, game theory and combinatorics. Du Sautoy also explores what makes games fun and interesting, captivating players into wishing for just one more turn (<em>e.g. Wingspan</em>, <em>Ticket To Ride</em>) compared to those that can drag on interminably and lead to boredom and resentment (<em>Monopoly</em>). In 2024 I have very much appreciated the fact that my children are of an age where they are able and willing to play decent games like <em>7 Wonders</em>, <em>Darwin’s Journey</em> and <em>Everdell</em> with me, and found Du Sautoy’s book to offer pleasing insights into why we find these games so enjoyable.</p>
-<h2 class="wp-block-heading" id="fiction">Fiction</h2>
+<h2 id="fiction">Fiction</h2>
 <p>As is usually the case, I read more non-fiction than fiction during the year. On the few occasions that I did pick up a novel, it seems I have been drawn to those featuring rather flawed protagonists, to say the least. <strong><a href="https://amzn.to/3OKIajp">American Psycho</a></strong> by Bret Easton Ellis was, in retrospect, perhaps not the most relaxing choice of audiobook to accompany my January commutes on the congested roads of Leeds City Centre. The novel is infamous for its explicit and shocking depictions of ultra-violence, but I was more intrigued by its lengthy and monotonous monologues on 1980s bands, stereo systems, and skincare routines.</p>
 <!-- raw HTML omitted -->
 <p>In the summer months (now commuting by train) I listened to the short but harrowing psychological novel <strong><a href="https://amzn.to/3Vsg8Nm">We Need to Talk About Kevin</a></strong> by Lionel Shriver. Told through a series of letters written by Eva Katchadourian to her estranged husband Franklin, the story explores Eva’s attempt to make sense of their teenage son Kevin’s horrifying act of violence – a school massacre he commits shortly before his 16th birthday. The novel is a chilling and fascinating exploration of parental responsibility, societal violence, and complexities of love and blame.</p>
@@ -64,10 +64,10 @@
 <blockquote>
 <p>People? People are chaotic quiddities living in one cave each. They pass the hours in amorous grudge and playback and thought-experiment. At the camp fire they put the usual fraction on exhibit, and listen to their own silent gibber about how they’re feeling and how they’re going down. We’ve been there.</p>
 <p><!-- raw HTML omitted -->Martin Amis, London Fields<!-- raw HTML omitted --><!-- raw HTML omitted --></p></blockquote>
-<h2 class="wp-block-heading" id="music">Music</h2>
+<h2 id="music">Music</h2>
 <!-- raw HTML omitted -->
 <p>My favourite music book of the year was <strong><a href="https://amzn.to/4g8pTsw">Deliver Me From Nowhere: The Making of Bruce Springsteen’s Nebraska</a></strong> by Warren Zanes. In contrast to the rock autobiographies by Bono, Jarvis Cocker, and Dave Grohl that have graced my year-end blog post in recent years and which contain a wide-range of anecdotes, Zanes’ book focuses on one specific recording. The <em>Nebraska</em> LP, recorded solo on a four-track cassette recorder in a New Jersey bedroom, was a stark departure from Springsteen’s earlier, more grandiose works. It showcased a raw, introspective side, and featured narratives of violence, despair, and existential contemplation. Zanes is a true fan and diligent researcher, who through interviews with Springsteen and others explores how <em>Nebraska</em> challenged industry norms and left a lasting impact on music, paving the way for future generations of lo-fi and indie rock artists to produce music in their bedrooms. For a broader read, I also enjoyed <strong><a href="https://amzn.to/4g1s8gR">R.E.M. Album by Album</a></strong> by Max Pilley, a comprehensive retrospective of the thirty-year recording career of one of my favourite bands. This featured many facts and insights into the band and music that I wasn’t previously aware of, and led to me streaming their LPs with fresh ears, not unlike the impact that <em>Revolution In The Head</em> by Ian McDonald once had upon my appreciation of The Beatles’ recordings.</p>
-<h2 class="wp-block-heading" id="life-and-how-to-live-it">Life and How to Live It</h2>
+<h2 id="life-and-how-to-live-it">Life and How to Live It</h2>
 <!-- raw HTML omitted -->
 <p><strong><a href="https://amzn.to/4iMM5Kq">Fluke: Chance, Chaos, and Why Everything We Do Matters</a></strong> by Dr. Brian Klaas explores the influence of randomness and chaos on human lives and decision-making. Klaas examines how small, seemingly insignificant events – flukes – can cascade into pivotal moments, shaping the course of history, politics, and personal trajectories.</p>
 <p>The book examines topics like the butterfly effect, exploring how initial conditions can lead to wildly unpredictable outcomes, and the role of luck versus skill in success and failure. Klaas uses vivid anecdotes from history, science, and contemporary life to demonstrate how randomness interacts with human agency, often creating illusions of control where none exists.</p>
@@ -82,7 +82,7 @@ Obsess over quality.</p>
 <p><!-- raw HTML omitted -->Cal Newport, Slow Productivity<!-- raw HTML omitted --><!-- raw HTML omitted --></p></blockquote>
 <p>In 2024 I read more books than usual by reducing the amount of mainstream news media and social media that I consumed. I found this to be a more rewarding balance and it had a positive effect of my mental health. Yet even reading just one quality national newspaper per week left me with the impression that the world was going to hell in a hand cart, and by October I deliberately sought out a book to read that would offer some optimism. I found it in <strong><a href="https://amzn.to/4iA8f2a">Humankind: A Hopeful History</a></strong> by Rutger Bregman, a thought-provoking exploration of human nature that challenges the assumption that humans are fundamentally selfish and driven by greed.</p>
 <p>Bregman’s central thesis is that humans are, by nature, “Homo puppy” – inherently friendly, cooperative, and capable of incredible kindness. He invites readers to adopt a more optimistic lens on humanity, rejecting cynicism and building systems that empower our better angels. I particularly enjoyed the sections of the book where Bregman’s fresh research debunked iconic studies like the Stanford Prison Experiment and Milgram Experiment, revealing flaws in their methodology and reporting. The book is a mixture of rigorous research and engaging anecdotes that offers a call to action to reimagine our social structures and advocates for policies such as Universal Basic Income, which assume the best in people and trust individuals to act responsibly.</p>
-<h2 class="wp-block-heading" id="our-world">Our World</h2>
+<h2 id="our-world">Our World</h2>
 <!-- raw HTML omitted -->
 <p>Similarly optimistic was the excellent <strong><a href="https://amzn.to/3ZUkI9R">Not the End of the World: How We Can Be the First Generation to Build a Sustainable Planet</a></strong> by Dr Hannah Ritchie. This data-driven exploration of the environmental challenges facing the planet was very reminiscent of <em>Factfulness: Ten Reasons We’re Wrong About The World – And Why Things Are Better Than You Think</em> by the late Swedish academic Hans Rosling. It challenges common misconceptions, scrutinising the actual impact of actions like eating locally and the true environmental costs of materials such as plastic. Ritchie emphasises that, contrary to pervasive doomsday narratives, we have the potential to achieve true sustainability for the first time in history.</p>
 <p>If Ritchie’s work relies on accurate data to draw conclusions, what are the impacts on public policy when data is non-existent, inaccurate or misleading? That is the subject of <strong><a href="https://amzn.to/49z9F9j">Bad Data: How Governments, Politicians and the Rest of Us Get Misled by Numbers</a></strong> by Georgina Sturge, a statistician at the House of Commons Library. The book dives into the murky waters of official statistics, revealing how data – often assumed to be the bedrock of informed policy-making – is riddled with inconsistencies, guesswork, and uncertainties. It offers insightful analysis and engaging storytelling through a series of compelling narratives, which often served to provoke and anger me in a manner not dissimilar to that of <em>Invisible Women: Exposing Data Bias in a World Designed for Men</em> by Caroline Criado Perez, which featured in my <a href="https://blog.iannelson.uk/20-books-i-most-enjoyed-reading-in-2019/">blog post of 2019</a>.</p>
@@ -110,14 +110,14 @@ Obsess over quality.</p>
 <p>“I realised that Porto doesn’t just appeal to my sense of sight. Of course the views are fantastic, but on a sunny Sunday like today there is also excellent music that carries far and wide from a range of talented buskers. Electric acoustic guitars and electric violins seemed to be the order of the day, with a mixture of classic and popular tunes. Porto also smells nice – people seem to have a variety of different fragrances that differ from those that I usually smell in Leeds. Of course there are great tastes in the form of the wines and seafood. And finally there are even things to touch – ceramic tiles, cork panels etc. Truly, this city is a feast for the senses.”</p></blockquote>
 <!-- raw HTML omitted -->
 <p><a href="https://blogstouks01.z33.web.core.windows.net/2024/10/IMG_7417.jpeg"><!-- raw HTML omitted --></a><!-- raw HTML omitted --> <!-- raw HTML omitted --><a href="https://blogstouks01.z33.web.core.windows.net/2024/10/IMG_7427.jpeg"><!-- raw HTML omitted --></a><!-- raw HTML omitted --> <!-- raw HTML omitted --><a href="https://blogstouks01.z33.web.core.windows.net/2024/10/IMG_7438.jpeg"><!-- raw HTML omitted --></a><!-- raw HTML omitted --> <!-- raw HTML omitted --><a href="https://blogstouks01.z33.web.core.windows.net/2024/10/IMG_7462.jpeg"><!-- raw HTML omitted --></a><!-- raw HTML omitted --> <!-- raw HTML omitted --><a href="https://blogstouks01.z33.web.core.windows.net/2024/10/IMG_7478.jpeg"><!-- raw HTML omitted --></a><!-- raw HTML omitted --> <!-- raw HTML omitted --><a href="https://blogstouks01.z33.web.core.windows.net/2024/10/IMG_7498.jpeg"><!-- raw HTML omitted --></a><!-- raw HTML omitted --> <!-- raw HTML omitted --><a href="https://blogstouks01.z33.web.core.windows.net/2024/10/IMG_7508.jpeg"><!-- raw HTML omitted --></a><!-- raw HTML omitted --> <!-- raw HTML omitted --><a href="https://blogstouks01.z33.web.core.windows.net/2024/10/IMG_7514.jpeg"><!-- raw HTML omitted --></a><!-- raw HTML omitted --> <!-- raw HTML omitted --><a href="https://blogstouks01.z33.web.core.windows.net/2024/10/IMG_7549.jpeg"><!-- raw HTML omitted --></a><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<h2 class="wp-block-heading" id="workshop-8211-designing-microservices">Workshop – Designing Microservices</h2>
+<h2 id="workshop--designing-microservices">Workshop – Designing Microservices</h2>
 <p>Before the conference proper began on Wednesday, there were nine two-day workshops to choose from. I opted to attend <em>Designing Microservices</em> by <a href="https://samnewman.io">Sam Newman</a>. I had previously read Sam’s book <em><a href="https://amzn.to/3UgfVME">Building Microservices</a></em>, and have been using microservices of some variety or other on projects since 2018. While these have sometimes been successful, I have often had the niggling doubt that some implementations on which I have worked could more accurately be described as being Distributed Monoliths, and I was eager to spend some focused time understanding when the lure of microservices should be resisted, and to dig into implementation patterns, along with examining related topics such as whether to use multirepo or monorepo approaches for source control.</p>
 <p>As with Sam’s book, while ostensibly about microservices, the workshop also covered a wide range of more general architectural and software development topics that could be equally applied to traditional monoliths. It also struck a good balance between technical topics and organisational ones – how to structure teams for success when delivering a microservice-based solution. I appreciated this holistic coverage, as well as the tacit admission that microservice architectures may often not be the correct solution for a given project.</p>
 <p>The workshop was delivered at a good pace, neither labouring points unnecessarily, nor glossing over more thorny topics that were worthy of due consideration. There was a good mixture of slides, dialogue, and some collaborative activity in small groups.</p>
 <p>My only minor disappointment with the two-day workshop was a sense that a small minority of the other attendees were insufficiently engaged – returning late to the workshop room from our plentiful breaks, and checking their phones frequently. I assume they were attending at the behest of their employer rather than of their own volition, but this behaviour seemed disrespectful to Sam and the other attendees. I tried to ignore it.</p>
-<h2 class="wp-block-heading" id="my-10-favourite-sessions">My 10 Favourite Sessions</h2>
+<h2 id="my-10-favourite-sessions">My 10 Favourite Sessions</h2>
 <p>After the initial two days of workshops, the remaining three days were filled with over a hundred traditional one-hour sessions, with up to six sessions running concurrently. This led to sometimes difficult decisions about which sessions to attend. My strategy was generally to attend sessions covering higher-level broad-brush type topics, rather than those covering niche technologies which I could learn through reading online documentation. But even within these self-imposed guidelines, there was a wealth of material to choose from. I attended around twenty sessions – here are some thoughts on my favourite ten:</p>
-<h3 class="wp-block-heading" id="keynote-tidy-first-a-daily-exercise-in-empirical-design-by-kent-beck">Keynote: Tidy First? A Daily Exercise in Empirical Design by Kent Beck</h3>
+<h3 id="keynote-tidy-first-a-daily-exercise-in-empirical-design-by-kent-beck">Keynote: Tidy First? A Daily Exercise in Empirical Design by Kent Beck</h3>
 <p>The conference proper opened on Wednesday morning with a Keynote by Kent Beck, the creator of extreme programming, early proponent of Test-Driven Development, and one of the 17 original signatories to the Agile Manifesto. Like all the keynotes, this took place in the huge main expo hall of the conference. I can see the logistical logic behind this decision – notably that it is large enough to house all of the delegates, and ensures that the conference can kick off at 9am sharp, even if latecomers are still arriving. But on the downside there were no seats close to the stage area (I am 48 years old, the prospect of standing up for an hour didn’t appeal), whereas from the area with seats it was a struggle to hear Kent over the background chatter and espresso machines. I would learn from my mistakes and prop myself up on a table near the front for the following days’ keynotes.</p>
 <p>My geriatric grumblings notwithstanding, from the portions I heard properly, this was a great talk, and I look forward to rewatching this on YouTube to fill in the gaps. Unlike every other session that I saw during the week, Kent did not have a traditional slide deck, but instead projected some freeform sketches to illustrate the concepts he discussed.</p>
 <p>There was much talk about the perennial topics (and personal bugbears) of estimation, and the cost of software development, and how software designers can influence when money is spent and earned. The concept of optionality was introduced – if software can be changed, then the design does not matter. Features are easy to see, but options are difficult to see, yet this is why we invest in software. The cost of software is the cost of changing it, not the cost of building it. Some changes are surprisingly expensive, yet others are surprisingly cheap.</p>
@@ -125,44 +125,44 @@ Obsess over quality.</p>
 <!-- raw HTML omitted -->
 <p>Kent wrapped up with a few words on this year’s hot topic of AI. He drew parallels with the development of highly efficient steam engines during the Industrial Revolution, and explained how this had actually led to an increase in the use of coal (the Jevon’s Paradox). He offered that the AIs are not coming for our jobs any time soon and that we are, in fact entering a new golden age for programming. This topic would crop up again throughout the conference.<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<h3 class="wp-block-heading" id="being-staff-plus-by-ian-cooper">Being Staff Plus by Ian Cooper</h3>
+<h3 id="being-staff-plus-by-ian-cooper">Being Staff Plus by Ian Cooper</h3>
 <p>Having now notched up 27 years at the code face, I have recently been giving some considerations as to where to take my career in the coming years, without having to sell my soul to the devil and venture over to the dark side of management. This session from Ian Cooper on “Staff Plus” roles offered some great advice on the nature of senior technical leadership roles, and how to “move beyond code” while staying resolutely technical.</p>
 <p>Ian offered a good balance of high-level strategic career advice married with a bunch of helpful tactical hints and tips for how to succeed (and demonstrate that success) in such roles, and I urge any other greybeards feeling frustrated with their careers to watch this presentation (<a href="https://youtu.be/l-oCDQGH3EU?si=nAIK3UqvDUhQPZpl">the version from NDC Oslo is online here</a>).</p>
 <p>This was the first session that sent me scurrying to Amazon to buy some recommended books (it would not be the last!). By the time I got home to England on Saturday both <em><a href="https://amzn.to/3YtNpcY">T</a><a href="https://amzn.to/3NxVNlu">he Staff Engineer’s Path: A Guide for Individual Contributors Navigating Growth and Change</a></em> by Tanya Reilly and <em><a href="https://amzn.to/3NxWpHF">Staff Engineer: Leadership Beyond the Management Track</a></em> by Will Larson would be waiting for me.<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<h3 class="wp-block-heading" id="definition-of-insanity-8211-timeouts-retries-and-idempotency-by-sam-newman">Definition Of Insanity – Timeouts, retries, and idempotency by Sam Newman</h3>
+<h3 id="definition-of-insanity--timeouts-retries-and-idempotency-by-sam-newman">Definition Of Insanity – Timeouts, retries, and idempotency by Sam Newman</h3>
 <p>This session by Sam Newman focused on some of key techniques for developing resilient distributed systems: Timing out remote calls that do not complete in a timely fashion, Retrying unsuccessful calls, and how to achieve idempotency to ensure that calls can be retried safely without undesirable side-effects.</p>
 <p>This topic is highly relevant to a distributed system that I am developing for my current client, so I listened intently and appreciated the detailed low-level advice. I was particularly interested in the observation that <em>if a retry of an idempotent request succeeds, we should send back the same semantic response that we would have sent had the original request succeeded</em>. Also new to me was the concept of a <a href="https://en.wikipedia.org/wiki/Bloom_filter">Bloom Filter</a>.</p>
 <p>Improving the resilience of distributed systems has been an interest of mine since reading the first edition of <em><a href="https://amzn.to/3C3Qh7m">Release It!</a></em> by Michael Nygard in 2009. I’m delighted to see that Sam is currently authoring <a href="https://samnewman.io/books/building-resilient-distributed-systems/">a new book on this topic</a>, due for publication in 2025.</p>
-<h3 class="wp-block-heading" id="open-source-open-mind-the-cost-of-free-software-by-dylan-beattie">Open Source, Open Mind: The Cost of Free Software by Dylan Beattie</h3>
+<h3 id="open-source-open-mind-the-cost-of-free-software-by-dylan-beattie">Open Source, Open Mind: The Cost of Free Software by Dylan Beattie</h3>
 <p>A light-hearted talk to end the first day of the conference, this session by Dylan Beattie was a whistle-stop tour of the history of open source software, covering notable successes, failures and lawsuits, followed by some thoughts on where “free software” goes from here.</p>
 <p>A recording of <a href="https://youtu.be/vzYqxo13I1U?si=eacYByQwreIj2O_U">an earlier version of this talk from NDC Oslo 2024 is available online</a>, but Dylan had added extra material to the talk since then to cover the recent disputes between WordPress.com owners Automattic and WP Engine.<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<h3 class="wp-block-heading" id="keynote-can-you-trust-your-large-language-model-by-jodie-burchell">Keynote: Can you trust your (large language) model? by Jodie Burchell</h3>
+<h3 id="keynote-can-you-trust-your-large-language-model-by-jodie-burchell">Keynote: Can you trust your (large language) model? by Jodie Burchell</h3>
 <p>Thursday’s keynote by data scientist Jodie Burchell talked about how the quality of Large Language Models (LLMs) such as ChatGPT has been measured, and highlighted structural deficiencies with both the benchmarks as well as the AI tooling themselves. I confess to not having devoted much time over the past year to understanding the “AI revolution”, so did not know what to expect from this talk, but I found it a fascinating and highly approachable explanation that has piqued my interest. My contemporary notes from this session read “Such a good talk. Chase down the slides, and sessions from <a href="https://youtu.be/lLNJld729bc?si=x2ASipnm2PGcKt6d">earlier</a> <a href="https://youtu.be/9EI_lqPUVEE?si=jR9HOaAHIPnc_qoD">NDCs</a>“.<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<h3 class="wp-block-heading" id="orchestration-vs-choreography-the-good-the-bad-and-the-trade-offs-by-laïla-bougriâ">Orchestration vs. Choreography: The good, the bad, and the trade-offs by Laïla Bougriâ</h3>
+<h3 id="orchestration-vs-choreography-the-good-the-bad-and-the-trade-offs-by-laïla-bougriâ">Orchestration vs. Choreography: The good, the bad, and the trade-offs by Laïla Bougriâ</h3>
 <p>Designing distributed systems regularly involves trying to decide between synchronous or asynchronous communication, and orchestration or choreography (and the combinations thereof). There are, of course, tradeoffs to make, but the design decisions are often made when considering only the happy path scenarios.</p>
 <p>This excellent talk by Laïla Bougriâ took this complex nuanced subject, with all of its “it depends” messiness, and offered concrete guidance for when and how to implement each approach. One of my favourite sessions of the whole conference, and Laïla coped excellently with audio problems for the first third of the presentation.<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<h3 class="wp-block-heading" id="a-developer-goes-to-the-movies-by-simon-painter">A Developer Goes to the Movies by Simon Painter</h3>
+<h3 id="a-developer-goes-to-the-movies-by-simon-painter">A Developer Goes to the Movies by Simon Painter</h3>
 <p>Thursday, the middle day of the conference proper, was a long one, but fortunately there were some great light-hearted talks later in the day to balance those that required more intense thinking.</p>
 <p>I had previously enjoyed seeing Simon Painter give his talk “From Ancient Greeks to Modern Geeks: Basic Machine Learning Algorithms” at DDD North in Hull in March 2024. For this new talk, he brings together his twin passions of movies and coding by presenting a visual history of computing and software developers as seen by Hollywood.</p>
 <p>I don’t seem to have made as many notes on this talk, preferring to relax and enjoy the show (though sadly without popcorn), but I do recall enjoying the segments on <a href="https://www.imdb.com/title/tt0086567/">WarGames</a>, <a href="https://www.imdb.com/title/tt0113957">The Net</a> and <a href="https://www.imdb.com/title/tt0113243">Hackers</a> (which I really must watch again soon). It was also intriguing to learn that the distinction for the first person to have portrayed a computer hacker in a movie goes to none other than Benny Hill!<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<h3 class="wp-block-heading" id="how-simple-is-8220as-simple-as-possible8221-by-rendle">How Simple Is “As Simple As Possible”? by Rendle</h3>
+<h3 id="how-simple-is-as-simple-as-possible-by-rendle">How Simple Is “As Simple As Possible”? by Rendle</h3>
 <p>Rendle has been doing this programming lark for even longer than me. But unlike me (who merely grumbles about our industry through the medium of Instagram memes shared with equally bitter colleagues), Rendle is an ex-professional standup comic who takes the grumbling to a whole new level by holding up a (black) mirror to our industry in conference presentations such as this one.</p>
 <p>The thing is, as the saying goes, <em>it’s funny because it’s true</em>. Rendle is on a mission to highlight how unnecessarily complex we have made most aspects of software design, development and deployment during his career, and proselytise for an easier, simpler and more productive life. Amen to that.<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<h3 class="wp-block-heading" id="keynote-start-here-mindset-shifts-and-tools-for-building-career-confidence-in-a-post-pandemic-era-by-denise-jacobs">Keynote: Start Here: Mindset Shifts and Tools for Building Career Confidence in a Post-Pandemic Era by Denise Jacobs</h3>
+<h3 id="keynote-start-here-mindset-shifts-and-tools-for-building-career-confidence-in-a-post-pandemic-era-by-denise-jacobs">Keynote: Start Here: Mindset Shifts and Tools for Building Career Confidence in a Post-Pandemic Era by Denise Jacobs</h3>
 <p>For Friday’s final keynote of the conference, I took my now-customary standing spot up front near the stage… and then immediately regretted it as I noticed the pens and paper dotted around the tables. I realised with horror that this was going to be an interactive session, and considered retreating to the back of the room. I do not generally enjoy audience participation, have no “fun facts” on hand to share about myself, and abhor “icebreakers” at the start of meetings and workshops.</p>
 <p>But, I told myself that I had come all this way to Porto with the intention of adopting a growth mindset and learning as much as possible, so ought to give it a go. I’m glad I did, as Denise’s talk became one of my favourite of the conference, and the audience participation exercises (which were not as scary as I had feared) helped to boost my confidence and further renew my interest in my career.</p>
 <p>I ordered yet another book recommendation on the back of this talk – <em><a href="https://amzn.to/3BNS3JM">Chatter: The Voice in Our Head and How to Harness It</a></em> by Ethan Kross, but opted for Audible this time to reduce the number of Amazon packages that would be arriving at home in my absence.<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<h3 class="wp-block-heading" id="the-next-decade-of-software-development-by-richard-campbell">The Next Decade of Software Development by Richard Campbell</h3>
+<h3 id="the-next-decade-of-software-development-by-richard-campbell">The Next Decade of Software Development by Richard Campbell</h3>
 <p>Richard Campbell is best known to me as the co-host of the <a href="https://www.dotnetrocks.com">.NET Rocks!</a> podcast, but his interest and expertise in science, computing, and technology is far broader than that niche (he gave another talk at this conference on the topic of Nuclear Power).</p>
 <p>This talk on the Next Decade of Software Development has been presented many times over the years and been regularly updated as new trends such as the Cloud emerge and gradually become mainstream. It reviews where we’ve been, examines the trend lines, and looks forward to which trends and technologies we will need to learn to remain relevant in our roles in the upcoming years. As with many of the other talks, this naturally touched on AI, and joined that consensus that we are entering a period where the LLMs will aid our software development work rather than directly threatening it. At a more prosaic level, Richard was also positive that .NET and Blazor are not going anywhere any time soon.</p>
-<h2 class="wp-block-heading" id="final-thoughts">Final Thoughts</h2>
+<h2 id="final-thoughts">Final Thoughts</h2>
 <p>I thoroughly enjoyed my time at NDC Porto. The conference is expertly organised by a team who have clearly been doing this for quite some time. The venue – <a href="https://en.wikipedia.org/wiki/Porto_Convention_Centre">a former customshouse on the banks of the Duoro</a> – was airy and inspirational. The complementary food and drink was delicious and plentiful. The speakers were knowledgeable and friendly, making themselves available for questions outside of the sessions themselves. Generally I found my fellow attendees to be amiable and approachable, and appreciated mingling amongst the wide variety of nationalities present from across the European continent and further afield. I remain disheartened by the male skew in the gender balance of attendees at tech conferences, but it was pleasing to note how many (excellent) female speakers gave talks – I suspect and hope that NDC are doing all they reasonably can to improve diversity.</p>
 <p>I return home to Yorkshire, and back to the code face, with a renewed enthusiasm for my chosen career and a rekindled excitement for technologies (both new and old – some of the talks by Anders Norås have made me nostalgic for my Amiga 500 and 1200!). Oh, and with an ever-growing pile of books to read!<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
@@ -173,45 +173,45 @@ Obsess over quality.</p>
       <link>https://blog.iannelson.uk/the-books-i-most-enjoyed-reading-in-2023/</link>
       <pubDate>Sun, 17 Dec 2023 15:40:15 +0000</pubDate>
       <guid>https://blog.iannelson.uk/the-books-i-most-enjoyed-reading-in-2023/</guid>
-      <description>&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;politics-on-the-edge-a-memoir-from-within-by-rory-stewart&#34;&gt;&lt;a href=&#34;https://amzn.to/41sIGYS&#34;&gt;Politics on the Edge: A Memoir from Within&lt;/a&gt; by Rory Stewart&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;politics-on-the-edge-a-memoir-from-within-by-rory-stewart&#34;&gt;&lt;a href=&#34;https://amzn.to/41sIGYS&#34;&gt;Politics on the Edge: A Memoir from Within&lt;/a&gt; by Rory Stewart&lt;/h2&gt;
 &lt;p&gt;My very favourite book of 2023 was this autobiography by former Minister and one-time candidate for Conservative Party leader Rory Stewart. I almost didn’t read it at all, as I was feeling a little jaded with politics at the time and considering a more light-hearted Audible purchase. I’m glad I plumped for this though, and it did offer some light relief in the form of Stewart’s dodgy accents when recounting conversations with fellow politicians of all parties and nationalities.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<h2 class="wp-block-heading" id="politics-on-the-edge-a-memoir-from-within-by-rory-stewart"><a href="https://amzn.to/41sIGYS">Politics on the Edge: A Memoir from Within</a> by Rory Stewart</h2>
+      <content:encoded><![CDATA[<h2 id="politics-on-the-edge-a-memoir-from-within-by-rory-stewart"><a href="https://amzn.to/41sIGYS">Politics on the Edge: A Memoir from Within</a> by Rory Stewart</h2>
 <p>My very favourite book of 2023 was this autobiography by former Minister and one-time candidate for Conservative Party leader Rory Stewart. I almost didn’t read it at all, as I was feeling a little jaded with politics at the time and considering a more light-hearted Audible purchase. I’m glad I plumped for this though, and it did offer some light relief in the form of Stewart’s dodgy accents when recounting conversations with fellow politicians of all parties and nationalities.</p>
 <p>There is no flab in this book, it ploughs on at quite a fast pace through Stewart’s political career, from becoming MP for Penrith and the Border in 2010 through to his run for leader of the Conservative Party (and Prime Minister) less than a decade later. In between he is thrust with no notice into a variety of ministerial positions for which he has varying degrees of suitability and aptitude. In my <a href="https://blog.iannelson.uk/20-books-i-most-enjoyed-reading-in-2019/">2019 books blog post</a> I recommended the drier <em><a href="https://amzn.to/3GJZdOu">Why We Get the Wrong Politicians</a></em> by Isabel Hardman, in which she outlined why the failings of our ministerial system lead to roles being filled by individuals who are unsuited to them. Stewart’s book brings colourful examples of that theory, but to his credit he makes efforts to master the briefs he is given and make a practical difference to the country. Others from his party, particularly our recent Prime Ministers, are not always painted in a positive light, and he gives many interesting insights into their personalities.</p>
 <p><img alt="Politics on the Edge cover" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/12/51btunBtJEL._SL500_.jpg"></p>
-<h2 class="wp-block-heading" id="tomorrow-and-tomorrow-and-tomorrow-by-gabrielle-zevin"><a href="https://amzn.to/3tl4c54">Tomorrow, and Tomorrow, and Tomorrow</a> by Gabrielle Zevin</h2>
+<h2 id="tomorrow-and-tomorrow-and-tomorrow-by-gabrielle-zevin"><a href="https://amzn.to/3tl4c54">Tomorrow, and Tomorrow, and Tomorrow</a> by Gabrielle Zevin</h2>
 <p>In 2023 I rediscovered the pleasure of playing computer games, eighteen years after writing a fairly grumpy blog post in which I declared that “<a href="https://blog.iannelson.uk/computer-games-i-have-loved/">The whole concept seemed utterly pointless, a real waste of time</a>“. A spring break between contracts coincided with the release of <em>Zelda: Tears of the Kingdom</em>, which I bought on a whim after stumbling across <a href="https://www.theguardian.com/games/2023/may/11/the-legend-of-zelda-tears-of-the-kingdom-review-pure-magic">Keza MacDonald’s effusive five-star review in <em>The Guardian</em></a>. Since then I’ve spent 167 hours playing that wonderful game, and have also relaxed by playing <em><a href="https://www.theguardian.com/games/2020/jul/22/creaks-review-a-darkly-surreal-puzzle-game">Creaks</a></em> on Apple Arcade and <em><a href="https://returntomonkeyisland.com/">Return to Monkey Island</a></em> (32 years after playing the original on the Amiga).</p>
 <p>It was with this background that I that I read <em>Tomorrow, and Tomorrow, and Tomorrow</em> towards the end of the year. It’s a novel set over several decades about two friends who collaborate to develop and publish increasingly epic computer games whilst navigating romances, friendship, fallouts, family, health challenges, and other life-changing events. It’s very touching and heartfelt, and caused me to think about the value of play in our lives, and of maintaining friendships over extended periods.</p>
 <p><img alt="Tomorrow, and Tomorrow, and Tomorrow cover" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/12/51oi2QWxV-L._SL500_.jpg"></p>
-<h2 class="wp-block-heading" id="surrender-40-songs-one-story-by-bono"><a href="https://amzn.to/3RpmslV">Surrender: 40 Songs, One Story</a> by Bono</h2>
+<h2 id="surrender-40-songs-one-story-by-bono"><a href="https://amzn.to/3RpmslV">Surrender: 40 Songs, One Story</a> by Bono</h2>
 <p>Faced with a “to-read” list that now numbers into the seventies, I made a point of actively abandoning some books that I was not enjoying during 2023, rather than struggling through them to the bitter end. As my wife Jocelyn is fond of reminding me, life is too short to read books that you’re not enjoying. Cognisant of my maturing years and the theories of <a href="https://en.wikipedia.org/wiki/Optimal_stopping">Optimal Stopping</a>, I’ve also tended to stick to favourite genres this year rather than trying something new.</p>
 <p>So, given that I enjoy biographies, and also enjoy books on rock music, Bono’s autobiography was always destined to be high on my list of favourite reads for the year. It covers U2’s lengthy career from their early schooldays in Dublin through to being the biggest band in the world, releasing classic zeitgeist-defining records including <em>The Joshua Tree</em> and <em>Achtung Baby</em>. There is an impressive cast of supporting characters mentioned in the many anecdotes in this book, including Pope John Paul II, Bill Clinton, Tony Blair, Frank Sinatra, and countless others. At one point Mikhail Gorbachev pops in for tea on a Sunday afternoon.</p>
 <p><img alt="Surrender cover" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/12/513jMRpuapL._SL500_.jpg"></p>
-<h2 class="wp-block-heading" id="a-visit-from-the-goon-squad-and-the-candy-house-by-jennifer-egan"><a href="https://amzn.to/3v44ttO">A Visit from the Goon Squad</a> and <a href="https://amzn.to/3GKSLXt">The Candy House</a> by Jennifer Egan</h2>
+<h2 id="a-visit-from-the-goon-squad-and-the-candy-house-by-jennifer-egan"><a href="https://amzn.to/3v44ttO">A Visit from the Goon Squad</a> and <a href="https://amzn.to/3GKSLXt">The Candy House</a> by Jennifer Egan</h2>
 <p>These two books were released in 2010 and 2022 respectively, and feature interrelated stories with a large set of characters, set over multiple decades. Many of the central characters work in the rock music industry, and there are themes here of friendship, aging, and loss of innocence. The first book (which won a Pulitzer Prize) is probably the better one, but the audiobook of the second has better production qualities, with each POV character being narrated by a different professional voice artist. The second book also bursts with inspired ideas about where the ubiquity of social media might take us as a society.</p>
 <p><img alt="A Visit from the Goon Squad and The Candy House covers" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/12/51ft9c8NwIL._SL500_.jpg"></p>
-<h2 class="wp-block-heading" id="one-two-three-four-the-beatles-in-time-by-craig-brown"><a href="https://amzn.to/3GJPuHY">One Two Three Four: The Beatles In Time</a> by Craig Brown</h2>
+<h2 id="one-two-three-four-the-beatles-in-time-by-craig-brown"><a href="https://amzn.to/3GJPuHY">One Two Three Four: The Beatles In Time</a> by Craig Brown</h2>
 <p>A huge book comprised of many short and easily-digestible chapters that occupied much of my summer vacation. Craig Brown somehow takes a subject, The Beatles, about whom so very much has been written over the last sixty years and offers fresh perspectives and anecdotes. I laughed a lot and found myself sharing passages with family and friends. Definitely one of the most enjoyable biographies I’ve ever read and, along with <em><a href="https://amzn.to/485xpAb">Revolution in the Head</a></em> by Ian MacDonald, one of the best books about The Beatles.</p>
 <p><img alt="One Two Three Four cover" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/12/51YSVa5TYRL._SL500_.jpg"></p>
-<h2 class="wp-block-heading" id="the-nanny-state-made-me-a-story-of-britain-and-how-to-save-it-and-the-full-english-a-journey-in-search-of-a-country-and-its-people-by-stuart-maconie"><a href="https://amzn.to/41nwyZb">The Nanny State Made Me: A Story of Britain and How to Save It</a> and <a href="https://amzn.to/3RrgyAT">The Full English: A Journey in Search of a Country and its People</a> by Stuart Maconie</h2>
+<h2 id="the-nanny-state-made-me-a-story-of-britain-and-how-to-save-it-and-the-full-english-a-journey-in-search-of-a-country-and-its-people-by-stuart-maconie"><a href="https://amzn.to/41nwyZb">The Nanny State Made Me: A Story of Britain and How to Save It</a> and <a href="https://amzn.to/3RrgyAT">The Full English: A Journey in Search of a Country and its People</a> by Stuart Maconie</h2>
 <p>Two books by DJ Stuart Maconie make my list of favourites this year. <em>The Nanny State Made Me</em> iterates through stages in Maconie’s life, highlighting how at each point the welfare state in the UK provided him with the necessary support to become a useful and productive member of society. As with most Maconie books the politics is interspersed with an abundance of cultural references, and this helped to boost my “to watch”/”to listen” lists.</p>
 <p>In <em>The Full English</em>, Maconie retraces a journey through England originally taken by J.B.Priestley in his travelogue <em><a href="https://amzn.to/3Ny8YmJ">English Journey</a></em> in 1934, comparing and contrasting how the nation has changed in the intervening decades. Despite acknowledging that there is much that needs improving in England, there is also a love and sentimentality for the nation in evidence here. I was surprised to learn that Maconie’s father used to work for the same now-defunct manufacturer that employed my own Dad, so felt quite connected to those passages. I was also amused to hear him, as a proud Lancastrian, extol the virtues of Ilkley and admit that he could conceive of living there.</p>
-<h2 class="wp-block-heading" id="the-anthropocene-reviewed-by-john-green"><a href="https://amzn.to/41xLLac">The Anthropocene Reviewed</a> by John Green</h2>
+<h2 id="the-anthropocene-reviewed-by-john-green"><a href="https://amzn.to/41xLLac">The Anthropocene Reviewed</a> by John Green</h2>
 <p>In this series of essays adapted from his podcast, novelist John Green reviews and rates things as diverse as sunsets, Diet Dr Pepper, the song <em>New Partner</em> by Palace Music, the Indianapolis 500, Halley’s Comet and the QWERTY keyboard. Many of these pieces were written with the backdrop of the 2020-2021 COVID-19 pandemic, but the inevitable ensuing introspection does not result in morbidity, instead conveying hope and wonder at how miraculous the universe is. I give <em>The Anthropocene Reviewed</em> four stars.</p>
-<h2 class="wp-block-heading" id="white-noise-by-don-delillo"><a href="https://amzn.to/3NsklfW">White Noise</a> by Don DeLillo</h2>
+<h2 id="white-noise-by-don-delillo"><a href="https://amzn.to/3NsklfW">White Noise</a> by Don DeLillo</h2>
 <p>The oldest book on my list this year, <em>White Noise</em> was written in 1985. Some of the characters and events depicted seemed oddly familiar – maybe it’s deja vu, but I can’t preclude having read this book previously and forgotten having done so!</p>
 <p>I enjoyed this more than <em><a href="https://amzn.to/3v59G4D">Great Jones Street</a></em>, also by DeLillo, which I read in 2019 but which didn’t make my annual blog post that year. It is written in the first person from the POV of the protagonist, a male middle-aged college professor in a sleepy American town who has developed the field of “Hitler Studies”. Despite being almost forty years old, it covers themes of consumer culture, academia and mortality which remain relevant.</p>
-<h2 class="wp-block-heading" id="the-storyteller-tales-of-life-and-music-by-dave-grohl"><a href="https://amzn.to/41pOSkg">The Storyteller: Tales of Life and Music</a> by Dave Grohl</h2>
+<h2 id="the-storyteller-tales-of-life-and-music-by-dave-grohl"><a href="https://amzn.to/41pOSkg">The Storyteller: Tales of Life and Music</a> by Dave Grohl</h2>
 <p>Another rock autobiography, and a brilliant collection of stories. Dave Grohl comes across as a very humble and lucky individual who can’t quite believe his good fortune at being a driving force behind some of the most successful bands in the world. There is an ordinariness to Grohl’s tales that is quite striking when compared to Bono’s book. Extended passages and chapters are given over to (surprisingly entertaining) anecdotes about losing a wallet at a gas station, or shopping for toys with his daughters. Yes, there’s a cast of famous names – Paul McCartney pops round to play the piano – but it’s all so natural and down to earth that you can’t begrudge Grohl his good fortune.</p>
 <p><img alt="The Storyteller cover" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/12/51YPIMud0eL._SL500_.jpg"></p>
-<h2 class="wp-block-heading" id="atonement-by-ian-mcewan"><a href="https://amzn.to/3Nxs9gy">Atonement</a> by Ian McEwan</h2>
+<h2 id="atonement-by-ian-mcewan"><a href="https://amzn.to/3Nxs9gy">Atonement</a> by Ian McEwan</h2>
 <p>I knew nothing about the plot of this novel before I started reading it; I certainly hadn’t seen the 2007 movie adaptation. I don’t consider myself to generally be a fan of historical novels, preferring those set within my own lifetime. But I found this to have terrific pace and well-drawn characters, and devoured it over the course of a weekend in May.</p>
 <p><img alt="Atonement cover" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/12/61KR-RUCUDL._SL500_.jpg"></p>
-<h2 class="wp-block-heading" id="a-philosophy-of-software-design-by-john-ousterhout"><a href="https://amzn.to/3NwrFXM">A Philosophy of Software Design</a> by John Ousterhout</h2>
+<h2 id="a-philosophy-of-software-design-by-john-ousterhout"><a href="https://amzn.to/3NwrFXM">A Philosophy of Software Design</a> by John Ousterhout</h2>
 <p>Most of the tech books that I read in 2023 were focused on specific technologies, as I moved on from a much-loved five-year contract at NHS Digital and had to grok an unfamiliar tech stack. This delightful and relatively short book was one of the only tech-agnostic software books that I read, and I wish that it had been available to me much earlier in my career.</p>
 <p>Ousterhout writes engagingly about complex software design topics, offering opinions and philosophies for an approach to development that can sometimes be at odds with that espoused in the better-known <em>Clean Code</em> by Robert Martin. I know that I won’t follow all of the advice given in this philosophy (I’ve never been a fan of code comments, for instance), but have taken to heart chapters on writing general purpose modules, and “different layer, different abstraction”.</p>
 <p>As I write this I note that it is flagged on Amazon as being one of the “Most Gifted” books in the Software Design genre, and that doesn’t surprise me – it’s a book that I would like those who I collaborate with to have read and absorbed.</p>
-<h2 class="wp-block-heading" id="why-is-this-lying-bastard-lying-to-me-searching-for-the-truth-on-political-tv-by-rob-burley"><a href="https://amzn.to/3NqNk3B">Why Is This Lying Bastard Lying To Me? Searching for the Truth on Political TV</a> by Rob Burley</h2>
+<h2 id="why-is-this-lying-bastard-lying-to-me-searching-for-the-truth-on-political-tv-by-rob-burley"><a href="https://amzn.to/3NqNk3B">Why Is This Lying Bastard Lying To Me? Searching for the Truth on Political TV</a> by Rob Burley</h2>
 <p>Rob Burley is a TV producer who has worked on and edited many of the top political shows on the BBC and ITV. In this entertaining and irreverent book he dissects what makes for a great political interview, and relives many memorable moments from Sunday morning political programmes, particularly covering recent years since the Brexit referendum.</p>
 <p><img alt="Why Is This Lying Bastard Lying To Me? cover" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/12/51TV9w6U8L._SL500_.jpg"></p>
 ]]></content:encoded>
@@ -2603,12 +2603,12 @@ und on Stack Overflow revealed that I was not the only person currently banging 
       <guid>https://blog.iannelson.uk/agile-yorkshire-the-pub-gojko-adzic-10th-june-2009/</guid>
       <description>&lt;p&gt;If you’re in the Leeds area next Wednesday, why not come along to this Agile Yorkshire session?&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;h3 id=&#34;10th-june-8211-gojko-adzic-slim-the-future-of-fitnesse&#34;&gt;10th June – Gojko Adzic: Slim, The Future Of FitNesse&lt;/h3&gt;
+&lt;h3 id=&#34;10th-june--gojko-adzic-slim-the-future-of-fitnesse&#34;&gt;10th June – Gojko Adzic: Slim, The Future Of FitNesse&lt;/h3&gt;
 &lt;h4 id=&#34;details&#34;&gt;Details&lt;/h4&gt;
 &lt;p&gt;This talk will introduce Slim, the most important upgrade to &lt;a href=&#34;http://fitnesse.org/&#34;&gt;FitNesse&lt;/a&gt; in years. Slim is the new test runner which promises to bring platform interoperability, easier integration, a much simpler programming model and lots of small helpers that will allow us to write and maintain executable specifications and acceptance tests easier. This is a session for .NET and Java developers. Some prior exposure to FitNesse and FIT would be beneficial, but not required.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>If you’re in the Leeds area next Wednesday, why not come along to this Agile Yorkshire session?</p>
 <blockquote>
-<h3 id="10th-june-8211-gojko-adzic-slim-the-future-of-fitnesse">10th June – Gojko Adzic: Slim, The Future Of FitNesse</h3>
+<h3 id="10th-june--gojko-adzic-slim-the-future-of-fitnesse">10th June – Gojko Adzic: Slim, The Future Of FitNesse</h3>
 <h4 id="details">Details</h4>
 <p>This talk will introduce Slim, the most important upgrade to <a href="http://fitnesse.org/">FitNesse</a> in years. Slim is the new test runner which promises to bring platform interoperability, easier integration, a much simpler programming model and lots of small helpers that will allow us to write and maintain executable specifications and acceptance tests easier. This is a session for .NET and Java developers. Some prior exposure to FitNesse and FIT would be beneficial, but not required.</p>
 <h4 id="speaker">Speaker</h4>
@@ -3768,7 +3768,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
 &lt;p&gt;Here’s how you order breakfast in Britain:&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;pre&gt;&lt;code&gt;  &amp;lt;td&amp;gt;
-    &amp;amp;#8220;&amp;lt;a href=&amp;quot;http://en.wikipedia.org/wiki/Full_English_Breakfast&amp;quot;&amp;gt;Full English Breakfast&amp;lt;/a&amp;gt;, please.&amp;amp;#8221;
+    “&amp;lt;a href=&amp;quot;http://en.wikipedia.org/wiki/Full_English_Breakfast&amp;quot;&amp;gt;Full English Breakfast&amp;lt;/a&amp;gt;, please.”
   &amp;lt;/td&amp;gt;
 &amp;lt;/tr&amp;gt;
 
@@ -3778,7 +3778,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &amp;lt;/td&amp;gt;
   
   &amp;lt;td&amp;gt;
-    &amp;amp;#8220;D’you want tea or coffee with that?&amp;amp;#8221;
+    “D’you want tea or coffee with that?”
   &amp;lt;/td&amp;gt;
 &amp;lt;/tr&amp;gt;
 
@@ -3788,7 +3788,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &amp;lt;/td&amp;gt;
   
   &amp;lt;td&amp;gt;
-    &amp;amp;#8220;Tea, please.&amp;amp;#8221;
+    “Tea, please.”
   &amp;lt;/td&amp;gt;
 &amp;lt;/tr&amp;gt;
 
@@ -3798,7 +3798,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &amp;lt;/td&amp;gt;
   
   &amp;lt;td&amp;gt;
-    &amp;amp;#8220;OK.&amp;amp;#8221;
+    “OK.”
   &amp;lt;/td&amp;gt;
 &amp;lt;/tr&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -3808,7 +3808,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
 <p>Here’s how you order breakfast in Britain:</p>
 <!-- raw HTML omitted -->
 <pre><code>  &lt;td&gt;
-    &amp;#8220;&lt;a href=&quot;http://en.wikipedia.org/wiki/Full_English_Breakfast&quot;&gt;Full English Breakfast&lt;/a&gt;, please.&amp;#8221;
+    “&lt;a href=&quot;http://en.wikipedia.org/wiki/Full_English_Breakfast&quot;&gt;Full English Breakfast&lt;/a&gt;, please.”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -3818,7 +3818,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;D’you want tea or coffee with that?&amp;#8221;
+    “D’you want tea or coffee with that?”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -3828,7 +3828,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;Tea, please.&amp;#8221;
+    “Tea, please.”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -3838,7 +3838,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;OK.&amp;#8221;
+    “OK.”
   &lt;/td&gt;
 &lt;/tr&gt;
 </code></pre>
@@ -3847,7 +3847,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
 <p>Now, compare that if you will to the American breakfasting experience.  The sheer size of the American breakfast menu is symptomatic of the culture of Choice that seems to pervade all aspects of the consumer experience here (especially in California), and it really can take some time to pick an option.  But making your selection is only the beginning.  Here’s how a sample breakfast order conversation with an unexpecting Brit (i.e. me, two years ago), might go:</p>
 <!-- raw HTML omitted -->
 <pre><code>  &lt;td&gt;
-    &amp;#8220;Are you ready to order?&amp;#8221;
+    “Are you ready to order?”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -3857,7 +3857,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;I think so.  I’ll have the Sausage and Eggs, please.&amp;#8221;
+    “I think so.  I’ll have the Sausage and Eggs, please.”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -3867,7 +3867,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;Do you want links sausages or patty?
+    “Do you want links sausages or patty?
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -3877,7 +3877,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;Oh.  Um, links, please.&amp;#8221;
+    “Oh.  Um, links, please.”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -3887,7 +3887,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;How do you want your eggs?
+    “How do you want your eggs?
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -3897,7 +3897,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;Fried, please.&amp;#8221;
+    “Fried, please.”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -3907,7 +3907,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;Fried how?&amp;#8221;
+    “Fried how?”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -3917,7 +3917,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;Fried how?  In a frying pan, preferably!&amp;#8221;
+    “Fried how?  In a frying pan, preferably!”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -3927,7 +3927,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;Over hard, over easy, over medium, or sunny side up?&amp;#8221;
+    “Over hard, over easy, over medium, or sunny side up?”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -3937,7 +3937,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;What the&amp;#8230;?&amp;#8221;
+    “What the&amp;#8230;?”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -3947,7 +3947,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;You have them sunny side up, honey.&amp;#8221;
+    “You have them sunny side up, honey.”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -3957,7 +3957,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;Oh, OK.  Sunny side up then, please.&amp;#8221;
+    “Oh, OK.  Sunny side up then, please.”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -3967,7 +3967,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;And what two sides would you like?&amp;#8221;
+    “And what two sides would you like?”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -3977,7 +3977,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;I beg your pardon?&amp;#8221;
+    “I beg your pardon?”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -3987,7 +3987,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;You get a choice of two side options from the list there&amp;#8230;&amp;#8221;
+    “You get a choice of two side options from the list there&amp;#8230;”
   &lt;/td&gt;
 &lt;/tr&gt;
 </code></pre>
@@ -3995,7 +3995,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
 <p>I consult the list, by this time panicking a tad, and wondering what exactly “Campfire potatoes” (one of the options) are…</p>
 <!-- raw HTML omitted -->
 <pre><code>  &lt;td&gt;
-    &amp;#8220;OK, I’ll go for hash browns and bacon, please.&amp;#8221;
+    “OK, I’ll go for hash browns and bacon, please.”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -4005,7 +4005,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;And what would you like to drink with that?&amp;#8221;
+    “And what would you like to drink with that?”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -4015,7 +4015,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;Coffee, please.&amp;#8221;
+    “Coffee, please.”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -4025,7 +4025,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;Latte, Americano, Cappuccino, Espresso&amp;#8230;?  Decaf or Regular&amp;#8230;?&amp;#8221;
+    “Latte, Americano, Cappuccino, Espresso&amp;#8230;?  Decaf or Regular&amp;#8230;?”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -4035,7 +4035,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;Oh God, er, regular cappuccino, please.&amp;#8221;
+    “Oh God, er, regular cappuccino, please.”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -4045,7 +4045,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;And what bread would you like for your toast?&amp;#8221;
+    “And what bread would you like for your toast?”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -4055,7 +4055,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;Brown, please.&amp;#8221;
+    “Brown, please.”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -4065,7 +4065,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;Brown?!&amp;#8221;
+    “Brown?!”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -4075,7 +4075,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;He means &amp;#8216;wheat’.&amp;#8221;
+    “He means &amp;#8216;wheat’.”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -4085,7 +4085,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;OK, coming up..&amp;#8221;
+    “OK, coming up..”
   &lt;/td&gt;
 &lt;/tr&gt;
 </code></pre>
@@ -4094,7 +4094,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
 <p>Even the simplest snippets of dialogue can provoke unexpected reactions.  Back to that restaurant conversation from two years ago, when we’d finished eating, and I’d relaxed my guard a bit, the waitperson came to clear up:</p>
 <!-- raw HTML omitted -->
 <pre><code>  &lt;td&gt;
-    &amp;#8220;So, how were your eggs?
+    “So, how were your eggs?
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -4104,7 +4104,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;They were lovely, thank you.&amp;#8221;
+    “They were lovely, thank you.”
   &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -4114,7 +4114,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
   &lt;/td&gt;
   
   &lt;td&gt;
-    &amp;#8220;&lt;em&gt;Lovely&lt;/em&gt;?!  Ha ha!  Where the hell are &lt;em&gt;you&lt;/em&gt; from?!&amp;#8221;
+    “&lt;em&gt;Lovely&lt;/em&gt;?!  Ha ha!  Where the hell are &lt;em&gt;you&lt;/em&gt; from?!”
   &lt;/td&gt;
 &lt;/tr&gt;
 </code></pre>
