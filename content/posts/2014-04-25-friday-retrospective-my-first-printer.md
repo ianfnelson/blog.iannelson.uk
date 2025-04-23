@@ -4,7 +4,7 @@ title: 'Friday Retrospective: My First Printer'
 date: 2014-04-25T05:30:00+00:00
 url: /friday-retrospective-my-first-printer/
 cover: 
-  image: https://cdn.iannelson.uk/uploads/2014/04/IMG_7922.jpg
+  image: https://blogstouks01.z33.web.core.windows.net/2014/04/IMG_7922.jpg
 
 categories:
   - Tech

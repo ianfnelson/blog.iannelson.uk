@@ -5,7 +5,7 @@ date: 2022-01-18T19:00:00+00:00
 excerpt: "What are the best words to use as starting guesses when playing Josh Wardle's popular game Wordle? I've crunched the numbers."
 url: /the-best-wordle-starter-words/
 cover: 
-  image: https://cdn.iannelson.uk/uploads/2022/01/photo-1583334648584-6c2ba1fb41cd.jpg
+  image: https://blogstouks01.z33.web.core.windows.net/2022/01/photo-1583334648584-6c2ba1fb41cd.jpg
 
 categories:
   - Fun
@@ -15,7 +15,7 @@ Like (it would seem) most of the rest of humanity, the start of my 2022 has been
 
 _**SPOILER WARNING** &#8211; this blog post contains information that may lead you to play more optimal Wordle starter words than you otherwise would have done if left to your own imagination. If you consider that this may take the fun out of an enjoyable daily practice, then I suggest that you stop reading. Now._<figure class="wp-block-image">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/photo-1512799906445-d591d53082c0cropentropyampcstinysrgbampfitmaxampfmjpgampixidMnwxMTc3M3wwfDF8c2VhcmNofDR8fGNsb3NlZCUyMGV5ZXN8ZW58MHx8fHwxNjQyNTM4MzU2ampixlibrb-1.2.jpg" alt="blindness" /> <figcaption class="wp-element-caption">Photo by [Ryoji Iwata][3] / [Unsplash][4]</figcaption></figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/photo-1512799906445-d591d53082c0cropentropyampcstinysrgbampfitmaxampfmjpgampixidMnwxMTc3M3wwfDF8c2VhcmNofDR8fGNsb3NlZCUyMGV5ZXN8ZW58MHx8fHwxNjQyNTM4MzU2ampixlibrb-1.2.jpg" alt="blindness" /> <figcaption class="wp-element-caption">Photo by [Ryoji Iwata][3] / [Unsplash][4]</figcaption></figure> 
 
 ## Definition {#definition.wp-block-heading}
 

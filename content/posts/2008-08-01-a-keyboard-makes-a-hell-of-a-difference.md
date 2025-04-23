@@ -4,7 +4,7 @@ title: A Keyboard Makes A Hell Of A Difference
 date: 2008-08-01T16:08:00+00:00
 url: /a-keyboard-makes-a-hell-of-a-difference/
 cover: 
-  image: https://cdn.iannelson.uk/uploads/2008/08/61b4lHKlNYL._SL1205_-3.jpg
+  image: https://blogstouks01.z33.web.core.windows.net/2008/08/61b4lHKlNYL._SL1205_-3.jpg
 
 categories:
   - Tech
@@ -14,7 +14,7 @@ It occurred to me recently that I’m not getting any younger, and that sitting 
 
 Unlike [John][1], I can’t afford a Herman Miller chair, and even if I could, I’m a freelancer rather than a telecommuter* so I would have to regularly carry the chair on the train to client sites, where they would probably ostracise me for being a weirdo who brings his own chair to the office. So I looked for something a little more portable, and decided that perhaps it was finally time for me to try one of those fancy split ergonomic keyboards that I’ve always scoffed at. After reading a few review on Amazon, I plumped for the [Microsoft Natural Ergonomic Keyboard 4000][2].<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/61b4lHKlNYL._SL1205_-2.jpg" class="kg-image" alt loading="lazy" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/61b4lHKlNYL._SL1205_-2.jpg" class="kg-image" alt loading="lazy" /> </figure> 
 
 I should probably mention at this point that I’ve never been formally taught to type, and I don’t touch-type in the traditional way, with fingers sticking loyally around the ASDF JKL: keys. I’ve been more of an autodidact, typing quickly but inefficiently, a few finger dancing crazily around the keys whilst the others (notably my pinkies) float lazily in the air, dreaming of the time they were once called upon to pull a wishbone or contribute to a clenched fist.
 

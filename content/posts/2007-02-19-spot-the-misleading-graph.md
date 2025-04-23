@@ -15,7 +15,7 @@ Fifty-three years since Darrell Huff published the seminal _[How to Lie with Sta
 
 <!--kg-card-end: html--><figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/times.jpg" class="kg-image" alt loading="lazy" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/times.jpg" class="kg-image" alt loading="lazy" /> </figure> 
 
 <!--kg-card-begin: html-->
 

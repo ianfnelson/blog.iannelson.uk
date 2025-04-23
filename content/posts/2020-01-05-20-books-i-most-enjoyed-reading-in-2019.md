@@ -4,7 +4,7 @@ series: 'Books of the Year'
 date: 2020-01-05T22:40:00+00:00
 url: /20-books-i-most-enjoyed-reading-in-2019/
 cover: 
-  image: https://cdn.iannelson.uk/uploads/2020/01/Books2019.jpg
+  image: https://blogstouks01.z33.web.core.windows.net/2020/01/Books2019.jpg
 
 categories:
   - Books
@@ -20,31 +20,31 @@ Here are the twenty books that I’ve most enjoyed during the year:
 
 ## The Top 5 {#the-top-5}<figure class="kg-card kg-image-card">
 
-<img decoding="async" class="kg-image aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/41x9fTi4X-L._SL500.jpg" alt="" /> </figure> 
+<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/41x9fTi4X-L._SL500.jpg" alt="" /> </figure> 
 
 **[Digital Minimalism: Choosing a Focused Life in a Noisy World][2]** by Cal Newport
 
 The only book that I read cover-to-cover on two separate occasions during 2019. Following on from _So Good They Can’t Ignore You_ and _Deep Work_, two other favourites of mine, Cal’s latest book offers practical concrete advice on how to regain focus in these digitally-distracted times.<figure class="kg-card kg-image-card">
 
-<img decoding="async" class="kg-image aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/51BR-ZMeW0L._SL500.jpg" alt="" /> </figure> 
+<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/51BR-ZMeW0L._SL500.jpg" alt="" /> </figure> 
 
 **[Talking to Strangers: What We Should Know about the People We Don’t Know][3]** by Malcolm Gladwell
 
 A wonderful book that opened my eyes to how I engage and interact with other humans, and the many potential opportunities for devastating misunderstandings. I recommend the enhanced audiobook highly, as (where possible) it features original audio recordings and interviews with people involved in the case studies.<figure class="kg-card kg-image-card">
 
-<img decoding="async" class="kg-image aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/41O5blDy52L._SL500.jpg" alt="" /> </figure> 
+<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/41O5blDy52L._SL500.jpg" alt="" /> </figure> 
 
 **[Bad Blood: Secrets and Lies in a Silicon Valley Startup][4]** by John Carreyrou
 
 I had never heard of Theranos nor Elizabeth Holmes before reading this gripping true-life tale of organisational deception and misbehaviour, written by the WSJ investigative journalist who broke the story.<figure class="kg-card kg-image-card">
 
-<img decoding="async" class="kg-image aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/416qo8QyxDL._SL500.jpg" alt="" /> </figure> 
+<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/416qo8QyxDL._SL500.jpg" alt="" /> </figure> 
 
 **[How to Be Right: &#8230; in a world gone wrong][5]** by James O’Brien
 
 A great book written from the relatively unusual vantage point of talk radio host James O’Brien, who spends his days calmly and rationally explaining to callers the absurdity of their stated viewpoints (often, it seems, by simply giving them sufficient opportunity to explain themselves, or consider the meaning of the cliched words that they spout). Despite the title, O’Brien doesn’t claim to always be right, and in some chapters explains how the discourse on his show has led to the maturation of his own viewpoints.<figure class="kg-card kg-image-card">
 
-<img decoding="async" class="kg-image aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/41251aNdw-L._SL500.jpg" alt="" /> </figure> 
+<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/41251aNdw-L._SL500.jpg" alt="" /> </figure> 
 
 **[Coders: Who They Are, What They Think And How They Are Changing Our World][6]** by Clive Thompson
 

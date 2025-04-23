@@ -4,7 +4,7 @@ title: Star Of The Week
 date: 2014-05-08T20:30:11+00:00
 url: /star-of-the-week/
 cover: 
-  image: https://cdn.iannelson.uk/uploads/2014/05/iStock_000033567536Small.jpg
+  image: https://blogstouks01.z33.web.core.windows.net/2014/05/iStock_000033567536Small.jpg
 
 categories:
   - Work
@@ -18,7 +18,7 @@ Time was, long ago, in my first graduate job, that I yearned for a promotion fro
 So, imagine my surprise when I recently returned to my desk at a client site to find the certificate below resting on my keyboard. It seems my highborn masters had seen fit to dub me (with tongue firmly in cheek, I presume), as their &#8220;Star of the Week&#8221;!
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/StarOfTheWeek.jpg" alt="Star Of The Week Certificate" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/StarOfTheWeek.jpg" alt="Star Of The Week Certificate" /></figure>
 </div>
 
 What had I done to deserve this honour?
@@ -34,7 +34,7 @@ This was possible because the data access was performed through a series of help
 Wrapping isn’t always a helpful approach&#8230;
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/iStock_000033567536Small.jpg" alt="Wrapping - not always helpful" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000033567536Small.jpg" alt="Wrapping - not always helpful" /></figure>
 </div>
 
 The answer, having first defined some automated integration tests based on the existing solution, was to avoid using the helpful wrapper/mapper classes and instead write some bespoke EF queries against the underlying data context. I tried to strike a balance between making as few queries as possible without becoming unmaintainable or requiring too many joins. And each query, rather than returning the entire entity, instead projected only the required properties into some anonymous types. A little in-memory post-processing then turned these projections into the desired output format.

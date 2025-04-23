@@ -19,13 +19,13 @@ Now, Scott is unfortunately responsible for administering occasional TLC to a co
 
 At the time I smiled and put this down to the notoriously tortuous British house-buying process, but the more I think about it, the more I think Scott might be onto something.<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/310411215_3dd7f5cd07_m_1__3.jpg" class="kg-image" alt="Pissed Off Ian, by John Conners" loading="lazy" title="Pissed Off Ian, by John Conners" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/310411215_3dd7f5cd07_m_1__3.jpg" class="kg-image" alt="Pissed Off Ian, by John Conners" loading="lazy" title="Pissed Off Ian, by John Conners" /> </figure> 
 
 My wife and I are currently plotting a well-deserved summer vacation in sunnier climes, which theoretically should be an enjoyable task, right? But I can’t simply enjoy it and focus on the “sunny-day scenario”. My mind is full of edge cases (“What if we can’t fit all our stuff in the car?”), unhandled exceptions (“Will we get our passports in time?”), compatibility issues (“will our choice of dates suit my clients?”), unwise over-reliance on dependent components (“Will the airline have any child seats available?”) and of course user errors (“Suppose we book the wrong dates?!”). No focusing on the happy path for this codemonkey.
 
 The more I think about it, the more I see that Scott has a point. Professional software development forces us to anticipate invalid input, stupid users, hackers,  insufficient hardware, unreachable remote services, and whether our software can pass [the Turkey test][1]. We consider SQL injection, cross-site scripting, buffer overflows, and countless other common [threats and exploits][2]. Not to mention worrying about what happens when other devs get their grubby mitts on our codebase, or when the client inevitably unleashes some game-changing requirements late in the lifecycle. We’re all about expecting the worse, coding [defensively][3], and decoupling ourselves from dependencies. The ever-present potential for high-profile failures caused by something as simple as an inverted boolean comparison, combined with the likelihood of critique and criticism from our fellow coders, DBAs, auditors and sysadmins is enough to turn most devs into a nervous wreck before they’ve so much as initialised a variable. That reminds me, I must check that my Professional Indemnity insurance policy is up to date.<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/sb_2.png" class="kg-image" alt="sb" loading="lazy" title="sb" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/sb_2.png" class="kg-image" alt="sb" loading="lazy" title="sb" /> </figure> 
 
 So, anecdotal evidence and my own experience suggests to me that Border’s First Law is a truism. Programming Computers Can Cause Negativity, Cynicism and Pessimism.
 

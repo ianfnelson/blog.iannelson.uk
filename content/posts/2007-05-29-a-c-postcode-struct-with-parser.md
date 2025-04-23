@@ -4,13 +4,13 @@ title: 'A C# Postcode Struct with Parser'
 date: 2007-05-29T12:05:00+00:00
 url: /a-c-postcode-struct-with-parser/
 cover: 
-  image: https://cdn.iannelson.uk/uploads/2007/05/iStock_000003192621XSmall-1.jpg
+  image: https://blogstouks01.z33.web.core.windows.net/2007/05/iStock_000003192621XSmall-1.jpg
 
 categories:
   - Tech
 
 ---
-<figure class="kg-card kg-image-card"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/iStock_000003192621XSmall.jpg" class="kg-image" alt loading="lazy" /></figure> 
+<figure class="kg-card kg-image-card"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000003192621XSmall.jpg" class="kg-image" alt loading="lazy" /></figure> 
 
 As [discussed recently][1], I’ve been trying to knock together a class struct to represent a UK postcode, provide a means of parsing a string as _potentially_ being a valid postcode (or optionally just an outer code), and split that postcode into &#8220;outer&#8221; and &#8220;inner&#8221; code.
 

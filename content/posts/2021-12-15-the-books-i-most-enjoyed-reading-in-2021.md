@@ -4,7 +4,7 @@ series: 'Books of the Year'
 date: 2021-12-15T21:21:01+00:00
 url: /the-books-i-most-enjoyed-reading-in-2021/
 cover: 
-  image: https://cdn.iannelson.uk/uploads/2021/12/122049_books2021.jpg
+  image: https://blogstouks01.z33.web.core.windows.net/2021/12/122049_books2021.jpg
 
 categories:
   - Books
@@ -12,14 +12,14 @@ categories:
 ---
 ## The Top 5 {#the-top-5}<figure class="kg-card kg-image-card">
 
-<img loading="lazy" decoding="async" class="kg-image aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/122051_51WmfPs0C-L._SL500.jpg" alt="" width="500" height="500" /> </figure> 
+<img loading="lazy" decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/122051_51WmfPs0C-L._SL500.jpg" alt="" width="500" height="500" /> </figure> 
 
 [And Away&#8230;][1] by Bob Mortimer
 
 As was the case in 2020, my favourite book of the year was an autobiography; this time by national treasure Bob Mortimer. Laugh out loud funny in many places, elsewhere this is tinged with melancholy and the realisation that, for all his on-screen tomfoolery, Mortimer is an incredibly shy individual.  
 Touching, contemplative, warm and kind throughout, there is plenty of food for thought here regarding how we ought to live our lives and interact with those around us. I heartily recommend the audiobook, narrated by the great man himself.<figure class="kg-card kg-image-card">
 
-<img decoding="async" class="kg-image aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/122051_41IM6bSqdrL._SL500.jpg" alt="" /> </figure> 
+<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/122051_41IM6bSqdrL._SL500.jpg" alt="" /> </figure> 
 
 [Boy Parts][2] by Eliza Clark
 
@@ -28,7 +28,7 @@ I haven’t read much fiction in recent years (only one novel made it on to last
 
 _Boy Parts_ is a whirlwind ride &#8211; smart, funny, stylish and cinematic &#8211; that was genuinely unputdownable (except for the moments when I had to Google some unfamiliar terms, none of which I am going to repeat here). I’m grateful to this title for reawakening my interest in contemporary fiction and broadening my horizons, and hope that further novels from Eliza Clark will soon be forthcoming.<figure class="kg-card kg-image-card">
 
-<img decoding="async" class="kg-image aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/122052_41r9Vb6myvL._SL500.jpg" alt="" /> </figure> 
+<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/122052_41r9Vb6myvL._SL500.jpg" alt="" /> </figure> 
 
 [Built on a Lie: The Rise and Fall of Neil Woodford and the Fate of Middle England’s Money][3] by Owen Walker
 
@@ -36,13 +36,13 @@ One of the nice features of an Audible subscription is the ability to return any
 
 The journalistic style and chronological telling of a too-good-to-be-true business story gone bad reminded me of John Carreyou’s 2019 _Bad Blood_, about Elizabeth Holmes and the collapse of Theranos. I also felt that Walker’s clear and patient explanations of the inherent failings of the Woodford funds offered insights into risks to be aware of when managing my own (much smaller) personal investment portfolio.<figure class="kg-card kg-image-card">
 
-<img decoding="async" class="kg-image aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/122052_51nUnUTLObL._SL500.jpg" alt="" /> </figure> 
+<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/122052_51nUnUTLObL._SL500.jpg" alt="" /> </figure> 
 
 [Luckenbooth][4] by Jenni Fagan
 
 I loved the style and structure of this darkly gothic novel. Centred around an accursed Edinburgh tenement, it consists of nine intertwined stories covering different decades and different levels of the building. Stories within the storeys, if you will. This won’t be everyone’s cup of tea, but I found it to be evocative, gritty and thoroughly entertaining.<figure class="kg-card kg-image-card">
 
-<img decoding="async" class="kg-image aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/122052_41BL092hjVS._SL500.jpg" alt="" /> </figure> 
+<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/122052_41BL092hjVS._SL500.jpg" alt="" /> </figure> 
 
 [Should We Stay or Should We Go][5] by Lionel Shriver
 

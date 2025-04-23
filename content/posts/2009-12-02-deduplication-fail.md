@@ -11,4 +11,4 @@ categories:
 ---
 Oh, the irony!<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/Deduplication_2.png" class="kg-image" alt loading="lazy" /> </figure>
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/Deduplication_2.png" class="kg-image" alt loading="lazy" /> </figure>

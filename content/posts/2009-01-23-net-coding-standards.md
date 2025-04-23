@@ -4,7 +4,7 @@ title: .NET Coding Standards
 date: 2009-01-23T15:01:00+00:00
 url: /net-coding-standards/
 cover: 
-  image: https://cdn.iannelson.uk/uploads/2009/01/iStock_000004478097XSmall_2-1.jpg
+  image: https://blogstouks01.z33.web.core.windows.net/2009/01/iStock_000004478097XSmall_2-1.jpg
 
 categories:
   - Books
@@ -13,7 +13,7 @@ categories:
 ---
 Sometimes, when you join a new team as a .NET developer, the team lead proudly points you in the direction of a Word document or wiki page detailing the team’s house coding standards.<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/iStock_000004478097XSmall_2.jpg" class="kg-image" alt loading="lazy" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000004478097XSmall_2.jpg" class="kg-image" alt loading="lazy" /> </figure> 
 
 In my experience, these documents are invariably:
 

@@ -4,7 +4,7 @@ title: 'Inside Microsoft SQL Server 2005: The Storage Engine'
 date: 2008-01-05T21:01:00+00:00
 url: /inside-microsoft-sql-server-2005-the-storage-engine/
 cover: 
-  image: https://cdn.iannelson.uk/uploads/2008/01/mssqlstorageengine_4-1.jpg
+  image: https://blogstouks01.z33.web.core.windows.net/2008/01/mssqlstorageengine_4-1.jpg
 
 categories:
   - Tech
@@ -14,7 +14,7 @@ During 2007, I unexpectedly achieved a long-held ambition by increasing the numb
 
 Some books were great and will remain on my shelves for years to come. Plenty others were quickly returned to the libraries, or resold on Amazon Marketplace. Either way, I figure that it might be a nice addition to the old blog if I take the time to say a few words about some of them, so let’s start with the book I’ve finished most recently.<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/mssqlstorageengine_4.jpg" class="kg-image" alt loading="lazy" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/mssqlstorageengine_4.jpg" class="kg-image" alt loading="lazy" /> </figure> 
 
 _Inside Microsoft SQL Server 2005: The Storage Engine_ by Kalen Delaney is one in a series of four books from MS Press, the other three having subtitles of _[T-SQL Programming][1], [T-SQL Querying][2],_ and _[Query Tuning and Optimization][3]_. I suspect that _The Storage Engine_ is the most deep and esoteric of the four volumes, offering an insight into the architecture and inner workings of SQL Server that isn’t matched even by my old favourite _[SQL Server 2005 Unleashed][4]._
 

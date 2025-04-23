@@ -4,7 +4,7 @@ title: Scotland With A Son – Into The Highlands With My 10 Year Old
 date: 2018-06-01T23:00:00+00:00
 url: /scotland-with-a-son/
 cover: 
-  image: https://cdn.iannelson.uk/uploads/2018/06/IMG_20180530_125108-1.jpg
+  image: https://blogstouks01.z33.web.core.windows.net/2018/06/IMG_20180530_125108-1.jpg
 
 categories:
   - Family
@@ -23,21 +23,21 @@ Back at the hotel, we got Scrabble out. Showing no mercy against my opponent’s
 <div class="kg-gallery-container">
   <div class="kg-gallery-row">
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_20180526_090044_637.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_IMG_20180526_090044_637.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_20180526_090044_637.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_IMG_20180526_090044_637.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_IMG_20180526_090044_637.jpg 2400w" alt="" width="2000" height="2000" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180526_090044_637.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180526_090044_637.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180526_090044_637.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180526_090044_637.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180526_090044_637.jpg 2400w" alt="" width="2000" height="2000" />
     </div>
     
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_20180526_143147.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_IMG_20180526_143147.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_20180526_143147.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_IMG_20180526_143147.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_IMG_20180526_143147.jpg 2400w" alt="" width="2000" height="2667" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180526_143147.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180526_143147.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180526_143147.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180526_143147.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180526_143147.jpg 2400w" alt="" width="2000" height="2667" />
     </div>
   </div>
   
   <div class="kg-gallery-row">
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_20180526_195725.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_IMG_20180526_195725.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_20180526_195725.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_IMG_20180526_195725.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_IMG_20180526_195725.jpg 2400w" alt="" width="2000" height="1500" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180526_195725.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180526_195725.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180526_195725.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180526_195725.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180526_195725.jpg 2400w" alt="" width="2000" height="1500" />
     </div>
     
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_20180526_205848_341.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_IMG_20180526_205848_341.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_20180526_205848_341.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_IMG_20180526_205848_341.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_IMG_20180526_205848_341.jpg 2400w" alt="" width="2000" height="2000" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180526_205848_341.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180526_205848_341.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180526_205848_341.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180526_205848_341.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180526_205848_341.jpg 2400w" alt="" width="2000" height="2000" />
     </div>
   </div>
 </div></figure> 
@@ -55,21 +55,21 @@ We left Ben A’an car park around 1700. Ben dozed off in the car, and we reache
 <div class="kg-gallery-container">
   <div class="kg-gallery-row">
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/00100dPORTRAIT_00100_BURST20180527133330704_COVER-3.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_00100dPORTRAIT_00100_BURST20180527133330704_COVER-3.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_00100dPORTRAIT_00100_BURST20180527133330704_COVER-3.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_00100dPORTRAIT_00100_BURST20180527133330704_COVER-3.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_00100dPORTRAIT_00100_BURST20180527133330704_COVER-3.jpg 2400w" alt="" width="2000" height="2667" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/00100dPORTRAIT_00100_BURST20180527133330704_COVER-3.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_00100dPORTRAIT_00100_BURST20180527133330704_COVER-3.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_00100dPORTRAIT_00100_BURST20180527133330704_COVER-3.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_00100dPORTRAIT_00100_BURST20180527133330704_COVER-3.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_00100dPORTRAIT_00100_BURST20180527133330704_COVER-3.jpg 2400w" alt="" width="2000" height="2667" />
     </div>
     
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/00000PORTRAIT_00000_BURST20180527154957149.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_00000PORTRAIT_00000_BURST20180527154957149.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_00000PORTRAIT_00000_BURST20180527154957149.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_00000PORTRAIT_00000_BURST20180527154957149.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_00000PORTRAIT_00000_BURST20180527154957149.jpg 2400w" alt="" width="2000" height="1500" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/00000PORTRAIT_00000_BURST20180527154957149.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_00000PORTRAIT_00000_BURST20180527154957149.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_00000PORTRAIT_00000_BURST20180527154957149.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_00000PORTRAIT_00000_BURST20180527154957149.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_00000PORTRAIT_00000_BURST20180527154957149.jpg 2400w" alt="" width="2000" height="1500" />
     </div>
   </div>
   
   <div class="kg-gallery-row">
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_20180527_155153.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_IMG_20180527_155153.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_20180527_155153.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_IMG_20180527_155153.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_IMG_20180527_155153.jpg 2400w" alt="" width="2000" height="1500" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180527_155153.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180527_155153.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180527_155153.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180527_155153.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180527_155153.jpg 2400w" alt="" width="2000" height="1500" />
     </div>
     
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_20180527_174915.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_IMG_20180527_174915.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_20180527_174915.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_IMG_20180527_174915.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_IMG_20180527_174915.jpg 2400w" alt="" width="2000" height="2667" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180527_174915.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180527_174915.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180527_174915.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180527_174915.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180527_174915.jpg 2400w" alt="" width="2000" height="2667" />
     </div>
   </div>
 </div></figure> 
@@ -86,21 +86,21 @@ In the evening we sat outside the Clachaig playing chess. We heard tell of a cou
 <div class="kg-gallery-container">
   <div class="kg-gallery-row">
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/00000PORTRAIT_00000_BURST20180528115910345.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_00000PORTRAIT_00000_BURST20180528115910345.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_00000PORTRAIT_00000_BURST20180528115910345.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_00000PORTRAIT_00000_BURST20180528115910345.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_00000PORTRAIT_00000_BURST20180528115910345.jpg 2400w" alt="" width="2000" height="1500" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/00000PORTRAIT_00000_BURST20180528115910345.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_00000PORTRAIT_00000_BURST20180528115910345.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_00000PORTRAIT_00000_BURST20180528115910345.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_00000PORTRAIT_00000_BURST20180528115910345.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_00000PORTRAIT_00000_BURST20180528115910345.jpg 2400w" alt="" width="2000" height="1500" />
     </div>
     
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_20180528_123222.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_IMG_20180528_123222.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_20180528_123222.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_IMG_20180528_123222.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_IMG_20180528_123222.jpg 2400w" alt="" width="2000" height="1500" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180528_123222.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180528_123222.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180528_123222.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180528_123222.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180528_123222.jpg 2400w" alt="" width="2000" height="1500" />
     </div>
   </div>
   
   <div class="kg-gallery-row">
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_20180528_202024.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_IMG_20180528_202024.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_20180528_202024.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_IMG_20180528_202024.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_IMG_20180528_202024.jpg 2400w" alt="" width="2000" height="2667" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180528_202024.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180528_202024.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180528_202024.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180528_202024.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180528_202024.jpg 2400w" alt="" width="2000" height="2667" />
     </div>
     
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_20180528_202950.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_IMG_20180528_202950.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_20180528_202950.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_IMG_20180528_202950.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_IMG_20180528_202950.jpg 2400w" alt="" width="2000" height="1500" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180528_202950.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180528_202950.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180528_202950.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180528_202950.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180528_202950.jpg 2400w" alt="" width="2000" height="1500" />
     </div>
   </div>
 </div></figure> 
@@ -116,29 +116,29 @@ We stayed at a very pleasant and peaceful [AirBnB by the name of Fasgro in Drumb
 <div class="kg-gallery-container">
   <div class="kg-gallery-row">
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_9757-1.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_IMG_9757-1.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_9757-1.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_IMG_9757-1.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_IMG_9757-1.jpg 2400w" alt="" width="2000" height="3000" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_9757-1.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_9757-1.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_9757-1.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_9757-1.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_9757-1.jpg 2400w" alt="" width="2000" height="3000" />
     </div>
     
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_9782.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_IMG_9782.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_9782.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_IMG_9782.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_IMG_9782.jpg 2400w" alt="" width="2000" height="1333" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_9782.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_9782.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_9782.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_9782.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_9782.jpg 2400w" alt="" width="2000" height="1333" />
     </div>
     
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_9812.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_IMG_9812.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_9812.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_IMG_9812.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_IMG_9812.jpg 2400w" alt="" width="2000" height="1333" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_9812.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_9812.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_9812.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_9812.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_9812.jpg 2400w" alt="" width="2000" height="1333" />
     </div>
   </div>
   
   <div class="kg-gallery-row">
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/4_IMG_20180529_135410.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/IMG_20180529_135410.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/1_IMG_20180529_135410.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_20180529_135410.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/3_IMG_20180529_135410.jpg 2400w" alt="" width="2000" height="1500" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180529_135410.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180529_135410.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180529_135410.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180529_135410.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180529_135410.jpg 2400w" alt="" width="2000" height="1500" />
     </div>
     
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_20180529_151250.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_IMG_20180529_151250.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_20180529_151250.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_IMG_20180529_151250.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_IMG_20180529_151250.jpg 2400w" alt="" width="2000" height="1500" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180529_151250.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180529_151250.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180529_151250.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180529_151250.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180529_151250.jpg 2400w" alt="" width="2000" height="1500" />
     </div>
     
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/2020-01-14_20-37-02.png" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_2020-01-14_20-37-02.png 600w, https://cdn.iannelson.uk/uploads/2023/08/2_2020-01-14_20-37-02.png 1000w, https://cdn.iannelson.uk/uploads/2023/08/2020-01-14_20-37-02.png 1371w" alt="" width="1371" height="1339" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-14_20-37-02.png" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2020-01-14_20-37-02.png 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_2020-01-14_20-37-02.png 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-14_20-37-02.png 1371w" alt="" width="1371" height="1339" />
     </div>
   </div>
 </div></figure> 
@@ -154,25 +154,25 @@ Back to the car, and we drove through the majestic [Torridon][16], Kinlochewe (s
 <div class="kg-gallery-container">
   <div class="kg-gallery-row">
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_20180530_125108.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_IMG_20180530_125108.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_20180530_125108.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_IMG_20180530_125108.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_IMG_20180530_125108.jpg 2400w" alt="" width="2000" height="1500" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180530_125108.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180530_125108.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180530_125108.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180530_125108.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180530_125108.jpg 2400w" alt="" width="2000" height="1500" />
     </div>
     
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/COLOR_POP.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_COLOR_POP.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_COLOR_POP.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_COLOR_POP.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_COLOR_POP.jpg 2400w" alt="" width="2000" height="1500" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/COLOR_POP.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_COLOR_POP.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_COLOR_POP.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_COLOR_POP.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_COLOR_POP.jpg 2400w" alt="" width="2000" height="1500" />
     </div>
     
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_20180530_120619.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_IMG_20180530_120619.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_20180530_120619.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_IMG_20180530_120619.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_IMG_20180530_120619.jpg 2400w" alt="" width="2000" height="1500" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180530_120619.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180530_120619.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180530_120619.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180530_120619.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180530_120619.jpg 2400w" alt="" width="2000" height="1500" />
     </div>
   </div>
   
   <div class="kg-gallery-row">
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_9851.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_IMG_9851.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_9851.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_IMG_9851.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_IMG_9851.jpg 2400w" alt="" width="2000" height="1333" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_9851.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_9851.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_9851.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_9851.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_9851.jpg 2400w" alt="" width="2000" height="1333" />
     </div>
     
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/2020-01-14_20-39-22.png" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_2020-01-14_20-39-22.png 600w, https://cdn.iannelson.uk/uploads/2023/08/2_2020-01-14_20-39-22.png 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_2020-01-14_20-39-22.png 1600w, https://cdn.iannelson.uk/uploads/2023/08/2020-01-14_20-39-22.png 2188w" alt="" width="2000" height="1344" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-14_20-39-22.png" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2020-01-14_20-39-22.png 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_2020-01-14_20-39-22.png 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_2020-01-14_20-39-22.png 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-14_20-39-22.png 2188w" alt="" width="2000" height="1344" />
     </div>
   </div>
 </div></figure> 
@@ -188,25 +188,25 @@ After Ben retired to our room to watch some TV talent show, I got chatting to a 
 <div class="kg-gallery-container">
   <div class="kg-gallery-row">
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_20180531_135711.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_IMG_20180531_135711.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_20180531_135711.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_IMG_20180531_135711.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_IMG_20180531_135711.jpg 2400w" alt="" width="2000" height="2667" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180531_135711.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180531_135711.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180531_135711.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180531_135711.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180531_135711.jpg 2400w" alt="" width="2000" height="2667" />
     </div>
     
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/Screenshot_20180601-212905-1.png" sizes="auto, (min-width: 720px) 720px" alt="" width="1080" height="1920" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/Screenshot_20180601-212905-1.png" sizes="auto, (min-width: 720px) 720px" alt="" width="1080" height="1920" />
     </div>
     
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_20180531_135735.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_IMG_20180531_135735.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_20180531_135735.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_IMG_20180531_135735.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_IMG_20180531_135735.jpg 2400w" alt="" width="2000" height="2667" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180531_135735.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180531_135735.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180531_135735.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180531_135735.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180531_135735.jpg 2400w" alt="" width="2000" height="2667" />
     </div>
   </div>
   
   <div class="kg-gallery-row">
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/00100dPORTRAIT_00100_BURST20180531181545738_COVER-1.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_00100dPORTRAIT_00100_BURST20180531181545738_COVER-1.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_00100dPORTRAIT_00100_BURST20180531181545738_COVER-1.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_00100dPORTRAIT_00100_BURST20180531181545738_COVER-1.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_00100dPORTRAIT_00100_BURST20180531181545738_COVER-1.jpg 2400w" alt="" width="2000" height="2667" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/00100dPORTRAIT_00100_BURST20180531181545738_COVER-1.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_00100dPORTRAIT_00100_BURST20180531181545738_COVER-1.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_00100dPORTRAIT_00100_BURST20180531181545738_COVER-1.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_00100dPORTRAIT_00100_BURST20180531181545738_COVER-1.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_00100dPORTRAIT_00100_BURST20180531181545738_COVER-1.jpg 2400w" alt="" width="2000" height="2667" />
     </div>
     
     <div class="kg-gallery-image">
-      <img loading="lazy" decoding="async" class="aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/IMG_20180531_200439.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://cdn.iannelson.uk/uploads/2023/08/1_IMG_20180531_200439.jpg 600w, https://cdn.iannelson.uk/uploads/2023/08/2_IMG_20180531_200439.jpg 1000w, https://cdn.iannelson.uk/uploads/2023/08/3_IMG_20180531_200439.jpg 1600w, https://cdn.iannelson.uk/uploads/2023/08/4_IMG_20180531_200439.jpg 2400w" alt="" width="2000" height="2667" />
+      <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180531_200439.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180531_200439.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180531_200439.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180531_200439.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180531_200439.jpg 2400w" alt="" width="2000" height="2667" />
     </div>
   </div>
 </div></figure> 

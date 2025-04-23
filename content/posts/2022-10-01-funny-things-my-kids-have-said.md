@@ -5,7 +5,7 @@ date: 2022-10-01T20:46:24+00:00
 excerpt: A collection of some of the cute and funny things our three children came out with when they were younger.
 url: /funny-things-my-kids-have-said/
 cover: 
-  image: https://cdn.iannelson.uk/uploads/2022/10/17097568_10154867502840708_3006812927482649041_o_10154867502840708-1.jpg
+  image: https://blogstouks01.z33.web.core.windows.net/2022/10/17097568_10154867502840708_3006812927482649041_o_10154867502840708-1.jpg
 
 categories:
   - Family
@@ -61,7 +61,7 @@ _November 2010_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/53555_496221560707_6115478_o_496221560707.jpg" alt="" /> <figcaption class="wp-element-caption">November 2010</figcaption></figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/53555_496221560707_6115478_o_496221560707.jpg" alt="" /> <figcaption class="wp-element-caption">November 2010</figcaption></figure> 
 
 ---
 
@@ -87,7 +87,7 @@ _April 2011_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/219768_10150228106725708_6828365_o_10150228106725708.jpg" alt="" /> <figcaption class="wp-element-caption">Thank you Pixar. April 2011</figcaption></figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/219768_10150228106725708_6828365_o_10150228106725708.jpg" alt="" /> <figcaption class="wp-element-caption">Thank you Pixar. April 2011</figcaption></figure> 
 
 ---
 
@@ -121,7 +121,7 @@ Poor boy thought it was the apocalypse.
 
 _July 2011_<figure class="wp-block-image">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/1426703_10151999482410708_920183872_n_10151999482410708.jpg" alt="" /> <figcaption class="wp-element-caption">November 2013</figcaption></figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/1426703_10151999482410708_920183872_n_10151999482410708.jpg" alt="" /> <figcaption class="wp-element-caption">November 2013</figcaption></figure> 
 
 ---
 
@@ -150,7 +150,7 @@ _February 2011_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/65013_10152027558065708_1363386317_n_10152027558065708-1.jpg" alt="" /> <figcaption class="wp-element-caption">November 2013</figcaption></figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/65013_10152027558065708_1363386317_n_10152027558065708-1.jpg" alt="" /> <figcaption class="wp-element-caption">November 2013</figcaption></figure> 
 
 ---
 
@@ -196,7 +196,7 @@ _February 2012_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/324105_10150652547600708_1375973578_o_10150652547600708.jpg" alt="" /> <figcaption class="wp-element-caption">February 2012</figcaption></figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/324105_10150652547600708_1375973578_o_10150652547600708.jpg" alt="" /> <figcaption class="wp-element-caption">February 2012</figcaption></figure> 
 
 ---
 
@@ -218,7 +218,7 @@ _June 2012_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/475070_10150700652220708_880756091_o_10150700652220708.jpg" alt="" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/475070_10150700652220708_880756091_o_10150700652220708.jpg" alt="" /> </figure> 
 
 Ben: &#8220;Hey Dad, in about three more birthdays you’ll be nearly 40&#8221;  
 Me: &#8220;That’s right Ben. It’s a bit scary really.&#8221;  
@@ -242,7 +242,7 @@ _June 2012_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/415379_10151137523575708_979572353_o_10151137523575708.jpg" alt="" /> <figcaption class="wp-element-caption">August 2012</figcaption></figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/415379_10151137523575708_979572353_o_10151137523575708.jpg" alt="" /> <figcaption class="wp-element-caption">August 2012</figcaption></figure> 
 
 ---
 
@@ -265,7 +265,7 @@ _September 2012_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/326857_10151254008975708_2126850386_o_10151254008975708.jpg" alt="" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/326857_10151254008975708_2126850386_o_10151254008975708.jpg" alt="" /> </figure> 
 
 Isla: &#8220;I am not calling my brother Matthew Hengry. I am just calling him Matthew.&#8221;  
 Me: &#8220;Good, &#8216;cos his middle name is &#8216;Henry'&#8221;  
@@ -316,7 +316,7 @@ _October 2012_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/1013278_10152203987025708_729053744_n_10152203987025708.jpg" alt="" /> <figcaption class="wp-element-caption">February 2014</figcaption></figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/1013278_10152203987025708_729053744_n_10152203987025708.jpg" alt="" /> <figcaption class="wp-element-caption">February 2014</figcaption></figure> 
 
 ---
 
@@ -352,7 +352,7 @@ _January 2013_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/1508576_10152233460485708_453418958_n_10152233460485708.jpg" alt="" /> <figcaption class="wp-element-caption">March 2014</figcaption></figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/1508576_10152233460485708_453418958_n_10152233460485708.jpg" alt="" /> <figcaption class="wp-element-caption">March 2014</figcaption></figure> 
 
 ---
 
@@ -387,7 +387,7 @@ _March 2013_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/892834_10151532720170708_1339243375_o_10151532720170708.jpg" alt="" /> <figcaption class="wp-element-caption">March 2013</figcaption></figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/892834_10151532720170708_1339243375_o_10151532720170708.jpg" alt="" /> <figcaption class="wp-element-caption">March 2013</figcaption></figure> 
 
 ---
 
@@ -406,7 +406,7 @@ _May 2013_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/1622347_10152483270700708_1921323014589963624_o_10152483270700708.jpg" alt="" /> <figcaption class="wp-element-caption">June 2014</figcaption></figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/1622347_10152483270700708_1921323014589963624_o_10152483270700708.jpg" alt="" /> <figcaption class="wp-element-caption">June 2014</figcaption></figure> 
 
 ---
 
@@ -442,7 +442,7 @@ _July 2013_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/10603303_10152747543810708_3671140052943774464_n_10152747543810708.jpg" alt="" /> <figcaption class="wp-element-caption">October 2014</figcaption></figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/10603303_10152747543810708_3671140052943774464_n_10152747543810708.jpg" alt="" /> <figcaption class="wp-element-caption">October 2014</figcaption></figure> 
 
 ---
 
@@ -478,7 +478,7 @@ _October 2013_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/625591_10151971487935708_562025417_n_10151971487935708.jpg" alt="" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/625591_10151971487935708_562025417_n_10151971487935708.jpg" alt="" /> </figure> 
 
 Me: &#8220;Isla, what is your new dog called?&#8221;
 
@@ -508,7 +508,7 @@ _January 2014_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/20227_10153378347995708_3031515839856052907_n_10153378347995708.jpg" alt="" /> <figcaption class="wp-element-caption">July 2015</figcaption></figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/20227_10153378347995708_3031515839856052907_n_10153378347995708.jpg" alt="" /> <figcaption class="wp-element-caption">July 2015</figcaption></figure> 
 
 ---
 
@@ -546,7 +546,7 @@ _March 2014_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/13227710_10154032755780708_2774998994472644971_o_10154032755780708.jpg" alt="" /> <figcaption class="wp-element-caption">May 2016</figcaption></figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/13227710_10154032755780708_2774998994472644971_o_10154032755780708.jpg" alt="" /> <figcaption class="wp-element-caption">May 2016</figcaption></figure> 
 
 ---
 
@@ -580,7 +580,7 @@ _April 2014_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/10295368_10152351021260708_5731877710732039716_o_10152351021260708.jpg" alt="" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/10295368_10152351021260708_5731877710732039716_o_10152351021260708.jpg" alt="" /> </figure> 
 
 Me: &#8220;Good morning Isla&#8221;  
 Isla: &#8220;Hi Daddy! I am going to have a good birthday today!&#8221;  
@@ -591,7 +591,7 @@ _April 2014_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/10295493_10152367586975708_3317887003908456461_o_10152367586975708.jpg" alt="" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/10295493_10152367586975708_3317887003908456461_o_10152367586975708.jpg" alt="" /> </figure> 
 
 Ben’s homework &#8211; think of ten verbs and write sentences containing them.
 
@@ -621,7 +621,7 @@ _June 2014_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/13735668_10154177768985708_3007357965132069923_o_10154177768985708.jpg" alt="" /> <figcaption class="wp-element-caption">July 2016</figcaption></figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/13735668_10154177768985708_3007357965132069923_o_10154177768985708.jpg" alt="" /> <figcaption class="wp-element-caption">July 2016</figcaption></figure> 
 
 ---
 
@@ -650,7 +650,7 @@ _August 2014_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/995635_10152574091740708_8556886903154634058_n_10152574091740708.jpg" alt="" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/995635_10152574091740708_8556886903154634058_n_10152574091740708.jpg" alt="" /> </figure> 
 
 At home we keep a bunch of Thomas The Tank Engine track inside a large footstool. Here’s a photo of a frustrated Matthew discovering that not all footstools in the universe possess this property. &#8220;Track!!!&#8221;
 
@@ -672,7 +672,7 @@ _March 2015_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/11043112_10153079109365708_4955701106772570631_o_10153079109365708.jpg" alt="" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/11043112_10153079109365708_4955701106772570631_o_10153079109365708.jpg" alt="" /> </figure> 
 
 Ben was uncertain as to the level of formality required when signing a Mother’s Day card.
 
@@ -690,7 +690,7 @@ _March 2015_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/17082_10153173525840708_4796151281851565154_n_10153173525840708.jpg" alt="" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/17082_10153173525840708_4796151281851565154_n_10153173525840708.jpg" alt="" /> </figure> 
 
 Isla: &#8220;I’ve made a present for you daddy. It’s a rock, and I’ve drawn a picture of you on it.&#8221;
 
@@ -722,7 +722,7 @@ _October 2015_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/21055019_10155426106080708_3102459011665585800_o_10155426106080708.jpg" alt="" /> <figcaption class="wp-element-caption">August 2017</figcaption></figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/21055019_10155426106080708_3102459011665585800_o_10155426106080708.jpg" alt="" /> <figcaption class="wp-element-caption">August 2017</figcaption></figure> 
 
 ---
 
@@ -749,7 +749,7 @@ _February 2016_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/12814688_10153836704310708_4116643464167679070_n_10153836704310708.jpg" alt="" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/12814688_10153836704310708_4116643464167679070_n_10153836704310708.jpg" alt="" /> </figure> 
 
 My best birthday present came from Isla &#8211; a mostly-uneaten pack of spearmint Polos.
 
@@ -782,7 +782,7 @@ _March 2016_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/22339637_10155561129940708_8225319981411500029_o_10155561129940708.jpg" alt="" /> <figcaption class="wp-element-caption">October 2017</figcaption></figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/22339637_10155561129940708_8225319981411500029_o_10155561129940708.jpg" alt="" /> <figcaption class="wp-element-caption">October 2017</figcaption></figure> 
 
 ---
 
@@ -806,7 +806,7 @@ _June 2016_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/13406746_10154081569860708_7186315449603263044_n_10154081569860708.jpg" alt="" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/13406746_10154081569860708_7186315449603263044_n_10154081569860708.jpg" alt="" /> </figure> 
 
 Me: &#8220;Hey kids, who is this scarecrow?&#8221;  
 Matthew: &#8220;Uncle Patrick!&#8221;
@@ -829,7 +829,7 @@ _June 2016_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/13659094_10154154788000708_3825157681417665036_n_10154154788000708.jpg" alt="" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/13659094_10154154788000708_3825157681417665036_n_10154154788000708.jpg" alt="" /> </figure> 
 
 Ben: &#8220;Dad, you look like a sheet of graph paper.&#8221;
 
@@ -837,7 +837,7 @@ _July 2016_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/13701211_10154168702180708_7329744062722999417_o_10154168702180708.jpg" alt="" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/13701211_10154168702180708_7329744062722999417_o_10154168702180708.jpg" alt="" /> </figure> 
 
 Me: &#8220;Can you smile?&#8221;  
 Ben: &#8220;I’m trying.&#8221;
@@ -868,7 +868,7 @@ _November 2016_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/15259458_10154553672320708_341087630330676329_o_10154553672320708.jpg" alt="" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/15259458_10154553672320708_341087630330676329_o_10154553672320708.jpg" alt="" /> </figure> 
 
 Me: &#8220;What do you want for breakfast Matthew?&#8221;  
 Matt: &#8220;Er, Crunchy Nuts! And Cheerios! Oh, and blueberry wheats!&#8221;
@@ -901,11 +901,11 @@ _February 2017_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/18056231_10155014662225708_2145156772790777871_o_10155014662225708.jpg" alt="" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/18056231_10155014662225708_2145156772790777871_o_10155014662225708.jpg" alt="" /> </figure> 
 
 Things Isla has brought to lunch #1: Duct tape<figure class="wp-block-image">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/18055835_10155014671785708_575121255675113957_o_10155014671785708.jpg" alt="" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/18055835_10155014671785708_575121255675113957_o_10155014671785708.jpg" alt="" /> </figure> 
 
 Things Isla has brought to lunch #2 and #3: fingerless gloves and an invisible ink pen.
 
@@ -927,7 +927,7 @@ _November 2017_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/23737627_10155653623035708_4992114295825121126_o_10155653623035708.jpg" alt="" /> <figcaption class="wp-element-caption">November 2017</figcaption></figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/23737627_10155653623035708_4992114295825121126_o_10155653623035708.jpg" alt="" /> <figcaption class="wp-element-caption">November 2017</figcaption></figure> 
 
 ---
 
@@ -958,7 +958,7 @@ _January 2018_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/44903143_10156507176005708_5212095474013569024_n_10156507175995708.jpg" alt="" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/44903143_10156507176005708_5212095474013569024_n_10156507175995708.jpg" alt="" /> </figure> 
 
 Isla: &#8220;Why would you want to pay 50p for extra snot?&#8221;
 
@@ -972,6 +972,6 @@ _November 2018_
 
 ---
 <figure class="wp-block-image">
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/37611866_10156280751495708_6812231212820594688_n_10156280751485708.jpg" alt="" /> <figcaption class="wp-element-caption">July 2018</figcaption></figure>
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/37611866_10156280751495708_6812231212820594688_n_10156280751485708.jpg" alt="" /> <figcaption class="wp-element-caption">July 2018</figcaption></figure>
 
  [1]: https://en.wikipedia.org/wiki/News_of_the_World

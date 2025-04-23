@@ -4,7 +4,7 @@ title: Available Again For Contract Work
 date: 2012-03-12T08:03:00+00:00
 url: /available-again-for-contract-work/
 cover: 
-  image: https://cdn.iannelson.uk/uploads/2012/03/ian_on_a_card-1.jpg
+  image: https://blogstouks01.z33.web.core.windows.net/2012/03/ian_on_a_card-1.jpg
 
 categories:
   - Work
@@ -12,15 +12,15 @@ categories:
 ---
 #### Are you plagued by bad code smells? {#are-you-plagued-by-bad-code-smells}<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/iStock_000018608645XSmall.jpg" class="kg-image" alt="Man frustrated at computer" loading="lazy" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000018608645XSmall.jpg" class="kg-image" alt="Man frustrated at computer" loading="lazy" /> </figure> 
 
 #### Troubled by slow-running database queries and ETL routines? {#troubled-by-slow-running-database-queries-and-etl-routines}<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/iStock_000001963185XSmall.jpg" class="kg-image" alt="Couple bored of waiting for computer" loading="lazy" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000001963185XSmall.jpg" class="kg-image" alt="Couple bored of waiting for computer" loading="lazy" /> </figure> 
 
 #### In need of some scalable and maintainable enterprise integration solutions? {#in-need-of-some-scalable-and-maintainable-enterprise-integration-solutions}<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/iStock_000006701987XSmall.jpg" class="kg-image" alt="Young guy tangled in cables" loading="lazy" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000006701987XSmall.jpg" class="kg-image" alt="Young guy tangled in cables" loading="lazy" /> </figure> 
 
 Look no further! As luck would have it, legendary Leeds-based freelance software developer Ian F. Nelson is now available again for contract opportunities. Fresh from a 42-week stint at the [Health and Social Care Information Centre][1] where he played a major part in developing a suite of distributed systems to facilitate the expansion of a national programme to calculate health gains after surgical treatment, Ian Nelson is on the market again, and available **now** to help your team deliver the system of your dreams!
 
@@ -56,15 +56,15 @@ Languages, technologies and methodologies used will be subject to naturalvarianc
 
 #### Marvel! As user stories fly across the kanban board. {#marvel-as-user-stories-fly-across-the-kanban-board-}<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/iStock_000012193457XSmall.jpg" class="kg-image" alt="Shocked businessman can't believe his eyes" loading="lazy" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000012193457XSmall.jpg" class="kg-image" alt="Shocked businessman can't believe his eyes" loading="lazy" /> </figure> 
 
 #### Cheer! As a test-driven approach results in an astoundingly low defect rate. {#cheer-as-a-test-driven-approach-results-in-an-astoundingly-low-defect-rate-}<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/iStock_000017462623XSmall.jpg" class="kg-image" alt="Cheerful businesspeople looking at the report" loading="lazy" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000017462623XSmall.jpg" class="kg-image" alt="Cheerful businesspeople looking at the report" loading="lazy" /> </figure> 
 
 #### Party! As projects come in on time and on budget. {#party-as-projects-come-in-on-time-and-on-budget-}<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/iStock_000012308930XSmall.jpg" class="kg-image" alt="Business people raising champagne glasses" loading="lazy" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000012308930XSmall.jpg" class="kg-image" alt="Business people raising champagne glasses" loading="lazy" /> </figure> 
 
 Don’t just take our word for it! Listen to the experiences of other satisfied customers:
 
@@ -98,7 +98,7 @@ Ben Nelson (aged 4)
 
 Every Ian Nelson arrives fully charged and ready to code, with no batteries or assembly required. Ian Nelson functions effectively in any agile development environment, integrating seamlessly with your existing team members, from the pickiest of testers to the prickliest of DBAs.<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/ian_on_a_card.jpg" class="kg-image" alt="Ian F. Nelson - on a box!" loading="lazy" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/ian_on_a_card.jpg" class="kg-image" alt="Ian F. Nelson - on a box!" loading="lazy" /> </figure> 
 
 ### But that’s not all! {#but-that-s-not-all-}
 

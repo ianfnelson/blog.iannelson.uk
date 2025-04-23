@@ -16,15 +16,15 @@ Here’s the good news – you can easily configure TFS to use a different, thir
   * Expand the **Source Control** –> **Visual Studio Team Foundation Server** section.
   * Click the **Configure User Tools…** button:<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/dm1_4.png" class="kg-image" alt loading="lazy" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/dm1_4.png" class="kg-image" alt loading="lazy" /> </figure> 
 
   * Click the **Add…** button to set up a new file extension operation:<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/dm2_2.png" class="kg-image" alt loading="lazy" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/dm2_2.png" class="kg-image" alt loading="lazy" /> </figure> 
 
   * Set up a **Compare** operation to run against all files (extension of *****):<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/dm3_3.png" class="kg-image" alt loading="lazy" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/dm3_3.png" class="kg-image" alt loading="lazy" /> </figure> 
 
   * Repeat the process to add a **Merge** operation to run against all file extensions.
 

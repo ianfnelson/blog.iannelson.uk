@@ -44,7 +44,7 @@ Trusting NHibernate as I do, and not generally being the kind of coder who assum
 
 Too late in the day, I dusted down Occam’s trusty razor, and realised that whilst the main Customers table was correctly enforcing primary keys, I hadn’t checked the various child tables. Lo and behold, less than a minute later I found the following reference data in an innocuous looking table of referrers:<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/pkviolation.png" class="kg-image" alt loading="lazy" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/pkviolation.png" class="kg-image" alt loading="lazy" /> </figure> 
 
 Removing the duplicated entry for &#8220;Other&#8221;, which was incorrectly using the same ID as &#8220;Website&#8221;, solved my problems instantly. And needless to say, I’ve made a note to go add a primary key to that table at the earliest opportunity.
 

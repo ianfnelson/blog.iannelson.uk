@@ -4,7 +4,7 @@ series: 'Beer Advent Calendar 2005'
 date: 2005-12-08T14:12:00+00:00
 url: /beer-advent-calendar-day-seven/
 cover: 
-  image: https://cdn.iannelson.uk/uploads/2005/12/connie1_large_71473873_o-1.jpg
+  image: https://blogstouks01.z33.web.core.windows.net/2005/12/connie1_large_71473873_o-1.jpg
 
 categories:
   - Fun
@@ -18,7 +18,7 @@ Jocelyn says: &#8220;This is a girly beer!  I could drink this!  This is fruit
 
 Weird advertising, too &#8211; would you buy a drink for this girl?<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/connie1_large_71473873_o.jpg" class="kg-image" alt loading="lazy" /> </figure>
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/connie1_large_71473873_o.jpg" class="kg-image" alt loading="lazy" /> </figure>
 
  [1]: http://www.k1664.co.uk
  [2]: http://www.google.com/url?sa=t&ct=res&cd=1&url=http%3A//www.scottish-newcastle.com/

@@ -4,7 +4,7 @@ title: Computer Games I Have Loved
 date: 2005-08-22T21:08:00+00:00
 url: /computer-games-i-have-loved/
 cover: 
-  image: https://cdn.iannelson.uk/uploads/2005/08/grandstand-bmxflyerboxfrontjpg_35626067_o-1.jpg
+  image: https://blogstouks01.z33.web.core.windows.net/2005/08/grandstand-bmxflyerboxfrontjpg_35626067_o-1.jpg
 
 categories:
   - Fun
@@ -26,7 +26,7 @@ But still, those earlier computer games _did_ play a big part during the first t
 The first &#8220;console&#8221; I ever owned, this featured four (four!) different games &#8211; football, squash, tennis and practice. &nbsp;Not only that, but it boasted configurable options for speed, angle, and bat-size! &nbsp;You simply cannot appreciate how many hours I frittered away bouncing that square block against a wall until I encountered 15 &#8220;faults&#8221; &#8211; at which point I would press the reset button and repeat the process. &nbsp;If I’m being charitable to my younger self, then I could suggest that this game at least helped me develop hand-eye coordination, and stopped me mithering my parents for a while.  
 &#8220;Real Sports Action&#8221;, says the box. &nbsp;Well, only if football ever consisted of four vertical bars deflecting a square ball moving with constant speed. &nbsp;Also &#8211; &#8220;Realistic Sound Effects&#8221;. &nbsp;It beeped! &nbsp;That was it! &nbsp;But, y’know, it was all we had, so&#8230;<figure class="wp-block-image">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/grandstand-adman-2000_35626038_o.jpg" alt="Grandstand Adman 2000" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/grandstand-adman-2000_35626038_o.jpg" alt="Grandstand Adman 2000" /> </figure> 
 
 _Photo by [Erik Klooster][4]_
 
@@ -34,7 +34,7 @@ _Photo by [Erik Klooster][4]_
 
 Oh, now this handheld LCD console was (is?) a most favourite game of mine. &nbsp;I can still hum the tune, and I still know that my highest-ever score was 14,070. &nbsp;Brilliant fun &#8211; highly addictive and an appealing concept for a seven year-old lad (&#8220;avoid the crows!&#8221; &nbsp;&#8220;jump for the girl in the balloon!&#8221; &nbsp;&#8220;kick dirt in the baddy’s face!&#8221;).<figure class="wp-block-image">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/grandstand-bmxflyerboxfrontjpg_35626067_o.jpg" alt="Grandstand BMX Flyer" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/grandstand-bmxflyerboxfrontjpg_35626067_o.jpg" alt="Grandstand BMX Flyer" /> </figure> 
 
 _Photo by [Handheld Museum][5]_
 
@@ -55,7 +55,7 @@ Of all the games I had for the C16, Kickstart was the only one that I remember a
 
 The Christmas that brought me an Amiga 500 played a big part in sealing my future career direction. &nbsp;For the first time, I was able to tinker with a real operating system (with GUI), more powerful programming languages, hard disks, multitasking applications, etc. &nbsp;But that Christmas day itself was mostly spent playing Lemmings, which should need no introduction as it’s one of the most popular games of its time, and has been ported across to many platforms, including DHTML!<figure class="wp-block-image">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/amiga_lemmingspng_35626091_o.png" alt="Lemmings" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/amiga_lemmingspng_35626091_o.png" alt="Lemmings" /> </figure> 
 
 
 
@@ -63,7 +63,7 @@ The Christmas that brought me an Amiga 500 played a big part in sealing my futur
 
 Stunt Car Racer was initially a very hard game. &nbsp;But, persevere and you would discover the &#8220;knack&#8221; to each of the eight challenging courses. &nbsp;So, persevere I did, and eventually reached the top of division one! &nbsp;It seemed like such an achievement at the time, but it’s not exactly something I can put on my CV in 2005, is it?<figure class="wp-block-image">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/stunt_car_racer_06_35626365_o.gif" alt="Stunt Car Racer" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/stunt_car_racer_06_35626365_o.gif" alt="Stunt Car Racer" /> </figure> 
 
 
 
@@ -71,7 +71,7 @@ Stunt Car Racer was initially a very hard game. &nbsp;But, persevere and you wou
 
 Gods was a platform game by the Bitmap Brothers, with a kicking introductory theme tune, and the game was pretty cool too. &nbsp;Lots of different weapons, puzzles, and backgrounds ensured a game which remained enjoyable as you progressed through the levels. &nbsp;Also a good variety of monsters, who boasted a much-hyped AI, in stark contrast to the usual sprites of the day who tended to attack by following predictable (circular) routes. &nbsp;Brilliant.<figure class="wp-block-image">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/gods_35626019_o.png" alt="Gods" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/gods_35626019_o.png" alt="Gods" /> </figure> 
 
 
 
@@ -79,7 +79,7 @@ Gods was a platform game by the Bitmap Brothers, with a kicking introductory the
 
 Of all the games mentioned, I have spent the most time playing the various incarnations of Civilization on the Amiga and latterly on the PC. &nbsp;Indeed, Civ 3 with the Play The World expansion gets my vote for greatest computer game of all time. &nbsp;It’s such a brilliant concept &#8211; start with a few stone-age settlers in 4000BC and nurture them through 6000 years of growth, discovery, technological development, war and peace until they either achieve world domination or make the leap to Alpha Centauri (OK, I hear there are some other victory conditions, but these are the only two I’ve ever really found interesting). &nbsp;The level of attachment you can feel to your civilization after playing this game for an entire weekend is really quite disturbing. &nbsp;Addictive to the extreme, and often responsible for my eyes feeling very sore indeed&#8230;<figure class="wp-block-image">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/civ3jpg_35626007_o.jpg" alt="Civilization 3" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/civ3jpg_35626007_o.jpg" alt="Civilization 3" /> </figure> 
 
 
 

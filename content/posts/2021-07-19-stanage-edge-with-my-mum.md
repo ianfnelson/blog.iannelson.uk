@@ -5,7 +5,7 @@ date: 2021-07-19T18:49:44+00:00
 excerpt: A sunny walk up Stanage Edge, near Hathersage, in the Peak District.
 url: /stanage-edge-with-my-mum/
 cover: 
-  image: https://cdn.iannelson.uk/uploads/2021/07/191848_IMG_2990.jpg
+  image: https://blogstouks01.z33.web.core.windows.net/2021/07/191848_IMG_2990.jpg
 
 categories:
   - Family
@@ -19,43 +19,43 @@ I’m on a break between contracts this week, so decided to make the most of the
 Unlike&nbsp;[my last visit twenty years ago][2], there were no ropes or belays involved this time. Instead my Mum and I had a leisurely wander in the blistering July sunshine up part of the&nbsp;[Long Causeway][3], before taking some snapshots at the latest version of the historic&nbsp;[Stanage Pole][4].
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/191848_IMG_2985.jpg" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/191848_IMG_2985.jpg" alt="" /></figure>
 </div>
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/191848_IMG_2986.jpg" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/191848_IMG_2986.jpg" alt="" /></figure>
 </div>
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/191848_IMG_2990.jpg" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/191848_IMG_2990.jpg" alt="" /></figure>
 </div>
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/191848_IMG_2987.jpg" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/191848_IMG_2987.jpg" alt="" /></figure>
 </div>
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/191848_IMG_2988.jpg" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/191848_IMG_2988.jpg" alt="" /></figure>
 </div>
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/191848_IMG_2989.jpg" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/191848_IMG_2989.jpg" alt="" /></figure>
 </div>
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/191848_IMG_2991.jpg" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/191848_IMG_2991.jpg" alt="" /></figure>
 </div>
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/191848_IMG_2992.jpg" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/191848_IMG_2992.jpg" alt="" /></figure>
 </div>
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/191848_IMG_2993.jpg" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/191848_IMG_2993.jpg" alt="" /></figure>
 </div>
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/191846_IMG_0031.png" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/191846_IMG_0031.png" alt="" /></figure>
 </div>
 
  [1]: http://www.stanageedge.co.uk/

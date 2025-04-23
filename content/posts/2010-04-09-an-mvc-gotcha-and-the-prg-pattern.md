@@ -32,11 +32,11 @@ Note that we have two separate Index actions – one for HTTP GET which instanti
 
 We issue a GET against the relevant URI, and the view renders as we expect (in that both the textbox and the literal show the value 1:<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/Foo1_3.png" class="kg-image" alt loading="lazy" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/Foo1_3.png" class="kg-image" alt loading="lazy" /> </figure> 
 
 But here’s the gotcha – look what happens when we hit the increment button to post back:<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/Foo2_3.png" class="kg-image" alt loading="lazy" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/Foo2_3.png" class="kg-image" alt loading="lazy" /> </figure> 
 
 Huh? What gives? The model has definitely been updated (as reflected in the literal which is now showing 2), but the textbox is still stubbornly displaying 1.
 
@@ -46,7 +46,7 @@ So how to achieve our desired behaviour? We could make a quick and dirty call to
 
 In fact, this gotcha is symptomatic of a deeper anti-pattern in evidence in this example, namely rendering views from POST actions. Consider what happens if the user refreshes their browser when viewing the POSTed view. Recognise these dialog boxes?<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/IE_3.png" class="kg-image" alt loading="lazy" /> </figure> <figure class="kg-card kg-image-card"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/Chrome_3.png" class="kg-image" alt loading="lazy" /></figure> <figure class="kg-card kg-image-card"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/Firefox_4.png" class="kg-image" alt loading="lazy" /></figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IE_3.png" class="kg-image" alt loading="lazy" /> </figure> <figure class="kg-card kg-image-card"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/Chrome_3.png" class="kg-image" alt loading="lazy" /></figure> <figure class="kg-card kg-image-card"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/Firefox_4.png" class="kg-image" alt loading="lazy" /></figure> 
 
 Pretty ugly, aren’t they? And you really don’t want to leave open the possibility of a user accidentally submitting duplicate transactions if at all possible.
 
@@ -60,7 +60,7 @@ Here’s a quick reworking of the earlier controller to use this pattern. Note t
 
 And now we get the desired results on postback:<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/Foo3_3.png" class="kg-image" alt loading="lazy" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/Foo3_3.png" class="kg-image" alt loading="lazy" /> </figure> 
 
 If you’re using MVC, and returning ViewResults from POST actions, I would urge you to consider the potential side-effects of that approach, and standardise instead on a PRG pattern.
 

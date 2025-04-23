@@ -4,7 +4,7 @@ title: 'Back To Basics: On The Use And Abuse Of The Humble Boolean'
 date: 2014-07-01T20:54:00+00:00
 url: /back-to-basics-on-the-use-and-abuse-of-the-humble-boolean/
 cover: 
-  image: https://cdn.iannelson.uk/uploads/2014/07/iStock_000016008439Small.jpg
+  image: https://blogstouks01.z33.web.core.windows.net/2014/07/iStock_000016008439Small.jpg
 
 categories:
   - Tech

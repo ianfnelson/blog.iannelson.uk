@@ -4,7 +4,7 @@ series: 'Books of the Year'
 date: 2020-12-18T07:07:55+00:00
 url: /12-books-i-most-enjoyed-reading-in-2020/
 cover: 
-  image: https://cdn.iannelson.uk/uploads/2020/12/132227_2020.jpg
+  image: https://blogstouks01.z33.web.core.windows.net/2020/12/132227_2020.jpg
 
 categories:
   - Books
@@ -18,7 +18,7 @@ Still, by year end it seems I have indeed read slightly more books (36) than I d
 
 ### The Top 5 {#the-top-5}<figure class="kg-card kg-image-card">
 
-<img decoding="async" class="kg-image aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/132158_iger.jpg" alt="" /> </figure> 
+<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/132158_iger.jpg" alt="" /> </figure> 
 
 [The Ride of a Lifetime: Lessons in Creative Leadership from 15 Years as CEO of the Walt Disney Company][1] by Robert Iger
 
@@ -26,7 +26,7 @@ My favourite book of the year is this autobiography by outgoing Disney CEO Bob I
 
 Rather than being about the dry, cold nature of business, earnings calls and margins, Iger’s book is full of warmth and humanity, with a particular focus on dealing with other people respectfully and understanding their motivations. This obvious genuine interest in other people allowed Iger to clinch stunning deals with Pixar, Lucasfilm, Marvel, and 20th Century Fox, whilst cultivating excellent relationships and friendships with the likes of Rupert Murdoch and Steve Jobs.<figure class="kg-card kg-image-card">
 
-<img decoding="async" class="kg-image aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/132158_maitlis.jpg" alt="" /> </figure> 
+<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/132158_maitlis.jpg" alt="" /> </figure> 
 
 [Airhead: The Imperfect Art of Making News][2] by Emily Maitlis
 
@@ -36,7 +36,7 @@ In addition to that memorable moment with The Mooch, Maitlis also relates tales 
 
 On television Maitlis has always come across as a super-smart yet down-to-earth big sister figure, and this compilation of anecdotes from years of reporting the stories of the day and interviewing those who shape our world has a similar quality.<figure class="kg-card kg-image-card">
 
-<img decoding="async" class="kg-image aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/132159_pan.jpg" alt="" /> </figure> 
+<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/132159_pan.jpg" alt="" /> </figure> 
 
 [Sorry I’m Late, I Didn’t Want To Come: An Introvert’s Year of Living Dangerously][4] by Jessica Pan
 
@@ -44,7 +44,7 @@ As a fellow introvert, I naturally found many of Pan’s tales of self-enforced 
 
 Don’t get me wrong; I don’t plan to try stand up comedy or improv any time soon. But I might be open to the idea of making occasional smalltalk with my neighbours. Maybe.<figure class="kg-card kg-image-card">
 
-<img decoding="async" class="kg-image aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/132159_donoharm.jpg" alt="" /> </figure> 
+<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/132159_donoharm.jpg" alt="" /> </figure> 
 
 [Do No Harm: Stories of Life, Death and Brain Surgery][5] by Henry Marsh
 
@@ -54,7 +54,7 @@ But this was recommended to me by my erstwhile colleague, good friend and [surpr
 
 Pleasingly, I discovered that Marsh’s memoirs were less about the &#8220;gory details&#8221; of his chosen vocation (though naturally the topic did crop up), and more about his interactions with patients and their families, existential questions of life and death, and his run-ins with all aspect of our wonderful, bureaucratic, horribly over-stretched NHS.<figure class="kg-card kg-image-card">
 
-<img decoding="async" class="kg-image aligncenter" src="https://cdn.iannelson.uk/uploads/2023/08/13220_stats.jpg" alt="" /> </figure> 
+<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/13220_stats.jpg" alt="" /> </figure> 
 
 [The Art of Statistics: Learning from Data][8] by David Spiegelhalter
 

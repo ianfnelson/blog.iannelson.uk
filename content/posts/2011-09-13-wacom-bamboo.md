@@ -4,7 +4,7 @@ title: Wacom Bamboo
 date: 2011-09-13T10:09:00+00:00
 url: /wacom-bamboo/
 cover: 
-  image: https://cdn.iannelson.uk/uploads/2011/09/bamboo-1.jpg
+  image: https://blogstouks01.z33.web.core.windows.net/2011/09/bamboo-1.jpg
 
 categories:
   - Tech

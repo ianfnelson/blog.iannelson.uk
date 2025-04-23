@@ -4,7 +4,7 @@ title: 'Enterprise Integration Anti-Patterns #2 – Shared Assemblies'
 date: 2010-12-01T10:12:00+00:00
 url: /enterprise-integration-anti-patterns-2-shared-assemblies/
 cover: 
-  image: https://cdn.iannelson.uk/uploads/2010/12/iStock_000004248715XSmall_3-1.jpg
+  image: https://blogstouks01.z33.web.core.windows.net/2010/12/iStock_000004248715XSmall_3-1.jpg
 
 categories:
   - Tech
@@ -12,7 +12,7 @@ categories:
 ---
 Having slain the beast that is [Shared Database][1], the next dragon to appear on my Enterprise Integration horizon is Shared Assemblies. That is, the suggestion that Application A can leverage the functionality of Application B by simply adding references to B’s DLLs. After all, this potential for reuse is why we put our code in reusable assemblies in the first place, isn’t it..?!<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/iStock_000012931845XSmall_3.jpg" class="kg-image" alt="Share button on keyboard" loading="lazy" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000012931845XSmall_3.jpg" class="kg-image" alt="Share button on keyboard" loading="lazy" /> </figure> 
 
 Well, no. Actually we usually break our application apart into assemblies to create a maintainable and testable architecture. An assembly is a coarse-grained unit of encapsulated functionality in that architecture; the fact that it is the smallest deployable unit in the .NET world is not necessarily an indication that we intend or desire our assemblies to be shared with other applications.
 
@@ -42,7 +42,7 @@ Unless you work with unbearably large solutions containing every project in your
 
 Arguably, sharing assemblies puts developers in an even stickier situation than sharing databases – at least with that anti-pattern the entanglement is limited to one particular layer of the architecture which can be largely ignored much of the time. But when assemblies are shared, the developers must always be considering whether their apparently innocent modifications will have an impact on some other application. Meaningful refactoring becomes impossible, and the software eventually falls into disrepair.<figure class="kg-card kg-image-card">
 
-<img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/iStock_000004248715XSmall_3.jpg" class="kg-image" alt="Tangled cables" loading="lazy" /> </figure> 
+<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000004248715XSmall_3.jpg" class="kg-image" alt="Tangled cables" loading="lazy" /> </figure> 
 
 ### In Conclusion… {#in-conclusion-}
 

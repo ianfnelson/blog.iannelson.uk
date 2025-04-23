@@ -4,7 +4,7 @@ title: One Reason Why NCrunch Is Worth The Cost
 date: 2014-04-22T21:25:50+00:00
 url: /one-reason-why-ncrunch-is-worth-the-cost/
 cover: 
-  image: https://cdn.iannelson.uk/uploads/2014/04/iStock_000013107404Small.jpg
+  image: https://blogstouks01.z33.web.core.windows.net/2014/04/iStock_000013107404Small.jpg
 
 categories:
   - Tech
@@ -17,7 +17,7 @@ Why?! Why do this when plenty of test runners are free, or bundled with software
 To answer that question I sorely wanted to write another &#8220;list post&#8221; as a follow-up to _[12 Reasons Why I Love Unit Tests][2]_ but as my draft progressed and my thoughts crystallised in front of me on the screen, I realised that all of the points I was trying to convey ultimately boil down to the same one reason:
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/iStock_000013107404Small.jpg" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000013107404Small.jpg" alt="" /></figure>
 </div>
 
 ## NCrunch Saves Me Time {#ncrunch-saves-me-time.wp-block-heading}
@@ -114,7 +114,7 @@ We are left with just the &#8220;interesting&#8221; steps, and the TDD process n
 I love this process. I like to make use of the big inexpensive monitors that the twenty-first century has blessed us with. I open up a window for the tests, another for the system under test, and one each for the NCrunch Tests and NCrunch Processing Queue windows &#8211; and then I have all I need on a single screen to code tight, well-tested, code at a quick pace:
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><a href="https://cdn.iannelson.uk/uploads/2023/08/NCrunch.png"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/NCrunch.png" alt="" /></a></figure>
+  <figure class="aligncenter"><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunch.png"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunch.png" alt="" /></a></figure>
 </div>
 
 For me it is this &#8211; the facilitation of TDD and the instant feedback &#8211; that is the killer benefit of NCrunch. The remaining features that I mention below are merely the icing on the cake, but they do all serve to save me time.
@@ -126,13 +126,13 @@ Time was, we would gather test coverage metrics using tools like NCover or dotCo
 With NCrunch, the code coverage is displayed right there in the IDE on a line-by-line basis as you code, with any uncovered lines sticking out like a sore thumb.
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/Uncovered.png" alt="" /></figure>
+  <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/Uncovered.png" alt="" /></figure>
 </div>
 
 If you really want to see overall metrics for the solutions, NCrunch also provides a separate Metrics window.
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><a href="https://cdn.iannelson.uk/uploads/2023/08/NCrunchMetrics.png"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/NCrunchMetrics.png" alt="" /></a></figure>
+  <figure class="aligncenter"><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchMetrics.png"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchMetrics.png" alt="" /></a></figure>
 </div>
 
 ### NCrunch Doesn’t Make Me Hunt For Error Messages {#ncrunch-doesn-t-make-me-hunt-for-error-messages.wp-block-heading}
@@ -140,11 +140,11 @@ If you really want to see overall metrics for the solutions, NCrunch also provid
 When my code fails a test assertion, or even when it fails to compile, the reasons, just like the code-coverage data, are right there in my face, almost immediately. I don’t have to go hunting for the problem, I can access the compiler errors or stack traces for failed assertions without leaving the window in which I’m coding.
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><a href="https://cdn.iannelson.uk/uploads/2023/08/NCrunchExceptions.png"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/NCrunchExceptions.png" alt="" /></a></figure>
+  <figure class="aligncenter"><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchExceptions.png"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchExceptions.png" alt="" /></a></figure>
 </div>
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><a href="https://cdn.iannelson.uk/uploads/2023/08/NCrunchAssertions.png"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/NCrunchAssertions.png" alt="" /></a></figure>
+  <figure class="aligncenter"><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchAssertions.png"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchAssertions.png" alt="" /></a></figure>
 </div>
 
 ### NCrunch Highlights Slow-Running Lines of Code {#ncrunch-highlights-slow-running-lines-of-code.wp-block-heading}
@@ -156,7 +156,7 @@ NCrunch, as a somewhat unsung benefit, almost absent-mindedly gathers performanc
 Given the existence of appropriate tests, this means that my attention is drawn to potential problems before the code is even committed to the source control repository.
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><a href="https://cdn.iannelson.uk/uploads/2023/08/NCrunchSlow.png"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/NCrunchSlow.png" alt="" /></a></figure>
+  <figure class="aligncenter"><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchSlow.png"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchSlow.png" alt="" /></a></figure>
 </div>
 
 ### NCrunch is Super-Configurable {#ncrunch-is-super-configurable.wp-block-heading}
@@ -167,15 +167,15 @@ Today I was working on a small corner of a large .NET solution (60+ projects), s
 nents entirely, leaving it free to devote all its attention on the few assemblies I was currently enhancing. This resulted in faster feedback, saving me time!
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><a href="https://cdn.iannelson.uk/uploads/2023/08/NCrunchModes.png"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/NCrunchModes.png" alt="" /></a></figure>
+  <figure class="aligncenter"><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchModes.png"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchModes.png" alt="" /></a></figure>
 </div>
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><a href="https://cdn.iannelson.uk/uploads/2023/08/NCrunchConfig1.png"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/NCrunchConfig1.png" alt="" /></a></figure>
+  <figure class="aligncenter"><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchConfig1.png"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchConfig1.png" alt="" /></a></figure>
 </div>
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><a href="https://cdn.iannelson.uk/uploads/2023/08/NCrunchConfig2.png"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/NCrunchConfig2.png" alt="" /></a></figure>
+  <figure class="aligncenter"><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchConfig2.png"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchConfig2.png" alt="" /></a></figure>
 </div>
 
 ### NCrunch Lets Me Utilise Other Computers’ Resources {#ncrunch-lets-me-utilise-other-computers-resources.wp-block-heading}
@@ -185,7 +185,7 @@ The latest version of NCrunch even lets me utilise the resources of any other co
 In the screenshots below you can see that I’ve sneakily added my kids’ laptop as another node in my NCrunch cluster, to offload some of the work from my development machine.
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><a href="https://cdn.iannelson.uk/uploads/2023/08/NCrunchDistributed.png"><img decoding="async" src="https://cdn.iannelson.uk/uploads/2023/08/NCrunchDistributed.png" alt="" /></a></figure>
+  <figure class="aligncenter"><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchDistributed.png"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchDistributed.png" alt="" /></a></figure>
 </div>
 
 ### What More Can I Say? {#what-more-can-i-say.wp-block-heading}
