@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Is My String Empty?  Some C# Performance Metrics | Ian Nelson</title>
-<meta name="keywords" content="tidy">
+<meta name="keywords" content="">
 <meta name="description" content="Update (25/02/2006) – Hey, we now have String.IsNullOrEmpty, you know!
 
 What’s the quickest way, in C#, to test whether a string is empty?  This is a question which came to my mind yesterday. I’ve always been fond of:
@@ -83,8 +83,7 @@ but it occured to me that this necessitates the creation and destruction of a se
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2004-07-30T10:07:00+00:00">
-    <meta property="article:modified_time" content="2025-04-21T22:16:26+01:00">
-    <meta property="article:tag" content="Tidy">
+    <meta property="article:modified_time" content="2025-04-23T19:18:23+01:00">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Is My String Empty?  Some C# Performance Metrics">
 <meta name="twitter:description" content="Update (25/02/2006) – Hey, we now have String.IsNullOrEmpty, you know!
@@ -122,13 +121,13 @@ but it occured to me that this necessitates the creation and destruction of a se
   "name": "Is My String Empty?  Some C# Performance Metrics",
   "description": "Update (25/02/2006) – Hey, we now have String.IsNullOrEmpty, you know!\nWhat’s the quickest way, in C#, to test whether a string is empty? This is a question which came to my mind yesterday. I’ve always been fond of:\nbut it occured to me that this necessitates the creation and destruction of a second object (the empty string with which we’re comparing), so maybe it would be quicker to write:\n",
   "keywords": [
-    "tidy"
+    
   ],
   "articleBody": "Update (25/02/2006) – Hey, we now have String.IsNullOrEmpty, you know!\nWhat’s the quickest way, in C#, to test whether a string is empty? This is a question which came to my mind yesterday. I’ve always been fond of:\nbut it occured to me that this necessitates the creation and destruction of a second object (the empty string with which we’re comparing), so maybe it would be quicker to write:\nAnd looking through some existing code I also found examples of:\nI decided that an experiment was in order, so wrote a quick windows application to try each method in turn. I was also interested to see if there was a difference in performance where the result was true than when it was false.\nHere are the results, with times in milliseconds for 50 million iterations:\ntrue result false result 1172 2484 531 531 611 1893 So there you have it. Experimental evidence that the fastest way to test for an empty string is to test whether it’s Length property is zero (and that this also takes exactly the same length of time irrespective of whether the result is true or false).. unless anyone knows of a quicker method? Of course, since we’re only saving ourselves around 50 nanoseconds per iteration against using the slowest method shown above, this is hardly going to result in a noticeable performance gain!!\n",
   "wordCount" : "252",
   "inLanguage": "en",
   "datePublished": "2004-07-30T10:07:00Z",
-  "dateModified": "2025-04-21T22:16:26+01:00",
+  "dateModified": "2025-04-23T19:18:23+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://blog.iannelson.uk/is-my-string-empty-some-c-performance-metrics/"
@@ -284,7 +283,6 @@ but it occured to me that this necessitates the creation and destruction of a se
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://blog.iannelson.uk/tags/tidy/">Tidy</a></li>
     </ul>
   </footer>
 </article>

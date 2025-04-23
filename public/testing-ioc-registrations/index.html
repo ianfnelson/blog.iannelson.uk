@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Testing IoC Registrations | Ian Nelson</title>
-<meta name="keywords" content="tidy">
+<meta name="keywords" content="">
 <meta name="description" content="When I first started writing automated unit tests for my code, I remember getting carried away writing lots of tiny little tests, each with a single Assert. It felt good initially to see all those green ticks, but rapidly became a maintenance headache, and I am now happier having fewer less-brittle tests that do more.
 I think it’s great when tools like AutoMapper provide powerful methods like…
 …allowing me to test large swathes of the system configuration with a single, stable test.">
@@ -81,8 +81,7 @@ I think it’s great when tools like AutoMapper provide powerful methods like…
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2010-04-09T14:04:00+00:00">
-    <meta property="article:modified_time" content="2025-04-21T21:56:00+01:00">
-    <meta property="article:tag" content="Tidy">
+    <meta property="article:modified_time" content="2025-04-23T19:18:23+01:00">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Testing IoC Registrations">
 <meta name="twitter:description" content="When I first started writing automated unit tests for my code, I remember getting carried away writing lots of tiny little tests, each with a single Assert. It felt good initially to see all those green ticks, but rapidly became a maintenance headache, and I am now happier having fewer less-brittle tests that do more.
@@ -118,13 +117,13 @@ I think it’s great when tools like AutoMapper provide powerful methods like…
   "name": "Testing IoC Registrations",
   "description": "When I first started writing automated unit tests for my code, I remember getting carried away writing lots of tiny little tests, each with a single Assert. It felt good initially to see all those green ticks, but rapidly became a maintenance headache, and I am now happier having fewer less-brittle tests that do more.\nI think it’s great when tools like AutoMapper provide powerful methods like…\n…allowing me to test large swathes of the system configuration with a single, stable test.\n",
   "keywords": [
-    "tidy"
+    
   ],
   "articleBody": "When I first started writing automated unit tests for my code, I remember getting carried away writing lots of tiny little tests, each with a single Assert. It felt good initially to see all those green ticks, but rapidly became a maintenance headache, and I am now happier having fewer less-brittle tests that do more.\nI think it’s great when tools like AutoMapper provide powerful methods like…\n…allowing me to test large swathes of the system configuration with a single, stable test.\nI wanted to write a similar test to check that all the necessary system dependencies for my MVC application could be resolved by the IoC container. Here’s what I came up with:\nA few things to note:\nI’m configuring my container using the GuyWire pattern described by Fabio Maulo. I’m using ControllerExtensions from the MvcContrib project to identify controllers. I’m accessing the IoC container via the Common Service Locator. This only tests the dependencies that are referenced by dependency injection, and won’t pick up on any missing registrations that are only referenced via service locator (you’d have to write separate itty-bitty tests to check those registrations). What do you think? How, if at all, do you test your IoC container registrations?\n",
   "wordCount" : "203",
   "inLanguage": "en",
   "datePublished": "2010-04-09T14:04:00Z",
-  "dateModified": "2025-04-21T21:56:00+01:00",
+  "dateModified": "2025-04-23T19:18:23+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://blog.iannelson.uk/testing-ioc-registrations/"
@@ -240,7 +239,6 @@ I think it’s great when tools like AutoMapper provide powerful methods like…
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://blog.iannelson.uk/tags/tidy/">Tidy</a></li>
     </ul>
   </footer>
 </article>

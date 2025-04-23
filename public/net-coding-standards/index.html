@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>.NET Coding Standards | Ian Nelson</title>
-<meta name="keywords" content="tidy">
+<meta name="keywords" content="">
 <meta name="description" content="Sometimes, when you join a new team as a .NET developer, the team lead proudly points you in the direction of a Word document or wiki page detailing the team’s house coding standards.
  
 In my experience, these documents are invariably:
@@ -89,8 +89,7 @@ Incomplete. Subjective. Not enforced. Largely copied from the interweb. Obsessed
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2009-01-23T15:01:00+00:00">
-    <meta property="article:modified_time" content="2025-04-21T22:21:59+01:00">
-    <meta property="article:tag" content="Tidy">
+    <meta property="article:modified_time" content="2025-04-23T19:18:23+01:00">
     <meta property="og:image" content="https://cdn.iannelson.uk/uploads/2009/01/iStock_000004478097XSmall_2-1.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://cdn.iannelson.uk/uploads/2009/01/iStock_000004478097XSmall_2-1.jpg">
@@ -136,13 +135,13 @@ I know this because I’ve been involved in creating such documents in the past 
   "name": ".NET Coding Standards",
   "description": "Sometimes, when you join a new team as a .NET developer, the team lead proudly points you in the direction of a Word document or wiki page detailing the team’s house coding standards.\nIn my experience, these documents are invariably:\nIncomplete. Subjective. Not enforced. Largely copied from the interweb. Obsessed with the trivial (e.g. whitespace) while failing to mention the genuinely useful (e.g. boxing/unboxing, avoiding use of deprecated classes, Dispose pattern, etc). I know this because I’ve been involved in creating such documents in the past 🙂\n",
   "keywords": [
-    "tidy"
+    
   ],
   "articleBody": "Sometimes, when you join a new team as a .NET developer, the team lead proudly points you in the direction of a Word document or wiki page detailing the team’s house coding standards.\nIn my experience, these documents are invariably:\nIncomplete. Subjective. Not enforced. Largely copied from the interweb. Obsessed with the trivial (e.g. whitespace) while failing to mention the genuinely useful (e.g. boxing/unboxing, avoiding use of deprecated classes, Dispose pattern, etc). I know this because I’ve been involved in creating such documents in the past 🙂\nDon’t get me wrong, I’m all in favour of creating clean code, and promoting standards within a team. I just find that most in-house style guides fail to achieve this, for the reasons listed above.\nSo, as I was walking through the city today, I started having a little debate with myself. “OK then, smarty-pants. What’s your alternative? What would your in-house coding standards guidelines look like?”\nI think it can be summarised by four simple points, listed in order of importance:\n1. Don’t Ignore Compiler Warnings\nYou might think this would be an obvious one, but I’ve lost count of the number of times I’ve retrieved a solution from source control, compiled it, and been presented with a list of compiler warnings. Most of the time, there’s no excuse for this. If the compiler smells a rat in your code, then you’ve got a problem, be it variables that are used without being initialized, unused variables, unreachable code, or whatever. It’s sloppy code, and it’s easily avoided, so don’t leave it for the next guy to clean up. I am, if you hadn’t guessed, a big fan of setting the “treat compiler warnings as errors” flag in a project’s build properties.\n2. Follow the Framework Design Guidelines\nThe Framework Design Guidelines is another one of those books whose name doesn’t do it justice. The sagely guidance it contains is appropriate not only to Microsofties developing the FCL itself, but to anyone writing any .NET code. Don’t let your developers near a copy of Visual Studio until they’ve provided a sworn affidavit confirming that they’ve read this book! 🙂\nAll of the guidelines are concisely boiled down into Do, Consider, Avoid, and Do Not recommendations, and you would do well to adhere to these. Getting a few copies of this book for your team is a much more effective and cost-effective approach than trying to develop your own coding standards.\n3. Run FxCop\nHaving read and digested the Framework Design Guidelines, you need an easy way to enforce them. This is best achieved by running FxCop against your code (now integrated into some of the Visual Studio SKUs as a “Code Analysis” option).\nDepending on the target audience for your solution, you may consider it reasonable to ignore some of the localization recommendations (i.e. when developing in-house line of business applications with limited geographical reach). But generally, if FxCop flags a warning in your code, I believe you would be well advised to correct the problem. Doing this helps to avoid a wide range of performance, security and design issues, in addition to enforcing consistent source code conventions.\n4. Run StyleCop\nFinally, if you simply must achieve that uniform source code appearance that the whitespace Nazis in every team strive for, consider requiring that your devs run their code through StyleCop before checking in. It may initially be a bit annoying, and for sure some of the recommendations are highly subjective, but there’s no arguing that it does enforce a standard style, with a strong focus on increasing readability and reducing ambiguity.\nAnd After That…?\nFollowing the four points above should result in the low-level codebase produced by a team being readable, of high quality, in a common style, and free of many common “gotchas”. It doesn’t validate the higher-level architectural considerations, but in my opinion that is outside the scope of such a document, and could best be achieved through the use of a tool such as NDepend. But that’s a topic for another post…\n",
   "wordCount" : "673",
   "inLanguage": "en",
   "image":"https://cdn.iannelson.uk/uploads/2009/01/iStock_000004478097XSmall_2-1.jpg","datePublished": "2009-01-23T15:01:00Z",
-  "dateModified": "2025-04-21T22:21:59+01:00",
+  "dateModified": "2025-04-23T19:18:23+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://blog.iannelson.uk/net-coding-standards/"
@@ -276,7 +275,6 @@ I know this because I’ve been involved in creating such documents in the past 
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://blog.iannelson.uk/tags/tidy/">Tidy</a></li>
     </ul>
   </footer>
 </article>

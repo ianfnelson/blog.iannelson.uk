@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>WCF – Global Exception Handling | Ian Nelson</title>
-<meta name="keywords" content="tidy">
+<meta name="keywords" content="">
 <meta name="description" content="I’ve done a fair bit of WCF development recently (and amazingly I came out of it relatively unscathed, both psychologically and emotionally). Using Castle Windsor’s WCF Facility helped a great deal, but I still found myself writing a fair bit of infrastructure and plumbing code. I thought I’d blog some of these code snippets lest I forget, and on the offchance they might help others.
 One of the things I wanted to achieve was to ensure that any unhandled exceptions that propagated to the top of the stack were logged. The following custom EndpointBehavior achieves that. I’m using Castle Logging Facility here, but you could of course swap out the logging code for whatever error handling code you require.">
 <meta name="author" content="">
@@ -79,8 +79,7 @@ One of the things I wanted to achieve was to ensure that any unhandled exception
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2010-04-09T13:04:00+00:00">
-    <meta property="article:modified_time" content="2025-04-21T22:16:26+01:00">
-    <meta property="article:tag" content="Tidy">
+    <meta property="article:modified_time" content="2025-04-23T19:18:23+01:00">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="WCF – Global Exception Handling">
 <meta name="twitter:description" content="I’ve done a fair bit of WCF development recently (and amazingly I came out of it relatively unscathed, both psychologically and emotionally). Using Castle Windsor’s WCF Facility helped a great deal, but I still found myself writing a fair bit of infrastructure and plumbing code. I thought I’d blog some of these code snippets lest I forget, and on the offchance they might help others.
@@ -115,13 +114,13 @@ One of the things I wanted to achieve was to ensure that any unhandled exception
   "name": "WCF – Global Exception Handling",
   "description": "I’ve done a fair bit of WCF development recently (and amazingly I came out of it relatively unscathed, both psychologically and emotionally). Using Castle Windsor’s WCF Facility helped a great deal, but I still found myself writing a fair bit of infrastructure and plumbing code. I thought I’d blog some of these code snippets lest I forget, and on the offchance they might help others.\nOne of the things I wanted to achieve was to ensure that any unhandled exceptions that propagated to the top of the stack were logged. The following custom EndpointBehavior achieves that. I’m using Castle Logging Facility here, but you could of course swap out the logging code for whatever error handling code you require.\n",
   "keywords": [
-    "tidy"
+    
   ],
   "articleBody": "I’ve done a fair bit of WCF development recently (and amazingly I came out of it relatively unscathed, both psychologically and emotionally). Using Castle Windsor’s WCF Facility helped a great deal, but I still found myself writing a fair bit of infrastructure and plumbing code. I thought I’d blog some of these code snippets lest I forget, and on the offchance they might help others.\nOne of the things I wanted to achieve was to ensure that any unhandled exceptions that propagated to the top of the stack were logged. The following custom EndpointBehavior achieves that. I’m using Castle Logging Facility here, but you could of course swap out the logging code for whatever error handling code you require.\nHere’s the relevant line from my Windsor configuration:\n",
   "wordCount" : "127",
   "inLanguage": "en",
   "datePublished": "2010-04-09T13:04:00Z",
-  "dateModified": "2025-04-21T22:16:26+01:00",
+  "dateModified": "2025-04-23T19:18:23+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://blog.iannelson.uk/wcf-global-exception-handling/"
@@ -228,7 +227,6 @@ One of the things I wanted to achieve was to ensure that any unhandled exception
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://blog.iannelson.uk/tags/tidy/">Tidy</a></li>
     </ul>
   </footer>
 </article>

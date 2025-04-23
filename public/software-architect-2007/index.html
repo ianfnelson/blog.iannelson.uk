@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Software Architect 2007 | Ian Nelson</title>
-<meta name="keywords" content="tidy">
+<meta name="keywords" content="">
 <meta name="description" content="Last week I had the pleasure of spending a few days in London attending the Software Architect 2007 conference at the Barbican centre. It was a good conference, providing me with some useful and interesting new ideas and food for thought, whilst confirming that our team at Marshalls are generally going about things in “the right way”, which is nice.
 Looking through my notes, the main themes that kept recurring within the different presentations that I attended were:">
 <meta name="author" content="">
@@ -79,8 +79,7 @@ Looking through my notes, the main themes that kept recurring within the differe
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2007-06-17T18:06:00+00:00">
-    <meta property="article:modified_time" content="2025-04-21T22:21:59+01:00">
-    <meta property="article:tag" content="Tidy">
+    <meta property="article:modified_time" content="2025-04-23T19:18:23+01:00">
     <meta property="og:image" content="https://cdn.iannelson.uk/uploads/2007/06/iStock_000003326440XSmall-1.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://cdn.iannelson.uk/uploads/2007/06/iStock_000003326440XSmall-1.jpg">
@@ -117,13 +116,13 @@ Looking through my notes, the main themes that kept recurring within the differe
   "name": "Software Architect 2007",
   "description": "Last week I had the pleasure of spending a few days in London attending the Software Architect 2007 conference at the Barbican centre. It was a good conference, providing me with some useful and interesting new ideas and food for thought, whilst confirming that our team at Marshalls are generally going about things in “the right way”, which is nice.\nLooking through my notes, the main themes that kept recurring within the different presentations that I attended were:\n",
   "keywords": [
-    "tidy"
+    
   ],
   "articleBody": "Last week I had the pleasure of spending a few days in London attending the Software Architect 2007 conference at the Barbican centre. It was a good conference, providing me with some useful and interesting new ideas and food for thought, whilst confirming that our team at Marshalls are generally going about things in “the right way”, which is nice.\nLooking through my notes, the main themes that kept recurring within the different presentations that I attended were:\nAvoid coupling at all costs. Use interfaces, contracts and facades to decouple components. Avoid directly referencing vendor’s class libraries or infrastructure libraries. Appreciate the impact of small decisions which can eventually have a big impact on the overall architecture. Devote more time and consideration to designing interfaces, contracts and public APIs (which are difficulty to change retrospectively), than private implementations which are relatively simple to change. These issues kept coming up again and again – most notably in talks by Kevlin Henney on “The Selfish Object” and Ralf Westphal on “True Component Orientation”, but also to an extent in some of Dave Wheeler’s demonstration of how to use some of the Gang of Four design patterns in .NET. So, it amazed me that a number of my fellow delegates kept raising their hands and asking questions which invariably began “Yeah, but why can’t I just…”, followed by suggestions which effectively seemed to boil down to creating hardcoded, inflexible solutions! To say that this was supposedly a conference of architects, even relatively simple concepts such as Reflection, Polymorphism and Generics seemed to be lost on some people, who apparently would be more comfortable maintaining massive switch statements for the rest of eternity!\nThis is one of the issues I have with the XP rules – I don’t believe that doing the simplest thing that could possibly work is a good idea, at least not when creating public APIs and interfaces. Some forethought is necessary in order to architect loosely coupled solutions that will allow continued flexibility and agility when faced with inevitable change requests. I’m not arguing for the premature development of functionality that may never be required, but interfaces, APIs, inheritance models and database models are a right royal pain to change at a later date and in my experience, upfront design in these areas pays dividends.\nOh, my other issue with the XP rules is the notion of collective code ownership – I’m not precious about my code (honest), but there are inevitably areas of specialism (in terms of technology and business knowledge) in which I seek to focus my energies, and other areas that I don’t care for, or wish to maintain. We can’t all understand everything about every system, and it’s foolish to pretend that this is the case. Allowing or requiring an entire team to be comfortable maintaining the whole codebase is likely to prohibit anybody learning very much about anything, and even with rigorously enforced coding standards and comprehensive unit tests can lead to an unfortunate swiss cheese / patchwork quilt effect. All IMHO, of course.\nMy favourite session of the conference was by Ralf Westphal, who clearly and concisely (his English is better than that of many native speakers!) explained the benefits of using Contract First Development and a microkernel approach to remove component dependencies and development bottlenecks. It’s an approach that I can’t wait to try.\nOne of the other things that pleased me about the conference was the realisation that we at Marshalls are (especially for such a stable, old-economy company), way ahead of the pack in terms of technology – whilst other delegates I spoke with are still using earlier versions of .NET, or even still on VB6 / Win32 API, we continue to make appropriate use of the latest offerings from Redmond.\nA few other observations from my days in London:\nTrying to change from the Circle to Piccadilly lines at King’s Cross at rush hour involves crossing a packed concourse buzzing with hardened commuters that brought to mind that Zurich insurance TV advert which shows futuristic cars on traffic signal-free intersections narrowly avoiding collisions thanks to automated guidance systems! Unlike at MSDN events (where all speakers use vanilla installations of Vista/XP and search Windows Live using IE7), there’s a great variety of hardware and software in popular use now – I witnessed presentations on Dell, Sony Vaio, and MacBook (running both OS X and Vista, through BootCamp), with some highly-configured operating systems, and every presenter used Safari or Firefox – no IE in sight. Didn’t see any Ubuntu, mind. Section 20 of the Architect’s Act 1997 prohibits the use of the “Software Architect” job title. Curiously, “Golf Course Architect” is fine. In all respects, central London is about as far removed from the Isle of Mull (where I was a week previously) as it’s possible to imagine. Increasingly so, it really does come across as a kind of city state, a world city, with a cosmopolitan feeling quite unlike anywhere else in the UK. ",
   "wordCount" : "833",
   "inLanguage": "en",
   "image":"https://cdn.iannelson.uk/uploads/2007/06/iStock_000003326440XSmall-1.jpg","datePublished": "2007-06-17T18:06:00Z",
-  "dateModified": "2025-04-21T22:21:59+01:00",
+  "dateModified": "2025-04-23T19:18:23+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://blog.iannelson.uk/software-architect-2007/"
@@ -251,7 +250,6 @@ Looking through my notes, the main themes that kept recurring within the differe
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://blog.iannelson.uk/tags/tidy/">Tidy</a></li>
     </ul>
   </footer>
 </article>

@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>TFS: Using Alternative Diff/Merge Tools | Ian Nelson</title>
-<meta name="keywords" content="tidy">
+<meta name="keywords" content="">
 <meta name="description" content="There are many things I love about Team Foundation Server, but the supplied diff/merge tool is not one of them. It is – how can I put this? – somewhat basic. Indeed, I’ve heard tell of people going out of their way to avoid merges purely because they find the process so clunky.
 Here’s the good news – you can easily configure TFS to use a different, third-party, diff/merge tool, perhaps the one you’ve grown to know and love over many years of happy software development using other SCM products. Maybe you like WinMerge, or love TortoiseMerge. Perhaps you’re like my friend John and swear by SourceGear DiffMerge. Or maybe, like me, you’re a Beyond Compare fanboy. No problem, they can all be used by TFS. Here’s how:">
 <meta name="author" content="">
@@ -79,8 +79,7 @@ Here’s the good news – you can easily configure TFS to use a different, thir
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2009-05-19T07:05:00+00:00">
-    <meta property="article:modified_time" content="2025-04-21T22:17:34+01:00">
-    <meta property="article:tag" content="Tidy">
+    <meta property="article:modified_time" content="2025-04-23T19:18:23+01:00">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="TFS: Using Alternative Diff/Merge Tools">
 <meta name="twitter:description" content="There are many things I love about Team Foundation Server, but the supplied diff/merge tool is not one of them. It is – how can I put this? – somewhat basic. Indeed, I’ve heard tell of people going out of their way to avoid merges purely because they find the process so clunky.
@@ -115,13 +114,13 @@ Here’s the good news – you can easily configure TFS to use a different, thir
   "name": "TFS: Using Alternative Diff\/Merge Tools",
   "description": "There are many things I love about Team Foundation Server, but the supplied diff/merge tool is not one of them. It is – how can I put this? – somewhat basic. Indeed, I’ve heard tell of people going out of their way to avoid merges purely because they find the process so clunky.\nHere’s the good news – you can easily configure TFS to use a different, third-party, diff/merge tool, perhaps the one you’ve grown to know and love over many years of happy software development using other SCM products. Maybe you like WinMerge, or love TortoiseMerge. Perhaps you’re like my friend John and swear by SourceGear DiffMerge. Or maybe, like me, you’re a Beyond Compare fanboy. No problem, they can all be used by TFS. Here’s how:\n",
   "keywords": [
-    "tidy"
+    
   ],
   "articleBody": "There are many things I love about Team Foundation Server, but the supplied diff/merge tool is not one of them. It is – how can I put this? – somewhat basic. Indeed, I’ve heard tell of people going out of their way to avoid merges purely because they find the process so clunky.\nHere’s the good news – you can easily configure TFS to use a different, third-party, diff/merge tool, perhaps the one you’ve grown to know and love over many years of happy software development using other SCM products. Maybe you like WinMerge, or love TortoiseMerge. Perhaps you’re like my friend John and swear by SourceGear DiffMerge. Or maybe, like me, you’re a Beyond Compare fanboy. No problem, they can all be used by TFS. Here’s how:\nOpen up the Visual Studio options (Tools –\u003e Options). Expand the Source Control –\u003e Visual Studio Team Foundation Server section. Click the Configure User Tools… button: Click the Add… button to set up a new file extension operation: Set up a Compare operation to run against all files (extension of *****): Repeat the process to add a Merge operation to run against all file extensions. At this point, you’re probably thinking “wooah, what do those argument parameters mean? How do I know what to enter?”. MSDN won’t help you out (“type any arguments that your tool requires” – thanks for that!).\nFortunately James Manning has posted a blog article which not only explains what the argument parameters mean, but also suggests recommended parameters for various popular tools, including those mentioned at the beginning of this post. Thanks, James!\nVoila! OK your way back out of the dialog boxes, and your Compares and Merges will now be displayed using your favourite Diff/Merge tool. Feel your productivity and confidence soar!\n",
   "wordCount" : "296",
   "inLanguage": "en",
   "datePublished": "2009-05-19T07:05:00Z",
-  "dateModified": "2025-04-21T22:17:34+01:00",
+  "dateModified": "2025-04-23T19:18:23+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://blog.iannelson.uk/tfs-alternative-diff-merge-tools/"
@@ -247,7 +246,6 @@ Here’s the good news – you can easily configure TFS to use a different, thir
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://blog.iannelson.uk/tags/tidy/">Tidy</a></li>
     </ul>
   </footer>
 </article>

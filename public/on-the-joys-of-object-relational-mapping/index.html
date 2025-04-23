@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>On the Joys of Object-Relational Mapping | Ian Nelson</title>
-<meta name="keywords" content="tidy">
+<meta name="keywords" content="">
 <meta name="description" content="My name is Ian Nelson. I’m a recovering SQL addict. It’s been four weeks since my last stored procedure.
 One of my reasons for leaving my cosy permanent job and entering the scary cut-throat world of freelancing was to get a broader exposure to different tools, technologies and methodologies, while remaining with my feet planted firmly in the .NET universe. So, when I got offered a position in a team who were using Subversion, Monorail, Ext.JS, NUnit, Oracle and NHibernate, I jumped at the opportunity.">
 <meta name="author" content="">
@@ -79,8 +79,7 @@ One of my reasons for leaving my cosy permanent job and entering the scary cut-t
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2008-04-09T19:04:00+00:00">
-    <meta property="article:modified_time" content="2025-04-21T22:16:26+01:00">
-    <meta property="article:tag" content="Tidy">
+    <meta property="article:modified_time" content="2025-04-23T19:18:23+01:00">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="On the Joys of Object-Relational Mapping">
 <meta name="twitter:description" content="My name is Ian Nelson. I’m a recovering SQL addict. It’s been four weeks since my last stored procedure.
@@ -115,13 +114,13 @@ One of my reasons for leaving my cosy permanent job and entering the scary cut-t
   "name": "On the Joys of Object-Relational Mapping",
   "description": "My name is Ian Nelson. I’m a recovering SQL addict. It’s been four weeks since my last stored procedure.\nOne of my reasons for leaving my cosy permanent job and entering the scary cut-throat world of freelancing was to get a broader exposure to different tools, technologies and methodologies, while remaining with my feet planted firmly in the .NET universe. So, when I got offered a position in a team who were using Subversion, Monorail, Ext.JS, NUnit, Oracle and NHibernate, I jumped at the opportunity.\n",
   "keywords": [
-    "tidy"
+    
   ],
   "articleBody": "My name is Ian Nelson. I’m a recovering SQL addict. It’s been four weeks since my last stored procedure.\nOne of my reasons for leaving my cosy permanent job and entering the scary cut-throat world of freelancing was to get a broader exposure to different tools, technologies and methodologies, while remaining with my feet planted firmly in the .NET universe. So, when I got offered a position in a team who were using Subversion, Monorail, Ext.JS, NUnit, Oracle and NHibernate, I jumped at the opportunity.\nOf those technologies, it’s definitely NHibernate which has most dramatically changed my perspective on how enterprise solutions can (and should) be developed. For many years now, I’ve considered deep database (particularly SQL Server) skills to be one of my core proficiencies, and have merrily spent (wasted?) countless man hours writing dreary “plumbing” code, by the way of CRUD stored procedures and repetitive Data Access Layers in order to persist my CLR entities to the RDBMS.\nWell, no longer, those days are over. I’ve seen the light and embraced the wonders of NHibernate. For those who are unfamiliar with it, NHibernate is an Object-Relational Mapper, and is a port of a Java utility, Hibernate. The premise is beautifully simple – by decorating your objects with attributes or, more neatly, by creating XML mapping files, you define the mappings between your .NET domain objects and their persisted representation on the database. Then NHibernate handles all the grunt work of saving your objects to and from the database.\nDigging deeper, I discovered that NHibernate has been developed in such a way as to make it easy to embrace best practices in database access techniques. Several years ago I read through Fowler’s seminal Patterns of Enterprise Application Architecture, and wondered how I would ever find time to develop solutions which made use of the cunning O-R behavioural patterns he described – Lazy Load, Unit of Work, Identity Map, Query Object, Repository, etc. I utterly failed to pick up on this paragraph on page 171:\n“Remember that you don’t have to build a full-featured database-mapping layer. It’s a complicated beast to build, and there are products available that do this for you.”\nProducts such as, yes, NHibernate. Or Wilson ORM, or more recently, the LINQ to SQL offering introduced by Microsoft in the .NET 3.5 Framework.\nI’m glad that I have a solid grounding in SQL, and I still believe that other skills related to RDBMSs are useful in the enterprise (i.e. database design, normalisation and index tuning), but I’m pleased that I can now bring myself to relax, stop worrying, and leave an ORM to take care of generating the repetitive CRUD statements required for persisting my domain objects.\nSo, what have I been doing with all this “free time” that I now have available to me during a hard day at the code face? Well, I’ve been trying to create systems which are more robust and well-designed by making a concerted effort to embrace Test-Driven Development (for real, this time!) But that’s a good topic for a future post…\nA few useful NHibernate / ORM Resources:\nNHibernate Wilson ORM LINQ to SQL NHibernate Best Practices with ASP.NET – article by Billy McCafferty My del.icio.us links tagged with NHibernate / ORM / LINQ Dot Net Rocks – the ORM Smackdown Show NHibernate In Action LINQ In Action Ayende’s Blog The NHibernate FAQ Wikipedia – Object-Relational Mapping ",
   "wordCount" : "567",
   "inLanguage": "en",
   "datePublished": "2008-04-09T19:04:00Z",
-  "dateModified": "2025-04-21T22:16:26+01:00",
+  "dateModified": "2025-04-23T19:18:23+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://blog.iannelson.uk/on-the-joys-of-object-relational-mapping/"
@@ -249,7 +248,6 @@ One of my reasons for leaving my cosy permanent job and entering the scary cut-t
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://blog.iannelson.uk/tags/tidy/">Tidy</a></li>
     </ul>
   </footer>
 </article>

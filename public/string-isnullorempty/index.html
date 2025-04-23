@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>String.IsNullOrEmpty | Ian Nelson</title>
-<meta name="keywords" content="tidy">
+<meta name="keywords" content="">
 <meta name="description" content="The single most popular entry on this blog is, surprisingly enough, this quick post from Summer 2004 where I did a quick experiment to &ldquo;prove&rdquo; that in .NET the quickest way of proving that a string is empty is to compare its length to zero.
 Well, as of .NET 2.0, we have a new static method on the System.String class – IsNullOrEmpty – that allows you to easily test whether a string is, well, null or empty!">
 <meta name="author" content="">
@@ -79,8 +79,7 @@ Well, as of .NET 2.0, we have a new static method on the System.String class –
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2006-02-25T14:02:00+00:00">
-    <meta property="article:modified_time" content="2025-04-21T22:16:26+01:00">
-    <meta property="article:tag" content="Tidy">
+    <meta property="article:modified_time" content="2025-04-23T19:18:23+01:00">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="String.IsNullOrEmpty">
 <meta name="twitter:description" content="The single most popular entry on this blog is, surprisingly enough, this quick post from Summer 2004 where I did a quick experiment to &ldquo;prove&rdquo; that in .NET the quickest way of proving that a string is empty is to compare its length to zero.
@@ -115,13 +114,13 @@ Well, as of .NET 2.0, we have a new static method on the System.String class –
   "name": "String.IsNullOrEmpty",
   "description": "The single most popular entry on this blog is, surprisingly enough, this quick post from Summer 2004 where I did a quick experiment to \u0026ldquo;prove\u0026rdquo; that in .NET the quickest way of proving that a string is empty is to compare its length to zero.\nWell, as of .NET 2.0, we have a new static method on the System.String class – IsNullOrEmpty – that allows you to easily test whether a string is, well, null or empty!\n",
   "keywords": [
-    "tidy"
+    
   ],
   "articleBody": "The single most popular entry on this blog is, surprisingly enough, this quick post from Summer 2004 where I did a quick experiment to “prove” that in .NET the quickest way of proving that a string is empty is to compare its length to zero.\nWell, as of .NET 2.0, we have a new static method on the System.String class – IsNullOrEmpty – that allows you to easily test whether a string is, well, null or empty!\nIt’s one of many convenience methods in the .NET 2.0 FCL that tend to get overlooked as developers (perhaps rightly) focus on the big new features such as nullable types, generics, partial classes, etc. I find this method particularly handy when validating parameters passed to publicly-visible methods, as in:\npublic void SayHello( string name ) { if ( string.IsNullOrEmpty( name ) ) throw new ArgumentNullException( \"name\"; ); Console.WriteLine( string.Concat( \"Hello, \", name ) );} It’s not brain surgery, but it does make the resulting code a little cleaner than in the .NET 1.1 days. Oh, and in case you’re wondering, here’s how the method is implemented in System.String (thanks to Lutz Roeder’s Reflector):\npublic static bool IsNullOrEmpty( string value ) { if ( value != null ) { return ( value.Length == 0 ); } return true;} More info:\nMSDN documentation FxCop violation documentation ",
   "wordCount" : "221",
   "inLanguage": "en",
   "datePublished": "2006-02-25T14:02:00Z",
-  "dateModified": "2025-04-21T22:16:26+01:00",
+  "dateModified": "2025-04-23T19:18:23+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://blog.iannelson.uk/string-isnullorempty/"
@@ -238,7 +237,6 @@ Well, as of .NET 2.0, we have a new static method on the System.String class –
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://blog.iannelson.uk/tags/tidy/">Tidy</a></li>
     </ul>
   </footer>
 </article>

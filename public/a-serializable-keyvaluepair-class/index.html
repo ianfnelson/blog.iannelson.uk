@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>A Serializable KeyValuePair Class | Ian Nelson</title>
-<meta name="keywords" content="tidy">
+<meta name="keywords" content="">
 <meta name="description" content="Having accepted that Returning DataSets from WebServices is the Spawn of Satan and Represents All That Is Truly Evil in the World (or at least, not exactly best practice), I’ve been trying to make a conscious effort to instead use lightweight custom objects in my middle tier, to be exposed via web services for use by other applications. I felt sure that some of the new Generic classes in the .NET 2.0 FCL would help me in my quest. Specifically, as I often need to expose simple arrays of Key/Value Pair metadata, I planned to create an instance of the  System.Collections.ObjectModel.Collection class, containing a bunch of System.Collections.Generic.KeyValuePair objects. ">
 <meta name="author" content="">
 <link rel="canonical" href="https://blog.iannelson.uk/a-serializable-keyvaluepair-class/">
@@ -77,8 +77,7 @@
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2006-09-17T17:09:00+00:00">
-    <meta property="article:modified_time" content="2025-04-21T22:16:26+01:00">
-    <meta property="article:tag" content="Tidy">
+    <meta property="article:modified_time" content="2025-04-23T19:18:23+01:00">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="A Serializable KeyValuePair Class">
 <meta name="twitter:description" content="Having accepted that Returning DataSets from WebServices is the Spawn of Satan and Represents All That Is Truly Evil in the World (or at least, not exactly best practice), I’ve been trying to make a conscious effort to instead use lightweight custom objects in my middle tier, to be exposed via web services for use by other applications. I felt sure that some of the new Generic classes in the .NET 2.0 FCL would help me in my quest. Specifically, as I often need to expose simple arrays of Key/Value Pair metadata, I planned to create an instance of the  System.Collections.ObjectModel.Collection class, containing a bunch of System.Collections.Generic.KeyValuePair objects. ">
@@ -112,13 +111,13 @@
   "name": "A Serializable KeyValuePair Class",
   "description": "Having accepted that Returning DataSets from WebServices is the Spawn of Satan and Represents All That Is Truly Evil in the World (or at least, not exactly best practice), I’ve been trying to make a conscious effort to instead use lightweight custom objects in my middle tier, to be exposed via web services for use by other applications. I felt sure that some of the new Generic classes in the .NET 2.0 FCL would help me in my quest. Specifically, as I often need to expose simple arrays of Key/Value Pair metadata, I planned to create an instance of the System.Collections.ObjectModel.Collection class, containing a bunch of System.Collections.Generic.KeyValuePair objects. ",
   "keywords": [
-    "tidy"
+    
   ],
   "articleBody": "Having accepted that Returning DataSets from WebServices is the Spawn of Satan and Represents All That Is Truly Evil in the World (or at least, not exactly best practice), I’ve been trying to make a conscious effort to instead use lightweight custom objects in my middle tier, to be exposed via web services for use by other applications. I felt sure that some of the new Generic classes in the .NET 2.0 FCL would help me in my quest. Specifically, as I often need to expose simple arrays of Key/Value Pair metadata, I planned to create an instance of the System.Collections.ObjectModel.Collection class, containing a bunch of System.Collections.Generic.KeyValuePair objects. Well, this all seemed to go to plan, and worked just fine within my app. But when I exposed the method as a web service, I discovered that neither the Key nor the Value properties were serialized – I was left to consume a lovely generic collection of objects with no members – not a whole lot of use.\nA little Googling turned up this blog entry, which explains that the Key and Value properties on the KeyValuePair class are both read-only, and by design the XmlSerializer will not serialize properties that don’t have a set accessor!\nDamned if that little matter was going to stop me, I whipped out my copy of Lutz Roeder’s reflector to reverse engineer the KeyValuePair class (to be honest, I could have guessed most of it), and added a private set accessor to both properties, thus persuading the XmlSerializer to, well, do some serializing 🙂\nHere’s the code for this new class:\nHaving done that, to add a little clarity when using this class in the way I anticipate and eliminate repeated code, I decided to create some specific versions of the Collection, ReadOnlyCollection and KeyedCollection classes:\n\u003c!\u003e\n\u003c!\u003e\n",
   "wordCount" : "303",
   "inLanguage": "en",
   "datePublished": "2006-09-17T17:09:00Z",
-  "dateModified": "2025-04-21T22:16:26+01:00",
+  "dateModified": "2025-04-23T19:18:23+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://blog.iannelson.uk/a-serializable-keyvaluepair-class/"
@@ -230,7 +229,6 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://blog.iannelson.uk/tags/tidy/">Tidy</a></li>
     </ul>
   </footer>
 </article>
