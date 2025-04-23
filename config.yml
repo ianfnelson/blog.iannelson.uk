@@ -50,6 +50,10 @@ services:
   googleAnalytics:
     id: G-5JMKSPFQKQ
 
+analytics:
+  google:
+    SiteVerificationTag: 'YqQbqlE8qjFw1Bop9gko46JVdM49Pjv0-_BIWRiTvFM'
+
 pagination:
   disableAliases: false
   pagerSize: 15
