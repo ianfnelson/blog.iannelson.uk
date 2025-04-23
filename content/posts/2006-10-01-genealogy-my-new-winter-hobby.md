@@ -14,7 +14,7 @@ _&#8220;INTPs are always so mentally active that they continually delve into new
 
 &#8212; [A description of the INTP personality type, Paul James][1].
 
-I’ve been in need of a new hobby for a while now.  The mental challenges offered from getting married, [changing][2] [jobs][3] and [moving home][4] have passed, and my free evenings and weekends were becoming prone to bouts of restlessness and sighs of &#8220;I’m bored&#8221;.  This is not a good thing.
+I’ve been in need of a new hobby for a while now.  The mental challenges offered from getting married, changing jobs and moving home have passed, and my free evenings and weekends were becoming prone to bouts of restlessness and sighs of &#8220;I’m bored&#8221;.  This is not a good thing.
 
 I’ve been toying with the idea of buying a Digital SLR for a while, but the initial outlay for all the required kit would be close to four figures, a sum not easy to come by after the aforementioned marriage and house move.  Besides, I’m not sure that taking up a pastime which is essentially outdoor in nature is a good idea as the nights draw in and we enter the almost perpetual darkness of a British winter.
 
@@ -35,9 +35,6 @@ I’m still very much a beginner at this game, but here are a few links and tips
   * [&#8220;The Genealogist’s Internet&#8221; by Peter Christian][13] is a mine of useful information for those using the net to undertake this kind of research.  I’m sure other books will prove useful for the next (offline) stages of my investigation, but I’m still waiting for Amazon to deliver a couple of those.
 
  [1]: http://www.intp.org/intprofile.html
- [2]: https://blog.iannelson.uk/joining-avanade/
- [3]: https://blog.iannelson.uk/back-to-the-old-house/
- [4]: https://blog.iannelson.uk/back-in-the-land-of-the-blogging/
  [5]: http://en.wikipedia.org/wiki/Who_Do_You_Think_You_Are%3F
  [6]: http://www.marthastewart.com/page.jhtml?type=content&id=channel1558
  [7]: http://www.ancestry.com
