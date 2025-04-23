@@ -20,7 +20,7 @@ As 2024 winds down, I decided to dust off my coding skills and whip up a quick C
 
 If you’ve got a similar Wordle-centric group chat with family or friends and fancy crowning your own Wordle Champion of the Year, the source code is available on GitHub:&nbsp;[WordleParser][2].
 
-## How It Works {.wp-block-heading}
+## How It Works 
 
 The application takes a single argument: the path to an exported chat text file. It parses the file using a [regular expression][3] to extract anything resembling a Wordle score. [Duplicate scores are weeded out][4], and the [average family score for each calendar day is logged][5]. For those unfortunate days when a puzzle remains unsolved, the application [assigns a ‘seven’][6] to reflect the failure.
 
@@ -28,7 +28,7 @@ The app then aggregates scores into calendar [months][7] and [years][8], [calcul
 
 For example, if three family members scored a 4, but one managed a dazzling 2, the day’s average would be 3.5. The three “fours” would each have a daily difference of +0.5, while the lucky “two” would boast a difference of -1.5.
 
-## The Results {.wp-block-heading}
+## The Results 
 
 So, who triumphed in the Nelson family Wordle-off this year? Did my painstaking analysis from 2022 finally give me the edge?
 

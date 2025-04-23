@@ -27,7 +27,7 @@ My favourite technical book of the year was the second edition of [**Building Mi
 
 Away from the code face, I’ve appreciated the insights into effective technical leadership that I have gained from two complementary books **[Staff Engineer: Leadership Beyond the Management Track][8]** by Will Larson and [**The Staff Engineer’s Path: A Guide for Individual Contributors Navigating Growth and Change**][9] by Tanya Reilly. Both offer plenty of practical advice and insights for anyone in (or aspiring to enter) a &#8220;Staff Plus&#8221; role.
 
-## Politics {.wp-block-heading}
+## Politics 
 
 I spent some of my early summer weekends accumulating blisters as I walked the local streets delivering campaign material to help re-elect our excellent local MP Keir Mather. For background encouragement I did this while listening to the audiobook of [**This Time No Mistakes: How to Remake Britain**][10] by Will Hutton. It is a wide-ranging treatise covering over a century of political history on both sides of the Atlantic and attributes the UK’s current political and economic challenges to persistent adherence to free-market ideologies and minimal state intervention over the past 45 years. Drawing inspiration from early 20th-century New Liberalism and the post-1945 Labour government, Hutton advocates for a blend of ethical socialism and progressive liberalism, which he refers to as the &#8220;We Society&#8221;, balancing individual aspirations with collective welfare. Occasionally I found this a little too dry and worthy for my liking, with the recounted historical events seeming far removed from current day politics. But generally it kept me inspired and motivated, particularly in the more forward-looking sections that offered a manifesto for change.
 
@@ -37,7 +37,7 @@ I spent some of my early summer weekends accumulating blisters as I walked the l
 
 My favourite book by a politician this year was only tangentially about politics. **[One Boy, Two Bills and a Fry-Up: A Memoir of Growing Up and Getting On][11]** is an engaging memoir by current Health Secretary Wes Streeting, recounting his experiences growing up in poverty with teenage parents who struggled to make ends meet. Despite the hardships faced, Streeting highlights the love and support from his family, and also the opportunities afforded to him by impactful teachers, ultimately leading to attending Cambridge University and embarking on a career in politics. Streeting wears his heart on his sleeve, making for a very personal memoir that offers human-centric vignettes into the factors that shaped his ideology.
 
-## Money and Risk {.wp-block-heading}
+## Money and Risk 
 
 I read a second autobiography this summer by another boy from a modest upbringing in East London who made a better life for himself, though this one followed a very different path from that of the Health Secretary. **[The Trading Game: A Confession][12]** by Gary Stevenson details the author’s ascent to become a leading trader at Citibank, working on the Short-Term Interest Rate Trading desks in London and later Tokyo. The memoir delves into the opulent yet morally ambiguous lifestyle of high finance, exposing systemic flaws and the widening wealth gap in the years that followed the 2007-8 global financial crisis. Despite his success, Stevenson grappled with the ethical implications of profiting from the economic downturns that adversely affected the less affluent, and he has since become an advocate for economic equality, using his platform to educate the public on financial disparities. I didn’t particularly relish the chapters describing bankers’ hedonism, but I was fascinated by later sections detailing the corporate games played by Citibank as Stevenson sought to leave the organisation.
 
@@ -51,7 +51,7 @@ In a similar vein, **[On the Edge: The Art of Risking Everything][14]** by Nate 
 
 Game-playing and risk-taking without the potential for such life-changing consequences is the subject of **<a href="https://amzn.to/4f5YtSD" data-type="link" data-id="https://amzn.to/4f5YtSD">Around the World in 80 Games</a>** by British mathematician Marcus du Sautoy. The Jules Verne-inspired narrative circumnavigates the globe and explores a diverse array of games, from ancient board games like the Royal Game of Ur to contemporary favourite such as Settlers of Catan. It considers the cultural significance of games, and the roles they play in different societies, in addition to investigating the mathematical concepts underpinning these games, including probability, game theory and combinatorics. Du Sautoy also explores what makes games fun and interesting, captivating players into wishing for just one more turn (_e.g. Wingspan_, _Ticket To Ride_) compared to those that can drag on interminably and lead to boredom and resentment (_Monopoly_). In 2024 I have very much appreciated the fact that my children are of an age where they are able and willing to play decent games like _7 Wonders_, _Darwin’s Journey_ and _Everdell_ with me, and found Du Sautoy’s book to offer pleasing insights into why we find these games so enjoyable.
 
-## Fiction {.wp-block-heading}
+## Fiction 
 
 As is usually the case, I read more non-fiction than fiction during the year. On the few occasions that I did pick up a novel, it seems I have been drawn to those featuring rather flawed protagonists, to say the least. **[American Psycho][15]** by Bret Easton Ellis was, in retrospect, perhaps not the most relaxing choice of audiobook to accompany my January commutes on the congested roads of Leeds City Centre. The novel is infamous for its explicit and shocking depictions of ultra-violence, but I was more intrigued by its lengthy and monotonous monologues on 1980s bands, stereo systems, and skincare routines.
 
@@ -69,7 +69,7 @@ While visiting the States this summer, I spent the hot Nevadan evenings sitting 
 > 
 > <cite>Martin Amis, London Fields</cite></figure> 
 
-## Music {.wp-block-heading}
+## Music 
 
 <div class="wp-block-image">
   <figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" width="500" height="500" src="https://blogstouks01.z33.web.core.windows.net/2024/12/Nowehre.jpg" alt="" class="wp-image-10276" style="width:350px" srcset="https://blogstouks01.z33.web.core.windows.net/2024/12/Nowehre.jpg 500w, https://blogstouks01.z33.web.core.windows.net/2024/12/Nowehre-300x300.jpg 300w, https://blogstouks01.z33.web.core.windows.net/2024/12/Nowehre-150x150.jpg 150w" sizes="auto, (max-width: 500px) 100vw, 500px" /></figure>
@@ -77,7 +77,7 @@ While visiting the States this summer, I spent the hot Nevadan evenings sitting 
 
 My favourite music book of the year was **[Deliver Me From Nowhere: The Making of Bruce Springsteen’s Nebraska][22]** by Warren Zanes. In contrast to the rock autobiographies by Bono, Jarvis Cocker, and Dave Grohl that have graced my year-end blog post in recent years and which contain a wide-range of anecdotes, Zanes’ book focuses on one specific recording. The _Nebraska_ LP, recorded solo on a four-track cassette recorder in a New Jersey bedroom, was a stark departure from Springsteen’s earlier, more grandiose works. It showcased a raw, introspective side, and featured narratives of violence, despair, and existential contemplation. Zanes is a true fan and diligent researcher, who through interviews with Springsteen and others explores how _Nebraska_ challenged industry norms and left a lasting impact on music, paving the way for future generations of lo-fi and indie rock artists to produce music in their bedrooms. For a broader read, I also enjoyed **[R.E.M. Album by Album][23]** by Max Pilley, a comprehensive retrospective of the thirty-year recording career of one of my favourite bands. This featured many facts and insights into the band and music that I wasn’t previously aware of, and led to me streaming their LPs with fresh ears, not unlike the impact that _Revolution In The Head_ by Ian McDonald once had upon my appreciation of The Beatles’ recordings.
 
-## Life and How to Live It {.wp-block-heading}
+## Life and How to Live It 
 
 <div class="wp-block-image">
   <figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" width="500" height="500" src="https://blogstouks01.z33.web.core.windows.net/2024/12/fluke.jpg" alt="" class="wp-image-10279" style="width:350px" srcset="https://blogstouks01.z33.web.core.windows.net/2024/12/fluke.jpg 500w, https://blogstouks01.z33.web.core.windows.net/2024/12/fluke-300x300.jpg 300w, https://blogstouks01.z33.web.core.windows.net/2024/12/fluke-150x150.jpg 150w" sizes="auto, (max-width: 500px) 100vw, 500px" /></figure>
@@ -107,7 +107,7 @@ In 2024 I read more books than usual by reducing the amount of mainstream news m
 
 Bregman’s central thesis is that humans are, by nature, “Homo puppy” – inherently friendly, cooperative, and capable of incredible kindness. He invites readers to adopt a more optimistic lens on humanity, rejecting cynicism and building systems that empower our better angels. I particularly enjoyed the sections of the book where Bregman’s fresh research debunked iconic studies like the Stanford Prison Experiment and Milgram Experiment, revealing flaws in their methodology and reporting. The book is a mixture of rigorous research and engaging anecdotes that offers a call to action to reimagine our social structures and advocates for policies such as Universal Basic Income, which assume the best in people and trust individuals to act responsibly.
 
-## Our World {.wp-block-heading}
+## Our World 
 
 <div class="wp-block-image">
   <figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" width="500" height="500" src="https://blogstouks01.z33.web.core.windows.net/2024/12/nottheend-1.jpg" alt="" class="wp-image-10277" style="width:350px" srcset="https://blogstouks01.z33.web.core.windows.net/2024/12/nottheend-1.jpg 500w, https://blogstouks01.z33.web.core.windows.net/2024/12/nottheend-1-300x300.jpg 300w, https://blogstouks01.z33.web.core.windows.net/2024/12/nottheend-1-150x150.jpg 150w" sizes="auto, (max-width: 500px) 100vw, 500px" /></figure>
