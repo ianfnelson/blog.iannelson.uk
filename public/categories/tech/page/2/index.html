@@ -159,30 +159,18 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Entity Framework Week Part 2: Conventions and Fluent Mappings
+    <h2 class="entry-hint-parent">Schoolboy Error Of The Day
     </h2>
   </header>
   <div class="entry-content">
-    <p>This is the second in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. The introductory post in the series is here.
-As mentioned in yesterday’s post, I was attempting to use Entity Framework Code-First CTP5 to map an existing domain model to an existing database schema. Fortunately the project was in its infancy and there was a high degree of cohesion between the two models. I therefore didn’t anticipate too many difficulties ahead – the occasional naming discrepancy to resolve, and table-per-hierarchy mappings that would need their discriminators specifying – nothing too complicated really. I hoped to make as few changes as possible to either the database schema or domain model.
-...</p>
+    <p>This dumb mistake just cost me an hour spelunking around in the debugger:
+(where source is e.g. “http://foo.com/status/all-is-good“)
+Fortunately the ramifications were picked up in the acceptance tests, but the root cause wasn’t at all obvious from such a high level.
+Lesson for the day – code is never too trivial to warrant unit testing.
+</p>
   </div>
-  <footer class="entry-footer"><span title='2011-03-08 09:03:00 +0000 GMT'>8 March 2011</span></footer>
-  <a class="entry-link" aria-label="post link to Entity Framework Week Part 2: Conventions and Fluent Mappings" href="https://bloghugo.iannelson.uk/entity-framework-week-part-2-conventions-and-fluent-mappings/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Entity Framework Week Part 1: Introduction, Configuration and Initialization
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In February 2011 I found myself doing some contract development work in a team that was still doing data access using raw ADO.NET and stored procedures. Being the NHibernate fanboy that I am, I naturally attempted to persuade them of the benefits of moving over to NH, even going so far as to develop (in my own time) an NH-powered version of their application.
-My efforts were partially successful. The team were sold on the idea of using an ORM, but wanted me to develop a second proof of concept using Microsoft ADO.NET Entity Framework rather than NHibernate. This prompted much mirth amongst my FaceBook friends.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2011-03-07 09:03:00 +0000 GMT'>7 March 2011</span></footer>
-  <a class="entry-link" aria-label="post link to Entity Framework Week Part 1: Introduction, Configuration and Initialization" href="https://bloghugo.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/"></a>
+  <footer class="entry-footer"><span title='2011-08-17 08:08:00 +0000 +0000'>17 August 2011</span></footer>
+  <a class="entry-link" aria-label="post link to Schoolboy Error Of The Day" href="https://bloghugo.iannelson.uk/schoolboy-error-of-the-day/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
@@ -375,6 +363,23 @@ Now, Scott is unfortunately responsible for administering occasional TLC to a co
   </div>
   <footer class="entry-footer"><span title='2009-12-02 12:12:00 +0000 GMT'>2 December 2009</span></footer>
   <a class="entry-link" aria-label="post link to Deduplication Fail" href="https://bloghugo.iannelson.uk/deduplication-fail/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn.iannelson.uk/uploads/2009/10/iStock_000010551634XSmall_3-1.jpg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">A Circuit Breaker Which Trips On Frequency Of Failures
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>@Jez tweeted last night:
+Funny, but not true. I am enamoured with the Castle Windsor project because its power makes it fairly simple for me to develop loosely-coupled systems which are easily maintained and tested. The wide range of Facilities and Contrib projects also integrate nicely with the other parts of my current development stack (NHibernate, WCF, WF, log4net).
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2009-10-28 11:10:00 +0000 GMT'>28 October 2009</span></footer>
+  <a class="entry-link" aria-label="post link to A Circuit Breaker Which Trips On Frequency Of Failures" href="https://bloghugo.iannelson.uk/a-circuit-breaker-which-trips-on-frequency-of-failures/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

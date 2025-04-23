@@ -3,14 +3,9 @@ title: 'Entity Framework Week Part 5: Concluding Thoughts'
 
 date: 2011-03-11T09:03:00+00:00
 url: /entity-framework-week-part-5-concluding-thoughts/
-ct_author_last_updated:
-  - default
-ct_author_pro_video_display_key:
-  - post
-ct_author_pro_fi_size_key:
-  - default
-categories:
-  - Tech
+series:
+  - 'Entity Framework Week'
+weight: 5
 tags:
   - tidy
 

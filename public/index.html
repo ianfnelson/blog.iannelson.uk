@@ -242,6 +242,77 @@ Make of it what you will.
 </article>
 
 <article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Entity Framework Week Part 1: Introduction, Configuration and Initialization
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>In February 2011 I found myself doing some contract development work in a team that was still doing data access using raw ADO.NET and stored procedures. Being the NHibernate fanboy that I am, I naturally attempted to persuade them of the benefits of moving over to NH, even going so far as to develop (in my own time) an NH-powered version of their application.
+My efforts were partially successful. The team were sold on the idea of using an ORM, but wanted me to develop a second proof of concept using Microsoft ADO.NET Entity Framework rather than NHibernate. This prompted much mirth amongst my FaceBook friends.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2011-03-07 09:03:00 +0000 GMT'>7 March 2011</span></footer>
+  <a class="entry-link" aria-label="post link to Entity Framework Week Part 1: Introduction, Configuration and Initialization" href="https://bloghugo.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Entity Framework Week Part 2: Conventions and Fluent Mappings
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>This is the second in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. The introductory post in the series is here.
+As mentioned in yesterday’s post, I was attempting to use Entity Framework Code-First CTP5 to map an existing domain model to an existing database schema. Fortunately the project was in its infancy and there was a high degree of cohesion between the two models. I therefore didn’t anticipate too many difficulties ahead – the occasional naming discrepancy to resolve, and table-per-hierarchy mappings that would need their discriminators specifying – nothing too complicated really. I hoped to make as few changes as possible to either the database schema or domain model.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2011-03-08 09:03:00 +0000 GMT'>8 March 2011</span></footer>
+  <a class="entry-link" aria-label="post link to Entity Framework Week Part 2: Conventions and Fluent Mappings" href="https://bloghugo.iannelson.uk/entity-framework-week-part-2-conventions-and-fluent-mappings/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Entity Framework Week Part 3: Runtime Issues Encountered
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>This is the third in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. The introductory post in the series is here.
+Having configured and initialized Entity Framework, and tweaked the mappings, by Day 3 I was all set to start consuming my shiny new DbContext implementation from the application code, and actually get some CRUD work done. Not unexpectedly, I hit a few issues along the way…
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2011-03-09 09:03:00 +0000 GMT'>9 March 2011</span></footer>
+  <a class="entry-link" aria-label="post link to Entity Framework Week Part 3: Runtime Issues Encountered" href="https://bloghugo.iannelson.uk/entity-framework-week-part-3-runtime-issues-encountered/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Entity Framework Week Part 4: Features and Further Investigations
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>This is the fourth in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. The introductory post in the series is here.
+I didn’t want this series of posts to descend into a point-scoring NHibernate-versus-Entity Framework comparison, but…
+I now have a basic proof-of-concept up and running, with my client’s nascent application now being powered by Entity Framework Code-First CTP5 rather than a hand-rolled DAL. So, I had some time to consider future functional and non-functional requirements that the team would be asked to develop and support, and investigate how EF would meet the challenge.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2011-03-10 09:03:00 +0000 GMT'>10 March 2011</span></footer>
+  <a class="entry-link" aria-label="post link to Entity Framework Week Part 4: Features and Further Investigations" href="https://bloghugo.iannelson.uk/entity-framework-week-part-4-features-and-further-investigations/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Entity Framework Week Part 5: Concluding Thoughts
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>This is the fifth in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. The introductory post in the series is here.
+I am lucky to have had the opportunity to spend a time-boxed period playing with Entity Framework Code-First in a real-world scenario, and to get paid for the privilege! I now have a clearer understanding of how it has progressed during the last few years, what its strong points are, and where it still has shortcomings compared to the much more mature NHibernate framework.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2011-03-11 09:03:00 +0000 GMT'>11 March 2011</span></footer>
+  <a class="entry-link" aria-label="post link to Entity Framework Week Part 5: Concluding Thoughts" href="https://bloghugo.iannelson.uk/entity-framework-week-part-5-concluding-thoughts/"></a>
+</article>
+
+<article class="post-entry"> 
 <figure class="entry-cover">
         <img loading="lazy" src="https://cdn.iannelson.uk/uploads/2024/12/0277568D-75C1-4425-8F5B-48DD1EFE2A7E.jpeg" alt="">
 </figure>
@@ -419,90 +490,6 @@ Strava link
   </div>
   <footer class="entry-footer"><span title='2022-04-18 20:00:00 +0000 +0000'>18 April 2022</span></footer>
   <a class="entry-link" aria-label="post link to Nether Red Brook, Kinder Scout" href="https://bloghugo.iannelson.uk/nether-red-brook-kinder-scout/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://cdn.iannelson.uk/uploads/2022/01/photo-1583334648584-6c2ba1fb41cd.jpg" alt="">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">The Best Wordle Starter Words
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Like (it would seem) most of the rest of humanity, the start of my 2022 has been immeasurably enhanced by starting each day playing Josh Wardle’s charming word game Wordle. Which got me wondering – what are the best starter words to play in the opening lines at Wordle? I have been habitually using “ADIEU” as my starter word, reasoning that it contains a large number of vowels. But is D a particularly common consonant? And should I be trying to get O in there rather than the less frequently used U? I decided to do some computer-aided analysis to find the answer.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2022-01-18 19:00:00 +0000 GMT'>18 January 2022</span></footer>
-  <a class="entry-link" aria-label="post link to The Best Wordle Starter Words" href="https://bloghugo.iannelson.uk/the-best-wordle-starter-words/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://cdn.iannelson.uk/uploads/2021/12/122049_books2021.jpg" alt="">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">The Books I Most Enjoyed Reading in 2021
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>The Top 5 {#the-top-5} And Away… by Bob Mortimer
-As was the case in 2020, my favourite book of the year was an autobiography; this time by national treasure Bob Mortimer. Laugh out loud funny in many places, elsewhere this is tinged with melancholy and the realisation that, for all his on-screen tomfoolery, Mortimer is an incredibly shy individual.
-Touching, contemplative, warm and kind throughout, there is plenty of food for thought here regarding how we ought to live our lives and interact with those around us. I heartily recommend the audiobook, narrated by the great man himself.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2021-12-15 21:21:01 +0000 GMT'>15 December 2021</span></footer>
-  <a class="entry-link" aria-label="post link to The Books I Most Enjoyed Reading in 2021" href="https://bloghugo.iannelson.uk/the-books-i-most-enjoyed-reading-in-2021/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://cdn.iannelson.uk/uploads/2021/07/191848_IMG_2990.jpg" alt="">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Stanage Edge with my Mum
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>I’m on a break between contracts this week, so decided to make the most of the good weather and headed into the Peak District to revisit Stanage Edge for the first time since 2000. Unlike my last visit twenty years ago, there were no ropes or belays involved this time. Instead my Mum and I had a leisurely wander in the blistering July sunshine up part of the Long Causeway, before taking some snapshots at the latest version of the historic Stanage Pole.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2021-07-19 18:49:44 +0000 +0000'>19 July 2021</span></footer>
-  <a class="entry-link" aria-label="post link to Stanage Edge with my Mum" href="https://bloghugo.iannelson.uk/stanage-edge-with-my-mum/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://cdn.iannelson.uk/uploads/2021/06/271647_IMG_2891.jpg" alt="">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Scrambling with Isla on Saddleworth Moor
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>My daughter Isla pronounced our April walk up Pen-y-Ghent to have been “a bit boring”. Apparently she enjoyed the scrambling and the views but not the lengthy slog. Fair enough.
-So, looking for something more interesting for our next Dad and Daughter trip into the hills, I armed myself with a copy of “Scrambles In The Dark Peak” by Terry Sleaford and Tom Corker, and today we set off to tackle the first route in the book.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2021-06-27 16:49:27 +0000 +0000'>27 June 2021</span></footer>
-  <a class="entry-link" aria-label="post link to Scrambling with Isla on Saddleworth Moor" href="https://bloghugo.iannelson.uk/scrambling-with-isla-on-saddleworth-moor/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://cdn.iannelson.uk/uploads/2021/04/251818_IMG_2583.jpg" alt="">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Pen-y-ghent With a Daughter
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>A lovely spring Sunday walk up Pen-y-ghent in the Yorkshire Dales with my daughter Isla (her first hike up a proper hill).
-It was most liberating to get out into the hills after so many months stuck at home or staying local due to the coronavirus pandemic.
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2021-04-25 18:19:33 +0000 +0000'>25 April 2021</span></footer>
-  <a class="entry-link" aria-label="post link to Pen-y-ghent With a Daughter" href="https://bloghugo.iannelson.uk/pen-y-ghent/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

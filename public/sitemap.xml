@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bloghugo.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/</loc>
+    <lastmod>2025-04-21T22:17:34+01:00</lastmod>
+  </url><url>
+    <loc>https://bloghugo.iannelson.uk/entity-framework-week-part-2-conventions-and-fluent-mappings/</loc>
+    <lastmod>2025-04-21T21:56:00+01:00</lastmod>
+  </url><url>
+    <loc>https://bloghugo.iannelson.uk/entity-framework-week-part-3-runtime-issues-encountered/</loc>
+    <lastmod>2025-04-21T22:16:26+01:00</lastmod>
+  </url><url>
+    <loc>https://bloghugo.iannelson.uk/entity-framework-week-part-4-features-and-further-investigations/</loc>
+    <lastmod>2025-04-21T21:56:00+01:00</lastmod>
+  </url><url>
+    <loc>https://bloghugo.iannelson.uk/entity-framework-week-part-5-concluding-thoughts/</loc>
+    <lastmod>2025-04-21T21:56:00+01:00</lastmod>
+  </url><url>
     <loc>https://bloghugo.iannelson.uk/categories/</loc>
     <lastmod>2025-04-22T23:52:21+01:00</lastmod>
   </url><url>
@@ -137,19 +152,10 @@
     <loc>https://bloghugo.iannelson.uk/its-a-small-world/</loc>
     <lastmod>2025-04-21T22:21:59+01:00</lastmod>
   </url><url>
-    <loc>https://bloghugo.iannelson.uk/entity-framework-week-part-5-concluding-thoughts/</loc>
-    <lastmod>2025-04-21T21:56:00+01:00</lastmod>
+    <loc>https://bloghugo.iannelson.uk/series/entity-framework-week/</loc>
+    <lastmod>2025-04-21T22:17:34+01:00</lastmod>
   </url><url>
-    <loc>https://bloghugo.iannelson.uk/entity-framework-week-part-4-features-and-further-investigations/</loc>
-    <lastmod>2025-04-21T21:56:00+01:00</lastmod>
-  </url><url>
-    <loc>https://bloghugo.iannelson.uk/entity-framework-week-part-3-runtime-issues-encountered/</loc>
-    <lastmod>2025-04-21T22:16:26+01:00</lastmod>
-  </url><url>
-    <loc>https://bloghugo.iannelson.uk/entity-framework-week-part-2-conventions-and-fluent-mappings/</loc>
-    <lastmod>2025-04-21T21:56:00+01:00</lastmod>
-  </url><url>
-    <loc>https://bloghugo.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/</loc>
+    <loc>https://bloghugo.iannelson.uk/series/</loc>
     <lastmod>2025-04-21T22:17:34+01:00</lastmod>
   </url><url>
     <loc>https://bloghugo.iannelson.uk/enterprise-integration-anti-patterns-2-shared-assemblies/</loc>

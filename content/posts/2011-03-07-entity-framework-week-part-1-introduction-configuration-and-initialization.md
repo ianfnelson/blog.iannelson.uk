@@ -3,7 +3,9 @@ title: 'Entity Framework Week Part 1: Introduction, Configuration and Initializa
 
 date: 2011-03-07T09:03:00+00:00
 url: /entity-framework-week-part-1-introduction-configuration-and-initialization/
-
+series:
+  - 'Entity Framework Week'
+weight: 1
 categories:
   - Tech
 tags:

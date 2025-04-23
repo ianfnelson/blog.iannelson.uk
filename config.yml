@@ -61,6 +61,7 @@ languages:
     taxonomies:
       category: categories
       tag: tags
+      series: series
     menu:
       main:
         - name: Archive

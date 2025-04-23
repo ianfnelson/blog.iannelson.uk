@@ -3,7 +3,9 @@ title: 'Entity Framework Week Part 2: Conventions and Fluent Mappings'
 
 date: 2011-03-08T09:03:00+00:00
 url: /entity-framework-week-part-2-conventions-and-fluent-mappings/
-
+series:
+  - 'Entity Framework Week'
+weight: 2
 categories:
   - Tech
 tags:
