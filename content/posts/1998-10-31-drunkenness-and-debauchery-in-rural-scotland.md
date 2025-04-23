@@ -16,44 +16,19 @@ I still can’t quite believe that we all woke up at 6:30am on a Saturday.  But
 
 After a brief stop in Killin to book accommodation and buy more films, we headed off to the Crianlarich hills, for a fine day walking (even if I did wuss out after two munros – but then, I didn’t relish the prospect of trudging back to Morky in the dark).  The conversation was of high quality, the mood relaxed, the weather&#8230; well, I’ve mentioned the weather enough already.  As I said at the time, there was no place on earth I’d rather have been.  Contrast that to last April, when I was dragged up my first munro, aghast at being so far from warmth, the internet, and mobile phone transmitters.  Now, I was glad to leave that behind me for a while, to sweat the city shit out of my pores, and to fill my lungs with some fresh air.  After all, there would be time enough in the evening to abuse my body&#8230;
 
-Killin is a great little town for a nights’ drinking.  At least, it is when the barman isn’t incredibly drunk himself, and hence unable to serve you a round.  Later in the evening, we heard that he’d been sacked.  Now, Lex has asked me to mention the fact that Rich and myself were unable to keep our Jack Daniels’ down, and spewed our guts up in the street, but I’m sure you don’t really want to hear all about that.  Suffice to say, I’m not looking forward to seeing the photos that I recollect him taking throughout the evening&#8230;<figure class="kg-card kg-gallery-card kg-width-wide"> 
+Killin is a great little town for a nights’ drinking.  At least, it is when the barman isn’t incredibly drunk himself, and hence unable to serve you a round.  Later in the evening, we heard that he’d been sacked.  Now, Lex has asked me to mention the fact that Rich and myself were unable to keep our Jack Daniels’ down, and spewed our guts up in the street, but I’m sure you don’t really want to hear all about that.  Suffice to say, I’m not looking forward to seeing the photos that I recollect him taking throughout the evening&#8230;
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_51.jpg)
+    
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_30.jpg)
+    
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_35.jpg)
 
-<div class="kg-gallery-container">
-  <div class="kg-gallery-row">
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_51.jpg" width="1194" height="3013" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2013_03_04_22_23_51.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_2013_03_04_22_23_51.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_51.jpg 1194w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_37.jpg)
     
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_30.jpg" width="1195" height="3021" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2013_03_04_22_23_30.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_2013_03_04_22_23_30.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_30.jpg 1195w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_41.jpg)
     
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_35.jpg" width="1195" height="1797" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2013_03_04_22_23_35.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_2013_03_04_22_23_35.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_35.jpg 1195w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
-  </div>
-  
-  <div class="kg-gallery-row">
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_37.jpg" width="1195" height="2104" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2013_03_04_22_23_37.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_2013_03_04_22_23_37.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_37.jpg 1195w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_45.jpg)
+
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_47.jpg)
     
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_41.jpg" width="1196" height="1806" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2013_03_04_22_23_41.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_2013_03_04_22_23_41.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_41.jpg 1196w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
-    
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_45.jpg" width="1197" height="1795" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2013_03_04_22_23_45.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_2013_03_04_22_23_45.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_45.jpg 1197w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
-  </div>
-  
-  <div class="kg-gallery-row">
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_47.jpg" width="1193" height="2109" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2013_03_04_22_23_47.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_2013_03_04_22_23_47.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_47.jpg 1193w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
-    
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/1998/10/2013_03_04_22_23_49-1.jpg" width="1189" height="2106" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_49-1.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/1_2013_03_04_22_23_49-1.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/1998/10/2013_03_04_22_23_49-1.jpg 1189w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
-  </div>
-</div></figure>
+    ![](https://blogstouks01.z33.web.core.windows.net/1998/10/2013_03_04_22_23_49-1.jpg)

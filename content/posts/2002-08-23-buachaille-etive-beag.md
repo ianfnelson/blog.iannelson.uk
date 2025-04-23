@@ -10,36 +10,18 @@ categories:
   - Hills
 
 ---
-The little sibling to [Buachaille Etive Mor][1].<figure class="kg-card kg-gallery-card kg-width-wide"> 
+The little sibling to [Buachaille Etive Mor][1].
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_0923.jpg)
+    
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_0915.jpg)
+    
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_0916.jpg)
 
-<div class="kg-gallery-container">
-  <div class="kg-gallery-row">
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_0923.jpg" width="1600" height="1200" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_0923.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_0923.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_0923.jpg 1600w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_0919.jpg)
     
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_0915.jpg" width="1200" height="1600" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_0915.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_0915.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_0915.jpg 1200w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_0921.jpg)
     
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_0916.jpg" width="1600" height="1200" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_0916.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_0916.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_0916.jpg 1600w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
-  </div>
-  
-  <div class="kg-gallery-row">
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_0919.jpg" width="1600" height="1200" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_0919.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_0919.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_0919.jpg 1600w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
-    
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_0921.jpg" width="1600" height="1200" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_0921.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_0921.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_0921.jpg 1600w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
-    
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_0922.jpg" width="1600" height="1200" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_0922.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_0922.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_0922.jpg 1600w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
-  </div>
-</div></figure>
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_0922.jpg)
+
 
  [1]: https://blog.iannelson.uk/buachaille-etive-mor/

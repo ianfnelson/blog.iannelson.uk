@@ -1,17 +1,13 @@
 ---
 title: Buachaille Etive Mor
-
 date: 1999-03-27T22:03:00+00:00
 url: /buachaille-etive-mor/
 cover: 
   image: https://blogstouks01.z33.web.core.windows.net/1999/03/2013_03_04_22_25_05.jpg
-
 categories:
   - Hills
 
 ---
-<figure class="kg-card kg-image-card"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/1999/03/2013_03_04_22_25_05-1.jpg" class="kg-image" alt loading="lazy" /></figure> 
-
 Brucey’s protective, cautionary side does not show itself often, but it’s undoubtedly there. One of his female housemates once commented that “he really looks after us in the flat, he’s like the Dad of the house!” and I can now sort of imagine how this is true. I get the feeling people are likely to misrepresent him as being some kind of mad Scottish loony, especially when up on the munros, risking his life for the sake of a quick bag or a bit of a laugh, but I’m beginning to think that under the “ker-azy” exterior, he’s alarmingly sensible. Posit: we’re at the bottom of a gorgeous snow-covered gully on Buachaille Etive Mor, and I’m gagging to don some crampons (lent to me by the man himself), and get going. But Brucey has other ideas:
 
 “Look, you’re not f*cking going up there until you practice some ice-axe brakes!”
@@ -24,51 +20,25 @@ This wasn’t the loony I’d come to know and love, who’d been thrown out of 
 
 “But I’ll get me arse wet!,” I pleaded. It didn’t cut ice. Only the ice-axe would do that. Five attempts and a severely soggy bum later, Bruce conceded that I’d “got the general idea.” In retrospect, I was thankful. As with previous occasions in my life, it’s always been my friends who’ve given me the advice I didn’t want, but needed to hear, or forced me to do the things I didn’t want to, but needed to do.
 
-My arse dried mercifully quickly, and the walk continued in superb fashion. The weather held out, the skies were clear, and we could see for miles – brilliant views of Schiehallion, Ben Nevis, and out to Ben More. The decision to drive up to Glencoe on the Saturday had certainly been the right one. Amaretto, ham & cheese sandwiches, Snickers, Evian, and a choc dip turned a splendid day into a perfect one. There was nowhere on earth I’d rather have been.<figure class="kg-card kg-gallery-card kg-width-wide"> 
+My arse dried mercifully quickly, and the walk continued in superb fashion. The weather held out, the skies were clear, and we could see for miles – brilliant views of Schiehallion, Ben Nevis, and out to Ben More. The decision to drive up to Glencoe on the Saturday had certainly been the right one. Amaretto, ham & cheese sandwiches, Snickers, Evian, and a choc dip turned a splendid day into a perfect one. There was nowhere on earth I’d rather have been.
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_24_58.jpg)
+    
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_25_00.jpg)
+    
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_25_02.jpg)
 
-<div class="kg-gallery-container">
-  <div class="kg-gallery-row">
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_24_58.jpg" width="1196" height="2122" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2013_03_04_22_24_58.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_2013_03_04_22_24_58.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_24_58.jpg 1196w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_25_03.jpg)
     
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_25_00.jpg" width="1198" height="2120" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2013_03_04_22_25_00.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_2013_03_04_22_25_00.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_25_00.jpg 1198w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_24_43.jpg)
     
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_25_02.jpg" width="1196" height="2122" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2013_03_04_22_25_02.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_2013_03_04_22_25_02.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_25_02.jpg 1196w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
-  </div>
-  
-  <div class="kg-gallery-row">
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_25_03.jpg" width="1196" height="2127" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2013_03_04_22_25_03.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_2013_03_04_22_25_03.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_25_03.jpg 1196w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_24_46.jpg)
+
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_24_50.jpg)
     
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_24_43.jpg" width="1194" height="2118" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2013_03_04_22_24_43.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_2013_03_04_22_24_43.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_24_43.jpg 1194w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_24_52.jpg)
     
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_24_46.jpg" width="1196" height="3034" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2013_03_04_22_24_46.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_2013_03_04_22_24_46.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_24_46.jpg 1196w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
-  </div>
-  
-  <div class="kg-gallery-row">
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_24_50.jpg" width="1196" height="2123" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2013_03_04_22_24_50.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_2013_03_04_22_24_50.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_24_50.jpg 1196w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
-    
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_24_52.jpg" width="1193" height="2127" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2013_03_04_22_24_52.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_2013_03_04_22_24_52.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_24_52.jpg 1193w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
-    
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_24_54.jpg" width="1196" height="2118" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2013_03_04_22_24_54.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_2013_03_04_22_24_54.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_24_54.jpg 1196w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
-  </div>
-</div></figure> 
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_24_54.jpg)
+
 
 Descents always seem to conjure up mixed feelings in my mind and my heart. Of course one part of me is looking forward to the prospect of warmth, and a change of socks, and a pint of Guinness, but leaving the mountain also seems to mark a return to “real life”, and all the responsibilities and daily routines that that brings with it. When you’re far from civilisation, uncontactable, it’s a very pleasant, liberating feeling.
 

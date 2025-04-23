@@ -14,10 +14,7 @@ categories:
 ---
 Another visit to Stanage Edge to admire the mighty [Stanage Pole][1]. This time with my daughter Isla in tow, rather than [my mum][2].
 
-[Strava link][3]<figure class="kg-card kg-gallery-card kg-width-wide"> 
-
-<div class="kg-gallery-container">
-  <div class="kg-gallery-row">
+[Strava link][3]
     <div class="kg-gallery-image">
       <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_4990.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_4990.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_4990.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_4990.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_4990.jpg 2400w" alt="" width="2000" height="1500" />
     </div>
@@ -29,9 +26,7 @@ Another visit to Stanage Edge to admire the mighty [Stanage Pole][1]. This time 
     <div class="kg-gallery-image">
       <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_4997-1.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_4997-1.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_4997-1.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_4997-1.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_4997-1.jpg 2400w" alt="" width="2000" height="2667" />
     </div>
-  </div>
-  
-  <div class="kg-gallery-row">
+
     <div class="kg-gallery-image">
       <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2022-12-11_20-12-54.png" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2022-12-11_20-12-54.png 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2022-12-11_20-12-54.png 943w" alt="" width="943" height="299" />
     </div>
@@ -39,8 +34,7 @@ Another visit to Stanage Edge to admire the mighty [Stanage Pole][1]. This time 
     <div class="kg-gallery-image">
       <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2022-12-11_20-12-44-1.png" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2022-12-11_20-12-44-1.png 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2022-12-11_20-12-44-1.png 778w" alt="" width="778" height="442" />
     </div>
-  </div>
-</div></figure>
+
 
  [1]: https://en.wikipedia.org/wiki/Stanedge_Pole
  [2]: https://blog.iannelson.uk/stanage-edge-with-my-mum/

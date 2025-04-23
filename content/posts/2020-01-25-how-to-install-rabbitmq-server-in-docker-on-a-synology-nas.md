@@ -59,7 +59,7 @@ I also suggest creating a blank RabbitMQ config file – rabbitmq.conf – and m
   <figure class="aligncenter"><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_20-56-21.png"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_20-56-21.png" alt="" /></a></figure>
 </div>
 
-RabbitMQ with the management plugin enabled uses ports 4369, 5671, 5672, 15671, 15672 and 25672. There’s a low probability of these ports already being in use by other applications on the NAS, so map those container ports to the same local ports.<figure class="wp-block-image size-large">
+RabbitMQ with the management plugin enabled uses ports 4369, 5671, 5672, 15671, 15672 and 25672. There’s a low probability of these ports already being in use by other applications on the NAS, so map those container ports to the same local ports.
 
 [<img loading="lazy" decoding="async" width="1024" height="862" src="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2020-01-13_20-57-55-1024x862.png" alt="" class="wp-image-8147" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2020-01-13_20-57-55-1024x862.png 1024w, https://blogstouks01.z33.web.core.windows.net/2023/08/1_2020-01-13_20-57-55-300x252.png 300w, https://blogstouks01.z33.web.core.windows.net/2023/08/1_2020-01-13_20-57-55-768x646.png 768w, https://blogstouks01.z33.web.core.windows.net/2023/08/1_2020-01-13_20-57-55.png 1181w" sizes="auto, (max-width: 1024px) 100vw, 1024px" />][4]</figure> 
 

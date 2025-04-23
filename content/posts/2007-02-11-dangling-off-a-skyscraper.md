@@ -19,26 +19,11 @@ The Big Shot, at 329m high is the highest ride in the world.  This is essential
 
 X-Scream, at 264m high is the third highest ride in the world.  This is basically a glorified bench that dangles off the edge of the building, and it is one of the scariest things I’ve ever experienced!  From inside the building Jocelyn captured the video below – turn up the volume to hear some Aussie tourists laughing at my predicament!<figure class="kg-card kg-embed-card"></figure> 
 
-Insanity, at 274m high is the second highest ride in the world.  According to Wikipedia, “it dangles riders over the edge of the tower and then spins in a circular pattern at approximately forty miles per hour”.  This was also pretty scary, though the constant circular motion made it less terrifying than the X-Scream (with its stop-start “aha, you thought you were going to continue falling for another 100+ storeys” shenanigans).  Here’s a video of me on the Insanity – can’t think why I’m the only partipant&#8230;<figure class="kg-card kg-embed-card"></figure> <figure class="kg-card kg-gallery-card kg-width-wide"> 
+Insanity, at 274m high is the second highest ride in the world.  According to Wikipedia, “it dangles riders over the edge of the tower and then spins in a circular pattern at approximately forty miles per hour”.  This was also pretty scary, though the constant circular motion made it less terrifying than the X-Scream (with its stop-start “aha, you thought you were going to continue falling for another 100+ storeys” shenanigans).  Here’s a video of me on the Insanity – can’t think why I’m the only partipant&#8230;<figure class="kg-card kg-embed-card"></figure> 
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_4371.jpg)
+    
+    ![](https://blogstouks01.z33.web.core.windows.net/2007/02/IMG_4374-1.JPG)
 
-<div class="kg-gallery-container">
-  <div class="kg-gallery-row">
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_4371.jpg" width="1600" height="1200" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_4371.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_4371.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_4371.jpg 1600w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_4379.jpg)
     
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2007/02/IMG_4374-1.JPG" width="1600" height="1200" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_4374-1.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_4374-1.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2007/02/IMG_4374-1.JPG 1600w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
-  </div>
-  
-  <div class="kg-gallery-row">
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_4379.jpg" width="1600" height="1200" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_4379.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_4379.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_4379.jpg 1600w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
-    
-    <div class="kg-gallery-image">
-      <img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_4381.jpg" width="1600" height="1200" loading="lazy" alt srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_4381.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_4381.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_4381.jpg 1600w" sizes="auto, (min-width: 720px) 720px" />
-    </div>
-  </div>
-</div></figure>
+    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_4381.jpg)

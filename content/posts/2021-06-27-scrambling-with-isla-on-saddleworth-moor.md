@@ -17,10 +17,7 @@ So, looking for something more interesting for our next Dad and Daughter trip in
 
 Starting at a lay-by high on Saddleworth Moor, we dropped down into Rimmon Pit Clough, before scrambling up again to the Raven Stones and The Trinnacle.
 
-The route back to the road was mostly a gradual climb across open moorland – tiring work for middle-aged legs that made the overall walk feel much longer than its eight kilometres!<figure class="kg-card kg-gallery-card kg-width-wide"> 
-
-<div class="kg-gallery-container">
-  <div class="kg-gallery-row">
+The route back to the road was mostly a gradual climb across open moorland – tiring work for middle-aged legs that made the overall walk feel much longer than its eight kilometres!
     <div class="kg-gallery-image">
       <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/271645_IMG_2878.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_271645_IMG_2878.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_271645_IMG_2878.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_271645_IMG_2878.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_271645_IMG_2878.jpg 2400w" alt="" width="2000" height="1500" />
     </div>
@@ -32,9 +29,7 @@ The route back to the road was mostly a gradual climb across open moorland – t
     <div class="kg-gallery-image">
       <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/271645_IMG_2880.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_271645_IMG_2880.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_271645_IMG_2880.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_271645_IMG_2880.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_271645_IMG_2880.jpg 2400w" alt="" width="2000" height="2667" />
     </div>
-  </div>
-  
-  <div class="kg-gallery-row">
+
     <div class="kg-gallery-image">
       <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/271645_IMG_2881.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_271645_IMG_2881.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_271645_IMG_2881.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_271645_IMG_2881.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_271645_IMG_2881.jpg 2400w" alt="" width="2000" height="1500" />
     </div>
@@ -46,9 +41,7 @@ The route back to the road was mostly a gradual climb across open moorland – t
     <div class="kg-gallery-image">
       <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/271646_IMG_2887.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_271646_IMG_2887.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_271646_IMG_2887.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_271646_IMG_2887.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_271646_IMG_2887.jpg 2400w" alt="" width="2000" height="1500" />
     </div>
-  </div>
-  
-  <div class="kg-gallery-row">
+
     <div class="kg-gallery-image">
       <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/271646_IMG_2891.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_271646_IMG_2891.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_271646_IMG_2891.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_271646_IMG_2891.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_271646_IMG_2891.jpg 2400w" alt="" width="2000" height="1500" />
     </div>
@@ -60,8 +53,7 @@ The route back to the road was mostly a gradual climb across open moorland – t
     <div class="kg-gallery-image">
       <img loading="lazy" decoding="async" class="aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/271646_IMG_2895.jpg" sizes="auto, (min-width: 720px) 720px" srcset="https://blogstouks01.z33.web.core.windows.net/2023/08/1_271646_IMG_2895.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_271646_IMG_2895.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_271646_IMG_2895.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_271646_IMG_2895.jpg 2400w" alt="" width="2000" height="2667" />
     </div>
-  </div>
-</div></figure> <figure class="kg-card kg-image-card">
+<figure class="kg-card kg-image-card">
 
 <img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/271652_IMG_0026.png" alt="" /> </figure>
 
