@@ -38,8 +38,6 @@ params:
       url: 'https://stackoverflow.com/users/2084/ian-nelson'
     - name: 'email'
       url: 'mailto:ian@iannelson.uk'
-    - name: 'cv'
-      url: 'https://files.iannelson.uk/iannelson.pdf'
     - name: 'rss'
       url: 'https://blog.iannelson.uk/index.xml'
 
