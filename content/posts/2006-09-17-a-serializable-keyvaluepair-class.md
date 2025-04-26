@@ -16,7 +16,7 @@ Well, this all seemed to go to plan, and worked just fine within my app. But whe
 
 A little Googling turned up [this blog entry][2], which explains that the Key and Value properties on the KeyValuePair class are both read-only, and by design the XmlSerializer will not serialize properties that don’t have a set accessor!
 
-Damned if that little matter was going to stop me, I whipped out my copy of Lutz Roeder’s reflector to reverse engineer the KeyValuePair class (to be honest, I could have guessed most of it), and added a <span style="font-style: italic;">private</span> set accessor to both properties, thus persuading the XmlSerializer to, well, do some serializing 🙂
+Damned if that little matter was going to stop me, I whipped out my copy of Lutz Roeder’s reflector to reverse engineer the KeyValuePair class (to be honest, I could have guessed most of it), and added a _private_ set accessor to both properties, thus persuading the XmlSerializer to, well, do some serializing 🙂
 
 Here’s the code for this new class:
 

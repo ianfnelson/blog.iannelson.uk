@@ -20,7 +20,7 @@ It was great to hear some war stories, and learn about technologies, tools, meth
 
   * **[MVC Framework][4]** &ndash; like myself, a lot of the attendees have had enough of the WebForms model, and are excited about the potential of ASP.NET MVC.
   * **[Fluent NHibernate][5]** &ndash; it sounds like the project being feverishly worked on by [James Gregory][6] et al is ready for prime time. People spoke very positively of the ability to ditch XML HBM files in favour of this strongly-typed configuration.
-  * **[Balsamiq Mockups][7]** &ndash; loved by everyone, even despite (or should that be because of?) its use of <font face="Comic Sans MS">Comic Sans MS</font>!
+  * **[Balsamiq Mockups][7]** &ndash; loved by everyone, even despite (or should that be because of?) its use of Comic Sans MS!
   * **Inversion of Control** &ndash; there was a wide mix of IoC containers being used. I&rsquo;ve tried [Castle Windsor][8], other people made positive murmurings about [Unity][9] and [StructureMap][10].
   * **[TypeMock Isolator][11]** &ndash; apparently capable of mocking the unmockable.
   * **[Sketching User Experiences][12]** &ndash; everyone who&rsquo;d heard of him spoke highly of Bill Buxton&rsquo;s work.
