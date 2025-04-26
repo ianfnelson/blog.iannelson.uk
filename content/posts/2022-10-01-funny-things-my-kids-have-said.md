@@ -241,7 +241,7 @@ _June 2012_
 
 ---
 
-![August 2012](https://blogstouks01.z33.web.core.windows.net/2023/08/415379_10151137523575708_979572353_o_10151137523575708.jp)
+![August 2012](https://blogstouks01.z33.web.core.windows.net/2023/08/415379_10151137523575708_979572353_o_10151137523575708.jpg)
 
 ---
 
