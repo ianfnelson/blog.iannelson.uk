@@ -1,7 +1,6 @@
 ---
 title: Testimonials
 type: page
-date: 2020-02-14T20:06:54+00:00
 ShowDate: false
 cover: 
   image: https://blogstouks01.z33.web.core.windows.net/2020/02/photo-1472289065668-ce650ac443d2.jpg
