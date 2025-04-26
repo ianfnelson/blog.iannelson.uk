@@ -6,7 +6,7 @@
     <description>Recent content in Work on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Apr 2025 21:18:19 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 26 Apr 2025 22:03:15 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/categories/work/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>In Search of My Next Challenge</title>
@@ -16,37 +16,37 @@
       <description>&lt;p&gt;Folks, this is your lucky day — Ian Nelson is back on the market.&lt;/p&gt;
 &lt;p&gt;After an unprecedented &lt;em&gt;five years&lt;/em&gt; working the same gig, I will be available for shiny new contract roles from February 2023 &lt;em&gt;(edit: now April 2023, thanks to a short extension)&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://files.iannelson.uk/iannelson.pdf&#34;&gt;Download my CV here&lt;/a&gt;. Email me at &lt;a href=&#34;mailto:ian@iannelson.uk&#34;&gt;ian@iannelson.uk&lt;/a&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;what-ive-been-doing-recently.wp-block-heading&#34;&gt;What I’ve Been Doing Recently&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Portrait image of a handsome software architect, standing outdoors and wearing a purple shirt&#34; loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_0254-1.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;what-ive-been-doing-recently&#34;&gt;What I’ve Been Doing Recently&lt;/h2&gt;
 &lt;p&gt;Since March 2018 I’ve been a Technical Lead for the &lt;a href=&#34;https://www.nhs.uk/nhs-app/&#34;&gt;NHS App&lt;/a&gt;, an England-wide way to access a range of NHS services via smartphone, tablet, and desktop web browser. It has been an amazing project to be a part of, and I’ve loved working in an open, collaborative, and agile delivery environment alongside a bunch of clever people from NHS Digital, Kainos, and BJSS.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Folks, this is your lucky day — Ian Nelson is back on the market.</p>
 <p>After an unprecedented <em>five years</em> working the same gig, I will be available for shiny new contract roles from February 2023 <em>(edit: now April 2023, thanks to a short extension)</em>.</p>
 <p><a href="https://files.iannelson.uk/iannelson.pdf">Download my CV here</a>. Email me at <a href="mailto:ian@iannelson.uk">ian@iannelson.uk</a></p>
-<!-- raw HTML omitted -->
-<h2 id="what-ive-been-doing-recently.wp-block-heading">What I’ve Been Doing Recently</h2>
+<p><img alt="Portrait image of a handsome software architect, standing outdoors and wearing a purple shirt" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_0254-1.jpg"></p>
+<h2 id="what-ive-been-doing-recently">What I’ve Been Doing Recently</h2>
 <p>Since March 2018 I’ve been a Technical Lead for the <a href="https://www.nhs.uk/nhs-app/">NHS App</a>, an England-wide way to access a range of NHS services via smartphone, tablet, and desktop web browser. It has been an amazing project to be a part of, and I’ve loved working in an open, collaborative, and agile delivery environment alongside a bunch of clever people from NHS Digital, Kainos, and BJSS.</p>
 <p>I’ve led an ever-changing, multi-disciplinary team through over 120 fortnightly sprints — a period that saw the App’s user base grow from nothing to over thirty million users, and become the most downloaded app in the App Store during the COVID-19 pandemic years.</p>
 <p>I’ve led the design and development of the App’s notification and messaging capability, which allows the secure and sub second delivery of health-related communications from NHS organisations to patient’s mobile devices, replacing more costly communication methods such as SMS or mail.</p>
 <p>In case it’s not obvious, I’m pretty proud of what we’ve achieved on the NHS App over the past five years, and could write much more. But I’ll save that for a future blog post and return to the sales pitch…</p>
-<h2 id="what-i-do-generally.wp-block-heading">What I Do Generally</h2>
+<h2 id="what-i-do-generally">What I Do Generally</h2>
 <p>I am a hands-on Technical Architect / Technical Lead. I draw boxes and arrows on (real and virtual) whiteboards, and talk about those designs with teams, allowing us to collaboratively bring maintainable, performant and scalable solutions into existence.</p>
 <p>I am detail-oriented and still a developer at heart. I like to stay close to the codebase. I am not an <a href="https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/">Architecture Astronaut</a>. I prefer developing backend code to frontend. I am comfortable taking ownership of systems and communicating with people at all levels of an organisation.</p>
-<h2 id="the-technology-i-use.wp-block-heading">The Technology I Use</h2>
+<h2 id="the-technology-i-use">The Technology I Use</h2>
 <p>I have over 20 years’ experience of C# and .NET development, from the betas through to C#10 and .NET Core 6.0 (but I still have to occasionally Google how to properly implement the IDisposable pattern).</p>
 <p>I have been working with Azure products for, gosh, it must be over a decade now. I have spent significant time wrangling with App Services, Function Apps, Cosmos DB (Mongo and (No)SQL), Event Hubs, SQL Database, Kubernetes Service and Service Bus. I have found and reported a bug to the Notification Hub product team, and been mailed a t-shirt by the Cognitive Search team in response to my feedback.</p>
 <p>I favour distributed architectures that are loosely-connected by messaging patterns and RESTful APIs. I am vaguely suspicious of the rush towards Microservices. I am a bit disappointed that the end of the relational database hegemony means that I no longer get to use my SQL skills on a daily basis, but have replaced this with a new-found admiration for Splunk queries.</p>
-<h2 id="how-i-work.wp-block-heading">How I Work</h2>
+<h2 id="how-i-work">How I Work</h2>
 <p>I prefer to code in the open and work in the open. I favour public Slack channels over DMs. I appreciate the DevOps culture where all members of the team are empowered to make changes to a collective codebase. I think infrastructure as code is one of the game-changing trends of the last decade.</p>
 <p>I still quite like Test-Driven Development, but am learning to be more pragmatic about when it is applied, and when to use chunkier integration tests.</p>
 <p>I am a Microsoft Registered Partner, but do all my work on a MacBook.</p>
 <p>I care very much about the quality of the solutions that I help to create, but I try to inject levity and humour into the working day, and do not take myself too seriously.</p>
 <p>I like to break up lengthy blog posts with photos of my dog.</p>
-<!-- raw HTML omitted -->
-<h2 id="more-randomness.wp-block-heading">More Randomness</h2>
+<p><img alt="Sadie dog needs kibble. Please hire Ian. Woof!" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_0221.jpg"></p>
+<h2 id="more-randomness">More Randomness</h2>
 <p>My favourite software books of all time include <em><a href="https://amzn.to/3XqhrLr">Working Effectively with Legacy Code</a>, <a href="https://amzn.to/3ZE8zDV">Domain-Driven Design</a>,</em> and <em><a href="https://amzn.to/3QzeaqW">Release It</a>!</em></p>
 <p>My favourite GoF design patterns are Visitor and Chain of Responsibility.</p>
 <p>Some people that I’ve worked with have written nice things about me, and I didn’t even have to pay them. You can read a collection of these endorsements on my <a href="https://blog.iannelson.uk/testimonials/">testimonials page</a>.</p>
-<h2 id="sound-good.wp-block-heading">Sound Good?</h2>
+<h2 id="sound-good">Sound Good?</h2>
 <p>I hope you’ve enjoyed reading these insights into my psyche and skills. If you’d like to know more, or think that I might be able to help you, then let’s talk. You can <a href="https://files.iannelson.uk/iannelson.pdf">download my CV here</a>, and email me at <a href="mailto:ian@iannelson.uk">ian@iannelson.uk</a>.</p>
 ]]></content:encoded>
     </item>
@@ -60,14 +60,14 @@
       <content:encoded><![CDATA[<p>As a lowly <em>sellsword</em> amongst the ensemble cast that make up the incestuous York/Leeds IT scene, I am not usually one to be influenced by the promise of titles and honours.</p>
 <p>Time was, long ago, in my first graduate job, that I yearned for a promotion from “Solution Developer” to “Development Specialist”. Now I give little consideration to what I’m called, and sell my services on the basis of what I can <em>do</em>, and the value I can bring to a project and an organisation.</p>
 <p>So, imagine my surprise when I recently returned to my desk at a client site to find the certificate below resting on my keyboard. It seems my highborn masters had seen fit to dub me (with tongue firmly in cheek, I presume), as their “Star of the Week”!</p>
-<!-- raw HTML omitted -->
+<p><img alt="Star Of The Week Certificate" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/StarOfTheWeek.jpg"></p>
 <p>What had I done to deserve this honour?</p>
 <p>The client had an existing solution to generate an XML feed summarising the information held within a database. Unfortunately this process was slow – it took around 45 seconds – and even though the output was aggressively cached, this was still causing a problem.</p>
 <p>I actually enjoy occasionally tackling problems like this, where there is an existing solution that meets all functional requirements and my task is simply to improve some nonfunctional requirement – make it faster, make it more maintainable, make it scalable, update the technology stack, etc. The goal is much clearer when you have a reference solution to mimic than when starting with a blank page and having to tease out acceptance criteria from fickle humans!</p>
 <p>Unsurprisingly, some baseline profiling revealed that the problems lay in the data access layer, and with the help of Hibernating Rhino’s <a href="http://www.hibernatingrhinos.com/products/efprof">Entity Framework Profiler</a>, I was able to determine that over 35,000 separate database calls were being issued to create a file of a few megabytes.</p>
 <p>This was possible because the data access was performed through a series of helper classes that wrapped the EF context and exposed mapped models. While this simplified the data access for most use cases, and helped to encapsulate low-level validation, it was a hindrance for any kind of aggregation or reporting requirement. Essentially the problem boiled down to the <em>SELECT N+1</em> problem on steroids, with a large portion of the object graph steadily loaded into memory.</p>
 <p>Wrapping isn’t always a helpful approach…</p>
-<!-- raw HTML omitted -->
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000033567536Small.jpg"></p>
 <p>The answer, having first defined some automated integration tests based on the existing solution, was to avoid using the helpful wrapper/mapper classes and instead write some bespoke EF queries against the underlying data context. I tried to strike a balance between making as few queries as possible without becoming unmaintainable or requiring too many joins. And each query, rather than returning the entire entity, instead projected only the required properties into some anonymous types. A little in-memory post-processing then turned these projections into the desired output format.</p>
 <p>The end result? A process that originally made over 35,000 database queries and took 45 seconds was reduced to one that required just 7 queries and completed in around 0.45 seconds. Nice.</p>
 ]]></content:encoded>

@@ -6,7 +6,7 @@
     <description>Recent content in Tech on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Apr 2025 21:46:40 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 26 Apr 2025 22:03:15 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NDC Porto 2024</title>
@@ -233,31 +233,31 @@ There was a good mixture of hard technical advice (how to handle versioning, aut
 <p>— Stonecutter’s creed</p></blockquote>
 <p>Consider for a moment, if you will, the humble Boolean. Taking only two possible values, it is the most basic of all the data types we programmers use, and its existence is fundamental to all the code we write. At the end of the day, when all is said and done, everything we do is just a big bunch of ones and zeroes.</p>
 <p>I assert that this warm familiarity often causes us to make use of booleans when we really shouldn’t. In particular, I want to call out two specific uses of the boolean which I now consider to be anti-patterns and avoid wherever possible:</p>
-<h2 id="antipattern-1-methods-that-take-boolean-flag-parameters">Antipattern 1 – Methods that take boolean flag parameters</h2>
+<h2 id="antipattern-1--methods-that-take-boolean-flag-parameters">Antipattern 1 – Methods that take boolean flag parameters</h2>
 <p>We spend more time reading and interpreting code than we spend actually writing it. That line of code you’re absent-mindedly knocking out today will probably be read dozens of times by your colleagues and future developers. It behoves you to make your intentions as clear as possible at every opportunity. Ambiguity in code is a truly terrible thing. Don’t impede understanding of your intentions by using boolean parameters that at worst force the reader to navigate to the definition of the method being invoked, or at best require them to hover their mouse over the bool parameter to glimpse some intellisense insight.</p>
 <p>An example – let’s take a look at a line of code which uses the NHibernate hbm2ddl tool to export the database schema:</p>
-<!-- raw HTML omitted -->
+<p><code>new SchemaExport(cfg).Execute(false, true, false);</code></p>
 <p>Quick – what do those trio of booleans do? It’s not remotely obvious and we are forced to consult the docs. How much nicer it would be if the API developers had opted instead to use a flags enumeration, similar to the RegexOptions enumeration in the System.Text.RegularExpressions namespace:</p>
-<!-- raw HTML omitted -->
+<p><code>var regex = new Regex(@&quot;^file://&quot;, RegexOptions.Compiled | RegexOptions.IgnoreCase);</code></p>
 <p>More often, I encounter boolean parameters in the wild where a developer has been charged with enhancing an existing method to behave slightly differently in some particular circumstance, leading to method calls along the lines of:</p>
-<!-- raw HTML omitted -->
+<p><code>var user = CreateUser(email, password, true);</code></p>
 <p>What does the final parameter do? Again we have to rely on intellisense or navigating to the source. It’s too easy to add the boolean parameter and slow down everyone who follows in our wake. We should take the time to implement the correct solution, whether that be as simple as a separate method with a more specific name, or a polymorphic family of suitably-named classes that implement the same interface. This kind of boolean parameter, quick as it is to add, not only slows us down but is often symptomatic of a deeper flaw in the class design.</p>
 <p>Don’t even get me started on the optional parameters introduced in C# 4.0. It’s all too easy to invoke methods without noticing the existence of optional parameters with surprising defaults which can cause unexpected consequences. A sprinkling of syntactic sugar that can act as a catalyst for code decay.</p>
 <blockquote>
 <p>“Flag arguments are ugly. Passing a boolean into a function is a truly terrible practice. It immediately complicates the signature of the method, loudly proclaiming that this function does more than one thing. It does one thing if the flag is true and another if the flag is false!”</p>
 <p>— Robert C. Martin, <a href="http://amzn.to/1lPJsXv">Clean Code</a></p></blockquote>
 <p>As with many design principles, the visibility of the method is key in how problematic this code smell becomes. A boolean parameter on a private method, while a potential candidate for refactoring at a suitable time, is not the end of the world. But a boolean parameter on a public method, perhaps a member on a public interface, is a more pressing problem. Think very carefully before adding a boolean parameter to a method on a public API or other service boundary.</p>
-<h2 id="antipattern-2-methods-that-unnecessarily-return-booleans">Antipattern 2 – Methods that (unnecessarily) return booleans</h2>
+<h2 id="antipattern-2--methods-that-unnecessarily-return-booleans">Antipattern 2 – Methods that (unnecessarily) return booleans</h2>
 <p>OK, so I’ve explained that I don’t much like methods that take boolean parameters. What about methods that return them?</p>
 <p>Well, I am an advocate of <a href="http://en.wikipedia.org/wiki/Command%E2%80%93query_separation">Command-Query Separation</a>. Generally, if a method returns a bool I’m going to assume that it’s free of side effects and is answering a query, like this:</p>
-<!-- raw HTML omitted -->
+<p><code>bool canOrder = CanPlaceOrder(customer, order);</code></p>
 <p>Conversely, when methods actually <em>do</em> stuff (i.e. commands), I wouldn’t expect them to return anything at all, least of all a boolean.</p>
 <p>OK, a couple of notable exceptions to this rule. I can just about cope with create/update methods returning an instance of the entity that has been saved, thus:</p>
-<!-- raw HTML omitted -->
+<p><code>var user = CreateUser(email, password);</code></p>
 <p>and I admit to having a soft spot for the TryParse pattern where we expect the happy path to succeed on most occasions:</p>
-<!-- raw HTML omitted -->
+<p><code>if (int.TryParse(value, out accountId)) { ... }</code></p>
 <p>but booleans returned from methods that perform commands? Well that’s just pointless and confusing. Consider the method signature:</p>
-<!-- raw HTML omitted -->
+<p><code>public bool CreateUser(string email, string password)</code></p>
 <p>Why return a bool? What does it mean? That the method call was successful? Then why bother mentioning it?<br>
 If there is a problem of some kind (say, a user already exists with the specified email address), then throw a suitable exception with the necessary detail that I can choose to catch, log or allow to bubble up as I see fit. By returning a boolean, consumers of the method now need to both catch exceptions <em>and</em> inspect the return value (and what action would be appropriate anyway when faced with a context-free “false” return value?)</p>
 <p>Command methods that return booleans feel like insecure children who need to boast of their every achievement. <strong>It’s OK to return void.</strong> Nobody will think any the less of you for simply doing what was asked and keeping quiet. Unix commands have been silently going about their business for years, and I feel that is an ethos that we developers should try to emulate. The era of the contrived return value that has to be dissected for meaning is long gone. Doing what was asked if possible, else throwing an appropriate exception is the twenty-first century way.</p>
@@ -273,14 +273,14 @@ If there is a problem of some kind (say, a user already exists with the specifie
       <content:encoded><![CDATA[<p>As a lowly <em>sellsword</em> amongst the ensemble cast that make up the incestuous York/Leeds IT scene, I am not usually one to be influenced by the promise of titles and honours.</p>
 <p>Time was, long ago, in my first graduate job, that I yearned for a promotion from “Solution Developer” to “Development Specialist”. Now I give little consideration to what I’m called, and sell my services on the basis of what I can <em>do</em>, and the value I can bring to a project and an organisation.</p>
 <p>So, imagine my surprise when I recently returned to my desk at a client site to find the certificate below resting on my keyboard. It seems my highborn masters had seen fit to dub me (with tongue firmly in cheek, I presume), as their “Star of the Week”!</p>
-<!-- raw HTML omitted -->
+<p><img alt="Star Of The Week Certificate" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/StarOfTheWeek.jpg"></p>
 <p>What had I done to deserve this honour?</p>
 <p>The client had an existing solution to generate an XML feed summarising the information held within a database. Unfortunately this process was slow – it took around 45 seconds – and even though the output was aggressively cached, this was still causing a problem.</p>
 <p>I actually enjoy occasionally tackling problems like this, where there is an existing solution that meets all functional requirements and my task is simply to improve some nonfunctional requirement – make it faster, make it more maintainable, make it scalable, update the technology stack, etc. The goal is much clearer when you have a reference solution to mimic than when starting with a blank page and having to tease out acceptance criteria from fickle humans!</p>
 <p>Unsurprisingly, some baseline profiling revealed that the problems lay in the data access layer, and with the help of Hibernating Rhino’s <a href="http://www.hibernatingrhinos.com/products/efprof">Entity Framework Profiler</a>, I was able to determine that over 35,000 separate database calls were being issued to create a file of a few megabytes.</p>
 <p>This was possible because the data access was performed through a series of helper classes that wrapped the EF context and exposed mapped models. While this simplified the data access for most use cases, and helped to encapsulate low-level validation, it was a hindrance for any kind of aggregation or reporting requirement. Essentially the problem boiled down to the <em>SELECT N+1</em> problem on steroids, with a large portion of the object graph steadily loaded into memory.</p>
 <p>Wrapping isn’t always a helpful approach…</p>
-<!-- raw HTML omitted -->
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000033567536Small.jpg"></p>
 <p>The answer, having first defined some automated integration tests based on the existing solution, was to avoid using the helpful wrapper/mapper classes and instead write some bespoke EF queries against the underlying data context. I tried to strike a balance between making as few queries as possible without becoming unmaintainable or requiring too many joins. And each query, rather than returning the entire entity, instead projected only the required properties into some anonymous types. A little in-memory post-processing then turned these projections into the desired output format.</p>
 <p>The end result? A process that originally made over 35,000 database queries and took 45 seconds was reduced to one that required just 7 queries and completed in around 0.45 seconds. Nice.</p>
 ]]></content:encoded>
