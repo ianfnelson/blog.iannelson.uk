@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 26 Apr 2025 22:07:20 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 26 Apr 2025 22:25:42 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Who Reigns Supreme? Parsing Our WhatsApp Chat for Wordle Glory</title>
@@ -2689,7 +2689,7 @@ tle doubt. I didn’t share these timings with Jocelyn, but I’m sure she was w
 <ul>
 <li><strong><a href="http://www.asp.net/mvc/">MVC Framework</a></strong> – like myself, a lot of the attendees have had enough of the WebForms model, and are excited about the potential of ASP.NET MVC.</li>
 <li><strong><a href="http://fluentnhibernate.org/">Fluent NHibernate</a></strong> – it sounds like the project being feverishly worked on by <a href="http://blog.jagregory.com/">James Gregory</a> et al is ready for prime time. People spoke very positively of the ability to ditch XML HBM files in favour of this strongly-typed configuration.</li>
-<li><strong><a href="http://www.balsamiq.com/">Balsamiq Mockups</a></strong> – loved by everyone, even despite (or should that be because of?) its use of <!-- raw HTML omitted -->Comic Sans MS<!-- raw HTML omitted -->!</li>
+<li><strong><a href="http://www.balsamiq.com/">Balsamiq Mockups</a></strong> – loved by everyone, even despite (or should that be because of?) its use of Comic Sans MS!</li>
 <li><strong>Inversion of Control</strong> – there was a wide mix of IoC containers being used. I’ve tried <a href="http://www.castleproject.org/container/index.html">Castle Windsor</a>, other people made positive murmurings about <a href="http://msdn.microsoft.com/en-us/library/cc468366.aspx">Unity</a> and <a href="http://structuremap.sourceforge.net/Default.htm">StructureMap</a>.</li>
 <li><strong><a href="http://www.typemock.com">TypeMock Isolator</a></strong> – apparently capable of mocking the unmockable.</li>
 <li><strong><a href="http://www.amazon.co.uk/gp/product/0123740371?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0123740371">Sketching User Experiences</a></strong> – everyone who’d heard of him spoke highly of Bill Buxton’s work.</li>
@@ -3545,7 +3545,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <content:encoded><![CDATA[<p>Having accepted that <a href="http://www.hanselman.com/blog/ReturningDataSetsFromWebServicesIsTheSpawnOfSatanAndRepresentsAllThatIsTrulyEvilInTheWorld.aspx">Returning DataSets from WebServices is the Spawn of Satan and Represents All That Is Truly Evil in the World</a> (or at least, not exactly best practice), I’ve been trying to make a conscious effort to instead use lightweight custom objects in my middle tier, to be exposed via web services for use by other applications. I felt sure that some of the new Generic classes in the .NET 2.0 FCL would help me in my quest. Specifically, as I often need to expose simple arrays of Key/Value Pair metadata, I planned to create an instance of the  System.Collections.ObjectModel.Collection class, containing a bunch of System.Collections.Generic.KeyValuePair objects. </p>
 <p>Well, this all seemed to go to plan, and worked just fine within my app. But when I exposed the method as a web service, I discovered that neither the Key nor the Value properties were serialized – I was left to consume a lovely generic collection of objects with no members – not a whole lot of use.</p>
 <p>A little Googling turned up <a href="http://blogs.msdn.com/seshadripv/archive/2005/11/02/488273.aspx">this blog entry</a>, which explains that the Key and Value properties on the KeyValuePair class are both read-only, and by design the XmlSerializer will not serialize properties that don’t have a set accessor!</p>
-<p>Damned if that little matter was going to stop me, I whipped out my copy of Lutz Roeder’s reflector to reverse engineer the KeyValuePair class (to be honest, I could have guessed most of it), and added a <!-- raw HTML omitted -->private<!-- raw HTML omitted --> set accessor to both properties, thus persuading the XmlSerializer to, well, do some serializing 🙂</p>
+<p>Damned if that little matter was going to stop me, I whipped out my copy of Lutz Roeder’s reflector to reverse engineer the KeyValuePair class (to be honest, I could have guessed most of it), and added a <em>private</em> set accessor to both properties, thus persuading the XmlSerializer to, well, do some serializing 🙂</p>
 <p>Here’s the code for this new class:</p>
 <p>Having done that, to add a little clarity when using this class in the way I anticipate and eliminate repeated code, I decided to create some specific versions of the Collection, ReadOnlyCollection and KeyedCollection classes:</p>
 <p>&lt;!&gt;</p>
