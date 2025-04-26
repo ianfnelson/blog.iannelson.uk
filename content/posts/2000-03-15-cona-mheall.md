@@ -1,6 +1,5 @@
 ---
 title: "Cona' Mheall"
-
 date: 2000-03-15T18:00:00+00:00
 url: /cona-mheall/
 cover: 

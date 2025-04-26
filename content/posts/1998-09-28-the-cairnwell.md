@@ -6,6 +6,10 @@ cover:
   image: https://blogstouks01.z33.web.core.windows.net/1998/09/2013_03_04_22_22_50-1.jpg
 categories:
   - Hills
+tags:
+  - Scotland
+  - Hills
+  - Munros
 
 ---
 Does anybody else think Savage Garden sound like Spandau Ballet?  Sorry, just had to get that off my chest&#8230;<figure class="kg-card kg-image-card">
