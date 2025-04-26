@@ -36,7 +36,7 @@ Reader, it did not.
 
 Despite my best efforts, I only just managed to sneak into second place. Predictably, my mother reigned supreme, crushing us all with an average score of&nbsp;**4.055**&nbsp;and a mean difference from the family average of&nbsp;**-0.128**. This consistency made her our undisputed&nbsp;**Wordle Family Champion of 2024**.
 
-![](https://blogstouks01.z33.web.core.windows.net/2024/12/7DD41AB4-B664-4276-B1A1-3E9EA0F0DFB7-1.jpeg)
+![Nelson Family Wordle Champion 2024](https://blogstouks01.z33.web.core.windows.net/2024/12/7DD41AB4-B664-4276-B1A1-3E9EA0F0DFB7-1.jpeg)
 
  [1]: https://blog.iannelson.uk/the-best-wordle-starter-words/
  [2]: https://github.com/ianfnelson/WordleParser

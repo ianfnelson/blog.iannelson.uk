@@ -1,6 +1,5 @@
 ---
 title: Funny Things My Kids Have Said – A Compilation 2010-2018
-
 date: 2022-10-01T20:46:24+00:00
 excerpt: A collection of some of the cute and funny things our three children came out with when they were younger.
 url: /funny-things-my-kids-have-said/
@@ -60,8 +59,7 @@ Ben: “Yes, Dad. I was just walking along the road, wasn’t I? I saw you and t
 _November 2010_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/53555_496221560707_6115478_o_496221560707.jpg" alt="" /> <figcaption class="wp-element-caption">November 2010</figcaption></figure> 
+![November 2010](https://blogstouks01.z33.web.core.windows.net/2023/08/53555_496221560707_6115478_o_496221560707.jpg)
 
 ---
 
@@ -86,8 +84,7 @@ Ben: “Am I going to Play School today?”
 _April 2011_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/219768_10150228106725708_6828365_o_10150228106725708.jpg" alt="" /> <figcaption class="wp-element-caption">Thank you Pixar. April 2011</figcaption></figure> 
+![Thank you Pixar](https://blogstouks01.z33.web.core.windows.net/2023/08/219768_10150228106725708_6828365_o_10150228106725708.jpg)
 
 ---
 
@@ -119,9 +116,11 @@ Ben: “Daddy, did you just say the world is closing?!”
 
 Poor boy thought it was the apocalypse.
 
-_July 2011_<figure class="wp-block-image">
+_July 2011_
 
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/1426703_10151999482410708_920183872_n_10151999482410708.jpg" alt="" /> <figcaption class="wp-element-caption">November 2013</figcaption></figure> 
+---
+
+![November 2013](https://blogstouks01.z33.web.core.windows.net/2023/08/1426703_10151999482410708_920183872_n_10151999482410708.jpg)
 
 ---
 
@@ -149,8 +148,8 @@ Are all four-year-old boys like this?
 _February 2011_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/65013_10152027558065708_1363386317_n_10152027558065708-1.jpg" alt="" /> <figcaption class="wp-element-caption">November 2013</figcaption></figure> 
+
+![November 2013](https://blogstouks01.z33.web.core.windows.net/2023/08/65013_10152027558065708_1363386317_n_10152027558065708-1.jpg)
 
 ---
 
@@ -195,8 +194,8 @@ Isla considered this briefly, then suggested “Play &#8216;Angry Birds’?”
 _February 2012_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/324105_10150652547600708_1375973578_o_10150652547600708.jpg" alt="" /> <figcaption class="wp-element-caption">February 2012</figcaption></figure> 
+
+![February 2012](https://blogstouks01.z33.web.core.windows.net/2023/08/324105_10150652547600708_1375973578_o_10150652547600708.jpg)
 
 ---
 
@@ -217,8 +216,8 @@ Isla’s latest suggested name for her younger brother: “Yehudi Poo Tentacle�
 _June 2012_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/475070_10150700652220708_880756091_o_10150700652220708.jpg" alt="" /> </figure> 
+
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/475070_10150700652220708_880756091_o_10150700652220708.jpg)
 
 Ben: “Hey Dad, in about three more birthdays you’ll be nearly 40”  
 Me: “That’s right Ben. It’s a bit scary really.”  
@@ -241,8 +240,8 @@ Ah, the scatalogical leanings of a three-year-old. It could be a long day.
 _June 2012_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/415379_10151137523575708_979572353_o_10151137523575708.jpg" alt="" /> <figcaption class="wp-element-caption">August 2012</figcaption></figure> 
+
+![August 2012](https://blogstouks01.z33.web.core.windows.net/2023/08/415379_10151137523575708_979572353_o_10151137523575708.jp)
 
 ---
 
@@ -264,8 +263,8 @@ Ben: “OK. For the shallow bit of the pool it’s a lady. For the unshallow bit
 _September 2012_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/326857_10151254008975708_2126850386_o_10151254008975708.jpg" alt="" /> </figure> 
+
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/326857_10151254008975708_2126850386_o_10151254008975708.jpg) 
 
 Isla: “I am not calling my brother Matthew Hengry. I am just calling him Matthew.”  
 Me: “Good, &#8216;cos his middle name is &#8216;Henry'”  
@@ -315,8 +314,8 @@ Isla: “I WANT A MISTER MUDDLE!”
 _October 2012_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/1013278_10152203987025708_729053744_n_10152203987025708.jpg" alt="" /> <figcaption class="wp-element-caption">February 2014</figcaption></figure> 
+
+![February 2014](https://blogstouks01.z33.web.core.windows.net/2023/08/1013278_10152203987025708_729053744_n_10152203987025708.jpg)
 
 ---
 
@@ -351,8 +350,8 @@ During the day today, I quizzed her as to why she shouted for me and not Jocelyn
 _January 2013_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/1508576_10152233460485708_453418958_n_10152233460485708.jpg" alt="" /> <figcaption class="wp-element-caption">March 2014</figcaption></figure> 
+
+![March 2014](https://blogstouks01.z33.web.core.windows.net/2023/08/1508576_10152233460485708_453418958_n_10152233460485708.jpg)
 
 ---
 
@@ -386,8 +385,8 @@ Isla: “Daddy, what does W-T-F spell?”
 _March 2013_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/892834_10151532720170708_1339243375_o_10151532720170708.jpg" alt="" /> <figcaption class="wp-element-caption">March 2013</figcaption></figure> 
+
+![March 2013](https://blogstouks01.z33.web.core.windows.net/2023/08/892834_10151532720170708_1339243375_o_10151532720170708.jpg)
 
 ---
 
@@ -405,8 +404,8 @@ Isla: “Thursday?”
 _May 2013_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/1622347_10152483270700708_1921323014589963624_o_10152483270700708.jpg" alt="" /> <figcaption class="wp-element-caption">June 2014</figcaption></figure> 
+
+![June 2014](https://blogstouks01.z33.web.core.windows.net/2023/08/1622347_10152483270700708_1921323014589963624_o_10152483270700708.jpg)
 
 ---
 
@@ -441,8 +440,8 @@ Isla: “No Daddy. I heard you snoring though.”
 _July 2013_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/10603303_10152747543810708_3671140052943774464_n_10152747543810708.jpg" alt="" /> <figcaption class="wp-element-caption">October 2014</figcaption></figure> 
+
+![October 2014](https://blogstouks01.z33.web.core.windows.net/2023/08/10603303_10152747543810708_3671140052943774464_n_10152747543810708.jpg)
 
 ---
 
@@ -477,8 +476,7 @@ Ben: “They thought it was epic!”
 _October 2013_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/625591_10151971487935708_562025417_n_10151971487935708.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/625591_10151971487935708_562025417_n_10151971487935708.jpg)
 
 Me: “Isla, what is your new dog called?”
 
@@ -507,8 +505,8 @@ Isla: “Like the thing you say at the end of prayers?”
 _January 2014_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/20227_10153378347995708_3031515839856052907_n_10153378347995708.jpg" alt="" /> <figcaption class="wp-element-caption">July 2015</figcaption></figure> 
+
+![July 2015](https://blogstouks01.z33.web.core.windows.net/2023/08/20227_10153378347995708_3031515839856052907_n_10153378347995708.jpg)
 
 ---
 
@@ -545,8 +543,8 @@ Hmmm&#8230;
 _March 2014_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/13227710_10154032755780708_2774998994472644971_o_10154032755780708.jpg" alt="" /> <figcaption class="wp-element-caption">May 2016</figcaption></figure> 
+
+![May 2016](https://blogstouks01.z33.web.core.windows.net/2023/08/13227710_10154032755780708_2774998994472644971_o_10154032755780708.jpg)
 
 ---
 
@@ -579,8 +577,8 @@ Jocelyn Nelson “Isla, that’s a lump of concrete..”
 _April 2014_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/10295368_10152351021260708_5731877710732039716_o_10152351021260708.jpg" alt="" /> </figure> 
+
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/10295368_10152351021260708_5731877710732039716_o_10152351021260708.jpg)
 
 Me: “Good morning Isla”  
 Isla: “Hi Daddy! I am going to have a good birthday today!”  
@@ -590,8 +588,8 @@ Isla: “Oh. Which one do I get cake on?”
 _April 2014_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/10295493_10152367586975708_3317887003908456461_o_10152367586975708.jpg" alt="" /> </figure> 
+
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/10295493_10152367586975708_3317887003908456461_o_10152367586975708.jpg)
 
 Ben’s homework – think of ten verbs and write sentences containing them.
 
@@ -620,8 +618,7 @@ Clearly a glittering future in marketing awaits.
 _June 2014_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/13735668_10154177768985708_3007357965132069923_o_10154177768985708.jpg" alt="" /> <figcaption class="wp-element-caption">July 2016</figcaption></figure> 
+![July 2016](https://blogstouks01.z33.web.core.windows.net/2023/08/13735668_10154177768985708_3007357965132069923_o_10154177768985708.jpg)
 
 ---
 
@@ -649,8 +646,7 @@ Saturday morning, 0645. It seems Matthew is slightly obsessed with the 90-second
 _August 2014_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/995635_10152574091740708_8556886903154634058_n_10152574091740708.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/995635_10152574091740708_8556886903154634058_n_10152574091740708.jpg)
 
 At home we keep a bunch of Thomas The Tank Engine track inside a large footstool. Here’s a photo of a frustrated Matthew discovering that not all footstools in the universe possess this property. “Track!!!”
 
@@ -671,8 +667,7 @@ Matthew: “YOU ARE NOT ISLA! I AM ISLA!”
 _March 2015_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/11043112_10153079109365708_4955701106772570631_o_10153079109365708.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/11043112_10153079109365708_4955701106772570631_o_10153079109365708.jpg)
 
 Ben was uncertain as to the level of formality required when signing a Mother’s Day card.
 
@@ -689,8 +684,7 @@ Matthew: “No! It a joke!! Ha ha ha!”
 _March 2015_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/17082_10153173525840708_4796151281851565154_n_10153173525840708.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/17082_10153173525840708_4796151281851565154_n_10153173525840708.jpg)
 
 Isla: “I’ve made a present for you daddy. It’s a rock, and I’ve drawn a picture of you on it.”
 
@@ -721,8 +715,7 @@ Isla: “A chicken.”
 _October 2015_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/21055019_10155426106080708_3102459011665585800_o_10155426106080708.jpg" alt="" /> <figcaption class="wp-element-caption">August 2017</figcaption></figure> 
+![August 2017](https://blogstouks01.z33.web.core.windows.net/2023/08/21055019_10155426106080708_3102459011665585800_o_10155426106080708.jpg)
 
 ---
 
@@ -748,8 +741,8 @@ Isla: “I didn’t know what ash looks like, so I’ve drawn a hedgehog instead
 _February 2016_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/12814688_10153836704310708_4116643464167679070_n_10153836704310708.jpg" alt="" /> </figure> 
+
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/12814688_10153836704310708_4116643464167679070_n_10153836704310708.jpg)
 
 My best birthday present came from Isla – a mostly-uneaten pack of spearmint Polos.
 
@@ -781,8 +774,8 @@ Isla: “Please can I smell another boiled egg?”
 _March 2016_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/22339637_10155561129940708_8225319981411500029_o_10155561129940708.jpg" alt="" /> <figcaption class="wp-element-caption">October 2017</figcaption></figure> 
+
+![October 2017](https://blogstouks01.z33.web.core.windows.net/2023/08/22339637_10155561129940708_8225319981411500029_o_10155561129940708.jpg)
 
 ---
 
@@ -805,8 +798,8 @@ Isla: “I am not a Princess. I would much rather be a Knight. Or maybe the cast
 _June 2016_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/13406746_10154081569860708_7186315449603263044_n_10154081569860708.jpg" alt="" /> </figure> 
+
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/13406746_10154081569860708_7186315449603263044_n_10154081569860708.jpg)
 
 Me: “Hey kids, who is this scarecrow?”  
 Matthew: “Uncle Patrick!”
@@ -828,16 +821,15 @@ Ben: “I dunno, you might get killed in the night or something.”
 _June 2016_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/13659094_10154154788000708_3825157681417665036_n_10154154788000708.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/13659094_10154154788000708_3825157681417665036_n_10154154788000708.jpg)
 
 Ben: “Dad, you look like a sheet of graph paper.”
 
 _July 2016_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/13701211_10154168702180708_7329744062722999417_o_10154168702180708.jpg" alt="" /> </figure> 
+
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/13701211_10154168702180708_7329744062722999417_o_10154168702180708.jpg)
 
 Me: “Can you smile?”  
 Ben: “I’m trying.”
@@ -867,8 +859,7 @@ Isla: “Wi-Fi is the most valuable thing in the world!”
 _November 2016_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/15259458_10154553672320708_341087630330676329_o_10154553672320708.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/15259458_10154553672320708_341087630330676329_o_10154553672320708.jpg)
 
 Me: “What do you want for breakfast Matthew?”  
 Matt: “Er, Crunchy Nuts! And Cheerios! Oh, and blueberry wheats!”
@@ -900,12 +891,11 @@ My procrastination as regards home improvement projects has not gone unnoticed b
 _February 2017_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/18056231_10155014662225708_2145156772790777871_o_10155014662225708.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/18056231_10155014662225708_2145156772790777871_o_10155014662225708.jpg)
 
 Things Isla has brought to lunch #1: Duct tape<figure class="wp-block-image">
 
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/18055835_10155014671785708_575121255675113957_o_10155014671785708.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/18055835_10155014671785708_575121255675113957_o_10155014671785708.jpg)
 
 Things Isla has brought to lunch #2 and #3: fingerless gloves and an invisible ink pen.
 
@@ -926,8 +916,7 @@ Matthew: “Yes. &#8216;Bare’.”
 _November 2017_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/23737627_10155653623035708_4992114295825121126_o_10155653623035708.jpg" alt="" /> <figcaption class="wp-element-caption">November 2017</figcaption></figure> 
+![November 2017](https://blogstouks01.z33.web.core.windows.net/2023/08/23737627_10155653623035708_4992114295825121126_o_10155653623035708.jpg)
 
 ---
 
@@ -957,8 +946,7 @@ Matthew: “Daddy, you look like someone who isn’t in our family.”
 _January 2018_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/44903143_10156507176005708_5212095474013569024_n_10156507175995708.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/44903143_10156507176005708_5212095474013569024_n_10156507175995708.jpg)
 
 Isla: “Why would you want to pay 50p for extra snot?”
 
@@ -971,7 +959,6 @@ Isla: “For food and friends, we give thanks. Amen. Oh, and we hope there’s i
 _November 2018_
 
 ---
-<figure class="wp-block-image">
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/37611866_10156280751495708_6812231212820594688_n_10156280751485708.jpg" alt="" /> <figcaption class="wp-element-caption">July 2018</figcaption></figure>
+![July 2018](https://blogstouks01.z33.web.core.windows.net/2023/08/37611866_10156280751495708_6812231212820594688_n_10156280751485708.jpg)
 
  [1]: https://en.wikipedia.org/wiki/News_of_the_World
