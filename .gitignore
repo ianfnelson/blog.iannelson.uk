@@ -34,3 +34,6 @@ build/
 *.swo
 *.bak
 *.tmp
+
+# Jetbrains
+.idea/
