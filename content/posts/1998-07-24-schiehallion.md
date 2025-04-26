@@ -1,13 +1,15 @@
 ---
 title: Schiehallion
-
 date: 1998-07-24T22:07:00+00:00
 url: /schiehallion/
 cover: 
   image: https://blogstouks01.z33.web.core.windows.net/1998/07/2013_03_04_22_19_24-2.jpg
-
 categories:
   - Hills
+tags:
+  - Scotland
+  - Hills
+  - Munros
 
 ---
 Travelling Northwards on a weekday when others are working is a wonderfully liberating feeling, especially when you’re heading for Scotland.  This time I was almost glad to see the signal lights on my mobile phone quietly extinguish.  The journey was pretty good – we hadn’t seen Bruce for about a year, as he’d been off seeing the world for the past nine months.  This gave us the opportunity to fill him in on nine months of pop culture, which seemed to boil down to:

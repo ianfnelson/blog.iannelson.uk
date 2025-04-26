@@ -1,13 +1,15 @@
 ---
 title: Meall a’Chrasgaidh
-
 date: 1998-04-10T21:00:00+00:00
 url: /meall-a-chrasgaidh/
 cover: 
   image: https://blogstouks01.z33.web.core.windows.net/1998/04/2013_03_04_22_19_00-7.jpg
-
 categories:
   - Hills
+tags:
+  - Scotland
+  - Hills
+  - Munros
 
 ---
 Good Friday, 10th April 1998.

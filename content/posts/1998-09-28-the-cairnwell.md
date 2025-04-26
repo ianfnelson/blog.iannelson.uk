@@ -1,11 +1,9 @@
 ---
 title: The Cairnwell
-
 date: 1998-09-28T22:10:00+00:00
 url: /the-cairnwell/
 cover: 
   image: https://blogstouks01.z33.web.core.windows.net/1998/09/2013_03_04_22_22_50-1.jpg
-
 categories:
   - Hills
 
