@@ -1,14 +1,11 @@
 ---
 title: On 64-bit TFS, Virtualization, and Conchango SCRUM
-
 date: 2009-01-23T12:01:00+00:00
 url: /on-64-bit-tfs-virtualization-and-conchango-scrum/
-
 categories:
   - Tech
 
 ---
-<!--kg-card-begin: html-->
 
 Earlier this week I picked up a hire car and headed over to deepest Cheshire to install an instance of Team Foundation Server 2008 for a client. Before setting off, I tried to make sure that all the prerequisites were in place – i.e. that there was a suitably-specced server available for use, which was connected to the domain, that all the necessary service accounts were created, and firewall ports opened, etc.
 
@@ -19,8 +16,6 @@ However, it all turned out fine in the end. There were other reasons why I didn�
 I think virtualization is a technology whose time has really come, it certainly makes it very easy to set up development environments like this one, where the number of servers required exceeds the number of physical servers available. Occasionally I come across posts on the web from people who’re trying to install, say, TFS, SQL Server, SharePoint, and Exchange all on the same server, and getting into a pickle. Don’t do it. Embrace virtualization. Developers know all about [separation of concerns][2] when designing software solutions – try the equivalent approach when configuring your development servers.
 
 As an aside – the team chose to use [Conchango’s SCRUM for Team System process template][3], which seems to work very well, and I recommend it for anyone running a project using the SCRUM methodology. Remember, TFS is process-agnostic, you’re not limited to using MSF.
-
-<!--kg-card-end: html-->
 
  [1]: http://www.microsoft.com/windowsserversystem/virtualserver/
  [2]: http://en.wikipedia.org/wiki/Separation_of_concerns

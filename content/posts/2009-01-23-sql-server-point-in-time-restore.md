@@ -8,7 +8,6 @@ categories:
   - Tech
 
 ---
-<!--kg-card-begin: html-->
 
 One of the multiple hats that I’m currently wearing for a client is that of SQL Server DBA. In this guise, I have recently fielded a couple of email queries from users concerned about the data recovery options available to them, should application data be inadvertently deleted:
 
@@ -23,7 +22,5 @@ I replied explaining that this is one of the many reasons for choosing SQL Serve
 If you have your SQL database recovery model set to Full or Bulk-Logged (and if not, why not?) then it is possible to [restore from transaction log backups to a point in time][1]. So, in a data loss scenario like those outlined in the emails above, you would take a backup of the transaction log, and restore a **new copy** of the database to a point in time just before the deletion. The missing data could then be copied from the restored copy across to the live database. Easy.
 
 Even so, just because this functionality exists doesn’t mean you should plan to use it. Flipping back to my system developer persona makes me question why the application allows users to perform non-logged hard deletes? Soft deletes would be far preferable (i.e. setting a “deleted” bit on the relevant rows). Better still are ledgering systems (like the bank statement paradigm), which handle updates and deletions by making a change entry, or entering an offsetting transaction.
-
-<!--kg-card-end: html-->
 
  [1]: http://www.microsoft.com/technet/prodtechnol/sql/2000/maintain/sqlbackuprest.mspx#ET2AE
