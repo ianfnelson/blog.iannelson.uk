@@ -10,6 +10,9 @@ cover:
 categories:
   - Family
   - Fun
+tags:
+  - Wordle
+  - Games
 
 ---
 Back in 2022, in a bid to outwit my mother in our daily Wordle battles, I wrote some C# code to explore optimal starting guesses. [You can read about that experiment here][1].

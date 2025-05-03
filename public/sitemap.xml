@@ -2,14 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.iannelson.uk/tags/amazon/</loc>
+    <lastmod>2025-05-03T15:27:39+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.iannelson.uk/tags/audible/</loc>
+    <lastmod>2025-05-03T15:27:39+01:00</lastmod>
+  </url><url>
     <loc>https://blog.iannelson.uk/categories/books/</loc>
     <lastmod>2025-05-03T22:38:20+01:00</lastmod>
   </url><url>
-    <loc>https://blog.iannelson.uk/tags/books/</loc>
-    <lastmod>2025-05-03T15:27:39+01:00</lastmod>
-  </url><url>
     <loc>https://blog.iannelson.uk/categories/</loc>
     <lastmod>2025-05-03T22:38:20+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.iannelson.uk/tags/goodreads/</loc>
+    <lastmod>2025-05-03T15:27:39+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/im-on-goodreads-now/</loc>
     <lastmod>2025-05-03T15:27:39+01:00</lastmod>
@@ -29,7 +35,13 @@
     <loc>https://blog.iannelson.uk/categories/fun/</loc>
     <lastmod>2025-05-03T22:38:20+01:00</lastmod>
   </url><url>
+    <loc>https://blog.iannelson.uk/tags/games/</loc>
+    <lastmod>2025-05-03T22:38:20+01:00</lastmod>
+  </url><url>
     <loc>https://blog.iannelson.uk/who-reigns-supreme-parsing-our-whatsapp-chat-for-wordle-glory/</loc>
+    <lastmod>2025-05-03T22:38:20+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.iannelson.uk/tags/wordle/</loc>
     <lastmod>2025-05-03T22:38:20+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/series/books-of-the-year/</loc>
@@ -486,9 +498,6 @@
     <lastmod>2025-05-03T22:38:20+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/computer-games-i-have-loved/</loc>
-    <lastmod>2025-05-03T22:38:20+01:00</lastmod>
-  </url><url>
-    <loc>https://blog.iannelson.uk/tags/games/</loc>
     <lastmod>2025-05-03T22:38:20+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/project-euler/</loc>

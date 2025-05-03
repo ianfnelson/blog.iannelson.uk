@@ -9,7 +9,9 @@ categories:
   - Books
 
 tags:
-  - Books
+  - Goodreads
+  - Amazon
+  - Audible
 
 ---
 Since 2018 I've been reading far more than I used to. Partly that's because my kids have grown older and don't need quite as much of my time (though they still seem to need quite a lot of money). But it's also thanks to Audible. I've been listening to audiobooks while I walk the dog, potter about the house, and commute — effectively turning previously "wasted" time into surprisingly rich reading hours.

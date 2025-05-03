@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Wordle on Ian Nelson</title>
+    <link>https://blog.iannelson.uk/tags/wordle/</link>
+    <description>Recent content in Wordle on Ian Nelson</description>
+    <generator>Hugo -- 0.146.6</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 03 May 2025 22:38:20 +0100</lastBuildDate>
+    <atom:link href="https://blog.iannelson.uk/tags/wordle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Who Reigns Supreme? Parsing Our WhatsApp Chat for Wordle Glory</title>
+      <link>https://blog.iannelson.uk/who-reigns-supreme-parsing-our-whatsapp-chat-for-wordle-glory/</link>
+      <pubDate>Tue, 31 Dec 2024 15:42:39 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/who-reigns-supreme-parsing-our-whatsapp-chat-for-wordle-glory/</guid>
+      <description>&lt;p&gt;Back in 2022, in a bid to outwit my mother in our daily Wordle battles, I wrote some C# code to explore optimal starting guesses. &lt;a href=&#34;https://blog.iannelson.uk/the-best-wordle-starter-words/&#34;&gt;You can read about that experiment here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Fast forward two years, and my Wordle addiction is alive and well. The daily challenge remains as compelling as ever, but it’s the family WhatsApp group – where scores are shared, victories boasted, and failures commiserated – that adds an extra layer of fun.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Back in 2022, in a bid to outwit my mother in our daily Wordle battles, I wrote some C# code to explore optimal starting guesses. <a href="https://blog.iannelson.uk/the-best-wordle-starter-words/">You can read about that experiment here</a>.</p>
+<p>Fast forward two years, and my Wordle addiction is alive and well. The daily challenge remains as compelling as ever, but it’s the family WhatsApp group – where scores are shared, victories boasted, and failures commiserated – that adds an extra layer of fun.</p>
+<p>As 2024 winds down, I decided to dust off my coding skills and whip up a quick C# console application. The goal? To parse an export of our WhatsApp chat, gather all the shared Wordle scores, and find out if my strategies have paid off this year. Spoiler alert: they haven’t.</p>
+<p>If you’ve got a similar Wordle-centric group chat with family or friends and fancy crowning your own Wordle Champion of the Year, the source code is available on GitHub: <a href="https://github.com/ianfnelson/WordleParser">WordleParser</a>.</p>
+<h2 id="how-it-works">How It Works</h2>
+<p>The application takes a single argument: the path to an exported chat text file. It parses the file using a <a href="https://github.com/ianfnelson/WordleParser/blob/main/WordleParser/WordleParser.cs#L46">regular expression</a> to extract anything resembling a Wordle score. <a href="https://github.com/ianfnelson/WordleParser/blob/main/WordleParser/WordleParser.cs#L27">Duplicate scores are weeded out</a>, and the <a href="https://github.com/ianfnelson/WordleParser/blob/main/WordleParser/WordleParser.cs#L32">average family score for each calendar day is logged</a>. For those unfortunate days when a puzzle remains unsolved, the application <a href="https://github.com/ianfnelson/WordleParser/blob/main/WordleParser/WordleParser.cs#L59">assigns a ‘seven’</a> to reflect the failure.</p>
+<p>The app then aggregates scores into calendar <a href="https://github.com/ianfnelson/WordleParser/blob/main/WordleParser/WordleParser.cs#L17">months</a> and <a href="https://github.com/ianfnelson/WordleParser/blob/main/WordleParser/WordleParser.cs#L11">years</a>, <a href="https://github.com/ianfnelson/WordleParser/blob/main/WordleParser/WordleParser.cs#L76">calculating each family member’s stats for the chosen date range</a>. Participants are ranked based on their mean difference from the average family score per day.</p>
+<p>For example, if three family members scored a 4, but one managed a dazzling 2, the day’s average would be 3.5. The three “fours” would each have a daily difference of +0.5, while the lucky “two” would boast a difference of -1.5.</p>
+<h2 id="the-results">The Results</h2>
+<p>So, who triumphed in the Nelson family Wordle-off this year? Did my painstaking analysis from 2022 finally give me the edge?</p>
+<p>Reader, it did not.</p>
+<p>Despite my best efforts, I only just managed to sneak into second place. Predictably, my mother reigned supreme, crushing us all with an average score of <strong>4.055</strong> and a mean difference from the family average of <strong>-0.128</strong>. This consistency made her our undisputed <strong>Wordle Family Champion of 2024</strong>.</p>
+<p><img alt="Nelson Family Wordle Champion 2024" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2024/12/7DD41AB4-B664-4276-B1A1-3E9EA0F0DFB7-1.jpeg"></p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
