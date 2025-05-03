@@ -174,6 +174,19 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">WCF – NHibernate Unit Of Work Endpoint Behavior
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>OK, my last WCF-related code snippet of the day, I promise. This is quite similar to the last one. I required that the WCF service I was developing started a new NHibernate Session for each invocation, and closed it after invocation (i.e. session-per-request). I couldn’t rely on the ASP.NET session start and end events in global.asax as this particular WCF service was to respond to MSMQ messages rather than HTTP.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2010-04-09 13:04:00 +0000 +0000'>9 April 2010</span></footer>
+  <a class="entry-link" aria-label="post link to WCF – NHibernate Unit Of Work Endpoint Behavior" href="https://blog.iannelson.uk/wcf-nhibernate-unit-of-work-endpoint-behavior/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">An MVC Gotcha and the PRG Pattern
     </h2>
   </header>
@@ -389,20 +402,6 @@ In much the same way that we can use SQL Server Profiler to monitor database act
   </div>
   <footer class="entry-footer"><span title='2009-05-19 17:05:00 +0000 +0000'>19 May 2009</span></footer>
   <a class="entry-link" aria-label="post link to NHProf – NHibernate Profiler" href="https://blog.iannelson.uk/nhprof-nhibernate-profiler/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">TFS: Using Alternative Diff/Merge Tools
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>There are many things I love about Team Foundation Server, but the supplied diff/merge tool is not one of them. It is – how can I put this? – somewhat basic. Indeed, I’ve heard tell of people going out of their way to avoid merges purely because they find the process so clunky.
-Here’s the good news – you can easily configure TFS to use a different, third-party, diff/merge tool, perhaps the one you’ve grown to know and love over many years of happy software development using other SCM products. Maybe you like WinMerge, or love TortoiseMerge. Perhaps you’re like my friend John and swear by SourceGear DiffMerge. Or maybe, like me, you’re a Beyond Compare fanboy. No problem, they can all be used by TFS. Here’s how:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2009-05-19 07:05:00 +0000 +0000'>19 May 2009</span></footer>
-  <a class="entry-link" aria-label="post link to TFS: Using Alternative Diff/Merge Tools" href="https://blog.iannelson.uk/tfs-alternative-diff-merge-tools/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

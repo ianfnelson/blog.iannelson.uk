@@ -173,6 +173,23 @@
 </header>
 
 <article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Schoolboy Error Of The Day
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>This dumb mistake just cost me an hour spelunking around in the debugger:
+var status = source.Substring(source.LastIndexOf(&#34;/&#34; &#43; 1));
+(where source is e.g. “http://foo.com/status/all-is-good“)
+Fortunately the ramifications were picked up in the acceptance tests, but the root cause wasn’t at all obvious from such a high level.
+Lesson for the day – code is never too trivial to warrant unit testing.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2011-08-17 08:08:00 +0000 +0000'>17 August 2011</span></footer>
+  <a class="entry-link" aria-label="post link to Schoolboy Error Of The Day" href="https://blog.iannelson.uk/schoolboy-error-of-the-day/"></a>
+</article>
+
+<article class="post-entry"> 
 <figure class="entry-cover">
         <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2011/04/JamesBirrell_2-1.png" alt="">
 </figure>
@@ -376,19 +393,6 @@ Firstly, here’s the EndPointBehaviour itself. This adds a custom CallContextIn
   </div>
   <footer class="entry-footer"><span title='2010-04-09 13:04:00 +0000 +0000'>9 April 2010</span></footer>
   <a class="entry-link" aria-label="post link to WCF – Logging Before and After Operation Invocation" href="https://blog.iannelson.uk/wcf-logging-before-and-after-operation-invocation/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">WCF – NHibernate Unit Of Work Endpoint Behavior
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>OK, my last WCF-related code snippet of the day, I promise. This is quite similar to the last one. I required that the WCF service I was developing started a new NHibernate Session for each invocation, and closed it after invocation (i.e. session-per-request). I couldn’t rely on the ASP.NET session start and end events in global.asax as this particular WCF service was to respond to MSMQ messages rather than HTTP.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2010-04-09 13:04:00 +0000 +0000'>9 April 2010</span></footer>
-  <a class="entry-link" aria-label="post link to WCF – NHibernate Unit Of Work Endpoint Behavior" href="https://blog.iannelson.uk/wcf-nhibernate-unit-of-work-endpoint-behavior/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
