@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 03 May 2025 15:27:39 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 03 May 2025 21:40:13 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Books</title>
@@ -27,6 +27,13 @@
       <link>https://blog.iannelson.uk/tags/beer/</link>
       <pubDate>Sat, 24 Dec 2005 17:12:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/tags/beer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>.NET</title>
+      <link>https://blog.iannelson.uk/tags/.net/</link>
+      <pubDate>Wed, 30 Jun 2004 19:06:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/tags/.net/</guid>
       <description></description>
     </item>
     <item>

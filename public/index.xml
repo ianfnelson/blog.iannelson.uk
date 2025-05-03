@@ -6,7 +6,7 @@
     <description>Recent content on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 03 May 2025 15:27:39 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 03 May 2025 21:40:13 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I&#39;m on Goodreads Now</title>
@@ -4757,8 +4757,20 @@ OK, who am I kidding?  Starter Chess was, in all respects, an exercise in patie
       <content:encoded><![CDATA[<p>For months now, I’ve been desperate for a decent excuse to make a custom ASP.NET server control, so I was secretly pleased today when a CustomValidator originally coded for use on a single page was required elsewhere.</p>
 <p>It’s surprisingly easy to do, although it took me a while to find a decent example online, which eventually came courtesy of the <a href="http://www.4guysfromrolla.com/webtech/tips/t040302-1.shtml">4GuysFromRolla</a>. In my particular scenario, I needed to check that the text entered into a TextBox did not equal any of a selection of &ldquo;banned&rdquo; strings (which was available via a static property on another class).</p>
 <p>Having added a new custom web control, deriving from BaseValidator, my first task was therefore to ensure that the control being validated really was a TextBox – this was done by overriding the <code>ControlPropertiesValid()</code> method:</p>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/9842442.js?file=ControlPropertiesValid.cs"></script>
 <p>That done, I just had to override the <code>EvaluateIsValid()</code> method, which does the actual validation:</p>
-<p>…and that was it. Job done, pretty much. OK, so I spent a while making a cute icon image too. But the coding was easy and straightforward – inheriting from BaseValidator meant that most of the work was already done for me. In no time at all I was able to drop this custom control onto the required pages and user controls.</p>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/9842442.js?file=EvaluateIsValid.cs"></script>
+<p>&hellip;and that was it. Job done, pretty much. OK, so I spent a while making a cute icon image too. But the coding was easy and straightforward – inheriting from BaseValidator meant that most of the work was already done for me. In no time at all I was able to drop this custom control onto the required pages and user controls.</p>
 ]]></content:encoded>
     </item>
     <item>

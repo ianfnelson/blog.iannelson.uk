@@ -1,0 +1,6 @@
+{{ $id := .Get 0 }}
+{{ $file := "" }}
+{{ if gt (len .Params) 1 }}
+  {{ $file = printf "?file=%s" (.Get 1) }}
+{{ end }}
+<script src="https://gist.github.com/ianfnelson/{{ $id }}.js{{ $file }}"></script>

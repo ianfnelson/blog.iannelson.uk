@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Inheriting From BaseValidator to Make Custom Validation Controls | Ian Nelson</title>
-<meta name="keywords" content="">
+<meta name="keywords" content=".NET">
 <meta name="description" content="For months now, I’ve been desperate for a decent excuse to make a custom ASP.NET server control, so I was secretly pleased today when a CustomValidator originally coded for use on a single page was required elsewhere.
 It’s surprisingly easy to do, although it took me a while to find a decent example online, which eventually came courtesy of the 4GuysFromRolla. In my particular scenario, I needed to check that the text entered into a TextBox did not equal any of a selection of &ldquo;banned&rdquo; strings (which was available via a static property on another class).">
 <meta name="author" content="">
@@ -80,6 +80,7 @@ It’s surprisingly easy to do, although it took me a while to find a decent exa
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2004-06-30T19:06:00+00:00">
     <meta property="article:modified_time" content="2025-04-23T21:18:19+01:00">
+    <meta property="article:tag" content=".NET">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Inheriting From BaseValidator to Make Custom Validation Controls">
 <meta name="twitter:description" content="For months now, I’ve been desperate for a decent excuse to make a custom ASP.NET server control, so I was secretly pleased today when a CustomValidator originally coded for use on a single page was required elsewhere.
@@ -114,7 +115,7 @@ It’s surprisingly easy to do, although it took me a while to find a decent exa
   "name": "Inheriting From BaseValidator to Make Custom Validation Controls",
   "description": "For months now, I’ve been desperate for a decent excuse to make a custom ASP.NET server control, so I was secretly pleased today when a CustomValidator originally coded for use on a single page was required elsewhere.\nIt’s surprisingly easy to do, although it took me a while to find a decent example online, which eventually came courtesy of the 4GuysFromRolla. In my particular scenario, I needed to check that the text entered into a TextBox did not equal any of a selection of \u0026ldquo;banned\u0026rdquo; strings (which was available via a static property on another class).\n",
   "keywords": [
-    
+    ".NET"
   ],
   "articleBody": "For months now, I’ve been desperate for a decent excuse to make a custom ASP.NET server control, so I was secretly pleased today when a CustomValidator originally coded for use on a single page was required elsewhere.\nIt’s surprisingly easy to do, although it took me a while to find a decent example online, which eventually came courtesy of the 4GuysFromRolla. In my particular scenario, I needed to check that the text entered into a TextBox did not equal any of a selection of “banned” strings (which was available via a static property on another class).\nHaving added a new custom web control, deriving from BaseValidator, my first task was therefore to ensure that the control being validated really was a TextBox – this was done by overriding the ControlPropertiesValid() method:\nThat done, I just had to override the EvaluateIsValid() method, which does the actual validation:\n…and that was it. Job done, pretty much. OK, so I spent a while making a cute icon image too. But the coding was easy and straightforward – inheriting from BaseValidator meant that most of the work was already done for me. In no time at all I was able to drop this custom control onto the required pages and user controls.\n",
   "wordCount" : "208",
@@ -221,14 +222,27 @@ It’s surprisingly easy to do, although it took me a while to find a decent exa
   <div class="post-content"><p>For months now, I’ve been desperate for a decent excuse to make a custom ASP.NET server control, so I was secretly pleased today when a CustomValidator originally coded for use on a single page was required elsewhere.</p>
 <p>It’s surprisingly easy to do, although it took me a while to find a decent example online, which eventually came courtesy of the <a href="http://www.4guysfromrolla.com/webtech/tips/t040302-1.shtml">4GuysFromRolla</a>. In my particular scenario, I needed to check that the text entered into a TextBox did not equal any of a selection of &ldquo;banned&rdquo; strings (which was available via a static property on another class).</p>
 <p>Having added a new custom web control, deriving from BaseValidator, my first task was therefore to ensure that the control being validated really was a TextBox – this was done by overriding the <code>ControlPropertiesValid()</code> method:</p>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/9842442.js?file=ControlPropertiesValid.cs"></script>
 <p>That done, I just had to override the <code>EvaluateIsValid()</code> method, which does the actual validation:</p>
-<p>…and that was it. Job done, pretty much. OK, so I spent a while making a cute icon image too. But the coding was easy and straightforward – inheriting from BaseValidator meant that most of the work was already done for me. In no time at all I was able to drop this custom control onto the required pages and user controls.</p>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/9842442.js?file=EvaluateIsValid.cs"></script>
+<p>&hellip;and that was it. Job done, pretty much. OK, so I spent a while making a cute icon image too. But the coding was easy and straightforward – inheriting from BaseValidator meant that most of the work was already done for me. In no time at all I was able to drop this custom control onto the required pages and user controls.</p>
 
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="https://blog.iannelson.uk/tags/.net/">.NET</a></li>
     </ul>
   </footer>
 </article>

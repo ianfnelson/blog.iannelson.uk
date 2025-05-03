@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>.NET on Ian Nelson</title>
+    <link>https://blog.iannelson.uk/tags/.net/</link>
+    <description>Recent content in .NET on Ian Nelson</description>
+    <generator>Hugo -- 0.146.6</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 23 Apr 2025 21:18:19 +0100</lastBuildDate>
+    <atom:link href="https://blog.iannelson.uk/tags/.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inheriting From BaseValidator to Make Custom Validation Controls</title>
+      <link>https://blog.iannelson.uk/inheriting-from-basevalidator-to-make-custom-validation-controls/</link>
+      <pubDate>Wed, 30 Jun 2004 19:06:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/inheriting-from-basevalidator-to-make-custom-validation-controls/</guid>
+      <description>&lt;p&gt;For months now, I’ve been desperate for a decent excuse to make a custom ASP.NET server control, so I was secretly pleased today when a CustomValidator originally coded for use on a single page was required elsewhere.&lt;/p&gt;
+&lt;p&gt;It’s surprisingly easy to do, although it took me a while to find a decent example online, which eventually came courtesy of the &lt;a href=&#34;http://www.4guysfromrolla.com/webtech/tips/t040302-1.shtml&#34;&gt;4GuysFromRolla&lt;/a&gt;. In my particular scenario, I needed to check that the text entered into a TextBox did not equal any of a selection of &amp;ldquo;banned&amp;rdquo; strings (which was available via a static property on another class).&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>For months now, I’ve been desperate for a decent excuse to make a custom ASP.NET server control, so I was secretly pleased today when a CustomValidator originally coded for use on a single page was required elsewhere.</p>
+<p>It’s surprisingly easy to do, although it took me a while to find a decent example online, which eventually came courtesy of the <a href="http://www.4guysfromrolla.com/webtech/tips/t040302-1.shtml">4GuysFromRolla</a>. In my particular scenario, I needed to check that the text entered into a TextBox did not equal any of a selection of &ldquo;banned&rdquo; strings (which was available via a static property on another class).</p>
+<p>Having added a new custom web control, deriving from BaseValidator, my first task was therefore to ensure that the control being validated really was a TextBox – this was done by overriding the <code>ControlPropertiesValid()</code> method:</p>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/9842442.js?file=ControlPropertiesValid.cs"></script>
+<p>That done, I just had to override the <code>EvaluateIsValid()</code> method, which does the actual validation:</p>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/9842442.js?file=EvaluateIsValid.cs"></script>
+<p>&hellip;and that was it. Job done, pretty much. OK, so I spent a while making a cute icon image too. But the coding was easy and straightforward – inheriting from BaseValidator meant that most of the work was already done for me. In no time at all I was able to drop this custom control onto the required pages and user controls.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
