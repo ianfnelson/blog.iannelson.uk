@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SQLServer on Ian Nelson</title>
+    <link>https://blog.iannelson.uk/tags/sqlserver/</link>
+    <description>Recent content in SQLServer on Ian Nelson</description>
+    <generator>Hugo -- 0.146.6</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 23 Apr 2025 21:18:19 +0100</lastBuildDate>
+    <atom:link href="https://blog.iannelson.uk/tags/sqlserver/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL Server Best Practices Analyser Tool</title>
+      <link>https://blog.iannelson.uk/sql-server-best-practices-analyser-tool/</link>
+      <pubDate>Sun, 12 Dec 2004 19:12:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/sql-server-best-practices-analyser-tool/</guid>
+      <description>&lt;p&gt;Via &lt;a href=&#34;http://ericgharrison.com/Blog/archive/2004/12/11/491.aspx&#34;&gt;Eric G. Harrison&lt;/a&gt; – MS have developed a &lt;a href=&#34;http://www.microsoft.com/downloads/details.aspx?FamilyId=B352EB1F-D3CA-44EE-893E-9E07339C1F22&amp;amp;displaylang=en&#34;&gt;SQL Server Best Practices Analyser Tool&lt;/a&gt;. It’s like a cross between &lt;a href=&#34;http://www.gotdotnet.com/team/fxcop/&#34;&gt;FxCop&lt;/a&gt; and &lt;a href=&#34;http://www.microsoft.com/technet/security/tools/mbsahome.mspx&#34;&gt;Baseline Security Analyser&lt;/a&gt;, for SQL Server. Very useful. I just downloaded it, ran it against some of my databases, and it made some useful suggestions. This could quickly become indispensable.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Via <a href="http://ericgharrison.com/Blog/archive/2004/12/11/491.aspx">Eric G. Harrison</a> – MS have developed a <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=B352EB1F-D3CA-44EE-893E-9E07339C1F22&amp;displaylang=en">SQL Server Best Practices Analyser Tool</a>. It’s like a cross between <a href="http://www.gotdotnet.com/team/fxcop/">FxCop</a> and <a href="http://www.microsoft.com/technet/security/tools/mbsahome.mspx">Baseline Security Analyser</a>, for SQL Server. Very useful. I just downloaded it, ran it against some of my databases, and it made some useful suggestions. This could quickly become indispensable.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

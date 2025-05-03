@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Rounding Up The Result of Integer Division | Ian Nelson</title>
-<meta name="keywords" content="">
+<meta name="keywords" content="Maths">
 <meta name="description" content="Here’s a damn useful piece of information which should be in the armoury of every modern codemonkey:
 
 In Java, if it is required to round up the result of dividing m by n (where m and n are integers), one should compute (m&#43;n-1)/n
@@ -85,6 +85,7 @@ I’ve used this deliciously elegant result in production J2EE code in the past,
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2005-09-06T11:09:00+00:00">
     <meta property="article:modified_time" content="2025-04-23T21:18:19+01:00">
+    <meta property="article:tag" content="Maths">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Rounding Up The Result of Integer Division">
 <meta name="twitter:description" content="Here’s a damn useful piece of information which should be in the armoury of every modern codemonkey:
@@ -122,7 +123,7 @@ I’ve used this deliciously elegant result in production J2EE code in the past,
   "name": "Rounding Up The Result of Integer Division",
   "description": "Here’s a damn useful piece of information which should be in the armoury of every modern codemonkey:\nIn Java, if it is required to round up the result of dividing m by n (where m and n are integers), one should compute (m+n-1)/n\nSource: Number Conversion, Roland Backhouse, 2001\nI’ve used this deliciously elegant result in production J2EE code in the past, but it’s equally valid in C#, as long as you can make the additional assertion that m/n is positive. This is because whilst Java treats integer division by rounding to zero, C# merely truncates the result (in an unchecked context). In my experience, the most frequentuse for this result is the deft answering of questions such as “if I have x items in my dataset and I display y per page, how many pages do I have in total?”, where it is obviously safe to make the assertion of a positive result.\n",
   "keywords": [
-    
+    "Maths"
   ],
   "articleBody": "Here’s a damn useful piece of information which should be in the armoury of every modern codemonkey:\nIn Java, if it is required to round up the result of dividing m by n (where m and n are integers), one should compute (m+n-1)/n\nSource: Number Conversion, Roland Backhouse, 2001\nI’ve used this deliciously elegant result in production J2EE code in the past, but it’s equally valid in C#, as long as you can make the additional assertion that m/n is positive. This is because whilst Java treats integer division by rounding to zero, C# merely truncates the result (in an unchecked context). In my experience, the most frequentuse for this result is the deft answering of questions such as “if I have x items in my dataset and I display y per page, how many pages do I have in total?”, where it is obviously safe to make the assertion of a positive result.\n",
   "wordCount" : "154",
@@ -202,7 +203,7 @@ I’ve used this deliciously elegant result in production J2EE code in the past,
             </li>
             <li>
                 <a href="https://familytree.iannelson.uk" title="Family Tree">
-                    <span>Family Tree</span>&nbsp;
+                    <span>Family Tree</span> 
                     <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
                         <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
@@ -237,6 +238,7 @@ I’ve used this deliciously elegant result in production J2EE code in the past,
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="https://blog.iannelson.uk/tags/maths/">Maths</a></li>
     </ul>
   </footer>
 </article>

@@ -7,7 +7,6 @@ cover:
 categories:
   - Hills
 tags:
-  - Hills
   - Wales
 
 ---

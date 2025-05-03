@@ -16,9 +16,9 @@ Wednesday night’s tipple was the rather strange 5% ABV [Kronenbourg Blanc][1],
 
 Jocelyn says: “This is a girly beer!  I could drink this!  This is fruity, it’s not a beer at all!”
 
-Weird advertising, too – would you buy a drink for this girl?<figure class="kg-card kg-image-card">
+Weird advertising, too – would you buy a drink for this girl?
 
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/connie1_large_71473873_o.jpg" class="kg-image" alt loading="lazy" /> </figure>
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/connie1_large_71473873_o.jpg)
 
  [1]: http://www.k1664.co.uk
  [2]: http://www.google.com/url?sa=t&ct=res&cd=1&url=http%3A//www.scottish-newcastle.com/

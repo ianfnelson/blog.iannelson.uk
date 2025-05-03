@@ -6,6 +6,8 @@ url: /rounding-up-the-result-of-integer-division/
 
 categories:
   - Tech
+tags:
+  - Maths
 
 ---
 Here’s a damn useful piece of information which should be in the armoury of every modern codemonkey:

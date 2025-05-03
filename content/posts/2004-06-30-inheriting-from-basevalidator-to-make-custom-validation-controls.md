@@ -25,5 +25,4 @@ That done, I just had to override the `EvaluateIsValid()` method, which does the
 
 ...and that was it. Job done, pretty much. OK, so I spent a while making a cute icon image too. But the coding was easy and straightforward – inheriting from BaseValidator meant that most of the work was already done for me. In no time at all I was able to drop this custom control onto the required pages and user controls.
 
-
  [1]: http://www.4guysfromrolla.com/webtech/tips/t040302-1.shtml

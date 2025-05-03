@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>NHibernate on Ian Nelson</title>
+    <link>https://blog.iannelson.uk/tags/nhibernate/</link>
+    <description>Recent content in NHibernate on Ian Nelson</description>
+    <generator>Hugo -- 0.146.6</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 23 Apr 2025 21:18:19 +0100</lastBuildDate>
+    <atom:link href="https://blog.iannelson.uk/tags/nhibernate/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NHibernate</title>
+      <link>https://blog.iannelson.uk/nhibernate/</link>
+      <pubDate>Fri, 03 Sep 2004 19:09:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/nhibernate/</guid>
+      <description>&lt;p&gt;There’s &lt;em&gt;so&lt;/em&gt; much good open-source .Net development going on these days – .Text, nGallery, nUnit, etc – it’s a really interesting time to be a developer. My colleague Colin just drew my attention to &lt;a href=&#34;http://sourceforge.net/projects/nhibernate&#34;&gt;nHibernate&lt;/a&gt;, an object persistence library for relational databases. &lt;a href=&#34;http://www.theserverside.net/articles/showarticle.tss?id=NHibernate&#34;&gt;TheServerSide.net&lt;/a&gt; has an excellent article summarising its use. Having just finished a long project where a large amount of time was spent writing “plumbing” code to persist objects to and from a SQL Server database, I’m finding the idea of using an O/R mapper such as this very appealing the next time round. Just as incorporating the &lt;a href=&#34;http://msdn.microsoft.com/library/default.asp?url=https://blog.iannelson.uk/library/en-us/dnbda/html/daab-rm.asp&#34;&gt;MS DAAB block&lt;/a&gt; into solutions has reduced the amount of data access code required, I’m hopeful that embracing frameworks such as nHibernate will leave us with more time to spend focusing on addressing the business needs and less on re-solving technical issues.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>There’s <em>so</em> much good open-source .Net development going on these days – .Text, nGallery, nUnit, etc – it’s a really interesting time to be a developer. My colleague Colin just drew my attention to <a href="http://sourceforge.net/projects/nhibernate">nHibernate</a>, an object persistence library for relational databases. <a href="http://www.theserverside.net/articles/showarticle.tss?id=NHibernate">TheServerSide.net</a> has an excellent article summarising its use. Having just finished a long project where a large amount of time was spent writing “plumbing” code to persist objects to and from a SQL Server database, I’m finding the idea of using an O/R mapper such as this very appealing the next time round. Just as incorporating the <a href="http://msdn.microsoft.com/library/default.asp?url=https://blog.iannelson.uk/library/en-us/dnbda/html/daab-rm.asp">MS DAAB block</a> into solutions has reduced the amount of data access code required, I’m hopeful that embracing frameworks such as nHibernate will leave us with more time to spend focusing on addressing the business needs and less on re-solving technical issues.</p>
+<p>If anyone has had experience of using nHibernate or similar O/R mapper in an enterprise .NET project, I’d be interesting in hearing your opinions. Would you use it again? Did it genuinely help to abstract away the object persistence/retrieval mechanisms from the domain model, or is it just one more layer to worry about and keep up to date? Let me know.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

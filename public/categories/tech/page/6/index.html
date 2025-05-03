@@ -138,7 +138,7 @@
             </li>
             <li>
                 <a href="https://familytree.iannelson.uk" title="Family Tree">
-                    <span>Family Tree</span>&nbsp;
+                    <span>Family Tree</span> 
                     <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
                         <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
@@ -156,6 +156,20 @@
     Tech
   </h1>
 </header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Tech Books
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I succumbed to temptation and bought another book at the MSDN briefing yesterday, pausing only out of concern that the guy who mans the Computer Manuals stand at these events might think that I’m stalking him (or fancy him!). Having determined that I could hand over my Barclaycard whilst flashing my wedding ring, I brought my current reading list up to three:
+Developer to Designer: GUI Design for the Busy Developer – this was a wedding present from my mother-in-law and is proving to be an interesting, easy-going read so far. My competencies lie in the middle tier and database, and although I’m technically capable of making GUIs, I prefer to leave the design up to others. It’s inevitable though that most coders end up doing some design, and this book is, er, designed (sorry) to help with that process. The early section of the book concentrates on each UI element in turn, whilst the later part of the book looks at putting it all together, and has particular focus on the web – layout design patterns and interaction patterns. It’s a good read, making a nice contrast from the heavier books, and I’m pleased to learn that I’m not alone in hating Outlook’s labyrinthine Tools-&gt;Options dialog!
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-06-18 21:06:00 +0000 +0000'>18 June 2005</span></footer>
+  <a class="entry-link" aria-label="post link to Tech Books" href="https://blog.iannelson.uk/tech-books/"></a>
+</article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
@@ -177,11 +191,25 @@
   </header>
   <div class="entry-content">
     <p>There seems to have been a lack of .NET-related stuff on this blog recently, so let me show you something I cobbled together for work purposes last Wednesday:
-A common requirement we have in our ASP.NET applications is how to reliably persist object instances for a lengthy period of time. End users shouldn’t have to concern themselves with the concept of Session expiry, and it’s unacceptable for them to return to their PC after nipping off for a coffee to be confronted with the dreaded “Object reference not set to an instance of an object” when they try to continue editing their basket / sales order / timesheet / whatever.
+A common requirement we have in our ASP.NET applications is how to reliably persist object instances for a lengthy period of time. End users shouldn’t have to concern themselves with the concept of Session expiry, and it’s unacceptable for them to return to their PC after nipping off for a coffee to be confronted with the dreaded “Object reference not set to an instance of an object” when they try to continue editing their basket / sales order / timesheet / whatever.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2005-01-18 23:01:00 +0000 GMT'>18 January 2005</span></footer>
   <a class="entry-link" aria-label="post link to Framework for Persisting .NET Classes Into SQL Server Image Fields, With Locking Ability" href="https://blog.iannelson.uk/framework-for-persisting-net-classes-into-sql-server-image-fields-with-locking-ability/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">999999999..
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Never underestimate the stupidity of users—or the benefits of a little field validation.
+One of the web-based systems I’ve been developing allows users to enter a customer’s fax number and automatically fax confirmation details (using Zetafax). It’s been working pretty well—until we discovered a flaw today. One user, tired of obtaining valid fax details from customers, had been entering a string of nines and then actually attempting to send the fax to this number.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-01-11 23:01:00 +0000 GMT'>11 January 2005</span></footer>
+  <a class="entry-link" aria-label="post link to 999999999.." href="https://blog.iannelson.uk/zetafax-999/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
@@ -231,7 +259,7 @@ It’s a little thing, to be sure, but I often find myself wanting to make a set
     </h2>
   </header>
   <div class="entry-content">
-    <p>There’s so much good open-source .Net development going on these days – .Text, nGallery, nUnit, etc – it’s a really interesting time to be a developer. My colleague Colin just drew my attention to nHibernate, an object persistence library for relational databases. TheServerSide.net has an excellent article summarising its use. Having just finished a long project where a large amount of time was spent writing “plumbing” code to persist objects to and from a SQL Server database, I’m finding the idea of using an O/R mapper such as this very appealing the next time round. Just as incorporating the MS DAAB block into solutions has reduced the amount of data access code required, I’m hopeful that embracing frameworks such as nHibernate will leave us with more time to spend focusing on addressing the business needs and less on re-solving technical issues.
+    <p>There’s so much good open-source .Net development going on these days – .Text, nGallery, nUnit, etc – it’s a really interesting time to be a developer. My colleague Colin just drew my attention to nHibernate, an object persistence library for relational databases. TheServerSide.net has an excellent article summarising its use. Having just finished a long project where a large amount of time was spent writing “plumbing” code to persist objects to and from a SQL Server database, I’m finding the idea of using an O/R mapper such as this very appealing the next time round. Just as incorporating the MS DAAB block into solutions has reduced the amount of data access code required, I’m hopeful that embracing frameworks such as nHibernate will leave us with more time to spend focusing on addressing the business needs and less on re-solving technical issues.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2004-09-03 19:09:00 +0000 +0000'>3 September 2004</span></footer>
@@ -259,7 +287,8 @@ O’Reilly’s Extreme Programming Pocket Guide is a handy little summary of t
   </header>
   <div class="entry-content">
     <p>Update (25/02/2006) – Hey, we now have String.IsNullOrEmpty, you know!
-What’s the quickest way, in C#, to test whether a string is empty? This is a question which came to my mind yesterday. I’ve always been fond of:
+What’s the quickest way, in C#, to test whether a string is empty? This is a question which came to my mind yesterday. I’ve always been fond of:
+if (myString==String.Empty)
 but it occured to me that this necessitates the creation and destruction of a second object (the empty string with which we’re comparing), so maybe it would be quicker to write:
 ...</p>
   </div>
@@ -283,7 +312,7 @@ It’s surprisingly easy to do, although it took me a while to find a decent exa
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="https://blog.iannelson.uk/categories/tech/page/5/">
-      «&nbsp;Prev&nbsp;
+      « Prev
     </a>
   </nav>
 </footer>

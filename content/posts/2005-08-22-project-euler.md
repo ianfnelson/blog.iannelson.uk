@@ -6,12 +6,12 @@ url: /project-euler/
 
 categories:
   - Fun
+  - Tech
+tags:
+  - Maths
 
 ---
-<!--kg-card-begin: html-->
 
 If you like maths problems, and you like programming (and hey, who doesn’t?), then you’ll love [Project Euler][1].
-
-<!--kg-card-end: html-->
 
  [1]: http://mathschallenge.net/index.php?section=project

@@ -9,7 +9,6 @@ categories:
   - Hills
 tags:
   - Scotland
-  - Hills
 
 ---
 A couple of fine Grahams bagged on a short, steep lunchtime walk.

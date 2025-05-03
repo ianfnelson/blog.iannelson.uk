@@ -6,92 +6,39 @@ url: /is-my-string-empty-some-c-performance-metrics/
 
 categories:
   - Tech
+tags:
+  - .NET
 
 ---
-<!--kg-card-begin: html-->
 
 **Update (25/02/2006)** – Hey, we now have [String.IsNullOrEmpty][1], you know!
 
-* * *
+---
 
-What’s the quickest way, in C#, to test whether a string is empty?&nbsp; This is a question which came to my mind yesterday. I’ve always been fond of:
+What’s the quickest way, in C#, to test whether a string is empty? This is a question which came to my mind yesterday. I’ve always been fond of:
 
-<pre>&lt;cdode class="language-clike">if (myString==String.Empty)  &lt;/code></pre>
+`if (myString==String.Empty)`
 
 but it occured to me that this necessitates the creation and destruction of a second object (the empty string with which we’re comparing), so maybe it would be quicker to write:
 
-<pre>&lt;cdode class="language-clike">if (myString.Length==0)  &lt;/code></pre>
+`if (myString.Length==0)`
 
 And looking through some existing code I also found examples of:
 
-<pre>&lt;cdode class="language-clike">if String.Equals(myString,String.Empty)  &lt;/code></pre>
+`if String.Equals(myString,String.Empty)`
 
 I decided that an experiment was in order, so wrote a quick windows application to try each method in turn. I was also interested to see if there was a difference in performance where the result was true than when it was false.
 
 Here are the results, with times in milliseconds for 50 million iterations:
 
-<table cellspacing="2" cellpadding="2">
-  <tr>
-    <td>
-      &nbsp;
-    </td>
-    
-    <td align="right">
-      true result
-    </td>
-    
-    <td align="right">
-      false result
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      myString==String.Empty
-    </td>
-    
-    <td align="right">
-      1172
-    </td>
-    
-    <td align="right">
-      2484
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      myString.Length==0
-    </td>
-    
-    <td align="right">
-      531
-    </td>
-    
-    <td align="right">
-      531
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      String.Equals(myString,String.Empty)
-    </td>
-    
-    <td align="right">
-      611
-    </td>
-    
-    <td align="right">
-      1893
-    </td>
-  </tr>
-</table>
+| |true result|false result|
+|-|-|-|
+|`myString==String.Empty`|1172|2484|
+|`myString.Length==0`|531|531|
+|`String.Equals(myString,String.Empty)`|611|1893|
 
-&nbsp;
 
 So there you have it. Experimental evidence that the fastest way to test for an empty string is to test whether it’s Length property is zero (and that this also takes exactly the same length of time irrespective of whether the result is true or false).. unless anyone knows of a quicker method? Of course, since we’re only saving ourselves around 50 nanoseconds per iteration against using the slowest method shown above, this is hardly going to result in a noticeable performance gain!!
 
-<!--kg-card-end: html-->
 
  [1]: https://blog.iannelson.uk/string-isnullorempty/

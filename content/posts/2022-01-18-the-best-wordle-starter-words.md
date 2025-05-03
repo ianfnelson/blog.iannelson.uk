@@ -21,7 +21,7 @@ _**SPOILER WARNING** – this blog post contains information that may lead you t
 
 Still here? OK, first a definition. What do I consider to be a good Wordle starter word? What makes one starter word better than another?
 
-I assert that the best Wordle starter words are those which are expected to result in the highest number of yellow (right letter, wrong spot) or green (right letter, right spot) tiles. Let’s call this E(Y|G). &nbsp;As a tie-breaker, where two words have the same value of E(Y|G), I consider the better word to be the one which is expected to result in the highest number of green tiles – let’s call this E(G).
+I assert that the best Wordle starter words are those which are expected to result in the highest number of yellow (right letter, wrong spot) or green (right letter, right spot) tiles. Let’s call this E(Y|G).  As a tie-breaker, where two words have the same value of E(Y|G), I consider the better word to be the one which is expected to result in the highest number of green tiles – let’s call this E(G).
 
 I’ve seen alternative approaches posted on Twitter that rank guesses in different ways, such as one which was based on how many possible answers from the Wordle corpus are excluded by guessing them. But my brain doesn’t work that way round – I don’t have the full list of Wordle words in my head to sieve through, and instead seek the positive reinforcement of yellow and green tiles to use as the basis for my later guesses.
 

@@ -10,4 +10,4 @@ tags:
   - Beer
 
 ---
-Another superb ale tonight, and this one is close to home. <a href="http://www.hambletonales.co.uk/nightmare.htm" data-type="link" data-id="http://www.hambletonales.co.uk/nightmare.htm">Nightmare</a> by the Hambleton Ales microbrewery in Thirsk is an extremely creamy, fruity, and flavoursome stout—not as bitter as you might expect from its appearance. Very tasty—I’ll definitely be buying this again.
+Another superb ale tonight, and this one is close to home. [Nightmare](http://www.hambletonales.co.uk/nightmare.htm) by the Hambleton Ales microbrewery in Thirsk is an extremely creamy, fruity, and flavoursome stout—not as bitter as you might expect from its appearance. Very tasty—I’ll definitely be buying this again.

@@ -12,7 +12,7 @@ tags:
   - Beer
 
 ---
-<figure class="kg-card kg-image-card"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/delirium_nocturnum_150.jpg" class="kg-image" alt loading="lazy" /></figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/delirium_nocturnum_150.jpg)
 
 Friday night saw me out celebrating in Halifax at our departmental Christmas meal (FWIW, I drank a few pints of Santa’s Little Helper from the [Caledonian brewery][1]).  As a result, I didn’t get chance to enjoy my advent beer, and have been playing catch-up with a couple of randomly-selected bottles tonight.
 

@@ -6,6 +6,8 @@ url: /property-access-modifiers-in-whidbey/
 
 categories:
   - Tech
+tags:
+  - C#
 
 ---
 Ooh, this is great news:

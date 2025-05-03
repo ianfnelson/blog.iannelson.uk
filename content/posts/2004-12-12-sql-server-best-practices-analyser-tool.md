@@ -6,6 +6,10 @@ url: /sql-server-best-practices-analyser-tool/
 
 categories:
   - Tech
+tags:
+  - SQLServer
+  - Security
+  - Data
 
 ---
 Via [Eric G. Harrison][1] – MS have developed a [SQL Server Best Practices Analyser Tool][2]. It’s like a cross between [FxCop][3] and [Baseline Security Analyser][4], for SQL Server. Very useful. I just downloaded it, ran it against some of my databases, and it made some useful suggestions. This could quickly become indispensable.

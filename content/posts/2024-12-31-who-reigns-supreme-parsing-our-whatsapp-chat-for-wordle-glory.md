@@ -12,13 +12,13 @@ categories:
   - Fun
 
 ---
-Back in 2022, in a bid to outwit my mother in our daily Wordle battles, I wrote some C# code to explore optimal starting guesses. [You can read about that experiment&nbsp;here][1].
+Back in 2022, in a bid to outwit my mother in our daily Wordle battles, I wrote some C# code to explore optimal starting guesses. [You can read about that experiment here][1].
 
 Fast forward two years, and my Wordle addiction is alive and well. The daily challenge remains as compelling as ever, but it’s the family WhatsApp group – where scores are shared, victories boasted, and failures commiserated – that adds an extra layer of fun.
 
 As 2024 winds down, I decided to dust off my coding skills and whip up a quick C# console application. The goal? To parse an export of our WhatsApp chat, gather all the shared Wordle scores, and find out if my strategies have paid off this year. Spoiler alert: they haven’t.
 
-If you’ve got a similar Wordle-centric group chat with family or friends and fancy crowning your own Wordle Champion of the Year, the source code is available on GitHub:&nbsp;[WordleParser][2].
+If you’ve got a similar Wordle-centric group chat with family or friends and fancy crowning your own Wordle Champion of the Year, the source code is available on GitHub: [WordleParser][2].
 
 ## How It Works
 
@@ -34,7 +34,7 @@ So, who triumphed in the Nelson family Wordle-off this year? Did my painstaking 
 
 Reader, it did not.
 
-Despite my best efforts, I only just managed to sneak into second place. Predictably, my mother reigned supreme, crushing us all with an average score of&nbsp;**4.055**&nbsp;and a mean difference from the family average of&nbsp;**-0.128**. This consistency made her our undisputed&nbsp;**Wordle Family Champion of 2024**.
+Despite my best efforts, I only just managed to sneak into second place. Predictably, my mother reigned supreme, crushing us all with an average score of **4.055** and a mean difference from the family average of **-0.128**. This consistency made her our undisputed **Wordle Family Champion of 2024**.
 
 ![Nelson Family Wordle Champion 2024](https://blogstouks01.z33.web.core.windows.net/2024/12/7DD41AB4-B664-4276-B1A1-3E9EA0F0DFB7-1.jpeg)
 

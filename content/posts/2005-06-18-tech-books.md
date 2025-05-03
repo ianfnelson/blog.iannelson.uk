@@ -7,6 +7,9 @@ url: /tech-books/
 categories:
   - Books
   - Tech
+tags:
+  - C#
+  - .NET
 
 ---
 I succumbed to temptation and bought another book at the MSDN briefing yesterday, pausing only out of concern that the guy who mans the [Computer Manuals][1] stand at these events might think that I’m stalking him (or fancy him!). Having determined that I could hand over my Barclaycard whilst flashing my wedding ring, I brought my current reading list up to three:

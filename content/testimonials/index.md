@@ -14,13 +14,13 @@ _“The biggest problem with working with Ian F. Nelson is the Ian F. Nelson sha
 
 ---
 
-_“Wishing you all the very best in your future endeavours, Ian&nbsp;Nelson. You’re far from the typical techy who simply completes a task and moves on. You’ve always gone above and beyond, keeping me in the loop with updates and making sure I was aware of any technical risks. Your thoughtfulness and proactive approach have meant a lot, and I’ll truly miss working with you. I have no doubt that your absence will be felt, and it will definitely have an impact on my work as well. Best of luck – you’ll be greatly missed.”_
+_“Wishing you all the very best in your future endeavours, Ian Nelson. You’re far from the typical techy who simply completes a task and moves on. You’ve always gone above and beyond, keeping me in the loop with updates and making sure I was aware of any technical risks. Your thoughtfulness and proactive approach have meant a lot, and I’ll truly miss working with you. I have no doubt that your absence will be felt, and it will definitely have an impact on my work as well. Best of luck – you’ll be greatly missed.”_
 
 &#8212; Shahnaaz Rahamatullah, Test Lead, Financial Conduct Authority
 
 ---
 
-_“Thank you so much Ian&nbsp;Nelson, you were great to work with and a great guide in my first 6 months at FCA. You’ll be an asset in any future organisation you join. We’ll miss you big time.”_
+_“Thank you so much Ian Nelson, you were great to work with and a great guide in my first 6 months at FCA. You’ll be an asset in any future organisation you join. We’ll miss you big time.”_
 
 &#8212; Alessio Bortone — Engineering Manager, Financial Conduct Authority
 

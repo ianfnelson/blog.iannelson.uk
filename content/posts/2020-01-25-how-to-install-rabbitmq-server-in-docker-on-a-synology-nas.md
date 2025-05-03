@@ -87,7 +87,7 @@ From the details, click the Log tab. If startup has been successful, you will th
   <figure class="aligncenter"><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-04-02-1.png"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-04-02-1.png" alt="" /></a></figure>
 </div>
 
-The RabbitMQ mnesia folder will be initialized in the folder specified earlier as &nbsp;a mapped volume.
+The RabbitMQ mnesia folder will be initialized in the folder specified earlier as  a mapped volume.
 
 <div class="wp-block-image">
   <figure class="aligncenter"><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-05-05.png"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-05-05.png" alt="" /></a></figure>

@@ -10,14 +10,14 @@ tags:
   - Beer
 
 ---
-<figure class="wp-block-image"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/hertog-jan-doppio-double_76906363_o.jpg" alt="" /><figcaption class="wp-element-caption">Hertog Jan Doppio Double</figcaption></figure> 
+![Hertog Jan Doppio Double](https://blogstouks01.z33.web.core.windows.net/2023/08/hertog-jan-doppio-double_76906363_o.jpg)
 
-Hertog Jan Doppio Double is the only one of my twenty-four Advent beers to come in a stone cork-stoppered bottle that weighs more than the drink contained within! At 7.3% ABV, it’s also the [second-strongest][1] drink in my selection, and hence has a real kick to it.&nbsp; That said, it also has a gorgeous malty aroma, and strong aftertaste which beer lovers will appreciate.&nbsp; So whilst it’s not quite my [personal favourite][2] of the twenty-four beers I’ve had the pleasure of sampling this yuletide, it’s certainly an appropriately worthy and warming drink on which to finish.
+Hertog Jan Doppio Double is the only one of my twenty-four Advent beers to come in a stone cork-stoppered bottle that weighs more than the drink contained within! At 7.3% ABV, it’s also the [second-strongest][1] drink in my selection, and hence has a real kick to it.  That said, it also has a gorgeous malty aroma, and strong aftertaste which beer lovers will appreciate.  So whilst it’s not quite my [personal favourite][2] of the twenty-four beers I’ve had the pleasure of sampling this yuletide, it’s certainly an appropriately worthy and warming drink on which to finish.
 
-I’ve been asked to summarise my findings on these beers at the end of the season, and was considering publishing a spreadsheet noting my opinions in various categories (colour, aroma, aftertaste, strength, packaging, cute names&#8230;), but having consumed so many fine ales this month, it was beyond me to come up with such a complicated scoring system.&nbsp; Instead, I’ve made an effort to merely triage the beers according to my overall opinion and likelihood of repurchase – those with three stars will be on our shopping list in future, whilst those with one star will be avoided like the plague.
+I’ve been asked to summarise my findings on these beers at the end of the season, and was considering publishing a spreadsheet noting my opinions in various categories (colour, aroma, aftertaste, strength, packaging, cute names&#8230;), but having consumed so many fine ales this month, it was beyond me to come up with such a complicated scoring system.  Instead, I’ve made an effort to merely triage the beers according to my overall opinion and likelihood of repurchase – those with three stars will be on our shopping list in future, whilst those with one star will be avoided like the plague.
 
 **<u>Three-star beers:</u>**  
-&nbsp;  
+   
  [Bitter & Twisted][3]  
 [Festive Filly][3]  
 [Fraoch][4]  
@@ -26,9 +26,9 @@ I’ve been asked to summarise my findings on these beers at the end of the seas
 [Riggwelter][2]  
 [Schiehallion][7]  
 [Whirlygig][8]  
-&nbsp;  
+   
 **<u>Two-star beers:</u>**  
-&nbsp;  
+   
  [Delirium Nocturnum][1]  
 [Jingle Knockers][4]  
 [Rolling Hitch][1]  
@@ -38,9 +38,9 @@ I’ve been asked to summarise my findings on these beers at the end of the seas
 [Ruby Red][11]  
 [Smuggler’s Ale][12]  
 [Young’s Christmas Pudding Ale][13]  
-&nbsp;  
+   
 **<u>One-star beers:</u>**  
-&nbsp;  
+   
  [Crazy Ed’s Cave Creek Chili Beer][14]  
 [Honker’s Ale][15]  
 [Kronenbourg Blanc][16]  

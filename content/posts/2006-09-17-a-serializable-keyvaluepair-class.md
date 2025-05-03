@@ -10,7 +10,7 @@ categories:
 ---
 <!--kg-card-begin: html-->
 
-Having accepted that [Returning DataSets from WebServices is the Spawn of Satan and Represents All That Is Truly Evil in the World][1] (or at least, not exactly best practice), I’ve been trying to make a conscious effort to instead use lightweight custom objects in my middle tier, to be exposed via web services for use by other applications. I felt sure that some of the new Generic classes in the .NET 2.0 FCL would help me in my quest. Specifically, as I often need to expose simple arrays of Key/Value Pair metadata, I planned to create an instance of the&nbsp; System.Collections.ObjectModel.Collection class, containing a bunch of System.Collections.Generic.KeyValuePair objects.&nbsp;
+Having accepted that [Returning DataSets from WebServices is the Spawn of Satan and Represents All That Is Truly Evil in the World][1] (or at least, not exactly best practice), I’ve been trying to make a conscious effort to instead use lightweight custom objects in my middle tier, to be exposed via web services for use by other applications. I felt sure that some of the new Generic classes in the .NET 2.0 FCL would help me in my quest. Specifically, as I often need to expose simple arrays of Key/Value Pair metadata, I planned to create an instance of the  System.Collections.ObjectModel.Collection class, containing a bunch of System.Collections.Generic.KeyValuePair objects. 
 
 Well, this all seemed to go to plan, and worked just fine within my app. But when I exposed the method as a web service, I discovered that neither the Key nor the Value properties were serialized – I was left to consume a lovely generic collection of objects with no members – not a whole lot of use.
 

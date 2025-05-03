@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>String.IsNullOrEmpty | Ian Nelson</title>
-<meta name="keywords" content="">
+<meta name="keywords" content=".NET">
 <meta name="description" content="The single most popular entry on this blog is, surprisingly enough, this quick post from Summer 2004 where I did a quick experiment to &ldquo;prove&rdquo; that in .NET the quickest way of proving that a string is empty is to compare its length to zero.
 Well, as of .NET 2.0, we have a new static method on the System.String class – IsNullOrEmpty – that allows you to easily test whether a string is, well, null or empty!">
 <meta name="author" content="">
@@ -80,6 +80,7 @@ Well, as of .NET 2.0, we have a new static method on the System.String class –
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2006-02-25T14:02:00+00:00">
     <meta property="article:modified_time" content="2025-04-23T21:18:19+01:00">
+    <meta property="article:tag" content=".NET">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="String.IsNullOrEmpty">
 <meta name="twitter:description" content="The single most popular entry on this blog is, surprisingly enough, this quick post from Summer 2004 where I did a quick experiment to &ldquo;prove&rdquo; that in .NET the quickest way of proving that a string is empty is to compare its length to zero.
@@ -114,10 +115,10 @@ Well, as of .NET 2.0, we have a new static method on the System.String class –
   "name": "String.IsNullOrEmpty",
   "description": "The single most popular entry on this blog is, surprisingly enough, this quick post from Summer 2004 where I did a quick experiment to \u0026ldquo;prove\u0026rdquo; that in .NET the quickest way of proving that a string is empty is to compare its length to zero.\nWell, as of .NET 2.0, we have a new static method on the System.String class – IsNullOrEmpty – that allows you to easily test whether a string is, well, null or empty!\n",
   "keywords": [
-    
+    ".NET"
   ],
-  "articleBody": "The single most popular entry on this blog is, surprisingly enough, this quick post from Summer 2004 where I did a quick experiment to “prove” that in .NET the quickest way of proving that a string is empty is to compare its length to zero.\nWell, as of .NET 2.0, we have a new static method on the System.String class – IsNullOrEmpty – that allows you to easily test whether a string is, well, null or empty!\nIt’s one of many convenience methods in the .NET 2.0 FCL that tend to get overlooked as developers (perhaps rightly) focus on the big new features such as nullable types, generics, partial classes, etc. I find this method particularly handy when validating parameters passed to publicly-visible methods, as in:\npublic void SayHello( string name ) { if ( string.IsNullOrEmpty( name ) ) throw new ArgumentNullException( \"name\"; ); Console.WriteLine( string.Concat( \"Hello, \", name ) );} It’s not brain surgery, but it does make the resulting code a little cleaner than in the .NET 1.1 days. Oh, and in case you’re wondering, here’s how the method is implemented in System.String (thanks to Lutz Roeder’s Reflector):\npublic static bool IsNullOrEmpty( string value ) { if ( value != null ) { return ( value.Length == 0 ); } return true;} More info:\nMSDN documentation FxCop violation documentation ",
-  "wordCount" : "221",
+  "articleBody": "The single most popular entry on this blog is, surprisingly enough, this quick post from Summer 2004 where I did a quick experiment to “prove” that in .NET the quickest way of proving that a string is empty is to compare its length to zero.\nWell, as of .NET 2.0, we have a new static method on the System.String class – IsNullOrEmpty – that allows you to easily test whether a string is, well, null or empty!\nIt’s one of many convenience methods in the .NET 2.0 FCL that tend to get overlooked as developers (perhaps rightly) focus on the big new features such as nullable types, generics, partial classes, etc. I find this method particularly handy when validating parameters passed to publicly-visible methods, as in:\npublic void SayHello(string name) { if (string.IsNullOrEmpty(name)) throw new ArgumentNullException(\"name\"); Console.WriteLine(string.Concat(\"Hello, \", name)); } It’s not brain surgery, but it does make the resulting code a little cleaner than in the .NET 1.1 days. Oh, and in case you’re wondering, here’s how the method is implemented in System.String (thanks to Lutz Roeder’s Reflector):\npublic static bool IsNullOrEmpty(string value) { if ( value != null ) { return ( value.Length == 0 ); } return true; } More info:\nMSDN documentation FxCop violation documentation ",
+  "wordCount" : "209",
   "inLanguage": "en",
   "datePublished": "2006-02-25T14:02:00Z",
   "dateModified": "2025-04-23T21:18:19+01:00",
@@ -194,7 +195,7 @@ Well, as of .NET 2.0, we have a new static method on the System.String class –
             </li>
             <li>
                 <a href="https://familytree.iannelson.uk" title="Family Tree">
-                    <span>Family Tree</span>&nbsp;
+                    <span>Family Tree</span> 
                     <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
                         <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
@@ -221,12 +222,21 @@ Well, as of .NET 2.0, we have a new static method on the System.String class –
   <div class="post-content"><p>The single most popular entry on this blog is, surprisingly enough, this <a href="https://blog.iannelson.uk/is-my-string-empty-some-c-performance-metrics/">quick post from Summer 2004</a> where I did a quick experiment to &ldquo;prove&rdquo; that in .NET the quickest way of proving that a string is empty is to compare its length to zero.</p>
 <p>Well, as of .NET 2.0, we have a new static method on the System.String class – <code>IsNullOrEmpty</code> – that allows you to easily test whether a string is, well, null or empty!</p>
 <p>It’s one of many convenience methods in the .NET 2.0 FCL that tend to get overlooked as developers (perhaps rightly) focus on the big new features such as nullable types, generics, partial classes, etc. I find this method particularly handy when validating parameters passed to publicly-visible methods, as in:</p>
-<pre><code>public void SayHello( string name )  {    if ( string.IsNullOrEmpty( name ) )        throw new ArgumentNullException( &quot;name&quot;; );    Console.WriteLine( string.Concat( &quot;Hello, &quot;, name ) );}
-</code></pre>
-<p>It’s not brain surgery, but it does make the resulting code a little cleaner than in the .NET 1.1 days. Oh, and in case you’re wondering, here’s how the method is implemented in System.String (thanks to <a href="http://www.aisto.com/roeder/dotnet">Lutz Roeder’s Reflector</a>):</p>
-<pre><code>public static bool IsNullOrEmpty( string value )  {    if ( value != null )    {        return ( value.Length == 0 );    }    return true;}
-</code></pre>
-<p>More info:</p>
+<pre tabindex="0"><code>public void SayHello(string name)  
+{    
+    if (string.IsNullOrEmpty(name)) throw new ArgumentNullException(&#34;name&#34;);    
+    Console.WriteLine(string.Concat(&#34;Hello, &#34;, name));
+}
+</code></pre><p>It’s not brain surgery, but it does make the resulting code a little cleaner than in the .NET 1.1 days. Oh, and in case you’re wondering, here’s how the method is implemented in System.String (thanks to <a href="http://www.aisto.com/roeder/dotnet">Lutz Roeder’s Reflector</a>):</p>
+<pre tabindex="0"><code>public static bool IsNullOrEmpty(string value)  
+{    
+    if ( value != null ) 
+    { 
+        return ( value.Length == 0 );
+    }    
+    return true;
+}
+</code></pre><p>More info:</p>
 <ul>
 <li><a href="http://msdn2.microsoft.com/en-us/library/490acw3e%28vs.80%29.aspx">MSDN documentation</a></li>
 <li><a href="http://www.gotdotnet.com/team/fxcop/Docs/Rules/Performance/TestForEmptyStringsUsingStringLength.html">FxCop violation documentation</a></li>
@@ -237,6 +247,7 @@ Well, as of .NET 2.0, we have a new static method on the System.String class –
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="https://blog.iannelson.uk/tags/.net/">.NET</a></li>
     </ul>
   </footer>
 </article>

@@ -14,9 +14,9 @@ categories:
 ---
  
 
-I’m on a break between contracts this week, so decided to make the most of the good weather and headed into the Peak District to revisit&nbsp;[Stanage Edge][1]&nbsp;for the first time since 2000.&nbsp;
+I’m on a break between contracts this week, so decided to make the most of the good weather and headed into the Peak District to revisit [Stanage Edge][1] for the first time since 2000. 
 
-Unlike&nbsp;[my last visit twenty years ago][2], there were no ropes or belays involved this time. Instead my Mum and I had a leisurely wander in the blistering July sunshine up part of the&nbsp;[Long Causeway][3], before taking some snapshots at the latest version of the historic&nbsp;[Stanage Pole][4].
+Unlike [my last visit twenty years ago][2], there were no ropes or belays involved this time. Instead my Mum and I had a leisurely wander in the blistering July sunshine up part of the [Long Causeway][3], before taking some snapshots at the latest version of the historic [Stanage Pole][4].
 
 <div class="wp-block-image">
   <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/191848_IMG_2985.jpg" alt="" /></figure>

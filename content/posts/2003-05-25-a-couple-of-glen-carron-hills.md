@@ -10,7 +10,6 @@ categories:
   - Hills
 tags:
   - Scotland
-  - Hills
   - Munros
 
 ---

@@ -6,8 +6,239 @@
     <description>Recent content in .NET on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Apr 2025 21:18:19 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 03 May 2025 21:54:45 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/tags/.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Universal Comparer for .NET</title>
+      <link>https://blog.iannelson.uk/universal-comparer-for-net/</link>
+      <pubDate>Mon, 27 Feb 2006 22:02:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/universal-comparer-for-net/</guid>
+      <description>&lt;p&gt;Back in November 2004, I had the idea of making a &amp;ldquo;&lt;a href=&#34;https://blog.iannelson.uk/a-generic-sorter-for-strongly-typed-collections/&#34;&gt;Generic Sorter for Strongly-Typed Collections&lt;/a&gt;&amp;rdquo;, by harnessing the mighty power of reflection. Well, earlier this month somebody anonymously emailed me some code that takes this to a whole different level, enabling sorting on multiple properties and to arbitrary depths within the domain model hierarchy, all by taking a single SQL-like parameter. It’s really very clever indeed, and I’m going to use this method in the future – thanks, anonymous code fairy!&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Back in November 2004, I had the idea of making a &ldquo;<a href="https://blog.iannelson.uk/a-generic-sorter-for-strongly-typed-collections/">Generic Sorter for Strongly-Typed Collections</a>&rdquo;, by harnessing the mighty power of reflection. Well, earlier this month somebody anonymously emailed me some code that takes this to a whole different level, enabling sorting on multiple properties and to arbitrary depths within the domain model hierarchy, all by taking a single SQL-like parameter. It’s really very clever indeed, and I’m going to use this method in the future – thanks, anonymous code fairy!</p>
+<p>Oh, while I’m at it, I decided to rename the class, as the use of &ldquo;Generic&rdquo; could be confusing now we have the generic language feature in .NET 2.0. Also, this class doesn’t actually do the sorting, it just implements IComparer to do the comparing. So, with the help of a thesaurus, I settled on &ldquo;UniversalComparer&rdquo;!</p>
+
+
+
+<script src="https://gist.github.com/ianfnelson/9861758.js"></script>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>String.IsNullOrEmpty</title>
+      <link>https://blog.iannelson.uk/string-isnullorempty/</link>
+      <pubDate>Sat, 25 Feb 2006 14:02:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/string-isnullorempty/</guid>
+      <description>&lt;p&gt;The single most popular entry on this blog is, surprisingly enough, this &lt;a href=&#34;https://blog.iannelson.uk/is-my-string-empty-some-c-performance-metrics/&#34;&gt;quick post from Summer 2004&lt;/a&gt; where I did a quick experiment to &amp;ldquo;prove&amp;rdquo; that in .NET the quickest way of proving that a string is empty is to compare its length to zero.&lt;/p&gt;
+&lt;p&gt;Well, as of .NET 2.0, we have a new static method on the System.String class – &lt;code&gt;IsNullOrEmpty&lt;/code&gt; – that allows you to easily test whether a string is, well, null or empty!&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>The single most popular entry on this blog is, surprisingly enough, this <a href="https://blog.iannelson.uk/is-my-string-empty-some-c-performance-metrics/">quick post from Summer 2004</a> where I did a quick experiment to &ldquo;prove&rdquo; that in .NET the quickest way of proving that a string is empty is to compare its length to zero.</p>
+<p>Well, as of .NET 2.0, we have a new static method on the System.String class – <code>IsNullOrEmpty</code> – that allows you to easily test whether a string is, well, null or empty!</p>
+<p>It’s one of many convenience methods in the .NET 2.0 FCL that tend to get overlooked as developers (perhaps rightly) focus on the big new features such as nullable types, generics, partial classes, etc. I find this method particularly handy when validating parameters passed to publicly-visible methods, as in:</p>
+<pre tabindex="0"><code>public void SayHello(string name)  
+{    
+    if (string.IsNullOrEmpty(name)) throw new ArgumentNullException(&#34;name&#34;);    
+    Console.WriteLine(string.Concat(&#34;Hello, &#34;, name));
+}
+</code></pre><p>It’s not brain surgery, but it does make the resulting code a little cleaner than in the .NET 1.1 days. Oh, and in case you’re wondering, here’s how the method is implemented in System.String (thanks to <a href="http://www.aisto.com/roeder/dotnet">Lutz Roeder’s Reflector</a>):</p>
+<pre tabindex="0"><code>public static bool IsNullOrEmpty(string value)  
+{    
+    if ( value != null ) 
+    { 
+        return ( value.Length == 0 );
+    }    
+    return true;
+}
+</code></pre><p>More info:</p>
+<ul>
+<li><a href="http://msdn2.microsoft.com/en-us/library/490acw3e%28vs.80%29.aspx">MSDN documentation</a></li>
+<li><a href="http://www.gotdotnet.com/team/fxcop/Docs/Rules/Performance/TestForEmptyStringsUsingStringLength.html">FxCop violation documentation</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>ASP.NET 2.0 – one month on</title>
+      <link>https://blog.iannelson.uk/asp-net-2-0-one-month-on/</link>
+      <pubDate>Sat, 10 Dec 2005 19:12:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/asp-net-2-0-one-month-on/</guid>
+      <description>&lt;p&gt;It’s over a month now since Visual Studio 2005 officially RTM’d, and during that time I’ve been fortunate enough to have been using it for the majority of my time on most working days. One of the things we’re trying to achieve is the integration of several distinct internal corporate web applications into a bespoke portal system, with single sign-on, common authorization model, common look and feel, etc. There’s been quite a heavy R&amp;amp;D / proof-of-concept aspect to the workload so far, as we try out different ways of achieving this, and grow familiar with the new technologies available to us in ASP.NET 2.0.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>It’s over a month now since Visual Studio 2005 officially RTM’d, and during that time I’ve been fortunate enough to have been using it for the majority of my time on most working days. One of the things we’re trying to achieve is the integration of several distinct internal corporate web applications into a bespoke portal system, with single sign-on, common authorization model, common look and feel, etc. There’s been quite a heavy R&amp;D / proof-of-concept aspect to the workload so far, as we try out different ways of achieving this, and grow familiar with the new technologies available to us in ASP.NET 2.0.</p>
+<p>I thought I’d share with you a few of the links that have been of most help to me over the past month or so:</p>
+<ul>
+<li><a href="http://weblogs.asp.net/scottgu/">Scott Guthrie’s Blog</a>. If you develop ASP.NET applications, this is the one site, above all others, to which you should subscribe. Every single one of Scott’s posts provides extremely useful tips and tricks – such as <a href="http://weblogs.asp.net/scottgu/archive/2005/11/11/430382.aspx">Tips For Nested Master Pages and Design Time</a>, <a href="http://weblogs.asp.net/scottgu/archive/2005/11/18/430943.aspx">How to Change the Default Browser</a> (not obvious, is it?). More importantly, it’s here that you’ll first learn about VS2005 add-ons such as <a href="http://weblogs.asp.net/scottgu/archive/2005/11/06/429723.aspx">Web Deployment Projects</a> and the forthcoming new <a href="http://weblogs.asp.net/scottgu/archive/2005/12/07/432630.aspx">Web Project Model</a>.</li>
+<li><a href="http://pluralsight.com/blogs/craig/archive/2005/10/19/15696.aspx">Serializing a KeyedCollection</a>. It doesn’t work, but it’s not your fault – it’s a bug in the .NET Framework. Had I found this page earlier I would have saved myself multiple hours of frustration.</li>
+<li>Another serialization problem that foxed me for a while – I had a custom Principal object in a locally referenced assembly. Every time I tried to set my Context.User to an instance of this, I got a SerializationException with a “Type is not resolved..” message. Huh?  More Googling threw up <a href="http://tinyurl.com/7tp97">this post</a> [Google Groups] from Nov 29 explaining the issue and giving some workarounds.</li>
+<li><a href="http://weblogs.asp.net/dwahlin/archive/2005/11/16/430779.aspx">Dan Wahlin – Sharing Master Pages across IIS Applications</a>. This is *exactly* what we’ve been trying to do – Dan’s post gave us a real leg-up.</li>
+<li><a href="http://blogs.msdn.com/davidebb/archive/2005/10/30/487160.aspx">David Ebbo – Turning an ascx user control into a redistributable server control</a>. Sounds like a neat trick, although I haven’t had cause to try it yet.</li>
+<li><a href="http://west-wind.com/weblog/posts/3016.aspx">Rich Strahl – Understanding Page Inheritance in ASP.NET 2.0</a>. If you’ve got into the habit of dynamically loading user controls into your pages in ASP.NET 1.1, and were planning on doing the same going forward, then you should check out Rick’s article first. Things aren’t quite as straightforward as they used to be…</li>
+<li><a href="http://msdn.microsoft.com/asp.net/reference/design/default.aspx?pull=/library/en-us/dnaspp/html/aspnetusstan.asp">MSDN: Building ASP.NET 2.0 Web Sites using Web Standards</a>. Don’t scoff, it’s an important topic!  I’ve been waiting for valid (X)HTML output from Visual Studio for a long time, I’m glad to see MS are finally taking standards (and Accessibility) seriously.</li>
+<li><a href="http://msdn.microsoft.com/library/default.asp?url=https://blog.iannelson.uk/library/en-us/dnaspp/html/GridViewEx.asp">MSDN: GridView Examples</a>. <a href="http://www.scottonwriting.net/sowBlog/">Scott Mitchell’s</a> huge (122 page) article explaining how to do anything (well, almost) with the GridView control. Talking of which, you could do worse than also subscribe to Marcie Robillard’s new site, <a href="http://www.gridviewgirl.com/GridViewGirl/">GridViewGirl</a>.</li>
+</ul>
+<p>Also, two books which have really helped me get up to speed:</p>
+<ul>
+<li><a href="http://www.amazon.co.uk/exec/obidos/ASIN/0764559885">Professional .NET Generics</a> – a Wrox book (not a huge one, thankfully) on this useful new (to .NET) programming feature.</li>
+<li><a href="http://www.amazon.co.uk/exec/obidos/ASIN/0596008120">ASP.NET 2.0 – A Developer’s Notebook</a>. One of those books from the O’Reilly “notebook” series that aims to get you up to speed quickly on new features. It works.</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Stopwatch Class for .NET 1.1</title>
+      <link>https://blog.iannelson.uk/stopwatch-class-for-net-1-1/</link>
+      <pubDate>Tue, 05 Jul 2005 09:07:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/stopwatch-class-for-net-1-1/</guid>
+      <description>&lt;p&gt;Paul Welter has backported the System.Diagnostics.Stopwatch class from .NET 2.0 to 1.1. Handy.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://weblogs.asp.net/pwelter34/archive/2005/07/01/416999.aspx&#34;&gt;http://weblogs.asp.net/pwelter34/archive/2005/07/01/416999.aspx&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Paul Welter has backported the System.Diagnostics.Stopwatch class from .NET 2.0 to 1.1. Handy.</p>
+<p><a href="http://weblogs.asp.net/pwelter34/archive/2005/07/01/416999.aspx">http://weblogs.asp.net/pwelter34/archive/2005/07/01/416999.aspx</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>New Recommendations for String Comparisons in .NET 2.0</title>
+      <link>https://blog.iannelson.uk/new-recommendations-for-string-comparisons-in-net-2-0/</link>
+      <pubDate>Mon, 04 Jul 2005 19:07:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/new-recommendations-for-string-comparisons-in-net-2-0/</guid>
+      <description>&lt;p&gt;I know it’s a rather geeky and dry subject, but I found &lt;a href=&#34;http://msdn.microsoft.com/netframework/default.aspx?pull=/library/en-us/dndotnet/html/StringsinNET20.asp&#34;&gt;this MSDN article on new recommendations for using strings in .NET 2.0&lt;/a&gt; quite interesting. It’s going to be difficult to stop using CultureInfo.InvariantCulture habitually!&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I know it’s a rather geeky and dry subject, but I found <a href="http://msdn.microsoft.com/netframework/default.aspx?pull=/library/en-us/dndotnet/html/StringsinNET20.asp">this MSDN article on new recommendations for using strings in .NET 2.0</a> quite interesting. It’s going to be difficult to stop using CultureInfo.InvariantCulture habitually!</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>eXtreme .NET</title>
+      <link>https://blog.iannelson.uk/extreme-net/</link>
+      <pubDate>Sat, 18 Jun 2005 21:06:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/extreme-net/</guid>
+      <description>&lt;p&gt;Up at 0500 yesterday and onto the early GNER Mallard down to that London town for the MSDN briefing on eXtreme programming with .NET. It was pleasant not to be driving for a change, and speeding through the Yorkshire countryside early on a midsummer morning was very relaxing – what a stark contrast with the hot crowded tube that I had to catch on arrival to the big smoke. Three stops down to Oxford Circus seemed to last as long as the entire preceeding train journey. How people do this every single day I do not know..&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Up at 0500 yesterday and onto the early GNER Mallard down to that London town for the MSDN briefing on eXtreme programming with .NET. It was pleasant not to be driving for a change, and speeding through the Yorkshire countryside early on a midsummer morning was very relaxing – what a stark contrast with the hot crowded tube that I had to catch on arrival to the big smoke. Three stops down to Oxford Circus seemed to last as long as the entire preceeding train journey. How people do this every single day I do not know..</p>
+<p>Anyway, I digress. The tech briefing was excellent, a full day’s set of presentations on eXtreme development practices by the very erudite and engaging <a href="http://www.roodyn.com/">Dr Neil Roodyn</a>, with additional demos by some of the MSDN UK guys. During questioning, nobody in the audience was arguing against using the XP practices espoused, in fact most questioners simply wanted to know how to get project managers and business leaders bought in to the ideas. The general consensus was that suits and customers don’t want to hear about pair programming and <a href="http://www.testdriven.com/">TDD</a>, they want to see devs working on coding new functionality, which is obviously frustrating for those of us cutting the code. Hopefully sessions like the one on Friday will help to inspire a groundswell of enthusiasm for agile practices amongst developers and team leads which the business leaders will eventually be unable to ignore. Dr Neil suggested that we don’t try to immediately enforce all 12 XP principles in our workplaces, but start using those which work for us, basically those which we can sneak in under the managements noses!  Nobody can stop you from writing unit tests and adopting a TDD approach to your coding, and may only start asking questions when they see how much more productive you’re becoming, and how fewer bugs are found in your code. After all, producing quality code is your job, and nobody will stop you from doing your job well.</p>
+<hr>
+<p>While I remember, some of the books mentioned by Neil were:</p>
+<ul>
+<li><a href="http://www.amazon.co.uk/exec/obidos/ASIN/0201604566">&ldquo;Software For Your Head&rdquo; by Jim McCarthy</a></li>
+<li><a href="http://www.amazon.co.uk/exec/obidos/ASIN/0349113467">&ldquo;The Tipping Point&rdquo; by Malcolm Gladwell</a></li>
+<li><a href="http://www.amazon.co.uk/exec/obidos/ASIN/1587991845">&ldquo;Fooled By Randomness&rdquo; by Nassim Nicholas Taleb</a></li>
+</ul>
+<p>and I have noted down that I should find the time to visit:</p>
+<ul>
+<li><a href="http://www.microsoft.com/uk/msdn/postevents">http://www.microsoft.com/uk/msdn/postevents</a> – for a copy of the slides</li>
+<li><a href="http://agilealliance.com">http://agilealliance.com</a></li>
+<li><a href="http://www.xpertise.co.uk">http://www.xpertise.co.uk</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Tech Books</title>
+      <link>https://blog.iannelson.uk/tech-books/</link>
+      <pubDate>Sat, 18 Jun 2005 21:06:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/tech-books/</guid>
+      <description>&lt;p&gt;I succumbed to temptation and bought another book at the MSDN briefing yesterday, pausing only out of concern that the guy who mans the &lt;a href=&#34;http://www.computermanuals.co.uk&#34;&gt;Computer Manuals&lt;/a&gt; stand at these events might think that I’m stalking him (or fancy him!). Having determined that I could hand over my Barclaycard whilst flashing my wedding ring, I brought my current reading list up to three:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.uk/exec/obidos/ASIN/078214361X&#34;&gt;Developer to Designer: GUI Design for the Busy Developer&lt;/a&gt; – this was a wedding present from my mother-in-law and is proving to be an interesting, easy-going read so far. My competencies lie in the middle tier and database, and although I’m technically capable of making GUIs, I prefer to leave the design up to others. It’s inevitable though that most coders end up doing some design, and this book is, er, designed (sorry) to help with that process. The early section of the book concentrates on each UI element in turn, whilst the later part of the book looks at putting it all together, and has particular focus on the web – layout design patterns and interaction patterns. It’s a good read, making a nice contrast from the heavier books, and I’m pleased to learn that I’m not alone in hating Outlook’s labyrinthine Tools-&amp;gt;Options dialog!&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I succumbed to temptation and bought another book at the MSDN briefing yesterday, pausing only out of concern that the guy who mans the <a href="http://www.computermanuals.co.uk">Computer Manuals</a> stand at these events might think that I’m stalking him (or fancy him!). Having determined that I could hand over my Barclaycard whilst flashing my wedding ring, I brought my current reading list up to three:</p>
+<p><a href="http://www.amazon.co.uk/exec/obidos/ASIN/078214361X">Developer to Designer: GUI Design for the Busy Developer</a> – this was a wedding present from my mother-in-law and is proving to be an interesting, easy-going read so far. My competencies lie in the middle tier and database, and although I’m technically capable of making GUIs, I prefer to leave the design up to others. It’s inevitable though that most coders end up doing some design, and this book is, er, designed (sorry) to help with that process. The early section of the book concentrates on each UI element in turn, whilst the later part of the book looks at putting it all together, and has particular focus on the web – layout design patterns and interaction patterns. It’s a good read, making a nice contrast from the heavier books, and I’m pleased to learn that I’m not alone in hating Outlook’s labyrinthine Tools-&gt;Options dialog!</p>
+<p><a href="http://www.amazon.co.uk/exec/obidos/ASIN/0321245660">Effective C#: 50 Specific Ways to Improve Your C#</a> – another good read that isn’t too heavy, this is a good book of short hints and tips to dip into when waiting for the latest CTPs of VS and SQL Server to install (well, at least that’s when I’ve found myself reading it). Depending on your level of experience with C#, you may find some of these suggestions are teaching you to suck eggs, but they all come with detailed justifications that provide useful insights into .NET internals, and out of fifty points you’re bound to find something that you didn’t previously know. If you’re new to C#, get this book now and put it’s suggestions into practice from the start. If you think you’re an expert, borrow a copy and use it as a checklist of your knowledge.</p>
+<p><a href="http://www.amazon.co.uk/exec/obidos/ASIN/0596007124">Head First Design Patterns</a> – this is the book I picked up yesterday (yes, partly because of the cute blonde on the cover), but it was the outstanding content that stopped me putting it down again. This doesn’t feel like a normal O’Reilly book, and it feels very far removed from the original Gang of Four’s Design Patterns book – yet it covers the same material. This is a patterns book that won’t send you to sleep, that will make you laugh, that will make those tricky concepts sink in and your misconceptions float away. It’s cool, clever, succinct and quite unlike any other tech book I’ve read. The only slight downer is that all the examples are in Java, but this really shouldn’t be an issue for any half-competent C# developer. Superb.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Framework for Persisting .NET Classes Into SQL Server Image Fields, With Locking Ability</title>
+      <link>https://blog.iannelson.uk/framework-for-persisting-net-classes-into-sql-server-image-fields-with-locking-ability/</link>
+      <pubDate>Tue, 18 Jan 2005 23:01:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/framework-for-persisting-net-classes-into-sql-server-image-fields-with-locking-ability/</guid>
+      <description>&lt;p&gt;There seems to have been a lack of .NET-related stuff on this blog recently, so let me show you something I cobbled together for work purposes last Wednesday:&lt;/p&gt;
+&lt;p&gt;A common requirement we have in our ASP.NET applications is how to reliably persist object instances for a lengthy period of time. End users shouldn’t have to concern themselves with the concept of Session expiry, and it’s unacceptable for them to return to their PC after nipping off for a coffee to be confronted with the dreaded &amp;ldquo;Object reference not set to an instance of an object&amp;rdquo; when they try to continue editing their basket / sales order / timesheet / whatever.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>There seems to have been a lack of .NET-related stuff on this blog recently, so let me show you something I cobbled together for work purposes last Wednesday:</p>
+<p>A common requirement we have in our ASP.NET applications is how to reliably persist object instances for a lengthy period of time. End users shouldn’t have to concern themselves with the concept of Session expiry, and it’s unacceptable for them to return to their PC after nipping off for a coffee to be confronted with the dreaded &ldquo;Object reference not set to an instance of an object&rdquo; when they try to continue editing their basket / sales order / timesheet / whatever.</p>
+<p>One pattern to solve this, detailed by <a href="http://www.martinfowler.com">Martin Fowler</a> in <a href="http://www.amazon.co.uk/exec/obidos/ASIN/0321127420">Patterns of Enterprise Application Architecture</a>, is the <strong>Serialized LOB</strong> (Large Object), which works by serializing the object in question into binary or text which is then stored in a single database field.</p>
+<p>An excellent example of how to achieve this using SQL Server and .NET is given by <a href="http://www.eggheadcafe.com/articles/20020929.asp">Peter A Bromberg in this Egghead Cafe article</a>.</p>
+<p>Building on this example, I’ve put together a generic assembly for persisting and retrieving serializable classes into SQL Server, referenced by a combination of two strings (a username and a key). It is essentially an alternative to storing objects in Session or ViewState. As an additional benefit, it allows you to &ldquo;lock&rdquo; objects based on the key, so that only one user can store the same object at a given point in time.</p>
+<p>The zip file below includes the source and a SQL script for setting up the required database table and four stored procedures, as well as some unit tests (yes, I am sticking to my New Year’s Resolution!).</p>
+<p>The DataStore class contains the various static methods necessary to add, retrieve and delete objects from the store. For example, to save an object you can simply make a call along the lines of:</p>
+<p><code>DataStore.Add(&quot;joebloggs&quot;,&quot;order1234&quot;,objOrder);</code></p>
+<p>Note that if an object already exists in the store for a given user/key combination, it will be overwritten.</p>
+<p>If you additionally want to ensure that no other users have also stored an object with the same name into the store, pass true into the optional fourth parameter:</p>
+<p><code>DataStore.Add(&quot;joebloggs&quot;,&quot;order1234&quot;,objOrder,true);</code></p>
+<p>this would throw an ObjectLockedException if any user other than “joebloggs” had previously locked an object called “order1234”.</p>
+<p>To retrieve an object, use the Get method. If the object is not found, this will return null. Otherwise, an instance of PersistedObject will be returned – this details information such the datetime at which the object was originally stored and last stored, as well as whether it is locked. The actual object itself is accessible through a &ldquo;StoredObject&rdquo; property.</p>
+<p>So, to retrieve the sales order object above from the store, a call would be like this:</p>
+<p><code>SalesOrder objOrder = DataStore.Get(&quot;joebloggs&quot;,&quot;order1234&quot;).StoredObject as SalesOrder;</code></p>
+<p>That’s pretty much it. There are also methods to retrieve a collection of objects from the store (GetByUser, GetByKey), as well as methods to remove objects from the store (Remove, RemoveByKey, RemoveByUser, Clear).</p>
+<p>Feel free to use and cannibalize this code as you see fit. Let me know if you find it useful or interesting, and of course if you have any suggestions for improvements. Oh, and of course it should go without saying that I make no guarantee as to the suitability of this code for any purpose and accept no responsibility for any loss of data etcetera!</p>
+<hr>
+<p><strong>Updated 30 October 2005:</strong></p>
+<p>I’ve reworked this code for .NET 2.0, and removed the dependency on the Microsoft Data Access Application Block. Also, the NUnit tests have been replaced with VS2005 unit tests.</p>
+<p><strong>Updated 17 October 2011:</strong></p>
+<p>This project has been <a href="https://github.com/ianfnelson/DataStorage">migrated to GitHub</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>A Generic Sorter For Strongly-Typed Collections</title>
+      <link>https://blog.iannelson.uk/a-generic-sorter-for-strongly-typed-collections/</link>
+      <pubDate>Sun, 07 Nov 2004 21:11:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/a-generic-sorter-for-strongly-typed-collections/</guid>
+      <description>&lt;p&gt;Late last night I was doing some development work on a website for our investment club. I had a strongly-typed collection of &amp;ldquo;Stock&amp;rdquo; objects, and wanted to be able to sort them on any parameter (StockName, SharePrice, Volume, MarketCap, etc..) in either descending or ascending order. I didn’t want to have to write a separate comparer for each property. Reflection to the rescue! Below is a GenericSorter class, the use of which allows for the development of a Sort() method on the collection taking as a parameter the name of the property on which to sort. Smart.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Late last night I was doing some development work on a website for our investment club. I had a strongly-typed collection of &ldquo;Stock&rdquo; objects, and wanted to be able to sort them on any parameter (StockName, SharePrice, Volume, MarketCap, etc..) in either descending or ascending order. I didn’t want to have to write a separate comparer for each property. Reflection to the rescue! Below is a GenericSorter class, the use of which allows for the development of a Sort() method on the collection taking as a parameter the name of the property on which to sort. Smart.</p>
+
+
+
+<script src="https://gist.github.com/ianfnelson/9842860.js"></script>
+<p>Bob’s your uncle.</p>
+<p><strong>Update</strong> [2006-02-27]: The above class is no match for some <a href="https://blog.iannelson.uk/universal-comparer-for-net/">much more fully-featured code</a> that was anonymously sent to me earlier this month which allows for sorting on multiple properties to arbitrary depth within the domain object model, using a simple SQL-like syntax. <a href="https://blog.iannelson.uk/universal-comparer-for-net/">Check it out…</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>NHibernate</title>
+      <link>https://blog.iannelson.uk/nhibernate/</link>
+      <pubDate>Fri, 03 Sep 2004 19:09:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/nhibernate/</guid>
+      <description>&lt;p&gt;There’s &lt;em&gt;so&lt;/em&gt; much good open-source .Net development going on these days – .Text, nGallery, nUnit, etc – it’s a really interesting time to be a developer. My colleague Colin just drew my attention to &lt;a href=&#34;http://sourceforge.net/projects/nhibernate&#34;&gt;nHibernate&lt;/a&gt;, an object persistence library for relational databases. &lt;a href=&#34;http://www.theserverside.net/articles/showarticle.tss?id=NHibernate&#34;&gt;TheServerSide.net&lt;/a&gt; has an excellent article summarising its use. Having just finished a long project where a large amount of time was spent writing “plumbing” code to persist objects to and from a SQL Server database, I’m finding the idea of using an O/R mapper such as this very appealing the next time round. Just as incorporating the &lt;a href=&#34;http://msdn.microsoft.com/library/default.asp?url=https://blog.iannelson.uk/library/en-us/dnbda/html/daab-rm.asp&#34;&gt;MS DAAB block&lt;/a&gt; into solutions has reduced the amount of data access code required, I’m hopeful that embracing frameworks such as nHibernate will leave us with more time to spend focusing on addressing the business needs and less on re-solving technical issues.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>There’s <em>so</em> much good open-source .Net development going on these days – .Text, nGallery, nUnit, etc – it’s a really interesting time to be a developer. My colleague Colin just drew my attention to <a href="http://sourceforge.net/projects/nhibernate">nHibernate</a>, an object persistence library for relational databases. <a href="http://www.theserverside.net/articles/showarticle.tss?id=NHibernate">TheServerSide.net</a> has an excellent article summarising its use. Having just finished a long project where a large amount of time was spent writing “plumbing” code to persist objects to and from a SQL Server database, I’m finding the idea of using an O/R mapper such as this very appealing the next time round. Just as incorporating the <a href="http://msdn.microsoft.com/library/default.asp?url=https://blog.iannelson.uk/library/en-us/dnbda/html/daab-rm.asp">MS DAAB block</a> into solutions has reduced the amount of data access code required, I’m hopeful that embracing frameworks such as nHibernate will leave us with more time to spend focusing on addressing the business needs and less on re-solving technical issues.</p>
+<p>If anyone has had experience of using nHibernate or similar O/R mapper in an enterprise .NET project, I’d be interesting in hearing your opinions. Would you use it again? Did it genuinely help to abstract away the object persistence/retrieval mechanisms from the domain model, or is it just one more layer to worry about and keep up to date? Let me know.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Is My String Empty?  Some C# Performance Metrics</title>
+      <link>https://blog.iannelson.uk/is-my-string-empty-some-c-performance-metrics/</link>
+      <pubDate>Fri, 30 Jul 2004 10:07:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/is-my-string-empty-some-c-performance-metrics/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Update (25/02/2006)&lt;/strong&gt; – Hey, we now have &lt;a href=&#34;https://blog.iannelson.uk/string-isnullorempty/&#34;&gt;String.IsNullOrEmpty&lt;/a&gt;, you know!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;What’s the quickest way, in C#, to test whether a string is empty? This is a question which came to my mind yesterday. I’ve always been fond of:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;if (myString==String.Empty)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;but it occured to me that this necessitates the creation and destruction of a second object (the empty string with which we’re comparing), so maybe it would be quicker to write:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>Update (25/02/2006)</strong> – Hey, we now have <a href="https://blog.iannelson.uk/string-isnullorempty/">String.IsNullOrEmpty</a>, you know!</p>
+<hr>
+<p>What’s the quickest way, in C#, to test whether a string is empty? This is a question which came to my mind yesterday. I’ve always been fond of:</p>
+<p><code>if (myString==String.Empty)</code></p>
+<p>but it occured to me that this necessitates the creation and destruction of a second object (the empty string with which we’re comparing), so maybe it would be quicker to write:</p>
+<p><code>if (myString.Length==0)</code></p>
+<p>And looking through some existing code I also found examples of:</p>
+<p><code>if String.Equals(myString,String.Empty)</code></p>
+<p>I decided that an experiment was in order, so wrote a quick windows application to try each method in turn. I was also interested to see if there was a difference in performance where the result was true than when it was false.</p>
+<p>Here are the results, with times in milliseconds for 50 million iterations:</p>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>true result</th>
+          <th>false result</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>myString==String.Empty</code></td>
+          <td>1172</td>
+          <td>2484</td>
+      </tr>
+      <tr>
+          <td><code>myString.Length==0</code></td>
+          <td>531</td>
+          <td>531</td>
+      </tr>
+      <tr>
+          <td><code>String.Equals(myString,String.Empty)</code></td>
+          <td>611</td>
+          <td>1893</td>
+      </tr>
+  </tbody>
+</table>
+<p>So there you have it. Experimental evidence that the fastest way to test for an empty string is to test whether it’s Length property is zero (and that this also takes exactly the same length of time irrespective of whether the result is true or false).. unless anyone knows of a quicker method? Of course, since we’re only saving ourselves around 50 nanoseconds per iteration against using the slowest method shown above, this is hardly going to result in a noticeable performance gain!!</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Inheriting From BaseValidator to Make Custom Validation Controls</title>
       <link>https://blog.iannelson.uk/inheriting-from-basevalidator-to-make-custom-validation-controls/</link>

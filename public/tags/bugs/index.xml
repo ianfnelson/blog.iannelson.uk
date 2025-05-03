@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bugs on Ian Nelson</title>
+    <link>https://blog.iannelson.uk/tags/bugs/</link>
+    <description>Recent content in Bugs on Ian Nelson</description>
+    <generator>Hugo -- 0.146.6</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 21 Apr 2025 21:56:00 +0100</lastBuildDate>
+    <atom:link href="https://blog.iannelson.uk/tags/bugs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>999999999..</title>
+      <link>https://blog.iannelson.uk/zetafax-999/</link>
+      <pubDate>Tue, 11 Jan 2005 23:01:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/zetafax-999/</guid>
+      <description>&lt;p&gt;Never underestimate the stupidity of users—or the benefits of a little field validation.&lt;/p&gt;
+&lt;p&gt;One of the web-based systems I’ve been developing allows users to enter a customer’s fax number and automatically fax confirmation details (using Zetafax). It’s been working pretty well—until we discovered a flaw today. One user, tired of obtaining valid fax details from customers, had been entering a string of nines and then actually attempting to send the fax to this number.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Never underestimate the stupidity of users—or the benefits of a little field validation.</p>
+<p>One of the web-based systems I’ve been developing allows users to enter a customer’s fax number and automatically fax confirmation details (using Zetafax). It’s been working pretty well—until we discovered a flaw today. One user, tired of obtaining valid fax details from customers, had been entering a string of nines and then actually attempting to send the fax to this number.</p>
+<p>We first learned of this issue today, when West Yorkshire Police asked us to stop trying to send faxes to the emergency services!</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

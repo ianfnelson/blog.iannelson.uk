@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Software on Ian Nelson</title>
+    <link>https://blog.iannelson.uk/tags/software/</link>
+    <description>Recent content in Software on Ian Nelson</description>
+    <generator>Hugo -- 0.146.6</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 23 Apr 2025 19:18:23 +0100</lastBuildDate>
+    <atom:link href="https://blog.iannelson.uk/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>John&#39;s Background Switcher</title>
+      <link>https://blog.iannelson.uk/johns-background-switcher/</link>
+      <pubDate>Sat, 10 Dec 2005 20:12:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/johns-background-switcher/</guid>
+      <description>&lt;p&gt;What’s on your desktop background?  Some bland corporate logo perhaps, or maybe one of the bog-standard Windows wallpapers, or maybe a photograph you took years ago?&lt;br&gt;
+Let’s face it, when was the last time you changed your background?  Wouldn’t it be great if you could specify a few keywords and have your background periodically change to show a new image courtesy of Flickr?  Say, a sunrise, a mountain, a wintry scene, a favourite holiday destination, or, well, whatever takes your fancy?&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>What’s on your desktop background?  Some bland corporate logo perhaps, or maybe one of the bog-standard Windows wallpapers, or maybe a photograph you took years ago?<br>
+Let’s face it, when was the last time you changed your background?  Wouldn’t it be great if you could specify a few keywords and have your background periodically change to show a new image courtesy of Flickr?  Say, a sunrise, a mountain, a wintry scene, a favourite holiday destination, or, well, whatever takes your fancy?</p>
+<p>This is exactly what <a href="http://www.johnsadventures.com/backend/BackgroundSwitcher/index.html">John’s Background Switcher</a> (version 2.0!) does, and it’s available for free right now.  I’ve had the pleasure of beta-testing this over the past few weeks, and it really does work!  I used to claim that I needed two screens for the productivity benefits, but now I find myself devoting one of them to cheering my day with regularly changing pictures courtesy of JBS.  Perhaps this is a good time to try recycling one of our old laptops as a digital photo frame?!</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

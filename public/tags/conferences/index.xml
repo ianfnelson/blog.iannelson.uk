@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Conferences on Ian Nelson</title>
+    <link>https://blog.iannelson.uk/tags/conferences/</link>
+    <description>Recent content in Conferences on Ian Nelson</description>
+    <generator>Hugo -- 0.146.6</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 23 Apr 2025 21:18:19 +0100</lastBuildDate>
+    <atom:link href="https://blog.iannelson.uk/tags/conferences/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>eXtreme .NET</title>
+      <link>https://blog.iannelson.uk/extreme-net/</link>
+      <pubDate>Sat, 18 Jun 2005 21:06:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/extreme-net/</guid>
+      <description>&lt;p&gt;Up at 0500 yesterday and onto the early GNER Mallard down to that London town for the MSDN briefing on eXtreme programming with .NET. It was pleasant not to be driving for a change, and speeding through the Yorkshire countryside early on a midsummer morning was very relaxing – what a stark contrast with the hot crowded tube that I had to catch on arrival to the big smoke. Three stops down to Oxford Circus seemed to last as long as the entire preceeding train journey. How people do this every single day I do not know..&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Up at 0500 yesterday and onto the early GNER Mallard down to that London town for the MSDN briefing on eXtreme programming with .NET. It was pleasant not to be driving for a change, and speeding through the Yorkshire countryside early on a midsummer morning was very relaxing – what a stark contrast with the hot crowded tube that I had to catch on arrival to the big smoke. Three stops down to Oxford Circus seemed to last as long as the entire preceeding train journey. How people do this every single day I do not know..</p>
+<p>Anyway, I digress. The tech briefing was excellent, a full day’s set of presentations on eXtreme development practices by the very erudite and engaging <a href="http://www.roodyn.com/">Dr Neil Roodyn</a>, with additional demos by some of the MSDN UK guys. During questioning, nobody in the audience was arguing against using the XP practices espoused, in fact most questioners simply wanted to know how to get project managers and business leaders bought in to the ideas. The general consensus was that suits and customers don’t want to hear about pair programming and <a href="http://www.testdriven.com/">TDD</a>, they want to see devs working on coding new functionality, which is obviously frustrating for those of us cutting the code. Hopefully sessions like the one on Friday will help to inspire a groundswell of enthusiasm for agile practices amongst developers and team leads which the business leaders will eventually be unable to ignore. Dr Neil suggested that we don’t try to immediately enforce all 12 XP principles in our workplaces, but start using those which work for us, basically those which we can sneak in under the managements noses!  Nobody can stop you from writing unit tests and adopting a TDD approach to your coding, and may only start asking questions when they see how much more productive you’re becoming, and how fewer bugs are found in your code. After all, producing quality code is your job, and nobody will stop you from doing your job well.</p>
+<hr>
+<p>While I remember, some of the books mentioned by Neil were:</p>
+<ul>
+<li><a href="http://www.amazon.co.uk/exec/obidos/ASIN/0201604566">&ldquo;Software For Your Head&rdquo; by Jim McCarthy</a></li>
+<li><a href="http://www.amazon.co.uk/exec/obidos/ASIN/0349113467">&ldquo;The Tipping Point&rdquo; by Malcolm Gladwell</a></li>
+<li><a href="http://www.amazon.co.uk/exec/obidos/ASIN/1587991845">&ldquo;Fooled By Randomness&rdquo; by Nassim Nicholas Taleb</a></li>
+</ul>
+<p>and I have noted down that I should find the time to visit:</p>
+<ul>
+<li><a href="http://www.microsoft.com/uk/msdn/postevents">http://www.microsoft.com/uk/msdn/postevents</a> – for a copy of the slides</li>
+<li><a href="http://agilealliance.com">http://agilealliance.com</a></li>
+<li><a href="http://www.xpertise.co.uk">http://www.xpertise.co.uk</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

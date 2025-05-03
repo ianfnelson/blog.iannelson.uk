@@ -9,7 +9,6 @@ categories:
   - Hills
 tags:
   - Scotland
-  - Hills
 
 ---
 

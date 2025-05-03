@@ -8,7 +8,6 @@ categories:
   - Hills
 tags:
   - Derbyshire
-  - Hills
   - Climbing
 
 ---

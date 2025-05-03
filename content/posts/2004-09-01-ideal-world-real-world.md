@@ -1,12 +1,13 @@
 ---
 title: Ideal World / Real World
-
 date: 2004-09-01T09:09:00+00:00
 url: /ideal-world-real-world/
 
 categories:
   - Books
   - Tech
+tags:
+  - Career
 
 ---
 A major project I’ve been working on for the last ten months has just gone live, giving me some time recently to take stock, do a bit of R&D, and catch up on some reading. I’ve been reflecting on how to approach things better in the future, and to this end, I’ve just finished two very different books about the software development process.
