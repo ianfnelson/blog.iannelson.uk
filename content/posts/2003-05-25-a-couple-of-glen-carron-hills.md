@@ -8,26 +8,23 @@ cover:
 
 categories:
   - Hills
+tags:
+  - Scotland
+  - Hills
+  - Munros
 
 ---
 Two of the hills that rise above Glen Carron.
 
-  * Moruisg (928m / 3045ft)
-  * Sgurr nan Ceannaichean (915m / 3002ft)
-    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_1490.jpg)
-    
-    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_1482.jpg)
-    
-    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_1483.jpg)
+* Moruisg (928m / 3045ft)
+* Sgurr nan Ceannaichean (915m / 3002ft)
 
-    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_1484.jpg)
-    
-    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_1485.jpg)
-    
-    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_1486.jpg)
-
-    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_1487.jpg)
-    
-    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_1488.jpg)
-    
-    ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_1489.jpg)
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_1490.jpg)
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_1482.jpg)
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_1483.jpg)
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_1484.jpg)
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_1485.jpg)
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_1486.jpg)
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_1487.jpg)
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_1488.jpg)
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_1489.jpg)
