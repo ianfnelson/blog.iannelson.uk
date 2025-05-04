@@ -174,6 +174,21 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">WCF – Logging Before and After Operation Invocation
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Here’s another custom WCF EndpointBehavior I found useful recently.
+Not content with logging all unhandled errors, I wanted to output a DEBUG level log message before and after every operation invocation. As before, I’m using the Castle Windsor Logging Facility to handle my logging, but you can swap that out for your logger of choice if required.
+Firstly, here’s the EndPointBehaviour itself. This adds a custom CallContextInitializer to every service operation:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2010-04-09 13:04:00 +0000 +0000'>9 April 2010</span></footer>
+  <a class="entry-link" aria-label="post link to WCF – Logging Before and After Operation Invocation" href="https://blog.iannelson.uk/wcf-logging-before-and-after-operation-invocation/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">WCF – NHibernate Unit Of Work Endpoint Behavior
     </h2>
   </header>
@@ -388,23 +403,6 @@ Phew! I think that the time has now come for me to take a bit of a break from th
   </div>
   <footer class="entry-footer"><span title='2009-05-22 07:05:00 +0000 +0000'>22 May 2009</span></footer>
   <a class="entry-link" aria-label="post link to New Office Photos" href="https://blog.iannelson.uk/new-office-photos/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2009/05/nh1_2-1.png" alt="">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">NHProf – NHibernate Profiler
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>The inimitable Ayende Rahien is close to releasing version 1.0 of his NHibernate Profiler tool, and it really is shaping up to be a rather lovely little addition to my developer toolbox.
-In much the same way that we can use SQL Server Profiler to monitor database activity, and ANTS Profiler to monitor the performance and memory usage of .NET applications, NHProf profiles the activity of the data access layer (NHibernate), and even goes as far as providing helpful hints for potential improvements.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2009-05-19 17:05:00 +0000 +0000'>19 May 2009</span></footer>
-  <a class="entry-link" aria-label="post link to NHProf – NHibernate Profiler" href="https://blog.iannelson.uk/nhprof-nhibernate-profiler/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
