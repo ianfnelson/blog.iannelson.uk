@@ -6,12 +6,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Castle Windsor Array Resolution Gotcha | Ian Nelson</title>
-<meta name="keywords" content="">
+<meta name="keywords" content=".NET, CastleWindsor">
 <meta name="description" content="The shiny new system which I’ve recently been developing makes heavy use of the Chain of Responsibility pattern, and as such a number of service classes take an array of objects in the constructor:
-I’m using Castle Windsor for dependency management, so I’ve been fluently registering all instances of ILeadAllocator:
-Easy, right? And yet at runtime Windsor surprised me by throwing this exception in my face:
 
-Castle.MicroKernel.Handlers.HandlerException: Can’t create component ‘Marshalls.Leads.ApplicationService.LeadAllocationService’ as it has dependencies to be satisfied.">
+
+
+  
+
+
+I’m using Castle Windsor for dependency management, so I’ve been fluently registering all instances of ILeadAllocator:
+
+
+
+  
+
+
+Easy, right? And yet at runtime Windsor surprised me by throwing this exception in my face:
+Castle.MicroKernel.Handlers.HandlerException: Can’t create component &amp;#8216;Marshalls.Leads.ApplicationService.LeadAllocationService’ as it has dependencies to be satisfied.
+
+Marshalls.Leads.ApplicationService.LeadAllocationService is waiting for the following dependencies:
+
+Keys (components with specific keys)
+
+– leadAllocators which was not registered.
+Huh?! What gives? Well, a little Googling revealed this post from Castle founder Hamilton Verissimo explaining that by default the Castle MicroKernel expects me to define what should be included in the array. But he goes on to explain that the behaviour I desire can be achieved by registering a custom subresolver with the microkernel. That subresolver has since been included in the Castle Windsor distro, so in actual fact all I needed to do was add the following line of code when configuring my container:">
 <meta name="author" content="">
 <link rel="canonical" href="https://blog.iannelson.uk/castle-windsor-array-resolution-gotcha/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.507965cef202c8ad6ac74222b0ed770dc0aaeab2c82c87ebdbd46b4f8b3196e2.css" integrity="sha256-UHllzvICyK1qx0IisO13DcCq6rLILIfr29RrT4sxluI=" rel="preload stylesheet" as="style">
@@ -79,19 +97,39 @@ Castle.MicroKernel.Handlers.HandlerException: Can’t create component ‘Marsha
   <meta property="og:description" content="The shiny new system which I’ve recently been developing makes heavy use of the Chain of Responsibility pattern, and as such a number of service classes take an array of objects in the constructor:
 I’m using Castle Windsor for dependency management, so I’ve been fluently registering all instances of ILeadAllocator:
 Easy, right? And yet at runtime Windsor surprised me by throwing this exception in my face:
-Castle.MicroKernel.Handlers.HandlerException: Can’t create component ‘Marshalls.Leads.ApplicationService.LeadAllocationService’ as it has dependencies to be satisfied.">
+Castle.MicroKernel.Handlers.HandlerException: Can’t create component &amp;#8216;Marshalls.Leads.ApplicationService.LeadAllocationService’ as it has dependencies to be satisfied. Marshalls.Leads.ApplicationService.LeadAllocationService is waiting for the following dependencies: Keys (components with specific keys) – leadAllocators which was not registered. Huh?! What gives? Well, a little Googling revealed this post from Castle founder Hamilton Verissimo explaining that by default the Castle MicroKernel expects me to define what should be included in the array. But he goes on to explain that the behaviour I desire can be achieved by registering a custom subresolver with the microkernel. That subresolver has since been included in the Castle Windsor distro, so in actual fact all I needed to do was add the following line of code when configuring my container:">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2009-10-26T10:10:00+00:00">
-    <meta property="article:modified_time" content="2025-04-23T21:18:19+01:00">
+    <meta property="article:modified_time" content="2025-05-04T20:46:51+01:00">
+    <meta property="article:tag" content=".NET">
+    <meta property="article:tag" content="CastleWindsor">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Castle Windsor Array Resolution Gotcha">
 <meta name="twitter:description" content="The shiny new system which I’ve recently been developing makes heavy use of the Chain of Responsibility pattern, and as such a number of service classes take an array of objects in the constructor:
-I’m using Castle Windsor for dependency management, so I’ve been fluently registering all instances of ILeadAllocator:
-Easy, right? And yet at runtime Windsor surprised me by throwing this exception in my face:
 
-Castle.MicroKernel.Handlers.HandlerException: Can’t create component ‘Marshalls.Leads.ApplicationService.LeadAllocationService’ as it has dependencies to be satisfied.">
+
+
+  
+
+
+I’m using Castle Windsor for dependency management, so I’ve been fluently registering all instances of ILeadAllocator:
+
+
+
+  
+
+
+Easy, right? And yet at runtime Windsor surprised me by throwing this exception in my face:
+Castle.MicroKernel.Handlers.HandlerException: Can’t create component &amp;#8216;Marshalls.Leads.ApplicationService.LeadAllocationService’ as it has dependencies to be satisfied.
+
+Marshalls.Leads.ApplicationService.LeadAllocationService is waiting for the following dependencies:
+
+Keys (components with specific keys)
+
+– leadAllocators which was not registered.
+Huh?! What gives? Well, a little Googling revealed this post from Castle founder Hamilton Verissimo explaining that by default the Castle MicroKernel expects me to define what should be included in the array. But he goes on to explain that the behaviour I desire can be achieved by registering a custom subresolver with the microkernel. That subresolver has since been included in the Castle Windsor distro, so in actual fact all I needed to do was add the following line of code when configuring my container:">
 
 
 <script type="application/ld+json">
@@ -120,15 +158,15 @@ Castle.MicroKernel.Handlers.HandlerException: Can’t create component ‘Marsha
   "@type": "BlogPosting",
   "headline": "Castle Windsor Array Resolution Gotcha",
   "name": "Castle Windsor Array Resolution Gotcha",
-  "description": "The shiny new system which I’ve recently been developing makes heavy use of the Chain of Responsibility pattern, and as such a number of service classes take an array of objects in the constructor:\nI’m using Castle Windsor for dependency management, so I’ve been fluently registering all instances of ILeadAllocator:\nEasy, right? And yet at runtime Windsor surprised me by throwing this exception in my face:\nCastle.MicroKernel.Handlers.HandlerException: Can’t create component ‘Marshalls.Leads.ApplicationService.LeadAllocationService’ as it has dependencies to be satisfied.\n",
+  "description": "The shiny new system which I’ve recently been developing makes heavy use of the Chain of Responsibility pattern, and as such a number of service classes take an array of objects in the constructor:\nI’m using Castle Windsor for dependency management, so I’ve been fluently registering all instances of ILeadAllocator:\nEasy, right? And yet at runtime Windsor surprised me by throwing this exception in my face:\nCastle.MicroKernel.Handlers.HandlerException: Can’t create component \u0026amp;#8216;Marshalls.Leads.ApplicationService.LeadAllocationService’ as it has dependencies to be satisfied. Marshalls.Leads.ApplicationService.LeadAllocationService is waiting for the following dependencies: Keys (components with specific keys) – leadAllocators which was not registered. Huh?! What gives? Well, a little Googling revealed this post from Castle founder Hamilton Verissimo explaining that by default the Castle MicroKernel expects me to define what should be included in the array. But he goes on to explain that the behaviour I desire can be achieved by registering a custom subresolver with the microkernel. That subresolver has since been included in the Castle Windsor distro, so in actual fact all I needed to do was add the following line of code when configuring my container:\n",
   "keywords": [
-    
+    ".NET", "CastleWindsor"
   ],
-  "articleBody": "The shiny new system which I’ve recently been developing makes heavy use of the Chain of Responsibility pattern, and as such a number of service classes take an array of objects in the constructor:\nI’m using Castle Windsor for dependency management, so I’ve been fluently registering all instances of ILeadAllocator:\nEasy, right? And yet at runtime Windsor surprised me by throwing this exception in my face:\nCastle.MicroKernel.Handlers.HandlerException: Can’t create component ‘Marshalls.Leads.ApplicationService.LeadAllocationService’ as it has dependencies to be satisfied.\nMarshalls.Leads.ApplicationService.LeadAllocationService is waiting for the following dependencies:\nKeys (components with specific keys)\n– leadAllocators which was not registered.\nHuh?! What gives? Well, a little Googling revealed this post from Castle founder Hamilton Verissimo explaining that by default the Castle MicroKernel expects me to define what should be included in the array. But he goes on to explain that the behaviour I desire can be achieved by registering a custom subresolver with the microkernel. That subresolver has since been included in the Castle Windsor distro, so in actual fact all I needed to do was add the following line of code when configuring my container:\nSo now, when new implementations of ILeadAllocator are added to the codebase, they are immediately available to the CofR pattern within the LeadAllocationService, with no additional work required by the developer. Hurrah!\n",
+  "articleBody": "The shiny new system which I’ve recently been developing makes heavy use of the Chain of Responsibility pattern, and as such a number of service classes take an array of objects in the constructor:\nI’m using Castle Windsor for dependency management, so I’ve been fluently registering all instances of ILeadAllocator:\nEasy, right? And yet at runtime Windsor surprised me by throwing this exception in my face:\nCastle.MicroKernel.Handlers.HandlerException: Can’t create component \u0026#8216;Marshalls.Leads.ApplicationService.LeadAllocationService’ as it has dependencies to be satisfied. Marshalls.Leads.ApplicationService.LeadAllocationService is waiting for the following dependencies: Keys (components with specific keys) – leadAllocators which was not registered. Huh?! What gives? Well, a little Googling revealed this post from Castle founder Hamilton Verissimo explaining that by default the Castle MicroKernel expects me to define what should be included in the array. But he goes on to explain that the behaviour I desire can be achieved by registering a custom subresolver with the microkernel. That subresolver has since been included in the Castle Windsor distro, so in actual fact all I needed to do was add the following line of code when configuring my container:\nSo now, when new implementations of ILeadAllocator are added to the codebase, they are immediately available to the CofR pattern within the LeadAllocationService, with no additional work required by the developer. Hurrah!\n",
   "wordCount" : "214",
   "inLanguage": "en",
   "datePublished": "2009-10-26T10:10:00Z",
-  "dateModified": "2025-04-23T21:18:19+01:00",
+  "dateModified": "2025-05-04T20:46:51+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://blog.iannelson.uk/castle-windsor-array-resolution-gotcha/"
@@ -227,14 +265,34 @@ Castle.MicroKernel.Handlers.HandlerException: Can’t create component ‘Marsha
 </div>
   </header> 
   <div class="post-content"><p>The shiny new system which I’ve recently been developing makes heavy use of the Chain of Responsibility pattern, and as such a number of service classes take an array of objects in the constructor:</p>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/cfbe381862b8c7b1e084.js?file=cwarg1.cs"></script>
 <p>I’m using Castle Windsor for dependency management, so I’ve been fluently registering all instances of ILeadAllocator:</p>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/cfbe381862b8c7b1e084.js?file=cwarg2.cs"></script>
 <p>Easy, right? And yet at runtime Windsor surprised me by throwing this exception in my face:</p>
-<blockquote>
-<p>Castle.MicroKernel.Handlers.HandlerException: Can’t create component ‘Marshalls.Leads.ApplicationService.LeadAllocationService’ as it has dependencies to be satisfied.</p>
-<p>Marshalls.Leads.ApplicationService.LeadAllocationService is waiting for the following dependencies:</p>
-<p>Keys (components with specific keys)</p>
-<p>– leadAllocators which was not registered.</p></blockquote>
-<p>Huh?! What gives? Well, a little Googling revealed <a href="http://hammett.castleproject.org/?p=257">this post</a> from Castle founder Hamilton Verissimo explaining that by default the Castle MicroKernel expects me to define what should be included in the array. But he goes on to explain that the behaviour I desire can be achieved by registering a custom subresolver with the microkernel. That subresolver has since been included in the Castle Windsor distro, so in actual fact all I needed to do was add the following line of code when configuring my container:</p>
+<pre tabindex="0"><code>Castle.MicroKernel.Handlers.HandlerException: Can’t create component &amp;#8216;Marshalls.Leads.ApplicationService.LeadAllocationService’ as it has dependencies to be satisfied.
+
+Marshalls.Leads.ApplicationService.LeadAllocationService is waiting for the following dependencies:
+
+Keys (components with specific keys)
+
+– leadAllocators which was not registered.
+</code></pre><p>Huh?! What gives? Well, a little Googling revealed <a href="http://hammett.castleproject.org/?p=257">this post</a> from Castle founder Hamilton Verissimo explaining that by default the Castle MicroKernel expects me to define what should be included in the array. But he goes on to explain that the behaviour I desire can be achieved by registering a custom subresolver with the microkernel. That subresolver has since been included in the Castle Windsor distro, so in actual fact all I needed to do was add the following line of code when configuring my container:</p>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/cfbe381862b8c7b1e084.js?file=cwarg3.cs"></script>
 <p>So now, when new implementations of ILeadAllocator are added to the codebase, they are immediately available to the CofR pattern within the LeadAllocationService, with no additional work required by the developer. Hurrah!</p>
 
 
@@ -242,6 +300,8 @@ Castle.MicroKernel.Handlers.HandlerException: Can’t create component ‘Marsha
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="https://blog.iannelson.uk/tags/.net/">.NET</a></li>
+      <li><a href="https://blog.iannelson.uk/tags/castlewindsor/">CastleWindsor</a></li>
     </ul>
   </footer>
 </article>

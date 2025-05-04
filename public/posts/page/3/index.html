@@ -190,9 +190,6 @@ Lesson for the day – code is never too trivial to warrant unit testing.
 </article>
 
 <article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2011/04/JamesBirrell_2-1.png" alt="">
-</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">It&#39;s A Small World
     </h2>
@@ -286,6 +283,7 @@ My efforts were partially successful. The team were sold on the idea of using an
   </header>
   <div class="entry-content">
     <p>Having slain the beast that is Shared Database, the next dragon to appear on my Enterprise Integration horizon is Shared Assemblies. That is, the suggestion that Application A can leverage the functionality of Application B by simply adding references to B’s DLLs. After all, this potential for reuse is why we put our code in reusable assemblies in the first place, isn’t it..?!
+Well, no. Actually we usually break our application apart into assemblies to create a maintainable and testable architecture. An assembly is a coarse-grained unit of encapsulated functionality in that architecture; the fact that it is the smallest deployable unit in the .NET world is not necessarily an indication that we intend or desire our assemblies to be shared with other applications.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2010-12-01 10:12:00 +0000 GMT'>1 December 2010</span></footer>

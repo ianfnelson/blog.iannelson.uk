@@ -181,6 +181,7 @@ My efforts were partially successful. The team were sold on the idea of using an
   </header>
   <div class="entry-content">
     <p>Having slain the beast that is Shared Database, the next dragon to appear on my Enterprise Integration horizon is Shared Assemblies. That is, the suggestion that Application A can leverage the functionality of Application B by simply adding references to B’s DLLs. After all, this potential for reuse is why we put our code in reusable assemblies in the first place, isn’t it..?!
+Well, no. Actually we usually break our application apart into assemblies to create a maintainable and testable architecture. An assembly is a coarse-grained unit of encapsulated functionality in that architecture; the fact that it is the smallest deployable unit in the .NET world is not necessarily an indication that we intend or desire our assemblies to be shared with other applications.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2010-12-01 10:12:00 +0000 GMT'>1 December 2010</span></footer>
@@ -373,6 +374,8 @@ Now, Scott is unfortunately responsible for administering occasional TLC to a co
   </header>
   <div class="entry-content">
     <p>@Jez tweeted last night:
+@ianfnelson admit it: you use Castle Windsor primarily to highlight and lampoon Google’s poor selection of adwords?!
+— 𝚂𝚑𝚘𝚘𝚝𝚒𝚗𝚐 𝚂𝚌𝚒𝚕𝚕𝚢 (@shootingscilly) October 26, 2009
 Funny, but not true. I am enamoured with the Castle Windsor project because its power makes it fairly simple for me to develop loosely-coupled systems which are easily maintained and tested. The wide range of Facilities and Contrib projects also integrate nicely with the other parts of my current development stack (NHibernate, WCF, WF, log4net).
 ...</p>
   </div>

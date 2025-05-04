@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Testing LINQ Queries | Ian Nelson</title>
-<meta name="keywords" content="">
+<meta name="keywords" content="Testing, .NET">
 <meta name="description" content="I’ve been asked “How do you test LINQ queries?” a couple of times in the past few months, so I thought I’d blog my answer for the benefit of all you lovely people.
 Firstly I should explain how I’ve been doing most of my data access in recent months. I find that the Repository pattern, and particularly the .NET implementation described here by Fabio Maulo meets the vast majority of requirements I have in my applications, and I fall back on additionally using custom DAOs when required.">
 <meta name="author" content="">
@@ -79,7 +79,9 @@ Firstly I should explain how I’ve been doing most of my data access in recent 
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2010-04-09T13:04:00+00:00">
-    <meta property="article:modified_time" content="2025-04-23T19:18:23+01:00">
+    <meta property="article:modified_time" content="2025-05-04T20:46:51+01:00">
+    <meta property="article:tag" content="Testing">
+    <meta property="article:tag" content=".NET">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Testing LINQ Queries">
 <meta name="twitter:description" content="I’ve been asked “How do you test LINQ queries?” a couple of times in the past few months, so I thought I’d blog my answer for the benefit of all you lovely people.
@@ -114,13 +116,13 @@ Firstly I should explain how I’ve been doing most of my data access in recent 
   "name": "Testing LINQ Queries",
   "description": "I’ve been asked “How do you test LINQ queries?” a couple of times in the past few months, so I thought I’d blog my answer for the benefit of all you lovely people.\nFirstly I should explain how I’ve been doing most of my data access in recent months. I find that the Repository pattern, and particularly the .NET implementation described here by Fabio Maulo meets the vast majority of requirements I have in my applications, and I fall back on additionally using custom DAOs when required.\n",
   "keywords": [
-    
+    "Testing", ".NET"
   ],
   "articleBody": "I’ve been asked “How do you test LINQ queries?” a couple of times in the past few months, so I thought I’d blog my answer for the benefit of all you lovely people.\nFirstly I should explain how I’ve been doing most of my data access in recent months. I find that the Repository pattern, and particularly the .NET implementation described here by Fabio Maulo meets the vast majority of requirements I have in my applications, and I fall back on additionally using custom DAOs when required.\nSo, my service classes can ask the IoC container for instances of IRepository, where IRepository implements IQueryable.\nNow, in the best tradition of encapsulation, all but the most trivial of the queries I write against these repositories are defined in extension methods, for example:\nAside from the testability aspect (which I promise I’ll get onto in a second), this approach also helps keep us on the right side of the Law of Demeter, as Garry Shutler blogged about recently. It also allows for method chaining, allowing us to enact multiple filters and other transformations in a single line of code:\nBut I digress. I was talking about how to test these LINQ queries. It’s easy really, the trick is knowing that IEnumerable offers an AsQueryable() method. So, we can build up some dummy data in a List before calling AsQueryable() to obtain an object against which the extension method can act. Dead simple. The creation of the test data can even be automated using the open source NBuilder tool.\nOne caveat – this is merely testing that your LINQ query does what you think it should do, it doesn’t test the behaviour of the underlying LINQ provider. If you’re using, say, the NHibernate LINQ 1.0 provider (which is great but not at all feature-complete) then you’ll also need to write some suitable integration tests, say by testing against the Sqlite database engine.\n",
   "wordCount" : "319",
   "inLanguage": "en",
   "datePublished": "2010-04-09T13:04:00Z",
-  "dateModified": "2025-04-23T19:18:23+01:00",
+  "dateModified": "2025-05-04T20:46:51+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://blog.iannelson.uk/testing-linq-queries/"
@@ -220,10 +222,22 @@ Firstly I should explain how I’ve been doing most of my data access in recent 
   </header> 
   <div class="post-content"><p>I’ve been asked “How do you test LINQ queries?” a couple of times in the past few months, so I thought I’d blog my answer for the benefit of all you lovely people.</p>
 <p>Firstly I should explain how I’ve been doing most of my data access in recent months. I find that the <a href="http://martinfowler.com/eaaCatalog/repository.html">Repository pattern</a>, and particularly the <a href="http://fabiomaulo.blogspot.com/2009/09/repository-or-dao-repository.html">.NET implementation described here by Fabio Maulo</a> meets the vast majority of requirements I have in my applications, and I fall back on additionally using custom DAOs when required.</p>
-<p>So, my service classes can ask the IoC container for instances of IRepository<!-- raw HTML omitted -->, where IRepository<!-- raw HTML omitted --> implements IQueryable<!-- raw HTML omitted -->.</p>
+<p>So, my service classes can ask the IoC container for instances of <code>IRepository&lt;T&gt;</code>, where <code>IRepository&lt;T&gt;</code> implements <code>IQueryable&lt;T&gt;</code>.</p>
 <p>Now, in the best tradition of encapsulation, all but the most trivial of the queries I write against these repositories are defined in extension methods, for example:</p>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/0fd94841097a75fa9d58.js?file=TL1.cs"></script>
 <p>Aside from the testability aspect (which I promise I’ll get onto in a second), this approach also helps keep us on the right side of the <a href="http://en.wikipedia.org/wiki/Law_of_Demeter">Law of Demeter</a>, as <a href="http://blog.robustsoftware.co.uk/2010/04/linq-and-law-of-demeter.html">Garry Shutler blogged about recently</a>. It also allows for method chaining, allowing us to enact multiple filters and other transformations in a single line of code:</p>
-<p>But I digress. I was talking about how to test these LINQ queries. It’s easy really, the trick is knowing that IEnumerable<!-- raw HTML omitted --> offers an <a href="http://msdn.microsoft.com/en-us/library/bb908285%28v=VS.90%29.aspx">AsQueryable() method</a>. So, we can build up some dummy data in a List<!-- raw HTML omitted --> before calling AsQueryable() to obtain an object against which the extension method can act. Dead simple. The creation of the test data can even be automated using the open source <a href="http://nbuilder.org/">NBuilder</a> tool.</p>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/0fd94841097a75fa9d58.js?file=TL2.cs"></script>
+<p>But I digress. I was talking about how to test these LINQ queries. It’s easy really, the trick is knowing that <code>IEnumerable&lt;T&gt;</code> offers an <a href="http://msdn.microsoft.com/en-us/library/bb908285%28v=VS.90%29.aspx"><code>AsQueryable()</code> method</a>. So, we can build up some dummy data in a <code>List&lt;T&gt;</code> before calling <code>AsQueryable()</code> to obtain an object against which the extension method can act. Dead simple. The creation of the test data can even be automated using the open source <a href="http://nbuilder.org/">NBuilder</a> tool.</p>
 <p>One caveat – this is merely testing that your LINQ query does what you think it should do, it doesn’t test the behaviour of the underlying LINQ provider. If you’re using, say, the NHibernate LINQ 1.0 provider (which is great but not at all feature-complete) then you’ll also need to write some suitable integration tests, say by testing against the <a href="http://sqlite.org/">Sqlite</a> database engine.</p>
 
 
@@ -231,6 +245,8 @@ Firstly I should explain how I’ve been doing most of my data access in recent 
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="https://blog.iannelson.uk/tags/testing/">Testing</a></li>
+      <li><a href="https://blog.iannelson.uk/tags/.net/">.NET</a></li>
     </ul>
   </footer>
 </article>

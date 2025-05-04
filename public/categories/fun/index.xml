@@ -6,7 +6,7 @@
     <description>Recent content in Fun on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 May 2025 18:45:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 04 May 2025 20:46:51 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/categories/fun/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Who Reigns Supreme? Parsing Our WhatsApp Chat for Wordle Glory</title>
@@ -81,11 +81,11 @@
 <p>Now, Scott is unfortunately responsible for administering occasional TLC to a codebase that I cut as long ago as 2004, so I assumed he was referring to this and was about to raise some complaints about my hand-rolled query object criteria framework or other coding horror. I steeled myself to defend my work as he continued to explain:</p>
 <blockquote>
 <p>“Well, when coding we have to consider all the potential edge cases and exceptions – what happens if our methods get dodgy inputs etcetera. And it’s spilling over into my real life. We’re moving house at the moment, and I just find myself worrying about what happens if the buyers pull out, if we can’t get the mortgage, if the survey reveals problems… I’m really negative about the whole process.”</p></blockquote>
-<p>At the time I smiled and put this down to the notoriously tortuous British house-buying process, but the more I think about it, the more I think Scott might be onto something.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>At the time I smiled and put this down to the notoriously tortuous British house-buying process, but the more I think about it, the more I think Scott might be onto something.</p>
+<p><img alt="Pissed Off Ian, by John Conners" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/310411215_3dd7f5cd07_m_1__3.jpg"></p>
 <p>My wife and I are currently plotting a well-deserved summer vacation in sunnier climes, which theoretically should be an enjoyable task, right? But I can’t simply enjoy it and focus on the “sunny-day scenario”. My mind is full of edge cases (“What if we can’t fit all our stuff in the car?”), unhandled exceptions (“Will we get our passports in time?”), compatibility issues (“will our choice of dates suit my clients?”), unwise over-reliance on dependent components (“Will the airline have any child seats available?”) and of course user errors (“Suppose we book the wrong dates?!”). No focusing on the happy path for this codemonkey.</p>
-<p>The more I think about it, the more I see that Scott has a point. Professional software development forces us to anticipate invalid input, stupid users, hackers,  insufficient hardware, unreachable remote services, and whether our software can pass <a href="http://www.moserware.com/2008/02/does-your-code-pass-turkey-test.html">the Turkey test</a>. We consider SQL injection, cross-site scripting, buffer overflows, and countless other common <a href="http://en.wikipedia.org/wiki/Category:Computer_security_exploits">threats and exploits</a>. Not to mention worrying about what happens when other devs get their grubby mitts on our codebase, or when the client inevitably unleashes some game-changing requirements late in the lifecycle. We’re all about expecting the worse, coding <a href="http://en.wikipedia.org/wiki/Defensive_programming">defensively</a>, and decoupling ourselves from dependencies. The ever-present potential for high-profile failures caused by something as simple as an inverted boolean comparison, combined with the likelihood of critique and criticism from our fellow coders, DBAs, auditors and sysadmins is enough to turn most devs into a nervous wreck before they’ve so much as initialised a variable. That reminds me, I must check that my Professional Indemnity insurance policy is up to date.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>The more I think about it, the more I see that Scott has a point. Professional software development forces us to anticipate invalid input, stupid users, hackers,  insufficient hardware, unreachable remote services, and whether our software can pass <a href="http://www.moserware.com/2008/02/does-your-code-pass-turkey-test.html">the Turkey test</a>. We consider SQL injection, cross-site scripting, buffer overflows, and countless other common <a href="http://en.wikipedia.org/wiki/Category:Computer_security_exploits">threats and exploits</a>. Not to mention worrying about what happens when other devs get their grubby mitts on our codebase, or when the client inevitably unleashes some game-changing requirements late in the lifecycle. We’re all about expecting the worse, coding <a href="http://en.wikipedia.org/wiki/Defensive_programming">defensively</a>, and decoupling ourselves from dependencies. The ever-present potential for high-profile failures caused by something as simple as an inverted boolean comparison, combined with the likelihood of critique and criticism from our fellow coders, DBAs, auditors and sysadmins is enough to turn most devs into a nervous wreck before they’ve so much as initialised a variable. That reminds me, I must check that my Professional Indemnity insurance policy is up to date.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/sb_2.png"></p>
 <p>So, anecdotal evidence and my own experience suggests to me that Border’s First Law is a truism. Programming Computers Can Cause Negativity, Cynicism and Pessimism.</p>
 <p>Are these necessarily negative traits to have, or can such enforced forethought and consideration of potential issues be a benefit in “real life”, away from the screen? I suspect as with many things, the answer is that there is some balance to be had. So – getting to the airport on time is A Good Thing. Spending a fortnight’s vacation panicking on the offchance that the flight operator goes bust is, probabilistically, a bit silly.</p>
 <p>I’m not sure where I’m going with this, or what the answer is, except perhaps to be a little more aware of this mindset and try to adopt a little restrain when applying programming principles to “real-life” conversations. Life, alas, is not a well-defined algorithm, and God knows it doesn’t come complete with a full suite of regression tests.</p>
@@ -97,10 +97,10 @@
       <link>https://blog.iannelson.uk/deduplication-fail/</link>
       <pubDate>Wed, 02 Dec 2009 12:12:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/deduplication-fail/</guid>
-      <description>&lt;p&gt;Oh, the irony!&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Oh, the irony!<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+      <description>&lt;p&gt;Oh, the irony!&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/Deduplication_2.png&#34;&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Oh, the irony!</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/Deduplication_2.png"></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -110,7 +110,7 @@
       <guid>https://blog.iannelson.uk/on-primality-in-packsizes/</guid>
       <description>&lt;p&gt;Benny George, our precocious two-year-old, is quite the fan of &lt;a href=&#34;http://www.bbc.co.uk/cbeebies/mistermaker/&#34;&gt;Mister Maker&lt;/a&gt;, and enjoys spending time doing arty crafty stuff with his mum. Now, the great thing about the BBC is that they tend to suggest projects which can be created using bits and bobs that you’re likely to have around the home – old cereal boxes and the like. But occasionally some specialist resources have to be procured in the name of Ben’s art, and so it was that Joce today spent £1.99 on a pack of the “googly eyes” so beloved of Maker.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Benny George, our precocious two-year-old, is quite the fan of <a href="http://www.bbc.co.uk/cbeebies/mistermaker/">Mister Maker</a>, and enjoys spending time doing arty crafty stuff with his mum. Now, the great thing about the BBC is that they tend to suggest projects which can be created using bits and bobs that you’re likely to have around the home – old cereal boxes and the like. But occasionally some specialist resources have to be procured in the name of Ben’s art, and so it was that Joce today spent £1.99 on a pack of the “googly eyes” so beloved of Maker.</p>
-<!-- raw HTML omitted -->
+<p><img alt="Oooh la la Mister Maker!" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/mistermaker_slideshow4_385_3.jpg"></p>
 <p>Here’s the thing though – I couldn’t help but noticing that these 20mm googly eyes come in packs of <em>seventeen</em>. Joce charitably suggested that this was simply the number of eyes that could fit in the packet, but I am more cynical. Can it really be a coincidence that <em>eyes</em> – which are surely generally found in pairs – are sold in an odd quantity, forcing the purchaser to buy slightly more than they required?</p>
 <p>And we’re not just looking at an odd number here – 17 is prime too, so even if you happened to be creating models of, say, <a href="http://en.wikipedia.org/wiki/Tuatara">the three-eyed Tuatara lizard</a>, you’re still going to end up with some product left over or feel obliged to buy another pack.</p>
 <p>Cunning folk, these googly eye marketers, and it makes me wonder why other manufacturers stick to selling their products in multiples of integers with many divisors. Ease of packaging, perhaps.</p>

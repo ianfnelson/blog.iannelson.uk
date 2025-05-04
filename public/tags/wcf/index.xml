@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>WCF on Ian Nelson</title>
+    <link>https://blog.iannelson.uk/tags/wcf/</link>
+    <description>Recent content in WCF on Ian Nelson</description>
+    <generator>Hugo -- 0.146.6</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 04 May 2025 20:46:51 +0100</lastBuildDate>
+    <atom:link href="https://blog.iannelson.uk/tags/wcf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WCF – Global Exception Handling</title>
+      <link>https://blog.iannelson.uk/wcf-global-exception-handling/</link>
+      <pubDate>Fri, 09 Apr 2010 13:04:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/wcf-global-exception-handling/</guid>
+      <description>&lt;p&gt;I’ve done a fair bit of WCF development recently (and amazingly I came out of it relatively unscathed, both psychologically and emotionally). Using Castle Windsor’s WCF Facility helped a great deal, but I still found myself writing a fair bit of infrastructure and plumbing code. I thought I’d blog some of these code snippets lest I forget, and on the offchance they might help others.&lt;/p&gt;
+&lt;p&gt;One of the things I wanted to achieve was to ensure that any unhandled exceptions that propagated to the top of the stack were logged. The following custom EndpointBehavior achieves that. I’m using Castle Logging Facility here, but you could of course swap out the logging code for whatever error handling code you require.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I’ve done a fair bit of WCF development recently (and amazingly I came out of it relatively unscathed, both psychologically and emotionally). Using Castle Windsor’s WCF Facility helped a great deal, but I still found myself writing a fair bit of infrastructure and plumbing code. I thought I’d blog some of these code snippets lest I forget, and on the offchance they might help others.</p>
+<p>One of the things I wanted to achieve was to ensure that any unhandled exceptions that propagated to the top of the stack were logged. The following custom EndpointBehavior achieves that. I’m using Castle Logging Facility here, but you could of course swap out the logging code for whatever error handling code you require.</p>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/bd27d9a857396b2e1f62.js?file=WCFEH_1.cs"></script>
+<p>Here’s the relevant line from my Windsor configuration:</p>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/bd27d9a857396b2e1f62.js?file=WCFEH_2.cs"></script>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>WCF – Logging Before and After Operation Invocation</title>
+      <link>https://blog.iannelson.uk/wcf-logging-before-and-after-operation-invocation/</link>
+      <pubDate>Fri, 09 Apr 2010 13:04:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/wcf-logging-before-and-after-operation-invocation/</guid>
+      <description>&lt;p&gt;Here’s another custom WCF EndpointBehavior I found useful recently.&lt;/p&gt;
+&lt;p&gt;Not content with &lt;a href=&#34;https://blog.iannelson.uk/wcf-global-exception-handling/&#34;&gt;logging all unhandled errors&lt;/a&gt;, I wanted to output a DEBUG level log message before and after every operation invocation. As before, I’m using the Castle Windsor Logging Facility to handle my logging, but you can swap that out for your logger of choice if required.&lt;/p&gt;
+&lt;p&gt;Firstly, here’s the EndPointBehaviour itself. This adds a custom CallContextInitializer to every service operation:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Here’s another custom WCF EndpointBehavior I found useful recently.</p>
+<p>Not content with <a href="https://blog.iannelson.uk/wcf-global-exception-handling/">logging all unhandled errors</a>, I wanted to output a DEBUG level log message before and after every operation invocation. As before, I’m using the Castle Windsor Logging Facility to handle my logging, but you can swap that out for your logger of choice if required.</p>
+<p>Firstly, here’s the EndPointBehaviour itself. This adds a custom CallContextInitializer to every service operation:</p>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/51d9f1a223bc6984b905.js?file=WCFLog_1.cs"></script>
+<p>Here’s the custom CallContextInitializer:</p>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/51d9f1a223bc6984b905.js?file=WCFLog_2.cs"></script>
+<p>And the Windsor configuration is much the same as last time:</p>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/51d9f1a223bc6984b905.js?file=WCFLog_3.cs"></script>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>WCF – NHibernate Unit Of Work Endpoint Behavior</title>
+      <link>https://blog.iannelson.uk/wcf-nhibernate-unit-of-work-endpoint-behavior/</link>
+      <pubDate>Fri, 09 Apr 2010 13:04:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/wcf-nhibernate-unit-of-work-endpoint-behavior/</guid>
+      <description>&lt;p&gt;OK, my last WCF-related code snippet of the day, I promise. This is quite similar to the last one. I required that the WCF service I was developing started a new NHibernate Session for each invocation, and closed it after invocation (i.e. session-per-request). I couldn’t rely on the ASP.NET session start and end events in global.asax as this particular WCF service was to respond to MSMQ messages rather than HTTP.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>OK, my last WCF-related code snippet of the day, I promise. This is quite similar to the last one. I required that the WCF service I was developing started a new NHibernate Session for each invocation, and closed it after invocation (i.e. session-per-request). I couldn’t rely on the ASP.NET session start and end events in global.asax as this particular WCF service was to respond to MSMQ messages rather than HTTP.</p>
+<p>So, once again I found myself bashing out a custom <code>EndpointBehavior</code> to add a custom <code>CallContextInitializer</code> to every operation:</p>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/2f0f9300f5157c320dbd.js?file=WCFNH_1.cs"></script>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/2f0f9300f5157c320dbd.js?file=WCFNH_2.cs"></script>
+<p>And the Windsor configuration is much the same as before:</p>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/2f0f9300f5157c320dbd.js?file=WCFNH_3.cs"></script>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

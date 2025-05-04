@@ -158,6 +158,33 @@
 </header>
 
 <article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">NHibernate and Mapping Aggregates
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>A few days ago a friend emailed me the following question regarding NHibernate mappings for a solution he’s currently developing:
+“I have an idea entity that has a collection of comment entities and I need to get the comment count for each idea. I made a massive mistake at the beginning by calling idea.Comments.Count (even worse, I did it in the view!), which due to the collection being lazy-loaded caused about 10 database calls so performance was sluggish even with second level cache. I was therefore wondering how you would do it – would you use HQL and use Comments.size or would you do something differently?”
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2010-11-25 08:11:00 +0000 GMT'>25 November 2010</span></footer>
+  <a class="entry-link" aria-label="post link to NHibernate and Mapping Aggregates" href="https://blog.iannelson.uk/nhibernate-and-mapping-aggregates/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">WCF – NHibernate Unit Of Work Endpoint Behavior
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>OK, my last WCF-related code snippet of the day, I promise. This is quite similar to the last one. I required that the WCF service I was developing started a new NHibernate Session for each invocation, and closed it after invocation (i.e. session-per-request). I couldn’t rely on the ASP.NET session start and end events in global.asax as this particular WCF service was to respond to MSMQ messages rather than HTTP.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2010-04-09 13:04:00 +0000 +0000'>9 April 2010</span></footer>
+  <a class="entry-link" aria-label="post link to WCF – NHibernate Unit Of Work Endpoint Behavior" href="https://blog.iannelson.uk/wcf-nhibernate-unit-of-work-endpoint-behavior/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
 <figure class="entry-cover">
         <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2009/05/nh1_2-1.png" alt="">
 </figure>

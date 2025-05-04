@@ -6,11 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>A Circuit Breaker Which Trips On Frequency Of Failures | Ian Nelson</title>
-<meta name="keywords" content="">
+<meta name="keywords" content="CastleWindsor, .NET">
 <meta name="description" content="@Jez tweeted last night:
 
-
-
+@ianfnelson admit it: you use Castle Windsor primarily to highlight and lampoon Google&rsquo;s poor selection of adwords?!
+— 𝚂𝚑𝚘𝚘𝚝𝚒𝚗𝚐 𝚂𝚌𝚒𝚕𝚕𝚢 (@shootingscilly)  October 26, 2009
 Funny, but not true. I am enamoured with the Castle Windsor project because its power makes it fairly simple for me to develop loosely-coupled systems which are easily maintained and tested. The wide range of Facilities and Contrib projects also integrate nicely with the other parts of my current development stack (NHibernate, WCF, WF, log4net).">
 <meta name="author" content="">
 <link rel="canonical" href="https://blog.iannelson.uk/a-circuit-breaker-which-trips-on-frequency-of-failures/">
@@ -77,20 +77,24 @@ Funny, but not true. I am enamoured with the Castle Windsor project because its 
   <meta property="og:site_name" content="Ian Nelson">
   <meta property="og:title" content="A Circuit Breaker Which Trips On Frequency Of Failures">
   <meta property="og:description" content="@Jez tweeted last night:
+@ianfnelson admit it: you use Castle Windsor primarily to highlight and lampoon Google’s poor selection of adwords?!
+— 𝚂𝚑𝚘𝚘𝚝𝚒𝚗𝚐 𝚂𝚌𝚒𝚕𝚕𝚢 (@shootingscilly) October 26, 2009
 Funny, but not true. I am enamoured with the Castle Windsor project because its power makes it fairly simple for me to develop loosely-coupled systems which are easily maintained and tested. The wide range of Facilities and Contrib projects also integrate nicely with the other parts of my current development stack (NHibernate, WCF, WF, log4net).">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2009-10-28T11:10:00+00:00">
-    <meta property="article:modified_time" content="2025-04-23T20:51:57+01:00">
+    <meta property="article:modified_time" content="2025-05-04T20:46:51+01:00">
+    <meta property="article:tag" content="CastleWindsor">
+    <meta property="article:tag" content=".NET">
     <meta property="og:image" content="https://blogstouks01.z33.web.core.windows.net/2009/10/iStock_000010551634XSmall_3-1.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://blogstouks01.z33.web.core.windows.net/2009/10/iStock_000010551634XSmall_3-1.jpg">
 <meta name="twitter:title" content="A Circuit Breaker Which Trips On Frequency Of Failures">
 <meta name="twitter:description" content="@Jez tweeted last night:
 
-
-
+@ianfnelson admit it: you use Castle Windsor primarily to highlight and lampoon Google&rsquo;s poor selection of adwords?!
+— 𝚂𝚑𝚘𝚘𝚝𝚒𝚗𝚐 𝚂𝚌𝚒𝚕𝚕𝚢 (@shootingscilly)  October 26, 2009
 Funny, but not true. I am enamoured with the Castle Windsor project because its power makes it fairly simple for me to develop loosely-coupled systems which are easily maintained and tested. The wide range of Facilities and Contrib projects also integrate nicely with the other parts of my current development stack (NHibernate, WCF, WF, log4net).">
 
 
@@ -120,15 +124,15 @@ Funny, but not true. I am enamoured with the Castle Windsor project because its 
   "@type": "BlogPosting",
   "headline": "A Circuit Breaker Which Trips On Frequency Of Failures",
   "name": "A Circuit Breaker Which Trips On Frequency Of Failures",
-  "description": "@Jez tweeted last night:\nFunny, but not true. I am enamoured with the Castle Windsor project because its power makes it fairly simple for me to develop loosely-coupled systems which are easily maintained and tested. The wide range of Facilities and Contrib projects also integrate nicely with the other parts of my current development stack (NHibernate, WCF, WF, log4net).\n",
+  "description": "@Jez tweeted last night:\n@ianfnelson admit it: you use Castle Windsor primarily to highlight and lampoon Google\u0026rsquo;s poor selection of adwords?!\n— 𝚂𝚑𝚘𝚘𝚝𝚒𝚗𝚐 𝚂𝚌𝚒𝚕𝚕𝚢 (@shootingscilly) October 26, 2009\nFunny, but not true. I am enamoured with the Castle Windsor project because its power makes it fairly simple for me to develop loosely-coupled systems which are easily maintained and tested. The wide range of Facilities and Contrib projects also integrate nicely with the other parts of my current development stack (NHibernate, WCF, WF, log4net).\n",
   "keywords": [
-    
+    "CastleWindsor", ".NET"
   ],
-  "articleBody": "@Jez tweeted last night:\nFunny, but not true. I am enamoured with the Castle Windsor project because its power makes it fairly simple for me to develop loosely-coupled systems which are easily maintained and tested. The wide range of Facilities and Contrib projects also integrate nicely with the other parts of my current development stack (NHibernate, WCF, WF, log4net).\nWhilst there is a lot of material on the web about the Dependency Injection capabilities of Windsor, the Aspect-Oriented Programming (AOP) features don’t seem to get as much exposure, so I thought I’d quickly blog about one way in which I’ve been making use of those in the system I’m currently developing.\nEarlier this year Davy Brion posted an excellent C# implementation of the Circuit Breaker pattern described in Michael Nygard’s equally excellent book Release It! Design and Deploy Production-Ready Software.\nFor the uninitiated, this pattern advocates protecting your system from issues affecting any remote service on which it depends by wrapping your calls to that service with a circuit breaker component. This component notes any failed service invocations, until some threshold is reached, causing the circuit to trip. Subsequent attempted service invocations then “fail fast”, throwing a custom exception rather than passing the method call on to the remote service. This benefits your system, as it prevents you from tying up valuable threads creating expensive remote service calls which may be slow to timeout. And it benefits the remote system as you avoid piling further pressure on a service which is already down or unresponsive.\nFor more details of this pattern, and some entertaining war stories of situations in which they would have proved useful, I encourage you to read Michael Nygard’s book.\nNow, I like Davy’s implementation of this pattern a lot, particularly since it is implemented as an interceptor for Castle Windsor, which as mentioned I’m already making heavy use of in my current projects. But my only concern is that it is configured to trip after the number of failed invocations reaches a specific figure, irrespective of how long it takes to reach that threshold. I want an implementation which is able to sense the difference between infrequent exceptions over a prolonged period, and a sudden flurry of exceptions – the latter causing the circuit breaker to trip.\nTo achieve this I’ve tweaked Davy’s implementation slightly by adding an extra parameter to the constructor specifying the historical period over which to total the number of exceptions. That is, you can configure it such that a certain number of failures within the preceding y minutes causes the circuit breaker to trip.\nMy forked version can be found on GitHub at https://github.com/ianfnelson/CircuitBreaker.\nI look forward to seeing what adverts Google sees fit to stick at the bottom of this post… 🙂\n",
-  "wordCount" : "462",
+  "articleBody": "@Jez tweeted last night:\n@ianfnelson admit it: you use Castle Windsor primarily to highlight and lampoon Google’s poor selection of adwords?!\n— 𝚂𝚑𝚘𝚘𝚝𝚒𝚗𝚐 𝚂𝚌𝚒𝚕𝚕𝚢 (@shootingscilly) October 26, 2009\nFunny, but not true. I am enamoured with the Castle Windsor project because its power makes it fairly simple for me to develop loosely-coupled systems which are easily maintained and tested. The wide range of Facilities and Contrib projects also integrate nicely with the other parts of my current development stack (NHibernate, WCF, WF, log4net).\nWhilst there is a lot of material on the web about the Dependency Injection capabilities of Windsor, the Aspect-Oriented Programming (AOP) features don’t seem to get as much exposure, so I thought I’d quickly blog about one way in which I’ve been making use of those in the system I’m currently developing.\nEarlier this year Davy Brion posted an excellent C# implementation of the Circuit Breaker pattern described in Michael Nygard’s equally excellent book Release It! Design and Deploy Production-Ready Software.\nFor the uninitiated, this pattern advocates protecting your system from issues affecting any remote service on which it depends by wrapping your calls to that service with a circuit breaker component. This component notes any failed service invocations, until some threshold is reached, causing the circuit to trip. Subsequent attempted service invocations then “fail fast”, throwing a custom exception rather than passing the method call on to the remote service. This benefits your system, as it prevents you from tying up valuable threads creating expensive remote service calls which may be slow to timeout. And it benefits the remote system as you avoid piling further pressure on a service which is already down or unresponsive.\nFor more details of this pattern, and some entertaining war stories of situations in which they would have proved useful, I encourage you to read Michael Nygard’s book.\nNow, I like Davy’s implementation of this pattern a lot, particularly since it is implemented as an interceptor for Castle Windsor, which as mentioned I’m already making heavy use of in my current projects. But my only concern is that it is configured to trip after the number of failed invocations reaches a specific figure, irrespective of how long it takes to reach that threshold. I want an implementation which is able to sense the difference between infrequent exceptions over a prolonged period, and a sudden flurry of exceptions – the latter causing the circuit breaker to trip.\nTo achieve this I’ve tweaked Davy’s implementation slightly by adding an extra parameter to the constructor specifying the historical period over which to total the number of exceptions. That is, you can configure it such that a certain number of failures within the preceding y minutes causes the circuit breaker to trip.\nMy forked version can be found on GitHub at https://github.com/ianfnelson/CircuitBreaker.\nI look forward to seeing what adverts Google sees fit to stick at the bottom of this post… 🙂\n",
+  "wordCount" : "486",
   "inLanguage": "en",
   "image":"https://blogstouks01.z33.web.core.windows.net/2009/10/iStock_000010551634XSmall_3-1.jpg","datePublished": "2009-10-28T11:10:00Z",
-  "dateModified": "2025-04-23T20:51:57+01:00",
+  "dateModified": "2025-05-04T20:46:51+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://blog.iannelson.uk/a-circuit-breaker-which-trips-on-frequency-of-failures/"
@@ -230,14 +234,13 @@ Funny, but not true. I am enamoured with the Castle Windsor project because its 
         <img loading="eager" src="https://blogstouks01.z33.web.core.windows.net/2009/10/iStock_000010551634XSmall_3-1.jpg" alt="">
         
 </figure>
-  <div class="post-content"><p><a href="http://twitter.com/jeremypearson">@Jez</a> <a href="http://twitter.com/jeremypearson/statuses/5186129382">tweeted</a> last night:<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+  <div class="post-content"><p><a href="http://twitter.com/jeremypearson">@Jez</a> <a href="http://twitter.com/jeremypearson/statuses/5186129382">tweeted</a> last night:</p>
+<blockquote>
+<p>@ianfnelson admit it: you use Castle Windsor primarily to highlight and lampoon Google&rsquo;s poor selection of adwords?!<br>
+— 𝚂𝚑𝚘𝚘𝚝𝚒𝚗𝚐 𝚂𝚌𝚒𝚕𝚕𝚢 (@shootingscilly)  October 26, 2009</p></blockquote>
 <p>Funny, but not true. I am enamoured with the <a href="http://www.castleproject.org/container/index.html">Castle Windsor</a> project because its power makes it fairly simple for me to develop loosely-coupled systems which are easily maintained and tested. The wide range of Facilities and Contrib projects also integrate nicely with the other parts of my current development stack (NHibernate, WCF, WF, log4net).</p>
 <p>Whilst there is a lot of material on the web about the Dependency Injection capabilities of Windsor, the Aspect-Oriented Programming (AOP) features don’t seem to get as much exposure, so I thought I’d quickly blog about one way in which I’ve been making use of those in the system I’m currently developing.</p>
-<p>Earlier this year <a href="http://davybrion.com">Davy Brion</a> posted <a href="http://davybrion.com/blog/2009/07/protecting-your-application-from-remote-problems/">an excellent C# implementation</a> of the Circuit Breaker pattern described in Michael Nygard’s equally excellent book <em><a href="http://www.amazon.co.uk/gp/product/0978739213?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0978739213">Release It! Design and Deploy Production-Ready Software</a></em>.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>Earlier this year <a href="http://davybrion.com">Davy Brion</a> posted <a href="http://davybrion.com/blog/2009/07/protecting-your-application-from-remote-problems/">an excellent C# implementation</a> of the Circuit Breaker pattern described in Michael Nygard’s equally excellent book <em><a href="http://www.amazon.co.uk/gp/product/0978739213?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0978739213">Release It! Design and Deploy Production-Ready Software</a></em>.</p>
 <p>For the uninitiated, this pattern advocates protecting your system from issues affecting any remote service on which it depends by wrapping your calls to that service with a circuit breaker component. This component notes any failed service invocations, until some threshold is reached, causing the circuit to trip. Subsequent attempted service invocations then “fail fast”, throwing a custom exception rather than passing the method call on to the remote service. This benefits your system, as it prevents you from tying up valuable threads creating expensive remote service calls which may be slow to timeout. And it benefits the remote system as you avoid piling further pressure on a service which is already down or unresponsive.</p>
 <p>For more details of this pattern, and some entertaining war stories of situations in which they would have proved useful, I encourage you to read <a href="http://www.amazon.co.uk/gp/product/0978739213?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0978739213">Michael Nygard’s book</a>.</p>
 <p>Now, I like Davy’s implementation of this pattern a lot, particularly since it is implemented as an interceptor for Castle Windsor, which as mentioned I’m already making heavy use of in my current projects. But my only concern is that it is configured to trip after the number of failed invocations reaches a specific figure, <em>irrespective of how long it takes to reach that threshold</em>. I want an implementation which is able to sense the difference between infrequent exceptions over a prolonged period, and a sudden flurry of exceptions – the latter causing the circuit breaker to trip.</p>
@@ -250,6 +253,8 @@ Funny, but not true. I am enamoured with the Castle Windsor project because its 
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="https://blog.iannelson.uk/tags/castlewindsor/">CastleWindsor</a></li>
+      <li><a href="https://blog.iannelson.uk/tags/.net/">.NET</a></li>
     </ul>
   </footer>
 </article>

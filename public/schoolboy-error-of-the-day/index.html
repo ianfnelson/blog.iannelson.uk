@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Schoolboy Error Of The Day | Ian Nelson</title>
-<meta name="keywords" content="">
+<meta name="keywords" content="Bugs, .NET, Testing">
 <meta name="description" content="This dumb mistake just cost me an hour spelunking around in the debugger:
 var status = source.Substring(source.LastIndexOf(&quot;/&quot; &#43; 1));
 (where source is e.g. “http://foo.com/status/all-is-good“)
@@ -85,7 +85,10 @@ Lesson for the day – code is never too trivial to warrant unit testing.">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2011-08-17T08:08:00+00:00">
-    <meta property="article:modified_time" content="2025-04-23T21:18:19+01:00">
+    <meta property="article:modified_time" content="2025-05-04T20:46:51+01:00">
+    <meta property="article:tag" content="Bugs">
+    <meta property="article:tag" content=".NET">
+    <meta property="article:tag" content="Testing">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Schoolboy Error Of The Day">
 <meta name="twitter:description" content="This dumb mistake just cost me an hour spelunking around in the debugger:
@@ -123,13 +126,13 @@ Lesson for the day – code is never too trivial to warrant unit testing.">
   "name": "Schoolboy Error Of The Day",
   "description": "This dumb mistake just cost me an hour spelunking around in the debugger:\nvar status = source.Substring(source.LastIndexOf(\u0026quot;/\u0026quot; + 1));\n(where source is e.g. “http://foo.com/status/all-is-good“)\nFortunately the ramifications were picked up in the acceptance tests, but the root cause wasn’t at all obvious from such a high level.\nLesson for the day – code is never too trivial to warrant unit testing.\n",
   "keywords": [
-    
+    "Bugs", ".NET", "Testing"
   ],
   "articleBody": "This dumb mistake just cost me an hour spelunking around in the debugger:\nvar status = source.Substring(source.LastIndexOf(\"/\" + 1));\n(where source is e.g. “http://foo.com/status/all-is-good“)\nFortunately the ramifications were picked up in the acceptance tests, but the root cause wasn’t at all obvious from such a high level.\nLesson for the day – code is never too trivial to warrant unit testing.\n",
   "wordCount" : "61",
   "inLanguage": "en",
   "datePublished": "2011-08-17T08:08:00Z",
-  "dateModified": "2025-04-23T21:18:19+01:00",
+  "dateModified": "2025-05-04T20:46:51+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://blog.iannelson.uk/schoolboy-error-of-the-day/"
@@ -238,6 +241,9 @@ Lesson for the day – code is never too trivial to warrant unit testing.">
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="https://blog.iannelson.uk/tags/bugs/">Bugs</a></li>
+      <li><a href="https://blog.iannelson.uk/tags/.net/">.NET</a></li>
+      <li><a href="https://blog.iannelson.uk/tags/testing/">Testing</a></li>
     </ul>
   </footer>
 </article>

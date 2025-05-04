@@ -6,8 +6,22 @@
     <description>Recent content in Maths on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 May 2025 17:45:45 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 04 May 2025 20:46:51 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/tags/maths/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On Primality In Packsizes</title>
+      <link>https://blog.iannelson.uk/on-primality-in-packsizes/</link>
+      <pubDate>Fri, 23 Oct 2009 10:10:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/on-primality-in-packsizes/</guid>
+      <description>&lt;p&gt;Benny George, our precocious two-year-old, is quite the fan of &lt;a href=&#34;http://www.bbc.co.uk/cbeebies/mistermaker/&#34;&gt;Mister Maker&lt;/a&gt;, and enjoys spending time doing arty crafty stuff with his mum. Now, the great thing about the BBC is that they tend to suggest projects which can be created using bits and bobs that you’re likely to have around the home – old cereal boxes and the like. But occasionally some specialist resources have to be procured in the name of Ben’s art, and so it was that Joce today spent £1.99 on a pack of the “googly eyes” so beloved of Maker.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Benny George, our precocious two-year-old, is quite the fan of <a href="http://www.bbc.co.uk/cbeebies/mistermaker/">Mister Maker</a>, and enjoys spending time doing arty crafty stuff with his mum. Now, the great thing about the BBC is that they tend to suggest projects which can be created using bits and bobs that you’re likely to have around the home – old cereal boxes and the like. But occasionally some specialist resources have to be procured in the name of Ben’s art, and so it was that Joce today spent £1.99 on a pack of the “googly eyes” so beloved of Maker.</p>
+<p><img alt="Oooh la la Mister Maker!" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/mistermaker_slideshow4_385_3.jpg"></p>
+<p>Here’s the thing though – I couldn’t help but noticing that these 20mm googly eyes come in packs of <em>seventeen</em>. Joce charitably suggested that this was simply the number of eyes that could fit in the packet, but I am more cynical. Can it really be a coincidence that <em>eyes</em> – which are surely generally found in pairs – are sold in an odd quantity, forcing the purchaser to buy slightly more than they required?</p>
+<p>And we’re not just looking at an odd number here – 17 is prime too, so even if you happened to be creating models of, say, <a href="http://en.wikipedia.org/wiki/Tuatara">the three-eyed Tuatara lizard</a>, you’re still going to end up with some product left over or feel obliged to buy another pack.</p>
+<p>Cunning folk, these googly eye marketers, and it makes me wonder why other manufacturers stick to selling their products in multiples of integers with many divisors. Ease of packaging, perhaps.</p>
+<p>What other products are sold in prime quantities?</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Spot The Misleading Graph</title>
       <link>https://blog.iannelson.uk/spot-the-misleading-graph/</link>

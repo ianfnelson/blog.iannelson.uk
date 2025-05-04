@@ -6,8 +6,131 @@
     <description>Recent content in Career on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 May 2025 18:45:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 04 May 2025 20:46:51 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/tags/career/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Star Of The Week</title>
+      <link>https://blog.iannelson.uk/star-of-the-week/</link>
+      <pubDate>Thu, 08 May 2014 20:30:11 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/star-of-the-week/</guid>
+      <description>&lt;p&gt;As a lowly &lt;em&gt;sellsword&lt;/em&gt; amongst the ensemble cast that make up the incestuous York/Leeds IT scene, I am not usually one to be influenced by the promise of titles and honours.&lt;/p&gt;
+&lt;p&gt;Time was, long ago, in my first graduate job, that I yearned for a promotion from “Solution Developer” to “Development Specialist”. Now I give little consideration to what I’m called, and sell my services on the basis of what I can &lt;em&gt;do&lt;/em&gt;, and the value I can bring to a project and an organisation.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a lowly <em>sellsword</em> amongst the ensemble cast that make up the incestuous York/Leeds IT scene, I am not usually one to be influenced by the promise of titles and honours.</p>
+<p>Time was, long ago, in my first graduate job, that I yearned for a promotion from “Solution Developer” to “Development Specialist”. Now I give little consideration to what I’m called, and sell my services on the basis of what I can <em>do</em>, and the value I can bring to a project and an organisation.</p>
+<p>So, imagine my surprise when I recently returned to my desk at a client site to find the certificate below resting on my keyboard. It seems my highborn masters had seen fit to dub me (with tongue firmly in cheek, I presume), as their “Star of the Week”!</p>
+<p><img alt="Star Of The Week Certificate" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/StarOfTheWeek.jpg"></p>
+<p>What had I done to deserve this honour?</p>
+<p>The client had an existing solution to generate an XML feed summarising the information held within a database. Unfortunately this process was slow – it took around 45 seconds – and even though the output was aggressively cached, this was still causing a problem.</p>
+<p>I actually enjoy occasionally tackling problems like this, where there is an existing solution that meets all functional requirements and my task is simply to improve some nonfunctional requirement – make it faster, make it more maintainable, make it scalable, update the technology stack, etc. The goal is much clearer when you have a reference solution to mimic than when starting with a blank page and having to tease out acceptance criteria from fickle humans!</p>
+<p>Unsurprisingly, some baseline profiling revealed that the problems lay in the data access layer, and with the help of Hibernating Rhino’s <a href="http://www.hibernatingrhinos.com/products/efprof">Entity Framework Profiler</a>, I was able to determine that over 35,000 separate database calls were being issued to create a file of a few megabytes.</p>
+<p>This was possible because the data access was performed through a series of helper classes that wrapped the EF context and exposed mapped models. While this simplified the data access for most use cases, and helped to encapsulate low-level validation, it was a hindrance for any kind of aggregation or reporting requirement. Essentially the problem boiled down to the <em>SELECT N+1</em> problem on steroids, with a large portion of the object graph steadily loaded into memory.</p>
+<p>Wrapping isn’t always a helpful approach…</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000033567536Small.jpg"></p>
+<p>The answer, having first defined some automated integration tests based on the existing solution, was to avoid using the helpful wrapper/mapper classes and instead write some bespoke EF queries against the underlying data context. I tried to strike a balance between making as few queries as possible without becoming unmaintainable or requiring too many joins. And each query, rather than returning the entire entity, instead projected only the required properties into some anonymous types. A little in-memory post-processing then turned these projections into the desired output format.</p>
+<p>The end result? A process that originally made over 35,000 database queries and took 45 seconds was reduced to one that required just 7 queries and completed in around 0.45 seconds. Nice.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Available Again For Contract Work</title>
+      <link>https://blog.iannelson.uk/available-again-for-contract-work/</link>
+      <pubDate>Mon, 12 Mar 2012 08:03:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/available-again-for-contract-work/</guid>
+      <description>&lt;h2 id=&#34;are-you-plagued-by-bad-code-smells&#34;&gt;Are you plagued by bad code smells?&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Man frustrated at computer&#34; loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000018608645XSmall.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;troubled-by-slow-running-database-queries-and-etl-routines&#34;&gt;Troubled by slow-running database queries and ETL routines?&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Couple bored of waiting for computer&#34; loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000001963185XSmall.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;in-need-of-some-scalable-and-maintainable-enterprise-integration-solutions&#34;&gt;In need of some scalable and maintainable enterprise integration solutions?&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Young guy tangled in cables&#34; loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000006701987XSmall.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Look no further! As luck would have it, legendary Leeds-based freelance software developer Ian F. Nelson is now available again for contract opportunities. Fresh from a 42-week stint at the &lt;a href=&#34;http://www.ic.nhs.uk/&#34;&gt;Health and Social Care Information Centre&lt;/a&gt; where he played a major part in developing a suite of distributed systems to facilitate the expansion of a national programme to calculate health gains after surgical treatment, Ian Nelson is on the market again, and available &lt;strong&gt;now&lt;/strong&gt; to help your team deliver the system of your dreams!&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="are-you-plagued-by-bad-code-smells">Are you plagued by bad code smells?</h2>
+<p><img alt="Man frustrated at computer" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000018608645XSmall.jpg"></p>
+<h2 id="troubled-by-slow-running-database-queries-and-etl-routines">Troubled by slow-running database queries and ETL routines?</h2>
+<p><img alt="Couple bored of waiting for computer" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000001963185XSmall.jpg"></p>
+<h2 id="in-need-of-some-scalable-and-maintainable-enterprise-integration-solutions">In need of some scalable and maintainable enterprise integration solutions?</h2>
+<p><img alt="Young guy tangled in cables" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000006701987XSmall.jpg"></p>
+<p>Look no further! As luck would have it, legendary Leeds-based freelance software developer Ian F. Nelson is now available again for contract opportunities. Fresh from a 42-week stint at the <a href="http://www.ic.nhs.uk/">Health and Social Care Information Centre</a> where he played a major part in developing a suite of distributed systems to facilitate the expansion of a national programme to calculate health gains after surgical treatment, Ian Nelson is on the market again, and available <strong>now</strong> to help your team deliver the system of your dreams!</p>
+<p>Just take a look at the out-of-the-box features you can expect from an Ian Nelson:</p>
+<ul>
+<li>Freelance Professional Software Developer with 14 years’ experience across the full product lifecycle.</li>
+<li>Strong proven skills in database design, domain object modelling and enterprise integration techniques.</li>
+<li>Hands-On Coder with a penchant for developing maintainable, loosely-coupled OO architectures.</li>
+<li>Effective client-facing skills; has led analysis, design and development of successful high-profile projects.</li>
+<li>Confirmed Agilist and exponent of test-driven development, continuous integration and deployment.</li>
+<li>Microsoft Certified – Professional Developer (Enterprise Applications), Technology Specialised in SQL Server and Business Intelligence.</li>
+</ul>
+<p>Languages, technologies and methodologies used will be subject to natural variance from project to project; however the core technical skills you can expect to see an Ian Nelson leveraging will include:</p>
+<ul>
+<li>C# (1.0 – 4.0), including lashings of lovely LINQ.</li>
+<li>.NET Framework (1.0 – 4.0)</li>
+<li>ASP.NET, MVC, OpenRasta</li>
+<li>REST, WCF, SOA, MSMQ</li>
+<li>WPF, MVVM, Prism</li>
+<li>Workflow Foundation</li>
+<li>SQL Server (7.0 – 2008 R2)</li>
+<li>ETL, SSIS, SSAS, SSRS</li>
+<li>Oracle Database (8i – 10g)</li>
+<li>NHibernate, Fluent NHibernate, NHProf</li>
+<li>OOP, Design Patterns</li>
+<li>DI / IoC (Castle Windsor)</li>
+<li>Git, Subversion, Vault, TFS</li>
+<li>TDD (NUnit, xUnit, MSTest, NCrunch)</li>
+<li>BDD (MSpec, SpecFlow)</li>
+<li>Mocking (Rhino Mocks, Moq)</li>
+<li>Agile (SCRUM, Kanban, XP)</li>
+<li>Continuous Integration and Deployment</li>
+</ul>
+<h2 id="marvel-as-user-stories-fly-across-the-kanban-board">Marvel! As user stories fly across the kanban board</h2>
+<p><img alt="Shocked businessman can&rsquo;t believe his eyes" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000012193457XSmall.jpg"></p>
+<h2 id="cheer-as-a-test-driven-approach-results-in-an-astoundingly-low-defect-rate">Cheer! As a test-driven approach results in an astoundingly low defect rate</h2>
+<p><img alt="Cheerful businesspeople looking at the report" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000017462623XSmall.jpg"></p>
+<h2 id="party-as-projects-come-in-on-time-and-on-budget">Party! As projects come in on time and on budget</h2>
+<p><img alt="Business people raising champagne glasses" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000012308930XSmall.jpg"></p>
+<p>Don’t just take our word for it! Listen to the experiences of other satisfied customers:</p>
+<blockquote>
+<p>“Ian is one of the most hard working and professional individuals that I have had the pleasure to work with. His methodical approach allows him to digest the problem put before him prior to making a reasoned and rational suggestion.</p>
+<p>Ian’s development skills and knowledge were able to cope with every challenge, identifying one or more solutions for every scenario that I put forward as Product Owner. This then allowed me to then pick the best solution for the project.</p>
+<p>Ian is a consummate team player and worked efficiently and effectively with the other members of the development team. He always made himself available for me to ask questions to help me understand the technical aspect of a story. Ian’s expertise and problem solving skills have helped to drive the project forward and I am extremely grateful for the contribution that he has made. He will be greatly missed, not just by me, but by the whole of the team.”</p>
+<p>— Robin Hackshall, Senior Information Analyst, <a href="http://www.ic.nhs.uk/">Health and Social Care Information Centre</a></p></blockquote>
+<blockquote>
+<p>“Ian is able to take high-level business requirements and swiftly design and produce a set of solid, scalable, and efficient systems, and with meticulous attention to detail. Ian’s grasp of agile tools, design patterns, and NHibernate in particular are masterful, and I would recommend him without hesitation.”</p>
+<p>— Ashfaq Hussain, Freelance Application Developer, <a href="http://www.ic.nhs.uk/">Health and Social Care Information Centre</a></p></blockquote>
+<blockquote>
+<p>“Impressed how quickly you’ve done this. Take the rest of the week off.”</p>
+<p>— Giles Foster, Principal Information Analyst, <a href="http://www.ic.nhs.uk/">Health and Social Care Information Centre</a></p></blockquote>
+<blockquote>
+<p>“Ian is a SSIS Magician!”</p>
+<p>— Paul Campbell, Director, <a href="http://www.decoratedworld.co.uk/">Decorated World</a></p></blockquote>
+<blockquote>
+<p>“Ian worked on a particularly troublesome project for me for eight months at NHS Choices without complaint. His development skills and knowledge are exemplary and his NHibernate knowledge is second to none. He worked well with all the members of the team and helped me to introduce pair programming and push the test driven development agenda. I will employ Ian whenever I have the chance.”</p>
+<p>— Nick Porthouse, Development Manager, <a href="http://www.nhs.uk">NHS Choices</a></p></blockquote>
+<blockquote>
+<p>“You’re good at solving problems, Daddy.”</p>
+<p>— Ben Nelson (aged 4)</p></blockquote>
+<p>Every Ian Nelson arrives fully charged and ready to code, with no batteries or assembly required. Ian Nelson functions effectively in any agile development environment, integrating seamlessly with your existing team members, from the pickiest of testers to the prickliest of DBAs.</p>
+<p><img alt="Ian F. Nelson - on a box!" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/ian_on_a_card.jpg"></p>
+<h2 id="but-thats-not-all">But that’s not all!</h2>
+<p>Order today and your shiny new Ian Nelson will arrive complete with his own coffee, index cards, kanban avatar, Pukka pad and high-powered eight-core Dell Precision laptop, installed with fully licensed development software and ready to cut high quality test-driven code before you can say “how about a nice game of Planning Poker Dr Falken?”</p>
+<p>If you owe it to yourself, your project and your stakeholders to deliver the most effective, bug-free, performant, scalable and maintainable solution possible, then you need an Ian Nelson on your team. But remember – this offer is <em>not</em> available in the shops! Don’t delay – call today! Our trained operators are waiting to take your call</p>
+<p><strong>07901 828483 – <a href="mailto:ian@iannelson.uk">ian@iannelson.uk</a></strong></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>On The Market Again</title>
+      <link>https://blog.iannelson.uk/on-the-market-again/</link>
+      <pubDate>Thu, 01 Apr 2010 08:04:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/on-the-market-again/</guid>
+      <description>&lt;p&gt;This blog post comes to you live from a Starbucks in the north of England.&lt;/p&gt;
+&lt;p&gt;Yesterday I wrapped up another eight months’ stint contracting at my old haunt &lt;a href=&#34;http://www.marshalls.com/&#34;&gt;Marshalls Plc&lt;/a&gt;. It’s been a genuinely interesting gig, working on two distinct greenfield projects using bang up to date technologies including .NET 4.0 and MVC2.&lt;/p&gt;
+&lt;p&gt;But it hasn’t just been a benefit for my CV, I think Marshalls might have got a little something out of the arrangement too, as Marshalls’ Development Manager Sion Harrison commented yesterday:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>This blog post comes to you live from a Starbucks in the north of England.</p>
+<p>Yesterday I wrapped up another eight months’ stint contracting at my old haunt <a href="http://www.marshalls.com/">Marshalls Plc</a>. It’s been a genuinely interesting gig, working on two distinct greenfield projects using bang up to date technologies including .NET 4.0 and MVC2.</p>
+<p>But it hasn’t just been a benefit for my CV, I think Marshalls might have got a little something out of the arrangement too, as Marshalls’ Development Manager Sion Harrison commented yesterday:</p>
+<blockquote>
+<p>“You have enabled us to drive some major changes into the business whilst introducing new technologies and concepts to the team. We now have great working examples of Workflow, NHibernate, IOC, programming to interfaces and MVC code which can be applied in other applications. I couldn’t have asked for more – a combination of business and technological advancement. Thanks again.”</p></blockquote>
+<p>Could I help to advance your business in a similar manner? If so, give me a call on 07901 828483 or email <a href="mailto:ian@iannelson.uk">ian@iannelson.uk</a> .</p>
+<p>In the meantime, I’ll get back to my cinnamon swirl and venti latté…</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Going For It</title>
       <link>https://blog.iannelson.uk/going-for-it/</link>

@@ -6,8 +6,25 @@
     <description>Recent content in Bugs on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 May 2025 18:45:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 04 May 2025 20:46:51 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/tags/bugs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Schoolboy Error Of The Day</title>
+      <link>https://blog.iannelson.uk/schoolboy-error-of-the-day/</link>
+      <pubDate>Wed, 17 Aug 2011 08:08:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/schoolboy-error-of-the-day/</guid>
+      <description>&lt;p&gt;This dumb mistake just cost me an hour spelunking around in the debugger:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;var status = source.Substring(source.LastIndexOf(&amp;quot;/&amp;quot; + 1));&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;(where source is e.g. “&lt;a href=&#34;http://foo.com/status/all-is-good&#34;&gt;http://foo.com/status/all-is-good&lt;/a&gt;“)&lt;/p&gt;
+&lt;p&gt;Fortunately the ramifications were picked up in the acceptance tests, but the root cause wasn’t at all obvious from such a high level.&lt;/p&gt;
+&lt;p&gt;Lesson for the day – code is never too trivial to warrant unit testing.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>This dumb mistake just cost me an hour spelunking around in the debugger:</p>
+<p><code>var status = source.Substring(source.LastIndexOf(&quot;/&quot; + 1));</code></p>
+<p>(where source is e.g. “<a href="http://foo.com/status/all-is-good">http://foo.com/status/all-is-good</a>“)</p>
+<p>Fortunately the ramifications were picked up in the acceptance tests, but the root cause wasn’t at all obvious from such a high level.</p>
+<p>Lesson for the day – code is never too trivial to warrant unit testing.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Zero Interest Bug Arrives</title>
       <link>https://blog.iannelson.uk/zero-interest-bug-arrives/</link>

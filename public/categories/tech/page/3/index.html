@@ -166,7 +166,7 @@
     <p>The shiny new system which I’ve recently been developing makes heavy use of the Chain of Responsibility pattern, and as such a number of service classes take an array of objects in the constructor:
 I’m using Castle Windsor for dependency management, so I’ve been fluently registering all instances of ILeadAllocator:
 Easy, right? And yet at runtime Windsor surprised me by throwing this exception in my face:
-Castle.MicroKernel.Handlers.HandlerException: Can’t create component ‘Marshalls.Leads.ApplicationService.LeadAllocationService’ as it has dependencies to be satisfied.
+Castle.MicroKernel.Handlers.HandlerException: Can’t create component &amp;#8216;Marshalls.Leads.ApplicationService.LeadAllocationService’ as it has dependencies to be satisfied. Marshalls.Leads.ApplicationService.LeadAllocationService is waiting for the following dependencies: Keys (components with specific keys) – leadAllocators which was not registered. Huh?! What gives? Well, a little Googling revealed this post from Castle founder Hamilton Verissimo explaining that by default the Castle MicroKernel expects me to define what should be included in the array. But he goes on to explain that the behaviour I desire can be achieved by registering a custom subresolver with the microkernel. That subresolver has since been included in the Castle Windsor distro, so in actual fact all I needed to do was add the following line of code when configuring my container:
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2009-10-26 10:10:00 +0000 GMT'>26 October 2009</span></footer>
@@ -202,6 +202,7 @@ I’ve been making heavy use of the Castle Windsor container to handle dependenc
     <p>Improvements to the Execution Plan UI in SQL Server Management Studio 2008 sure do make it a doddle to improve query execution time.
 A client just reported that a particular stored procedure kept timing out.
 Viewing the Estimated Execution Plan for this query displayed a nice green message advising of a potentially missing index which could improve performance by &gt;95%:
+Right-clicking and selecting “Missing Index Details” then brings up a new query window containing the index creation DDL (I had changed the index name by the time I grabbed this capture):
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2009-06-11 12:06:00 +0000 +0000'>11 June 2009</span></footer>

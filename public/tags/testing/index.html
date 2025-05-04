@@ -159,6 +159,69 @@
 
 <article class="post-entry tag-entry"> 
 <figure class="entry-cover">
+        <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2014/04/iStock_000013107404Small.jpg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">One Reason Why NCrunch Is Worth The Cost
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I have been merrilly using NCrunch – an “automated concurrent testing tool for Visual Studio” – for almost three years now. I ponied up for a paid license when it made the transition from beta to RTM, and I recently shelled out again for an upgrade to version 2.
+Why?! Why do this when plenty of test runners are free, or bundled with software I already own such as ReSharper and Visual Studio itself?
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2014-04-22 21:25:50 +0000 +0000'>22 April 2014</span></footer>
+  <a class="entry-link" aria-label="post link to One Reason Why NCrunch Is Worth The Cost" href="https://blog.iannelson.uk/one-reason-why-ncrunch-is-worth-the-cost/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Schoolboy Error Of The Day
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>This dumb mistake just cost me an hour spelunking around in the debugger:
+var status = source.Substring(source.LastIndexOf(&#34;/&#34; &#43; 1));
+(where source is e.g. “http://foo.com/status/all-is-good“)
+Fortunately the ramifications were picked up in the acceptance tests, but the root cause wasn’t at all obvious from such a high level.
+Lesson for the day – code is never too trivial to warrant unit testing.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2011-08-17 08:08:00 +0000 +0000'>17 August 2011</span></footer>
+  <a class="entry-link" aria-label="post link to Schoolboy Error Of The Day" href="https://blog.iannelson.uk/schoolboy-error-of-the-day/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Testing IoC Registrations
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>When I first started writing automated unit tests for my code, I remember getting carried away writing lots of tiny little tests, each with a single Assert. It felt good initially to see all those green ticks, but rapidly became a maintenance headache, and I am now happier having fewer less-brittle tests that do more.
+I think it’s great when tools like AutoMapper provide powerful methods like…
+…allowing me to test large swathes of the system configuration with a single, stable test.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2010-04-09 14:04:00 +0000 +0000'>9 April 2010</span></footer>
+  <a class="entry-link" aria-label="post link to Testing IoC Registrations" href="https://blog.iannelson.uk/testing-ioc-registrations/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Testing LINQ Queries
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I’ve been asked “How do you test LINQ queries?” a couple of times in the past few months, so I thought I’d blog my answer for the benefit of all you lovely people.
+Firstly I should explain how I’ve been doing most of my data access in recent months. I find that the Repository pattern, and particularly the .NET implementation described here by Fabio Maulo meets the vast majority of requirements I have in my applications, and I fall back on additionally using custom DAOs when required.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2010-04-09 13:04:00 +0000 +0000'>9 April 2010</span></footer>
+  <a class="entry-link" aria-label="post link to Testing LINQ Queries" href="https://blog.iannelson.uk/testing-linq-queries/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
         <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2008/11/photo-1523976888287-7454b4df44f4.jpg" alt="">
 </figure>
   <header class="entry-header">

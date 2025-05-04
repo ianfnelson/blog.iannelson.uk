@@ -6,8 +6,29 @@
     <description>Recent content in SQLServer on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 May 2025 18:45:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 04 May 2025 20:46:51 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/tags/sqlserver/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL 2008 – Missing Indexes Hints</title>
+      <link>https://blog.iannelson.uk/sql-2008-missing-indexes-hints/</link>
+      <pubDate>Thu, 11 Jun 2009 12:06:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/sql-2008-missing-indexes-hints/</guid>
+      <description>&lt;p&gt;Improvements to the Execution Plan UI in SQL Server Management Studio 2008 sure do make it a doddle to improve query execution time.&lt;/p&gt;
+&lt;p&gt;A client just reported that a particular stored procedure kept timing out.&lt;/p&gt;
+&lt;p&gt;Viewing the Estimated Execution Plan for this query displayed a nice green message advising of a potentially missing index which could improve performance by &amp;gt;95%:&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/amc1_2.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Right-clicking and selecting “Missing Index Details” then brings up a new query window containing the index creation DDL (I had changed the index name by the time I grabbed this capture):&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Improvements to the Execution Plan UI in SQL Server Management Studio 2008 sure do make it a doddle to improve query execution time.</p>
+<p>A client just reported that a particular stored procedure kept timing out.</p>
+<p>Viewing the Estimated Execution Plan for this query displayed a nice green message advising of a potentially missing index which could improve performance by &gt;95%:</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/amc1_2.png"></p>
+<p>Right-clicking and selecting “Missing Index Details” then brings up a new query window containing the index creation DDL (I had changed the index name by the time I grabbed this capture):</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/amc2_2.png"></p>
+<p>Dead easy. Repeating the process identified a second index which could further improve performance by &gt;80%.</p>
+<p>Of course, you still need to bear in mind other queries which access the table, and the effects on inserts/updates of creating additional indexes, but even so, this really helps the workflow.</p>
+<p>The suggested indexes functionality was actually available in SSMS 2005 too, but the results were buried away in the XML version of the execution plan, and obscure properties windows, rather than being so in your face.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>SQL Server Point-in-Time Restore</title>
       <link>https://blog.iannelson.uk/sql-server-point-in-time-restore/</link>
