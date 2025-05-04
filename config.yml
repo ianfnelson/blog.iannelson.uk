@@ -80,3 +80,8 @@ languages:
         - name: Family Tree
           url: https://familytree.iannelson.uk
           weight: 10
+
+markup:
+  goldmark:
+    extensions:
+      footnote: true

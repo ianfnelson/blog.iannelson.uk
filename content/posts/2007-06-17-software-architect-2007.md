@@ -8,17 +8,17 @@ cover:
 
 categories:
   - Tech
+tags:
+  - Conferences
 
 ---
 Last week I had the pleasure of spending a few days in London attending the [Software Architect 2007][1] conference at the Barbican centre. It was a good conference, providing me with some useful and interesting new ideas and food for thought, whilst confirming that our team at [Marshalls][2] are generally going about things in “the right way”, which is nice.
 
 Looking through my notes, the main themes that kept recurring within the different presentations that I attended were:
 
-  * Avoid coupling at all costs. Use interfaces, contracts and facades to decouple components. Avoid directly referencing vendor’s class libraries or infrastructure libraries.
-  * Appreciate the impact of small decisions which can eventually have a big impact on the overall architecture.
-  * Devote more time and consideration to designing interfaces, contracts and public APIs (which are difficulty to change retrospectively), than private implementations which are relatively simple to change.<figure class="kg-card kg-image-card">
-
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000003326440XSmall.jpg" class="kg-image" alt="Agility" loading="lazy" /> </figure> 
+* Avoid coupling at all costs. Use interfaces, contracts and facades to decouple components. Avoid directly referencing vendor’s class libraries or infrastructure libraries.
+* Appreciate the impact of small decisions which can eventually have a big impact on the overall architecture.
+* Devote more time and consideration to designing interfaces, contracts and public APIs (which are difficulty to change retrospectively), than private implementations which are relatively simple to change.
 
 These issues kept coming up again and again – most notably in talks by Kevlin Henney on “The Selfish Object” and Ralf Westphal on “True Component Orientation”, but also to an extent in some of Dave Wheeler’s demonstration of how to use some of the Gang of Four design patterns in .NET. So, it amazed me that a number of my fellow delegates kept raising their hands and asking questions which invariably began “Yeah, but why can’t I just…”, followed by suggestions which effectively seemed to boil down to creating hardcoded, inflexible solutions! To say that this was supposedly a conference of architects, even relatively simple concepts such as Reflection, Polymorphism and Generics seemed to be lost on some people, who apparently would be more comfortable maintaining massive switch statements for the rest of eternity!
 
@@ -32,10 +32,10 @@ One of the other things that pleased me about the conference was the realisation
 
 A few other observations from my days in London:
 
-  * Trying to change from the Circle to Piccadilly lines at King’s Cross at rush hour involves crossing a packed concourse buzzing with hardened commuters that brought to mind that Zurich insurance TV advert which shows futuristic cars on traffic signal-free intersections narrowly avoiding collisions thanks to automated guidance systems!
-  * Unlike at MSDN events (where all speakers use vanilla installations of Vista/XP and search Windows Live using IE7), there’s a great variety of hardware and software in popular use now – I witnessed presentations on Dell, Sony Vaio, and MacBook (running both OS X and Vista, through BootCamp), with some highly-configured operating systems, and every presenter used Safari or Firefox – no IE in sight. Didn’t see any Ubuntu, mind.
-  * Section 20 of the [Architect’s Act 1997][7] prohibits the use of the “Software Architect” job title. Curiously, “Golf Course Architect” is fine.
-  * In all respects, central London is about as far removed from the Isle of Mull (where I was a week previously) as it’s possible to imagine. Increasingly so, it really does come across as a kind of city state, a world city, with a cosmopolitan feeling quite unlike anywhere else in the UK.
+* Trying to change from the Circle to Piccadilly lines at King’s Cross at rush hour involves crossing a packed concourse buzzing with hardened commuters that brought to mind that Zurich insurance TV advert which shows futuristic cars on traffic signal-free intersections narrowly avoiding collisions thanks to automated guidance systems!
+* Unlike at MSDN events (where all speakers use vanilla installations of Vista/XP and search Windows Live using IE7), there’s a great variety of hardware and software in popular use now – I witnessed presentations on Dell, Sony Vaio, and MacBook (running both OS X and Vista, through BootCamp), with some highly-configured operating systems, and every presenter used Safari or Firefox – no IE in sight. Didn’t see any Ubuntu, mind.
+* Section 20 of the [Architect’s Act 1997][7] prohibits the use of the “Software Architect” job title. Curiously, “Golf Course Architect” is fine.
+* In all respects, central London is about as far removed from the Isle of Mull (where I was a week previously) as it’s possible to imagine. Increasingly so, it really does come across as a kind of city state, a world city, with a cosmopolitan feeling quite unlike anywhere else in the UK.
 
  [1]: http://www.software-architect.co.uk
  [2]: http://www.marshalls.co.uk

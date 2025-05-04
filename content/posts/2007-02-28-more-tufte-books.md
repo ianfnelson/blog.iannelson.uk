@@ -6,6 +6,8 @@ url: /more-tufte-books/
 
 categories:
   - Books
+tags:
+  - Data
 
 ---
 When I mentioned Edward R. Tufte’s excellent _[The Visual Display of Quantitative Information][1]_ in a recent blog post, it prompted me to search North Yorkshire’s online library catalogue to see if they had any more of the great man’s works. I was delighted to find that both _[Envisioning Information][2]_ and _[Visual Explanations][3]_ were available, yet languishing in a storage room somewhere rather than being on the shelves of one of the county’s libraries!  So, I placed a request and they turned up at my local branch a few days later.
