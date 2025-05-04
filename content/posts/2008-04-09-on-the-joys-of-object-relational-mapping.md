@@ -26,7 +26,7 @@ Products such as, yes, NHibernate. Or [Wilson ORM][16], or more recently, the [L
 
 I’m glad that I have a solid grounding in SQL, and I still believe that other skills related to RDBMSs are useful in the enterprise (i.e. database design, normalisation and index tuning), but I’m pleased that I can now bring myself to relax, stop worrying, and leave an ORM to take care of generating the repetitive CRUD statements required for persisting my domain objects.
 
-So, what have I been doing with all this "free time" that I now have available to me during a hard day at the code face? Well, I’ve been trying to create systems which are more robust and well-designed by making a concerted effort to embrace Test-Driven Development (for real, this time!) But that’s a good topic for [a future post][18]&#8230;
+So, what have I been doing with all this "free time" that I now have available to me during a hard day at the code face? Well, I’ve been trying to create systems which are more robust and well-designed by making a concerted effort to embrace Test-Driven Development (for real, this time!) But that’s a good topic for [a future post][18]…
 
 A few useful NHibernate / ORM Resources:
 

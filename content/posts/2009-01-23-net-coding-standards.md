@@ -51,9 +51,9 @@ Depending on the target audience for your solution, you may consider it reasonab
 
 Finally, if you simply must achieve that uniform source code appearance that the whitespace Nazis in every team strive for, consider requiring that your devs run their code through [StyleCop][2] before checking in. It may initially be a bit annoying, and for sure some of the recommendations are highly subjective, but there’s no arguing that it does enforce a standard style, with a strong focus on increasing readability and reducing ambiguity.
 
-**And After That&#8230;?**
+**And After That…?**
 
-Following the four points above should result in the low-level codebase produced by a team being readable, of high quality, in a common style, and free of many common “gotchas”. It doesn’t validate the higher-level architectural considerations, but in my opinion that is outside the scope of such a document, and could best be achieved through the use of a tool such as [NDepend][3]. But that’s a topic for another post&#8230;
+Following the four points above should result in the low-level codebase produced by a team being readable, of high quality, in a common style, and free of many common “gotchas”. It doesn’t validate the higher-level architectural considerations, but in my opinion that is outside the scope of such a document, and could best be achieved through the use of a tool such as [NDepend][3]. But that’s a topic for another post…
 
  [1]: http://www.amazon.co.uk/gp/product/0321545613?ie=UTF8&tag=ianesbl-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=0321545613
  [2]: http://code.msdn.microsoft.com/sourceanalysis

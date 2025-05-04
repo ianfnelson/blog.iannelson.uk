@@ -26,7 +26,7 @@ _“Thank you so much Ian Nelson, you were great to work with and a great guide 
 
 ---
 
-_“Wishing you all the very best for your future endeavours. May sound very formal but it is the truth &#8212; It was an ABSOLUTE PLEASURE working with you.. You helped me onboard quickly when I was new to the team and all backend stuff.. Always promptly replied to all my queries.. and I can go on&#8230; I hope our paths cross again in future”_
+_“Wishing you all the very best for your future endeavours. May sound very formal but it is the truth &#8212; It was an ABSOLUTE PLEASURE working with you.. You helped me onboard quickly when I was new to the team and all backend stuff.. Always promptly replied to all my queries.. and I can go on… I hope our paths cross again in future”_
 
 &#8212; Amruta Pawar — QA/Automation Test Engineer, Financial Conduct Authority
 

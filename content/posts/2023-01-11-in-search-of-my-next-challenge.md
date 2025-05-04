@@ -25,7 +25,7 @@ I’ve led an ever-changing, multi-disciplinary team through over 120 fortnightl
 
 I’ve led the design and development of the App’s notification and messaging capability, which allows the secure and sub second delivery of health-related communications from NHS organisations to patient’s mobile devices, replacing more costly communication methods such as SMS or mail.
 
-In case it’s not obvious, I’m pretty proud of what we’ve achieved on the NHS App over the past five years, and could write much more. But I’ll save that for a future blog post and return to the sales pitch&#8230;
+In case it’s not obvious, I’m pretty proud of what we’ve achieved on the NHS App over the past five years, and could write much more. But I’ll save that for a future blog post and return to the sales pitch…
 
 ## What I Do Generally
 

@@ -19,7 +19,7 @@ categories:
 </p>
 
 <p class="MsoNormal">
-  Turns out I should have been using the <a  href="http://www.hookedonlinq.com/FirstOrDefaultOperator.ashx">FirstOrDefault</a> operator instead&#8230;
+  Turns out I should have been using the <a  href="http://www.hookedonlinq.com/FirstOrDefaultOperator.ashx">FirstOrDefault</a> operator instead…
 </p>
 
 <!--kg-card-end: html-->

@@ -105,7 +105,7 @@ Every Ian Nelson arrives fully charged and ready to code, with no batteries or a
 Order today and your shiny new Ian Nelson will arrive complete with his own coffee, index cards, kanban avatar, Pukka pad and high-powered eight-core Dell Precision laptop, installed with fully licensed development software and ready to cut high quality test-driven code before you can say “how about a nice game of Planning Poker Dr Falken?”
 
 If you owe it to yourself, your project and your stakeholders to deliver the most effective, bug-free, performant, scalable and maintainable solution possible, then you need an Ian Nelson on your team. But remember – this offer is _not_ available in the shops! Don’t delay – call today! Our trained operators are waiting to take your call  
-&#8230;
+…
 
 #### 07901 828483 – <a>ian@iannelson.uk</a> {#07901-828483-ian-iannelson-systems}
 

@@ -4,8 +4,7 @@ date: 2006-11-06T08:11:00+00:00
 url: /a-genealogical-milestone/
 categories:
   - Genealogy
-tags:
-  - Genealogy
+
 
 ---
 <!--kg-card-begin: html-->
@@ -22,7 +21,7 @@ Those sixteen ancestors were born between 1829 and 1860.
 
 I haven’t yet updated my [online family tree][1], but will do so later today.
 
-I suspect that this marks the end of the "easy bit" of my research, and doubt that I’ll ever succeed in discovering the names of all of my 32 great-great-great-grandparents.  Still, you never know&#8230;
+I suspect that this marks the end of the "easy bit" of my research, and doubt that I’ll ever succeed in discovering the names of all of my 32 great-great-great-grandparents.Still, you never know…
 
 <!--kg-card-end: html-->
 

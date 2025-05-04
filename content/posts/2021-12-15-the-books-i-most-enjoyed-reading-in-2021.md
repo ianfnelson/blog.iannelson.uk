@@ -14,16 +14,16 @@ categories:
 
 <img loading="lazy" decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/122051_51WmfPs0C-L._SL500.jpg" alt="" width="500" height="500" /> </figure> 
 
-[And Away&#8230;][1] by Bob Mortimer
+[And Away…][1] by Bob Mortimer
 
-As was the case in 2020, my favourite book of the year was an autobiography; this time by national treasure Bob Mortimer. Laugh out loud funny in many places, elsewhere this is tinged with melancholy and the realisation that, for all his on-screen tomfoolery, Mortimer is an incredibly shy individual.  
+As was the case in 2020, my favourite book of the year was an autobiography; this time by national treasure Bob Mortimer. Laugh out loud funny in many places, elsewhere this is tinged with melancholy and the realisation that, for all his on-screen tomfoolery, Mortimer is an incredibly shy individual.
 Touching, contemplative, warm and kind throughout, there is plenty of food for thought here regarding how we ought to live our lives and interact with those around us. I heartily recommend the audiobook, narrated by the great man himself.<figure class="kg-card kg-image-card">
 
 <img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/122051_41IM6bSqdrL._SL500.jpg" alt="" /> </figure> 
 
 [Boy Parts][2] by Eliza Clark
 
-This is a bit of a cheat, as I read this book in a couple of short days at the back end of 2020, in that weird downtime period between Christmas and New Year, at the recommendation of my good friend and erstwhile luncheon companion Stephanie.  
+This is a bit of a cheat, as I read this book in a couple of short days at the back end of 2020, in that weird downtime period between Christmas and New Year, at the recommendation of my good friend and erstwhile luncheon companion Stephanie.
 I haven’t read much fiction in recent years (only one novel made it on to last my annual round up last year) and tend to gravitate towards authors who are white male Boomers or Gen X. Eliza Clark made me realise what I had been missing – new generations of writers from different backgrounds with contemporary stories to entertain me.
 
 _Boy Parts_ is a whirlwind ride – smart, funny, stylish and cinematic – that was genuinely unputdownable (except for the moments when I had to Google some unfamiliar terms, none of which I am going to repeat here). I’m grateful to this title for reawakening my interest in contemporary fiction and broadening my horizons, and hope that further novels from Eliza Clark will soon be forthcoming.<figure class="kg-card kg-image-card">
@@ -113,7 +113,7 @@ Of course in truth, most of us will never work on systems with nearly so many us
 
 [This is Going to Hurt: Secret Diaries of a Junior Doctor][21] by Adam Kay
 
-A highly engaging set of diaries from Kay’s time as a junior doctor in the NHS, this is one of the better “secret diary of&#8230;” books that seem to be en vogue in recent years. Very funny, frequently heartbreaking, and generally politically maddening, this book offered some eye-opening insights into the true nature of a very difficult career path.
+A highly engaging set of diaries from Kay’s time as a junior doctor in the NHS, this is one of the better “secret diary of…” books that seem to be en vogue in recent years. Very funny, frequently heartbreaking, and generally politically maddening, this book offered some eye-opening insights into the true nature of a very difficult career path.
 
  [1]: https://amzn.to/3jwAUs6
  [2]: https://amzn.to/3prg6CZ

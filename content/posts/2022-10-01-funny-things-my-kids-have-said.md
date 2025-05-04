@@ -63,7 +63,7 @@ _November 2010_
 
 ---
 
-Benjamin just woke up after having had a bad dream “about the evil penguin on Pingu”. I must have missed that bit&#8230;
+Benjamin just woke up after having had a bad dream “about the evil penguin on Pingu”. I must have missed that bit…
 
 _December 2010_
 
@@ -71,7 +71,7 @@ _December 2010_
 
 At Newmillerdam country park:
 
-Ben: “AAAaaargh! It’s a crocodile!!!! Oh, no&#8230; it’s just a duck.”
+Ben: “AAAaaargh! It’s a crocodile!!!! Oh, no… it’s just a duck.”
 
 _April 2011_
 
@@ -153,10 +153,10 @@ _February 2011_
 
 ---
 
-Me: “Ben, please stop replying to everything I say with &#8216;Yeah, but&#8230;’.”  
+Me: “Ben, please stop replying to everything I say with &#8216;Yeah, but…’.”  
 Ben: “Well, what can I say instead?”  
 Me: “How about &#8216;OK Dad’?”  
-Ben: “OK Dad but&#8230;”
+Ben: “OK Dad but…”
 
 _March 2011_
 
@@ -211,7 +211,7 @@ _May 2012_
 
 ---
 
-Isla’s latest suggested name for her younger brother: “Yehudi Poo Tentacle”. Might veto that one&#8230;
+Isla’s latest suggested name for her younger brother: “Yehudi Poo Tentacle”. Might veto that one…
 
 _June 2012_
 
@@ -232,7 +232,7 @@ _June 2012_
 
 Me: “Hi Isla! What is Mr Tumble up to today?” (she was watching TV)  
 Isla: “Pooing on your head.”  
-Me: “O-K&#8230; any ideas where you would like me to take you today?”  
+Me: “O-K… any ideas where you would like me to take you today?”  
 Isla: “Pooland.”
 
 Ah, the scatalogical leanings of a three-year-old. It could be a long day.
@@ -254,7 +254,7 @@ _September 2012_
 ---
 
 Me: “So tell me about your new swimming instructor. Is it a lady or a man?”  
-Ben: “Well, for the undeep bit it’s a&#8230;”  
+Ben: “Well, for the undeep bit it’s a…”  
 Me: “The what? The undie bit?”  
 Ben: “The UNDEEP bit of the pool.”  
 Me: “Oh, I see – we call that the &#8216;shallow’ end.”  
@@ -366,7 +366,7 @@ _February 2013_
 
 Isla: “When I grow up I want to be a lizard.”  
 Me: “A lizard?”  
-Isla: “Er, oh no&#8230; a wizard!”
+Isla: “Er, oh no… a wizard!”
 
 _February 2013_
 
@@ -427,7 +427,7 @@ _May 2013_
 
 ---
 
-Jocelyn: “This table is filthy! Sultana bran, Weetabix, Rice Krispies&#8230; you name it, Isla has spilled it!”  
+Jocelyn: “This table is filthy! Sultana bran, Weetabix, Rice Krispies… you name it, Isla has spilled it!”  
 Isla (thoughtfully): “I shall name it &#8216;Sandra’.”
 
 _June 2013_
@@ -510,7 +510,7 @@ _January 2014_
 
 ---
 
-Me: “&#8230;and when we’re on holiday in Spain, people will talk a foreign language.”  
+Me: “…and when we’re on holiday in Spain, people will talk a foreign language.”  
 Ben: “[friend] in my class makes the teacher feel like she’s talking a foreign language!”
 
 _January 2014_
@@ -538,7 +538,7 @@ Ben’s homework was to write sentences containing a comparative adjective and a
 
 “Mum is old but Dad is older.”
 
-Hmmm&#8230;
+Hmmm…
 
 _March 2014_
 
@@ -556,7 +556,7 @@ _March 2014_
 
 Isla: “Pluto isn’t a planet any more, is it?”  
 Ben: “No, it’s an elf planet”  
-Me: “I think you mean a dwarf planet Son&#8230;”
+Me: “I think you mean a dwarf planet Son…”
 
 _March 2014_
 

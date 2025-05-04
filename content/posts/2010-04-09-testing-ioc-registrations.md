@@ -12,11 +12,11 @@ categories:
 
 When I first started writing automated unit tests for my code, I remember getting carried away writing lots of tiny little tests, each with a single Assert. It felt good initially to see all those green ticks, but rapidly became a maintenance headache, and I am now happier having fewer less-brittle tests that do more.
 
-I think it’s great when tools like [AutoMapper][1] provide powerful methods like&#8230;
+I think it’s great when tools like [AutoMapper][1] provide powerful methods like…
 
 
 
-&#8230;allowing me to test large swathes of the system configuration with a single, stable test.
+…allowing me to test large swathes of the system configuration with a single, stable test.
 
 I wanted to write a similar test to check that all the necessary system dependencies for my MVC application could be resolved by the IoC container. Here’s what I came up with:
 

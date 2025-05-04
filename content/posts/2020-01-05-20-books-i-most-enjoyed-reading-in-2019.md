@@ -40,7 +40,7 @@ I had never heard of Theranos nor Elizabeth Holmes before reading this gripping 
 
 <img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/416qo8QyxDL._SL500.jpg" alt="" /> </figure> 
 
-**[How to Be Right: &#8230; in a world gone wrong][5]** by James O’Brien
+**[How to Be Right: … in a world gone wrong][5]** by James O’Brien
 
 A great book written from the relatively unusual vantage point of talk radio host James O’Brien, who spends his days calmly and rationally explaining to callers the absurdity of their stated viewpoints (often, it seems, by simply giving them sufficient opportunity to explain themselves, or consider the meaning of the cliched words that they spout). Despite the title, O’Brien doesn’t claim to always be right, and in some chapters explains how the discourse on his show has led to the maturation of his own viewpoints.<figure class="kg-card kg-image-card">
 
@@ -74,7 +74,7 @@ A relatively short book that, in places, inevitably covers some of the same grou
 
 **[Fifty Things That Made the Modern Economy][12]** by Tim Harford
 
-A lovely easy book to dip into. Fifty bite-sized micro-documentaries explaining how the modern economy as we know it was formed. I listened to much of this while decorating my study and mowing the lawn. I fear it may have resulted in my becoming a tedious bore (“Did you know&#8230;?”) in conversations with Mrs Nelson for weeks afterwards.
+A lovely easy book to dip into. Fifty bite-sized micro-documentaries explaining how the modern economy as we know it was formed. I listened to much of this while decorating my study and mowing the lawn. I fear it may have resulted in my becoming a tedious bore (“Did you know…?”) in conversations with Mrs Nelson for weeks afterwards.
 
 [**Gotta Get Theroux This: My Life and Strange Times in Television**][13] by Louis Theroux
 

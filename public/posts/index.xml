@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 03 May 2025 22:42:55 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 03 May 2025 22:46:43 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I&#39;m on Goodreads Now</title>
@@ -1036,16 +1036,16 @@ Don’t wear Crocs</p>
       <description>&lt;h2 id=&#34;the-top-5-the-top-5&#34;&gt;The Top 5 {#the-top-5}&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://amzn.to/3jwAUs6&#34;&gt;And Away…&lt;/a&gt; by Bob Mortimer&lt;/p&gt;
-&lt;p&gt;As was the case in 2020, my favourite book of the year was an autobiography; this time by national treasure Bob Mortimer. Laugh out loud funny in many places, elsewhere this is tinged with melancholy and the realisation that, for all his on-screen tomfoolery, Mortimer is an incredibly shy individual.&lt;br&gt;
+&lt;p&gt;As was the case in 2020, my favourite book of the year was an autobiography; this time by national treasure Bob Mortimer. Laugh out loud funny in many places, elsewhere this is tinged with melancholy and the realisation that, for all his on-screen tomfoolery, Mortimer is an incredibly shy individual.
 Touching, contemplative, warm and kind throughout, there is plenty of food for thought here regarding how we ought to live our lives and interact with those around us. I heartily recommend the audiobook, narrated by the great man himself.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h2 id="the-top-5-the-top-5">The Top 5 {#the-top-5}<!-- raw HTML omitted --></h2>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
 <p><a href="https://amzn.to/3jwAUs6">And Away…</a> by Bob Mortimer</p>
-<p>As was the case in 2020, my favourite book of the year was an autobiography; this time by national treasure Bob Mortimer. Laugh out loud funny in many places, elsewhere this is tinged with melancholy and the realisation that, for all his on-screen tomfoolery, Mortimer is an incredibly shy individual.<br>
+<p>As was the case in 2020, my favourite book of the year was an autobiography; this time by national treasure Bob Mortimer. Laugh out loud funny in many places, elsewhere this is tinged with melancholy and the realisation that, for all his on-screen tomfoolery, Mortimer is an incredibly shy individual.
 Touching, contemplative, warm and kind throughout, there is plenty of food for thought here regarding how we ought to live our lives and interact with those around us. I heartily recommend the audiobook, narrated by the great man himself.<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
 <p><a href="https://amzn.to/3prg6CZ">Boy Parts</a> by Eliza Clark</p>
-<p>This is a bit of a cheat, as I read this book in a couple of short days at the back end of 2020, in that weird downtime period between Christmas and New Year, at the recommendation of my good friend and erstwhile luncheon companion Stephanie.<br>
+<p>This is a bit of a cheat, as I read this book in a couple of short days at the back end of 2020, in that weird downtime period between Christmas and New Year, at the recommendation of my good friend and erstwhile luncheon companion Stephanie.
 I haven’t read much fiction in recent years (only one novel made it on to last my annual round up last year) and tend to gravitate towards authors who are white male Boomers or Gen X. Eliza Clark made me realise what I had been missing – new generations of writers from different backgrounds with contemporary stories to entertain me.</p>
 <p><em>Boy Parts</em> is a whirlwind ride – smart, funny, stylish and cinematic – that was genuinely unputdownable (except for the moments when I had to Google some unfamiliar terms, none of which I am going to repeat here). I’m grateful to this title for reawakening my interest in contemporary fiction and broadening my horizons, and hope that further novels from Eliza Clark will soon be forthcoming.<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
@@ -1301,7 +1301,7 @@ s to reveal information that they should not have done.</p>
 <!-- raw HTML omitted -->
 <p>Check Enable auto-restart so that the container automatically restarts, should it stop for any reason.</p>
 <!-- raw HTML omitted -->
-<p>Containers should generally be treated as being replaceable, with any data that you care about being kept outside of the container. To this end, create a folder on the NAS that can be used as a volume for the /var/lib/rabbitmq mount path. This ensures all the data from the RabbitMQ instance exists outside of the container itself and won’t be lost if the container needs to be destroyed and recreated for any reason (such as upgrading to a new version of RabbitMQ).<br>
+<p>Containers should generally be treated as being replaceable, with any data that you care about being kept outside of the container. To this end, create a folder on the NAS that can be used as a volume for the /var/lib/rabbitmq mount path. This ensures all the data from the RabbitMQ instance exists outside of the container itself and won’t be lost if the container needs to be destroyed and recreated for any reason (such as upgrading to a new version of RabbitMQ).
 I also suggest creating a blank RabbitMQ config file – rabbitmq.conf – and mounting this file to the path /etc/rabbitmq/rabbitmq.conf .</p>
 <!-- raw HTML omitted -->
 <p>RabbitMQ with the management plugin enabled uses ports 4369, 5671, 5672, 15671, 15672 and 25672. There’s a low probability of these ports already being in use by other applications on the NAS, so map those container ports to the same local ports.</p>
@@ -1440,7 +1440,7 @@ I also suggest creating a blank RabbitMQ config file – rabbitmq.conf – and m
 <p>A quieter day than Sunday. Initially Ben was adamant that he wanted to do more walk<br>
 ing (Ben A’an having whet his appetite for views), so we intended to wander up the <a href="https://www.walkhighlands.co.uk/fortwilliam/lostvalley.shtml">Lost Valley of Glencoe</a>. But upon reaching the car park, he declared that he did not feel well enough for a hike – something that has happened to me on more than one occasion! So instead we went up the nearby <a href="https://www.nevisrange.co.uk/activities/mountain-gondola/">Nevis Range Mountain Gondola</a> on the north face of <a href="https://www.walkhighlands.co.uk/munros/aonach-mor">Aonach Mor</a>. The sun was beaming down again, a far cry from the whiteout conditions that I had experienced on 25th November 2000 when my friends and I had to abandon an attempt to reach the Aonach Mor summit from nearby Aonach Beag.</p>
 <p>Back down to the car, and with Ben still not in the mood for activity, we took a long drive around Ardnamurchan – Glenuig, Strontian (location of the discovery of Strontium, as I boringly explained to Ben in typical Dad fashion), and back via the Corran Ferry. I resisted the small temptation to take a short but lengthy detour down the narrow tracks to <a href="https://www.undiscoveredscotland.co.uk/kilchoan/ardnamurchanpoint/index.html">Ardnamurchan Point</a>, having fallen into that trap on a previous jaunt at August Bank Holiday 2002. Despite this, the relative lack of civilisation for miles around was not lost on us as we struggled to find a convenient place to stop for a bite of lunch. I vowed to learn this lesson on subsequent days, stocking up the car with sandwiches and snacks at the start of the day rather than risk a hungry and grumpy pre-teen companion.</p>
-<p>In the evening we sat outside the Clachaig playing chess. We heard tell of a couple of other tourists who had required medical attention after being up on a ridge with too little water and no sunhats.  After this it was easier on subsequent days to persuade Ben to wear his own sunhat.
+<p>In the evening we sat outside the Clachaig playing chess. We heard tell of a couple of other tourists who had required medical attention after being up on a ridge with too little water and no sunhats. After this it was easier on subsequent days to persuade Ben to wear his own sunhat.
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted --></p>
@@ -1549,8 +1549,8 @@ ing (Ben A’an having whet his appetite for views), so we intended to wander up
 <p>Ceri Shaw’s (<a href="https://twitter.com/cerishaw">@cerishaw</a>) talk “<strong>Join The Dark Side – Why Developers Should Consider Management</strong>” began by covering some of the negative managerial stereotypes that we techies tend to hold (yes, there was a Dilbert cartoon). She continued by looking at the traits needed to be an effective line manager or project manager within a technical team, identifying (as the session title suggests) that developers did in fact possess many of the requisite skills. Although I’m still not entirely convinced that a full-time management role is the right move for me personally, I can see how some aspect of mentoring or scrum mastering might not be entirely incompatible with my desire to retain a hands-on techie, and I will be seeking out some of the resources she mentioned to learn more.</p>
 <p>There were a number of interesting short grok talks during lunchtime. I particularly enjoyed hearing <a href="http://www.relentlessdevelopment.net/">Grant Crofton</a> (<a href="https://twitter.com/relentlessdev">@relentlessdev</a>) describe his attempts to use functional programming to determine the most appropriate school for his son! That sounds like a slightly more practical means of developing skills in F# than my own efforts to use it solve some of the Project Euler problems.</p>
 <p>“<strong>Burnout Is Real And It’s Coming To Get You</strong>” was the title of <a href="http://www.devjoy.com/">Richard Dalton’s</a> (<a href="https://twitter.com/richardadalton">@richardadalton</a>) talk, which I consider to be the highlight of the day. Richard took a potentially worrying subject and gave hope and advice for all of us who have at some time felt ourselves to be at some point along the burnout continuum.</p>
-<p>I was particularly interested in the observation that it is precisely those of us who place a high value on our work (and are willing to give up a Saturday to attend a conference) who are likely to feel burned out and overly self-critical of our perceived inability to drive technical change or achieve as much as we would like.<br>
-The Agile movement, Richard suggested, was born as the result of an entire industry feeling burnt out and unable to get things done.<br>
+<p>I was particularly interested in the observation that it is precisely those of us who place a high value on our work (and are willing to give up a Saturday to attend a conference) who are likely to feel burned out and overly self-critical of our perceived inability to drive technical change or achieve as much as we would like.
+The Agile movement, Richard suggested, was born as the result of an entire industry feeling burnt out and unable to get things done.
 He cautioned us not to be jealous of or constantly compare ourselves to other developers, and to consider what aspects of life are poorer for those in our industry who are able to devote vast amounts of time to developing open source frameworks or writing popular blogs. I was also pleased to hear someone else mention the guilt that they feel when they choose to spend their hard-earned free time reading for pleasure instead of being glued to PluralSight or reading tech books. We do need to go easier on ourselves if we’re in this for the long haul.</p>
 <p>The issue of age naturally came up – Richard concluded that there is no discernable mental decline between a programmer aged 20 and the same aged 40, it’s just that we have many more demands on our time around this age, leaving us with less contingency time to catch up on the less productive days. If we make it through this period in our lives without quitting the industry, it was suggested that things could actually be easier in our 50s as children become more self-sufficient and we once again have some time to spare.</p>
 <p>In summary, it was a very reassuring talk, wrapped up with helpful advice on how to handle burnout – what works and what doesn’t.</p>
@@ -3158,7 +3158,7 @@ at CmecService.CmecService._timer_Tick(Object state)</em></p>
 <hr>
 <p><em>“Yes, I do use RTM, and I love it. I’ve been looking for a decent way of managing my to-do lists effectively for years, and RTM really scratches that itch! I now have the web app permanently open in a Firefox tab, and use “MilkSync” to synchronize with my Pocket PC every half hour.</em></p>
 <p><em>I’m not sure that you need to adopt a particular task-management philosophy in order to get benefit – RTM is flexible enough to allow you to work the way you want to. I started off pretty basic, with just three lists, one each for personal, business, and current client tasks. But recently (having read <a href="http://blog.rememberthemilk.com/2008/05/guest-post-advanced-gtd-with-remember.html">that article</a> and re-read the relevant bits of GTD), I have begun using tags and locations and using these to get the benefit of some smart lists. So, I’m currently on the train to work, and I can look at my “@Train” list and see at a glance the stuff tagged with “na” (for “next actions”) and a location of @Train – i.e the stuff that I can and should be doing from here!</em></p>
-<p><em>The RTM website is clean, slick, and easy to use (especially if you make the effort to memorise the keyboard shortcuts), which means there is little friction involved in maintaining your tasks during the day, which of course is vital to making any system work.<br>
+<p><em>The RTM website is clean, slick, and easy to use (especially if you make the effort to memorise the keyboard shortcuts), which means there is little friction involved in maintaining your tasks during the day, which of course is vital to making any system work.
 One of the other sites that I’m logged into all day long is Gmail, and there’s a really good Firefox extension (3.0-compatible) which integrates RTM into Gmail brilliantly – RTM can even automatically create a task when you star a mail.</em></p>
 <p><em>What else?  Did I mention the API, Blackberry support, Offline access (via Google Gears), iGoogle widget, Google Calendar integration, Atom feeds, Twitter integration, Google Maps integration…..?  The list goes on – if you can think of a neat feature that you’d like to have in a web app circa 2008, chances are that RTM has it.</em></p>
 <p><em>Give it a go, but don’t blame me if you become dependent upon it!”</em></p>
@@ -3244,7 +3244,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
 <p>And it isn’t just the addition of young <a href="https://blog.iannelson.uk/benjamin-george-nelson/">Benjamin</a> – since I last uploaded a tree eleven months ago, I’ve increased the number of individuals in my database by 55, to a total of 1114 from 307 family groups.</p>
 <p>But more than that, the quality and number of facts for many individuals has increased. This year, I’m trying to methodically work through my ancestors in a bit more detail and fill in some of the tricky gaps that I left last year when everything was new to me and there were plenty of “easy pickings” to be had.</p>
 <p>I must say, it’s sometimes quite a depressing affair, this family history research. No long-lost aristocratic lineage with associated fortunes unearthed thus far! One side of my mother’s family were steel workers in Sheffield, while the other were agricultural labourers in Lincolnshire and at one point in time five siblings from the same family died of diphtheria within a fortnight of each other.</p>
-<p>My father’s ancestors were coal-miners from Scotland, and invariably died at an early age, including my g.g.g.grandfather John Allan who died on 21st January 1863 at the age of 35 when the roof of the mine he was working in collapsed on him. Then there are all the people who never reached adulthood at all, or never married, or my great-granduncle William Henry Worfolk who <a href="http://www.cwgc.org/search/certificate.aspx?casualty=75262">died in the Battle of the Somme at the age of 20</a>.  Given all these setbacks to my gene pool, it’s quite remarkable that I’m here at all!</p>
+<p>My father’s ancestors were coal-miners from Scotland, and invariably died at an early age, including my g.g.g.grandfather John Allan who died on 21st January 1863 at the age of 35 when the roof of the mine he was working in collapsed on him. Then there are all the people who never reached adulthood at all, or never married, or my great-granduncle William Henry Worfolk who <a href="http://www.cwgc.org/search/certificate.aspx?casualty=75262">died in the Battle of the Somme at the age of 20</a>. Given all these setbacks to my gene pool, it’s quite remarkable that I’m here at all!</p>
 <p><a href="https://familytree.iannelson.uk">All the details are online here</a>. Incidentally, these pages were created automatically using <a href="http://www.gedhtree.com/">GedHTree</a>, a Windows program which converts GEDCOM files into HTML pages. I have to say, it has a fugly UI (screenshot below) of the sort that tends to make the pages of <a href="http://thedailywtf.com/">The Daily WTF</a>, but once you’ve gotten used to it, it does what it says on the tin, and I’m happy to have paid for a registered copy.<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
 ]]></content:encoded>
@@ -3377,12 +3377,12 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <guid>https://blog.iannelson.uk/a-c-postcode-struct-with-parser/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;As &lt;a href=&#34;https://blog.iannelson.uk/postcode-validation/&#34;&gt;discussed recently&lt;/a&gt;, I’ve been trying to knock together a class struct to represent a UK postcode, provide a means of parsing a string as &lt;em&gt;potentially&lt;/em&gt; being a valid postcode (or optionally just an outer code), and split that postcode into “outer” and “inner” code.&lt;/p&gt;
-&lt;p&gt;I say &lt;em&gt;potentially&lt;/em&gt; because, as you’ll know if you’ve looked into this topic at all, it’s impossible to validate whether a string truly does represent a postcode without querying the (copyrighted and expensive-to-license) Postcode Address File.  As a result, my solution is not very stringent – it is possible to persuade it to successfully parse an invalid postcode, but hopefully there should be no occasions when a valid postcode is rejected.&lt;/p&gt;</description>
+&lt;p&gt;I say &lt;em&gt;potentially&lt;/em&gt; because, as you’ll know if you’ve looked into this topic at all, it’s impossible to validate whether a string truly does represent a postcode without querying the (copyrighted and expensive-to-license) Postcode Address File. As a result, my solution is not very stringent – it is possible to persuade it to successfully parse an invalid postcode, but hopefully there should be no occasions when a valid postcode is rejected.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<!-- raw HTML omitted -->
 <p>As <a href="https://blog.iannelson.uk/postcode-validation/">discussed recently</a>, I’ve been trying to knock together a class struct to represent a UK postcode, provide a means of parsing a string as <em>potentially</em> being a valid postcode (or optionally just an outer code), and split that postcode into “outer” and “inner” code.</p>
-<p>I say <em>potentially</em> because, as you’ll know if you’ve looked into this topic at all, it’s impossible to validate whether a string truly does represent a postcode without querying the (copyrighted and expensive-to-license) Postcode Address File.  As a result, my solution is not very stringent – it is possible to persuade it to successfully parse an invalid postcode, but hopefully there should be no occasions when a valid postcode is rejected.</p>
-<p>The code validates strings by checking for compliance with the standards defined in <a href="http://www.govtalk.gov.uk/gdsc/html/frames/PostCode.htm">BS7666</a>, followed by checking for BFPO postcodes, and finally for a handful of notable exceptions (e.g. Girobank).  If you know of any valid postcodes that are rejected by this routine, do let me know.</p>
-<p>Oh, and incidentally, this was the first time I’ve used Visual Studio Orcas in anger to develop anything meatier than a Hello World.  Although I wasn’t exactly pushing the technological envelope, I found the IDE to be pretty fast and stable, considering it’s a beta 1.</p>
+<p>I say <em>potentially</em> because, as you’ll know if you’ve looked into this topic at all, it’s impossible to validate whether a string truly does represent a postcode without querying the (copyrighted and expensive-to-license) Postcode Address File. As a result, my solution is not very stringent – it is possible to persuade it to successfully parse an invalid postcode, but hopefully there should be no occasions when a valid postcode is rejected.</p>
+<p>The code validates strings by checking for compliance with the standards defined in <a href="http://www.govtalk.gov.uk/gdsc/html/frames/PostCode.htm">BS7666</a>, followed by checking for BFPO postcodes, and finally for a handful of notable exceptions (e.g. Girobank). If you know of any valid postcodes that are rejected by this routine, do let me know.</p>
+<p>Oh, and incidentally, this was the first time I’ve used Visual Studio Orcas in anger to develop anything meatier than a Hello World. Although I wasn’t exactly pushing the technological envelope, I found the IDE to be pretty fast and stable, considering it’s a beta 1.</p>
 <p>Source available on GitHub at <a href="https://github.com/ianfnelson/Postcode">https://github.com/ianfnelson/Postcode</a></p>
 ]]></content:encoded>
     </item>
@@ -3448,11 +3448,11 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <guid>https://blog.iannelson.uk/spot-the-misleading-graph/</guid>
       <description>&lt;p&gt;Fifty-three years since Darrell Huff published the seminal &lt;em&gt;&lt;a href=&#34;http://www.amazon.co.uk/gp/product/0140136290?ie=UTF8&amp;amp;tag=ianesbl-21&amp;amp;linkCode=as2&amp;amp;camp=1634&amp;amp;creative=6738&amp;amp;creativeASIN=0140136290&#34;&gt;How to Lie with Statistics&lt;/a&gt;&lt;/em&gt;, and still we have newspapers as august as &lt;em&gt;The Times&lt;/em&gt; pulling the oldest trick in the book:&lt;/p&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;At first glance it all looks very impressive, but closer inspection of the comparison with sales of the Torygraph reveal a mere 8.7% sales lead, not more than double as suggested by the graphic.  Not fooled.&lt;/p&gt;</description>
+&lt;p&gt;At first glance it all looks very impressive, but closer inspection of the comparison with sales of the Torygraph reveal a mere 8.7% sales lead, not more than double as suggested by the graphic.Not fooled.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Fifty-three years since Darrell Huff published the seminal <em><a href="http://www.amazon.co.uk/gp/product/0140136290?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=6738&amp;creativeASIN=0140136290">How to Lie with Statistics</a></em>, and still we have newspapers as august as <em>The Times</em> pulling the oldest trick in the book:</p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<p>At first glance it all looks very impressive, but closer inspection of the comparison with sales of the Torygraph reveal a mere 8.7% sales lead, not more than double as suggested by the graphic.  Not fooled.</p>
-<p>Another favourite book of mine that covers the still-relevant topic of graphical integrity is Edward Tufte’s <em><a href="http://www.amazon.co.uk/gp/product/0961392142?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=6738&amp;creativeASIN=0961392142">The Visual Display of Quantitative Information</a></em><!-- raw HTML omitted -->.  It’s one of those timeless works that I look forward to sharing with the next generation.</p>
+<p>At first glance it all looks very impressive, but closer inspection of the comparison with sales of the Torygraph reveal a mere 8.7% sales lead, not more than double as suggested by the graphic.Not fooled.</p>
+<p>Another favourite book of mine that covers the still-relevant topic of graphical integrity is Edward Tufte’s <em><a href="http://www.amazon.co.uk/gp/product/0961392142?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=6738&amp;creativeASIN=0961392142">The Visual Display of Quantitative Information</a></em><!-- raw HTML omitted -->.It’s one of those timeless works that I look forward to sharing with the next generation.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -3460,20 +3460,24 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <link>https://blog.iannelson.uk/dangling-off-a-skyscraper/</link>
       <pubDate>Sun, 11 Feb 2007 16:02:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/dangling-off-a-skyscraper/</guid>
-      <description>&lt;p&gt;I keep intending, and forgetting to post a couple of videos from our US holiday last April.  I suppose I was hoping to get round to writing up my paper notes from the holiday, but it’s becoming apparent that won’t happen anytime soon, so let’s skip forward to the funny bits:&lt;/p&gt;
-&lt;p&gt;We spent a couple of nights at the Stratosphere Hotel in Las Vegas, which is the tallest observation tower in the United States.  Atop the tower are three “thrill rides”, and I foolishly tried all of them whilst Jocelyn videoed proceedings from a safe distance.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>I keep intending, and forgetting to post a couple of videos from our US holiday last April.  I suppose I was hoping to get round to writing up my paper notes from the holiday, but it’s becoming apparent that won’t happen anytime soon, so let’s skip forward to the funny bits:</p>
-<p>We spent a couple of nights at the Stratosphere Hotel in Las Vegas, which is the tallest observation tower in the United States.  Atop the tower are three “thrill rides”, and I foolishly tried all of them whilst Jocelyn videoed proceedings from a safe distance.</p>
-<p>The Big Shot, at 329m high is the highest ride in the world.  This is essentially a big pole with seats around the side that flings you straight up, quickly, and drops you down again.  You’ve probably seen these elsewhere, this is much the same except it happens to be on the top of a very tall building and hence offers mighty fine views over the Las Vegas desert.  We don’t have any video of this as it all happened a bit too quickly for Joce to catch.</p>
-<p>X-Scream, at 264m high is the third highest ride in the world.  This is basically a glorified bench that dangles off the edge of the building, and it is one of the scariest things I’ve ever experienced!  From inside the building Jocelyn captured the video below – turn up the volume to hear some Aussie tourists laughing at my predicament!<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<p>Insanity, at 274m high is the second highest ride in the world.  According to Wikipedia, “it dangles riders over the edge of the tower and then spins in a circular pattern at approximately forty miles per hour”.  This was also pretty scary, though the constant circular motion made it less terrifying than the X-Scream (with its stop-start “aha, you thought you were going to continue falling for another 100+ storeys” shenanigans).  Here’s a video of me on the Insanity – can’t think why I’m the only partipant…<!-- raw HTML omitted --><!-- raw HTML omitted -->
-<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_4371.jpg"></p>
-<pre><code>![](https://blogstouks01.z33.web.core.windows.net/2007/02/IMG_4374-1.JPG)
+      <description>&lt;p&gt;I keep intending, and forgetting to post a couple of videos from our US holiday last April. I suppose I was hoping to get round to writing up my paper notes from the holiday, but it’s becoming apparent that won’t happen anytime soon, so let’s skip forward to the funny bits:&lt;/p&gt;
+&lt;p&gt;We spent a couple of nights at the Stratosphere Hotel in Las Vegas, which is the tallest observation tower in the United States. Atop the tower are three “thrill rides”, and I foolishly tried all of them whilst Jocelyn videoed proceedings from a safe distance.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I keep intending, and forgetting to post a couple of videos from our US holiday last April. I suppose I was hoping to get round to writing up my paper notes from the holiday, but it’s becoming apparent that won’t happen anytime soon, so let’s skip forward to the funny bits:</p>
+<p>We spent a couple of nights at the Stratosphere Hotel in Las Vegas, which is the tallest observation tower in the United States. Atop the tower are three “thrill rides”, and I foolishly tried all of them whilst Jocelyn videoed proceedings from a safe distance.</p>
+<p>The Big Shot, at 329m high is the highest ride in the world. This is essentially a big pole with seats around the side that flings you straight up, quickly, and drops you down again. You’ve probably seen these elsewhere, this is much the same except it happens to be on the top of a very tall building and hence offers mighty fine views over the Las Vegas desert. We don’t have any video of this as it all happened a bit too quickly for Joce to catch.</p>
+<p>X-Scream, at 264m high is the third highest ride in the world. This is basically a glorified bench that dangles off the edge of the building, and it is one of the scariest things I’ve ever experienced!  From inside the building Jocelyn captured the video below – turn up the volume to hear some Aussie tourists laughing at my predicament!</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ANTRHMjBRbU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
-![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_4379.jpg)
+<p>Insanity, at 274m high is the second highest ride in the world. According to Wikipedia, “it dangles riders over the edge of the tower and then spins in a circular pattern at approximately forty miles per hour”. This was also pretty scary, though the constant circular motion made it less terrifying than the X-Scream (with its stop-start “aha, you thought you were going to continue falling for another 100+ storeys” shenanigans). Here’s a video of me on the Insanity – can’t think why I’m the only partipant…</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Rv5Ni1hUv_A?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
-![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_4381.jpg)
-</code></pre>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_4371.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_4379.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_4381.jpg"></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -3503,10 +3507,10 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <pubDate>Sun, 12 Nov 2006 20:11:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/for-our-tomorrows/</guid>
       <description>&lt;p&gt;On this Remembrance Sunday, permit me to share with you a photo that my cousin Helen took this week of our Granduncle’s grave in France.&lt;/p&gt;
-&lt;p&gt;Private William Henry Worfolk (1896 – 1916) of the York and Lancaster Regiment was my Grandfather’s elder brother (by four years), and was only just old enough to fight (and die) in the First World War.  A couple of years later and it could just as easily have been my grandfather, and then I wouldn’t be here to tell you this tale.  Ninety years on from that most bloody of wars, we still have much to be thankful for.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+&lt;p&gt;Private William Henry Worfolk (1896 – 1916) of the York and Lancaster Regiment was my Grandfather’s elder brother (by four years), and was only just old enough to fight (and die) in the First World War. A couple of years later and it could just as easily have been my grandfather, and then I wouldn’t be here to tell you this tale. Ninety years on from that most bloody of wars, we still have much to be thankful for.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>On this Remembrance Sunday, permit me to share with you a photo that my cousin Helen took this week of our Granduncle’s grave in France.</p>
-<p>Private William Henry Worfolk (1896 – 1916) of the York and Lancaster Regiment was my Grandfather’s elder brother (by four years), and was only just old enough to fight (and die) in the First World War.  A couple of years later and it could just as easily have been my grandfather, and then I wouldn’t be here to tell you this tale.  Ninety years on from that most bloody of wars, we still have much to be thankful for.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>Private William Henry Worfolk (1896 – 1916) of the York and Lancaster Regiment was my Grandfather’s elder brother (by four years), and was only just old enough to fight (and die) in the First World War. A couple of years later and it could just as easily have been my grandfather, and then I wouldn’t be here to tell you this tale. Ninety years on from that most bloody of wars, we still have much to be thankful for.</p>
+<p><img alt="We Will Remember Them" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/we-will-remember-them_295407300_o.jpg"></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -3531,7 +3535,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
 </ul>
 <p>Those sixteen ancestors were born between 1829 and 1860.</p>
 <p>I haven’t yet updated my <a href="http://familytree.iannelson.uk">online family tree</a>, but will do so later today.</p>
-<p>I suspect that this marks the end of the &ldquo;easy bit&rdquo; of my research, and doubt that I’ll ever succeed in discovering the names of all of my 32 great-great-great-grandparents.  Still, you never know…</p>
+<p>I suspect that this marks the end of the &ldquo;easy bit&rdquo; of my research, and doubt that I’ll ever succeed in discovering the names of all of my 32 great-great-great-grandparents.Still, you never know…</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -3539,25 +3543,27 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <link>https://blog.iannelson.uk/genealogy-my-new-winter-hobby/</link>
       <pubDate>Sun, 01 Oct 2006 19:10:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/genealogy-my-new-winter-hobby/</guid>
-      <description>&lt;p&gt;&lt;em&gt;“INTPs are always so mentally active that they continually delve into new interests… The interests of an INTP would be enough to occupy him for several lifetimes if that were possible.”&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;— &lt;a href=&#34;http://www.intp.org/intprofile.html&#34;&gt;A description of the INTP personality type, Paul James&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I’ve been in need of a new hobby for a while now.  The mental challenges offered from getting married, changing jobs and moving home have passed, and my free evenings and weekends were becoming prone to bouts of restlessness and sighs of “I’m bored”.  This is not a good thing.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p><em>“INTPs are always so mentally active that they continually delve into new interests… The interests of an INTP would be enough to occupy him for several lifetimes if that were possible.”</em></p>
-<p>— <a href="http://www.intp.org/intprofile.html">A description of the INTP personality type, Paul James</a>.</p>
-<p>I’ve been in need of a new hobby for a while now.  The mental challenges offered from getting married, changing jobs and moving home have passed, and my free evenings and weekends were becoming prone to bouts of restlessness and sighs of “I’m bored”.  This is not a good thing.</p>
-<p>I’ve been toying with the idea of buying a Digital SLR for a while, but the initial outlay for all the required kit would be close to four figures, a sum not easy to come by after the aforementioned marriage and house move.  Besides, I’m not sure that taking up a pastime which is essentially outdoor in nature is a good idea as the nights draw in and we enter the almost perpetual darkness of a British winter.</p>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;“INTPs are always so mentally active that they continually delve into new interests… The interests of an INTP would be enough to occupy him for several lifetimes if that were possible.”&lt;/p&gt;
+&lt;p&gt;— &lt;a href=&#34;http://www.intp.org/intprofile.html&#34;&gt;A description of the INTP personality type, Paul James&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;I’ve been in need of a new hobby for a while now. The mental challenges offered from getting married, changing jobs and moving home have passed, and my free evenings and weekends were becoming prone to bouts of restlessness and sighs of “I’m bored”. This is not a good thing.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>“INTPs are always so mentally active that they continually delve into new interests… The interests of an INTP would be enough to occupy him for several lifetimes if that were possible.”</p>
+<p>— <a href="http://www.intp.org/intprofile.html">A description of the INTP personality type, Paul James</a>.</p></blockquote>
+<p>I’ve been in need of a new hobby for a while now. The mental challenges offered from getting married, changing jobs and moving home have passed, and my free evenings and weekends were becoming prone to bouts of restlessness and sighs of “I’m bored”. This is not a good thing.</p>
+<p>I’ve been toying with the idea of buying a Digital SLR for a while, but the initial outlay for all the required kit would be close to four figures, a sum not easy to come by after the aforementioned marriage and house move. Besides, I’m not sure that taking up a pastime which is essentially outdoor in nature is a good idea as the nights draw in and we enter the almost perpetual darkness of a British winter.</p>
 <p>So, inspired by <a href="http://en.wikipedia.org/wiki/Who_Do_You_Think_You_Are%3F">WDYTYA</a> and the wife’s purchase of a <a href="http://www.marthastewart.com/page.jhtml?type=content&amp;id=channel1558">Martha Stewart genealogy fan chart</a>, I decided that the time was right for me to do one of those “things I’ve always meant to do” and start tracing our family trees.</p>
-<p>Like life insurance, dating, and selling unwanted tat to unsuspecting strangers, genealogy is one of those areas that has been radically transformed by the proliferation of the web.  I can’t imagine how much slower it would be to undertake this research just ten or fifteen years ago.  Sites like <a href="http://www.ancestry.com">Ancestry</a>, <a href="http://www.scotlandspeople.gov.uk">Scotland’s People</a>, and even simple things like online certificate ordering from the <a href="http://www.gro.gov.uk/gro/content/">GRO</a> have really reduced the time taken to trace lines back, at least over the last couple of centuries.  A couple of months ago I knew the names of six of my direct ancestors (i.e. my parents and grandparents).  Today I know 66, with more potential lines of research still untapped.  My database currently contains 298 individuals, with more to be keyed in later tonight.  Virtually all of this has been discovered via an ethernet cable without leaving the comfort of my office.</p>
-<p>But on some of my lineage I’m now starting to reach the limits of what is possible using the web alone.  It turns out that my great-great-grandfather, John Nelson, was born in County Monaghan, Ireland, in the mid-nineteenth century.  The Irish government are being somewhat tardy at putting their records online, so if I want to know more I’m going to have to find out in person.  Fortunately, we already have plans to visit Dublin later this month, so a visit to the Irish GRO isn’t entirely out of the question.</p>
+<p>Like life insurance, dating, and selling unwanted tat to unsuspecting strangers, genealogy is one of those areas that has been radically transformed by the proliferation of the web. I can’t imagine how much slower it would be to undertake this research just ten or fifteen years ago. Sites like <a href="http://www.ancestry.com">Ancestry</a>, <a href="http://www.scotlandspeople.gov.uk">Scotland’s People</a>, and even simple things like online certificate ordering from the <a href="http://www.gro.gov.uk/gro/content/">GRO</a> have really reduced the time taken to trace lines back, at least over the last couple of centuries. A couple of months ago I knew the names of six of my direct ancestors (i.e. my parents and grandparents). Today I know 66, with more potential lines of research still untapped. My database currently contains 298 individuals, with more to be keyed in later tonight. Virtually all of this has been discovered via an ethernet cable without leaving the comfort of my office.</p>
+<p>But on some of my lineage I’m now starting to reach the limits of what is possible using the web alone. It turns out that my great-great-grandfather, John Nelson, was born in County Monaghan, Ireland, in the mid-nineteenth century. The Irish government are being somewhat tardy at putting their records online, so if I want to know more I’m going to have to find out in person. Fortunately, we already have plans to visit Dublin later this month, so a visit to the Irish GRO isn’t entirely out of the question.</p>
 <p>I’m still very much a beginner at this game, but here are a few links and tips that I’ve amassed so far:</p>
 <ul>
-<li>Decent genealogy software will make it much easier to keep track of your findings.  <a href="http://www.amazon.co.uk/Think-Family-Tree-Maker-Deluxe/dp/B000BD3FNA">Amazon have</a> the BBC-branded version of GSP’s <a href="http://www.familytreemaker.com">Family Tree Maker</a> software for £19.99, which I’ve found to be more than adequate so far.  This comes with a free thirty-day subscription to the UK datasets on Ancestry.co.uk.  Of course if, like Jocelyn and I, you are interested in relatives from both sides of the pond, you’ll probably end up buying a “World” subscription to Ancestry anyway.</li>
+<li>Decent genealogy software will make it much easier to keep track of your findings. <a href="http://www.amazon.co.uk/Think-Family-Tree-Maker-Deluxe/dp/B000BD3FNA">Amazon have</a> the BBC-branded version of GSP’s <a href="http://www.familytreemaker.com">Family Tree Maker</a> software for £19.99, which I’ve found to be more than adequate so far. This comes with a free thirty-day subscription to the UK datasets on Ancestry.co.uk. Of course if, like Jocelyn and I, you are interested in relatives from both sides of the pond, you’ll probably end up buying a “World” subscription to Ancestry anyway.</li>
 <li>If your software offers the ability to give each individual in your database a unique reference number, use it!  Half the folk in my tree seem to be called Benjamin, Joseph and William, and it’s all too easy to get them confused!</li>
-<li>From the earliest stages of your research, keep a note of your sources.  This can’t be emphasised enough, as you risk having to repeat your research otherwise.  I failed to note my sources initially as I got caught up in the fun of the research, and now I look at some facts in my database and wonder “but how do I know that?”.</li>
+<li>From the earliest stages of your research, keep a note of your sources. This can’t be emphasised enough, as you risk having to repeat your research otherwise. I failed to note my sources initially as I got caught up in the fun of the research, and now I look at some facts in my database and wonder “but how do I know that?”.</li>
 <li>If, like me, you have Scottish blood, then <a href="http://www.scotlandspeople.gov.uk">Scotland’s People</a> is an invaluable trove of information, with digitized BMD records going back to 1855, the Scottish census returns, and searchable parish records to 1513.</li>
-<li>Don’t jump to conclusions.  Just because a search only yields one result doesn’t mean it’s the individual you seek.  Datasets can be incomplete, or names can be spelled differently (William, Willm, Wm, Will, Willie; Benjamin, Benjm, Ben, Benny…).  I am now the proud owner of a birth certificate for an individual who shares the name and birth year of one of my ancestors, but isn’t him!</li>
+<li>Don’t jump to conclusions. Just because a search only yields one result doesn’t mean it’s the individual you seek. Datasets can be incomplete, or names can be spelled differently (William, Willm, Wm, Will, Willie; Benjamin, Benjm, Ben, Benny…). I am now the proud owner of a birth certificate for an individual who shares the name and birth year of one of my ancestors, but isn’t him!</li>
 <li><a href="http://www.ancestryfamilytree.net/search/rectype/trees/owt/">OneWorldTree</a> and other sites which allow you to link your tree to others can be a great way of sharing research and rapidly discovering entire branches of your family, but take everything with a large pinch of salt!  You don’t believe everything you read on the internet, do you?  Before convincing yourself that you’ve traced your family all the way back to Adam, get sources for all the pertinent facts.</li>
-<li><a href="http://www.amazon.co.uk/Genealogists-Internet-Peter-Christian/dp/190336583X">“The Genealogist’s Internet” by Peter Christian</a> is a mine of useful information for those using the net to undertake this kind of research.  I’m sure other books will prove useful for the next (offline) stages of my investigation, but I’m still waiting for Amazon to deliver a couple of those.</li>
+<li><a href="http://www.amazon.co.uk/Genealogists-Internet-Peter-Christian/dp/190336583X">“The Genealogist’s Internet” by Peter Christian</a> is a mine of useful information for those using the net to undertake this kind of research. I’m sure other books will prove useful for the next (offline) stages of my investigation, but I’m still waiting for Amazon to deliver a couple of those.</li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -3566,15 +3572,37 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <link>https://blog.iannelson.uk/a-serializable-keyvaluepair-class/</link>
       <pubDate>Sun, 17 Sep 2006 17:09:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/a-serializable-keyvaluepair-class/</guid>
-      <description>&lt;p&gt;Having accepted that &lt;a href=&#34;http://www.hanselman.com/blog/ReturningDataSetsFromWebServicesIsTheSpawnOfSatanAndRepresentsAllThatIsTrulyEvilInTheWorld.aspx&#34;&gt;Returning DataSets from WebServices is the Spawn of Satan and Represents All That Is Truly Evil in the World&lt;/a&gt; (or at least, not exactly best practice), I’ve been trying to make a conscious effort to instead use lightweight custom objects in my middle tier, to be exposed via web services for use by other applications. I felt sure that some of the new Generic classes in the .NET 2.0 FCL would help me in my quest. Specifically, as I often need to expose simple arrays of Key/Value Pair metadata, I planned to create an instance of the  System.Collections.ObjectModel.Collection class, containing a bunch of System.Collections.Generic.KeyValuePair objects.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Having accepted that <a href="http://www.hanselman.com/blog/ReturningDataSetsFromWebServicesIsTheSpawnOfSatanAndRepresentsAllThatIsTrulyEvilInTheWorld.aspx">Returning DataSets from WebServices is the Spawn of Satan and Represents All That Is Truly Evil in the World</a> (or at least, not exactly best practice), I’ve been trying to make a conscious effort to instead use lightweight custom objects in my middle tier, to be exposed via web services for use by other applications. I felt sure that some of the new Generic classes in the .NET 2.0 FCL would help me in my quest. Specifically, as I often need to expose simple arrays of Key/Value Pair metadata, I planned to create an instance of the  System.Collections.ObjectModel.Collection class, containing a bunch of System.Collections.Generic.KeyValuePair objects.</p>
+      <description>&lt;p&gt;Having accepted that &lt;a href=&#34;http://www.hanselman.com/blog/ReturningDataSetsFromWebServicesIsTheSpawnOfSatanAndRepresentsAllThatIsTrulyEvilInTheWorld.aspx&#34;&gt;Returning DataSets from WebServices is the Spawn of Satan and Represents All That Is Truly Evil in the World&lt;/a&gt; (or at least, not exactly best practice), I’ve been trying to make a conscious effort to instead use lightweight custom objects in my middle tier, to be exposed via web services for use by other applications. I felt sure that some of the new Generic classes in the .NET 2.0 FCL would help me in my quest. Specifically, as I often need to expose simple arrays of Key/Value Pair metadata, I planned to create an instance of the  &lt;code&gt;System.Collections.ObjectModel.Collection&lt;/code&gt; class, containing a bunch of &lt;code&gt;System.Collections.Generic.KeyValuePair&lt;/code&gt; objects.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Having accepted that <a href="http://www.hanselman.com/blog/ReturningDataSetsFromWebServicesIsTheSpawnOfSatanAndRepresentsAllThatIsTrulyEvilInTheWorld.aspx">Returning DataSets from WebServices is the Spawn of Satan and Represents All That Is Truly Evil in the World</a> (or at least, not exactly best practice), I’ve been trying to make a conscious effort to instead use lightweight custom objects in my middle tier, to be exposed via web services for use by other applications. I felt sure that some of the new Generic classes in the .NET 2.0 FCL would help me in my quest. Specifically, as I often need to expose simple arrays of Key/Value Pair metadata, I planned to create an instance of the  <code>System.Collections.ObjectModel.Collection</code> class, containing a bunch of <code>System.Collections.Generic.KeyValuePair</code> objects.</p>
 <p>Well, this all seemed to go to plan, and worked just fine within my app. But when I exposed the method as a web service, I discovered that neither the Key nor the Value properties were serialized – I was left to consume a lovely generic collection of objects with no members – not a whole lot of use.</p>
 <p>A little Googling turned up <a href="http://blogs.msdn.com/seshadripv/archive/2005/11/02/488273.aspx">this blog entry</a>, which explains that the Key and Value properties on the KeyValuePair class are both read-only, and by design the XmlSerializer will not serialize properties that don’t have a set accessor!</p>
-<p>Damned if that little matter was going to stop me, I whipped out my copy of Lutz Roeder’s reflector to reverse engineer the KeyValuePair class (to be honest, I could have guessed most of it), and added a <em>private</em> set accessor to both properties, thus persuading the XmlSerializer to, well, do some serializing 🙂</p>
+<p>Damned if that little matter was going to stop me, I whipped out my copy of Lutz Roeder’s reflector to reverse engineer the <code>KeyValuePair</code> class (to be honest, I could have guessed most of it), and added a <em>private</em> set accessor to both properties, thus persuading the XmlSerializer to, well, do some serializing 🙂</p>
 <p>Here’s the code for this new class:</p>
-<p>Having done that, to add a little clarity when using this class in the way I anticipate and eliminate repeated code, I decided to create some specific versions of the Collection, ReadOnlyCollection and KeyedCollection classes:</p>
-<p>&lt;!&gt;</p>
-<p>&lt;!&gt;</p>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/9862098.js?file=KeyValuePairThatSerializesProperly.cs"></script>
+<p>Having done that, to add a little clarity when using this class in the way I anticipate and eliminate repeated code, I decided to create some specific versions of the <code>Collection</code>, <code>ReadOnlyCollection</code> and <code>KeyedCollection</code> classes:</p>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/9862098.js?file=KeyValuePairCollection.cs"></script>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/9862098.js?file=ReadOnlyKeyValuePairCollection.cs"></script>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/9862098.js?file=KeyValuePairKeyedCollection.cs"></script>
 ]]></content:encoded>
     </item>
     <item>
@@ -3621,359 +3649,54 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <guid>https://blog.iannelson.uk/usa-trip-2006-breakfast-prep/</guid>
       <description>&lt;p&gt;On our first morning in California, we headed out to breakfast, which was preceded by a short session of Breakfast Prep’, courtesy of Jocelyn.  It had been a couple of years since I’d last had Breakfast In America, and I’d forgotten how to respond to the awesome number of choices and options that would be flung in my direction by the waitperson.&lt;/p&gt;
 &lt;p&gt;Here’s how you order breakfast in Britain:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;pre&gt;&lt;code&gt;  &amp;lt;td&amp;gt;
-    “&amp;lt;a href=&amp;quot;http://en.wikipedia.org/wiki/Full_English_Breakfast&amp;quot;&amp;gt;Full English Breakfast&amp;lt;/a&amp;gt;, please.”
-  &amp;lt;/td&amp;gt;
-&amp;lt;/tr&amp;gt;
-
-&amp;lt;tr&amp;gt;
-  &amp;lt;td&amp;gt;
-    Waitress:
-  &amp;lt;/td&amp;gt;
-  
-  &amp;lt;td&amp;gt;
-    “D’you want tea or coffee with that?”
-  &amp;lt;/td&amp;gt;
-&amp;lt;/tr&amp;gt;
-
-&amp;lt;tr&amp;gt;
-  &amp;lt;td&amp;gt;
-    Diner:
-  &amp;lt;/td&amp;gt;
-  
-  &amp;lt;td&amp;gt;
-    “Tea, please.”
-  &amp;lt;/td&amp;gt;
-&amp;lt;/tr&amp;gt;
-
-&amp;lt;tr&amp;gt;
-  &amp;lt;td&amp;gt;
-    Waitress:
-  &amp;lt;/td&amp;gt;
-  
-  &amp;lt;td&amp;gt;
-    “OK.”
-  &amp;lt;/td&amp;gt;
-&amp;lt;/tr&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;In due course, the standard, empire-forging breakfast is served, and is consumed heartily, perhaps after a little trading with your breakfasting companions (“I’ll swap you my tomatoes for a rasher of your bacon?”).  Everybody knows what is expected, nobody has tricky decisions to make, there are no surprises, and everyone enjoys what they get – and if they don’t enjoy it, well, they don’t mention it, because complaining about such things just wouldn’t be British, damn it.&lt;/p&gt;</description>
+&lt;blockquote&gt;
+&lt;p&gt;Diner: &amp;ldquo;Full English Breakfast, please.&amp;rdquo;&lt;br&gt;
+Waitress: &amp;ldquo;D&amp;rsquo;you want tea or coffee with that?&amp;rdquo;&lt;br&gt;
+Diner: “Tea, please.”&lt;br&gt;
+Waitress: &amp;ldquo;OK.&amp;rdquo;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>On our first morning in California, we headed out to breakfast, which was preceded by a short session of Breakfast Prep’, courtesy of Jocelyn.  It had been a couple of years since I’d last had Breakfast In America, and I’d forgotten how to respond to the awesome number of choices and options that would be flung in my direction by the waitperson.</p>
 <p>Here’s how you order breakfast in Britain:</p>
-<!-- raw HTML omitted -->
-<pre><code>  &lt;td&gt;
-    “&lt;a href=&quot;http://en.wikipedia.org/wiki/Full_English_Breakfast&quot;&gt;Full English Breakfast&lt;/a&gt;, please.”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Waitress:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “D’you want tea or coffee with that?”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Diner:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “Tea, please.”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Waitress:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “OK.”
-  &lt;/td&gt;
-&lt;/tr&gt;
-</code></pre>
-<!-- raw HTML omitted -->
+<blockquote>
+<p>Diner: &ldquo;Full English Breakfast, please.&rdquo;<br>
+Waitress: &ldquo;D&rsquo;you want tea or coffee with that?&rdquo;<br>
+Diner: “Tea, please.”<br>
+Waitress: &ldquo;OK.&rdquo;</p></blockquote>
 <p>In due course, the standard, empire-forging breakfast is served, and is consumed heartily, perhaps after a little trading with your breakfasting companions (“I’ll swap you my tomatoes for a rasher of your bacon?”).  Everybody knows what is expected, nobody has tricky decisions to make, there are no surprises, and everyone enjoys what they get – and if they don’t enjoy it, well, they don’t mention it, because complaining about such things just wouldn’t be British, damn it.</p>
 <p>Now, compare that if you will to the American breakfasting experience.  The sheer size of the American breakfast menu is symptomatic of the culture of Choice that seems to pervade all aspects of the consumer experience here (especially in California), and it really can take some time to pick an option.  But making your selection is only the beginning.  Here’s how a sample breakfast order conversation with an unexpecting Brit (i.e. me, two years ago), might go:</p>
-<!-- raw HTML omitted -->
-<pre><code>  &lt;td&gt;
-    “Are you ready to order?”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Me:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “I think so.  I’ll have the Sausage and Eggs, please.”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Waitperson:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “Do you want links sausages or patty?
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Me:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “Oh.  Um, links, please.”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Waitperson:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “How do you want your eggs?
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Me:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “Fried, please.”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Waitperson:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “Fried how?”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Me:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “Fried how?  In a frying pan, preferably!”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Waitperson:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “Over hard, over easy, over medium, or sunny side up?”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Me:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “What the&amp;#8230;?”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Jocelyn:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “You have them sunny side up, honey.”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Me:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “Oh, OK.  Sunny side up then, please.”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Waitperson:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “And what two sides would you like?”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Me:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “I beg your pardon?”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Waitperson:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “You get a choice of two side options from the list there&amp;#8230;”
-  &lt;/td&gt;
-&lt;/tr&gt;
-</code></pre>
-<!-- raw HTML omitted -->
+<blockquote>
+<p>Waitperson: “Are you ready to order?”<br>
+Me: “I think so.  I’ll have the Sausage and Eggs, please.”<br>
+Waitperson: “Do you want links sausages or patty?&quot;<br>
+Me: “Oh.  Um, links, please.”<br>
+Waitperson: “How do you want your eggs?<br>
+Me: “Fried, please.”<br>
+Waitperson: &ldquo;Fried how?&rdquo;<br>
+Me: “Fried how?  In a frying pan, preferably!”<br>
+Waitperson: “Over hard, over easy, over medium, or sunny side up?”<br>
+Me: “What the…?”<br>
+Jocelyn: “You have them sunny side up, honey.”<br>
+Me: “Oh, OK.  Sunny side up then, please.”<br>
+Waitperson: “And what two sides would you like?”<br>
+Me: “I beg your pardon?”<br>
+Waitperson: “You get a choice of two side options from the list there…”</p></blockquote>
 <p>I consult the list, by this time panicking a tad, and wondering what exactly “Campfire potatoes” (one of the options) are…</p>
-<!-- raw HTML omitted -->
-<pre><code>  &lt;td&gt;
-    “OK, I’ll go for hash browns and bacon, please.”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Waitperson:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “And what would you like to drink with that?”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Me:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “Coffee, please.”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Waitperson:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “Latte, Americano, Cappuccino, Espresso&amp;#8230;?  Decaf or Regular&amp;#8230;?”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Me:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “Oh God, er, regular cappuccino, please.”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Waitperson:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “And what bread would you like for your toast?”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Me:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “Brown, please.”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Waitperson:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “Brown?!”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Jocelyn:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “He means &amp;#8216;wheat’.”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Waitperson:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “OK, coming up..”
-  &lt;/td&gt;
-&lt;/tr&gt;
-</code></pre>
-<!-- raw HTML omitted -->
+<blockquote>
+<p>Me: “OK, I’ll go for hash browns and bacon, please.”<br>
+Waitperson: “And what would you like to drink with that?”<br>
+Me: &ldquo;Coffee, please.&rdquo;<br>
+Waitperson: “Latte, Americano, Cappuccino, Espresso…?  Decaf or Regular…?”<br>
+Me: “Oh God, er, regular cappuccino, please.”<br>
+Waitperson: “And what bread would you like for your toast?”<br>
+Me: “Brown, please.”<br>
+Waitperson: “Brown?!”<br>
+Jocelyn: &ldquo;He means wheat.&rdquo;<br>
+Waitperson: &ldquo;OK, coming up&hellip;&rdquo;</p></blockquote>
 <p>At which point I breathed a sigh of relief and started to dab at my heavily perspiring brow.  Who ever knew that ordering breakfast could be such a complicated experience?  The food is invariably delicious and the portions are big enough to feed a family of four for a week – after a decent US-style breakfast I rarely feel the need for a big lunch or dinner.  I can see how these levels of choice might be appealing if you’ve grown up with them and come to expect such options, but for the uninitiated it’s just baffling, confusing, and seems unnecessary.  Which is why, two years later, I won’t venture into a breakfast restaurant until I’ve done a bit of preparation into my responses to the likely questions.</p>
 <p>Even the simplest snippets of dialogue can provoke unexpected reactions.  Back to that restaurant conversation from two years ago, when we’d finished eating, and I’d relaxed my guard a bit, the waitperson came to clear up:</p>
-<!-- raw HTML omitted -->
-<pre><code>  &lt;td&gt;
-    “So, how were your eggs?
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Me:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “They were lovely, thank you.”
-  &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;
-    Waitperson:
-  &lt;/td&gt;
-  
-  &lt;td&gt;
-    “&lt;em&gt;Lovely&lt;/em&gt;?!  Ha ha!  Where the hell are &lt;em&gt;you&lt;/em&gt; from?!”
-  &lt;/td&gt;
-&lt;/tr&gt;
-</code></pre>
-<!-- raw HTML omitted -->
+<blockquote>
+<p>Waitperson: “So, how were your eggs?&quot;<br>
+Me: &ldquo;They were lovely, thank you.&rdquo;<br>
+Waitperson: &ldquo;<em>Lovely</em>? Ha ha! Where the hell are you from?!&rdquo;</p></blockquote>
 <p>Utterly bemusing!</p>
 ]]></content:encoded>
     </item>
@@ -3982,15 +3705,15 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <link>https://blog.iannelson.uk/usa-trip-2006-arrival/</link>
       <pubDate>Mon, 08 May 2006 13:05:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/usa-trip-2006-arrival/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Monday 10th April 2006&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The sun was still shining as we touched down at SFO, about 22 hours after we’d woken up.  If every day could last that long, I swear I’d get more work done – or maybe I’d just spend more time playing &lt;a href=&#34;http://www.civ4.com&#34;&gt;Civilization&lt;/a&gt;…&lt;/p&gt;
-&lt;p&gt;We picked up the car – a Pontiac Impala which initially seemed unfeasibly huge compared to our Focus, but it’s funny how quickly you adjust and get used to the size, making use of the available space – then it was off down US 101 on the final leg of our journey.  Despite it being rush hour, we had a swift journey due to being able to use the Car Pool lane (by virtue of not being a single-occupant vehicle).  I was amazed how under-utilised this lane was, and started wondering how much of an incentive would be needed for more Bay area commuters to start sharing rides – there’s another good question for &lt;a href=&#34;http://www.freakonomics.com&#34;&gt;the economists&lt;/a&gt; to ponder.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p><em>Monday 10th April 2006</em></p>
-<p>The sun was still shining as we touched down at SFO, about 22 hours after we’d woken up.  If every day could last that long, I swear I’d get more work done – or maybe I’d just spend more time playing <a href="http://www.civ4.com">Civilization</a>…</p>
-<p>We picked up the car – a Pontiac Impala which initially seemed unfeasibly huge compared to our Focus, but it’s funny how quickly you adjust and get used to the size, making use of the available space – then it was off down US 101 on the final leg of our journey.  Despite it being rush hour, we had a swift journey due to being able to use the Car Pool lane (by virtue of not being a single-occupant vehicle).  I was amazed how under-utilised this lane was, and started wondering how much of an incentive would be needed for more Bay area commuters to start sharing rides – there’s another good question for <a href="http://www.freakonomics.com">the economists</a> to ponder.</p>
-<p>Joce drove – I didn’t think it prudent for my first transatlantic driving experience to come during rush hour at the end of a long day’s travelling – and I gazed out of the window, musing again at the open, opportune feeling of the region, despite its large population.  There are new buildings springing up, visible signs of affluence, and it all combines to create the feeling (illusion?) that anything is possible, there’s no history to hold back your dreams.  And of course, as a professional software developer, I was very aware of the kind of businesses to be found in cities such as Mountain View, Sunnyvale, and Palo Alto, that we sped through.</p>
-<p>Back home, there’s something about York – the wealth of history, the cramped streets maybe – that convinces me that it’s nigh-on impossible to get noticed or make an impact in such a city.  How can you make your mark in a city with so many Roman remains on every street corner?  There’s always a nagging feeling that someone got there first, that it’s all been done before.  Name some famous people who’ve made an impact in York?  <a href="http://en.wikipedia.org/wiki/Ivar_the_Boneless">Ivar the Boneless</a>?  <a href="http://en.wikipedia.org/wiki/John_Sentamu">John Sentamu</a>?  <a href="http://en.wikipedia.org/wiki/Judi_Dench">Dame Judi Dench</a>?  <a href="http://en.wikipedia.org/wiki/Rick_Witter">Rick Witter</a>…?  I hypothesised that this might partly explain the large number of Guilds, Companies, Lodges, Fraternities and Clubs in the city – people band together in an effort to attain power and influence.  Is there a Company of Merchant Adventurers in North California?  I suspect not.</p>
-<p>I shared my musings with Jocelyn.  She said &ldquo;Well… what sort of an impact would you like to make?&rdquo;  I confessed that I didn’t have the foggiest idea.  She rightly suggested that maybe it would be a good idea to decide that first, and worry about geography later.</p>
+      <description>&lt;h2 id=&#34;monday-10th-april-2006&#34;&gt;Monday 10th April 2006&lt;/h2&gt;
+&lt;p&gt;The sun was still shining as we touched down at SFO, about 22 hours after we’d woken up.If every day could last that long, I swear I’d get more work done – or maybe I’d just spend more time playing &lt;a href=&#34;http://www.civ4.com&#34;&gt;Civilization&lt;/a&gt;…&lt;/p&gt;
+&lt;p&gt;We picked up the car – a Pontiac Impala which initially seemed unfeasibly huge compared to our Focus, but it’s funny how quickly you adjust and get used to the size, making use of the available space – then it was off down US 101 on the final leg of our journey.Despite it being rush hour, we had a swift journey due to being able to use the Car Pool lane (by virtue of not being a single-occupant vehicle).I was amazed how under-utilised this lane was, and started wondering how much of an incentive would be needed for more Bay area commuters to start sharing rides – there’s another good question for &lt;a href=&#34;http://www.freakonomics.com&#34;&gt;the economists&lt;/a&gt; to ponder.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="monday-10th-april-2006">Monday 10th April 2006</h2>
+<p>The sun was still shining as we touched down at SFO, about 22 hours after we’d woken up.If every day could last that long, I swear I’d get more work done – or maybe I’d just spend more time playing <a href="http://www.civ4.com">Civilization</a>…</p>
+<p>We picked up the car – a Pontiac Impala which initially seemed unfeasibly huge compared to our Focus, but it’s funny how quickly you adjust and get used to the size, making use of the available space – then it was off down US 101 on the final leg of our journey.Despite it being rush hour, we had a swift journey due to being able to use the Car Pool lane (by virtue of not being a single-occupant vehicle).I was amazed how under-utilised this lane was, and started wondering how much of an incentive would be needed for more Bay area commuters to start sharing rides – there’s another good question for <a href="http://www.freakonomics.com">the economists</a> to ponder.</p>
+<p>Joce drove – I didn’t think it prudent for my first transatlantic driving experience to come during rush hour at the end of a long day’s travelling – and I gazed out of the window, musing again at the open, opportune feeling of the region, despite its large population.There are new buildings springing up, visible signs of affluence, and it all combines to create the feeling (illusion?) that anything is possible, there’s no history to hold back your dreams.And of course, as a professional software developer, I was very aware of the kind of businesses to be found in cities such as Mountain View, Sunnyvale, and Palo Alto, that we sped through.</p>
+<p>Back home, there’s something about York – the wealth of history, the cramped streets maybe – that convinces me that it’s nigh-on impossible to get noticed or make an impact in such a city.How can you make your mark in a city with so many Roman remains on every street corner?  There’s always a nagging feeling that someone got there first, that it’s all been done before.Name some famous people who’ve made an impact in York?  <a href="http://en.wikipedia.org/wiki/Ivar_the_Boneless">Ivar the Boneless</a>?  <a href="http://en.wikipedia.org/wiki/John_Sentamu">John Sentamu</a>?  <a href="http://en.wikipedia.org/wiki/Judi_Dench">Dame Judi Dench</a>?  <a href="http://en.wikipedia.org/wiki/Rick_Witter">Rick Witter</a>?  I hypothesised that this might partly explain the large number of Guilds, Companies, Lodges, Fraternities and Clubs in the city – people band together in an effort to attain power and influence.Is there a Company of Merchant Adventurers in North California?  I suspect not.</p>
+<p>I shared my musings with Jocelyn.She said &ldquo;Well&hellip; what sort of an impact would you like to make?&rdquo;  I confessed that I didn’t have the foggiest idea.She rightly suggested that maybe it would be a good idea to decide that first, and worry about geography later.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -3998,13 +3721,13 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <link>https://blog.iannelson.uk/usa-trip-2006-journey/</link>
       <pubDate>Mon, 08 May 2006 13:05:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/usa-trip-2006-journey/</guid>
-      <description>&lt;p&gt;_Monday 10th April 2006&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Travelling West during the daytime is a blast, especially on a sunny day.  Time it right and you can experience daylight for 24 hours, which afforded me time to catch up on some reading.  For Christmas Joce had given a book entitled &lt;a href=&#34;http://www.freakonomics.com/&#34;&gt;Freakonomics – A Rogue Economist Explores The Hidden Side Of Eveything&lt;/a&gt;, and now I finally had time to read through it.  I surprised myself by finishing it by the time we reached Chicago – this may be a chunky hardback book on economics, but it’s also &lt;em&gt;really&lt;/em&gt; interesting and easy-going.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>_Monday 10th April 2006<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted -->Travelling West during the daytime is a blast, especially on a sunny day.  Time it right and you can experience daylight for 24 hours, which afforded me time to catch up on some reading.  For Christmas Joce had given a book entitled <a href="http://www.freakonomics.com/">Freakonomics – A Rogue Economist Explores The Hidden Side Of Eveything</a>, and now I finally had time to read through it.  I surprised myself by finishing it by the time we reached Chicago – this may be a chunky hardback book on economics, but it’s also <em>really</em> interesting and easy-going.</p>
-<p>The book answers a mixed bag of questions – Which is more dangerous, a gun or a swimming pool? What do schoolteachers and sumo wrestlers have in common? Why do drug dealers still live with their moms? How much do parents really matter? – by using standard economic tools.  The results are fascinating – go check out some <a href="http://www.freakonomics.com/chapter.php">chapter excerpts</a> on the website if you don’t believe me.</p>
-<p>Anyway, that book, combined with Barney, my trusty iPod made the flights, well, fly by.  It was the first time I’ve travelled whilst carrying almost my entire music collection in my pocket, and having that level of choice really pleased me.  Previously, no matter how many tapes or CDs I carried, there would always be something left at home that I had a desperate urge to listen to, and I never seemed to have the music to match my mood – which is <a href="http://www.intp.org/intprofile.html">essential for an INTP</a>.</p>
-<p>At O’Hare airport, we discovered a small advantage of our transatlantic marriage – we can choose to go through passport control together through either the &ldquo;citizens&rdquo; or &ldquo;foreigners&rdquo; queue (natually, we picked the shorter one), in order to provide a complete picture to the immigration officer.  The time savings we gained here were, however, subsequently lost when we inadvertantly picked up the wrong suitcase at baggage reclaim – I ask you, what are the chances of somebody else having the exact same model of case, <em>and</em> tying a blue ribbon around the handle to make it more easily identifiable?  Less minimal than we expected, evidently…</p>
+      <description>&lt;h2 id=&#34;monday-10th-april-2006&#34;&gt;Monday 10th April 2006&lt;/h2&gt;
+&lt;p&gt;Travelling West during the daytime is a blast, especially on a sunny day.Time it right and you can experience daylight for 24 hours, which afforded me time to catch up on some reading.For Christmas Joce had given a book entitled &lt;a href=&#34;http://www.freakonomics.com/&#34;&gt;Freakonomics – A Rogue Economist Explores The Hidden Side Of Eveything&lt;/a&gt;, and now I finally had time to read through it.I surprised myself by finishing it by the time we reached Chicago – this may be a chunky hardback book on economics, but it’s also &lt;em&gt;really&lt;/em&gt; interesting and easy-going.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="monday-10th-april-2006">Monday 10th April 2006</h2>
+<p>Travelling West during the daytime is a blast, especially on a sunny day.Time it right and you can experience daylight for 24 hours, which afforded me time to catch up on some reading.For Christmas Joce had given a book entitled <a href="http://www.freakonomics.com/">Freakonomics – A Rogue Economist Explores The Hidden Side Of Eveything</a>, and now I finally had time to read through it.I surprised myself by finishing it by the time we reached Chicago – this may be a chunky hardback book on economics, but it’s also <em>really</em> interesting and easy-going.</p>
+<p>The book answers a mixed bag of questions – Which is more dangerous, a gun or a swimming pool? What do schoolteachers and sumo wrestlers have in common? Why do drug dealers still live with their moms? How much do parents really matter? – by using standard economic tools.The results are fascinating – go check out some <a href="http://www.freakonomics.com/chapter.php">chapter excerpts</a> on the website if you don’t believe me.</p>
+<p>Anyway, that book, combined with Barney, my trusty iPod made the flights, well, fly by.It was the first time I’ve travelled whilst carrying almost my entire music collection in my pocket, and having that level of choice really pleased me.Previously, no matter how many tapes or CDs I carried, there would always be something left at home that I had a desperate urge to listen to, and I never seemed to have the music to match my mood – which is <a href="http://www.intp.org/intprofile.html">essential for an INTP</a>.</p>
+<p>At O’Hare airport, we discovered a small advantage of our transatlantic marriage – we can choose to go through passport control together through either the &ldquo;citizens&rdquo; or &ldquo;foreigners&rdquo; queue (natually, we picked the shorter one), in order to provide a complete picture to the immigration officer.The time savings we gained here were, however, subsequently lost when we inadvertantly picked up the wrong suitcase at baggage reclaim – I ask you, what are the chances of somebody else having the exact same model of case, <em>and</em> tying a blue ribbon around the handle to make it more easily identifiable?  Less minimal than we expected, evidently.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -4013,11 +3736,11 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <pubDate>Tue, 02 May 2006 21:05:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/usa-trip-2006-departure/</guid>
       <description>&lt;p&gt;Last month Jocelyn and I took a trip to the States to visit friends and family, attend Teri &amp;amp; Jimmy’s wedding, and take a vacation to Nevada and Arizona.&lt;/p&gt;
-&lt;p&gt;So, there we were, sitting at the departure gate at Manchester Airport on a bright Monday morning, having awoken at 0430 to make our way across the Pennines.  A few seats away were a group of teenagers.  They were from Michigan, and they were annoyingly noisy.  Thus began our American adventure.&lt;/p&gt;</description>
+&lt;p&gt;So, there we were, sitting at the departure gate at Manchester Airport on a bright Monday morning, having awoken at 04:30 to make our way across the Pennines.A few seats away were a group of teenagers.They were from Michigan, and they were annoyingly noisy.Thus began our American adventure.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Last month Jocelyn and I took a trip to the States to visit friends and family, attend Teri &amp; Jimmy’s wedding, and take a vacation to Nevada and Arizona.</p>
-<p>So, there we were, sitting at the departure gate at Manchester Airport on a bright Monday morning, having awoken at 0430 to make our way across the Pennines.  A few seats away were a group of teenagers.  They were from Michigan, and they were annoyingly noisy.  Thus began our American adventure.</p>
-<p>Joce was the first to show irritation at her countrymen – &ldquo;God, why is it that only the fat obnoxious noisy American choose to travel abroad?&rdquo;.  In retrospect, I’m not sure that’s true – it’s just that, by their nature, you’re more likely to notice obnoxious noisy people, of any nationality, and the non-native accents just make them stand out even more.  As it happened, there were some British teens mixed into the group – some kind of exchange trip between West Yorkshire and Michigan, no doubt providing some well-earned relief for the parents.</p>
-<p>Ignoring this noise, we focused our attentions instead on the cute little lass (circa 2 or 3 years?) wandering round with wide eyes, and playing with her dad.<br>
+<p>So, there we were, sitting at the departure gate at Manchester Airport on a bright Monday morning, having awoken at 04:30 to make our way across the Pennines.A few seats away were a group of teenagers.They were from Michigan, and they were annoyingly noisy.Thus began our American adventure.</p>
+<p>Joce was the first to show irritation at her countrymen – &ldquo;God, why is it that only the fat obnoxious noisy American choose to travel abroad?&quot;.In retrospect, I’m not sure that’s true – it’s just that, by their nature, you’re more likely to notice obnoxious noisy people, of any nationality, and the non-native accents just make them stand out even more.As it happened, there were some British teens mixed into the group – some kind of exchange trip between West Yorkshire and Michigan, no doubt providing some well-earned relief for the parents.</p>
+<p>Ignoring this noise, we focused our attentions instead on the cute little lass (circa 2 or 3 years?) wandering round with wide eyes, and playing with her dad.
 &ldquo;We’ll have kids like that,&rdquo; Joce told me.</p>
 <p>Yikes!</p>
 ]]></content:encoded>
@@ -4073,10 +3796,10 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <pubDate>Sat, 24 Dec 2005 17:12:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/beer-advent-calendar-day-twenty-four/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;Hertog Jan Doppio Double&#34; loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/hertog-jan-doppio-double_76906363_o.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Hertog Jan Doppio Double is the only one of my twenty-four Advent beers to come in a stone cork-stoppered bottle that weighs more than the drink contained within! At 7.3% ABV, it’s also the &lt;a href=&#34;https://blog.iannelson.uk/beer-advent-calendar-days-sixteen-and-seventeen/&#34;&gt;second-strongest&lt;/a&gt; drink in my selection, and hence has a real kick to it.  That said, it also has a gorgeous malty aroma, and strong aftertaste which beer lovers will appreciate.  So whilst it’s not quite my &lt;a href=&#34;https://blog.iannelson.uk/beer-advent-calendar-day-six/&#34;&gt;personal favourite&lt;/a&gt; of the twenty-four beers I’ve had the pleasure of sampling this yuletide, it’s certainly an appropriately worthy and warming drink on which to finish.&lt;/p&gt;</description>
+&lt;p&gt;Hertog Jan Doppio Double is the only one of my twenty-four Advent beers to come in a stone cork-stoppered bottle that weighs more than the drink contained within! At 7.3% ABV, it’s also the &lt;a href=&#34;https://blog.iannelson.uk/beer-advent-calendar-days-sixteen-and-seventeen/&#34;&gt;second-strongest&lt;/a&gt; drink in my selection, and hence has a real kick to it.That said, it also has a gorgeous malty aroma, and strong aftertaste which beer lovers will appreciate.So whilst it’s not quite my &lt;a href=&#34;https://blog.iannelson.uk/beer-advent-calendar-day-six/&#34;&gt;personal favourite&lt;/a&gt; of the twenty-four beers I’ve had the pleasure of sampling this yuletide, it’s certainly an appropriately worthy and warming drink on which to finish.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><img alt="Hertog Jan Doppio Double" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/hertog-jan-doppio-double_76906363_o.jpg"></p>
-<p>Hertog Jan Doppio Double is the only one of my twenty-four Advent beers to come in a stone cork-stoppered bottle that weighs more than the drink contained within! At 7.3% ABV, it’s also the <a href="https://blog.iannelson.uk/beer-advent-calendar-days-sixteen-and-seventeen/">second-strongest</a> drink in my selection, and hence has a real kick to it.  That said, it also has a gorgeous malty aroma, and strong aftertaste which beer lovers will appreciate.  So whilst it’s not quite my <a href="https://blog.iannelson.uk/beer-advent-calendar-day-six/">personal favourite</a> of the twenty-four beers I’ve had the pleasure of sampling this yuletide, it’s certainly an appropriately worthy and warming drink on which to finish.</p>
-<p>I’ve been asked to summarise my findings on these beers at the end of the season, and was considering publishing a spreadsheet noting my opinions in various categories (colour, aroma, aftertaste, strength, packaging, cute names…), but having consumed so many fine ales this month, it was beyond me to come up with such a complicated scoring system.  Instead, I’ve made an effort to merely triage the beers according to my overall opinion and likelihood of repurchase – those with three stars will be on our shopping list in future, whilst those with one star will be avoided like the plague.</p>
+<p>Hertog Jan Doppio Double is the only one of my twenty-four Advent beers to come in a stone cork-stoppered bottle that weighs more than the drink contained within! At 7.3% ABV, it’s also the <a href="https://blog.iannelson.uk/beer-advent-calendar-days-sixteen-and-seventeen/">second-strongest</a> drink in my selection, and hence has a real kick to it.That said, it also has a gorgeous malty aroma, and strong aftertaste which beer lovers will appreciate.So whilst it’s not quite my <a href="https://blog.iannelson.uk/beer-advent-calendar-day-six/">personal favourite</a> of the twenty-four beers I’ve had the pleasure of sampling this yuletide, it’s certainly an appropriately worthy and warming drink on which to finish.</p>
+<p>I’ve been asked to summarise my findings on these beers at the end of the season, and was considering publishing a spreadsheet noting my opinions in various categories (colour, aroma, aftertaste, strength, packaging, cute names…), but having consumed so many fine ales this month, it was beyond me to come up with such a complicated scoring system.Instead, I’ve made an effort to merely triage the beers according to my overall opinion and likelihood of repurchase – those with three stars will be on our shopping list in future, whilst those with one star will be avoided like the plague.</p>
 <p><strong><!-- raw HTML omitted -->Three-star beers:<!-- raw HTML omitted --></strong></p>
 <p><a href="https://blog.iannelson.uk/beer-advent-calendar-days-thirteen-fourteen-and-fifteen/">Bitter &amp; Twisted</a><br>
 <a href="https://blog.iannelson.uk/beer-advent-calendar-days-thirteen-fourteen-and-fifteen/">Festive Filly</a><br>
@@ -4111,8 +3834,8 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <link>https://blog.iannelson.uk/beer-advent-calendar-day-twenty-three/</link>
       <pubDate>Sat, 24 Dec 2005 14:12:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/beer-advent-calendar-day-twenty-three/</guid>
-      <description>&lt;p&gt;The penultimate beer on my 2005 advent calendar was &lt;a href=&#34;http://www.stpetersbrewery.co.uk/range/prod_detail.asp?CatID=1&amp;amp;Code=RUCASE&#34;&gt;Ruby Red&lt;/a&gt; from the &lt;a href=&#34;http://www.stpetersbrewery.co.uk/&#34;&gt;St. Peter’s Brewery&lt;/a&gt; in Suffolk.  I’d been looking forward to this 4.3% ABV red ale, which, like all of the beers from St. Peter’s, comes in a distinctive flask-shaped oval bottle, so I was somewhat disappointed by the intense bitterness of the first few mouthfuls.  However, I think this was mostly due to the effects of the Mexican dinner laced with &lt;a href=&#34;http://www.enconasauces.co.uk&#34;&gt;Encona sauces&lt;/a&gt; that I’d scoffed a few minutes previously.  Further into the bottle, the “subtle malt undertones and spicy aroma” became more apparent, and overall I really enjoyed this beer – I’ll definitely be trying some of the others from the range.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>The penultimate beer on my 2005 advent calendar was <a href="http://www.stpetersbrewery.co.uk/range/prod_detail.asp?CatID=1&amp;Code=RUCASE">Ruby Red</a> from the <a href="http://www.stpetersbrewery.co.uk/">St. Peter’s Brewery</a> in Suffolk.  I’d been looking forward to this 4.3% ABV red ale, which, like all of the beers from St. Peter’s, comes in a distinctive flask-shaped oval bottle, so I was somewhat disappointed by the intense bitterness of the first few mouthfuls.  However, I think this was mostly due to the effects of the Mexican dinner laced with <a href="http://www.enconasauces.co.uk">Encona sauces</a> that I’d scoffed a few minutes previously.  Further into the bottle, the “subtle malt undertones and spicy aroma” became more apparent, and overall I really enjoyed this beer – I’ll definitely be trying some of the others from the range.</p>
+      <description>&lt;p&gt;The penultimate beer on my 2005 advent calendar was &lt;a href=&#34;http://www.stpetersbrewery.co.uk/range/prod_detail.asp?CatID=1&amp;amp;Code=RUCASE&#34;&gt;Ruby Red&lt;/a&gt; from the &lt;a href=&#34;http://www.stpetersbrewery.co.uk/&#34;&gt;St. Peter’s Brewery&lt;/a&gt; in Suffolk. I’d been looking forward to this 4.3% ABV red ale, which, like all of the beers from St. Peter’s, comes in a distinctive flask-shaped oval bottle, so I was somewhat disappointed by the intense bitterness of the first few mouthfuls. However, I think this was mostly due to the effects of the Mexican dinner laced with &lt;a href=&#34;http://www.enconasauces.co.uk&#34;&gt;Encona sauces&lt;/a&gt; that I’d scoffed a few minutes previously. Further into the bottle, the “subtle malt undertones and spicy aroma” became more apparent, and overall I really enjoyed this beer – I’ll definitely be trying some of the others from the range.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>The penultimate beer on my 2005 advent calendar was <a href="http://www.stpetersbrewery.co.uk/range/prod_detail.asp?CatID=1&amp;Code=RUCASE">Ruby Red</a> from the <a href="http://www.stpetersbrewery.co.uk/">St. Peter’s Brewery</a> in Suffolk. I’d been looking forward to this 4.3% ABV red ale, which, like all of the beers from St. Peter’s, comes in a distinctive flask-shaped oval bottle, so I was somewhat disappointed by the intense bitterness of the first few mouthfuls. However, I think this was mostly due to the effects of the Mexican dinner laced with <a href="http://www.enconasauces.co.uk">Encona sauces</a> that I’d scoffed a few minutes previously. Further into the bottle, the “subtle malt undertones and spicy aroma” became more apparent, and overall I really enjoyed this beer – I’ll definitely be trying some of the others from the range.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -4120,8 +3843,8 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <link>https://blog.iannelson.uk/beer-advent-calendar-day-twenty-two/</link>
       <pubDate>Thu, 22 Dec 2005 21:12:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/beer-advent-calendar-day-twenty-two/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.fraoch.com/&#34;&gt;Fraoch&lt;/a&gt; is a 5% ABV Scottish beer that brings back many happy memories of late nights spent in the bar at the &lt;a href=&#34;http://www.clachaig.com/&#34;&gt;Clachaig Inn&lt;/a&gt;.  “Fraoch” is the Gaelic for heather, so take a guess what this beer is made from?  If you’ve never tried it, that might sound a bit weird, but believe me that this is a great beer with “a floral, peaty aroma, full malt body, spicy herbal flavour and a dry wine like finish”.  What more could you ask for?  Slainte!&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p><a href="http://www.fraoch.com/">Fraoch</a> is a 5% ABV Scottish beer that brings back many happy memories of late nights spent in the bar at the <a href="http://www.clachaig.com/">Clachaig Inn</a>.  “Fraoch” is the Gaelic for heather, so take a guess what this beer is made from?  If you’ve never tried it, that might sound a bit weird, but believe me that this is a great beer with “a floral, peaty aroma, full malt body, spicy herbal flavour and a dry wine like finish”.  What more could you ask for?  Slainte!</p>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.fraoch.com/&#34;&gt;Fraoch&lt;/a&gt; is a 5% ABV Scottish beer that brings back many happy memories of late nights spent in the bar at the &lt;a href=&#34;http://www.clachaig.com/&#34;&gt;Clachaig Inn&lt;/a&gt;. “Fraoch” is the Gaelic for heather, so take a guess what this beer is made from?  If you’ve never tried it, that might sound a bit weird, but believe me that this is a great beer with “a floral, peaty aroma, full malt body, spicy herbal flavour and a dry wine like finish”. What more could you ask for?  Slainte!&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><a href="http://www.fraoch.com/">Fraoch</a> is a 5% ABV Scottish beer that brings back many happy memories of late nights spent in the bar at the <a href="http://www.clachaig.com/">Clachaig Inn</a>. “Fraoch” is the Gaelic for heather, so take a guess what this beer is made from?  If you’ve never tried it, that might sound a bit weird, but believe me that this is a great beer with “a floral, peaty aroma, full malt body, spicy herbal flavour and a dry wine like finish”. What more could you ask for?  Slainte!</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -4129,14 +3852,14 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <link>https://blog.iannelson.uk/beer-advent-calendar-day-twenty-one/</link>
       <pubDate>Wed, 21 Dec 2005 21:12:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/beer-advent-calendar-day-twenty-one/</guid>
-      <description>&lt;p&gt;“Jingle Knockers” isn’t exactly a phrase that inspires confidence, but this 5.5% ABV from &lt;a href=&#34;http://www.skinnersbrewery.com/&#34;&gt;Skinner’s Brewery&lt;/a&gt; in Cornwall is really good, definitely on a par with the stuff I’ve tried from Hambleton Ales and the Harviestoun Brewery.  Smooth and strong, with subtle hints of Christmas pud – mmmm…&lt;/p&gt;
+      <description>&lt;p&gt;“Jingle Knockers” isn’t exactly a phrase that inspires confidence, but this 5.5% ABV from &lt;a href=&#34;http://www.skinnersbrewery.com/&#34;&gt;Skinner’s Brewery&lt;/a&gt; in Cornwall is really good, definitely on a par with the stuff I’ve tried from Hambleton Ales and the Harviestoun Brewery. Smooth and strong, with subtle hints of Christmas pud – mmmm…&lt;/p&gt;
 &lt;p&gt;Oh, and if you’re still confused by that name, the label handily explains all:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;“Known as the Tin Mine Fairies, the Cornish Knockers used to guide the miners to the rich veins of ore by knocking.  With the demise of mining over the years, many knockers have ;returned to grass’ where, in disguise, they help with the brewing of their ales.”&lt;/em&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>“Jingle Knockers” isn’t exactly a phrase that inspires confidence, but this 5.5% ABV from <a href="http://www.skinnersbrewery.com/">Skinner’s Brewery</a> in Cornwall is really good, definitely on a par with the stuff I’ve tried from Hambleton Ales and the Harviestoun Brewery.  Smooth and strong, with subtle hints of Christmas pud – mmmm…</p>
+&lt;p&gt;&lt;em&gt;“Known as the Tin Mine Fairies, the Cornish Knockers used to guide the miners to the rich veins of ore by knocking. With the demise of mining over the years, many knockers have ;returned to grass’ where, in disguise, they help with the brewing of their ales.”&lt;/em&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>“Jingle Knockers” isn’t exactly a phrase that inspires confidence, but this 5.5% ABV from <a href="http://www.skinnersbrewery.com/">Skinner’s Brewery</a> in Cornwall is really good, definitely on a par with the stuff I’ve tried from Hambleton Ales and the Harviestoun Brewery. Smooth and strong, with subtle hints of Christmas pud – mmmm…</p>
 <p>Oh, and if you’re still confused by that name, the label handily explains all:</p>
 <blockquote>
-<p><em>“Known as the Tin Mine Fairies, the Cornish Knockers used to guide the miners to the rich veins of ore by knocking.  With the demise of mining over the years, many knockers have ;returned to grass’ where, in disguise, they help with the brewing of their ales.”</em></p></blockquote>
+<p><em>“Known as the Tin Mine Fairies, the Cornish Knockers used to guide the miners to the rich veins of ore by knocking. With the demise of mining over the years, many knockers have ;returned to grass’ where, in disguise, they help with the brewing of their ales.”</em></p></blockquote>
 <p>So there you go!  Gosh, isn’t drinking beer every day educational?</p>
 ]]></content:encoded>
     </item>
@@ -4145,8 +3868,8 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <link>https://blog.iannelson.uk/beer-advent-calendar-day-twenty/</link>
       <pubDate>Tue, 20 Dec 2005 21:12:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/beer-advent-calendar-day-twenty/</guid>
-      <description>&lt;p&gt;Now, don’t get me wrong, there are many great things that have originated from America – not least of all my good lady wife – but I’ve always thought that “American Beer” is something of an anachronism!  Let’s face it, most beers from across the Altlantic are sorely lacking in flavour, body, bitterness, or, well, anything remotely beerlike.  So, whilst on my search for twenty-four bottled beers for this advent calendar, I was intrigued to find Honker’s Ale from the &lt;a href=&#34;http://www.gooseisland.com/&#34;&gt;Goose Island Beer Company&lt;/a&gt; in Chicago which describes itself as “a smooth, drinkable English bitter for those drinkers who want more from their beer”.  Well, let’s hope they’re not looking for too much more, as it only comes in a 355ml bottle.  It tastes OK when compared to the likes of Budweiser and Samuel Adams, but it’s not exactly bold or challenging, and the whole experience was over far too quickly.  Not exactly one to savour on a cold winter’s night in Yorkshire, but I can imagine these going down quite well in the sports stadia of Iliinois.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Now, don’t get me wrong, there are many great things that have originated from America – not least of all my good lady wife – but I’ve always thought that “American Beer” is something of an anachronism!  Let’s face it, most beers from across the Altlantic are sorely lacking in flavour, body, bitterness, or, well, anything remotely beerlike.  So, whilst on my search for twenty-four bottled beers for this advent calendar, I was intrigued to find Honker’s Ale from the <a href="http://www.gooseisland.com/">Goose Island Beer Company</a> in Chicago which describes itself as “a smooth, drinkable English bitter for those drinkers who want more from their beer”.  Well, let’s hope they’re not looking for too much more, as it only comes in a 355ml bottle.  It tastes OK when compared to the likes of Budweiser and Samuel Adams, but it’s not exactly bold or challenging, and the whole experience was over far too quickly.  Not exactly one to savour on a cold winter’s night in Yorkshire, but I can imagine these going down quite well in the sports stadia of Iliinois.</p>
+      <description>&lt;p&gt;Now, don’t get me wrong, there are many great things that have originated from America – not least of all my good lady wife – but I’ve always thought that “American Beer” is something of an anachronism!  Let’s face it, most beers from across the Altlantic are sorely lacking in flavour, body, bitterness, or, well, anything remotely beerlike. So, whilst on my search for twenty-four bottled beers for this advent calendar, I was intrigued to find Honker’s Ale from the &lt;a href=&#34;http://www.gooseisland.com/&#34;&gt;Goose Island Beer Company&lt;/a&gt; in Chicago which describes itself as “a smooth, drinkable English bitter for those drinkers who want more from their beer”. Well, let’s hope they’re not looking for too much more, as it only comes in a 355ml bottle. It tastes OK when compared to the likes of Budweiser and Samuel Adams, but it’s not exactly bold or challenging, and the whole experience was over far too quickly. Not exactly one to savour on a cold winter’s night in Yorkshire, but I can imagine these going down quite well in the sports stadia of Iliinois.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Now, don’t get me wrong, there are many great things that have originated from America – not least of all my good lady wife – but I’ve always thought that “American Beer” is something of an anachronism!  Let’s face it, most beers from across the Altlantic are sorely lacking in flavour, body, bitterness, or, well, anything remotely beerlike. So, whilst on my search for twenty-four bottled beers for this advent calendar, I was intrigued to find Honker’s Ale from the <a href="http://www.gooseisland.com/">Goose Island Beer Company</a> in Chicago which describes itself as “a smooth, drinkable English bitter for those drinkers who want more from their beer”. Well, let’s hope they’re not looking for too much more, as it only comes in a 355ml bottle. It tastes OK when compared to the likes of Budweiser and Samuel Adams, but it’s not exactly bold or challenging, and the whole experience was over far too quickly. Not exactly one to savour on a cold winter’s night in Yorkshire, but I can imagine these going down quite well in the sports stadia of Iliinois.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -4154,10 +3877,10 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <link>https://blog.iannelson.uk/beer-advent-calendar-day-nineteen/</link>
       <pubDate>Mon, 19 Dec 2005 20:12:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/beer-advent-calendar-day-nineteen/</guid>
-      <description>&lt;p&gt;Smuggler’s Ale is another bottled beer which found its way into my calendar via an &lt;a href=&#34;http://www.asda-beer.co.uk/pages/competition.html&#34;&gt;Asda beer competition&lt;/a&gt;.  It’s 5% ABV, with hints of treacle, and is really rather enjoyable.&lt;/p&gt;
-&lt;p&gt;And to paraphrase Forrest Gump, that’s all I have to say about that.  Back to my beer and a DVD of &lt;a href=&#34;http://www.familyguy.com&#34;&gt;Family Guy&lt;/a&gt;.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Smuggler’s Ale is another bottled beer which found its way into my calendar via an <a href="http://www.asda-beer.co.uk/pages/competition.html">Asda beer competition</a>.  It’s 5% ABV, with hints of treacle, and is really rather enjoyable.</p>
-<p>And to paraphrase Forrest Gump, that’s all I have to say about that.  Back to my beer and a DVD of <a href="http://www.familyguy.com">Family Guy</a>.</p>
+      <description>&lt;p&gt;Smuggler’s Ale is another bottled beer which found its way into my calendar via an &lt;a href=&#34;http://www.asda-beer.co.uk/pages/competition.html&#34;&gt;Asda beer competition&lt;/a&gt;. It’s 5% ABV, with hints of treacle, and is really rather enjoyable.&lt;/p&gt;
+&lt;p&gt;And to paraphrase Forrest Gump, that’s all I have to say about that. Back to my beer and a DVD of &lt;a href=&#34;http://www.familyguy.com&#34;&gt;Family Guy&lt;/a&gt;.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Smuggler’s Ale is another bottled beer which found its way into my calendar via an <a href="http://www.asda-beer.co.uk/pages/competition.html">Asda beer competition</a>. It’s 5% ABV, with hints of treacle, and is really rather enjoyable.</p>
+<p>And to paraphrase Forrest Gump, that’s all I have to say about that. Back to my beer and a DVD of <a href="http://www.familyguy.com">Family Guy</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -4165,13 +3888,13 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <link>https://blog.iannelson.uk/beer-advent-calendar-day-eighteen/</link>
       <pubDate>Sun, 18 Dec 2005 21:12:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/beer-advent-calendar-day-eighteen/</guid>
-      <description>&lt;p&gt;There’s something a wee bit disappointing about picking up a bottle labelled “MOROCCO ALE” and finding that it is, in fact, from nowhere more distant than Harrogate – the Daleside Brewery to be precise.  According to the label:&lt;/p&gt;
+      <description>&lt;p&gt;There’s something a wee bit disappointing about picking up a bottle labelled “MOROCCO ALE” and finding that it is, in fact, from nowhere more distant than Harrogate – the Daleside Brewery to be precise. According to the label:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;“The recipe for Morocco Ale is believed to date from Elizabethan times.  Colonel John Grahme of Levens was a courtier to James II and the name ‘Morocco’ may have been associated with the dark Moors who came to the court when Catherine of Braganza married Charles II and brought Tangiers as part of her dowry.”&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>There’s something a wee bit disappointing about picking up a bottle labelled “MOROCCO ALE” and finding that it is, in fact, from nowhere more distant than Harrogate – the Daleside Brewery to be precise.  According to the label:</p>
+&lt;p&gt;“The recipe for Morocco Ale is believed to date from Elizabethan times. Colonel John Grahme of Levens was a courtier to James II and the name ‘Morocco’ may have been associated with the dark Moors who came to the court when Catherine of Braganza married Charles II and brought Tangiers as part of her dowry.”&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>There’s something a wee bit disappointing about picking up a bottle labelled “MOROCCO ALE” and finding that it is, in fact, from nowhere more distant than Harrogate – the Daleside Brewery to be precise. According to the label:</p>
 <blockquote>
-<p>“The recipe for Morocco Ale is believed to date from Elizabethan times.  Colonel John Grahme of Levens was a courtier to James II and the name ‘Morocco’ may have been associated with the dark Moors who came to the court when Catherine of Braganza married Charles II and brought Tangiers as part of her dowry.”</p></blockquote>
-<p>Right.  Whatever.  Apparently this 5.5% beer is brewed to an ancient secret recipe, so it’s curious that it tastes so strongly of rosemary.  I mean, not just a little hint of the stuff, this really could conceivably be nothing more than fermented rosemary, the taste is so overwhelming.  Which is certainly different, but I’m not sure it’s really my thing.</p>
+<p>“The recipe for Morocco Ale is believed to date from Elizabethan times. Colonel John Grahme of Levens was a courtier to James II and the name ‘Morocco’ may have been associated with the dark Moors who came to the court when Catherine of Braganza married Charles II and brought Tangiers as part of her dowry.”</p></blockquote>
+<p>Right. Whatever. Apparently this 5.5% beer is brewed to an ancient secret recipe, so it’s curious that it tastes so strongly of rosemary. I mean, not just a little hint of the stuff, this really could conceivably be nothing more than fermented rosemary, the taste is so overwhelming. Which is certainly different, but I’m not sure it’s really my thing.</p>
 <p>Six beers to go – wonder what tomorrow will bring?</p>
 ]]></content:encoded>
     </item>
@@ -4181,12 +3904,12 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <pubDate>Sat, 17 Dec 2005 23:12:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/beer-advent-calendar-days-sixteen-and-seventeen/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/delirium_nocturnum_150.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Friday night saw me out celebrating in Halifax at our departmental Christmas meal (FWIW, I drank a few pints of Santa’s Little Helper from the &lt;a href=&#34;http://www.caledonian-brewery.co.uk/&#34;&gt;Caledonian brewery&lt;/a&gt;).  As a result, I didn’t get chance to enjoy my advent beer, and have been playing catch-up with a couple of randomly-selected bottles tonight.&lt;/p&gt;
-&lt;p&gt;Firstly, the sixteenth beer to be selected from the vase of fate was Delirium Nocturnum, a &lt;strong&gt;9.0%&lt;/strong&gt; ABV dark ale from the Huyghe-Melle brewery in Belgium which comes in silver glittery 330ml bottles featuring pictures of pink elephants.  I was somewhat apprehensive, but needlessly so, as this is a surprisingly well-balanced and hoppy triply-fermented ale – not a novelty drink at all (despite the packaging being somewhat reminiscent of a Pizza Express salad dressing bottle).&lt;/p&gt;</description>
+&lt;p&gt;Friday night saw me out celebrating in Halifax at our departmental Christmas meal (FWIW, I drank a few pints of Santa’s Little Helper from the &lt;a href=&#34;http://www.caledonian-brewery.co.uk/&#34;&gt;Caledonian brewery&lt;/a&gt;). As a result, I didn’t get chance to enjoy my advent beer, and have been playing catch-up with a couple of randomly-selected bottles tonight.&lt;/p&gt;
+&lt;p&gt;Firstly, the sixteenth beer to be selected from the vase of fate was Delirium Nocturnum, a &lt;strong&gt;9.0%&lt;/strong&gt; ABV dark ale from the Huyghe-Melle brewery in Belgium which comes in silver glittery 330ml bottles featuring pictures of pink elephants. I was somewhat apprehensive, but needlessly so, as this is a surprisingly well-balanced and hoppy triply-fermented ale – not a novelty drink at all (despite the packaging being somewhat reminiscent of a Pizza Express salad dressing bottle).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/delirium_nocturnum_150.jpg"></p>
-<p>Friday night saw me out celebrating in Halifax at our departmental Christmas meal (FWIW, I drank a few pints of Santa’s Little Helper from the <a href="http://www.caledonian-brewery.co.uk/">Caledonian brewery</a>).  As a result, I didn’t get chance to enjoy my advent beer, and have been playing catch-up with a couple of randomly-selected bottles tonight.</p>
-<p>Firstly, the sixteenth beer to be selected from the vase of fate was Delirium Nocturnum, a <strong>9.0%</strong> ABV dark ale from the Huyghe-Melle brewery in Belgium which comes in silver glittery 330ml bottles featuring pictures of pink elephants.  I was somewhat apprehensive, but needlessly so, as this is a surprisingly well-balanced and hoppy triply-fermented ale – not a novelty drink at all (despite the packaging being somewhat reminiscent of a Pizza Express salad dressing bottle).</p>
-<p>Secondly, today’s drink was Rolling Hitch, a 5.2% ABV India pale ale from the <a href="http://www.darwinbrewery.com">Darwin Brewery</a> in Sunderland.  This was specially created for the purposes of entering (and winning) a competition to supply all Asda stores.  It’s fruity, sharp, bitter and hoppy – very enjoyable.<br>
+<p>Friday night saw me out celebrating in Halifax at our departmental Christmas meal (FWIW, I drank a few pints of Santa’s Little Helper from the <a href="http://www.caledonian-brewery.co.uk/">Caledonian brewery</a>). As a result, I didn’t get chance to enjoy my advent beer, and have been playing catch-up with a couple of randomly-selected bottles tonight.</p>
+<p>Firstly, the sixteenth beer to be selected from the vase of fate was Delirium Nocturnum, a <strong>9.0%</strong> ABV dark ale from the Huyghe-Melle brewery in Belgium which comes in silver glittery 330ml bottles featuring pictures of pink elephants. I was somewhat apprehensive, but needlessly so, as this is a surprisingly well-balanced and hoppy triply-fermented ale – not a novelty drink at all (despite the packaging being somewhat reminiscent of a Pizza Express salad dressing bottle).</p>
+<p>Secondly, today’s drink was Rolling Hitch, a 5.2% ABV India pale ale from the <a href="http://www.darwinbrewery.com">Darwin Brewery</a> in Sunderland. This was specially created for the purposes of entering (and winning) a competition to supply all Asda stores. It’s fruity, sharp, bitter and hoppy – very enjoyable.
 Oh, and in case you were wondering,a quick <a href="http://www.google.com/search?q=%22rolling&#43;hitch%22">Googling</a> reveals that a Rolling Hitch is a seafaring knot – <a href="http://www.apparent-wind.com/knots/rolling-hitch/"><em>“if a jib sheet jams in a winch, you can attach a rolling hitch to take the pressure off the line as you undo the jam”</em></a> – so now you know.</p>
 ]]></content:encoded>
     </item>
@@ -4199,10 +3922,10 @@ Oh, and in case you were wondering,a quick <a href="http://www.google.com/search
 &lt;p&gt;The good news is, I have three excellent beers to report on; the first two of which are from breweries that I’ve already “visited” during this advent calendar.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Gadzooks!  Who would have thought that it would be so difficult to find a few minutes each day to transcribe a few words about a bottle of beer?  But it is – especially as we enter the party season and my evenings are filled with festivities.</p>
 <p>The good news is, I have three excellent beers to report on; the first two of which are from breweries that I’ve already “visited” during this advent calendar.</p>
-<p>Tuesday’s beer was Bitter &amp; Twisted, from the Harviestoun Brewery (c.f. <a href="https://blog.iannelson.uk/beer-advent-calendar-day-three/">Schiehallion</a> on day three).  At 4.2% ABV it’s a little lighter than Schiehallion, but it’s equally delicious – very fresh, sharp and hoppy, it was voted Champion Bottled Ale 2004.  Mmmmm.</p>
-<p>Wednesday I came back closer to home for a second beer from the <a href="http://www.hambletonales.co.uk/">Hambleton Ales</a> microbrewery in Thirsk – this time it was Festive Filly (ABV 4.5%), which is presumably a seasonal ale, and damn nice it is too.  Another good winter warming beer.</p>
-<p>Finally, today I enjoyed Nessie’s Monster Mash, a 4.4% “premium beer” from the <a href="http://www.cairngormbrewery.com/">Cairngorm Brewery Company</a>.  Very pleasant, plenty of flavour – I’d be interested in trying the cask version of this for comparison.</p>
-<p>So there we have it, a trio of mighty fine ales from northern Britain, any one of which I’d love to have for a second time.  Aaah, this beer advent calendar was *such* a good idea…</p>
+<p>Tuesday’s beer was Bitter &amp; Twisted, from the Harviestoun Brewery (c.f. <a href="https://blog.iannelson.uk/beer-advent-calendar-day-three/">Schiehallion</a> on day three). At 4.2% ABV it’s a little lighter than Schiehallion, but it’s equally delicious – very fresh, sharp and hoppy, it was voted Champion Bottled Ale 2004. Mmmmm.</p>
+<p>Wednesday I came back closer to home for a second beer from the <a href="http://www.hambletonales.co.uk/">Hambleton Ales</a> microbrewery in Thirsk – this time it was Festive Filly (ABV 4.5%), which is presumably a seasonal ale, and damn nice it is too. Another good winter warming beer.</p>
+<p>Finally, today I enjoyed Nessie’s Monster Mash, a 4.4% “premium beer” from the <a href="http://www.cairngormbrewery.com/">Cairngorm Brewery Company</a>. Very pleasant, plenty of flavour – I’d be interested in trying the cask version of this for comparison.</p>
+<p>So there we have it, a trio of mighty fine ales from northern Britain, any one of which I’d love to have for a second time. Aaah, this beer advent calendar was *such* a good idea…</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -4210,8 +3933,8 @@ Oh, and in case you were wondering,a quick <a href="http://www.google.com/search
       <link>https://blog.iannelson.uk/beer-advent-calendar-day-twelve/</link>
       <pubDate>Mon, 12 Dec 2005 22:12:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/beer-advent-calendar-day-twelve/</guid>
-      <description>&lt;p&gt;Halfway through my great beer advent calendar 2005, and tonight I’ve enjoyed the popular Leffe Blonde, a potent and delicious 6.6% ABV beer from Belgium.  I’ve been meaning to try this reknowned tipple since I utterly failed to identify a snippet of the label in one of those irritating Excel-based quizzes that circulates on the interweb periodically.  Anyway, I wasn’t disappointed – the small bottle size (33cl) being more than made up for by the strength and the flavour (quite almondy, I thought).  There’s a good detailed review by someone with more effective taste buds than I over at the excellent &lt;a href=&#34;http://www.bottledbeer.co.uk/index.html?beerid=386&#34;&gt;Oxford Bottled Beer Database&lt;/a&gt;.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Halfway through my great beer advent calendar 2005, and tonight I’ve enjoyed the popular Leffe Blonde, a potent and delicious 6.6% ABV beer from Belgium.  I’ve been meaning to try this reknowned tipple since I utterly failed to identify a snippet of the label in one of those irritating Excel-based quizzes that circulates on the interweb periodically.  Anyway, I wasn’t disappointed – the small bottle size (33cl) being more than made up for by the strength and the flavour (quite almondy, I thought).  There’s a good detailed review by someone with more effective taste buds than I over at the excellent <a href="http://www.bottledbeer.co.uk/index.html?beerid=386">Oxford Bottled Beer Database</a>.</p>
+      <description>&lt;p&gt;Halfway through my great beer advent calendar 2005, and tonight I’ve enjoyed the popular Leffe Blonde, a potent and delicious 6.6% ABV beer from Belgium. I’ve been meaning to try this reknowned tipple since I utterly failed to identify a snippet of the label in one of those irritating Excel-based quizzes that circulates on the interweb periodically. Anyway, I wasn’t disappointed – the small bottle size (33cl) being more than made up for by the strength and the flavour (quite almondy, I thought). There’s a good detailed review by someone with more effective taste buds than I over at the excellent &lt;a href=&#34;http://www.bottledbeer.co.uk/index.html?beerid=386&#34;&gt;Oxford Bottled Beer Database&lt;/a&gt;.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Halfway through my great beer advent calendar 2005, and tonight I’ve enjoyed the popular Leffe Blonde, a potent and delicious 6.6% ABV beer from Belgium. I’ve been meaning to try this reknowned tipple since I utterly failed to identify a snippet of the label in one of those irritating Excel-based quizzes that circulates on the interweb periodically. Anyway, I wasn’t disappointed – the small bottle size (33cl) being more than made up for by the strength and the flavour (quite almondy, I thought). There’s a good detailed review by someone with more effective taste buds than I over at the excellent <a href="http://www.bottledbeer.co.uk/index.html?beerid=386">Oxford Bottled Beer Database</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -4219,10 +3942,10 @@ Oh, and in case you were wondering,a quick <a href="http://www.google.com/search
       <link>https://blog.iannelson.uk/beer-advent-calendar-day-eleven/</link>
       <pubDate>Mon, 12 Dec 2005 15:12:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/beer-advent-calendar-day-eleven/</guid>
-      <description>&lt;p&gt;I just realised that I forgot to blog about yesterday’s advent beer.  Sorry for keeping you all on tenterhooks like that!&lt;/p&gt;
-&lt;p&gt;To be honest I was a bit disappointed and couldn’t think of anything interesting to say about &lt;a href=&#34;http://www.croptonbrewery.com/product.asp?cookiecheck=yes&amp;amp;P_ID=126&#34;&gt;Rudolph’s Revenge&lt;/a&gt;, a 4.6% ABV bitter from Cropton Brewery.  It was quite similar to the equally uninspiring &lt;a href=&#34;https://blog.iannelson.uk/beer-advent-calendar-day-eight/&#34;&gt;Mars Magic&lt;/a&gt; from last Thursday.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>I just realised that I forgot to blog about yesterday’s advent beer.  Sorry for keeping you all on tenterhooks like that!</p>
-<p>To be honest I was a bit disappointed and couldn’t think of anything interesting to say about <a href="http://www.croptonbrewery.com/product.asp?cookiecheck=yes&amp;P_ID=126">Rudolph’s Revenge</a>, a 4.6% ABV bitter from Cropton Brewery.  It was quite similar to the equally uninspiring <a href="https://blog.iannelson.uk/beer-advent-calendar-day-eight/">Mars Magic</a> from last Thursday.</p>
+      <description>&lt;p&gt;I just realised that I forgot to blog about yesterday’s advent beer. Sorry for keeping you all on tenterhooks like that!&lt;/p&gt;
+&lt;p&gt;To be honest I was a bit disappointed and couldn’t think of anything interesting to say about &lt;a href=&#34;http://www.croptonbrewery.com/product.asp?cookiecheck=yes&amp;amp;P_ID=126&#34;&gt;Rudolph’s Revenge&lt;/a&gt;, a 4.6% ABV bitter from Cropton Brewery. It was quite similar to the equally uninspiring &lt;a href=&#34;https://blog.iannelson.uk/beer-advent-calendar-day-eight/&#34;&gt;Mars Magic&lt;/a&gt; from last Thursday.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I just realised that I forgot to blog about yesterday’s advent beer. Sorry for keeping you all on tenterhooks like that!</p>
+<p>To be honest I was a bit disappointed and couldn’t think of anything interesting to say about <a href="http://www.croptonbrewery.com/product.asp?cookiecheck=yes&amp;P_ID=126">Rudolph’s Revenge</a>, a 4.6% ABV bitter from Cropton Brewery. It was quite similar to the equally uninspiring <a href="https://blog.iannelson.uk/beer-advent-calendar-day-eight/">Mars Magic</a> from last Thursday.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -4234,7 +3957,7 @@ Oh, and in case you were wondering,a quick <a href="http://www.google.com/search
 Let’s face it, when was the last time you changed your background?  Wouldn’t it be great if you could specify a few keywords and have your background periodically change to show a new image courtesy of Flickr?  Say, a sunrise, a mountain, a wintry scene, a favourite holiday destination, or, well, whatever takes your fancy?&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>What’s on your desktop background?  Some bland corporate logo perhaps, or maybe one of the bog-standard Windows wallpapers, or maybe a photograph you took years ago?<br>
 Let’s face it, when was the last time you changed your background?  Wouldn’t it be great if you could specify a few keywords and have your background periodically change to show a new image courtesy of Flickr?  Say, a sunrise, a mountain, a wintry scene, a favourite holiday destination, or, well, whatever takes your fancy?</p>
-<p>This is exactly what <a href="http://www.johnsadventures.com/backend/BackgroundSwitcher/index.html">John’s Background Switcher</a> (version 2.0!) does, and it’s available for free right now.  I’ve had the pleasure of beta-testing this over the past few weeks, and it really does work!  I used to claim that I needed two screens for the productivity benefits, but now I find myself devoting one of them to cheering my day with regularly changing pictures courtesy of JBS.  Perhaps this is a good time to try recycling one of our old laptops as a digital photo frame?!</p>
+<p>This is exactly what <a href="http://www.johnsadventures.com/backend/BackgroundSwitcher/index.html">John’s Background Switcher</a> (version 2.0!) does, and it’s available for free right now.I’ve had the pleasure of beta-testing this over the past few weeks, and it really does work!  I used to claim that I needed two screens for the productivity benefits, but now I find myself devoting one of them to cheering my day with regularly changing pictures courtesy of JBS.Perhaps this is a good time to try recycling one of our old laptops as a digital photo frame?!</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -4267,8 +3990,8 @@ Let’s face it, when was the last time you changed your background?  Wouldn’t
       <link>https://blog.iannelson.uk/beer-advent-calendar-day-ten/</link>
       <pubDate>Sat, 10 Dec 2005 18:12:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/beer-advent-calendar-day-ten/</guid>
-      <description>&lt;p&gt;Ah, I do enjoy beers by the &lt;a href=&#34;http://www.wychwood.co.uk/&#34;&gt;Wychwood Brewery&lt;/a&gt;, who have a particularly good website (i.e. better than most of the brewery sites I’ve come across so far).  Hobgoblin is an obvious favourite, easily available from any supermarket worth its salt.  Today I sampled their &lt;a href=&#34;http://www.wychwood.co.uk/wychwood_whirlygig.htm&#34;&gt;Whirlygig&lt;/a&gt; ale, a 4.5% “frenzy of hops and malt”, which really is delicious.  Lots of flavour, lots of character – very enjoyable indeed.  This one goes into the “buy again” column.  Jocelyn didn’t get a look in, so I can’t give you the female opinion, sorry.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Ah, I do enjoy beers by the <a href="http://www.wychwood.co.uk/">Wychwood Brewery</a>, who have a particularly good website (i.e. better than most of the brewery sites I’ve come across so far).  Hobgoblin is an obvious favourite, easily available from any supermarket worth its salt.  Today I sampled their <a href="http://www.wychwood.co.uk/wychwood_whirlygig.htm">Whirlygig</a> ale, a 4.5% “frenzy of hops and malt”, which really is delicious.  Lots of flavour, lots of character – very enjoyable indeed.  This one goes into the “buy again” column.  Jocelyn didn’t get a look in, so I can’t give you the female opinion, sorry.</p>
+      <description>&lt;p&gt;Ah, I do enjoy beers by the &lt;a href=&#34;http://www.wychwood.co.uk/&#34;&gt;Wychwood Brewery&lt;/a&gt;, who have a particularly good website (i.e. better than most of the brewery sites I’ve come across so far). Hobgoblin is an obvious favourite, easily available from any supermarket worth its salt. Today I sampled their &lt;a href=&#34;http://www.wychwood.co.uk/wychwood_whirlygig.htm&#34;&gt;Whirlygig&lt;/a&gt; ale, a 4.5% “frenzy of hops and malt”, which really is delicious. Lots of flavour, lots of character – very enjoyable indeed. This one goes into the “buy again” column. Jocelyn didn’t get a look in, so I can’t give you the female opinion, sorry.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Ah, I do enjoy beers by the <a href="http://www.wychwood.co.uk/">Wychwood Brewery</a>, who have a particularly good website (i.e. better than most of the brewery sites I’ve come across so far). Hobgoblin is an obvious favourite, easily available from any supermarket worth its salt. Today I sampled their <a href="http://www.wychwood.co.uk/wychwood_whirlygig.htm">Whirlygig</a> ale, a 4.5% “frenzy of hops and malt”, which really is delicious. Lots of flavour, lots of character – very enjoyable indeed. This one goes into the “buy again” column. Jocelyn didn’t get a look in, so I can’t give you the female opinion, sorry.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -4285,10 +4008,10 @@ Let’s face it, when was the last time you changed your background?  Wouldn’t
       <link>https://blog.iannelson.uk/beer-advent-calendar-day-eight/</link>
       <pubDate>Thu, 08 Dec 2005 19:12:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/beer-advent-calendar-day-eight/</guid>
-      <description>&lt;p&gt;Another day, another beer.  It’s a hard life.  &lt;a href=&#34;http://www.woldtopbrewery.co.uk/products_3.htm&#34;&gt;Mars Magic&lt;/a&gt; is a rather unexciting 4.6% ABV “Premium Ale” (it says here) from the &lt;a href=&#34;http://www.woldtopbrewery.co.uk/index.htm&#34;&gt;Wold Top Brewery&lt;/a&gt;.  Noticeably lacking in anything resembling a head, it did however seem to improve as I progressed through the half-litre (funny how that happens).  So, with my whistle well and truly whetted, I’m off down &lt;a href=&#34;http://www.yorkpubguide.com/pubs/details.asp?PubId=4&#34;&gt;the pub&lt;/a&gt;.  Cya!&lt;/p&gt;
-&lt;p&gt;Oh, I nearly forgot to record Joce’s comments on the bitter.  It went something like: “Eurgh!”&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Another day, another beer.  It’s a hard life.  <a href="http://www.woldtopbrewery.co.uk/products_3.htm">Mars Magic</a> is a rather unexciting 4.6% ABV “Premium Ale” (it says here) from the <a href="http://www.woldtopbrewery.co.uk/index.htm">Wold Top Brewery</a>.  Noticeably lacking in anything resembling a head, it did however seem to improve as I progressed through the half-litre (funny how that happens).  So, with my whistle well and truly whetted, I’m off down <a href="http://www.yorkpubguide.com/pubs/details.asp?PubId=4">the pub</a>.  Cya!</p>
-<p>Oh, I nearly forgot to record Joce’s comments on the bitter.  It went something like: “Eurgh!”</p>
+      <description>&lt;p&gt;Another day, another beer.It’s a hard life.&lt;a href=&#34;http://www.woldtopbrewery.co.uk/products_3.htm&#34;&gt;Mars Magic&lt;/a&gt; is a rather unexciting 4.6% ABV “Premium Ale” (it says here) from the &lt;a href=&#34;http://www.woldtopbrewery.co.uk/index.htm&#34;&gt;Wold Top Brewery&lt;/a&gt;.Noticeably lacking in anything resembling a head, it did however seem to improve as I progressed through the half-litre (funny how that happens).So, with my whistle well and truly whetted, I’m off down &lt;a href=&#34;http://www.yorkpubguide.com/pubs/details.asp?PubId=4&#34;&gt;the pub&lt;/a&gt;.Cya!&lt;/p&gt;
+&lt;p&gt;Oh, I nearly forgot to record Joce’s comments on the bitter.It went something like: “Eurgh!”&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Another day, another beer.It’s a hard life.<a href="http://www.woldtopbrewery.co.uk/products_3.htm">Mars Magic</a> is a rather unexciting 4.6% ABV “Premium Ale” (it says here) from the <a href="http://www.woldtopbrewery.co.uk/index.htm">Wold Top Brewery</a>.Noticeably lacking in anything resembling a head, it did however seem to improve as I progressed through the half-litre (funny how that happens).So, with my whistle well and truly whetted, I’m off down <a href="http://www.yorkpubguide.com/pubs/details.asp?PubId=4">the pub</a>.Cya!</p>
+<p>Oh, I nearly forgot to record Joce’s comments on the bitter.It went something like: “Eurgh!”</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -4296,8 +4019,8 @@ Let’s face it, when was the last time you changed your background?  Wouldn’t
       <link>https://blog.iannelson.uk/beer-advent-calendar-day-seven/</link>
       <pubDate>Thu, 08 Dec 2005 14:12:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/beer-advent-calendar-day-seven/</guid>
-      <description>&lt;p&gt;Wednesday night’s tipple was the rather strange 5% ABV &lt;a href=&#34;http://www.k1664.co.uk&#34;&gt;Kronenbourg Blanc&lt;/a&gt;, from UK brewing giant &lt;a href=&#34;http://www.google.com/url?sa=t&amp;amp;ct=res&amp;amp;cd=1&amp;amp;url=http%3A//www.scottish-newcastle.com/&#34;&gt;Scottish &amp;amp; Newcastle&lt;/a&gt;.  Described as a “refreshing, fruity white beer”, this is in fact blatantly piss-coloured (which probably explains why it comes in an opaque bottle).  I found this to be more reminiscent of a weak cider or some kind of bizarre citrus alcopop than anything deserving to have the word “beer” on the label.  Still, try everything once except Morris Dancing and incest, as the saying goes.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Wednesday night’s tipple was the rather strange 5% ABV <a href="http://www.k1664.co.uk">Kronenbourg Blanc</a>, from UK brewing giant <a href="http://www.google.com/url?sa=t&amp;ct=res&amp;cd=1&amp;url=http%3A//www.scottish-newcastle.com/">Scottish &amp; Newcastle</a>.  Described as a “refreshing, fruity white beer”, this is in fact blatantly piss-coloured (which probably explains why it comes in an opaque bottle).  I found this to be more reminiscent of a weak cider or some kind of bizarre citrus alcopop than anything deserving to have the word “beer” on the label.  Still, try everything once except Morris Dancing and incest, as the saying goes.</p>
+      <description>&lt;p&gt;Wednesday night’s tipple was the rather strange 5% ABV &lt;a href=&#34;http://www.k1664.co.uk&#34;&gt;Kronenbourg Blanc&lt;/a&gt;, from UK brewing giant &lt;a href=&#34;http://www.google.com/url?sa=t&amp;amp;ct=res&amp;amp;cd=1&amp;amp;url=http%3A//www.scottish-newcastle.com/&#34;&gt;Scottish &amp;amp; Newcastle&lt;/a&gt;. Described as a “refreshing, fruity white beer”, this is in fact blatantly piss-coloured (which probably explains why it comes in an opaque bottle). I found this to be more reminiscent of a weak cider or some kind of bizarre citrus alcopop than anything deserving to have the word “beer” on the label. Still, try everything once except Morris Dancing and incest, as the saying goes.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Wednesday night’s tipple was the rather strange 5% ABV <a href="http://www.k1664.co.uk">Kronenbourg Blanc</a>, from UK brewing giant <a href="http://www.google.com/url?sa=t&amp;ct=res&amp;cd=1&amp;url=http%3A//www.scottish-newcastle.com/">Scottish &amp; Newcastle</a>. Described as a “refreshing, fruity white beer”, this is in fact blatantly piss-coloured (which probably explains why it comes in an opaque bottle). I found this to be more reminiscent of a weak cider or some kind of bizarre citrus alcopop than anything deserving to have the word “beer” on the label. Still, try everything once except Morris Dancing and incest, as the saying goes.</p>
 <p>Jocelyn says: “This is a girly beer!  I could drink this!  This is fruity, it’s not a beer at all!”</p>
 <p>Weird advertising, too – would you buy a drink for this girl?</p>
 <p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/connie1_large_71473873_o.jpg"></p>
@@ -4308,10 +4031,10 @@ Let’s face it, when was the last time you changed your background?  Wouldn’t
       <link>https://blog.iannelson.uk/beer-advent-calendar-day-six/</link>
       <pubDate>Tue, 06 Dec 2005 22:12:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/beer-advent-calendar-day-six/</guid>
-      <description>&lt;p&gt;A return to form today, with the vase of fate serving up a helping of Riggwelter, the &lt;a href=&#34;http://www.blacksheepbrewery.com/&#34;&gt;Black Sheep Brewery’s&lt;/a&gt; delicious 4.7% strong Yorkshire ale.  I could drink this till the cows come home.  Or perhaps that should be the sheep, for (according to the bottle) the name Riggwelter comes from the Old Norse &lt;em&gt;rygg&lt;/em&gt; meaning to overturn.  “When a sheep is on its back and cannot get up without help, local dales dialect says it’s &lt;em&gt;rigged&lt;/em&gt; or &lt;em&gt;riggwelted&lt;/em&gt;.”&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>A return to form today, with the vase of fate serving up a helping of Riggwelter, the <a href="http://www.blacksheepbrewery.com/">Black Sheep Brewery’s</a> delicious 4.7% strong Yorkshire ale.  I could drink this till the cows come home.  Or perhaps that should be the sheep, for (according to the bottle) the name Riggwelter comes from the Old Norse <em>rygg</em> meaning to overturn.  “When a sheep is on its back and cannot get up without help, local dales dialect says it’s <em>rigged</em> or <em>riggwelted</em>.”</p>
-<p>Jocelyn says: “That’s cheating, you’ve had that one before, you’re supposed to be trying something new.  I’m not interested”.</p>
-<p>She speaks the truth, this isn’t exactly my first Riggwelter.  In fact I’ve taken Joce to visit the brewery in Masham before 🙂</p>
+      <description>&lt;p&gt;A return to form today, with the vase of fate serving up a helping of Riggwelter, the &lt;a href=&#34;http://www.blacksheepbrewery.com/&#34;&gt;Black Sheep Brewery’s&lt;/a&gt; delicious 4.7% strong Yorkshire ale.I could drink this till the cows come home.Or perhaps that should be the sheep, for (according to the bottle) the name Riggwelter comes from the Old Norse &lt;em&gt;rygg&lt;/em&gt; meaning to overturn.“When a sheep is on its back and cannot get up without help, local dales dialect says it’s &lt;em&gt;rigged&lt;/em&gt; or &lt;em&gt;riggwelted&lt;/em&gt;.”&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>A return to form today, with the vase of fate serving up a helping of Riggwelter, the <a href="http://www.blacksheepbrewery.com/">Black Sheep Brewery’s</a> delicious 4.7% strong Yorkshire ale.I could drink this till the cows come home.Or perhaps that should be the sheep, for (according to the bottle) the name Riggwelter comes from the Old Norse <em>rygg</em> meaning to overturn.“When a sheep is on its back and cannot get up without help, local dales dialect says it’s <em>rigged</em> or <em>riggwelted</em>.”</p>
+<p>Jocelyn says: “That’s cheating, you’ve had that one before, you’re supposed to be trying something new.I’m not interested”.</p>
+<p>She speaks the truth, this isn’t exactly my first Riggwelter.In fact I’ve taken Joce to visit the brewery in Masham before 🙂</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -4320,10 +4043,10 @@ Let’s face it, when was the last time you changed your background?  Wouldn’t
       <pubDate>Mon, 05 Dec 2005 21:12:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/beer-advent-calendar-day-five/</guid>
       <description>&lt;p&gt;Today’s festive ale is the Teignworthy Christmas Cracker, a strong (6% ABV) dark and warming malty bottle conditioned ale from deepest Devon.&lt;/p&gt;
-&lt;p&gt;Um, it’s OK, certainly tastes weighty and, well, worthy, but it isn’t really to my taste – it has a very strong aftertaste yet is lacking in any interesting fruity flavours.  There are plenty of other things I’d rather drink before picking this.&lt;/p&gt;
+&lt;p&gt;Um, it’s OK, certainly tastes weighty and, well, worthy, but it isn’t really to my taste – it has a very strong aftertaste yet is lacking in any interesting fruity flavours.There are plenty of other things I’d rather drink before picking this.&lt;/p&gt;
 &lt;p&gt;Jocelyn says: “Damn, I’ve dripped it on my top, I’ll have to wash this now.”&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today’s festive ale is the Teignworthy Christmas Cracker, a strong (6% ABV) dark and warming malty bottle conditioned ale from deepest Devon.</p>
-<p>Um, it’s OK, certainly tastes weighty and, well, worthy, but it isn’t really to my taste – it has a very strong aftertaste yet is lacking in any interesting fruity flavours.  There are plenty of other things I’d rather drink before picking this.</p>
+<p>Um, it’s OK, certainly tastes weighty and, well, worthy, but it isn’t really to my taste – it has a very strong aftertaste yet is lacking in any interesting fruity flavours.There are plenty of other things I’d rather drink before picking this.</p>
 <p>Jocelyn says: “Damn, I’ve dripped it on my top, I’ll have to wash this now.”</p>
 ]]></content:encoded>
     </item>
@@ -4436,48 +4159,48 @@ Let’s face it, when was the last time you changed your background?  Wouldn’t
       <link>https://blog.iannelson.uk/computer-games-i-have-loved/</link>
       <pubDate>Mon, 22 Aug 2005 21:08:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/computer-games-i-have-loved/</guid>
-      <description>&lt;p&gt;Isn’t it funny how one’s tastes change as maturity progresses?  I used to spend my summer holidays at the sea-side, playing in arcades and seeking the perfect milkshake (&lt;a href=&#34;http://www.snackspot.org.uk/thread.php?story=0408101147daa&#34;&gt;lime&lt;/a&gt;); more recently I’ve been spending them in the highlands, playing on the hills and seeking the perfect dram (&lt;a href=&#34;http://www.scotchwhisky.com/focus/lagavulin.htm&#34;&gt;lagavulin&lt;/a&gt;).  Hmmm…&lt;/p&gt;
-&lt;p&gt;I think I may have mentioned that the wife is away in the States for a while.  At the start of this period of solitude, I panicked, wondering whatever I could do with myself, and came to the conclusion that it would be a good idea to buy a computer game to while away the hours.  After all, I spent much of my formative years killing time on a variety of computer and console games, so why not rekindle that prior love affair?  So it was that I bought &lt;a href=&#34;http://thesims2.ea.com/&#34;&gt;The Sims 2&lt;/a&gt;, a truly excellent game, and had an enjoyable evening trying to motivate my wee Sims to improve their skills, better themselves, and generally enjoy life.  All good harmless fun.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Isn’t it funny how one’s tastes change as maturity progresses?  I used to spend my summer holidays at the sea-side, playing in arcades and seeking the perfect milkshake (<a href="http://www.snackspot.org.uk/thread.php?story=0408101147daa">lime</a>); more recently I’ve been spending them in the highlands, playing on the hills and seeking the perfect dram (<a href="http://www.scotchwhisky.com/focus/lagavulin.htm">lagavulin</a>).  Hmmm…</p>
-<p>I think I may have mentioned that the wife is away in the States for a while.  At the start of this period of solitude, I panicked, wondering whatever I could do with myself, and came to the conclusion that it would be a good idea to buy a computer game to while away the hours.  After all, I spent much of my formative years killing time on a variety of computer and console games, so why not rekindle that prior love affair?  So it was that I bought <a href="http://thesims2.ea.com/">The Sims 2</a>, a truly excellent game, and had an enjoyable evening trying to motivate my wee Sims to improve their skills, better themselves, and generally enjoy life.  All good harmless fun.</p>
-<p>The following evening, though, I came to resume my game, and…  I just couldn’t be bothered.  The whole concept seemed utterly pointless, a real waste of time.  Why squander an evening encouraging AI sims to develop their skills and improve their house when, here in the real life, I had bookcases to build, books to read, music to enjoy, new DVDs to watch, a fantastic city to go out and enjoy, and skills to learn for my own career?  It struck me that many of the finely-honed computer game skills I had developed over the past thirtyish years were of absolutely no use outside the parameters of those particular games.</p>
-<p>Since then, The Sims has sat on a shelf, and I’ve achieved loads over the past few weeks – Jocelyn is soon returning to find the house at the tidiest it’s been in years.  I told my mum all this (as you do).  She said I’m growing up.  About bloody time.</p>
+      <description>&lt;p&gt;Isn’t it funny how one’s tastes change as maturity progresses?  I used to spend my summer holidays at the sea-side, playing in arcades and seeking the perfect milkshake (&lt;a href=&#34;http://www.snackspot.org.uk/thread.php?story=0408101147daa&#34;&gt;lime&lt;/a&gt;); more recently I’ve been spending them in the highlands, playing on the hills and seeking the perfect dram (&lt;a href=&#34;http://www.scotchwhisky.com/focus/lagavulin.htm&#34;&gt;lagavulin&lt;/a&gt;).Hmmm…&lt;/p&gt;
+&lt;p&gt;I think I may have mentioned that the wife is away in the States for a while.At the start of this period of solitude, I panicked, wondering whatever I could do with myself, and came to the conclusion that it would be a good idea to buy a computer game to while away the hours.After all, I spent much of my formative years killing time on a variety of computer and console games, so why not rekindle that prior love affair?  So it was that I bought &lt;a href=&#34;http://thesims2.ea.com/&#34;&gt;The Sims 2&lt;/a&gt;, a truly excellent game, and had an enjoyable evening trying to motivate my wee Sims to improve their skills, better themselves, and generally enjoy life.All good harmless fun.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Isn’t it funny how one’s tastes change as maturity progresses?  I used to spend my summer holidays at the sea-side, playing in arcades and seeking the perfect milkshake (<a href="http://www.snackspot.org.uk/thread.php?story=0408101147daa">lime</a>); more recently I’ve been spending them in the highlands, playing on the hills and seeking the perfect dram (<a href="http://www.scotchwhisky.com/focus/lagavulin.htm">lagavulin</a>).Hmmm…</p>
+<p>I think I may have mentioned that the wife is away in the States for a while.At the start of this period of solitude, I panicked, wondering whatever I could do with myself, and came to the conclusion that it would be a good idea to buy a computer game to while away the hours.After all, I spent much of my formative years killing time on a variety of computer and console games, so why not rekindle that prior love affair?  So it was that I bought <a href="http://thesims2.ea.com/">The Sims 2</a>, a truly excellent game, and had an enjoyable evening trying to motivate my wee Sims to improve their skills, better themselves, and generally enjoy life.All good harmless fun.</p>
+<p>The following evening, though, I came to resume my game, and…  I just couldn’t be bothered.The whole concept seemed utterly pointless, a real waste of time.Why squander an evening encouraging AI sims to develop their skills and improve their house when, here in the real life, I had bookcases to build, books to read, music to enjoy, new DVDs to watch, a fantastic city to go out and enjoy, and skills to learn for my own career?  It struck me that many of the finely-honed computer game skills I had developed over the past thirtyish years were of absolutely no use outside the parameters of those particular games.</p>
+<p>Since then, The Sims has sat on a shelf, and I’ve achieved loads over the past few weeks – Jocelyn is soon returning to find the house at the tidiest it’s been in years.I told my mum all this (as you do).She said I’m growing up.About bloody time.</p>
 <p>But still, those earlier computer games <em>did</em> play a big part during the first three decades of my life, so, in way of tribute, here’s a quick rundown of the dozen games responsible for my most wasted hours:</p>
 <h2 id="grandstand-adman-2000">Grandstand Adman 2000</h2>
-<p>The first “console” I ever owned, this featured four (four!) different games – football, squash, tennis and practice.  Not only that, but it boasted configurable options for speed, angle, and bat-size!  You simply cannot appreciate how many hours I frittered away bouncing that square block against a wall until I encountered 15 “faults” – at which point I would press the reset button and repeat the process.  If I’m being charitable to my younger self, then I could suggest that this game at least helped me develop hand-eye coordination, and stopped me mithering my parents for a while.<br>
-“Real Sports Action”, says the box.  Well, only if football ever consisted of four vertical bars deflecting a square ball moving with constant speed.  Also – “Realistic Sound Effects”.  It beeped!  That was it!  But, y’know, it was all we had, so…</p>
+<p>The first “console” I ever owned, this featured four (four!) different games – football, squash, tennis and practice.Not only that, but it boasted configurable options for speed, angle, and bat-size!  You simply cannot appreciate how many hours I frittered away bouncing that square block against a wall until I encountered 15 “faults” – at which point I would press the reset button and repeat the process.If I’m being charitable to my younger self, then I could suggest that this game at least helped me develop hand-eye coordination, and stopped me mithering my parents for a while.
+“Real Sports Action”, says the box.Well, only if football ever consisted of four vertical bars deflecting a square ball moving with constant speed.Also – “Realistic Sound Effects”.It beeped!  That was it!  But, y’know, it was all we had, so…</p>
 <p><img alt="Grandstand Adman 2000" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/grandstand-adman-2000_35626038_o.jpg">
 <em>Photo by <a href="http://computermuseum.50megs.com/collectionpong.htm">Erik Klooster</a></em></p>
 <h2 id="grandstand-bmx-flyer">Grandstand BMX Flyer</h2>
-<p>Oh, now this handheld LCD console was (is?) a most favourite game of mine.  I can still hum the tune, and I still know that my highest-ever score was 14,070.  Brilliant fun – highly addictive and an appealing concept for a seven year-old lad (“avoid the crows!”  “jump for the girl in the balloon!”  “kick dirt in the baddy’s face!”).</p>
+<p>Oh, now this handheld LCD console was (is?) a most favourite game of mine.I can still hum the tune, and I still know that my highest-ever score was 14,070.Brilliant fun – highly addictive and an appealing concept for a seven year-old lad (“avoid the crows!”  “jump for the girl in the balloon!”  “kick dirt in the baddy’s face!”).</p>
 <p><img alt="Grandstand BMX Flyer" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/grandstand-bmxflyerboxfrontjpg_35626067_o.jpg">
 <em>Photo by <a href="http://www.handheldmuseum.com/Grandstand/BMXF.htm">Handheld Museum</a></em></p>
 <h2 id="starter-chess-commodore-16">Starter Chess (Commodore 16)</h2>
-<p>I was always a Commodore kid.  Speccies and Amstrads, though much more popular with the gamers at school, just didn’t appeal to me.  I mean, seriously, how could you write computer programs for hours on end using a rubber keyboard?!  Oh, sure, they were much better for games, if you liked that kind of thing.  But the C16 came with games too, like.. Starter Chess!<br>
-OK, who am I kidding?  Starter Chess was, in all respects, an exercise in patience and sitting around watching a pitifully underpowered computer fail to do very much for what seemed like an interminably long time.  First you had to get the game to load, from cassette tape, which always took the best part of twenty minutes.  Then, after every chess move played by oneself, the Commodore spent a good five minutes plotting its next move (which it announced with a loud beep).  Not very exciting.  On the plus side, the computer player wasn’t particularly strong, so it was actually quite conceivable to win, even as a youngster.</p>
+<p>I was always a Commodore kid.Speccies and Amstrads, though much more popular with the gamers at school, just didn’t appeal to me.I mean, seriously, how could you write computer programs for hours on end using a rubber keyboard?!  Oh, sure, they were much better for games, if you liked that kind of thing.But the C16 came with games too, like.. Starter Chess!<br>
+OK, who am I kidding?  Starter Chess was, in all respects, an exercise in patience and sitting around watching a pitifully underpowered computer fail to do very much for what seemed like an interminably long time.First you had to get the game to load, from cassette tape, which always took the best part of twenty minutes.Then, after every chess move played by oneself, the Commodore spent a good five minutes plotting its next move (which it announced with a loud beep).Not very exciting.On the plus side, the computer player wasn’t particularly strong, so it was actually quite conceivable to win, even as a youngster.</p>
 <h2 id="fruit-machine-simulator-commodore-16">Fruit Machine Simulator (Commodore 16)</h2>
-<p>I’m beginning to think I must’ve been a bit of a masochist as a child, because I absolutely loved this single-screen game which attempted to “simulate” a pretty simplistic fruit machine.  Press a key to enter some coins.  Press another key to pull the lever.  Maybe, just maybe, you then have the possibility of pressing further keys to “hold” or “nudge” – oh, the excitement was palpable.  It sounds really dull now, but I loved it at the time.  I remember trying to figure out the probability with which the various game events occurred – were they truly random, or were they influenced by the user’s actions?  What was the average length of a game, before you either went bust or accumulated the target winnings?  A future university career in mathematics was  already evident..</p>
+<p>I’m beginning to think I must’ve been a bit of a masochist as a child, because I absolutely loved this single-screen game which attempted to “simulate” a pretty simplistic fruit machine.Press a key to enter some coins.Press another key to pull the lever.Maybe, just maybe, you then have the possibility of pressing further keys to “hold” or “nudge” – oh, the excitement was palpable.It sounds really dull now, but I loved it at the time.I remember trying to figure out the probability with which the various game events occurred – were they truly random, or were they influenced by the user’s actions?  What was the average length of a game, before you either went bust or accumulated the target winnings?  A future university career in mathematics was  already evident..</p>
 <h2 id="kickstart-commodore-16">Kickstart (Commodore 16)</h2>
-<p>Of all the games I had for the C16, Kickstart was the only one that I remember as being truly playable, and remotely “fast”.  I was impressed at the time that such a game could run on a machine with such little RAM.  This was a motorbike game (as in the old TV show, Kickstart, which I also loved), and, like BMX Flyer years early, basically involved making the bike jump at the appropriate time – balloons were involved again too, and there was an irritating-to-adults soundtrack.  Quality.</p>
+<p>Of all the games I had for the C16, Kickstart was the only one that I remember as being truly playable, and remotely “fast”.I was impressed at the time that such a game could run on a machine with such little RAM.This was a motorbike game (as in the old TV show, Kickstart, which I also loved), and, like BMX Flyer years early, basically involved making the bike jump at the appropriate time – balloons were involved again too, and there was an irritating-to-adults soundtrack.Quality.</p>
 <h2 id="lemmings-amiga">Lemmings (Amiga)</h2>
-<p>The Christmas that brought me an Amiga 500 played a big part in sealing my future career direction.  For the first time, I was able to tinker with a real operating system (with GUI), more powerful programming languages, hard disks, multitasking applications, etc.  But that Christmas day itself was mostly spent playing Lemmings, which should need no introduction as it’s one of the most popular games of its time, and has been ported across to many platforms, including DHTML!</p>
+<p>The Christmas that brought me an Amiga 500 played a big part in sealing my future career direction.For the first time, I was able to tinker with a real operating system (with GUI), more powerful programming languages, hard disks, multitasking applications, etc.But that Christmas day itself was mostly spent playing Lemmings, which should need no introduction as it’s one of the most popular games of its time, and has been ported across to many platforms, including DHTML!</p>
 <p><img alt="Lemmings" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/amiga_lemmingspng_35626091_o.png"></p>
 <h2 id="stunt-car-racer-amiga">Stunt Car Racer (Amiga)</h2>
-<p>Stunt Car Racer was initially a very hard game.  But, persevere and you would discover the “knack” to each of the eight challenging courses.  So, persevere I did, and eventually reached the top of division one!  It seemed like such an achievement at the time, but it’s not exactly something I can put on my CV in 2005, is it?</p>
+<p>Stunt Car Racer was initially a very hard game.But, persevere and you would discover the “knack” to each of the eight challenging courses.So, persevere I did, and eventually reached the top of division one!  It seemed like such an achievement at the time, but it’s not exactly something I can put on my CV in 2005, is it?</p>
 <p><img alt="Stunt Car Racer" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/stunt_car_racer_06_35626365_o.gif"></p>
 <h2 id="gods-amiga">Gods (Amiga)</h2>
 <p>Gods was a platform game by the Bitmap Brothers, with a kicking introductory theme tune, and the game was pretty cool too. Lots of different weapons, puzzles, and backgrounds ensured a game which remained enjoyable as you progressed through the levels. Also a good variety of monsters, who boasted a much-hyped AI, in stark contrast to the usual sprites of the day who tended to attack by following predictable (circular) routes. Brilliant.</p>
 <p><img alt="Gods" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/gods_35626019_o.png"></p>
 <h2 id="civilization-series-amiga--pc">Civilization series (Amiga / PC)</h2>
-<p>Of all the games mentioned, I have spent the most time playing the various incarnations of Civilization on the Amiga and latterly on the PC.  Indeed, Civ 3 with the Play The World expansion gets my vote for greatest computer game of all time.  It’s such a brilliant concept – start with a few stone-age settlers in 4000BC and nurture them through 6000 years of growth, discovery, technological development, war and peace until they either achieve world domination or make the leap to Alpha Centauri (OK, I hear there are some other victory conditions, but these are the only two I’ve ever really found interesting).  The level of attachment you can feel to your civilization after playing this game for an entire weekend is really quite disturbing.  Addictive to the extreme, and often responsible for my eyes feeling very sore indeed…</p>
+<p>Of all the games mentioned, I have spent the most time playing the various incarnations of Civilization on the Amiga and latterly on the PC.Indeed, Civ 3 with the Play The World expansion gets my vote for greatest computer game of all time.It’s such a brilliant concept – start with a few stone-age settlers in 4000BC and nurture them through 6000 years of growth, discovery, technological development, war and peace until they either achieve world domination or make the leap to Alpha Centauri (OK, I hear there are some other victory conditions, but these are the only two I’ve ever really found interesting).The level of attachment you can feel to your civilization after playing this game for an entire weekend is really quite disturbing.Addictive to the extreme, and often responsible for my eyes feeling very sore indeed…</p>
 <p><img alt="Civilization 3" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/civ3jpg_35626007_o.jpg"></p>
 <h2 id="worms-pc">Worms (PC)</h2>
-<p>If it wasn’t for Worms, I suspect myself and some of the other Grovey Roaders would have achieved 2:1 degrees instead of the 2:2s we all took from Nottingham uni.  But, alas, Worms was just such good fun, and so sociable… what better way to spend evenings in our final year than commanding crack squads of four worms each to kick each other’s butts to entertaining effect?  Well, except for going to The Irish, of course.</p>
+<p>If it wasn’t for Worms, I suspect myself and some of the other Grovey Roaders would have achieved 2:1 degrees instead of the 2:2s we all took from Nottingham uni.But, alas, Worms was just such good fun, and so sociable… what better way to spend evenings in our final year than commanding crack squads of four worms each to kick each other’s butts to entertaining effect?  Well, except for going to The Irish, of course.</p>
 <h2 id="quake-pc">Quake (PC)</h2>
 <p>I missed the whole Doom thing as I didn’t get a PC until leaving uni in 1997. Quake was therefore the first FPS I ever played, and thus swiftly passed another summer of my youth.</p>
 <h2 id="gran-turismo-2-playstation">Gran Turismo 2 (Playstation)</h2>
-<p>GT2 was the reason I bought a Playstation, and it was the only PSX game I played for any length of time.  At the time I had a Ford Puma, so within the game I made a point of buying the exact same model in the same colour.  How sad is that?  As with my recent Sims 2 epiphany, I was eventually struck by the thought “why am I doing this within the virtual confines of a computer game when I could be doing it out in the real world?”.  I didn’t explain this line of reasoning to the magistrate though, and the six points should come off my driving licence in a few year’s time… 😉</p>
-<p>There you have it, the dirty dozen responsible for wasting much of the best years of my life.  Who knows, without those distractions, maybe by now I would otherwise be a Nobel laureate, or rich and famous…  or maybe I would have no hand-eye coordination, be unable to use a mouse, and not have the programming talents that now put food on our table.  Hmmm…</p>
+<p>GT2 was the reason I bought a Playstation, and it was the only PSX game I played for any length of time.At the time I had a Ford Puma, so within the game I made a point of buying the exact same model in the same colour.How sad is that?  As with my recent Sims 2 epiphany, I was eventually struck by the thought “why am I doing this within the virtual confines of a computer game when I could be doing it out in the real world?”.I didn’t explain this line of reasoning to the magistrate though, and the six points should come off my driving licence in a few year’s time… 😉</p>
+<p>There you have it, the dirty dozen responsible for wasting much of the best years of my life.Who knows, without those distractions, maybe by now I would otherwise be a Nobel laureate, or rich and famous…  or maybe I would have no hand-eye coordination, be unable to use a mouse, and not have the programming talents that now put food on our table.Hmmm…</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -4495,9 +4218,9 @@ OK, who am I kidding?  Starter Chess was, in all respects, an exercise in patien
       <pubDate>Tue, 05 Jul 2005 09:07:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/aussie-apostle-claimed-by-sea/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;Twelve Apostles, before Sunday&amp;rsquo;s collapse&#34; loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/twelve-apostles_13454971_o.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Holy cow, one of the limestone towers at Australia’s Twelve Apostles park has collapsed into the sea!  It was the one in the foreground of the photo to the left. Seeing this fantastic set of rock formations (and flying over them in a helicopter) was one of the many highlights of my vacation to Australia in Dec 2002 / Jan 2003.  You always hear about coastal erosion and the way landscape changes over time, but never really expect significant changes to occur during your own lifetime&lt;/p&gt;</description>
+&lt;p&gt;Holy cow, one of the limestone towers at Australia’s Twelve Apostles park has collapsed into the sea!  It was the one in the foreground of the photo to the left. Seeing this fantastic set of rock formations (and flying over them in a helicopter) was one of the many highlights of my vacation to Australia in Dec 2002 / Jan 2003. You always hear about coastal erosion and the way landscape changes over time, but never really expect significant changes to occur during your own lifetime&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><img alt="Twelve Apostles, before Sunday&rsquo;s collapse" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/twelve-apostles_13454971_o.jpg"></p>
-<p>Holy cow, one of the limestone towers at Australia’s Twelve Apostles park has collapsed into the sea!  It was the one in the foreground of the photo to the left. Seeing this fantastic set of rock formations (and flying over them in a helicopter) was one of the many highlights of my vacation to Australia in Dec 2002 / Jan 2003.  You always hear about coastal erosion and the way landscape changes over time, but never really expect significant changes to occur during your own lifetime</p>
+<p>Holy cow, one of the limestone towers at Australia’s Twelve Apostles park has collapsed into the sea!  It was the one in the foreground of the photo to the left. Seeing this fantastic set of rock formations (and flying over them in a helicopter) was one of the many highlights of my vacation to Australia in Dec 2002 / Jan 2003. You always hear about coastal erosion and the way landscape changes over time, but never really expect significant changes to occur during your own lifetime</p>
 <ul>
 <li><a href="http://news.bbc.co.uk/1/hi/world/asia-pacific/4647857.stm">BBC News coverage</a></li>
 <li><a href="http://news.google.co.uk/news?hl=en&amp;ned=uk&amp;q=twelve&#43;apostles">Google News coverage</a></li>

@@ -9,6 +9,55 @@
     <lastBuildDate>Sat, 03 May 2025 22:38:20 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/tags/.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>A Serializable KeyValuePair Class</title>
+      <link>https://blog.iannelson.uk/a-serializable-keyvaluepair-class/</link>
+      <pubDate>Sun, 17 Sep 2006 17:09:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/a-serializable-keyvaluepair-class/</guid>
+      <description>&lt;p&gt;Having accepted that &lt;a href=&#34;http://www.hanselman.com/blog/ReturningDataSetsFromWebServicesIsTheSpawnOfSatanAndRepresentsAllThatIsTrulyEvilInTheWorld.aspx&#34;&gt;Returning DataSets from WebServices is the Spawn of Satan and Represents All That Is Truly Evil in the World&lt;/a&gt; (or at least, not exactly best practice), I’ve been trying to make a conscious effort to instead use lightweight custom objects in my middle tier, to be exposed via web services for use by other applications. I felt sure that some of the new Generic classes in the .NET 2.0 FCL would help me in my quest. Specifically, as I often need to expose simple arrays of Key/Value Pair metadata, I planned to create an instance of the  &lt;code&gt;System.Collections.ObjectModel.Collection&lt;/code&gt; class, containing a bunch of &lt;code&gt;System.Collections.Generic.KeyValuePair&lt;/code&gt; objects.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Having accepted that <a href="http://www.hanselman.com/blog/ReturningDataSetsFromWebServicesIsTheSpawnOfSatanAndRepresentsAllThatIsTrulyEvilInTheWorld.aspx">Returning DataSets from WebServices is the Spawn of Satan and Represents All That Is Truly Evil in the World</a> (or at least, not exactly best practice), I’ve been trying to make a conscious effort to instead use lightweight custom objects in my middle tier, to be exposed via web services for use by other applications. I felt sure that some of the new Generic classes in the .NET 2.0 FCL would help me in my quest. Specifically, as I often need to expose simple arrays of Key/Value Pair metadata, I planned to create an instance of the  <code>System.Collections.ObjectModel.Collection</code> class, containing a bunch of <code>System.Collections.Generic.KeyValuePair</code> objects.</p>
+<p>Well, this all seemed to go to plan, and worked just fine within my app. But when I exposed the method as a web service, I discovered that neither the Key nor the Value properties were serialized – I was left to consume a lovely generic collection of objects with no members – not a whole lot of use.</p>
+<p>A little Googling turned up <a href="http://blogs.msdn.com/seshadripv/archive/2005/11/02/488273.aspx">this blog entry</a>, which explains that the Key and Value properties on the KeyValuePair class are both read-only, and by design the XmlSerializer will not serialize properties that don’t have a set accessor!</p>
+<p>Damned if that little matter was going to stop me, I whipped out my copy of Lutz Roeder’s reflector to reverse engineer the <code>KeyValuePair</code> class (to be honest, I could have guessed most of it), and added a <em>private</em> set accessor to both properties, thus persuading the XmlSerializer to, well, do some serializing 🙂</p>
+<p>Here’s the code for this new class:</p>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/9862098.js?file=KeyValuePairThatSerializesProperly.cs"></script>
+<p>Having done that, to add a little clarity when using this class in the way I anticipate and eliminate repeated code, I decided to create some specific versions of the <code>Collection</code>, <code>ReadOnlyCollection</code> and <code>KeyedCollection</code> classes:</p>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/9862098.js?file=KeyValuePairCollection.cs"></script>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/9862098.js?file=ReadOnlyKeyValuePairCollection.cs"></script>
+
+
+
+  
+
+<script src="https://gist.github.com/ianfnelson/9862098.js?file=KeyValuePairKeyedCollection.cs"></script>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Big Integer</title>
+      <link>https://blog.iannelson.uk/big-integer/</link>
+      <pubDate>Mon, 17 Jul 2006 08:07:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/big-integer/</guid>
+      <description>&lt;p&gt;As I mentioned &lt;a href=&#34;https://blog.iannelson.uk/project-euler/&#34;&gt;last summer&lt;/a&gt;, I do enjoy whiling away a few hours attempting to solve the maths / progamming challenges set on &lt;a href=&#34;http://mathschallenge.net/index.php?section=project&#34;&gt;Project Euler&lt;/a&gt;. My language of choice for most puzzles is C#, but this hampered me on some of the questions as there is no in-built support for really big integers.&lt;/p&gt;
+&lt;p&gt;However, a little bit of Googling and I came across this excellent &lt;a href=&#34;http://www.codeproject.com/csharp/biginteger.asp&#34;&gt;BigInteger class&lt;/a&gt; on Code Project which does everything I need and more – and it seems bloody fast, too. Thanks to this class, I’ve been able to knock off several more problems this weekend, and now have a rating of “11% Genius” – still some way to go, then…&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As I mentioned <a href="https://blog.iannelson.uk/project-euler/">last summer</a>, I do enjoy whiling away a few hours attempting to solve the maths / progamming challenges set on <a href="http://mathschallenge.net/index.php?section=project">Project Euler</a>. My language of choice for most puzzles is C#, but this hampered me on some of the questions as there is no in-built support for really big integers.</p>
+<p>However, a little bit of Googling and I came across this excellent <a href="http://www.codeproject.com/csharp/biginteger.asp">BigInteger class</a> on Code Project which does everything I need and more – and it seems bloody fast, too. Thanks to this class, I’ve been able to knock off several more problems this weekend, and now have a rating of “11% Genius” – still some way to go, then…</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Universal Comparer for .NET</title>
       <link>https://blog.iannelson.uk/universal-comparer-for-net/</link>
       <pubDate>Mon, 27 Feb 2006 22:02:00 +0000</pubDate>

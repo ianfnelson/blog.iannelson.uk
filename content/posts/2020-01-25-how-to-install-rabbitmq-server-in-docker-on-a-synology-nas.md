@@ -52,7 +52,7 @@ Check Enable auto-restart so that the container automatically restarts, should i
   <figure class="aligncenter"><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_20-53-11-1.png"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_20-53-11-1.png" alt="" /></a></figure>
 </div>
 
-Containers should generally be treated as being replaceable, with any data that you care about being kept outside of the container. To this end, create a folder on the NAS that can be used as a volume for the /var/lib/rabbitmq mount path. This ensures all the data from the RabbitMQ instance exists outside of the container itself and won’t be lost if the container needs to be destroyed and recreated for any reason (such as upgrading to a new version of RabbitMQ).  
+Containers should generally be treated as being replaceable, with any data that you care about being kept outside of the container. To this end, create a folder on the NAS that can be used as a volume for the /var/lib/rabbitmq mount path. This ensures all the data from the RabbitMQ instance exists outside of the container itself and won’t be lost if the container needs to be destroyed and recreated for any reason (such as upgrading to a new version of RabbitMQ).
 I also suggest creating a blank RabbitMQ config file – rabbitmq.conf – and mounting this file to the path /etc/rabbitmq/rabbitmq.conf .
 
 <div class="wp-block-image">

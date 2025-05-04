@@ -21,7 +21,7 @@ A year later, December 2001, and I attended the two-day .NET launch at the Londo
 
 Another year passed, and a quiet market meant that I still hadn’t had any opportunity to cut my teeth on any .NET projects. But crucially (and in retrospect foolishly), I also hadn’t put any personal effort into learning these important new technologies. So, on 3rd December 2002, I ordered some self-study books for exams 70-315 and 70-316. Apparently expecting to learn by osmosis, I then popped them on my bookshelf, and headed off to Australia to visit my friends Bruce and Suzanne.
 
-When I got back from Down Under, in January 2003, my job at ioko was not waiting for me. That quiet market wasn’t getting any noisier, a cull had to occur, and, since I didn’t have any proven .Net skills&#8230;
+When I got back from Down Under, in January 2003, my job at ioko was not waiting for me. That quiet market wasn’t getting any noisier, a cull had to occur, and, since I didn’t have any proven .Net skills…
 
 Redundancy wasn’t a pleasant experience, and I wanted to get back into the world of work ASAP (after all, the mortgage wasn’t going to pay itself), so I quickly took up what I always expected to be a stop-gap VB6/ASP job – the pay wasn’t great but it beat daytime TV, spamming the employment agencies and constantly refreshing jobserve.com. It was at this point in time I realised that the only person with the capability to improve my skills and career prospects was myself. For too long I had equated career success to “luck” in being placed on the right projects. Now it was time for me to invest some time and energy learning those all-important .NET skills that I’d been reading about for the past few years.
 

@@ -6,8 +6,7 @@ cover:
   image: https://blogstouks01.z33.web.core.windows.net/2007/12/gedhtree_2-1.png
 categories:
   - Genealogy
-tags:
-  - Genealogy
+
 
 ---
 With the return of the dark wintry nights to this sceptered isle, I’ve been taking the opportunity to flesh out [my Family Tree][1] a little more.
@@ -18,7 +17,7 @@ But more than that, the quality and number of facts for many individuals has inc
 
 I must say, it’s sometimes quite a depressing affair, this family history research. No long-lost aristocratic lineage with associated fortunes unearthed thus far! One side of my mother’s family were steel workers in Sheffield, while the other were agricultural labourers in Lincolnshire and at one point in time five siblings from the same family died of diphtheria within a fortnight of each other.
 
-My father’s ancestors were coal-miners from Scotland, and invariably died at an early age, including my g.g.g.grandfather John Allan who died on 21st January 1863 at the age of 35 when the roof of the mine he was working in collapsed on him. Then there are all the people who never reached adulthood at all, or never married, or my great-granduncle William Henry Worfolk who [died in the Battle of the Somme at the age of 20][3].  Given all these setbacks to my gene pool, it’s quite remarkable that I’m here at all!
+My father’s ancestors were coal-miners from Scotland, and invariably died at an early age, including my g.g.g.grandfather John Allan who died on 21st January 1863 at the age of 35 when the roof of the mine he was working in collapsed on him. Then there are all the people who never reached adulthood at all, or never married, or my great-granduncle William Henry Worfolk who [died in the Battle of the Somme at the age of 20][3]. Given all these setbacks to my gene pool, it’s quite remarkable that I’m here at all!
 
 [All the details are online here][1]. Incidentally, these pages were created automatically using [GedHTree][4], a Windows program which converts GEDCOM files into HTML pages. I have to say, it has a fugly UI (screenshot below) of the sort that tends to make the pages of [The Daily WTF][5], but once you’ve gotten used to it, it does what it says on the tin, and I’m happy to have paid for a registered copy.<figure class="kg-card kg-image-card">
 

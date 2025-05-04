@@ -8,7 +8,7 @@ categories:
   - Fun
 
 ---
-Ten years of professional software development have given me a healthy awareness of edge cases – I’m always trying to code defensively, validate input, catch exceptions, use assertions, and of course pick holes in sloppy specifications (“ah, but what if&#8230;”).
+Ten years of professional software development have given me a healthy awareness of edge cases – I’m always trying to code defensively, validate input, catch exceptions, use assertions, and of course pick holes in sloppy specifications (“ah, but what if…”).
 
 I must learn that these skills should not always be applied to my personal life though, as exemplified by a conversation with The Wife yesterday:
 
@@ -30,7 +30,7 @@ _Jocelyn (testily): “There are seven.”_
 
 _Me: “Then what happens if the last person picks their own gift?”_
 
-_Jocelyn (deflated): “Ian&#8230;!  OK, so we won’t open any gifts until they’re all selected – happy now?”_
+_Jocelyn (deflated): “Ian…!  OK, so we won’t open any gifts until they’re all selected – happy now?”_
 
 * * *
 

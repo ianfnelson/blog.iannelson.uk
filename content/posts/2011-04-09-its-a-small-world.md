@@ -8,8 +8,7 @@ cover:
 
 categories:
   - Genealogy
-tags:
-  - Genealogy
+
 
 ---
 It’s been a long time since I posted a blog entry tagged with “[genealogy][1]” (over three years, in fact). I find it to be a hobby that I pursue in fits and starts – periods of all-encompassing obsession followed by long periods of total inactivity. But the old [Family Tree][2] has been fleshed out nicely since I last updated you, dear reader. It has also acquired a most surprising and welcome addition.<figure class="kg-card kg-image-card kg-card-hascaption">

@@ -67,7 +67,7 @@ a) Repeatedly manually walking through the application, adding a product to my b
 
 b) Writing a unit test once to automate the testing of the new logic.
 
-Gee, let me think about that for a while&#8230;
+Gee, let me think about that for a while…
 
 **9. I spend more time coding, less time in the debugger.**
 

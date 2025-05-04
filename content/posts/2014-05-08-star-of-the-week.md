@@ -29,7 +29,7 @@ Unsurprisingly, some baseline profiling revealed that the problems lay in the da
 
 This was possible because the data access was performed through a series of helper classes that wrapped the EF context and exposed mapped models. While this simplified the data access for most use cases, and helped to encapsulate low-level validation, it was a hindrance for any kind of aggregation or reporting requirement. Essentially the problem boiled down to the _SELECT N+1_ problem on steroids, with a large portion of the object graph steadily loaded into memory.
 
-Wrapping isn’t always a helpful approach&#8230;
+Wrapping isn’t always a helpful approach…
 
 ![](https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000033567536Small.jpg)
 

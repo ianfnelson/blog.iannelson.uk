@@ -46,7 +46,7 @@ As it happened, on the platform I bumped into Ruth, mother of one of Ben’s pal
 
 <blockquote class="twitter-tweet">
   <p lang="en" dir="ltr">
-    Heading home. Wife experiencing pains. Is this it&#8230;?
+    Heading home. Wife experiencing pains. Is this it…?
   </p>
   
   <p>

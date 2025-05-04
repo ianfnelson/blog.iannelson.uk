@@ -9,6 +9,17 @@
     <lastBuildDate>Sat, 03 May 2025 22:38:20 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/tags/maths/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Big Integer</title>
+      <link>https://blog.iannelson.uk/big-integer/</link>
+      <pubDate>Mon, 17 Jul 2006 08:07:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/big-integer/</guid>
+      <description>&lt;p&gt;As I mentioned &lt;a href=&#34;https://blog.iannelson.uk/project-euler/&#34;&gt;last summer&lt;/a&gt;, I do enjoy whiling away a few hours attempting to solve the maths / progamming challenges set on &lt;a href=&#34;http://mathschallenge.net/index.php?section=project&#34;&gt;Project Euler&lt;/a&gt;. My language of choice for most puzzles is C#, but this hampered me on some of the questions as there is no in-built support for really big integers.&lt;/p&gt;
+&lt;p&gt;However, a little bit of Googling and I came across this excellent &lt;a href=&#34;http://www.codeproject.com/csharp/biginteger.asp&#34;&gt;BigInteger class&lt;/a&gt; on Code Project which does everything I need and more – and it seems bloody fast, too. Thanks to this class, I’ve been able to knock off several more problems this weekend, and now have a rating of “11% Genius” – still some way to go, then…&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As I mentioned <a href="https://blog.iannelson.uk/project-euler/">last summer</a>, I do enjoy whiling away a few hours attempting to solve the maths / progamming challenges set on <a href="http://mathschallenge.net/index.php?section=project">Project Euler</a>. My language of choice for most puzzles is C#, but this hampered me on some of the questions as there is no in-built support for really big integers.</p>
+<p>However, a little bit of Googling and I came across this excellent <a href="http://www.codeproject.com/csharp/biginteger.asp">BigInteger class</a> on Code Project which does everything I need and more – and it seems bloody fast, too. Thanks to this class, I’ve been able to knock off several more problems this weekend, and now have a rating of “11% Genius” – still some way to go, then…</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Rounding Up The Result of Integer Division</title>
       <link>https://blog.iannelson.uk/rounding-up-the-result-of-integer-division/</link>
       <pubDate>Tue, 06 Sep 2005 11:09:00 +0000</pubDate>

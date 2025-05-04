@@ -17,6 +17,6 @@ Late last night I was doing some development work on a website for our investmen
 
 Bob’s your uncle.
 
-**Update** [2006-02-27]: The above class is no match for some [much more fully-featured code][1] that was anonymously sent to me earlier this month which allows for sorting on multiple properties to arbitrary depth within the domain object model, using a simple SQL-like syntax. [Check it out&#8230;][1]
+**Update** [2006-02-27]: The above class is no match for some [much more fully-featured code][1] that was anonymously sent to me earlier this month which allows for sorting on multiple properties to arbitrary depth within the domain object model, using a simple SQL-like syntax. [Check it out…][1]
 
  [1]: https://blog.iannelson.uk/universal-comparer-for-net/
