@@ -6,20 +6,13 @@ url: /a-linq-gotcha-first-operator/
 
 categories:
   - Tech
+tags:
+  - .NET
 
 ---
-<!--kg-card-begin: html-->
 
-<p class="MsoNormal">
-  So, I was using the <a  href="http://www.hookedonlinq.com/Default.aspx?Page=FirstOperator">First operator</a> to return the first item element in a sequence matching a predicate.
-</p>
+So, I was using the `First` operator to return the first item element in a sequence matching a predicate.
 
-<p class="MsoNormal">
-  I expected a null to be returned if the sequence did not contain any matching elements, but found (well, Scott found) that this actually throws an InvalidOperationException.
-</p>
+I expected a null to be returned if the sequence did not contain any matching elements, but found (well, Scott found) that this actually throws an InvalidOperationException.
 
-<p class="MsoNormal">
-  Turns out I should have been using the <a  href="http://www.hookedonlinq.com/FirstOrDefaultOperator.ashx">FirstOrDefault</a> operator instead…
-</p>
-
-<!--kg-card-end: html-->
+Turns out I should have been using the `FirstOrDefault` operator instead…

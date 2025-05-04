@@ -6,10 +6,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Performance of Loops on Collections | Ian Nelson</title>
-<meta name="keywords" content="">
+<meta name="keywords" content=".NET">
 <meta name="description" content="Interesting article from Patrick Smacchia (the NDepend guy) in which he runs some benchmarks on the cost of looping in different ways over different constructs and comes to the conclusion that:
 
-“looping on array using for is 5 times cheaper than looping on List using foreach (which I believe, is what we all do)”
+“looping on array using for is 5 times cheaper than looping on List&lt;T&gt; using foreach (which I believe, is what we all do)”
 Well worth a read, although I suspect that in my solutions the bottlenecks will remain the out-of-process calls, i.e. database access and web service calls. Still, a 5x gain is not to be sniffed at.">
 <meta name="author" content="">
 <link rel="canonical" href="https://blog.iannelson.uk/performance-of-loops-on-collections/">
@@ -76,18 +76,19 @@ Well worth a read, although I suspect that in my solutions the bottlenecks will 
   <meta property="og:site_name" content="Ian Nelson">
   <meta property="og:title" content="Performance of Loops on Collections">
   <meta property="og:description" content="Interesting article from Patrick Smacchia (the NDepend guy) in which he runs some benchmarks on the cost of looping in different ways over different constructs and comes to the conclusion that:
-“looping on array using for is 5 times cheaper than looping on List using foreach (which I believe, is what we all do)”
+“looping on array using for is 5 times cheaper than looping on List&lt;T&gt; using foreach (which I believe, is what we all do)”
 Well worth a read, although I suspect that in my solutions the bottlenecks will remain the out-of-process calls, i.e. database access and web service calls. Still, a 5x gain is not to be sniffed at.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2008-11-28T12:11:00+00:00">
     <meta property="article:modified_time" content="2025-04-23T19:18:23+01:00">
+    <meta property="article:tag" content=".NET">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Performance of Loops on Collections">
 <meta name="twitter:description" content="Interesting article from Patrick Smacchia (the NDepend guy) in which he runs some benchmarks on the cost of looping in different ways over different constructs and comes to the conclusion that:
 
-“looping on array using for is 5 times cheaper than looping on List using foreach (which I believe, is what we all do)”
+“looping on array using for is 5 times cheaper than looping on List&lt;T&gt; using foreach (which I believe, is what we all do)”
 Well worth a read, although I suspect that in my solutions the bottlenecks will remain the out-of-process calls, i.e. database access and web service calls. Still, a 5x gain is not to be sniffed at.">
 
 
@@ -117,9 +118,9 @@ Well worth a read, although I suspect that in my solutions the bottlenecks will 
   "@type": "BlogPosting",
   "headline": "Performance of Loops on Collections",
   "name": "Performance of Loops on Collections",
-  "description": "Interesting article from Patrick Smacchia (the NDepend guy) in which he runs some benchmarks on the cost of looping in different ways over different constructs and comes to the conclusion that:\n“looping on array using for is 5 times cheaper than looping on List using foreach (which I believe, is what we all do)”\nWell worth a read, although I suspect that in my solutions the bottlenecks will remain the out-of-process calls, i.e. database access and web service calls. Still, a 5x gain is not to be sniffed at.\n",
+  "description": "Interesting article from Patrick Smacchia (the NDepend guy) in which he runs some benchmarks on the cost of looping in different ways over different constructs and comes to the conclusion that:\n“looping on array using for is 5 times cheaper than looping on List\u0026lt;T\u0026gt; using foreach (which I believe, is what we all do)”\nWell worth a read, although I suspect that in my solutions the bottlenecks will remain the out-of-process calls, i.e. database access and web service calls. Still, a 5x gain is not to be sniffed at.\n",
   "keywords": [
-    
+    ".NET"
   ],
   "articleBody": "Interesting article from Patrick Smacchia (the NDepend guy) in which he runs some benchmarks on the cost of looping in different ways over different constructs and comes to the conclusion that:\n“looping on array using for is 5 times cheaper than looping on List using foreach (which I believe, is what we all do)”\nWell worth a read, although I suspect that in my solutions the bottlenecks will remain the out-of-process calls, i.e. database access and web service calls. Still, a 5x gain is not to be sniffed at.\nPatrick Smacchia – An easy and efficient way to improve .NET code performance.\n",
   "wordCount" : "102",
@@ -225,7 +226,7 @@ Well worth a read, although I suspect that in my solutions the bottlenecks will 
   </header> 
   <div class="post-content"><p><a href="http://codebetter.com/blogs/patricksmacchia/archive/2008/11/19/an-easy-and-efficient-way-to-improve-net-code-performances.aspx">Interesting article</a> from <a href="http://codebetter.com/blogs/patricksmacchia">Patrick Smacchia</a> (the <a href="http://www.ndepend.com">NDepend</a> guy) in which he runs some benchmarks on the cost of looping in different ways over different constructs and comes to the conclusion that:</p>
 <blockquote>
-<p>“looping on array using for is <strong>5 times cheaper</strong> than looping on List<!-- raw HTML omitted --> using foreach (which I believe, is what we all do)”</p></blockquote>
+<p>“looping on array using for is <strong>5 times cheaper</strong> than looping on <code>List&lt;T&gt;</code> using foreach (which I believe, is what we all do)”</p></blockquote>
 <p>Well worth a read, although I suspect that in my solutions the bottlenecks will remain the out-of-process calls, i.e. database access and web service calls. Still, a 5x gain is not to be sniffed at.</p>
 <p><a href="http://codebetter.com/blogs/patricksmacchia/archive/2008/11/19/an-easy-and-efficient-way-to-improve-net-code-performances.aspx">Patrick Smacchia – An easy and efficient way to improve .NET code performance</a>.</p>
 
@@ -234,6 +235,7 @@ Well worth a read, although I suspect that in my solutions the bottlenecks will 
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="https://blog.iannelson.uk/tags/.net/">.NET</a></li>
     </ul>
   </footer>
 </article>

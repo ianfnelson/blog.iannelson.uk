@@ -6,27 +6,30 @@ url: /tfs-alternative-diff-merge-tools/
 
 categories:
   - Tech
+tags:
+  - TFS
+  - Software
 
 ---
 There are many things I love about Team Foundation Server, but the supplied diff/merge tool is not one of them. It is – how can I put this? – somewhat basic. Indeed, I’ve heard tell of people going out of their way to avoid merges purely because they find the process so clunky.
 
 Here’s the good news – you can easily configure TFS to use a different, third-party, diff/merge tool, perhaps the one you’ve grown to know and love over many years of happy software development using other SCM products. Maybe you like [WinMerge][1], or love [TortoiseMerge][2]. Perhaps you’re like my friend [John][3] and swear by [SourceGear DiffMerge][4]. Or maybe, like me, you’re a [Beyond Compare][5] fanboy. No problem, they can all be used by TFS. Here’s how:
 
-  * Open up the Visual Studio options (**Tools** –> **Options**).
-  * Expand the **Source Control** –> **Visual Studio Team Foundation Server** section.
-  * Click the **Configure User Tools…** button:<figure class="kg-card kg-image-card">
+* Open up the Visual Studio options (**Tools** –> **Options**).
+* Expand the **Source Control** –> **Visual Studio Team Foundation Server** section.
+* Click the **Configure User Tools…** button:
 
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/dm1_4.png" class="kg-image" alt loading="lazy" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/dm1_4.png)
 
-  * Click the **Add…** button to set up a new file extension operation:<figure class="kg-card kg-image-card">
+* Click the **Add…** button to set up a new file extension operation:
 
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/dm2_2.png" class="kg-image" alt loading="lazy" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/dm2_2.png)
 
-  * Set up a **Compare** operation to run against all files (extension of *****):<figure class="kg-card kg-image-card">
+* Set up a **Compare** operation to run against all files (extension of *:
 
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/dm3_3.png" class="kg-image" alt loading="lazy" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/dm3_3.png)
 
-  * Repeat the process to add a **Merge** operation to run against all file extensions.
+* Repeat the process to add a **Merge** operation to run against all file extensions.
 
 At this point, you’re probably thinking “wooah, what do those argument parameters mean? How do I know what to enter?”. MSDN won’t help you out (“[type any arguments that your tool requires][6]” – thanks for that!).
 

@@ -6,8 +6,117 @@
     <description>Recent content in NHibernate on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 03 May 2025 22:38:20 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 04 May 2025 17:08:04 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/tags/nhibernate/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NHProf – NHibernate Profiler</title>
+      <link>https://blog.iannelson.uk/nhprof-nhibernate-profiler/</link>
+      <pubDate>Tue, 19 May 2009 17:05:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/nhprof-nhibernate-profiler/</guid>
+      <description>&lt;p&gt;The inimitable &lt;a href=&#34;http://www.ayende.com&#34;&gt;Ayende Rahien&lt;/a&gt; is close to releasing version 1.0 of his &lt;a href=&#34;http://www.nhprof.com&#34;&gt;NHibernate Profiler&lt;/a&gt; tool, and it really is shaping up to be a rather lovely little addition to my developer toolbox.&lt;/p&gt;
+&lt;p&gt;In much the same way that we can use &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ms181091.aspx&#34;&gt;SQL Server Profiler&lt;/a&gt; to monitor database activity, and &lt;a href=&#34;http://www.red-gate.com/products/ants_performance_profiler/&#34;&gt;ANTS Profiler&lt;/a&gt; to monitor the performance and memory usage of .NET applications, NHProf profiles the activity of the data access layer (&lt;a href=&#34;http://nhforge.org&#34;&gt;NHibernate&lt;/a&gt;), and even goes as far as providing helpful hints for potential improvements.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>The inimitable <a href="http://www.ayende.com">Ayende Rahien</a> is close to releasing version 1.0 of his <a href="http://www.nhprof.com">NHibernate Profiler</a> tool, and it really is shaping up to be a rather lovely little addition to my developer toolbox.</p>
+<p>In much the same way that we can use <a href="http://msdn.microsoft.com/en-us/library/ms181091.aspx">SQL Server Profiler</a> to monitor database activity, and <a href="http://www.red-gate.com/products/ants_performance_profiler/">ANTS Profiler</a> to monitor the performance and memory usage of .NET applications, NHProf profiles the activity of the data access layer (<a href="http://nhforge.org">NHibernate</a>), and even goes as far as providing helpful hints for potential improvements.</p>
+<p>NHibernate is powerful object relational mapper, but has a (perhaps deserved) reputation for having a steep learning curve. One of its major benefits is that it abstracts away much of the drudgery of writing data access code from the developer, but as an unfortunate side effect of this it can make it easy to create inefficient data access layers.</p>
+<p>NHProf aims to reduce this risk by providing:</p>
+<blockquote>
+<p>Cognitive application awareness.</p>
+<p>Visual insight into the interaction between your database and application code.</p>
+<p>Analysis and detection of common pitfalls when using NHibernate.</p></blockquote>
+<p>Sounds good, doesn’t it? So what does that mean in practice?</p>
+<p>Here’s a screenshot of the release candidate. Note that the Session Factory Statistics functionality is disabled in the current build.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/nh1_2.png"></p>
+<p>Each profiled NHibernate session can be selected individually from the pane in the top left, and from there we can drill down to see the details of each SQL statement executed against the database (formatted in nice readable manner), along with details of any parameters, and even an option of viewing the rows resulting from the statement.</p>
+<p>The statements are interpreted, and suggestions and warnings are flagged as alerts, along with hyperlinks to online guidance explaining how the data access can be improved.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/nh2_2.png"></p>
+<p>A stack trace is also provided for each statement, allowing us to identify the code that caused the data access to occur. It’s possible to double-click on a row within this trace to jump straight to the code in Visual Studio.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/nh3_2.png"></p>
+<p>In addition to showing the SQL statements executed by each session, details of the entities loaded by each session are also given.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/nh4_2.png"></p>
+<p>…and there’s a summary of the NHibernate usage for each session.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/nh5_2.png"></p>
+<p>As well as providing session-by-session detail of what’s happening, NHProf allows us to analyse the overall activity. Here, I’m looking at unique queries containing the string “study” (note that differing parameters don’t count towards “uniqueness”):</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/nh6_2.png"></p>
+<p>We can also obtain analysis by Method, Url (for web applications) and Overall Usage statistics:</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/nh7_2.png"></p>
+<p>In my opinion NHProf has the potential to become an essential tool when creating or maintaining a solution which leverages the power of NHibernate. In addition to highlighting performance and other issues, it is a great aid when learning about NHibernate, or when familiarising oneself with an inherited solution. Overall, it’s the next best thing to having Ayende sat by your side lending a guiding hand.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Database Design – Still Important In These ORM-Obsessed Days</title>
+      <link>https://blog.iannelson.uk/database-design-still-important-in-these-orm-obsessed-days/</link>
+      <pubDate>Tue, 29 Jul 2008 16:07:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/database-design-still-important-in-these-orm-obsessed-days/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.tobinharris.com/2008/7/28/is-or-m-is-encouraging-db-normalization&#34;&gt;Tobin blogged earlier this week&lt;/a&gt; about how quality ORM tools like NHibernate make it easier to code to normalized schemas.&lt;/p&gt;
+&lt;p&gt;Here’s a corollary for you: The use of ORM tools doesn’t absolve the need to maintain good database design principles, and even NHibernate won’t save you from your own stupidity.&lt;/p&gt;
+&lt;p&gt;Following an application upgrade release last night, I’ve spent a disproportionate amount of today trying to debug the following exception, which appeared to originate in an area of the codebase which I personally had heavily modified:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><a href="http://www.tobinharris.com/2008/7/28/is-or-m-is-encouraging-db-normalization">Tobin blogged earlier this week</a> about how quality ORM tools like NHibernate make it easier to code to normalized schemas.</p>
+<p>Here’s a corollary for you: The use of ORM tools doesn’t absolve the need to maintain good database design principles, and even NHibernate won’t save you from your own stupidity.</p>
+<p>Following an application upgrade release last night, I’ve spent a disproportionate amount of today trying to debug the following exception, which appeared to originate in an area of the codebase which I personally had heavily modified:</p>
+<pre tabindex="0"><code>NHibernate.HibernateException: More than one row with the given identifier was found: 42806, for class: Cmec.Core.Domain.Customer  
+at NHibernate.Loader.Entity.AbstractEntityLoader.Load(ISessionImplementor session, Object id, Object optionalObject, Object optionalId)  
+at NHibernate.Loader.Entity.AbstractEntityLoader.Load(Object id, Object optionalObject, ISessionImplementor session)  
+at NHibernate.Persister.Entity.AbstractEntityPersister.Load(Object id, Object optionalObject, LockMode lockMode, ISessionImplementor session)  
+at NHibernate.Impl.SessionImpl.DoLoad(Type theClass, Object id, Object optionalObject, LockMode lockMode, Boolean checkDeleted)  
+at NHibernate.Impl.SessionImpl.DoLoadByClass(Type clazz, Object id, Boolean checkDeleted, Boolean allowProxyCreation)  
+at NHibernate.Impl.SessionImpl.InternalLoad(Type clazz, Object id, Boolean eager, Boolean isNullable)  
+at NHibernate.Type.EntityType.ResolveIdentifier(Object id, ISessionImplementor session, Object owner)  
+at NHibernate.Impl.SessionImpl.InitializeEntity(Object obj)  
+at NHibernate.Loader.Loader.InitializeEntitiesAndCollections(IList hydratedObjects, Object resultSetId, ISessionImplementor session)  
+at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)  
+at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)  
+at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)  
+at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)  
+at NHibernate.Hql.Classic.QueryTranslator.List(ISessionImplementor session, QueryParameters queryParameters)  
+at NHibernate.Impl.SessionImpl.Find(String query, QueryParameters parameters, IList results)  
+at NHibernate.Impl.SessionImpl.Find\[T\](String query, QueryParameters parameters)  
+at NHibernate.Impl.QueryImpl.List\[T\]()  
+at Ventura.NHibernate.Data.DaoBase\`2.GetByHql(String hql, String[] _params)  
+at Cmec.Data.CorrespondenceRequestDao.GetCorrespondenceExtractRequests()  
+at Cmec.Core.Tasks.CorrespondenceExtractCreationTask.TaskProcess()  
+at Cmec.Core.Tasks.BaseTask.PerformTask()  
+at CmecService.CmecService.\_timer\_Tick(Object state)
+</code></pre><p>Got that?  NHibernate is telling me that it has found two customers on the database with the same surrogate primary key, which is obviously not the case.</p>
+<p>Trusting NHibernate as I do, and not generally being the kind of coder who assumes that the technology is to blame, I then spent literally hours digging through my amended code, trying to figure out what nonsense I could be trying to pull that was confusing NHibernate so, but found nothing.</p>
+<p>Too late in the day, I dusted down Occam’s trusty razor, and realised that whilst the main Customers table was correctly enforcing primary keys, I hadn’t checked the various child tables. Lo and behold, less than a minute later I found the following reference data in an innocuous looking table of referrers:</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/pkviolation.png"></p>
+<p>Removing the duplicated entry for “Other”, which was incorrectly using the same ID as “Website”, solved my problems instantly. And needless to say, I’ve made a note to go add a primary key to that table at the earliest opportunity.</p>
+<p>The moral of this cautionary tale – using an ORM makes your life as an application developer easier, makes it faster to develop a DAL, and (to a large extent) decouples your application from your choice of database. What it doesn’t do is allow you to forget the tenets of good database design, in fact as Tobin points out it actually serves to encourage them.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>On the Joys of Object-Relational Mapping</title>
+      <link>https://blog.iannelson.uk/on-the-joys-of-object-relational-mapping/</link>
+      <pubDate>Wed, 09 Apr 2008 19:04:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/on-the-joys-of-object-relational-mapping/</guid>
+      <description>&lt;p&gt;My name is Ian Nelson. I’m a recovering SQL addict. It’s been four weeks since my last stored procedure.&lt;/p&gt;
+&lt;p&gt;One of my reasons for &lt;a href=&#34;https://blog.iannelson.uk/going-for-it/&#34;&gt;leaving my cosy permanent job and entering the scary cut-throat world of freelancing&lt;/a&gt; was to get a broader exposure to different tools, technologies and methodologies, while remaining with my feet planted firmly in the .NET universe. So, when I got offered a position in a team who were using &lt;a href=&#34;http://subversion.tigris.org/&#34;&gt;Subversion&lt;/a&gt;, &lt;a href=&#34;http://www.castleproject.org/MonoRail/&#34;&gt;Monorail&lt;/a&gt;, &lt;a href=&#34;http://extjs.com/&#34;&gt;Ext.JS&lt;/a&gt;, &lt;a href=&#34;http://www.nunit.org&#34;&gt;NUnit&lt;/a&gt;, &lt;a href=&#34;http://www.oracle.com/database/index.html&#34;&gt;Oracle&lt;/a&gt; and &lt;a href=&#34;http://www.nhibernate.org&#34;&gt;NHibernate&lt;/a&gt;, I jumped at the opportunity.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>My name is Ian Nelson. I’m a recovering SQL addict. It’s been four weeks since my last stored procedure.</p>
+<p>One of my reasons for <a href="https://blog.iannelson.uk/going-for-it/">leaving my cosy permanent job and entering the scary cut-throat world of freelancing</a> was to get a broader exposure to different tools, technologies and methodologies, while remaining with my feet planted firmly in the .NET universe. So, when I got offered a position in a team who were using <a href="http://subversion.tigris.org/">Subversion</a>, <a href="http://www.castleproject.org/MonoRail/">Monorail</a>, <a href="http://extjs.com/">Ext.JS</a>, <a href="http://www.nunit.org">NUnit</a>, <a href="http://www.oracle.com/database/index.html">Oracle</a> and <a href="http://www.nhibernate.org">NHibernate</a>, I jumped at the opportunity.</p>
+<p>Of those technologies, it’s definitely NHibernate which has most dramatically changed my perspective on how enterprise solutions can (and should) be developed. For many years now, I’ve considered deep database (particularly SQL Server) skills to be one of my core proficiencies, and have merrily spent (wasted?) countless man hours writing dreary &ldquo;plumbing&rdquo; code, by the way of CRUD stored procedures and repetitive Data Access Layers in order to persist my CLR entities to the RDBMS.</p>
+<p>Well, no longer, those days are over. I’ve seen the light and embraced the wonders of NHibernate. For those who are unfamiliar with it, NHibernate is an <a href="http://en.wikipedia.org/wiki/Object-relational_mapping">Object-Relational Mapper</a>, and is a port of a Java utility, Hibernate. The premise is beautifully simple – by decorating your objects with attributes or, more neatly, by creating XML mapping files, you define the mappings between your .NET domain objects and their persisted representation on the database. Then NHibernate handles all the grunt work of saving your objects to and from the database.</p>
+<p>Digging deeper, I discovered that NHibernate has been developed in such a way as to make it easy to embrace best practices in database access techniques. Several years ago I read through <a href="http://www.martinfowler.com">Fowler’s</a> seminal <em><a href="http://www.amazon.co.uk/gp/product/0321127420?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=6738&amp;creativeASIN=0321127420">Patterns of Enterprise Application Architecture</a></em>, and wondered how I would ever find time to develop solutions which made use of the cunning O-R behavioural patterns he described – <a href="http://martinfowler.com/eaaCatalog/lazyLoad.html">Lazy Load</a>, <a href="http://martinfowler.com/eaaCatalog/unitOfWork.html">Unit of Work</a>, <a href="http://martinfowler.com/eaaCatalog/identityMap.html">Identity Map</a>, <a href="http://martinfowler.com/eaaCatalog/queryObject.html">Query Object</a>, <a href="http://martinfowler.com/eaaCatalog/repository.html">Repository</a>, etc. I utterly failed to pick up on this paragraph on page 171:</p>
+<blockquote>
+<p><em>&ldquo;Remember that you don’t have to build a full-featured database-mapping layer. It’s a complicated beast to build, and there are products available that do this for you.&rdquo;</em></p></blockquote>
+<p>Products such as, yes, NHibernate. Or <a href="http://www.ormapper.net/">Wilson ORM</a>, or more recently, the <a href="http://msdn2.microsoft.com/en-us/library/bb425822.aspx">LINQ to SQL</a> offering introduced by Microsoft in the .NET 3.5 Framework.</p>
+<p>I’m glad that I have a solid grounding in SQL, and I still believe that other skills related to RDBMSs are useful in the enterprise (i.e. database design, normalisation and index tuning), but I’m pleased that I can now bring myself to relax, stop worrying, and leave an ORM to take care of generating the repetitive CRUD statements required for persisting my domain objects.</p>
+<p>So, what have I been doing with all this &ldquo;free time&rdquo; that I now have available to me during a hard day at the code face? Well, I’ve been trying to create systems which are more robust and well-designed by making a concerted effort to embrace Test-Driven Development (for real, this time!) But that’s a good topic for <a href="https://blog.iannelson.uk/12-reasons-why-i-love-unit-tests/">a future post</a>…</p>
+<p>A few useful NHibernate / ORM Resources:</p>
+<ul>
+<li><a href="http://www.nhibernate.org">NHibernate</a></li>
+<li><a href="http://www.ormapper.net">Wilson ORM</a></li>
+<li><a href="http://msdn2.microsoft.com/en-us/library/bb425822.aspx">LINQ to SQL</a></li>
+<li><a href="http://www.codeproject.com/KB/architecture/NHibernateBestPractices.aspx">NHibernate Best Practices with ASP.NET</a> – article by Billy McCafferty</li>
+<li>My del.icio.us links tagged with <a href="http://del.icio.us/ianfnelson/nhibernate">NHibernate</a> / <a href="http://del.icio.us/ianfnelson/orm">ORM</a> / <a href="http://del.icio.us/ianfnelson/linq">LINQ</a></li>
+<li><a href="http://www.dotnetrocks.com/default.aspx?showNum=240">Dot Net Rocks – the ORM Smackdown Show</a></li>
+<li><a href="http://www.amazon.co.uk/gp/product/1932394923?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=6738&amp;creativeASIN=1932394923">NHibernate In Action</a></li>
+<li><a href="http://www.amazon.co.uk/gp/product/1933988169?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=6738&amp;creativeASIN=1933988169">LINQ In Action</a></li>
+<li><a href="http://www.ayende.com/">Ayende’s Blog</a></li>
+<li><a href="http://blogs.hibernatingrhinos.com/nhibernate/Default.aspx">The NHibernate FAQ</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Object-relational_mapping">Wikipedia – Object-Relational Mapping</a></li>
+</ul>
+]]></content:encoded>
+    </item>
     <item>
       <title>NHibernate</title>
       <link>https://blog.iannelson.uk/nhibernate/</link>

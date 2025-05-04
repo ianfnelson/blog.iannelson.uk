@@ -122,10 +122,18 @@
       <link>https://blog.iannelson.uk/new-office-photos/</link>
       <pubDate>Fri, 22 May 2009 07:05:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/new-office-photos/</guid>
-      <description>&lt;p&gt;I promised you some photos of my new office a while back, didn’t I? OK, here you go…&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;The Desk&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;The Computer&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;One of These Books Is Not Like The Others&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Bits n Bobs&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;In Gnasher We Trust&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>I promised you some photos of my new office a while back, didn’t I? OK, here you go…<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted -->The Desk<!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->The Computer<!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->One of These Books Is Not Like The Others<!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->Bits n Bobs<!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->In Gnasher We Trust<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+      <description>&lt;p&gt;I promised you some photos of my new office a while back, didn’t I? OK, here you go…&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;The Desk&#34; loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/3542421968_6e26feee92_b.jpg&#34;&gt;
+&lt;img alt=&#34;The Computer&#34; loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/3542422352_90c1bfc575_b.jpg&#34;&gt;
+&lt;img alt=&#34;One of These Books Is Not Like The Others&#34; loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/3541613985_66cced4663_b.jpg&#34;&gt;
+&lt;img alt=&#34;Bits n Bobs&#34; loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/3541614871_41633d1a8a_b.jpg&#34;&gt;
+&lt;img alt=&#34;In Gnasher We Trust&#34; loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/3542422842_a7532a6094_b.jpg&#34;&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I promised you some photos of my new office a while back, didn’t I? OK, here you go…</p>
+<p><img alt="The Desk" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/3542421968_6e26feee92_b.jpg">
+<img alt="The Computer" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/3542422352_90c1bfc575_b.jpg">
+<img alt="One of These Books Is Not Like The Others" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/3541613985_66cced4663_b.jpg">
+<img alt="Bits n Bobs" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/3541614871_41633d1a8a_b.jpg">
+<img alt="In Gnasher We Trust" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/3542422842_a7532a6094_b.jpg"></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -135,13 +143,16 @@
       <guid>https://blog.iannelson.uk/zero-interest-bug-arrives/</guid>
       <description>&lt;p&gt;So, base rates are now down to 1.0%, and the &lt;a href=&#34;https://blog.iannelson.uk/zero-interest-bug/&#34;&gt;Zero Interest Bug&lt;/a&gt; is not just conjecture.&lt;/p&gt;
 &lt;p&gt;From &lt;a href=&#34;http://www.timesonline.co.uk/tol/money/property_and_mortgages/article5668432.ece&#34;&gt;The Times&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;“About 1,500 customers who took out a tracker mortgages pegged at 1.01 points below the base rate with Cheltenham &amp;amp; Gloucester (C&amp;amp;G), owned by Lloyds Banking Group, will be paying no interest at all on their home loans from next month.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;It is the first time that a mortgage lender has been forced to reduce the interest on their home loans to zero.&lt;/em&gt;&lt;/p&gt;</description>
+&lt;blockquote&gt;
+&lt;p&gt;“About 1,500 customers who took out a tracker mortgages pegged at 1.01 points below the base rate with Cheltenham &amp;amp; Gloucester (C&amp;amp;G), owned by Lloyds Banking Group, will be paying no interest at all on their home loans from next month.&lt;/p&gt;
+&lt;p&gt;It is the first time that a mortgage lender has been forced to reduce the interest on their home loans to zero.
+Lloyds Banking Group, now 43 per cent owned by the taxpayer and also the owner of C&amp;amp;G, said that there was a zero floor to the deal and that &lt;strong&gt;because its computer systems could not cope with zero&lt;/strong&gt;, it would be temporarily charging 0.001 per cent, or 8p a month for a borrower with a £100,000 mortgage. However, that money will be refunded.”&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>So, base rates are now down to 1.0%, and the <a href="https://blog.iannelson.uk/zero-interest-bug/">Zero Interest Bug</a> is not just conjecture.</p>
 <p>From <a href="http://www.timesonline.co.uk/tol/money/property_and_mortgages/article5668432.ece">The Times</a>:</p>
-<p><em>“About 1,500 customers who took out a tracker mortgages pegged at 1.01 points below the base rate with Cheltenham &amp; Gloucester (C&amp;G), owned by Lloyds Banking Group, will be paying no interest at all on their home loans from next month.</em></p>
-<p><em>It is the first time that a mortgage lender has been forced to reduce the interest on their home loans to zero.</em></p>
-<p><em>Lloyds Banking Group, now 43 per cent owned by the taxpayer and also the owner of C&amp;G, said that there was a zero floor to the deal and that <strong>because its computer systems could not cope with zero</strong>, it would be temporarily charging 0.001 per cent, or 8p a month for a borrower with a £100,000 mortgage. However, that money will be refunded.”</em></p>
+<blockquote>
+<p>“About 1,500 customers who took out a tracker mortgages pegged at 1.01 points below the base rate with Cheltenham &amp; Gloucester (C&amp;G), owned by Lloyds Banking Group, will be paying no interest at all on their home loans from next month.</p>
+<p>It is the first time that a mortgage lender has been forced to reduce the interest on their home loans to zero.
+Lloyds Banking Group, now 43 per cent owned by the taxpayer and also the owner of C&amp;G, said that there was a zero floor to the deal and that <strong>because its computer systems could not cope with zero</strong>, it would be temporarily charging 0.001 per cent, or 8p a month for a borrower with a £100,000 mortgage. However, that money will be refunded.”</p></blockquote>
 <p>I bet those jammy 1,500 people are feeling quite smug today. Needless to say, I’m still kicking myself very hard for fixing my mortgage last summer… sob!</p>
 ]]></content:encoded>
     </item>
@@ -151,10 +162,9 @@
       <pubDate>Sat, 09 Aug 2008 21:08:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/whats-in-your-wallet/</guid>
       <description>&lt;p&gt;My good buddy &lt;a href=&#34;http://www.johnsadventures.com&#34;&gt;John&lt;/a&gt; just published &lt;a href=&#34;http://www.johnsadventures.com/archives/2008/08/the-contents-of-my-wallet.html&#34;&gt;a typically navel-gazing post detailing the contents of his wallet&lt;/a&gt;, and went on to invite readers to divulge details of their own &lt;em&gt;billfolds&lt;/em&gt; in what I can only presume is some cunning and evil plan for mass identity-theft 🙂&lt;/p&gt;
-&lt;p&gt;Well, as I said in the comments to John’s post, I was surprised at the quantity of sentimental knick-knacks and memorabilia he has in there, compared to the rather prosaic and functional contents of my own wallet.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+&lt;p&gt;Well, as I said in the comments to John’s post, I was surprised at the quantity of sentimental knick-knacks and memorabilia he has in there, compared to the rather prosaic and functional contents of my own wallet.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>My good buddy <a href="http://www.johnsadventures.com">John</a> just published <a href="http://www.johnsadventures.com/archives/2008/08/the-contents-of-my-wallet.html">a typically navel-gazing post detailing the contents of his wallet</a>, and went on to invite readers to divulge details of their own <em>billfolds</em> in what I can only presume is some cunning and evil plan for mass identity-theft 🙂</p>
-<p>Well, as I said in the comments to John’s post, I was surprised at the quantity of sentimental knick-knacks and memorabilia he has in there, compared to the rather prosaic and functional contents of my own wallet.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>Well, as I said in the comments to John’s post, I was surprised at the quantity of sentimental knick-knacks and memorabilia he has in there, compared to the rather prosaic and functional contents of my own wallet.</p>
 <p>The wallet itself is a simple black leather one from <a href="http://www.burberry.com">Burberry</a>, and tonight contains the following:</p>
 <ul>
 <li>£90. In case you were thinking of mugging me, you should know that I don’t usually carry nearly so much.</li>
@@ -182,21 +192,28 @@
       <guid>https://blog.iannelson.uk/edge-cases/</guid>
       <description>&lt;p&gt;Ten years of professional software development have given me a healthy awareness of edge cases – I’m always trying to code defensively, validate input, catch exceptions, use assertions, and of course pick holes in sloppy specifications (“ah, but what if…”).&lt;/p&gt;
 &lt;p&gt;I must learn that these skills should not always be applied to my personal life though, as exemplified by a conversation with The Wife yesterday:&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;em&gt;Jocelyn (excitedly): “We’re going to have a ‘Secret Santa’ for all the babies in our antenatal group!”&lt;/em&gt;&lt;/p&gt;</description>
+&lt;blockquote&gt;
+&lt;p&gt;_Jocelyn (excitedly): “We’re going to have a &amp;lsquo;Secret Santa&amp;rsquo; for all the babies in our antenatal group!”&lt;br&gt;
+Me: “Huh. How does that work then?”&lt;br&gt;
+Jocelyn: “Well, we each buy a gift for under £10, put them into a bag, and each pick one.”&lt;br&gt;
+Me: “What happens if you pick out the gift you bought?”&lt;br&gt;
+Jocelyn (less excitedly): “Well, you put it back and pick another.”&lt;br&gt;
+Me: “So, you have an even number of babies in the group?”&lt;br&gt;
+Jocelyn (testily): “There are seven.”&lt;br&gt;
+Me: “Then what happens if the last person picks their own gift?”&lt;br&gt;
+Jocelyn (deflated): “Ian…!  OK, so we won’t open any gifts until they’re all selected – happy now?”&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Ten years of professional software development have given me a healthy awareness of edge cases – I’m always trying to code defensively, validate input, catch exceptions, use assertions, and of course pick holes in sloppy specifications (“ah, but what if…”).</p>
 <p>I must learn that these skills should not always be applied to my personal life though, as exemplified by a conversation with The Wife yesterday:</p>
-<hr>
-<p><em>Jocelyn (excitedly): “We’re going to have a ‘Secret Santa’ for all the babies in our antenatal group!”</em></p>
-<p><em>Me: “Huh. How does that work then?”</em></p>
-<p><em>Jocelyn: “Well, we each buy a gift for under £10, put them into a bag, and each pick one.”</em></p>
-<p><em>Me: “What happens if you pick out the gift you bought?”</em></p>
-<p><em>Jocelyn (less excitedly): “Well, you put it back and pick another.”</em></p>
-<p><em>Me: “So, you have an even number of babies in the group?”</em></p>
-<p><em>Jocelyn (testily): “There are seven.”</em></p>
-<p><em>Me: “Then what happens if the last person picks their own gift?”</em></p>
-<p><em>Jocelyn (deflated): “Ian…!  OK, so we won’t open any gifts until they’re all selected – happy now?”</em></p>
-<hr>
+<blockquote>
+<p>_Jocelyn (excitedly): “We’re going to have a &lsquo;Secret Santa&rsquo; for all the babies in our antenatal group!”<br>
+Me: “Huh. How does that work then?”<br>
+Jocelyn: “Well, we each buy a gift for under £10, put them into a bag, and each pick one.”<br>
+Me: “What happens if you pick out the gift you bought?”<br>
+Jocelyn (less excitedly): “Well, you put it back and pick another.”<br>
+Me: “So, you have an even number of babies in the group?”<br>
+Jocelyn (testily): “There are seven.”<br>
+Me: “Then what happens if the last person picks their own gift?”<br>
+Jocelyn (deflated): “Ian…!  OK, so we won’t open any gifts until they’re all selected – happy now?”</p></blockquote>
 <p>I was. In my mind this is like recursively calling an algorithm if a post-check fails. It’s an unusual approach, but it should work OK here.</p>
 ]]></content:encoded>
     </item>
@@ -207,10 +224,10 @@
       <guid>https://blog.iannelson.uk/postcode-validation/</guid>
       <description>&lt;p&gt;Wikipedia cracks me up sometimes. I’m sat here at my desk, trying to knock together some C# code to quickly validate an entered string as being a UK postcode. Naturally I turned to this &lt;a href=&#34;http://en.wikipedia.org/wiki/UK_postcodes&#34;&gt;Wikipedia article&lt;/a&gt; for assistance, where I find this quip:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;&amp;ldquo;Automatic validation of postcodes on the basis of pattern feasibility is therefore almost impossible to design, and the system contains no self-validating feature such as a check digit. &lt;strong&gt;Completely accurate validation is only possible by attempting to deliver mail to the address, and verifying with the recipient.&lt;/strong&gt;&amp;rdquo;&lt;/em&gt;&lt;/p&gt;</description>
+&lt;p&gt;&amp;ldquo;Automatic validation of postcodes on the basis of pattern feasibility is therefore almost impossible to design, and the system contains no self-validating feature such as a check digit. &lt;strong&gt;Completely accurate validation is only possible by attempting to deliver mail to the address, and verifying with the recipient.&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Wikipedia cracks me up sometimes. I’m sat here at my desk, trying to knock together some C# code to quickly validate an entered string as being a UK postcode. Naturally I turned to this <a href="http://en.wikipedia.org/wiki/UK_postcodes">Wikipedia article</a> for assistance, where I find this quip:</p>
 <blockquote>
-<p><em>&ldquo;Automatic validation of postcodes on the basis of pattern feasibility is therefore almost impossible to design, and the system contains no self-validating feature such as a check digit. <strong>Completely accurate validation is only possible by attempting to deliver mail to the address, and verifying with the recipient.</strong>&rdquo;</em></p></blockquote>
+<p>&ldquo;Automatic validation of postcodes on the basis of pattern feasibility is therefore almost impossible to design, and the system contains no self-validating feature such as a check digit. <strong>Completely accurate validation is only possible by attempting to deliver mail to the address, and verifying with the recipient.</strong>&rdquo;</p></blockquote>
 <p>I think that’s what is known as a <a href="http://en.wikipedia.org/wiki/Long_running_transaction">long-running transaction</a>!!</p>
 <p><strong>Update</strong> – the C# code that I wrote to handle this issue is available <a href="https://blog.iannelson.uk/a-c-postcode-struct-with-parser/">here</a>.</p>
 ]]></content:encoded>

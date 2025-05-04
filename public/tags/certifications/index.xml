@@ -9,6 +9,38 @@
     <lastBuildDate>Sun, 04 May 2025 17:45:45 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/tags/certifications/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ian Nelson, MCPD</title>
+      <link>https://blog.iannelson.uk/ian-nelson-mcpd/</link>
+      <pubDate>Wed, 27 May 2009 11:05:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/ian-nelson-mcpd/</guid>
+      <description>&lt;p&gt;Well, for the record, I passed MS exam 70-553 yesterday on my second attempt, which makes me a Microsoft Certified Professional Developer – Enterprise Application Developer:&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/MCPD_rgb__506_3.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;And I also acquired a few new MCTS certifications as a happy by-product:&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/MCTS_rgb__513_512_514_507_527_3.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;My full transcript, including “legacy” certifications, is &lt;a href=&#34;https://files.iannelson.uk/MS_Learning_Transcript.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Phew! I think that the time has now come for me to take a bit of a break from the certification circus. They are a nice-to-have, but the opportunity cost is too high – there are many other ways in which I can spend what little spare time I have to better develop my skills.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Well, for the record, I passed MS exam 70-553 yesterday on my second attempt, which makes me a Microsoft Certified Professional Developer – Enterprise Application Developer:</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/MCPD_rgb__506_3.png"></p>
+<p>And I also acquired a few new MCTS certifications as a happy by-product:</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/MCTS_rgb__513_512_514_507_527_3.png"></p>
+<p>My full transcript, including “legacy” certifications, is <a href="https://files.iannelson.uk/MS_Learning_Transcript.pdf">here</a>.</p>
+<p>Phew! I think that the time has now come for me to take a bit of a break from the certification circus. They are a nice-to-have, but the opportunity cost is too high – there are many other ways in which I can spend what little spare time I have to better develop my skills.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Failed MCP Exam 70-553 :(</title>
+      <link>https://blog.iannelson.uk/failed-mcp-exam-70-553/</link>
+      <pubDate>Sun, 12 Apr 2009 13:04:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/failed-mcp-exam-70-553/</guid>
+      <description>&lt;p&gt;My current primary client has an annoying habit of closing for random days and half-days, including last Thursday afternoon. I decided to try to make the most of this time off, by taking &lt;a href=&#34;http://www.microsoft.com/learning/en/us/exams/70-553.mspx&#34;&gt;Microsoft exam 70-553&lt;/a&gt;, which has the snappy title “&lt;em&gt;UPGRADE: MCSD Microsoft .NET Skills to MCPD Enterprise Application Developer by Using the Microsoft .NET Framework: Part 1&lt;/em&gt;”. I’ve already passed the second part of the upgrade process (70-554), so passing this exam would give me no fewer than four new certifications, including the prestigious MCPD Enterprise Application Developer.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>My current primary client has an annoying habit of closing for random days and half-days, including last Thursday afternoon. I decided to try to make the most of this time off, by taking <a href="http://www.microsoft.com/learning/en/us/exams/70-553.mspx">Microsoft exam 70-553</a>, which has the snappy title “<em>UPGRADE: MCSD Microsoft .NET Skills to MCPD Enterprise Application Developer by Using the Microsoft .NET Framework: Part 1</em>”. I’ve already passed the second part of the upgrade process (70-554), so passing this exam would give me no fewer than four new certifications, including the prestigious MCPD Enterprise Application Developer.</p>
+<p>I was not as prepared as I should have been before facing such an exam, but it is currently available at a 40% discount, and having the afternoon to spare I thought it was worth a shot.</p>
+<p>Well, unfortunately I failed by a narrow margin. The exam is in three sections, covering the material from three other exams which is new to .NET 2.0. I passed both the <a href="http://www.microsoft.com/learning/en/us/exams/70-536.aspx">Application Development Foundation</a> and <a href="http://www.microsoft.com/learning/en/us/exams/70-528.mspx">Web-Based Client Development</a>, but fell short of passing the <a href="http://www.microsoft.com/learning/en/us/exams/70-526.mspx">Windows-Based Client Development</a> section by the equivalent of one question! That’s probably a fair result, as I’ve spent much less time working with Winforms than Webforms.</p>
+<p>So, back to the books I go, and await another suitable opportunity to retake the exam that doesn’t involve losing out on half a day’s revenue. Areas on which I plan to bone up include the TableLayoutPanel, ContextMenuStrip, PropertyGrid, ErrorProvider, BackgroundWorker, and ClickOnce deployment technologies.</p>
+<p>On the positive side, failing the exam has at least helped me to discover where there are gaps in my .NET knowledge, and enhanced my respect for the MS certifications in general – you can’t just pitch up on a whim and expect to pass these things, you really do have to know the syllabus material.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Ian Nelson, MCSD.Net</title>
       <link>https://blog.iannelson.uk/ian-nelson-mcsd-net/</link>
       <pubDate>Sun, 11 Feb 2007 16:02:00 +0000</pubDate>

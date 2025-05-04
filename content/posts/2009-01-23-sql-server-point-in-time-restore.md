@@ -1,11 +1,11 @@
 ---
 title: SQL Server Point-in-Time Restore
-
 date: 2009-01-23T14:01:00+00:00
 url: /sql-server-point-in-time-restore/
-
 categories:
   - Tech
+tags:
+  - SQLServer
 
 ---
 

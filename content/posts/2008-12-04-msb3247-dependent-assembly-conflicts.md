@@ -6,6 +6,8 @@ url: /msb3247-dependent-assembly-conflicts/
 
 categories:
   - Tech
+tags:
+  - .NET
 
 ---
 Earlier today a dev came over to ask me about a compiler warning he was getting when building a .NET solution:

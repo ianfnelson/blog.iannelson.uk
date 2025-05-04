@@ -4,6 +4,8 @@ date: 2009-01-23T12:01:00+00:00
 url: /on-64-bit-tfs-virtualization-and-conchango-scrum/
 categories:
   - Tech
+tags:
+  - TFS
 
 ---
 

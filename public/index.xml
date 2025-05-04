@@ -2485,15 +2485,15 @@ und on Stack Overflow revealed that I was not the only person currently banging 
       <guid>https://blog.iannelson.uk/agile-yorkshire-the-pub-gojko-adzic-10th-june-2009/</guid>
       <description>&lt;p&gt;If you’re in the Leeds area next Wednesday, why not come along to this Agile Yorkshire session?&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;h3 id=&#34;10th-june--gojko-adzic-slim-the-future-of-fitnesse&#34;&gt;10th June – Gojko Adzic: Slim, The Future Of FitNesse&lt;/h3&gt;
-&lt;h4 id=&#34;details&#34;&gt;Details&lt;/h4&gt;
+&lt;h2 id=&#34;10th-june--gojko-adzic-slim-the-future-of-fitnesse&#34;&gt;10th June – Gojko Adzic: Slim, The Future Of FitNesse&lt;/h2&gt;
+&lt;h3 id=&#34;details&#34;&gt;Details&lt;/h3&gt;
 &lt;p&gt;This talk will introduce Slim, the most important upgrade to &lt;a href=&#34;http://fitnesse.org/&#34;&gt;FitNesse&lt;/a&gt; in years. Slim is the new test runner which promises to bring platform interoperability, easier integration, a much simpler programming model and lots of small helpers that will allow us to write and maintain executable specifications and acceptance tests easier. This is a session for .NET and Java developers. Some prior exposure to FitNesse and FIT would be beneficial, but not required.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>If you’re in the Leeds area next Wednesday, why not come along to this Agile Yorkshire session?</p>
 <blockquote>
-<h3 id="10th-june--gojko-adzic-slim-the-future-of-fitnesse">10th June – Gojko Adzic: Slim, The Future Of FitNesse</h3>
-<h4 id="details">Details</h4>
+<h2 id="10th-june--gojko-adzic-slim-the-future-of-fitnesse">10th June – Gojko Adzic: Slim, The Future Of FitNesse</h2>
+<h3 id="details">Details</h3>
 <p>This talk will introduce Slim, the most important upgrade to <a href="http://fitnesse.org/">FitNesse</a> in years. Slim is the new test runner which promises to bring platform interoperability, easier integration, a much simpler programming model and lots of small helpers that will allow us to write and maintain executable specifications and acceptance tests easier. This is a session for .NET and Java developers. Some prior exposure to FitNesse and FIT would be beneficial, but not required.</p>
-<h4 id="speaker">Speaker</h4>
+<h3 id="speaker">Speaker</h3>
 <p>Gojko Adzic is a software craftsman with a passion for new technologies, programming and writing. He runs <a href="http://neuri.co.uk/">Neuri Ltd</a>, a UK-based consultancy that helps companies build better software by introducing agile practices and tools and improving communication between software teams, stakeholders and clients. See <a href="http://gojko.net/about/">http://gojko.net/about/</a> for more details.</p>
 <p>Venue: Victoria Hotel, Central Leeds</p>
 <p>Date/Time: Wednesday, 10th June, <strong>6:30pm sharp</strong>.</p>
@@ -2505,15 +2505,16 @@ und on Stack Overflow revealed that I was not the only person currently banging 
       <link>https://blog.iannelson.uk/ian-nelson-mcpd/</link>
       <pubDate>Wed, 27 May 2009 11:05:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/ian-nelson-mcpd/</guid>
-      <description>&lt;p&gt;Well, for the record, I passed MS exam 70-553 yesterday on my second attempt, which makes me a Microsoft Certified Professional Developer – Enterprise Application Developer:&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;And I also acquired a few new MCTS certifications as a happy by-product:&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;My full transcript, including “legacy” certifications, is &lt;a href=&#34;https://files.iannelson.uk/MS_Learning_Transcript.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Well, for the record, I passed MS exam 70-553 yesterday on my second attempt, which makes me a Microsoft Certified Professional Developer – Enterprise Application Developer:<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<p>And I also acquired a few new MCTS certifications as a happy by-product:<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+      <description>&lt;p&gt;Well, for the record, I passed MS exam 70-553 yesterday on my second attempt, which makes me a Microsoft Certified Professional Developer – Enterprise Application Developer:&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/MCPD_rgb__506_3.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;And I also acquired a few new MCTS certifications as a happy by-product:&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/MCTS_rgb__513_512_514_507_527_3.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;My full transcript, including “legacy” certifications, is &lt;a href=&#34;https://files.iannelson.uk/MS_Learning_Transcript.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Phew! I think that the time has now come for me to take a bit of a break from the certification circus. They are a nice-to-have, but the opportunity cost is too high – there are many other ways in which I can spend what little spare time I have to better develop my skills.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Well, for the record, I passed MS exam 70-553 yesterday on my second attempt, which makes me a Microsoft Certified Professional Developer – Enterprise Application Developer:</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/MCPD_rgb__506_3.png"></p>
+<p>And I also acquired a few new MCTS certifications as a happy by-product:</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/MCTS_rgb__513_512_514_507_527_3.png"></p>
 <p>My full transcript, including “legacy” certifications, is <a href="https://files.iannelson.uk/MS_Learning_Transcript.pdf">here</a>.</p>
 <p>Phew! I think that the time has now come for me to take a bit of a break from the certification circus. They are a nice-to-have, but the opportunity cost is too high – there are many other ways in which I can spend what little spare time I have to better develop my skills.</p>
 ]]></content:encoded>
@@ -2523,10 +2524,18 @@ und on Stack Overflow revealed that I was not the only person currently banging 
       <link>https://blog.iannelson.uk/new-office-photos/</link>
       <pubDate>Fri, 22 May 2009 07:05:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/new-office-photos/</guid>
-      <description>&lt;p&gt;I promised you some photos of my new office a while back, didn’t I? OK, here you go…&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;The Desk&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;The Computer&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;One of These Books Is Not Like The Others&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Bits n Bobs&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;In Gnasher We Trust&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>I promised you some photos of my new office a while back, didn’t I? OK, here you go…<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted -->The Desk<!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->The Computer<!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->One of These Books Is Not Like The Others<!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->Bits n Bobs<!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->In Gnasher We Trust<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+      <description>&lt;p&gt;I promised you some photos of my new office a while back, didn’t I? OK, here you go…&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;The Desk&#34; loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/3542421968_6e26feee92_b.jpg&#34;&gt;
+&lt;img alt=&#34;The Computer&#34; loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/3542422352_90c1bfc575_b.jpg&#34;&gt;
+&lt;img alt=&#34;One of These Books Is Not Like The Others&#34; loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/3541613985_66cced4663_b.jpg&#34;&gt;
+&lt;img alt=&#34;Bits n Bobs&#34; loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/3541614871_41633d1a8a_b.jpg&#34;&gt;
+&lt;img alt=&#34;In Gnasher We Trust&#34; loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/3542422842_a7532a6094_b.jpg&#34;&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I promised you some photos of my new office a while back, didn’t I? OK, here you go…</p>
+<p><img alt="The Desk" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/3542421968_6e26feee92_b.jpg">
+<img alt="The Computer" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/3542422352_90c1bfc575_b.jpg">
+<img alt="One of These Books Is Not Like The Others" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/3541613985_66cced4663_b.jpg">
+<img alt="Bits n Bobs" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/3541614871_41633d1a8a_b.jpg">
+<img alt="In Gnasher We Trust" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/3542422842_a7532a6094_b.jpg"></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -2540,25 +2549,26 @@ und on Stack Overflow revealed that I was not the only person currently banging 
 <p>In much the same way that we can use <a href="http://msdn.microsoft.com/en-us/library/ms181091.aspx">SQL Server Profiler</a> to monitor database activity, and <a href="http://www.red-gate.com/products/ants_performance_profiler/">ANTS Profiler</a> to monitor the performance and memory usage of .NET applications, NHProf profiles the activity of the data access layer (<a href="http://nhforge.org">NHibernate</a>), and even goes as far as providing helpful hints for potential improvements.</p>
 <p>NHibernate is powerful object relational mapper, but has a (perhaps deserved) reputation for having a steep learning curve. One of its major benefits is that it abstracts away much of the drudgery of writing data access code from the developer, but as an unfortunate side effect of this it can make it easy to create inefficient data access layers.</p>
 <p>NHProf aims to reduce this risk by providing:</p>
-<p>“Cognitive application awareness.</p>
+<blockquote>
+<p>Cognitive application awareness.</p>
 <p>Visual insight into the interaction between your database and application code.</p>
-<p>Analysis and detection of common pitfalls when using NHibernate.”</p>
+<p>Analysis and detection of common pitfalls when using NHibernate.</p></blockquote>
 <p>Sounds good, doesn’t it? So what does that mean in practice?</p>
-<p>Here’s a screenshot of the release candidate. Note that the Session Factory Statistics functionality is disabled in the current build.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>Here’s a screenshot of the release candidate. Note that the Session Factory Statistics functionality is disabled in the current build.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/nh1_2.png"></p>
 <p>Each profiled NHibernate session can be selected individually from the pane in the top left, and from there we can drill down to see the details of each SQL statement executed against the database (formatted in nice readable manner), along with details of any parameters, and even an option of viewing the rows resulting from the statement.</p>
-<p>The statements are interpreted, and suggestions and warnings are flagged as alerts, along with hyperlinks to online guidance explaining how the data access can be improved.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<p>A stack trace is also provided for each statement, allowing us to identify the code that caused the data access to occur. It’s possible to double-click on a row within this trace to jump straight to the code in Visual Studio.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<p>In addition to showing the SQL statements executed by each session, details of the entities loaded by each session are also given.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<p>…and there’s a summary of the NHibernate usage for each session.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<p>As well as providing session-by-session detail of what’s happening, NHProf allows us to analyse the overall activity. Here, I’m looking at unique queries containing the string “study” (note that differing parameters don’t count towards “uniqueness”):<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<p>We can also obtain analysis by Method, Url (for web applications) and Overall Usage statistics:<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>The statements are interpreted, and suggestions and warnings are flagged as alerts, along with hyperlinks to online guidance explaining how the data access can be improved.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/nh2_2.png"></p>
+<p>A stack trace is also provided for each statement, allowing us to identify the code that caused the data access to occur. It’s possible to double-click on a row within this trace to jump straight to the code in Visual Studio.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/nh3_2.png"></p>
+<p>In addition to showing the SQL statements executed by each session, details of the entities loaded by each session are also given.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/nh4_2.png"></p>
+<p>…and there’s a summary of the NHibernate usage for each session.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/nh5_2.png"></p>
+<p>As well as providing session-by-session detail of what’s happening, NHProf allows us to analyse the overall activity. Here, I’m looking at unique queries containing the string “study” (note that differing parameters don’t count towards “uniqueness”):</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/nh6_2.png"></p>
+<p>We can also obtain analysis by Method, Url (for web applications) and Overall Usage statistics:</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/nh7_2.png"></p>
 <p>In my opinion NHProf has the potential to become an essential tool when creating or maintaining a solution which leverages the power of NHibernate. In addition to highlighting performance and other issues, it is a great aid when learning about NHibernate, or when familiarising oneself with an inherited solution. Overall, it’s the next best thing to having Ayende sat by your side lending a guiding hand.</p>
 ]]></content:encoded>
     </item>
@@ -2574,17 +2584,17 @@ und on Stack Overflow revealed that I was not the only person currently banging 
 <ul>
 <li>Open up the Visual Studio options (<strong>Tools</strong> –&gt; <strong>Options</strong>).</li>
 <li>Expand the <strong>Source Control</strong> –&gt; <strong>Visual Studio Team Foundation Server</strong> section.</li>
-<li>Click the <strong>Configure User Tools…</strong> button:<!-- raw HTML omitted --></li>
+<li>Click the <strong>Configure User Tools…</strong> button:</li>
 </ul>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/dm1_4.png"></p>
 <ul>
-<li>Click the <strong>Add…</strong> button to set up a new file extension operation:<!-- raw HTML omitted --></li>
+<li>Click the <strong>Add…</strong> button to set up a new file extension operation:</li>
 </ul>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/dm2_2.png"></p>
 <ul>
-<li>Set up a <strong>Compare</strong> operation to run against all files (extension of *****):<!-- raw HTML omitted --></li>
+<li>Set up a <strong>Compare</strong> operation to run against all files (extension of *:</li>
 </ul>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/dm3_3.png"></p>
 <ul>
 <li>Repeat the process to add a <strong>Merge</strong> operation to run against all file extensions.</li>
 </ul>
@@ -2599,17 +2609,15 @@ und on Stack Overflow revealed that I was not the only person currently banging 
       <pubDate>Thu, 07 May 2009 11:05:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/agile-yorkshire-the-pub-exploratory-testing-may-13th/</guid>
       <description>&lt;p&gt;If I can get a pass out from helping to look after the burgeoning Nelson family for an evening, I’ll be going along to this Agile Yorkshire session next Wednesday.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;may-13th-ralph-williams-exploratory-testing&#34;&gt;May 13th – Ralph Williams: Exploratory Testing&lt;/h3&gt;
-&lt;h4 id=&#34;details&#34;&gt;&lt;strong&gt;Details&lt;/strong&gt;&lt;/h4&gt;
+&lt;h2 id=&#34;may-13th--ralph-williams-exploratory-testing&#34;&gt;May 13th – Ralph Williams: Exploratory Testing&lt;/h2&gt;
+&lt;h3 id=&#34;details&#34;&gt;Details&lt;/h3&gt;
 &lt;p&gt;In this session, Ralph will provide an overview of some techniques that bring Agility into the world of testing. (The world of testing is a strange place: regarded by most people as a nice place to visit but you wouldn’t want to live there, it is an unmapped wilderness where the waterfall methodology still roams unfettered.)&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>If I can get a pass out from helping to look after the burgeoning Nelson family for an evening, I’ll be going along to this Agile Yorkshire session next Wednesday.</p>
-<hr>
-<h3 id="may-13th-ralph-williams-exploratory-testing">May 13th – Ralph Williams: Exploratory Testing</h3>
-<h4 id="details"><strong>Details</strong></h4>
+<h2 id="may-13th--ralph-williams-exploratory-testing">May 13th – Ralph Williams: Exploratory Testing</h2>
+<h3 id="details">Details</h3>
 <p>In this session, Ralph will provide an overview of some techniques that bring Agility into the world of testing. (The world of testing is a strange place: regarded by most people as a nice place to visit but you wouldn’t want to live there, it is an unmapped wilderness where the waterfall methodology still roams unfettered.)</p>
 <p>The main focus will be on one such technique, Exploratory Testing. It is defined by many as “simultaneous learning, test design and test execution”, but Ralph will attempt to be more helpful. After the presentation many of you will claim this is what you have been doing all along, but now it has a fancy name you can use it without shame and companies can sell you high-priced consultancy in it.</p>
-<h4 id="speaker">Speaker</h4>
+<h3 id="speaker">Speaker</h3>
 <p>Ralph Williams is a Test Consultant at the Yorkshire Building Society, based in Bradford. The Society develops much of the application software used throughout its 140 branches and offices, and Ralph is responsible for managing the testing for some of these systems. He has previously worked in various management, testing and development roles at Erudine, Wanadoo and British Telecom, and specialises in Agile Testing and chocolate.</p>
 <p>Venue: Victoria Hotel, Central Leeds</p>
 <p>Date/Time: Wednesday, 13th May, 6.30pm for a 7.00pm start.</p>
@@ -2621,57 +2629,60 @@ und on Stack Overflow revealed that I was not the only person currently banging 
       <link>https://blog.iannelson.uk/isla-grace-nelson/</link>
       <pubDate>Mon, 04 May 2009 21:05:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/isla-grace-nelson/</guid>
-      <description>&lt;p&gt;It gives me the utmost pleasure to announce the birth of Miss Isla Grace Nelson.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+      <description>&lt;p&gt;It gives me the utmost pleasure to announce the birth of Miss Isla Grace Nelson.&lt;/p&gt;
 &lt;p&gt;Following a ludicrously speedy labour, Isla entered the world in an ambulance on the &lt;a href=&#34;http://maps.google.co.uk/?ie=UTF8&amp;amp;ll=53.907916,-1.18456&amp;amp;spn=0.00273,0.006673&amp;amp;z=17&#34;&gt;eastbound A64 near Bilbrough services&lt;/a&gt; on Tuesday 28th April at 18:09 local time (&lt;a href=&#34;http://www.timeanddate.com/worldclock/fixedtime.html?day=28&amp;amp;month=4&amp;amp;year=2009&amp;amp;hour=18&amp;amp;min=9&amp;amp;sec=0&amp;amp;p1=136&#34;&gt;see this time in your time zone&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;Her birth mass was 3.750 kilograms (8 pounds 4 ounces), and length was 50 centimetres (20 inches).&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>It gives me the utmost pleasure to announce the birth of Miss Isla Grace Nelson.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+&lt;p&gt;Her birth mass was 3.750 kilograms (8 pounds 4 ounces), and length was 50 centimetres (20 inches).&lt;/p&gt;
+&lt;p&gt;Now, a few people have asked me to blog more details about Isla’s birth, notably the events that led to her being born in an ambulance and not, as had been planned, at York District Hospital like her &lt;a href=&#34;https://blog.iannelson.uk/benjamin-george-nelson/&#34;&gt;big brother&lt;/a&gt;. So, here goes. Inevitably, this is all from my perspective, though as Jocelyn’s side of things seemed to consist mostly of agonized screams and wailings, perhaps those aren’t the kind of details you want to hear anyway.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>It gives me the utmost pleasure to announce the birth of Miss Isla Grace Nelson.</p>
 <p>Following a ludicrously speedy labour, Isla entered the world in an ambulance on the <a href="http://maps.google.co.uk/?ie=UTF8&amp;ll=53.907916,-1.18456&amp;spn=0.00273,0.006673&amp;z=17">eastbound A64 near Bilbrough services</a> on Tuesday 28th April at 18:09 local time (<a href="http://www.timeanddate.com/worldclock/fixedtime.html?day=28&amp;month=4&amp;year=2009&amp;hour=18&amp;min=9&amp;sec=0&amp;p1=136">see this time in your time zone</a>).</p>
 <p>Her birth mass was 3.750 kilograms (8 pounds 4 ounces), and length was 50 centimetres (20 inches).</p>
-<p>Now, a few people have asked me to blog more details about Isla’s birth, notably the events that led to her being born in an ambulance and not, as had been planned, at York District Hospital like her <a href="https://blog.iannelson.uk/benjamin-george-nelson/">big brother</a>. So, here goes. Inevitably, this is all from my perspective, though as Jocelyn’s side of things seemed to consist mostly of agonized screams and wailings, perhaps those aren’t the kind of details you want to hear anyway.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<h3 id="call-1-it-begins">Call #1 – It Begins</h3>
+<p>Now, a few people have asked me to blog more details about Isla’s birth, notably the events that led to her being born in an ambulance and not, as had been planned, at York District Hospital like her <a href="https://blog.iannelson.uk/benjamin-george-nelson/">big brother</a>. So, here goes. Inevitably, this is all from my perspective, though as Jocelyn’s side of things seemed to consist mostly of agonized screams and wailings, perhaps those aren’t the kind of details you want to hear anyway.</p>
+<p><img alt="Isla Grace Nelson" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/isla-grace-nelson_3486478347_o.jpg"></p>
+<h2 id="call-1--it-begins">Call #1 – It Begins</h2>
 <p>I was working in Leeds on Tuesday. The first inkling I got that something was about to happen was a phone call from Jocelyn at 14:10. She told me that she was experiencing pains of a largely indeterminate nature, but not to bother coming home from work at that stage, as it might be nothing. Fair enough. Apparently she had been out to aqua natal that morning, then run some errands, and had only just put Ben down for a nap and started to think about what the pains might be. The conversation lasted 2 minutes 6 seconds, and I went back to my work.</p>
-<h3 id="call-2-come-home">Call #2 – Come Home</h3>
+<h2 id="call-2--come-home">Call #2 – Come Home</h2>
 <p>The second phone call came at 14:50. It was just 17 seconds long:</p>
+<blockquote>
 <p>“Hi Ian. So, these pains don’t seem to be going away.”</p>
 <p>“You want me to come home?”</p>
 <p>“Mmmmm, yeah – I think you’d better. Can you make the 3:15 train?”</p>
-<p>“If I run. Speak to you soon.”</p>
-<p>As I arrived at the station, I wondered whether I should pick up a copy of the day’s newspaper, for posterity in case the baby should be born that day. In all honesty I thought it a remote possibility, but bought a copy of <a href="http://www.timesonline.co.uk">The Times</a> anyway, reasoning that at least it would be something to read on the train home.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<p>As it happened, on the platform I bumped into Ruth, mother of one of Ben’s pals, so I had some company and conversation for the journey. That evening Ruth posted a comment on my Facebook page saying “Talk about cool, calm &amp; collected. You were more in control than me when I saw you this afternoon!!!”. This is true – Ruth had something of an “eeek!” expression on her face for most of the train ride. I, meanwhile, anticipated many hours of agonizing (and for me, boring) labour ahead before any real excitement (little did I know!), so I avoided Ruth’s panicked gaze by tweeting.<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<p>“If I run. Speak to you soon.”</p></blockquote>
+<p>As I arrived at the station, I wondered whether I should pick up a copy of the day’s newspaper, for posterity in case the baby should be born that day. In all honesty I thought it a remote possibility, but bought a copy of <a href="http://www.timesonline.co.uk">The Times</a> anyway, reasoning that at least it would be something to read on the train home.</p>
+<p><img alt="Isla&rsquo;s Birthplace" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/islas-birthplace_3487324430_o.jpg"></p>
+<p>As it happened, on the platform I bumped into Ruth, mother of one of Ben’s pals, so I had some company and conversation for the journey. That evening Ruth posted a comment on my Facebook page saying “Talk about cool, calm &amp; collected. You were more in control than me when I saw you this afternoon!!!”. This is true – Ruth had something of an “eeek!” expression on her face for most of the train ride. I, meanwhile, anticipated many hours of agonizing (and for me, boring) labour ahead before any real excitement (little did I know!), so I avoided Ruth’s panicked gaze by tweeting.</p>
+<blockquote>
+<p>Heading home. Wife experiencing pains. Is this it…?<br>
+— Ian Nelson (@ianfnelson) April 28, 2009</p></blockquote>
 <p>The train pulled into South Milford at around 15:45, and Jocelyn was there to pick me up (she’d waited for a contraction to pass before making the short journey to the station!)</p>
-<h3 id="call-3-summoning-backup">Call #3 – Summoning Backup</h3>
+<h2 id="call-3--summoning-backup">Call #3 – Summoning Backup</h2>
 <p>Before we could think about heading to the hospital, we needed someone to look after Benjamin. Fortunately my mum had been on standby for this task for several weeks, denying herself her usual daily allowance of wine in preparedness. I placed the call around 16:00:</p>
+<blockquote>
 <p>“Mum, we need you please. Joce is in labour.”</p>
 <p>“Oh. But I have a pot of chutney on the hob. Hmmm. How urgent is it?”</p>
 <p>“Contractions about 10 minutes apart.”</p>
 <p>“Oh. Well. I’m just going to have to leave the chutney, aren’t I?”</p>
-<p>“Yep, I’m afraid so.”</p>
+<p>“Yep, I’m afraid so.”</p></blockquote>
 <p>Mums, don’tcha love their sense of priority? 😉</p>
-<p>As we waited for backup to arrive, Jocelyn started pacing around the house in the way only a woman in labour possibly can. Benny thought this was hilarious, and walked behind his mother, playing “Follow the Leader”. I’m not entirely certain how much this helped Jocelyn’s situation – by this time most of the sounds emanating from her mouth were primeval groans. I just kept out of the way, and tweeted again.<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h3 id="call-4-we-re-coming-in">Call #4 – We’re Coming In</h3>
+<p>As we waited for backup to arrive, Jocelyn started pacing around the house in the way only a woman in labour possibly can. Benny thought this was hilarious, and walked behind his mother, playing “Follow the Leader”. I’m not entirely certain how much this helped Jocelyn’s situation – by this time most of the sounds emanating from her mouth were primeval groans. I just kept out of the way, and tweeted again.</p>
+<blockquote>
+<p>At home now. Contractions 10 minutes apart.<br>
+— Ian Nelson (@ianfnelson) April 28, 2009</p></blockquote>
+<h2 id="call-4--were-coming-in">Call #4 – We’re Coming In</h2>
 <p>When my mum arrived at ours around 17:00, I instinctively went to make her a cup of tea, and a drink for myself. It was at this point that the pacing, grunting, Jocelyn, stopped holding everything in and found her voice again.</p>
+<blockquote>
 <p>“Call the hospital. Call the hospital. Need to go in,” she said, stabbing a forefinger at her green NHS notes. I did as I was told.</p>
 <p>“Hello, my wife is in labour, and we’d like to come in, please,” I politely told the lady who answered the maternity ward phone.</p>
-<p>“Well, you’re very direct and straight to the point!” she curtly replied. I hadn’t realised that I would be expected to make small talk. “Can I at least have some details?”</p>
+<p>“Well, you’re very direct and straight to the point!” she curtly replied. I hadn’t realised that I would be expected to make small talk. “Can I at least have some details?”</p></blockquote>
 <p>After providing the details requested (including “can I have a number beginning with ‘D’” – what kind of <em>number</em> begins with ‘D’ I wondered? Hexadecimal? I decided not to pursue that discussion at the present) she asked to speak to Jocelyn. I don’t know what they talked about – Joce just said “yes” three or four times, then put the phone down and told me we were to go to the hospital immediately. I was a tad disappointed that I wouldn’t be able to drink the cup of coffee that I’d just made myself, but thought it wise to keep this thought to myself, too.</p>
-<h3 id="call-5-999">Call #5 – 999</h3>
-<p><a href="http://maps.google.co.uk">Google maps</a> tells me that the 17.3 mile journey from our home to York District Hospital takes around 33 minutes. It’s strange, in my head I always think of it as being much shorter, I don’t know why. On this particular day, travelling at rush hour, it would have taken us even longer, due to heavy traffic and road works.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<p>By the time we were just a couple of miles from home, Jocelyn was screaming almost continually. Glancing at my watch as I drove, I timed the contractions to be three minutes apart, then reasoned with myself that I must have made a mistake and forgotten the original location of the minute hand – surely eight minutes would be more appropriate at this stage? But then the subsequent contraction came another three minutes hence, leaving lit<br>
-tle doubt. I didn’t share these timings with Jocelyn, but I’m sure she was well aware of the immediacy of the situation.</p>
+<h2 id="call-5--999">Call #5 – 999</h2>
+<p><a href="http://maps.google.co.uk">Google maps</a> tells me that the 17.3 mile journey from our home to York District Hospital takes around 33 minutes. It’s strange, in my head I always think of it as being much shorter, I don’t know why. On this particular day, travelling at rush hour, it would have taken us even longer, due to heavy traffic and road works.</p>
+<p><img alt="Ian and Isla" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/ian-and-isla_3490771971_o.jpg"></p>
+<p>By the time we were just a couple of miles from home, Jocelyn was screaming almost continually. Glancing at my watch as I drove, I timed the contractions to be three minutes apart, then reasoned with myself that I must have made a mistake and forgotten the original location of the minute hand – surely eight minutes would be more appropriate at this stage? But then the subsequent contraction came another three minutes hence, leaving little doubt. I didn’t share these timings with Jocelyn, but I’m sure she was well aware of the immediacy of the situation.</p>
 <p>My heart sank when we reached the A64 to find the eastbound carriageway moving at a snail’s pace. We trundled along for a mile or so, before Jocelyn spoke the truism that I’d not dared admit to myself:</p>
-<p>“We’re not going to make it to the hospital. You’re going to have to call 999.”</p>
+<blockquote>
+<p>“We’re not going to make it to the hospital. You’re going to have to call 999.”</p></blockquote>
 <p>Now, I’ve never had cause to phone 999 before. I had flashbacks to primary school assemblies wherein visiting police constables soberly explained the problems caused by hoax calls, and made it crystal clear that we should only <em>think</em> about dialling 999 if we were on the verge of death itself, lest we would surely go to hell, or at the very least be grounded for a good few weeks. These sessions obviously had a big influence on me, and I briefly hypothesised about an alternative solution to our problem, such as trying to force a route between the two lanes of near-stationary traffic. Jocelyn’s response came in the form of another anguished scream, and at 17:31 I placed the call. Mercifully my mobile had a charge, a signal, and Windows Mobile 6.1 hadn’t decided to crash when I wasn’t looking. Here’s how the conversation began:</p>
+<blockquote>
 <p>“Emergency, which service please?”</p>
 <p>“Ambulance.”</p>
 <p>“Ambulance, can you tell me the number you’re calling from?”</p>
@@ -2681,23 +2692,24 @@ tle doubt. I didn’t share these timings with Jocelyn, but I’m sure she was w
 <p>“OK. I need to figure out exactly where you are. Have you gone over the river?”</p>
 <p>“Er, I’m not sure”. I wasn’t certain to which river she was referring (Ouse, Foss, Wharf?) and I couldn’t remember which was which anyway, so it seemed futile asking.</p>
 <p>“Is there a lay-by or somewhere you can pull off the road and park?”</p>
-<p>“Er… yes, we’re coming up to a small exit road now. Signed to Catterton and Healaugh.”</p>
+<p>“Er… yes, we’re coming up to a small exit road now. Signed to Catterton and Healaugh.”</p></blockquote>
 <p>At this stage I was now glad that I’d made the call. The patient, calm lady on the other end of the phone told me to get off the A64, stop the car, put my hazards on, and await the assistance which was on the way. I used the “Where Am I?” TomTom functionality to confirm my location, and confirmed the colour and make of our vehicle. Then the operator told me I should “prepare and reassure my wife”. I think my efforts in respect of this task resulted in an epic fail.</p>
-<h3 id="cavalry-cavalry">Cavalry {#cavalry}<!-- raw HTML omitted --></h3>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<h2 id="cavalry">Cavalry</h2>
+<p><img alt="Jocelyn and Isla" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/jocelyn-and-isla_3490788551_o.jpg"></p>
 <p>After 9 minutes and 34 seconds the cavalry arrived, in the form of a down-to-earth Yorkshire chap in an ambulance responder vehicle. His initial words, on handing Jocelyn some nitrous oxide, were “There you go love, cop a load of that. Suck it in, there’s plenty!”. On being told that Jocelyn’s waters hadn’t broken, and nor was there any sign of a head, he frowned in my general direction, seemingly giving the impression that we were wasting his time, and I felt certain that he would dob me in to Mrs Lound, my primary school head teacher.</p>
 <p>“Weren’t you listening during assembly, Ian?” I envisaged her asking me sternly, as she proceeded to instruct me, a grown man of 33, to stand on the naughty steps of a school building that had long since been demolished.</p>
 <p>Then he glanced at his watch for a second time, and it seemed to dawn on him that, broken waters or not, contractions of only a minute apart indicate an imminent birth. He confirmed with the disembodied voices on his radio that an ambulance was on its way, before glancing up and down the length of our shiny Toyota Verso.</p>
+<blockquote>
 <p>“What reg’ is this?” he asked me.</p>
 <p>“Too new!” I shouted back, and he grinned back at me.</p>
-<p>“We’d better get an ambulance then, hadn’t we?” he replied.</p>
-<p>The ambulance duly arrived, and Jocelyn was transferred into it. I abandoned the Verso and joined her. The all-female crew, Jo and Jo, told us that the plan was to try to reach York Hospital. Being safety-conscious ladies, they instructed me to sit down and put a seatbelt on, leaving me unable to offer much support over and above shouted encouragements and gripping Jocelyn’s ankle supportively. Not for the first time that evening, I began to think that I probably wasn’t helping much.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>“We’d better get an ambulance then, hadn’t we?” he replied.</p></blockquote>
+<p>The ambulance duly arrived, and Jocelyn was transferred into it. I abandoned the Verso and joined her. The all-female crew, Jo and Jo, told us that the plan was to try to reach York Hospital. Being safety-conscious ladies, they instructed me to sit down and put a seatbelt on, leaving me unable to offer much support over and above shouted encouragements and gripping Jocelyn’s ankle supportively. Not for the first time that evening, I began to think that I probably wasn’t helping much.</p>
+<p><img alt="Jocelyn and Isla" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/jocelyn-and-isla_3491604790_o.jpg"></p>
 <p>We’d only got a mile or so down the A64 before another blood-curdling cry and waters breaking all over the ambulance caused the crew to abandon all plans of reaching York Hospital in favour of delivering the baby at the side of the road, near to the services at Bilbrough top. From this point on, everything happened in double-quick time, and Isla Grace came into the world at 18:09.</p>
 <p>We later learned that Isla was only the second baby that Jo and Jo had delivered in nine years of manning an ambulance. I wouldn’t have guessed; they seemed to know exactly what they were doing, and exuded an air of professionalism at all times. I was so thankful that we’d called the emergency services. Everyone grumbles occasionally about the enormous tax burden of the NHS, but there’s no denying that, in one’s hour of need, they really come through. God bless the Yorkshire Ambulance NHS Trust.</p>
 <p>The high quality service continued as Isla and I transferred into a second ambulance whilst Jocelyn travelled ahead in the original vehicle. After checkups and a few stitches, Jocelyn was discharged from hospital later that evening. I took a £30 taxi ride to recover the Verso, we popped into a McDonald’s drive-thru for our supper, and we were all home and safely tucked up in bed by midnight.</p>
-<p>It’s not an experience any of us want to relive, but as the bard said, All’s Well That Ends Well. And it’s a great story to tell Isla in a few years time.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>It’s not an experience any of us want to relive, but as the bard said, All’s Well That Ends Well. And it’s a great story to tell Isla in a few years time.</p>
+<p><img alt="Heading Home" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/heading-home_3490791797_o.jpg"></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -2767,8 +2779,7 @@ tle doubt. I didn’t share these timings with Jocelyn, but I’m sure she was w
 <li>Fine-grained control over HTML and JavaScript</li>
 <li>Intuitive URLs</li>
 </ul>
-<p>Which begs the question – if you were kicking off development of a new web-based application on the Microsoft platform today, why would you even consider using Web Forms? Surely the choice now boils down to Silverlight or ASP.NET MVC? I fully expect that, by the time the summer Olympics come to London, Web Forms will be considered to be a legacy platform, with job adverts referring to it as “<em>Classic ASP.NET</em>”.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>Which begs the question – if you were kicking off development of a new web-based application on the Microsoft platform today, why would you even consider using Web Forms? Surely the choice now boils down to Silverlight or ASP.NET MVC? I fully expect that, by the time the summer Olympics come to London, Web Forms will be considered to be a legacy platform, with job adverts referring to it as “<em>Classic ASP.NET</em>”.</p>
 <p>And that’s probably no bad thing. Sure, for those of us who lived through the static web, CGI forms and classic ASP, ASP.NET was a godsend, with its cunning state management techniques, custom controls, and page lifecycle events. But, even in the hands of decent developers, it does tend to promote a magic pushbutton anti-pattern, with untestable business logic frequently dumped in the code-behind. So, as a fanboy of OOP, TDD, and Separation of Concerns, this eventual release of ASP.NET MVC comes as a source of great pleasure to me, and means that I can look forward to many more years of enjoyably developing web apps on the MS platform.</p>
 <p>But hang on a cotton-picking minute – what exactly is truly new, here? Haven’t we been able to do MVC development on the MS platform for years, using <a href="http://www.castleproject.org/MonoRail/">Castle Monorail</a>? Well, yes we have – I had the pleasure of using it last summer when developing systems for <a href="http://www.cmoptions.org/">Child Maintenance Options</a>. And Monorail itself was inspired by <a href="http://api.rubyonrails.org/">Ruby on Rails</a>, and the J2EE platform has had <a href="http://struts.apache.org/">Apache Struts</a> for donkey’s years (I used it briefly in the summer of 2002 when developing systems for <a href="http://www.three.co.uk">Three</a>).</p>
 <p>So, if we could do this stuff already, even on the ASP.NET platform, why does the release of ASP.NET MVC still matter so much?</p>
@@ -2776,8 +2787,8 @@ tle doubt. I didn’t share these timings with Jocelyn, but I’m sure she was w
 <p>As a crude indicator of popularity, consider the questions posted on <a href="http://stackoverflow.com/">Stack Overflow</a> to date. 1819 of them have been tagged “ASP.NET-MVC”, whilst a mere 22 have been tagged “Monorail” or “Castle-Monorail”.</p>
 <p>The same can be seen of many other modern technologies used in the development of custom applications. Take <a href="http://en.wikipedia.org/wiki/Object-relational_mapping">ORM</a> for example – <a href="http://www.hibernate.org/343.html">NHibernate</a> has been around for, what, around six years or so since it was originally ported from <a href="http://www.hibernate.org/">Hibernate</a> (I seem to have <a href="https://blog.iannelson.uk/nhibernate/">first mentioned it on this blog in 2004</a>). But the traction that <a href="http://msdn.microsoft.com/en-us/library/bb386976.aspx">LINQ to SQL</a> and <a href="http://msdn.microsoft.com/en-us/library/bb399572.aspx">Entity Framework</a> have garnered in their short existence has already almost outstripped the popularity of NHibernate by some metrics.</p>
 <p>Entity Framework, while not to everyone’s taste, at least has the potential to offer something quite different and distinct from NHibernate. But the same can’t be said of some other recent examples of Microsoft’s ongoing <a href="http://en.wikipedia.org/wiki/Embrace,_extend_and_extinguish">Embrace, Extend and Extinguish</a> policy – what does Visual Studio Unit Testing offer that <a href="http://www.nunit.org/index.php">NUnit</a> didn’t? Why develop the <a href="http://msdn.microsoft.com/en-us/library/cc468366.aspx">Unity Application Block</a> in a universe that already contains <a href="http://www.castleproject.org/container/index.html">Castle Windsor</a> and a plethora of other <a href="http://en.wikipedia.org/wiki/Inversion_of_Control">IoC</a> containers? How long will it be before Microsoft write their own <a href="http://en.wikipedia.org/wiki/Mock_object">mock object</a> framework? Surely they will eventually do so, to meet the demands of the large proportion of dev shops that simply won’t touch none-MS tooling.</p>
-<p>Why this should be the case, I can’t really say, but as a freelance developer I’ve seen it with my own eyes – working with organisations with technical strategies that specify the use of Microsoft technologies wherever possible, and shun the adoption of open source or third-party solutions. I hear people say “we’ll wait for Entity Framework to mature, rather than trying NHibernate”, and I see the funny stares people give me when I meekly suggest that we use <a href="http://www.codeplex.com/xunit">xUnit.Net</a> or <a href="http://code.google.com/p/moq/">Moq</a> on a project.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>Why this should be the case, I can’t really say, but as a freelance developer I’ve seen it with my own eyes – working with organisations with technical strategies that specify the use of Microsoft technologies wherever possible, and shun the adoption of open source or third-party solutions. I hear people say “we’ll wait for Entity Framework to mature, rather than trying NHibernate”, and I see the funny stares people give me when I meekly suggest that we use <a href="http://www.codeplex.com/xunit">xUnit.Net</a> or <a href="http://code.google.com/p/moq/">Moq</a> on a project.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000004857675XSmall_3.jpg"></p>
 <p>So, perhaps we can’t entirely blame Microsoft. True, their practices do sometimes feel to be anti-competitive and limiting of choice. But they are a business after all, and are merely meeting the demands of their customers.</p>
 <p>And is it really in my best interests to complain about these practices? I am a freelance developer and Microsoft registered partner and have to be pragmatic about this. I am in business developing custom applications for the Microsoft platform, and in doing so I want to use 21st-century techniques such as ORM, the MVC pattern, unit testing, mocking, IoC, etc. If my clients are more likely to be receptive to those concepts if there exists a suitable Microsoft implementation, then so be it. But please, let me continue using NHibernate instead of Entity Framework…</p>
 <p>ASP.NET RIP. Long live ASP.NET MVC.</p>
@@ -2790,13 +2801,16 @@ tle doubt. I didn’t share these timings with Jocelyn, but I’m sure she was w
       <guid>https://blog.iannelson.uk/zero-interest-bug-arrives/</guid>
       <description>&lt;p&gt;So, base rates are now down to 1.0%, and the &lt;a href=&#34;https://blog.iannelson.uk/zero-interest-bug/&#34;&gt;Zero Interest Bug&lt;/a&gt; is not just conjecture.&lt;/p&gt;
 &lt;p&gt;From &lt;a href=&#34;http://www.timesonline.co.uk/tol/money/property_and_mortgages/article5668432.ece&#34;&gt;The Times&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;“About 1,500 customers who took out a tracker mortgages pegged at 1.01 points below the base rate with Cheltenham &amp;amp; Gloucester (C&amp;amp;G), owned by Lloyds Banking Group, will be paying no interest at all on their home loans from next month.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;It is the first time that a mortgage lender has been forced to reduce the interest on their home loans to zero.&lt;/em&gt;&lt;/p&gt;</description>
+&lt;blockquote&gt;
+&lt;p&gt;“About 1,500 customers who took out a tracker mortgages pegged at 1.01 points below the base rate with Cheltenham &amp;amp; Gloucester (C&amp;amp;G), owned by Lloyds Banking Group, will be paying no interest at all on their home loans from next month.&lt;/p&gt;
+&lt;p&gt;It is the first time that a mortgage lender has been forced to reduce the interest on their home loans to zero.
+Lloyds Banking Group, now 43 per cent owned by the taxpayer and also the owner of C&amp;amp;G, said that there was a zero floor to the deal and that &lt;strong&gt;because its computer systems could not cope with zero&lt;/strong&gt;, it would be temporarily charging 0.001 per cent, or 8p a month for a borrower with a £100,000 mortgage. However, that money will be refunded.”&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>So, base rates are now down to 1.0%, and the <a href="https://blog.iannelson.uk/zero-interest-bug/">Zero Interest Bug</a> is not just conjecture.</p>
 <p>From <a href="http://www.timesonline.co.uk/tol/money/property_and_mortgages/article5668432.ece">The Times</a>:</p>
-<p><em>“About 1,500 customers who took out a tracker mortgages pegged at 1.01 points below the base rate with Cheltenham &amp; Gloucester (C&amp;G), owned by Lloyds Banking Group, will be paying no interest at all on their home loans from next month.</em></p>
-<p><em>It is the first time that a mortgage lender has been forced to reduce the interest on their home loans to zero.</em></p>
-<p><em>Lloyds Banking Group, now 43 per cent owned by the taxpayer and also the owner of C&amp;G, said that there was a zero floor to the deal and that <strong>because its computer systems could not cope with zero</strong>, it would be temporarily charging 0.001 per cent, or 8p a month for a borrower with a £100,000 mortgage. However, that money will be refunded.”</em></p>
+<blockquote>
+<p>“About 1,500 customers who took out a tracker mortgages pegged at 1.01 points below the base rate with Cheltenham &amp; Gloucester (C&amp;G), owned by Lloyds Banking Group, will be paying no interest at all on their home loans from next month.</p>
+<p>It is the first time that a mortgage lender has been forced to reduce the interest on their home loans to zero.
+Lloyds Banking Group, now 43 per cent owned by the taxpayer and also the owner of C&amp;G, said that there was a zero floor to the deal and that <strong>because its computer systems could not cope with zero</strong>, it would be temporarily charging 0.001 per cent, or 8p a month for a borrower with a £100,000 mortgage. However, that money will be refunded.”</p></blockquote>
 <p>I bet those jammy 1,500 people are feeling quite smug today. Needless to say, I’m still kicking myself very hard for fixing my mortgage last summer… sob!</p>
 ]]></content:encoded>
     </item>
@@ -2805,36 +2819,34 @@ tle doubt. I didn’t share these timings with Jocelyn, but I’m sure she was w
       <link>https://blog.iannelson.uk/ndepend/</link>
       <pubDate>Wed, 04 Feb 2009 15:02:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/ndepend/</guid>
-      <description>&lt;p&gt;OK, dear readers, today I’d like to talk about tools.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+      <description>&lt;p&gt;OK, dear readers, today I’d like to talk about tools.&lt;/p&gt;
 &lt;p&gt;Software development isn’t really so different from traditional skilled crafts in that it is important to have an understanding of the tools available to help you create a quality products in the least amount of time possible.&lt;/p&gt;
 &lt;p&gt;For .NET developers, the Visual Studio IDE is usually just the starting point, and most of us will come to rely on some of the tools listed in Scott Hanselman’s famous &lt;a href=&#34;http://www.hanselman.com/tools&#34;&gt;tools list&lt;/a&gt;. Personally, I can’t imagine coding without first installing &lt;a href=&#34;http://www.devexpress.com/refactor&#34;&gt;Refactor Pro&lt;/a&gt;, editing text files in anything other than &lt;a href=&#34;http://www.textpad.com&#34;&gt;TextPad&lt;/a&gt;, or working on a machine that doesn’t have Snag It installed.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>OK, dear readers, today I’d like to talk about tools.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+      <content:encoded><![CDATA[<p>OK, dear readers, today I’d like to talk about tools.</p>
 <p>Software development isn’t really so different from traditional skilled crafts in that it is important to have an understanding of the tools available to help you create a quality products in the least amount of time possible.</p>
 <p>For .NET developers, the Visual Studio IDE is usually just the starting point, and most of us will come to rely on some of the tools listed in Scott Hanselman’s famous <a href="http://www.hanselman.com/tools">tools list</a>. Personally, I can’t imagine coding without first installing <a href="http://www.devexpress.com/refactor">Refactor Pro</a>, editing text files in anything other than <a href="http://www.textpad.com">TextPad</a>, or working on a machine that doesn’t have Snag It installed.</p>
-<h4 id="mri-for-your-net-application">MRI For Your .NET Application</h4>
-<p>Another one of the tools that I reach for frequently, and the subject of this blog post, is <strong><a href="http://www.ndepend.com">NDepend</a></strong>, which performs rapid static analysis of a set of .NET assemblies and provides a deliciously visual interface for interpreting and understanding the results. Through the use of this tool, architects and developers can quickly spot problems or potential areas for improvements in a codebase. It’s essentially an MRI Scanner for your .NET code!<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<h4 id="so-what-does-it-do">So.. What Does It Do?</h4>
+<h2 id="mri-for-your-net-application">MRI For Your .NET Application</h2>
+<p>Another one of the tools that I reach for frequently, and the subject of this blog post, is <strong><a href="http://www.ndepend.com">NDepend</a></strong>, which performs rapid static analysis of a set of .NET assemblies and provides a deliciously visual interface for interpreting and understanding the results. Through the use of this tool, architects and developers can quickly spot problems or potential areas for improvements in a codebase. It’s essentially an MRI Scanner for your .NET code!</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000004593967XSmall_2.jpg"></p>
+<h2 id="so-what-does-it-do">So.. What Does It Do?</h2>
 <p>I’ve briefly mentioned my use of NDepend before – for example I <a href="https://blog.iannelson.uk/msb3247-dependent-assembly-conflicts/">blogged in December</a> about how I was able to use NDepend to resolve an MSB3247 compiler warning which a developer was experiencing. But there’s much more to it than just helping solve simple assembly reference problems. Some of my favourite features include:</p>
-<p>An interactive <strong>Dependency Graph</strong>, giving a visual representation of the relationships between assemblies (both within your application, and any third-party and system dependencies). Here’s an example output from analysing the S#arp Architecture project:<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<p>The <strong>Dependency Matrix</strong> cross-tabulates all the references between assemblies, allowing for drilling down to member level. Remember all those dictats you issued to the dev team in your coding standards, such as “don’t reference the data layer from the front-end”? Well, this is the window you’ll use for ensuring that the team are abiding by such rules. Usefully, cyclical references between namespaces are particularly highlighted.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<p>The <strong>Metrics Window</strong> is where I tend to spend most of my time, using the inbuilt CQL (Code Query Language) to identify areas of the codebase which are ripe for refactoring. This area of the tool is like FxCop on steroids.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>An interactive <strong>Dependency Graph</strong>, giving a visual representation of the relationships between assemblies (both within your application, and any third-party and system dependencies). Here’s an example output from analysing the S#arp Architecture project:</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/DependencyGraphSnapshot.png"></p>
+<p>The <strong>Dependency Matrix</strong> cross-tabulates all the references between assemblies, allowing for drilling down to member level. Remember all those dictats you issued to the dev team in your coding standards, such as “don’t reference the data layer from the front-end”? Well, this is the window you’ll use for ensuring that the team are abiding by such rules. Usefully, cyclical references between namespaces are particularly highlighted.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NDependMatrix_2.png"></p>
+<p>The <strong>Metrics Window</strong> is where I tend to spend most of my time, using the inbuilt CQL (Code Query Language) to identify areas of the codebase which are ripe for refactoring. This area of the tool is like FxCop on steroids.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NDependMetrics_2.png"></p>
 <p>I’m also a big fan of the <strong>Changes Explorer</strong> functionality, which highlights at a glance the changes made between any two builds of an application. Also the ability to import <strong>Code Coverage</strong> files from NCover or Visual Studio Team System, to similarly highlight the areas of a solution which are adequately covered by <a href="https://blog.iannelson.uk/12-reasons-why-i-love-unit-tests/">unit tests</a>.</p>
-<h4 id="real-world-benefits">Real-World Benefits</h4>
+<h2 id="real-world-benefits">Real-World Benefits</h2>
 <p>NDepend is useful when looking at your own code, but really comes into its own when you want to quickly grok a codebase developed by someone else. Here’s an example:</p>
 <p>My current client have the IP rights to a bespoke .NET application which has been developed for them by a third party. They plan to bring the development of this application in house, and recently asked me to take a look through the source and feed back my thoughts on the architecture.</p>
 <p>Initially, I made the mistake of doing this code review solely by looking at the code itself, through the IDE. I was impressed – the code was exceedingly clean, the solution well-structured, and everything looked very straightforward. The object model was mapped to the database using <a href="https://blog.iannelson.uk/on-the-joys-of-object-relational-mapping/">NHibernate</a>, which in turn was abstracted from the appliation code by a standard DAO pattern. So far so good, and I was about to email a thumbs-up.</p>
 <p>But I smelled a rat – the code was almost too clean, and I couldn’t find the actual meat of the business logic. So, I whipped out NDepend (which I really should have done initially), ran an analysis, and realised that the cleanliness and simplicity of the middle tier was due to over two-thirds of the solution logic existing in the user interface layer! In fact 28% of the IL instructions from the entire solution were contained in the code-behind of just three web pages. It was a classic example of the <a href="http://en.wikipedia.org/wiki/Magic_pushbutton">magic pushbutton anti-pattern</a>, and I very nearly failed to spot it.</p>
-<h4 id="tmi">TMI?</h4>
-<p>If I had to identify a drawback to NDepend, it is the risk that much of the output information may be meaningless to the average .NET developer. Returning to my earlier medical analogies, an X-Ray or MRI Scan is useless in itself until it is viewed by a medical professional with the knowledge and experience to interpret the results.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<h2 id="tmi">TMI?</h2>
+<p>If I had to identify a drawback to NDepend, it is the risk that much of the output information may be meaningless to the average .NET developer. Returning to my earlier medical analogies, an X-Ray or MRI Scan is useless in itself until it is viewed by a medical professional with the knowledge and experience to interpret the results.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000005830514XSmall_2-1.jpg"></p>
 <p>This potential problem is somewhat alleviated by the explanatory videos, <a href="http://codebetter.com/blogs/patricksmacchia/">Patrick’s extensive blogging</a>, and indeed the range of predefined CQL queries which serve to interpret the results and highlight potential problems. Even so, I suspect NDepend is more likely to be found in the toolkit of the architect or lead developer rather than the hobbyist – especially given the EUR 299 price tag for a professional license.</p>
-<h4 id="final-thoughts">Final Thoughts</h4>
+<h2 id="final-thoughts">Final Thoughts</h2>
 <p>To summarise, NDepend provides a short-cut to quickly understanding a .NET codebase and identifying potential improvements. If the quality of your code is important to you, or you frequently have to review code developed by other people, then I think you’ll find NDepend to be indispensable.</p>
 <p><em>Disclaimer: Ian Nelson was provided with a complementary review copy of NDepend Professional version 2.0, and has subsequently paid for later editions of the software.</em></p>
 ]]></content:encoded>
@@ -2844,8 +2856,7 @@ tle doubt. I didn’t share these timings with Jocelyn, but I’m sure she was w
       <link>https://blog.iannelson.uk/net-coding-standards/</link>
       <pubDate>Fri, 23 Jan 2009 15:01:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/net-coding-standards/</guid>
-      <description>&lt;p&gt;Sometimes, when you join a new team as a .NET developer, the team lead proudly points you in the direction of a Word document or wiki page detailing the team’s house coding standards.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+      <description>&lt;p&gt;Sometimes, when you join a new team as a .NET developer, the team lead proudly points you in the direction of a Word document or wiki page detailing the team’s house coding standards.&lt;/p&gt;
 &lt;p&gt;In my experience, these documents are invariably:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Incomplete.&lt;/li&gt;
@@ -2855,8 +2866,7 @@ tle doubt. I didn’t share these timings with Jocelyn, but I’m sure she was w
 &lt;li&gt;Obsessed with the trivial (e.g. whitespace) while failing to mention the genuinely useful (e.g. boxing/unboxing, avoiding use of deprecated classes, Dispose pattern, etc).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;I know this because I’ve been involved in creating such documents in the past 🙂&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Sometimes, when you join a new team as a .NET developer, the team lead proudly points you in the direction of a Word document or wiki page detailing the team’s house coding standards.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+      <content:encoded><![CDATA[<p>Sometimes, when you join a new team as a .NET developer, the team lead proudly points you in the direction of a Word document or wiki page detailing the team’s house coding standards.</p>
 <p>In my experience, these documents are invariably:</p>
 <ul>
 <li>Incomplete.</li>
@@ -2869,17 +2879,17 @@ tle doubt. I didn’t share these timings with Jocelyn, but I’m sure she was w
 <p>Don’t get me wrong, I’m all in favour of creating clean code, and promoting standards within a team. I just find that most in-house style guides fail to achieve this, for the reasons listed above.</p>
 <p>So, as I was walking through the city today, I started having a little debate with myself. “OK then, smarty-pants. What’s your alternative? What would your in-house coding standards guidelines look like?”</p>
 <p>I think it can be summarised by four simple points, listed in order of importance:</p>
-<p><strong>1. Don’t Ignore Compiler Warnings</strong></p>
+<h2 id="1-dont-ignore-compiler-warnings">1. Don’t Ignore Compiler Warnings</h2>
 <p>You might think this would be an obvious one, but I’ve lost count of the number of times I’ve retrieved a solution from source control, compiled it, and been presented with a list of compiler warnings. Most of the time, there’s no excuse for this. If the <em>compiler</em> smells a rat in your code, then you’ve got a problem, be it variables that are used without being initialized, unused variables, unreachable code, or whatever. It’s sloppy code, and it’s easily avoided, so don’t leave it for the next guy to clean up. I am, if you hadn’t guessed, a big fan of setting the “treat compiler warnings as errors” flag in a project’s build properties.</p>
-<p><strong>2. Follow the Framework Design Guidelines</strong></p>
+<h2 id="2-follow-the-framework-design-guidelines">2. Follow the Framework Design Guidelines</h2>
 <p>The <a href="http://www.amazon.co.uk/gp/product/0321545613?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0321545613">Framework Design Guidelines</a> is another one of those books whose name doesn’t do it justice. The sagely guidance it contains is appropriate not only to Microsofties developing the FCL itself, but to anyone writing any .NET code. Don’t let your developers near a copy of Visual Studio until they’ve provided a sworn affidavit confirming that they’ve read this book! 🙂</p>
 <p>All of the guidelines are concisely boiled down into Do, Consider, Avoid, and Do Not recommendations, and you would do well to adhere to these. Getting a few copies of this book for your team is a much more effective and cost-effective approach than trying to develop your own coding standards.</p>
-<p><strong>3. Run FxCop</strong></p>
+<h2 id="3-run-fxcop">3. Run FxCop</h2>
 <p>Having read and digested the Framework Design Guidelines, you need an easy way to enforce them. This is best achieved by running <a href="http://www.amazon.co.uk/gp/product/0321545613?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0321545613">FxCop</a> against your code (now integrated into some of the Visual Studio SKUs as a “Code Analysis” option).</p>
 <p>Depending on the target audience for your solution, you may consider it reasonable to ignore some of the localization recommendations (i.e. when developing in-house line of business applications with limited geographical reach). But generally, if FxCop flags a warning in your code, I believe you would be well advised to correct the problem. Doing this helps to avoid a wide range of performance, security and design issues, in addition to enforcing consistent source code conventions.</p>
-<p><strong>4. Run StyleCop</strong></p>
+<h2 id="4-run-stylecop">4. Run StyleCop</h2>
 <p>Finally, if you simply must achieve that uniform source code appearance that the whitespace Nazis in every team strive for, consider requiring that your devs run their code through <a href="http://code.msdn.microsoft.com/sourceanalysis">StyleCop</a> before checking in. It may initially be a bit annoying, and for sure some of the recommendations are highly subjective, but there’s no arguing that it does enforce a standard style, with a strong focus on increasing readability and reducing ambiguity.</p>
-<p><strong>And After That…?</strong></p>
+<h2 id="and-after-that">And After That…?</h2>
 <p>Following the four points above should result in the low-level codebase produced by a team being readable, of high quality, in a common style, and free of many common “gotchas”. It doesn’t validate the higher-level architectural considerations, but in my opinion that is outside the scope of such a document, and could best be achieved through the use of a tool such as <a href="https://blog.iannelson.uk/ndepend/">NDepend</a>. But that’s a topic for another post…</p>
 ]]></content:encoded>
     </item>
@@ -2957,11 +2967,11 @@ tle doubt. I didn’t share these timings with Jocelyn, but I’m sure she was w
       <guid>https://blog.iannelson.uk/performance-of-loops-on-collections/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://codebetter.com/blogs/patricksmacchia/archive/2008/11/19/an-easy-and-efficient-way-to-improve-net-code-performances.aspx&#34;&gt;Interesting article&lt;/a&gt; from &lt;a href=&#34;http://codebetter.com/blogs/patricksmacchia&#34;&gt;Patrick Smacchia&lt;/a&gt; (the &lt;a href=&#34;http://www.ndepend.com&#34;&gt;NDepend&lt;/a&gt; guy) in which he runs some benchmarks on the cost of looping in different ways over different constructs and comes to the conclusion that:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;“looping on array using for is &lt;strong&gt;5 times cheaper&lt;/strong&gt; than looping on List&lt;!-- raw HTML omitted --&gt; using foreach (which I believe, is what we all do)”&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;“looping on array using for is &lt;strong&gt;5 times cheaper&lt;/strong&gt; than looping on &lt;code&gt;List&amp;lt;T&amp;gt;&lt;/code&gt; using foreach (which I believe, is what we all do)”&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Well worth a read, although I suspect that in my solutions the bottlenecks will remain the out-of-process calls, i.e. database access and web service calls. Still, a 5x gain is not to be sniffed at.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="http://codebetter.com/blogs/patricksmacchia/archive/2008/11/19/an-easy-and-efficient-way-to-improve-net-code-performances.aspx">Interesting article</a> from <a href="http://codebetter.com/blogs/patricksmacchia">Patrick Smacchia</a> (the <a href="http://www.ndepend.com">NDepend</a> guy) in which he runs some benchmarks on the cost of looping in different ways over different constructs and comes to the conclusion that:</p>
 <blockquote>
-<p>“looping on array using for is <strong>5 times cheaper</strong> than looping on List<!-- raw HTML omitted --> using foreach (which I believe, is what we all do)”</p></blockquote>
+<p>“looping on array using for is <strong>5 times cheaper</strong> than looping on <code>List&lt;T&gt;</code> using foreach (which I believe, is what we all do)”</p></blockquote>
 <p>Well worth a read, although I suspect that in my solutions the bottlenecks will remain the out-of-process calls, i.e. database access and web service calls. Still, a 5x gain is not to be sniffed at.</p>
 <p><a href="http://codebetter.com/blogs/patricksmacchia/archive/2008/11/19/an-easy-and-efficient-way-to-improve-net-code-performances.aspx">Patrick Smacchia – An easy and efficient way to improve .NET code performance</a>.</p>
 ]]></content:encoded>
@@ -2975,36 +2985,36 @@ tle doubt. I didn’t share these timings with Jocelyn, but I’m sure she was w
 &lt;p&gt;In these situations, I try my best to lead by example, continuing to practise TDD on any new code that I cut, and insisting on covering with unit tests any pre-existing code which I have to modify. Sooner or later, this prompts someone to ask why I am doing this (often insinuating that I am wasting my time, and by implication the client’s money). At that point, flustered, I invariably struggle to remember or adequately articulate the many and various ways in which unit testing makes me a better developer. So, consider this blog post a personal aide-mémoire to help me the next time this occurs (as well as being a homage to &lt;a href=&#34;http://uk.youtube.com/watch?v=DW1AHrTNBao&#34;&gt;Jake Shillingford’s second-best song&lt;/a&gt;).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>On my continuing journey through this thrilling world of professional software development, I frequently encounter teams who hold no truck with this crazy new-fangled concept of unit testing. Heck, truth be told, I sometimes come across teams who don’t use <em>source control</em>, but that’s by the bye.</p>
 <p>In these situations, I try my best to lead by example, continuing to practise TDD on any new code that I cut, and insisting on covering with unit tests any pre-existing code which I have to modify. Sooner or later, this prompts someone to ask why I am doing this (often insinuating that I am wasting my time, and by implication the client’s money). At that point, flustered, I invariably struggle to remember or adequately articulate the many and various ways in which unit testing makes me a better developer. So, consider this blog post a personal aide-mémoire to help me the next time this occurs (as well as being a homage to <a href="http://uk.youtube.com/watch?v=DW1AHrTNBao">Jake Shillingford’s second-best song</a>).</p>
-<p><strong>1. I know that my code works.</strong></p>
+<h2 id="1-i-know-that-my-code-works">1. I know that my code works</h2>
 <p>Let’s get the obvious one out of the way first. If I take the time to write unit tests for my code, then I know that the code “works” (i.e. that it behaves as I intended, or hopefully as the specification requested). Any time I want to check that my code works, I can do so with a few clicks. The confidence and feeling of well-being that this brings can’t be underestimated. If you don’t have unit tests, how do you know that your code works?</p>
-<p><strong>2. I know when I’m finished.</strong></p>
+<h2 id="2-i-know-when-im-finished">2. I know when I’m finished</h2>
 <p>As you’ll know if you’ve read my <a href="https://blog.iannelson.uk/remember-the-milk/">post professing my undying love for Remember The Milk</a>, I’m fond of organising my life through to-do lists. When I’m developing software, the unit tests that I create before developing the code act as my to-do list, help me focus on what it is that I’m trying to achieve, without getting distracted making unrelated changes to the codebase. When all the tests go green, I know I’m done and can move on to the next task.</p>
-<p><strong>3. I can develop cleaner APIs.</strong></p>
+<h2 id="3-i-can-develop-cleaner-apis">3. I can develop cleaner APIs</h2>
 <p>I’m not much of a UI developer; I spend much more of my time working in the middle tier, making class libraries, object models, WCF services and the like. When practicing TDD, I write tests to consume my code before I write the code itself. This forces me to think about things like method signatures and member visibility. Should that method really be public? Do I really need that “out” parameter? Will all those overloads get used? If I didn’t write tests for the middle tier in this way, I wouldn’t consider these questions in quite so much detail, and these issues wouldn’t come to light until I (or worse, someone else), began consuming my code for real.</p>
-<p><strong>4. Testable code is well-designed code.</strong></p>
+<h2 id="4-testable-code-is-well-designed-code">4. Testable code is well-designed code</h2>
 <p>This one came as an unexpected surprise to me after I had been writing unit tests for a while and forced myself to make the effort to test code which I initially felt was difficult to test.</p>
 <p>It turns out that many of the techniques which can be used to make code more testable are the exact same techniques which make code better designed, understandable, flexible and maintainable.</p>
 <p>Be honest, when you’re cutting code, how often do you consider things like Low Coupling, High Cohesion, and adhering to the Single Responsibility Principle? Probably not often, I’ll bet. I know I didn’t. But since I started asking myself “How can I make this code testable?” I’ve been delighted to realise that my code magically acquired these properties as a pleasant side effect. Similarly, using techniques like Dependency Injection and Inversion of Control along with Mocking Frameworks for the purposes of testability also serves to make the solution more open to change, and reduces dependencies during the development process (no longer do you hear “Gee boss, I’d love to get started writing the Foo class, but it depends on the Bar class, and Dave hasn’t finished writing that, what with the accident with the bus and all…”).</p>
-<p><strong>5. I can refactor mercilessly and fearlessly.</strong></p>
+<h2 id="5-i-can-refactor-mercilessly-and-fearlessly">5. I can refactor mercilessly and fearlessly</h2>
 <blockquote>
 <p>“Nel-son!!”</p></blockquote>
 <p>I like refactoring. No, wait, scrub that – I <em>love</em> refactoring. Some people get their kicks from gardening, well, I could spend many happy hours weeding a big tangled codebase. Now, in the past, this has gotten me into trouble, when the “improvements” I’ve rashly made have inadvertently caused bugs (sorry John, Sion, Scott and Colin!). Since adopting TDD however, I’ve been confident that my code is sufficiently covered by unit tests that I may refactor mercilessly, safe in the knowledge that the test suite will highlight any unintended side effects. This results in a winning combination of clean code and co-workers who don’t have an urge to throttle me.</p>
-<p><strong>6. I Release Fewer Stupid Mistakes.</strong></p>
+<h2 id="6-i-release-fewer-stupid-mistakes">6. I Release Fewer Stupid Mistakes</h2>
 <blockquote>
 <p>“Ah, yeah, silly me, I just copied-and-pasted a line in the DAL, and now all your customers are displaying as having the same forename and surname! Smith Smith, Brown Brown, ha ha!”</p></blockquote>
 <p>Perversely, some coders seem to wear their really dumb mistakes as a “badge of honour”, proof of their fallibility, a sign that they are human. It’s as if they are suggesting to their boss/client not to worry, that they <em>only</em> make dumb mistakes on the easy code, but concentrate much harder when coding the tough algorithms. Honest, guv’.</p>
 <p>I don’t buy this crap. Stupid mistakes are stupid mistakes, period. I think that dumb mistakes, uncaught at an early stage, waste the time of the test team, result in rework, and ultimately waste the client’s money. That’s nothing to laugh about. Covering even the simple, easy code with unit tests reduces the likelihood of these knucklehead bugs getting through, increasing my likelihood of a “right-first-time” reputation. And <em>that’s</em> something to be proud of.</p>
-<p><strong>7. Bugs don’t come back.</strong></p>
+<h2 id="7-bugs-dont-come-back">7. Bugs don’t come back</h2>
 <blockquote>
 <p>“But I’m <em>sure</em> we fixed that bug months ago!”</p></blockquote>
 <p>Before I fix a bug, I write a failing test. That test then becomes a permanent fixture in the test suite, and therefore I can be confident that no “undead bug” will ever come back to haunt me. It’s a very simple concept, but it works. Bug reactivations imply loose development practices, and that’s not an implication I want to be made about my work. Kill the bug once, and keep it dead.</p>
-<p><strong>8. It’s the fastest way to test my changes.</strong></p>
+<h2 id="8-its-the-fastest-way-to-test-my-changes">8. It’s the fastest way to test my changes</h2>
 <p>Testing my changes through artificial unit tests is invariably quicker than testing the functionality by calling it through “real life” use of the overall system.</p>
 <p>Suppose that I’m working on amended postage charge logic for an online retailer – I could test this by either:</p>
 <p>a) Repeatedly manually walking through the application, adding a product to my basket, attempting to “check out”, and calculating whether the displayed postage charge is as I expect, or</p>
 <p>b) Writing a unit test once to automate the testing of the new logic.</p>
 <p>Gee, let me think about that for a while…</p>
-<p><strong>9. I spend more time coding, less time in the debugger.</strong></p>
+<h2 id="9-i-spend-more-time-coding-less-time-in-the-debugger">9. I spend more time coding, less time in the debugger</h2>
 <p>Stop me if this conversation sound<br>
 s at all familiar:</p>
 <blockquote>
@@ -3012,17 +3022,17 @@ s at all familiar:</p>
 <p>“Ugh, don’t ask. I spent, like, <em>seven hours</em> trying to track down a bug. I pulled out Reflector, and even started debugging into the .NET framework class library – I was convinced for a while there it was a problem in System.String. But it turned out I just had some Boolean logic the wrong way round.”</p>
 <p>“That’s nice, dear. More mange tout?”</p></blockquote>
 <p>Visual Studio has excellent debugging tools, but still, I’d rather be spending my time cutting new code, thanks all the same. I’m sure the clients who pay my invoices feel much the same. Catching the bugs early, through effective unit testing, means that I spend far less time in the debugger.</p>
-<p><strong>10. Writing documentation and sample code is boring.</strong></p>
+<h2 id="10-writing-documentation-and-sample-code-is-boring">10. Writing documentation and sample code is boring</h2>
 <p>Visiting the dentist. Cleaning the bathroom. Writing documentation. All things which I’d rather put off until tomorrow, thank you very much.</p>
 <p>If, on any given day, I have the choice between firing up Word and documenting my class library, or firing up Visual Studio and adding shiny new functionality to the same library, well, it’s no contest.</p>
 <p>But here’s the neat thing – having taken the time to create a comprehensive suite of unit tests for my own, selfish purposes, it turns out that potential consumers of my library can benefit from them as a de facto set of usage examples and documentation. Yay!</p>
-<p><strong>11. I can hand the code over to other people.</strong></p>
+<h2 id="11-i-can-hand-the-code-over-to-other-people">11. I can hand the code over to other people</h2>
 <blockquote>
 <p>“Dave’s the only person who understands that code.”</p></blockquote>
 <p>Oh really? What happens when Dave is on holiday? Or quits to get a better-paid job? Or gets hit by a bus? That’s a bit of a risk for your project, surely.</p>
 <p>Maybe you’re a Dave, and your unique knowledge of a particular system means that you only ever get to work on that one application. Shiny new projects come along, and get handed to your colleagues, because you’re too busy supporting the Legacy App From Hell, until you quit to get that better paid job, or walk in front of a bus in desperation.</p>
 <p>If, on the other hand, you’ve covered the code in unit tests, then you have effectively documented the codebase, provided example usages, and made it near-impossible for any future developers to break existing functionality due to their ignorance of the system. They can try making a change, run the unit tests, and instantly find out whether their change works. This helps to make possible <a href="http://www.extremeprogramming.org/rules/collective.html">Collective Code Ownership</a>, a variety of work for all members of the team, and no risky dependencies on Dave and his jaywalking habits.</p>
-<p><strong>12. I’m A Professional</strong></p>
+<h2 id="12-im-a-professional">12. I’m A Professional</h2>
 <p>I’ll return to what I said in the opening sentence of this article – this is <em>professional</em> software development. This isn’t just my hobby, or my day job. It’s my career, my business, my passion and the livelihood of myself and my family. I strive to improve and hopefully excel at it. All the research and my own experience suggests that practicing TDD results in fewer defects, saves time in the medium and long term, and is generally the approach to be expected of a professional. If you’re looking for a quick-fix from a cowboy contractor, go elsewhere and save yourself some money… in the short term 🙂</p>
 ]]></content:encoded>
     </item>
@@ -3038,7 +3048,6 @@ s at all familiar:</p>
 <p><img alt="Fiancee Visa!" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/fiancee-visa_18183343_o.jpg"></p>
 <p>Well, since then we’ve turned that fiancee visa into a limited leave visa, and then into a settlement visa. We have spent over £2000 on government fees for these various rubber stamps – outrageously high amounts which resulted in letters being sent to and from the Home Office. Along the way, we got married, moved house, and of course <a href="https://blog.iannelson.uk/benjamin-george-nelson/">Benjamin</a> came along to change our lives forever (in a good way, of course, Son!).</p>
 <p>But I’m proud to report that today Jocelyn collected a certificate of naturalisation from Peter Sowray, Chairman of North Yorkshire County Council, granting her full British Citizenship.</p>
-<p><img alt="British Wifey" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/british-wifey_2822763194_o.jpg"></p>
 <p>She has already put this dual nationality to good use, by this evening registering to vote in both the UK and the US! Good on ya, wifey!</p>
 ]]></content:encoded>
     </item>
@@ -3048,10 +3057,9 @@ s at all familiar:</p>
       <pubDate>Sat, 09 Aug 2008 21:08:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/whats-in-your-wallet/</guid>
       <description>&lt;p&gt;My good buddy &lt;a href=&#34;http://www.johnsadventures.com&#34;&gt;John&lt;/a&gt; just published &lt;a href=&#34;http://www.johnsadventures.com/archives/2008/08/the-contents-of-my-wallet.html&#34;&gt;a typically navel-gazing post detailing the contents of his wallet&lt;/a&gt;, and went on to invite readers to divulge details of their own &lt;em&gt;billfolds&lt;/em&gt; in what I can only presume is some cunning and evil plan for mass identity-theft 🙂&lt;/p&gt;
-&lt;p&gt;Well, as I said in the comments to John’s post, I was surprised at the quantity of sentimental knick-knacks and memorabilia he has in there, compared to the rather prosaic and functional contents of my own wallet.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+&lt;p&gt;Well, as I said in the comments to John’s post, I was surprised at the quantity of sentimental knick-knacks and memorabilia he has in there, compared to the rather prosaic and functional contents of my own wallet.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>My good buddy <a href="http://www.johnsadventures.com">John</a> just published <a href="http://www.johnsadventures.com/archives/2008/08/the-contents-of-my-wallet.html">a typically navel-gazing post detailing the contents of his wallet</a>, and went on to invite readers to divulge details of their own <em>billfolds</em> in what I can only presume is some cunning and evil plan for mass identity-theft 🙂</p>
-<p>Well, as I said in the comments to John’s post, I was surprised at the quantity of sentimental knick-knacks and memorabilia he has in there, compared to the rather prosaic and functional contents of my own wallet.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>Well, as I said in the comments to John’s post, I was surprised at the quantity of sentimental knick-knacks and memorabilia he has in there, compared to the rather prosaic and functional contents of my own wallet.</p>
 <p>The wallet itself is a simple black leather one from <a href="http://www.burberry.com">Burberry</a>, and tonight contains the following:</p>
 <ul>
 <li>£90. In case you were thinking of mugging me, you should know that I don’t usually carry nearly so much.</li>
@@ -3078,10 +3086,9 @@ s at all familiar:</p>
       <pubDate>Fri, 01 Aug 2008 16:08:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/a-keyboard-makes-a-hell-of-a-difference/</guid>
       <description>&lt;p&gt;It occurred to me recently that I’m not getting any younger, and that sitting hunched over a keyboard for a dozen hours a day will probably lead to some form of RSI sooner or later. So I started looking for ways to improve my daily working environment.&lt;/p&gt;
-&lt;p&gt;Unlike &lt;a href=&#34;http://www.johnsadventures.com/archives/2008/05/a-chair-makes-a-hell-of-a-difference.html&#34;&gt;John&lt;/a&gt;, I can’t afford a Herman Miller chair, and even if I could, I’m a freelancer rather than a telecommuter* so I would have to regularly carry the chair on the train to client sites, where they would probably ostracise me for being a weirdo who brings his own chair to the office. So I looked for something a little more portable, and decided that perhaps it was finally time for me to try one of those fancy split ergonomic keyboards that I’ve always scoffed at. After reading a few review on Amazon, I plumped for the &lt;a href=&#34;http://amzn.to/RPdDlW&#34;&gt;Microsoft Natural Ergonomic Keyboard 4000&lt;/a&gt;.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+&lt;p&gt;Unlike &lt;a href=&#34;http://www.johnsadventures.com/archives/2008/05/a-chair-makes-a-hell-of-a-difference.html&#34;&gt;John&lt;/a&gt;, I can’t afford a Herman Miller chair, and even if I could, I’m a freelancer rather than a telecommuter&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; so I would have to regularly carry the chair on the train to client sites, where they would probably ostracise me for being a weirdo who brings his own chair to the office. So I looked for something a little more portable, and decided that perhaps it was finally time for me to try one of those fancy split ergonomic keyboards that I’ve always scoffed at. After reading a few review on Amazon, I plumped for the &lt;a href=&#34;http://amzn.to/RPdDlW&#34;&gt;Microsoft Natural Ergonomic Keyboard 4000&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>It occurred to me recently that I’m not getting any younger, and that sitting hunched over a keyboard for a dozen hours a day will probably lead to some form of RSI sooner or later. So I started looking for ways to improve my daily working environment.</p>
-<p>Unlike <a href="http://www.johnsadventures.com/archives/2008/05/a-chair-makes-a-hell-of-a-difference.html">John</a>, I can’t afford a Herman Miller chair, and even if I could, I’m a freelancer rather than a telecommuter* so I would have to regularly carry the chair on the train to client sites, where they would probably ostracise me for being a weirdo who brings his own chair to the office. So I looked for something a little more portable, and decided that perhaps it was finally time for me to try one of those fancy split ergonomic keyboards that I’ve always scoffed at. After reading a few review on Amazon, I plumped for the <a href="http://amzn.to/RPdDlW">Microsoft Natural Ergonomic Keyboard 4000</a>.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>Unlike <a href="http://www.johnsadventures.com/archives/2008/05/a-chair-makes-a-hell-of-a-difference.html">John</a>, I can’t afford a Herman Miller chair, and even if I could, I’m a freelancer rather than a telecommuter<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> so I would have to regularly carry the chair on the train to client sites, where they would probably ostracise me for being a weirdo who brings his own chair to the office. So I looked for something a little more portable, and decided that perhaps it was finally time for me to try one of those fancy split ergonomic keyboards that I’ve always scoffed at. After reading a few review on Amazon, I plumped for the <a href="http://amzn.to/RPdDlW">Microsoft Natural Ergonomic Keyboard 4000</a>.</p>
 <p>I should probably mention at this point that I’ve never been formally taught to type, and I don’t touch-type in the traditional way, with fingers sticking loyally around the ASDF JKL: keys. I’ve been more of an autodidact, typing quickly but inefficiently, a few finger dancing crazily around the keys whilst the others (notably my pinkies) float lazily in the air, dreaming of the time they were once called upon to pull a wishbone or contribute to a clenched fist.</p>
 <p>This means that initially, I found adjusting to the layout of the ergonomic keyboard quite tough – I was slowed down, and had to relearn the relative positions of the keys. For a week or so, I only used the new keyboard at home, as it would have been too slow and frustrating for workaday use. But gradually I grew accustomed to it, and found that I appreciated being able to rest my palms on the wrist-rest, with fingers dropping down towards the keys courtesy of the reverse slope.</p>
 <p>So, I took a further plunge, and bought a second keyboard to take to the office. A few months more have passed, and now I can’t imagine using anything else on a daily basis. It really is more comfortable, and my shoulders and arms feel considerably more relaxed. I’m also back up to the kind of wpm that achieved on a standard keyboard.</p>
@@ -3091,9 +3098,14 @@ s at all familiar:</p>
 <p>I also appreciate the additional four buttons above the numeric keypad – putting an extra equals, parentheses and backspace where you’ll find them most useful when working with a spreadsheet or similar</p>
 <p>There are also buttons to launch a web browser, email application, navigate to a search engine, open favourites, navigate back and forth, a zoom control, and five customisable buttons – but to be honest I haven’t made use of any of these. YMMV.</p>
 <p>So, in summary – having got past those difficult early “getting to know you” dates, I now foresee a long and happy relationship with the 4000 series. And I’m sure my shoulders will be happy to hear that.</p>
-<ul>
-<li>does anybody say “telecommuter” these days?  It sounds very 1996…</li>
-</ul>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>]does anybody say “telecommuter” these days?  It sounds very 1996…&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -3107,33 +3119,33 @@ s at all familiar:</p>
       <content:encoded><![CDATA[<p><a href="http://www.tobinharris.com/2008/7/28/is-or-m-is-encouraging-db-normalization">Tobin blogged earlier this week</a> about how quality ORM tools like NHibernate make it easier to code to normalized schemas.</p>
 <p>Here’s a corollary for you: The use of ORM tools doesn’t absolve the need to maintain good database design principles, and even NHibernate won’t save you from your own stupidity.</p>
 <p>Following an application upgrade release last night, I’ve spent a disproportionate amount of today trying to debug the following exception, which appeared to originate in an area of the codebase which I personally had heavily modified:</p>
-<p>_NHibernate.HibernateException: More than one row with the given identifier was found: 42806, for class: Cmec.Core.Domain.Customer<br>
-at NHibernate.Loader.Entity.AbstractEntityLoader.Load(ISessionImplementor session, Object id, Object optionalObject, Object optionalId)<br>
-at NHibernate.Loader.Entity.AbstractEntityLoader.Load(Object id, Object optionalObject, ISessionImplementor session)<br>
-at NHibernate.Persister.Entity.AbstractEntityPersister.Load(Object id, Object optionalObject, LockMode lockMode, ISessionImplementor session)<br>
-at NHibernate.Impl.SessionImpl.DoLoad(Type theClass, Object id, Object optionalObject, LockMode lockMode, Boolean checkDeleted)<br>
-at NHibernate.Impl.SessionImpl.DoLoadByClass(Type clazz, Object id, Boolean checkDeleted, Boolean allowProxyCreation)<br>
-at NHibernate.Impl.SessionImpl.InternalLoad(Type clazz, Object id, Boolean eager, Boolean isNullable)<br>
-at NHibernate.Type.EntityType.ResolveIdentifier(Object id, ISessionImplementor session, Object owner)<br>
-at NHibernate.Impl.SessionImpl.InitializeEntity(Object obj)<br>
-at NHibernate.Loader.Loader.InitializeEntitiesAndCollections(IList hydratedObjects, Object resultSetId, ISessionImplementor session)<br>
-at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)<br>
-at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)<br>
-at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)<br>
-at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)<br>
-at NHibernate.Hql.Classic.QueryTranslator.List(ISessionImplementor session, QueryParameters queryParameters)<br>
-at NHibernate.Impl.SessionImpl.Find(String query, QueryParameters parameters, IList results)<br>
-at NHibernate.Impl.SessionImpl.Find[T](String query, QueryParameters parameters)<br>
-at NHibernate.Impl.QueryImpl.List[T]()<br>
-at Ventura.NHibernate.Data.DaoBase`2.GetByHql(String hql, String[] <em>params)<br>
-at Cmec.Data.CorrespondenceRequestDao.GetCorrespondenceExtractRequests()<br>
-at Cmec.Core.Tasks.CorrespondenceExtractCreationTask.TaskProcess()<br>
-at Cmec.Core.Tasks.BaseTask.PerformTask()<br>
-at CmecService.CmecService._timer_Tick(Object state)</em></p>
-<p>Got that?  NHibernate is telling me that it has found two customers on the database with the same surrogate primary key, which is obviously not the case.</p>
+<pre tabindex="0"><code>NHibernate.HibernateException: More than one row with the given identifier was found: 42806, for class: Cmec.Core.Domain.Customer  
+at NHibernate.Loader.Entity.AbstractEntityLoader.Load(ISessionImplementor session, Object id, Object optionalObject, Object optionalId)  
+at NHibernate.Loader.Entity.AbstractEntityLoader.Load(Object id, Object optionalObject, ISessionImplementor session)  
+at NHibernate.Persister.Entity.AbstractEntityPersister.Load(Object id, Object optionalObject, LockMode lockMode, ISessionImplementor session)  
+at NHibernate.Impl.SessionImpl.DoLoad(Type theClass, Object id, Object optionalObject, LockMode lockMode, Boolean checkDeleted)  
+at NHibernate.Impl.SessionImpl.DoLoadByClass(Type clazz, Object id, Boolean checkDeleted, Boolean allowProxyCreation)  
+at NHibernate.Impl.SessionImpl.InternalLoad(Type clazz, Object id, Boolean eager, Boolean isNullable)  
+at NHibernate.Type.EntityType.ResolveIdentifier(Object id, ISessionImplementor session, Object owner)  
+at NHibernate.Impl.SessionImpl.InitializeEntity(Object obj)  
+at NHibernate.Loader.Loader.InitializeEntitiesAndCollections(IList hydratedObjects, Object resultSetId, ISessionImplementor session)  
+at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)  
+at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)  
+at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)  
+at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)  
+at NHibernate.Hql.Classic.QueryTranslator.List(ISessionImplementor session, QueryParameters queryParameters)  
+at NHibernate.Impl.SessionImpl.Find(String query, QueryParameters parameters, IList results)  
+at NHibernate.Impl.SessionImpl.Find\[T\](String query, QueryParameters parameters)  
+at NHibernate.Impl.QueryImpl.List\[T\]()  
+at Ventura.NHibernate.Data.DaoBase\`2.GetByHql(String hql, String[] _params)  
+at Cmec.Data.CorrespondenceRequestDao.GetCorrespondenceExtractRequests()  
+at Cmec.Core.Tasks.CorrespondenceExtractCreationTask.TaskProcess()  
+at Cmec.Core.Tasks.BaseTask.PerformTask()  
+at CmecService.CmecService.\_timer\_Tick(Object state)
+</code></pre><p>Got that?  NHibernate is telling me that it has found two customers on the database with the same surrogate primary key, which is obviously not the case.</p>
 <p>Trusting NHibernate as I do, and not generally being the kind of coder who assumes that the technology is to blame, I then spent literally hours digging through my amended code, trying to figure out what nonsense I could be trying to pull that was confusing NHibernate so, but found nothing.</p>
-<p>Too late in the day, I dusted down Occam’s trusty razor, and realised that whilst the main Customers table was correctly enforcing primary keys, I hadn’t checked the various child tables. Lo and behold, less than a minute later I found the following reference data in an innocuous looking table of referrers:<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>Too late in the day, I dusted down Occam’s trusty razor, and realised that whilst the main Customers table was correctly enforcing primary keys, I hadn’t checked the various child tables. Lo and behold, less than a minute later I found the following reference data in an innocuous looking table of referrers:</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/pkviolation.png"></p>
 <p>Removing the duplicated entry for “Other”, which was incorrectly using the same ID as “Website”, solved my problems instantly. And needless to say, I’ve made a note to go add a primary key to that table at the earliest opportunity.</p>
 <p>The moral of this cautionary tale – using an ORM makes your life as an application developer easier, makes it faster to develop a DAL, and (to a large extent) decouples your application from your choice of database. What it doesn’t do is allow you to forget the tenets of good database design, in fact as Tobin points out it actually serves to encourage them.</p>
 ]]></content:encoded>
@@ -3144,25 +3156,22 @@ at CmecService.CmecService._timer_Tick(Object state)</em></p>
       <pubDate>Thu, 26 Jun 2008 06:06:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/remember-the-milk/</guid>
       <description>&lt;p&gt;In response to &lt;a href=&#34;http://blog.rememberthemilk.com/2008/05/guest-post-advanced-gtd-with-remember.html&#34;&gt;a blog post&lt;/a&gt; that I’d shared in Google Reader, &lt;a href=&#34;http://jpg1723.blogspot.com/&#34;&gt;Jez&lt;/a&gt; emailed me to ask:&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;em&gt;“Do you use &lt;a href=&#34;http://www.rememberthemilk.com&#34;&gt;RTM&lt;/a&gt;? It’s always been one of those web apps that seem really useful, but I’ve never made the leap to actually using it in anger. I suppose you need to adopt it in tandem with the five-point &lt;a href=&#34;http://en.wikipedia.org/wiki/Getting_Things_Done&#34;&gt;GTD&lt;/a&gt; philosophy to get real benefit?”&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Do you use &lt;a href=&#34;http://www.rememberthemilk.com&#34;&gt;RTM&lt;/a&gt;? It’s always been one of those web apps that seem really useful, but I’ve never made the leap to actually using it in anger. I suppose you need to adopt it in tandem with the five-point &lt;a href=&#34;http://en.wikipedia.org/wiki/Getting_Things_Done&#34;&gt;GTD&lt;/a&gt; philosophy to get real benefit?”&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;My response:&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;em&gt;“Yes, I do use RTM, and I love it. I’ve been looking for a decent way of managing my to-do lists effectively for years, and RTM really scratches that itch! I now have the web app permanently open in a Firefox tab, and use “MilkSync” to synchronize with my Pocket PC every half hour.&lt;/em&gt;&lt;/p&gt;</description>
+&lt;blockquote&gt;
+&lt;p&gt;“Yes, I do use RTM, and I love it. I’ve been looking for a decent way of managing my to-do lists effectively for years, and RTM really scratches that itch! I now have the web app permanently open in a Firefox tab, and use “MilkSync” to synchronize with my Pocket PC every half hour.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>In response to <a href="http://blog.rememberthemilk.com/2008/05/guest-post-advanced-gtd-with-remember.html">a blog post</a> that I’d shared in Google Reader, <a href="http://jpg1723.blogspot.com/">Jez</a> emailed me to ask:</p>
-<hr>
-<p><em>“Do you use <a href="http://www.rememberthemilk.com">RTM</a>? It’s always been one of those web apps that seem really useful, but I’ve never made the leap to actually using it in anger. I suppose you need to adopt it in tandem with the five-point <a href="http://en.wikipedia.org/wiki/Getting_Things_Done">GTD</a> philosophy to get real benefit?”</em></p>
-<hr>
+<blockquote>
+<p>“Do you use <a href="http://www.rememberthemilk.com">RTM</a>? It’s always been one of those web apps that seem really useful, but I’ve never made the leap to actually using it in anger. I suppose you need to adopt it in tandem with the five-point <a href="http://en.wikipedia.org/wiki/Getting_Things_Done">GTD</a> philosophy to get real benefit?”</p></blockquote>
 <p>My response:</p>
-<hr>
-<p><em>“Yes, I do use RTM, and I love it. I’ve been looking for a decent way of managing my to-do lists effectively for years, and RTM really scratches that itch! I now have the web app permanently open in a Firefox tab, and use “MilkSync” to synchronize with my Pocket PC every half hour.</em></p>
-<p><em>I’m not sure that you need to adopt a particular task-management philosophy in order to get benefit – RTM is flexible enough to allow you to work the way you want to. I started off pretty basic, with just three lists, one each for personal, business, and current client tasks. But recently (having read <a href="http://blog.rememberthemilk.com/2008/05/guest-post-advanced-gtd-with-remember.html">that article</a> and re-read the relevant bits of GTD), I have begun using tags and locations and using these to get the benefit of some smart lists. So, I’m currently on the train to work, and I can look at my “@Train” list and see at a glance the stuff tagged with “na” (for “next actions”) and a location of @Train – i.e the stuff that I can and should be doing from here!</em></p>
-<p><em>The RTM website is clean, slick, and easy to use (especially if you make the effort to memorise the keyboard shortcuts), which means there is little friction involved in maintaining your tasks during the day, which of course is vital to making any system work.
-One of the other sites that I’m logged into all day long is Gmail, and there’s a really good Firefox extension (3.0-compatible) which integrates RTM into Gmail brilliantly – RTM can even automatically create a task when you star a mail.</em></p>
-<p><em>What else?  Did I mention the API, Blackberry support, Offline access (via Google Gears), iGoogle widget, Google Calendar integration, Atom feeds, Twitter integration, Google Maps integration…..?  The list goes on – if you can think of a neat feature that you’d like to have in a web app circa 2008, chances are that RTM has it.</em></p>
-<p><em>Give it a go, but don’t blame me if you become dependent upon it!”</em></p>
-<hr>
+<blockquote>
+<p>“Yes, I do use RTM, and I love it. I’ve been looking for a decent way of managing my to-do lists effectively for years, and RTM really scratches that itch! I now have the web app permanently open in a Firefox tab, and use “MilkSync” to synchronize with my Pocket PC every half hour.</p>
+<p>I’m not sure that you need to adopt a particular task-management philosophy in order to get benefit – RTM is flexible enough to allow you to work the way you want to. I started off pretty basic, with just three lists, one each for personal, business, and current client tasks. But recently (having read <a href="http://blog.rememberthemilk.com/2008/05/guest-post-advanced-gtd-with-remember.html">that article</a> and re-read the relevant bits of GTD), I have begun using tags and locations and using these to get the benefit of some smart lists. So, I’m currently on the train to work, and I can look at my “@Train” list and see at a glance the stuff tagged with “na” (for “next actions”) and a location of @Train – i.e the stuff that I can and should be doing from here!</p>
+<p>The RTM website is clean, slick, and easy to use (especially if you make the effort to memorise the keyboard shortcuts), which means there is little friction involved in maintaining your tasks during the day, which of course is vital to making any system work.
+One of the other sites that I’m logged into all day long is Gmail, and there’s a really good Firefox extension (3.0-compatible) which integrates RTM into Gmail brilliantly – RTM can even automatically create a task when you star a mail.</p>
+<p>What else?  Did I mention the API, Blackberry support, Offline access (via Google Gears), iGoogle widget, Google Calendar integration, Atom feeds, Twitter integration, Google Maps integration…..?  The list goes on – if you can think of a neat feature that you’d like to have in a web app circa 2008, chances are that RTM has it</p>
+<p>Give it a go, but don’t blame me if you become dependent upon it!”</p></blockquote>
 <p>For the record, I have no connections with Remember The Milk other than being a very happy user of their product. And thanks to Colin for originally bringing RTM to my attention.</p>
 ]]></content:encoded>
     </item>
@@ -3171,12 +3180,12 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <link>https://blog.iannelson.uk/on-the-joys-of-object-relational-mapping/</link>
       <pubDate>Wed, 09 Apr 2008 19:04:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/on-the-joys-of-object-relational-mapping/</guid>
-      <description>&lt;p&gt;My name is Ian Nelson. I’m a recovering &lt;!-- raw HTML omitted --&gt;SQL&lt;!-- raw HTML omitted --&gt; addict. It’s been four weeks since my last stored procedure.&lt;/p&gt;
+      <description>&lt;p&gt;My name is Ian Nelson. I’m a recovering SQL addict. It’s been four weeks since my last stored procedure.&lt;/p&gt;
 &lt;p&gt;One of my reasons for &lt;a href=&#34;https://blog.iannelson.uk/going-for-it/&#34;&gt;leaving my cosy permanent job and entering the scary cut-throat world of freelancing&lt;/a&gt; was to get a broader exposure to different tools, technologies and methodologies, while remaining with my feet planted firmly in the .NET universe. So, when I got offered a position in a team who were using &lt;a href=&#34;http://subversion.tigris.org/&#34;&gt;Subversion&lt;/a&gt;, &lt;a href=&#34;http://www.castleproject.org/MonoRail/&#34;&gt;Monorail&lt;/a&gt;, &lt;a href=&#34;http://extjs.com/&#34;&gt;Ext.JS&lt;/a&gt;, &lt;a href=&#34;http://www.nunit.org&#34;&gt;NUnit&lt;/a&gt;, &lt;a href=&#34;http://www.oracle.com/database/index.html&#34;&gt;Oracle&lt;/a&gt; and &lt;a href=&#34;http://www.nhibernate.org&#34;&gt;NHibernate&lt;/a&gt;, I jumped at the opportunity.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>My name is Ian Nelson. I’m a recovering <!-- raw HTML omitted -->SQL<!-- raw HTML omitted --> addict. It’s been four weeks since my last stored procedure.</p>
+      <content:encoded><![CDATA[<p>My name is Ian Nelson. I’m a recovering SQL addict. It’s been four weeks since my last stored procedure.</p>
 <p>One of my reasons for <a href="https://blog.iannelson.uk/going-for-it/">leaving my cosy permanent job and entering the scary cut-throat world of freelancing</a> was to get a broader exposure to different tools, technologies and methodologies, while remaining with my feet planted firmly in the .NET universe. So, when I got offered a position in a team who were using <a href="http://subversion.tigris.org/">Subversion</a>, <a href="http://www.castleproject.org/MonoRail/">Monorail</a>, <a href="http://extjs.com/">Ext.JS</a>, <a href="http://www.nunit.org">NUnit</a>, <a href="http://www.oracle.com/database/index.html">Oracle</a> and <a href="http://www.nhibernate.org">NHibernate</a>, I jumped at the opportunity.</p>
-<p>Of those technologies, it’s definitely NHibernate which has most dramatically changed my perspective on how enterprise solutions can (and should) be developed. For many years now, I’ve considered deep database (particularly SQL Server) skills to be one of my core proficiencies, and have merrily spent (wasted?) countless man hours writing dreary &ldquo;plumbing&rdquo; code, by the way of <!-- raw HTML omitted -->CRUD<!-- raw HTML omitted --> stored procedures and repetitive Data Access Layers in order to persist my <!-- raw HTML omitted -->CLR<!-- raw HTML omitted --> entities to the <!-- raw HTML omitted -->RDBMS<!-- raw HTML omitted -->.</p>
-<p>Well, no longer, those days are over. I’ve seen the light and embraced the wonders of NHibernate. For those who are unfamiliar with it, NHibernate is an <a href="http://en.wikipedia.org/wiki/Object-relational_mapping">Object-Relational Mapper</a>, and is a port of a Java utility, Hibernate. The premise is beautifully simple – by decorating your objects with attributes or, more neatly, by creating <!-- raw HTML omitted -->XML<!-- raw HTML omitted --> mapping files, you define the mappings between your .NET domain objects and their persisted representation on the database. Then NHibernate handles all the grunt work of saving your objects to and from the database.</p>
+<p>Of those technologies, it’s definitely NHibernate which has most dramatically changed my perspective on how enterprise solutions can (and should) be developed. For many years now, I’ve considered deep database (particularly SQL Server) skills to be one of my core proficiencies, and have merrily spent (wasted?) countless man hours writing dreary &ldquo;plumbing&rdquo; code, by the way of CRUD stored procedures and repetitive Data Access Layers in order to persist my CLR entities to the RDBMS.</p>
+<p>Well, no longer, those days are over. I’ve seen the light and embraced the wonders of NHibernate. For those who are unfamiliar with it, NHibernate is an <a href="http://en.wikipedia.org/wiki/Object-relational_mapping">Object-Relational Mapper</a>, and is a port of a Java utility, Hibernate. The premise is beautifully simple – by decorating your objects with attributes or, more neatly, by creating XML mapping files, you define the mappings between your .NET domain objects and their persisted representation on the database. Then NHibernate handles all the grunt work of saving your objects to and from the database.</p>
 <p>Digging deeper, I discovered that NHibernate has been developed in such a way as to make it easy to embrace best practices in database access techniques. Several years ago I read through <a href="http://www.martinfowler.com">Fowler’s</a> seminal <em><a href="http://www.amazon.co.uk/gp/product/0321127420?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=6738&amp;creativeASIN=0321127420">Patterns of Enterprise Application Architecture</a></em>, and wondered how I would ever find time to develop solutions which made use of the cunning O-R behavioural patterns he described – <a href="http://martinfowler.com/eaaCatalog/lazyLoad.html">Lazy Load</a>, <a href="http://martinfowler.com/eaaCatalog/unitOfWork.html">Unit of Work</a>, <a href="http://martinfowler.com/eaaCatalog/identityMap.html">Identity Map</a>, <a href="http://martinfowler.com/eaaCatalog/queryObject.html">Query Object</a>, <a href="http://martinfowler.com/eaaCatalog/repository.html">Repository</a>, etc. I utterly failed to pick up on this paragraph on page 171:</p>
 <blockquote>
 <p><em>&ldquo;Remember that you don’t have to build a full-featured database-mapping layer. It’s a complicated beast to build, and there are products available that do this for you.&rdquo;</em></p></blockquote>
@@ -3207,10 +3216,11 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <description>&lt;p&gt;I’ve never been a fan of those &lt;a href=&#34;http://www.allposters.com/-st/Motivational-Posters_c12920_p6_.htm&#34;&gt;motivational posters&lt;/a&gt; that you see on office walls (usually in sales or marketing departments) that attempt to depict a word like “Opportunity” or “Teamwork” with a single image, usual of some nature scene or a lone individual rising above the odds to achieve a difficult goal. To my mind they always look a bit facile, glib and superficial. “Destiny” equates to a holiday villa on the Maldives?  “Integrity” is a Lion? “Success” appears to involve hang-gliding off towards the ocean in an action which brings to mind Reginald Perrin?! I demand more thought and more words from my motivational office decorations!&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I’ve never been a fan of those <a href="http://www.allposters.com/-st/Motivational-Posters_c12920_p6_.htm">motivational posters</a> that you see on office walls (usually in sales or marketing departments) that attempt to depict a word like “Opportunity” or “Teamwork” with a single image, usual of some nature scene or a lone individual rising above the odds to achieve a difficult goal. To my mind they always look a bit facile, glib and superficial. “Destiny” equates to a holiday villa on the Maldives?  “Integrity” is a Lion? “Success” appears to involve hang-gliding off towards the ocean in an action which brings to mind Reginald Perrin?! I demand more thought and more words from my motivational office decorations!</p>
 <p>For many many years, blu-tacked to my monitor at home has been an <a href="http://wilmergraphics.com/cgi-local/catalog/hazel.cgi/hzpi/u/HzSt01131116140m1117160U0n100m0m0n1513161710/hazel.cgi?action=serve&amp;item=categories/titles/inspiration1.htm#247">inspirational “wallet stuffer” by Bruce B. Wilmer</a> which was given to me by my mum. It’s a short poem entitled “Go For It!” which begins:</p>
-<p><em>“Shake off your doubts and then go for it.</em><br>
-<em>Check out your options and act.</em><br>
-<em>Find an approach to the future,</em><br>
-<em>And turn today’s dreams into fact.”</em></p>
+<blockquote>
+<p>“Shake off your doubts and then go for it.<br>
+Check out your options and act.<br>
+Find an approach to the future,<br>
+And turn today’s dreams into fact.”</p></blockquote>
 <p>I’ve seen those words on a daily basis for far too long. Today is the day that I stop simply reading them, and start acting upon them.</p>
 <p>After much deliberation, I’ve handed in my notice at Marshalls and begun setting myself up as a contractor. I have been mulling over the idea of going freelance for a long time, but have always had other distractions to worry about. Now that I’m married, settled in a new house, have obtained UK residency for Jocelyn, and baby Ben is settling down nicely, I figure that my life is finally getting to be stable and prosaic, and I should take this opportunity to stir things up a bit by handing in my notice with no certainty of regular (or indeed any) future income!</p>
 <p>I am filled with a heady mixture of trepidation and excitement. More details will, undoubtedly, appear on this blog in due course. Wish me luck!</p>
@@ -3223,8 +3233,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <guid>https://blog.iannelson.uk/inside-microsoft-sql-server-2005-the-storage-engine/</guid>
       <description>&lt;p&gt;During 2007, I unexpectedly achieved a long-held ambition by increasing the number of books I regularly read (as opposed to merely buying, then leaving them to languish on the bookcase!). I read plenty of techie books of course, but also made use of local libraries and devoured plenty of books on other subjects, and even found time for some fiction. I think having a young baby in the house was partially responsible for this achievement – not much else to do of an evening any more!&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>During 2007, I unexpectedly achieved a long-held ambition by increasing the number of books I regularly read (as opposed to merely buying, then leaving them to languish on the bookcase!). I read plenty of techie books of course, but also made use of local libraries and devoured plenty of books on other subjects, and even found time for some fiction. I think having a young baby in the house was partially responsible for this achievement – not much else to do of an evening any more!</p>
-<p>Some books were great and will remain on my shelves for years to come. Plenty others were quickly returned to the libraries, or resold on Amazon Marketplace. Either way, I figure that it might be a nice addition to the old blog if I take the time to say a few words about some of them, so let’s start with the book I’ve finished most recently.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>Some books were great and will remain on my shelves for years to come. Plenty others were quickly returned to the libraries, or resold on Amazon Marketplace. Either way, I figure that it might be a nice addition to the old blog if I take the time to say a few words about some of them, so let’s start with the book I’ve finished most recently.</p>
 <p><em>Inside Microsoft SQL Server 2005: The Storage Engine</em> by Kalen Delaney is one in a series of four books from MS Press, the other three having subtitles of <em><a href="http://www.amazon.co.uk/gp/product/0735621977?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=6738&amp;creativeASIN=0735621977">T-SQL Programming</a>, <a href="http://www.amazon.co.uk/gp/product/0735623139?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=6738&amp;creativeASIN=0735623139">T-SQL Querying</a>,</em> and <em><a href="http://www.amazon.co.uk/gp/product/0735621969?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=6738&amp;creativeASIN=0735621969">Query Tuning and Optimization</a></em>. I suspect that <em>The Storage Engine</em> is the most deep and esoteric of the four volumes, offering an insight into the architecture and inner workings of SQL Server that isn’t matched even by my old favourite <em><a href="https://blog.iannelson.uk/sql-2005-unleashed/">SQL Server 2005 Unleashed</a>.</em></p>
 <p>By no stretch of the imagination could this be considered an introduction to SQL Server, and frequently I found myself skipping forward a few pages at a time, reasoning to myself that “there is no reason why I will ever need to know this!” – indeed, plenty of the first half of the book on topics such as architecture, configuration, files, logging, and recovery, would be of more use to DBAs and sysadmins rather than developers such as myself – not that it isn’t nice to have an appreciation of these topics though.</p>
 <p>From a developer perspective, it is the second half where this book really springs to life, with three great chapters on Tables, Indexes, and Locking &amp; Concurrency. These are 235 pages of pure gold, offering to the willing reader a really <em>deep</em> understanding of what is really going on under the hood, and how exactly MSSQL goes about implementing your requests. It certainly blew apart some of my incorrect assumptions about internal table structures, and has given me a better understanding of the internal structures of clustered and nonclustered indexes.</p>
@@ -3245,8 +3254,7 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
 <p>But more than that, the quality and number of facts for many individuals has increased. This year, I’m trying to methodically work through my ancestors in a bit more detail and fill in some of the tricky gaps that I left last year when everything was new to me and there were plenty of “easy pickings” to be had.</p>
 <p>I must say, it’s sometimes quite a depressing affair, this family history research. No long-lost aristocratic lineage with associated fortunes unearthed thus far! One side of my mother’s family were steel workers in Sheffield, while the other were agricultural labourers in Lincolnshire and at one point in time five siblings from the same family died of diphtheria within a fortnight of each other.</p>
 <p>My father’s ancestors were coal-miners from Scotland, and invariably died at an early age, including my g.g.g.grandfather John Allan who died on 21st January 1863 at the age of 35 when the roof of the mine he was working in collapsed on him. Then there are all the people who never reached adulthood at all, or never married, or my great-granduncle William Henry Worfolk who <a href="http://www.cwgc.org/search/certificate.aspx?casualty=75262">died in the Battle of the Somme at the age of 20</a>. Given all these setbacks to my gene pool, it’s quite remarkable that I’m here at all!</p>
-<p><a href="https://familytree.iannelson.uk">All the details are online here</a>. Incidentally, these pages were created automatically using <a href="http://www.gedhtree.com/">GedHTree</a>, a Windows program which converts GEDCOM files into HTML pages. I have to say, it has a fugly UI (screenshot below) of the sort that tends to make the pages of <a href="http://thedailywtf.com/">The Daily WTF</a>, but once you’ve gotten used to it, it does what it says on the tin, and I’m happy to have paid for a registered copy.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p><a href="https://familytree.iannelson.uk">All the details are online here</a>. Incidentally, these pages were created automatically using <a href="http://www.gedhtree.com/">GedHTree</a>, a Windows program which converts GEDCOM files into HTML pages. I have to say, it has a fugly UI (screenshot below) of the sort that tends to make the pages of <a href="http://thedailywtf.com/">The Daily WTF</a>, but once you’ve gotten used to it, it does what it says on the tin, and I’m happy to have paid for a registered copy.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -3254,12 +3262,12 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <link>https://blog.iannelson.uk/a-linq-gotcha-first-operator/</link>
       <pubDate>Fri, 14 Dec 2007 14:12:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/a-linq-gotcha-first-operator/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;</description>
-      <content:encoded><![CDATA[<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+      <description>&lt;p&gt;So, I was using the &lt;code&gt;First&lt;/code&gt; operator to return the first item element in a sequence matching a predicate.&lt;/p&gt;
+&lt;p&gt;I expected a null to be returned if the sequence did not contain any matching elements, but found (well, Scott found) that this actually throws an InvalidOperationException.&lt;/p&gt;
+&lt;p&gt;Turns out I should have been using the &lt;code&gt;FirstOrDefault&lt;/code&gt; operator instead…&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>So, I was using the <code>First</code> operator to return the first item element in a sequence matching a predicate.</p>
+<p>I expected a null to be returned if the sequence did not contain any matching elements, but found (well, Scott found) that this actually throws an InvalidOperationException.</p>
+<p>Turns out I should have been using the <code>FirstOrDefault</code> operator instead…</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -3269,21 +3277,28 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <guid>https://blog.iannelson.uk/edge-cases/</guid>
       <description>&lt;p&gt;Ten years of professional software development have given me a healthy awareness of edge cases – I’m always trying to code defensively, validate input, catch exceptions, use assertions, and of course pick holes in sloppy specifications (“ah, but what if…”).&lt;/p&gt;
 &lt;p&gt;I must learn that these skills should not always be applied to my personal life though, as exemplified by a conversation with The Wife yesterday:&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;em&gt;Jocelyn (excitedly): “We’re going to have a ‘Secret Santa’ for all the babies in our antenatal group!”&lt;/em&gt;&lt;/p&gt;</description>
+&lt;blockquote&gt;
+&lt;p&gt;_Jocelyn (excitedly): “We’re going to have a &amp;lsquo;Secret Santa&amp;rsquo; for all the babies in our antenatal group!”&lt;br&gt;
+Me: “Huh. How does that work then?”&lt;br&gt;
+Jocelyn: “Well, we each buy a gift for under £10, put them into a bag, and each pick one.”&lt;br&gt;
+Me: “What happens if you pick out the gift you bought?”&lt;br&gt;
+Jocelyn (less excitedly): “Well, you put it back and pick another.”&lt;br&gt;
+Me: “So, you have an even number of babies in the group?”&lt;br&gt;
+Jocelyn (testily): “There are seven.”&lt;br&gt;
+Me: “Then what happens if the last person picks their own gift?”&lt;br&gt;
+Jocelyn (deflated): “Ian…!  OK, so we won’t open any gifts until they’re all selected – happy now?”&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Ten years of professional software development have given me a healthy awareness of edge cases – I’m always trying to code defensively, validate input, catch exceptions, use assertions, and of course pick holes in sloppy specifications (“ah, but what if…”).</p>
 <p>I must learn that these skills should not always be applied to my personal life though, as exemplified by a conversation with The Wife yesterday:</p>
-<hr>
-<p><em>Jocelyn (excitedly): “We’re going to have a ‘Secret Santa’ for all the babies in our antenatal group!”</em></p>
-<p><em>Me: “Huh. How does that work then?”</em></p>
-<p><em>Jocelyn: “Well, we each buy a gift for under £10, put them into a bag, and each pick one.”</em></p>
-<p><em>Me: “What happens if you pick out the gift you bought?”</em></p>
-<p><em>Jocelyn (less excitedly): “Well, you put it back and pick another.”</em></p>
-<p><em>Me: “So, you have an even number of babies in the group?”</em></p>
-<p><em>Jocelyn (testily): “There are seven.”</em></p>
-<p><em>Me: “Then what happens if the last person picks their own gift?”</em></p>
-<p><em>Jocelyn (deflated): “Ian…!  OK, so we won’t open any gifts until they’re all selected – happy now?”</em></p>
-<hr>
+<blockquote>
+<p>_Jocelyn (excitedly): “We’re going to have a &lsquo;Secret Santa&rsquo; for all the babies in our antenatal group!”<br>
+Me: “Huh. How does that work then?”<br>
+Jocelyn: “Well, we each buy a gift for under £10, put them into a bag, and each pick one.”<br>
+Me: “What happens if you pick out the gift you bought?”<br>
+Jocelyn (less excitedly): “Well, you put it back and pick another.”<br>
+Me: “So, you have an even number of babies in the group?”<br>
+Jocelyn (testily): “There are seven.”<br>
+Me: “Then what happens if the last person picks their own gift?”<br>
+Jocelyn (deflated): “Ian…!  OK, so we won’t open any gifts until they’re all selected – happy now?”</p></blockquote>
 <p>I was. In my mind this is like recursively calling an algorithm if a post-check fails. It’s an unusual approach, but it should work OK here.</p>
 ]]></content:encoded>
     </item>
@@ -3294,12 +3309,12 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <guid>https://blog.iannelson.uk/benjamin-george-nelson/</guid>
       <description>&lt;p&gt;It gives me unparalleled joy to announce the birth of Mr Benjamin George Nelson.&lt;/p&gt;
 &lt;p&gt;Following a relatively swift labour, the new arrival entered the world suddenly at York Hospital on Wednesday at 22:24 local time (&lt;a href=&#34;http://www.timeanddate.com/worldclock/fixedtime.html?day=25&amp;amp;month=7&amp;amp;year=2007&amp;amp;hour=22&amp;amp;min=24&amp;amp;sec=0&amp;amp;p1=136&#34;&gt;see this time in your time zone&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;Birth mass was 4.185 kilograms (9 pounds 3 ounces), length was 51 centimetres (20 inches).&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+&lt;p&gt;Birth mass was 4.185 kilograms (9 pounds 3 ounces), length was 51 centimetres (20 inches).&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Resting With Mum&#34; loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/resting-with-mum-2_907027345_o.jpg&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>It gives me unparalleled joy to announce the birth of Mr Benjamin George Nelson.</p>
 <p>Following a relatively swift labour, the new arrival entered the world suddenly at York Hospital on Wednesday at 22:24 local time (<a href="http://www.timeanddate.com/worldclock/fixedtime.html?day=25&amp;month=7&amp;year=2007&amp;hour=22&amp;min=24&amp;sec=0&amp;p1=136">see this time in your time zone</a>).</p>
-<p>Birth mass was 4.185 kilograms (9 pounds 3 ounces), length was 51 centimetres (20 inches).<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>Birth mass was 4.185 kilograms (9 pounds 3 ounces), length was 51 centimetres (20 inches).</p>
+<p><img alt="Resting With Mum" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/resting-with-mum-2_907027345_o.jpg"></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -3374,10 +3389,10 @@ One of the other sites that I’m logged into all day long is Gmail, and there�
       <guid>https://blog.iannelson.uk/postcode-validation/</guid>
       <description>&lt;p&gt;Wikipedia cracks me up sometimes. I’m sat here at my desk, trying to knock together some C# code to quickly validate an entered string as being a UK postcode. Naturally I turned to this &lt;a href=&#34;http://en.wikipedia.org/wiki/UK_postcodes&#34;&gt;Wikipedia article&lt;/a&gt; for assistance, where I find this quip:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;&amp;ldquo;Automatic validation of postcodes on the basis of pattern feasibility is therefore almost impossible to design, and the system contains no self-validating feature such as a check digit. &lt;strong&gt;Completely accurate validation is only possible by attempting to deliver mail to the address, and verifying with the recipient.&lt;/strong&gt;&amp;rdquo;&lt;/em&gt;&lt;/p&gt;</description>
+&lt;p&gt;&amp;ldquo;Automatic validation of postcodes on the basis of pattern feasibility is therefore almost impossible to design, and the system contains no self-validating feature such as a check digit. &lt;strong&gt;Completely accurate validation is only possible by attempting to deliver mail to the address, and verifying with the recipient.&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Wikipedia cracks me up sometimes. I’m sat here at my desk, trying to knock together some C# code to quickly validate an entered string as being a UK postcode. Naturally I turned to this <a href="http://en.wikipedia.org/wiki/UK_postcodes">Wikipedia article</a> for assistance, where I find this quip:</p>
 <blockquote>
-<p><em>&ldquo;Automatic validation of postcodes on the basis of pattern feasibility is therefore almost impossible to design, and the system contains no self-validating feature such as a check digit. <strong>Completely accurate validation is only possible by attempting to deliver mail to the address, and verifying with the recipient.</strong>&rdquo;</em></p></blockquote>
+<p>&ldquo;Automatic validation of postcodes on the basis of pattern feasibility is therefore almost impossible to design, and the system contains no self-validating feature such as a check digit. <strong>Completely accurate validation is only possible by attempting to deliver mail to the address, and verifying with the recipient.</strong>&rdquo;</p></blockquote>
 <p>I think that’s what is known as a <a href="http://en.wikipedia.org/wiki/Long_running_transaction">long-running transaction</a>!!</p>
 <p><strong>Update</strong> – the C# code that I wrote to handle this issue is available <a href="https://blog.iannelson.uk/a-c-postcode-struct-with-parser/">here</a>.</p>
 ]]></content:encoded>

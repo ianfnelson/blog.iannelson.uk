@@ -1,11 +1,11 @@
 ---
 title: Database Design – Still Important In These ORM-Obsessed Days
-
 date: 2008-07-29T16:07:00+00:00
 url: /database-design-still-important-in-these-orm-obsessed-days/
-
 categories:
   - Tech
+tags:
+  - NHibernate
 
 ---
 [Tobin blogged earlier this week][1] about how quality ORM tools like NHibernate make it easier to code to normalized schemas.
@@ -14,7 +14,8 @@ Here’s a corollary for you: The use of ORM tools doesn’t absolve the need to
 
 Following an application upgrade release last night, I’ve spent a disproportionate amount of today trying to debug the following exception, which appeared to originate in an area of the codebase which I personally had heavily modified:
 
-_NHibernate.HibernateException: More than one row with the given identifier was found: 42806, for class: Cmec.Core.Domain.Customer  
+```
+NHibernate.HibernateException: More than one row with the given identifier was found: 42806, for class: Cmec.Core.Domain.Customer  
 at NHibernate.Loader.Entity.AbstractEntityLoader.Load(ISessionImplementor session, Object id, Object optionalObject, Object optionalId)  
 at NHibernate.Loader.Entity.AbstractEntityLoader.Load(Object id, Object optionalObject, ISessionImplementor session)  
 at NHibernate.Persister.Entity.AbstractEntityPersister.Load(Object id, Object optionalObject, LockMode lockMode, ISessionImplementor session)  
@@ -36,15 +37,16 @@ at Ventura.NHibernate.Data.DaoBase\`2.GetByHql(String hql, String[] _params)
 at Cmec.Data.CorrespondenceRequestDao.GetCorrespondenceExtractRequests()  
 at Cmec.Core.Tasks.CorrespondenceExtractCreationTask.TaskProcess()  
 at Cmec.Core.Tasks.BaseTask.PerformTask()  
-at CmecService.CmecService.\_timer\_Tick(Object state)_
+at CmecService.CmecService.\_timer\_Tick(Object state)
+```
 
 Got that?  NHibernate is telling me that it has found two customers on the database with the same surrogate primary key, which is obviously not the case.
 
 Trusting NHibernate as I do, and not generally being the kind of coder who assumes that the technology is to blame, I then spent literally hours digging through my amended code, trying to figure out what nonsense I could be trying to pull that was confusing NHibernate so, but found nothing.
 
-Too late in the day, I dusted down Occam’s trusty razor, and realised that whilst the main Customers table was correctly enforcing primary keys, I hadn’t checked the various child tables. Lo and behold, less than a minute later I found the following reference data in an innocuous looking table of referrers:<figure class="kg-card kg-image-card">
+Too late in the day, I dusted down Occam’s trusty razor, and realised that whilst the main Customers table was correctly enforcing primary keys, I hadn’t checked the various child tables. Lo and behold, less than a minute later I found the following reference data in an innocuous looking table of referrers:
 
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/pkviolation.png" class="kg-image" alt loading="lazy" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/pkviolation.png)
 
 Removing the duplicated entry for “Other”, which was incorrectly using the same ID as “Website”, solved my problems instantly. And needless to say, I’ve made a note to go add a primary key to that table at the earliest opportunity.
 

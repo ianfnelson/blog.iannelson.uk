@@ -9,6 +9,187 @@
     <lastBuildDate>Sun, 04 May 2025 17:45:45 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/tags/.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Alt.Net UK In The North</title>
+      <link>https://blog.iannelson.uk/alt-net-uk-in-the-north/</link>
+      <pubDate>Sun, 19 Apr 2009 20:04:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/alt-net-uk-in-the-north/</guid>
+      <description>&lt;p&gt;I spent much of this weekend over in Bradford, talking shop with the good folks at the Alt.Net UK ‘in the North’ conference. I had a great time, learned much, and am grateful to &lt;a href=&#34;http://blogs.blackmarble.co.uk/blogs/rfennell/&#34;&gt;Richard Fennell&lt;/a&gt; of &lt;a href=&#34;http://www.blackmarble.co.uk/&#34;&gt;Black Marble&lt;/a&gt; and the other organisers and sponsors for making the event possible.&lt;/p&gt;
+&lt;p&gt;This was the first &lt;a href=&#34;https://en.wikipedia.org/wiki/Open_Space_Technology&#34;&gt;Open Spaces&lt;/a&gt; event I’ve attended, and I was pleasantly surprised at how orderly and productive the sessions turned out to be. Unlike conventional sales-pitch conferences of the MSDN roadshow variety, this was more of an open forum, with an expectation that all of the relatively small number (25ish?) of participants would, well, &lt;em&gt;participate&lt;/em&gt;!&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I spent much of this weekend over in Bradford, talking shop with the good folks at the Alt.Net UK ‘in the North’ conference. I had a great time, learned much, and am grateful to <a href="http://blogs.blackmarble.co.uk/blogs/rfennell/">Richard Fennell</a> of <a href="http://www.blackmarble.co.uk/">Black Marble</a> and the other organisers and sponsors for making the event possible.</p>
+<p>This was the first <a href="https://en.wikipedia.org/wiki/Open_Space_Technology">Open Spaces</a> event I’ve attended, and I was pleasantly surprised at how orderly and productive the sessions turned out to be. Unlike conventional sales-pitch conferences of the MSDN roadshow variety, this was more of an open forum, with an expectation that all of the relatively small number (25ish?) of participants would, well, <em>participate</em>!</p>
+<p>I was also surprised to find that there were more pragmatists in attendance than architecture astronauts. Maybe it’s a reflection of the current economic climate, but a common theme was on finding toolings that were <em>good enough</em> with which to deliver suitable solutions quickly and effectively, rather than striving for architectural purity and perfection.</p>
+<p>It was great to hear some war stories, and learn about technologies, tools, methodologies and ideas that are currently exciting other people. It would be difficult to come away from a weekend like this one without some inspiration and a big list of several things to follow up on. Here’s mine:</p>
+<ul>
+<li><strong><a href="http://www.asp.net/mvc/">MVC Framework</a></strong> – like myself, a lot of the attendees have had enough of the WebForms model, and are excited about the potential of ASP.NET MVC.</li>
+<li><strong><a href="http://fluentnhibernate.org/">Fluent NHibernate</a></strong> – it sounds like the project being feverishly worked on by <a href="http://blog.jagregory.com/">James Gregory</a> et al is ready for prime time. People spoke very positively of the ability to ditch XML HBM files in favour of this strongly-typed configuration.</li>
+<li><strong><a href="http://www.balsamiq.com/">Balsamiq Mockups</a></strong> – loved by everyone, even despite (or should that be because of?) its use of Comic Sans MS!</li>
+<li><strong>Inversion of Control</strong> – there was a wide mix of IoC containers being used. I’ve tried <a href="http://www.castleproject.org/container/index.html">Castle Windsor</a>, other people made positive murmurings about <a href="http://msdn.microsoft.com/en-us/library/cc468366.aspx">Unity</a> and <a href="http://structuremap.sourceforge.net/Default.htm">StructureMap</a>.</li>
+<li><strong><a href="http://www.typemock.com">TypeMock Isolator</a></strong> – apparently capable of mocking the unmockable.</li>
+<li><strong><a href="http://www.amazon.co.uk/gp/product/0123740371?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0123740371">Sketching User Experiences</a></strong> – everyone who’d heard of him spoke highly of Bill Buxton’s work.</li>
+<li><strong><a href="http://www.openquarters.org">Open Quarters CMS</a></strong> – a great demonstration of a CMS built on ASP.NET MVC by <a href="http://www.anthonymain.com/">Anthony Main</a> and Andrew Magee. I look forward to taking a squizz at the source, I’m sure it will be an excellent learning aid.</li>
+<li><strong><a href="http://sourceforge.net/projects/ulti-swat">SWAT</a></strong> – a web testing tool developed by some folks at Ultimate Software and released on Sourceforge as an open source project (thanks to <a href="http://mckennatribe.com/">Nick</a> for the link).</li>
+<li><strong>Wild Blue Yonder</strong> – a delicious amber ale from Oregon which was on tap at the Sir Titus Salt pub, to where we decamped after the planning session on Friday night. Yum!</li>
+</ul>
+<p>I’m probably forgetting some things, there was a lot to take in, and I regret not having a pad of paper on hand. Hopefully my memory will be jogged by the blog postings of the other attendees.</p>
+<p>Thanks again to all who made it possible, and all the attendees for quality the chat and inspiration.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>ASP.NET Just Became a Legacy Platform</title>
+      <link>https://blog.iannelson.uk/asp-net-just-became-a-legacy-platform/</link>
+      <pubDate>Sun, 22 Mar 2009 21:03:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/asp-net-just-became-a-legacy-platform/</guid>
+      <description>&lt;p&gt;One of the least surprising but more significant announcements to come out of &lt;a href=&#34;http://live.visitmix.com/&#34;&gt;Mix ‘09&lt;/a&gt; last week was the general availability of &lt;a href=&#34;http://www.asp.net/mvc/&#34;&gt;ASP.NET MVC 1.0&lt;/a&gt;. The development process for this framework has been very transparent, with no fewer than eight previews, betas and release candidates made available over the past year or so.&lt;/p&gt;
+&lt;p&gt;Microsoft are being careful to tout ASP.NET MVC as being “an alternative, not a replacement, for ASP.NET Web Forms”, but just look at their list of some of its benefits:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>One of the least surprising but more significant announcements to come out of <a href="http://live.visitmix.com/">Mix ‘09</a> last week was the general availability of <a href="http://www.asp.net/mvc/">ASP.NET MVC 1.0</a>. The development process for this framework has been very transparent, with no fewer than eight previews, betas and release candidates made available over the past year or so.</p>
+<p>Microsoft are being careful to tout ASP.NET MVC as being “an alternative, not a replacement, for ASP.NET Web Forms”, but just look at their list of some of its benefits:</p>
+<ul>
+<li>Clear separation of concerns</li>
+<li>Testability – support for Test-Driven Development</li>
+<li>Fine-grained control over HTML and JavaScript</li>
+<li>Intuitive URLs</li>
+</ul>
+<p>Which begs the question – if you were kicking off development of a new web-based application on the Microsoft platform today, why would you even consider using Web Forms? Surely the choice now boils down to Silverlight or ASP.NET MVC? I fully expect that, by the time the summer Olympics come to London, Web Forms will be considered to be a legacy platform, with job adverts referring to it as “<em>Classic ASP.NET</em>”.</p>
+<p>And that’s probably no bad thing. Sure, for those of us who lived through the static web, CGI forms and classic ASP, ASP.NET was a godsend, with its cunning state management techniques, custom controls, and page lifecycle events. But, even in the hands of decent developers, it does tend to promote a magic pushbutton anti-pattern, with untestable business logic frequently dumped in the code-behind. So, as a fanboy of OOP, TDD, and Separation of Concerns, this eventual release of ASP.NET MVC comes as a source of great pleasure to me, and means that I can look forward to many more years of enjoyably developing web apps on the MS platform.</p>
+<p>But hang on a cotton-picking minute – what exactly is truly new, here? Haven’t we been able to do MVC development on the MS platform for years, using <a href="http://www.castleproject.org/MonoRail/">Castle Monorail</a>? Well, yes we have – I had the pleasure of using it last summer when developing systems for <a href="http://www.cmoptions.org/">Child Maintenance Options</a>. And Monorail itself was inspired by <a href="http://api.rubyonrails.org/">Ruby on Rails</a>, and the J2EE platform has had <a href="http://struts.apache.org/">Apache Struts</a> for donkey’s years (I used it briefly in the summer of 2002 when developing systems for <a href="http://www.three.co.uk">Three</a>).</p>
+<p>So, if we could do this stuff already, even on the ASP.NET platform, why does the release of ASP.NET MVC still matter so much?</p>
+<p>The slightly depressing but inevitable truth is that it matters because it’s a product which has been developed by and will be fully supported by Microsoft. To many organisations, that’s reason enough to use it when they would have never in a month of Sundays considered using the likes of Monorail.</p>
+<p>As a crude indicator of popularity, consider the questions posted on <a href="http://stackoverflow.com/">Stack Overflow</a> to date. 1819 of them have been tagged “ASP.NET-MVC”, whilst a mere 22 have been tagged “Monorail” or “Castle-Monorail”.</p>
+<p>The same can be seen of many other modern technologies used in the development of custom applications. Take <a href="http://en.wikipedia.org/wiki/Object-relational_mapping">ORM</a> for example – <a href="http://www.hibernate.org/343.html">NHibernate</a> has been around for, what, around six years or so since it was originally ported from <a href="http://www.hibernate.org/">Hibernate</a> (I seem to have <a href="https://blog.iannelson.uk/nhibernate/">first mentioned it on this blog in 2004</a>). But the traction that <a href="http://msdn.microsoft.com/en-us/library/bb386976.aspx">LINQ to SQL</a> and <a href="http://msdn.microsoft.com/en-us/library/bb399572.aspx">Entity Framework</a> have garnered in their short existence has already almost outstripped the popularity of NHibernate by some metrics.</p>
+<p>Entity Framework, while not to everyone’s taste, at least has the potential to offer something quite different and distinct from NHibernate. But the same can’t be said of some other recent examples of Microsoft’s ongoing <a href="http://en.wikipedia.org/wiki/Embrace,_extend_and_extinguish">Embrace, Extend and Extinguish</a> policy – what does Visual Studio Unit Testing offer that <a href="http://www.nunit.org/index.php">NUnit</a> didn’t? Why develop the <a href="http://msdn.microsoft.com/en-us/library/cc468366.aspx">Unity Application Block</a> in a universe that already contains <a href="http://www.castleproject.org/container/index.html">Castle Windsor</a> and a plethora of other <a href="http://en.wikipedia.org/wiki/Inversion_of_Control">IoC</a> containers? How long will it be before Microsoft write their own <a href="http://en.wikipedia.org/wiki/Mock_object">mock object</a> framework? Surely they will eventually do so, to meet the demands of the large proportion of dev shops that simply won’t touch none-MS tooling.</p>
+<p>Why this should be the case, I can’t really say, but as a freelance developer I’ve seen it with my own eyes – working with organisations with technical strategies that specify the use of Microsoft technologies wherever possible, and shun the adoption of open source or third-party solutions. I hear people say “we’ll wait for Entity Framework to mature, rather than trying NHibernate”, and I see the funny stares people give me when I meekly suggest that we use <a href="http://www.codeplex.com/xunit">xUnit.Net</a> or <a href="http://code.google.com/p/moq/">Moq</a> on a project.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000004857675XSmall_3.jpg"></p>
+<p>So, perhaps we can’t entirely blame Microsoft. True, their practices do sometimes feel to be anti-competitive and limiting of choice. But they are a business after all, and are merely meeting the demands of their customers.</p>
+<p>And is it really in my best interests to complain about these practices? I am a freelance developer and Microsoft registered partner and have to be pragmatic about this. I am in business developing custom applications for the Microsoft platform, and in doing so I want to use 21st-century techniques such as ORM, the MVC pattern, unit testing, mocking, IoC, etc. If my clients are more likely to be receptive to those concepts if there exists a suitable Microsoft implementation, then so be it. But please, let me continue using NHibernate instead of Entity Framework…</p>
+<p>ASP.NET RIP. Long live ASP.NET MVC.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>NDepend</title>
+      <link>https://blog.iannelson.uk/ndepend/</link>
+      <pubDate>Wed, 04 Feb 2009 15:02:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/ndepend/</guid>
+      <description>&lt;p&gt;OK, dear readers, today I’d like to talk about tools.&lt;/p&gt;
+&lt;p&gt;Software development isn’t really so different from traditional skilled crafts in that it is important to have an understanding of the tools available to help you create a quality products in the least amount of time possible.&lt;/p&gt;
+&lt;p&gt;For .NET developers, the Visual Studio IDE is usually just the starting point, and most of us will come to rely on some of the tools listed in Scott Hanselman’s famous &lt;a href=&#34;http://www.hanselman.com/tools&#34;&gt;tools list&lt;/a&gt;. Personally, I can’t imagine coding without first installing &lt;a href=&#34;http://www.devexpress.com/refactor&#34;&gt;Refactor Pro&lt;/a&gt;, editing text files in anything other than &lt;a href=&#34;http://www.textpad.com&#34;&gt;TextPad&lt;/a&gt;, or working on a machine that doesn’t have Snag It installed.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>OK, dear readers, today I’d like to talk about tools.</p>
+<p>Software development isn’t really so different from traditional skilled crafts in that it is important to have an understanding of the tools available to help you create a quality products in the least amount of time possible.</p>
+<p>For .NET developers, the Visual Studio IDE is usually just the starting point, and most of us will come to rely on some of the tools listed in Scott Hanselman’s famous <a href="http://www.hanselman.com/tools">tools list</a>. Personally, I can’t imagine coding without first installing <a href="http://www.devexpress.com/refactor">Refactor Pro</a>, editing text files in anything other than <a href="http://www.textpad.com">TextPad</a>, or working on a machine that doesn’t have Snag It installed.</p>
+<h2 id="mri-for-your-net-application">MRI For Your .NET Application</h2>
+<p>Another one of the tools that I reach for frequently, and the subject of this blog post, is <strong><a href="http://www.ndepend.com">NDepend</a></strong>, which performs rapid static analysis of a set of .NET assemblies and provides a deliciously visual interface for interpreting and understanding the results. Through the use of this tool, architects and developers can quickly spot problems or potential areas for improvements in a codebase. It’s essentially an MRI Scanner for your .NET code!</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000004593967XSmall_2.jpg"></p>
+<h2 id="so-what-does-it-do">So.. What Does It Do?</h2>
+<p>I’ve briefly mentioned my use of NDepend before – for example I <a href="https://blog.iannelson.uk/msb3247-dependent-assembly-conflicts/">blogged in December</a> about how I was able to use NDepend to resolve an MSB3247 compiler warning which a developer was experiencing. But there’s much more to it than just helping solve simple assembly reference problems. Some of my favourite features include:</p>
+<p>An interactive <strong>Dependency Graph</strong>, giving a visual representation of the relationships between assemblies (both within your application, and any third-party and system dependencies). Here’s an example output from analysing the S#arp Architecture project:</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/DependencyGraphSnapshot.png"></p>
+<p>The <strong>Dependency Matrix</strong> cross-tabulates all the references between assemblies, allowing for drilling down to member level. Remember all those dictats you issued to the dev team in your coding standards, such as “don’t reference the data layer from the front-end”? Well, this is the window you’ll use for ensuring that the team are abiding by such rules. Usefully, cyclical references between namespaces are particularly highlighted.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NDependMatrix_2.png"></p>
+<p>The <strong>Metrics Window</strong> is where I tend to spend most of my time, using the inbuilt CQL (Code Query Language) to identify areas of the codebase which are ripe for refactoring. This area of the tool is like FxCop on steroids.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NDependMetrics_2.png"></p>
+<p>I’m also a big fan of the <strong>Changes Explorer</strong> functionality, which highlights at a glance the changes made between any two builds of an application. Also the ability to import <strong>Code Coverage</strong> files from NCover or Visual Studio Team System, to similarly highlight the areas of a solution which are adequately covered by <a href="https://blog.iannelson.uk/12-reasons-why-i-love-unit-tests/">unit tests</a>.</p>
+<h2 id="real-world-benefits">Real-World Benefits</h2>
+<p>NDepend is useful when looking at your own code, but really comes into its own when you want to quickly grok a codebase developed by someone else. Here’s an example:</p>
+<p>My current client have the IP rights to a bespoke .NET application which has been developed for them by a third party. They plan to bring the development of this application in house, and recently asked me to take a look through the source and feed back my thoughts on the architecture.</p>
+<p>Initially, I made the mistake of doing this code review solely by looking at the code itself, through the IDE. I was impressed – the code was exceedingly clean, the solution well-structured, and everything looked very straightforward. The object model was mapped to the database using <a href="https://blog.iannelson.uk/on-the-joys-of-object-relational-mapping/">NHibernate</a>, which in turn was abstracted from the appliation code by a standard DAO pattern. So far so good, and I was about to email a thumbs-up.</p>
+<p>But I smelled a rat – the code was almost too clean, and I couldn’t find the actual meat of the business logic. So, I whipped out NDepend (which I really should have done initially), ran an analysis, and realised that the cleanliness and simplicity of the middle tier was due to over two-thirds of the solution logic existing in the user interface layer! In fact 28% of the IL instructions from the entire solution were contained in the code-behind of just three web pages. It was a classic example of the <a href="http://en.wikipedia.org/wiki/Magic_pushbutton">magic pushbutton anti-pattern</a>, and I very nearly failed to spot it.</p>
+<h2 id="tmi">TMI?</h2>
+<p>If I had to identify a drawback to NDepend, it is the risk that much of the output information may be meaningless to the average .NET developer. Returning to my earlier medical analogies, an X-Ray or MRI Scan is useless in itself until it is viewed by a medical professional with the knowledge and experience to interpret the results.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000005830514XSmall_2-1.jpg"></p>
+<p>This potential problem is somewhat alleviated by the explanatory videos, <a href="http://codebetter.com/blogs/patricksmacchia/">Patrick’s extensive blogging</a>, and indeed the range of predefined CQL queries which serve to interpret the results and highlight potential problems. Even so, I suspect NDepend is more likely to be found in the toolkit of the architect or lead developer rather than the hobbyist – especially given the EUR 299 price tag for a professional license.</p>
+<h2 id="final-thoughts">Final Thoughts</h2>
+<p>To summarise, NDepend provides a short-cut to quickly understanding a .NET codebase and identifying potential improvements. If the quality of your code is important to you, or you frequently have to review code developed by other people, then I think you’ll find NDepend to be indispensable.</p>
+<p><em>Disclaimer: Ian Nelson was provided with a complementary review copy of NDepend Professional version 2.0, and has subsequently paid for later editions of the software.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>.NET Coding Standards</title>
+      <link>https://blog.iannelson.uk/net-coding-standards/</link>
+      <pubDate>Fri, 23 Jan 2009 15:01:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/net-coding-standards/</guid>
+      <description>&lt;p&gt;Sometimes, when you join a new team as a .NET developer, the team lead proudly points you in the direction of a Word document or wiki page detailing the team’s house coding standards.&lt;/p&gt;
+&lt;p&gt;In my experience, these documents are invariably:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Incomplete.&lt;/li&gt;
+&lt;li&gt;Subjective.&lt;/li&gt;
+&lt;li&gt;Not enforced.&lt;/li&gt;
+&lt;li&gt;Largely copied from the interweb.&lt;/li&gt;
+&lt;li&gt;Obsessed with the trivial (e.g. whitespace) while failing to mention the genuinely useful (e.g. boxing/unboxing, avoiding use of deprecated classes, Dispose pattern, etc).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I know this because I’ve been involved in creating such documents in the past 🙂&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Sometimes, when you join a new team as a .NET developer, the team lead proudly points you in the direction of a Word document or wiki page detailing the team’s house coding standards.</p>
+<p>In my experience, these documents are invariably:</p>
+<ul>
+<li>Incomplete.</li>
+<li>Subjective.</li>
+<li>Not enforced.</li>
+<li>Largely copied from the interweb.</li>
+<li>Obsessed with the trivial (e.g. whitespace) while failing to mention the genuinely useful (e.g. boxing/unboxing, avoiding use of deprecated classes, Dispose pattern, etc).</li>
+</ul>
+<p>I know this because I’ve been involved in creating such documents in the past 🙂</p>
+<p>Don’t get me wrong, I’m all in favour of creating clean code, and promoting standards within a team. I just find that most in-house style guides fail to achieve this, for the reasons listed above.</p>
+<p>So, as I was walking through the city today, I started having a little debate with myself. “OK then, smarty-pants. What’s your alternative? What would your in-house coding standards guidelines look like?”</p>
+<p>I think it can be summarised by four simple points, listed in order of importance:</p>
+<h2 id="1-dont-ignore-compiler-warnings">1. Don’t Ignore Compiler Warnings</h2>
+<p>You might think this would be an obvious one, but I’ve lost count of the number of times I’ve retrieved a solution from source control, compiled it, and been presented with a list of compiler warnings. Most of the time, there’s no excuse for this. If the <em>compiler</em> smells a rat in your code, then you’ve got a problem, be it variables that are used without being initialized, unused variables, unreachable code, or whatever. It’s sloppy code, and it’s easily avoided, so don’t leave it for the next guy to clean up. I am, if you hadn’t guessed, a big fan of setting the “treat compiler warnings as errors” flag in a project’s build properties.</p>
+<h2 id="2-follow-the-framework-design-guidelines">2. Follow the Framework Design Guidelines</h2>
+<p>The <a href="http://www.amazon.co.uk/gp/product/0321545613?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0321545613">Framework Design Guidelines</a> is another one of those books whose name doesn’t do it justice. The sagely guidance it contains is appropriate not only to Microsofties developing the FCL itself, but to anyone writing any .NET code. Don’t let your developers near a copy of Visual Studio until they’ve provided a sworn affidavit confirming that they’ve read this book! 🙂</p>
+<p>All of the guidelines are concisely boiled down into Do, Consider, Avoid, and Do Not recommendations, and you would do well to adhere to these. Getting a few copies of this book for your team is a much more effective and cost-effective approach than trying to develop your own coding standards.</p>
+<h2 id="3-run-fxcop">3. Run FxCop</h2>
+<p>Having read and digested the Framework Design Guidelines, you need an easy way to enforce them. This is best achieved by running <a href="http://www.amazon.co.uk/gp/product/0321545613?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0321545613">FxCop</a> against your code (now integrated into some of the Visual Studio SKUs as a “Code Analysis” option).</p>
+<p>Depending on the target audience for your solution, you may consider it reasonable to ignore some of the localization recommendations (i.e. when developing in-house line of business applications with limited geographical reach). But generally, if FxCop flags a warning in your code, I believe you would be well advised to correct the problem. Doing this helps to avoid a wide range of performance, security and design issues, in addition to enforcing consistent source code conventions.</p>
+<h2 id="4-run-stylecop">4. Run StyleCop</h2>
+<p>Finally, if you simply must achieve that uniform source code appearance that the whitespace Nazis in every team strive for, consider requiring that your devs run their code through <a href="http://code.msdn.microsoft.com/sourceanalysis">StyleCop</a> before checking in. It may initially be a bit annoying, and for sure some of the recommendations are highly subjective, but there’s no arguing that it does enforce a standard style, with a strong focus on increasing readability and reducing ambiguity.</p>
+<h2 id="and-after-that">And After That…?</h2>
+<p>Following the four points above should result in the low-level codebase produced by a team being readable, of high quality, in a common style, and free of many common “gotchas”. It doesn’t validate the higher-level architectural considerations, but in my opinion that is outside the scope of such a document, and could best be achieved through the use of a tool such as <a href="https://blog.iannelson.uk/ndepend/">NDepend</a>. But that’s a topic for another post…</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>MSB3247 – Dependent Assembly Conflicts</title>
+      <link>https://blog.iannelson.uk/msb3247-dependent-assembly-conflicts/</link>
+      <pubDate>Thu, 04 Dec 2008 21:12:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/msb3247-dependent-assembly-conflicts/</guid>
+      <description>&lt;p&gt;Earlier today a dev came over to ask me about a compiler warning he was getting when building a .NET solution:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;MSB3247: Found conflicts between different versions of the same dependent assembly.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;This is basically telling you that one project or dependency in your solution is referencing one version of an assembly, whilst another project or dependency is trying to reference a different version of the same assembly. Unhelpfully, the message and build output don’t tell you &lt;em&gt;which&lt;/em&gt; dependent assembly is causing the problem!&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Earlier today a dev came over to ask me about a compiler warning he was getting when building a .NET solution:</p>
+<blockquote>
+<p>MSB3247: Found conflicts between different versions of the same dependent assembly.</p></blockquote>
+<p>This is basically telling you that one project or dependency in your solution is referencing one version of an assembly, whilst another project or dependency is trying to reference a different version of the same assembly. Unhelpfully, the message and build output don’t tell you <em>which</em> dependent assembly is causing the problem!</p>
+<p>To solve this, I reached for <a href="http://www.ndepend.com">NDepend</a> and tried to analyze the compiled assemblies. The conflicting assemblies were both excluded from the analysis and a warning message explained that this was a clash between two versions of System.Web.Extensions.dll – 3.5.0.0 was being referenced by a Telerik UI control, and an earlier version was being used by the developer’s application. This kind of dependency clash is one potential drawback of relying too heavily on third-party controls.</p>
+<p>I was going to suggest bringing the application up to date and referencing the newer dll, but a quick squizz at NDepend’s dependency graph revealed that the Telerik assembly wasn’t actually being used by the application at all, and nor were several other referenced components! Deleting the unused references left a slightly leaner, faster-compiling solution with zero build warnings.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Performance of Loops on Collections</title>
+      <link>https://blog.iannelson.uk/performance-of-loops-on-collections/</link>
+      <pubDate>Fri, 28 Nov 2008 12:11:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/performance-of-loops-on-collections/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://codebetter.com/blogs/patricksmacchia/archive/2008/11/19/an-easy-and-efficient-way-to-improve-net-code-performances.aspx&#34;&gt;Interesting article&lt;/a&gt; from &lt;a href=&#34;http://codebetter.com/blogs/patricksmacchia&#34;&gt;Patrick Smacchia&lt;/a&gt; (the &lt;a href=&#34;http://www.ndepend.com&#34;&gt;NDepend&lt;/a&gt; guy) in which he runs some benchmarks on the cost of looping in different ways over different constructs and comes to the conclusion that:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“looping on array using for is &lt;strong&gt;5 times cheaper&lt;/strong&gt; than looping on &lt;code&gt;List&amp;lt;T&amp;gt;&lt;/code&gt; using foreach (which I believe, is what we all do)”&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Well worth a read, although I suspect that in my solutions the bottlenecks will remain the out-of-process calls, i.e. database access and web service calls. Still, a 5x gain is not to be sniffed at.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><a href="http://codebetter.com/blogs/patricksmacchia/archive/2008/11/19/an-easy-and-efficient-way-to-improve-net-code-performances.aspx">Interesting article</a> from <a href="http://codebetter.com/blogs/patricksmacchia">Patrick Smacchia</a> (the <a href="http://www.ndepend.com">NDepend</a> guy) in which he runs some benchmarks on the cost of looping in different ways over different constructs and comes to the conclusion that:</p>
+<blockquote>
+<p>“looping on array using for is <strong>5 times cheaper</strong> than looping on <code>List&lt;T&gt;</code> using foreach (which I believe, is what we all do)”</p></blockquote>
+<p>Well worth a read, although I suspect that in my solutions the bottlenecks will remain the out-of-process calls, i.e. database access and web service calls. Still, a 5x gain is not to be sniffed at.</p>
+<p><a href="http://codebetter.com/blogs/patricksmacchia/archive/2008/11/19/an-easy-and-efficient-way-to-improve-net-code-performances.aspx">Patrick Smacchia – An easy and efficient way to improve .NET code performance</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>A LINQ Gotcha – First Operator</title>
+      <link>https://blog.iannelson.uk/a-linq-gotcha-first-operator/</link>
+      <pubDate>Fri, 14 Dec 2007 14:12:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/a-linq-gotcha-first-operator/</guid>
+      <description>&lt;p&gt;So, I was using the &lt;code&gt;First&lt;/code&gt; operator to return the first item element in a sequence matching a predicate.&lt;/p&gt;
+&lt;p&gt;I expected a null to be returned if the sequence did not contain any matching elements, but found (well, Scott found) that this actually throws an InvalidOperationException.&lt;/p&gt;
+&lt;p&gt;Turns out I should have been using the &lt;code&gt;FirstOrDefault&lt;/code&gt; operator instead…&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>So, I was using the <code>First</code> operator to return the first item element in a sequence matching a predicate.</p>
+<p>I expected a null to be returned if the sequence did not contain any matching elements, but found (well, Scott found) that this actually throws an InvalidOperationException.</p>
+<p>Turns out I should have been using the <code>FirstOrDefault</code> operator instead…</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>MSDN Technical Roadshow 2007</title>
       <link>https://blog.iannelson.uk/msdn-technical-roadshow-2007/</link>
       <pubDate>Mon, 12 Mar 2007 22:03:00 +0000</pubDate>

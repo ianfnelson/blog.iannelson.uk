@@ -236,14 +236,32 @@
     <loc>https://blog.iannelson.uk/agile-yorkshire-the-pub-gojko-adzic-10th-june-2009/</loc>
     <lastmod>2025-04-23T21:18:19+01:00</lastmod>
   </url><url>
+    <loc>https://blog.iannelson.uk/tags/conferences/</loc>
+    <lastmod>2025-05-04T17:45:45+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.iannelson.uk/tags/certifications/</loc>
+    <lastmod>2025-05-04T17:45:45+01:00</lastmod>
+  </url><url>
     <loc>https://blog.iannelson.uk/ian-nelson-mcpd/</loc>
     <lastmod>2025-04-23T20:51:57+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.iannelson.uk/tags/desks/</loc>
+    <lastmod>2025-05-04T17:08:04+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/new-office-photos/</loc>
     <lastmod>2025-05-04T17:08:04+01:00</lastmod>
   </url><url>
+    <loc>https://blog.iannelson.uk/tags/nhibernate/</loc>
+    <lastmod>2025-05-04T17:08:04+01:00</lastmod>
+  </url><url>
     <loc>https://blog.iannelson.uk/nhprof-nhibernate-profiler/</loc>
     <lastmod>2025-04-23T20:51:57+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.iannelson.uk/tags/software/</loc>
+    <lastmod>2025-05-04T17:08:04+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.iannelson.uk/tags/tfs/</loc>
+    <lastmod>2025-04-26T22:25:42+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/tfs-alternative-diff-merge-tools/</loc>
     <lastmod>2025-04-23T21:18:19+01:00</lastmod>
@@ -253,6 +271,9 @@
   </url><url>
     <loc>https://blog.iannelson.uk/isla-grace-nelson/</loc>
     <lastmod>2025-05-04T17:08:04+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.iannelson.uk/tags/.net/</loc>
+    <lastmod>2025-05-04T17:45:45+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/alt-net-uk-in-the-north/</loc>
     <lastmod>2025-04-26T22:19:56+01:00</lastmod>
@@ -266,6 +287,9 @@
     <loc>https://blog.iannelson.uk/asp-net-just-became-a-legacy-platform/</loc>
     <lastmod>2025-04-23T21:18:19+01:00</lastmod>
   </url><url>
+    <loc>https://blog.iannelson.uk/tags/bugs/</loc>
+    <lastmod>2025-05-04T17:08:04+01:00</lastmod>
+  </url><url>
     <loc>https://blog.iannelson.uk/zero-interest-bug-arrives/</loc>
     <lastmod>2025-05-04T17:08:04+01:00</lastmod>
   </url><url>
@@ -277,6 +301,9 @@
   </url><url>
     <loc>https://blog.iannelson.uk/sql-server-point-in-time-restore/</loc>
     <lastmod>2025-04-26T22:25:42+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.iannelson.uk/tags/sqlserver/</loc>
+    <lastmod>2025-05-04T17:45:45+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/on-64-bit-tfs-virtualization-and-conchango-scrum/</loc>
     <lastmod>2025-04-26T22:25:42+01:00</lastmod>
@@ -293,6 +320,9 @@
     <loc>https://blog.iannelson.uk/12-reasons-why-i-love-unit-tests/</loc>
     <lastmod>2025-05-04T17:08:04+01:00</lastmod>
   </url><url>
+    <loc>https://blog.iannelson.uk/tags/testing/</loc>
+    <lastmod>2025-05-04T17:08:04+01:00</lastmod>
+  </url><url>
     <loc>https://blog.iannelson.uk/a-british-wifey/</loc>
     <lastmod>2025-04-23T21:18:19+01:00</lastmod>
   </url><url>
@@ -300,6 +330,9 @@
     <lastmod>2025-04-23T21:18:19+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/a-keyboard-makes-a-hell-of-a-difference/</loc>
+    <lastmod>2025-05-04T17:08:04+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.iannelson.uk/tags/hardware/</loc>
     <lastmod>2025-05-04T17:08:04+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/database-design-still-important-in-these-orm-obsessed-days/</loc>
@@ -310,6 +343,9 @@
   </url><url>
     <loc>https://blog.iannelson.uk/on-the-joys-of-object-relational-mapping/</loc>
     <lastmod>2025-05-04T17:08:04+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.iannelson.uk/tags/career/</loc>
+    <lastmod>2025-05-04T17:45:45+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/going-for-it/</loc>
     <lastmod>2025-04-23T21:18:19+01:00</lastmod>
@@ -338,9 +374,6 @@
     <loc>https://blog.iannelson.uk/tags/scotland/</loc>
     <lastmod>2025-05-04T17:45:45+01:00</lastmod>
   </url><url>
-    <loc>https://blog.iannelson.uk/tags/conferences/</loc>
-    <lastmod>2025-05-04T17:45:45+01:00</lastmod>
-  </url><url>
     <loc>https://blog.iannelson.uk/software-architect-2007/</loc>
     <lastmod>2025-05-04T17:45:45+01:00</lastmod>
   </url><url>
@@ -351,12 +384,6 @@
     <lastmod>2025-04-23T21:18:19+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/sql-2005-unleashed/</loc>
-    <lastmod>2025-05-04T17:45:45+01:00</lastmod>
-  </url><url>
-    <loc>https://blog.iannelson.uk/tags/sqlserver/</loc>
-    <lastmod>2025-05-04T17:45:45+01:00</lastmod>
-  </url><url>
-    <loc>https://blog.iannelson.uk/tags/.net/</loc>
     <lastmod>2025-05-04T17:45:45+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/msdn-technical-roadshow-2007/</loc>
@@ -372,12 +399,6 @@
     <lastmod>2025-05-04T17:45:45+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/spot-the-misleading-graph/</loc>
-    <lastmod>2025-05-04T17:45:45+01:00</lastmod>
-  </url><url>
-    <loc>https://blog.iannelson.uk/tags/career/</loc>
-    <lastmod>2025-05-04T17:45:45+01:00</lastmod>
-  </url><url>
-    <loc>https://blog.iannelson.uk/tags/certifications/</loc>
     <lastmod>2025-05-04T17:45:45+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/dangling-off-a-skyscraper/</loc>
@@ -476,9 +497,6 @@
     <loc>https://blog.iannelson.uk/tags/photography/</loc>
     <lastmod>2025-05-04T17:08:04+01:00</lastmod>
   </url><url>
-    <loc>https://blog.iannelson.uk/tags/software/</loc>
-    <lastmod>2025-05-04T17:08:04+01:00</lastmod>
-  </url><url>
     <loc>https://blog.iannelson.uk/asp-net-2-0-one-month-on/</loc>
     <lastmod>2025-05-04T17:08:04+01:00</lastmod>
   </url><url>
@@ -545,9 +563,6 @@
     <loc>https://blog.iannelson.uk/tech-books/</loc>
     <lastmod>2025-05-03T22:38:20+01:00</lastmod>
   </url><url>
-    <loc>https://blog.iannelson.uk/tags/testing/</loc>
-    <lastmod>2025-05-03T22:38:20+01:00</lastmod>
-  </url><url>
     <loc>https://blog.iannelson.uk/tags/xp/</loc>
     <lastmod>2025-05-03T22:38:20+01:00</lastmod>
   </url><url>
@@ -558,9 +573,6 @@
     <lastmod>2025-05-03T22:38:20+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/zetafax-999/</loc>
-    <lastmod>2025-05-03T22:38:20+01:00</lastmod>
-  </url><url>
-    <loc>https://blog.iannelson.uk/tags/bugs/</loc>
     <lastmod>2025-05-03T22:38:20+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/tags/security/</loc>
@@ -579,9 +591,6 @@
     <lastmod>2025-05-04T17:08:04+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/nhibernate/</loc>
-    <lastmod>2025-05-03T22:38:20+01:00</lastmod>
-  </url><url>
-    <loc>https://blog.iannelson.uk/tags/nhibernate/</loc>
     <lastmod>2025-05-03T22:38:20+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/ideal-world-real-world/</loc>

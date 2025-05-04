@@ -18,8 +18,6 @@ Well, since then we’ve turned that fiancee visa into a limited leave visa, and
 
 But I’m proud to report that today Jocelyn collected a certificate of naturalisation from Peter Sowray, Chairman of North Yorkshire County Council, granting her full British Citizenship.
 
-![British Wifey](https://blogstouks01.z33.web.core.windows.net/2023/08/british-wifey_2822763194_o.jpg)
-
 She has already put this dual nationality to good use, by this evening registering to vote in both the UK and the US! Good on ya, wifey!
 
  [1]: https://blog.iannelson.uk/benjamin-george-nelson/

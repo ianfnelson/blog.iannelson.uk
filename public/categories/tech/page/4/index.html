@@ -208,7 +208,7 @@ This is basically telling you that one project or dependency in your solution is
   </header>
   <div class="entry-content">
     <p>Interesting article from Patrick Smacchia (the NDepend guy) in which he runs some benchmarks on the cost of looping in different ways over different constructs and comes to the conclusion that:
-“looping on array using for is 5 times cheaper than looping on List using foreach (which I believe, is what we all do)”
+“looping on array using for is 5 times cheaper than looping on List&lt;T&gt; using foreach (which I believe, is what we all do)”
 Well worth a read, although I suspect that in my solutions the bottlenecks will remain the out-of-process calls, i.e. database access and web service calls. Still, a 5x gain is not to be sniffed at.
 ...</p>
   </div>
@@ -243,7 +243,7 @@ In these situations, I try my best to lead by example, continuing to practise TD
   </header>
   <div class="entry-content">
     <p>It occurred to me recently that I’m not getting any younger, and that sitting hunched over a keyboard for a dozen hours a day will probably lead to some form of RSI sooner or later. So I started looking for ways to improve my daily working environment.
-Unlike John, I can’t afford a Herman Miller chair, and even if I could, I’m a freelancer rather than a telecommuter* so I would have to regularly carry the chair on the train to client sites, where they would probably ostracise me for being a weirdo who brings his own chair to the office. So I looked for something a little more portable, and decided that perhaps it was finally time for me to try one of those fancy split ergonomic keyboards that I’ve always scoffed at. After reading a few review on Amazon, I plumped for the Microsoft Natural Ergonomic Keyboard 4000.
+Unlike John, I can’t afford a Herman Miller chair, and even if I could, I’m a freelancer rather than a telecommuter1 so I would have to regularly carry the chair on the train to client sites, where they would probably ostracise me for being a weirdo who brings his own chair to the office. So I looked for something a little more portable, and decided that perhaps it was finally time for me to try one of those fancy split ergonomic keyboards that I’ve always scoffed at. After reading a few review on Amazon, I plumped for the Microsoft Natural Ergonomic Keyboard 4000.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2008-08-01 16:08:00 +0000 +0000'>1 August 2008</span></footer>
@@ -317,7 +317,10 @@ One of my reasons for leaving my cosy permanent job and entering the scary cut-t
     </h2>
   </header>
   <div class="entry-content">
-    <p> </p>
+    <p>So, I was using the First operator to return the first item element in a sequence matching a predicate.
+I expected a null to be returned if the sequence did not contain any matching elements, but found (well, Scott found) that this actually throws an InvalidOperationException.
+Turns out I should have been using the FirstOrDefault operator instead…
+</p>
   </div>
   <footer class="entry-footer"><span title='2007-12-14 14:12:00 +0000 GMT'>14 December 2007</span></footer>
   <a class="entry-link" aria-label="post link to A LINQ Gotcha – First Operator" href="https://blog.iannelson.uk/a-linq-gotcha-first-operator/"></a>

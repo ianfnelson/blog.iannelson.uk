@@ -23,5 +23,4 @@ I’ve finally gotten round to processing and uploading photos from Paulo’s La
 ![](https://blogstouks01.z33.web.core.windows.net/2023/08/jim-baum_707352845_o.jpg)
 ![](https://blogstouks01.z33.web.core.windows.net/2023/08/off-to-bag-ben-more_553867968_o.jpg)
 
-
  [2]: http://www.craignure-inn.co.uk/

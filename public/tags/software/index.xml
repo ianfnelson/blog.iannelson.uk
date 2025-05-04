@@ -9,6 +9,133 @@
     <lastBuildDate>Sun, 04 May 2025 17:08:04 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/tags/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>NHProf – NHibernate Profiler</title>
+      <link>https://blog.iannelson.uk/nhprof-nhibernate-profiler/</link>
+      <pubDate>Tue, 19 May 2009 17:05:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/nhprof-nhibernate-profiler/</guid>
+      <description>&lt;p&gt;The inimitable &lt;a href=&#34;http://www.ayende.com&#34;&gt;Ayende Rahien&lt;/a&gt; is close to releasing version 1.0 of his &lt;a href=&#34;http://www.nhprof.com&#34;&gt;NHibernate Profiler&lt;/a&gt; tool, and it really is shaping up to be a rather lovely little addition to my developer toolbox.&lt;/p&gt;
+&lt;p&gt;In much the same way that we can use &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ms181091.aspx&#34;&gt;SQL Server Profiler&lt;/a&gt; to monitor database activity, and &lt;a href=&#34;http://www.red-gate.com/products/ants_performance_profiler/&#34;&gt;ANTS Profiler&lt;/a&gt; to monitor the performance and memory usage of .NET applications, NHProf profiles the activity of the data access layer (&lt;a href=&#34;http://nhforge.org&#34;&gt;NHibernate&lt;/a&gt;), and even goes as far as providing helpful hints for potential improvements.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>The inimitable <a href="http://www.ayende.com">Ayende Rahien</a> is close to releasing version 1.0 of his <a href="http://www.nhprof.com">NHibernate Profiler</a> tool, and it really is shaping up to be a rather lovely little addition to my developer toolbox.</p>
+<p>In much the same way that we can use <a href="http://msdn.microsoft.com/en-us/library/ms181091.aspx">SQL Server Profiler</a> to monitor database activity, and <a href="http://www.red-gate.com/products/ants_performance_profiler/">ANTS Profiler</a> to monitor the performance and memory usage of .NET applications, NHProf profiles the activity of the data access layer (<a href="http://nhforge.org">NHibernate</a>), and even goes as far as providing helpful hints for potential improvements.</p>
+<p>NHibernate is powerful object relational mapper, but has a (perhaps deserved) reputation for having a steep learning curve. One of its major benefits is that it abstracts away much of the drudgery of writing data access code from the developer, but as an unfortunate side effect of this it can make it easy to create inefficient data access layers.</p>
+<p>NHProf aims to reduce this risk by providing:</p>
+<blockquote>
+<p>Cognitive application awareness.</p>
+<p>Visual insight into the interaction between your database and application code.</p>
+<p>Analysis and detection of common pitfalls when using NHibernate.</p></blockquote>
+<p>Sounds good, doesn’t it? So what does that mean in practice?</p>
+<p>Here’s a screenshot of the release candidate. Note that the Session Factory Statistics functionality is disabled in the current build.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/nh1_2.png"></p>
+<p>Each profiled NHibernate session can be selected individually from the pane in the top left, and from there we can drill down to see the details of each SQL statement executed against the database (formatted in nice readable manner), along with details of any parameters, and even an option of viewing the rows resulting from the statement.</p>
+<p>The statements are interpreted, and suggestions and warnings are flagged as alerts, along with hyperlinks to online guidance explaining how the data access can be improved.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/nh2_2.png"></p>
+<p>A stack trace is also provided for each statement, allowing us to identify the code that caused the data access to occur. It’s possible to double-click on a row within this trace to jump straight to the code in Visual Studio.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/nh3_2.png"></p>
+<p>In addition to showing the SQL statements executed by each session, details of the entities loaded by each session are also given.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/nh4_2.png"></p>
+<p>…and there’s a summary of the NHibernate usage for each session.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/nh5_2.png"></p>
+<p>As well as providing session-by-session detail of what’s happening, NHProf allows us to analyse the overall activity. Here, I’m looking at unique queries containing the string “study” (note that differing parameters don’t count towards “uniqueness”):</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/nh6_2.png"></p>
+<p>We can also obtain analysis by Method, Url (for web applications) and Overall Usage statistics:</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/nh7_2.png"></p>
+<p>In my opinion NHProf has the potential to become an essential tool when creating or maintaining a solution which leverages the power of NHibernate. In addition to highlighting performance and other issues, it is a great aid when learning about NHibernate, or when familiarising oneself with an inherited solution. Overall, it’s the next best thing to having Ayende sat by your side lending a guiding hand.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>TFS: Using Alternative Diff/Merge Tools</title>
+      <link>https://blog.iannelson.uk/tfs-alternative-diff-merge-tools/</link>
+      <pubDate>Tue, 19 May 2009 07:05:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/tfs-alternative-diff-merge-tools/</guid>
+      <description>&lt;p&gt;There are many things I love about Team Foundation Server, but the supplied diff/merge tool is not one of them. It is – how can I put this? – somewhat basic. Indeed, I’ve heard tell of people going out of their way to avoid merges purely because they find the process so clunky.&lt;/p&gt;
+&lt;p&gt;Here’s the good news – you can easily configure TFS to use a different, third-party, diff/merge tool, perhaps the one you’ve grown to know and love over many years of happy software development using other SCM products. Maybe you like &lt;a href=&#34;http://winmerge.org/&#34;&gt;WinMerge&lt;/a&gt;, or love &lt;a href=&#34;http://tortoisesvn.tigris.org/TortoiseMerge.html&#34;&gt;TortoiseMerge&lt;/a&gt;. Perhaps you’re like my friend &lt;a href=&#34;http://www.johnsadventures.com&#34;&gt;John&lt;/a&gt; and swear by &lt;a href=&#34;http://www.sourcegear.com/diffmerge/downloads.html&#34;&gt;SourceGear DiffMerge&lt;/a&gt;. Or maybe, like me, you’re a &lt;a href=&#34;http://www.scootersoftware.com/&#34;&gt;Beyond Compare&lt;/a&gt; fanboy. No problem, they can all be used by TFS. Here’s how:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>There are many things I love about Team Foundation Server, but the supplied diff/merge tool is not one of them. It is – how can I put this? – somewhat basic. Indeed, I’ve heard tell of people going out of their way to avoid merges purely because they find the process so clunky.</p>
+<p>Here’s the good news – you can easily configure TFS to use a different, third-party, diff/merge tool, perhaps the one you’ve grown to know and love over many years of happy software development using other SCM products. Maybe you like <a href="http://winmerge.org/">WinMerge</a>, or love <a href="http://tortoisesvn.tigris.org/TortoiseMerge.html">TortoiseMerge</a>. Perhaps you’re like my friend <a href="http://www.johnsadventures.com">John</a> and swear by <a href="http://www.sourcegear.com/diffmerge/downloads.html">SourceGear DiffMerge</a>. Or maybe, like me, you’re a <a href="http://www.scootersoftware.com/">Beyond Compare</a> fanboy. No problem, they can all be used by TFS. Here’s how:</p>
+<ul>
+<li>Open up the Visual Studio options (<strong>Tools</strong> –&gt; <strong>Options</strong>).</li>
+<li>Expand the <strong>Source Control</strong> –&gt; <strong>Visual Studio Team Foundation Server</strong> section.</li>
+<li>Click the <strong>Configure User Tools…</strong> button:</li>
+</ul>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/dm1_4.png"></p>
+<ul>
+<li>Click the <strong>Add…</strong> button to set up a new file extension operation:</li>
+</ul>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/dm2_2.png"></p>
+<ul>
+<li>Set up a <strong>Compare</strong> operation to run against all files (extension of *:</li>
+</ul>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/dm3_3.png"></p>
+<ul>
+<li>Repeat the process to add a <strong>Merge</strong> operation to run against all file extensions.</li>
+</ul>
+<p>At this point, you’re probably thinking “wooah, what do those argument parameters mean? How do I know what to enter?”. MSDN won’t help you out (“<a href="http://msdn.microsoft.com/en-us/library/ms181446.aspx">type any arguments that your tool requires</a>” – thanks for that!).</p>
+<p>Fortunately <a href="http://blogs.msdn.com/jmanning/default.aspx">James Manning</a> has posted <a href="http://blogs.msdn.com/jmanning/articles/535573.aspx">a blog article</a> which not only explains what the argument parameters mean, but also suggests recommended parameters for various popular tools, including those mentioned at the beginning of this post. Thanks, James!</p>
+<p>Voila! <strong>OK</strong> your way back out of the dialog boxes, and your Compares and Merges will now be displayed using your favourite Diff/Merge tool. Feel your productivity and confidence soar!</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>NDepend</title>
+      <link>https://blog.iannelson.uk/ndepend/</link>
+      <pubDate>Wed, 04 Feb 2009 15:02:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/ndepend/</guid>
+      <description>&lt;p&gt;OK, dear readers, today I’d like to talk about tools.&lt;/p&gt;
+&lt;p&gt;Software development isn’t really so different from traditional skilled crafts in that it is important to have an understanding of the tools available to help you create a quality products in the least amount of time possible.&lt;/p&gt;
+&lt;p&gt;For .NET developers, the Visual Studio IDE is usually just the starting point, and most of us will come to rely on some of the tools listed in Scott Hanselman’s famous &lt;a href=&#34;http://www.hanselman.com/tools&#34;&gt;tools list&lt;/a&gt;. Personally, I can’t imagine coding without first installing &lt;a href=&#34;http://www.devexpress.com/refactor&#34;&gt;Refactor Pro&lt;/a&gt;, editing text files in anything other than &lt;a href=&#34;http://www.textpad.com&#34;&gt;TextPad&lt;/a&gt;, or working on a machine that doesn’t have Snag It installed.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>OK, dear readers, today I’d like to talk about tools.</p>
+<p>Software development isn’t really so different from traditional skilled crafts in that it is important to have an understanding of the tools available to help you create a quality products in the least amount of time possible.</p>
+<p>For .NET developers, the Visual Studio IDE is usually just the starting point, and most of us will come to rely on some of the tools listed in Scott Hanselman’s famous <a href="http://www.hanselman.com/tools">tools list</a>. Personally, I can’t imagine coding without first installing <a href="http://www.devexpress.com/refactor">Refactor Pro</a>, editing text files in anything other than <a href="http://www.textpad.com">TextPad</a>, or working on a machine that doesn’t have Snag It installed.</p>
+<h2 id="mri-for-your-net-application">MRI For Your .NET Application</h2>
+<p>Another one of the tools that I reach for frequently, and the subject of this blog post, is <strong><a href="http://www.ndepend.com">NDepend</a></strong>, which performs rapid static analysis of a set of .NET assemblies and provides a deliciously visual interface for interpreting and understanding the results. Through the use of this tool, architects and developers can quickly spot problems or potential areas for improvements in a codebase. It’s essentially an MRI Scanner for your .NET code!</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000004593967XSmall_2.jpg"></p>
+<h2 id="so-what-does-it-do">So.. What Does It Do?</h2>
+<p>I’ve briefly mentioned my use of NDepend before – for example I <a href="https://blog.iannelson.uk/msb3247-dependent-assembly-conflicts/">blogged in December</a> about how I was able to use NDepend to resolve an MSB3247 compiler warning which a developer was experiencing. But there’s much more to it than just helping solve simple assembly reference problems. Some of my favourite features include:</p>
+<p>An interactive <strong>Dependency Graph</strong>, giving a visual representation of the relationships between assemblies (both within your application, and any third-party and system dependencies). Here’s an example output from analysing the S#arp Architecture project:</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/DependencyGraphSnapshot.png"></p>
+<p>The <strong>Dependency Matrix</strong> cross-tabulates all the references between assemblies, allowing for drilling down to member level. Remember all those dictats you issued to the dev team in your coding standards, such as “don’t reference the data layer from the front-end”? Well, this is the window you’ll use for ensuring that the team are abiding by such rules. Usefully, cyclical references between namespaces are particularly highlighted.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NDependMatrix_2.png"></p>
+<p>The <strong>Metrics Window</strong> is where I tend to spend most of my time, using the inbuilt CQL (Code Query Language) to identify areas of the codebase which are ripe for refactoring. This area of the tool is like FxCop on steroids.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NDependMetrics_2.png"></p>
+<p>I’m also a big fan of the <strong>Changes Explorer</strong> functionality, which highlights at a glance the changes made between any two builds of an application. Also the ability to import <strong>Code Coverage</strong> files from NCover or Visual Studio Team System, to similarly highlight the areas of a solution which are adequately covered by <a href="https://blog.iannelson.uk/12-reasons-why-i-love-unit-tests/">unit tests</a>.</p>
+<h2 id="real-world-benefits">Real-World Benefits</h2>
+<p>NDepend is useful when looking at your own code, but really comes into its own when you want to quickly grok a codebase developed by someone else. Here’s an example:</p>
+<p>My current client have the IP rights to a bespoke .NET application which has been developed for them by a third party. They plan to bring the development of this application in house, and recently asked me to take a look through the source and feed back my thoughts on the architecture.</p>
+<p>Initially, I made the mistake of doing this code review solely by looking at the code itself, through the IDE. I was impressed – the code was exceedingly clean, the solution well-structured, and everything looked very straightforward. The object model was mapped to the database using <a href="https://blog.iannelson.uk/on-the-joys-of-object-relational-mapping/">NHibernate</a>, which in turn was abstracted from the appliation code by a standard DAO pattern. So far so good, and I was about to email a thumbs-up.</p>
+<p>But I smelled a rat – the code was almost too clean, and I couldn’t find the actual meat of the business logic. So, I whipped out NDepend (which I really should have done initially), ran an analysis, and realised that the cleanliness and simplicity of the middle tier was due to over two-thirds of the solution logic existing in the user interface layer! In fact 28% of the IL instructions from the entire solution were contained in the code-behind of just three web pages. It was a classic example of the <a href="http://en.wikipedia.org/wiki/Magic_pushbutton">magic pushbutton anti-pattern</a>, and I very nearly failed to spot it.</p>
+<h2 id="tmi">TMI?</h2>
+<p>If I had to identify a drawback to NDepend, it is the risk that much of the output information may be meaningless to the average .NET developer. Returning to my earlier medical analogies, an X-Ray or MRI Scan is useless in itself until it is viewed by a medical professional with the knowledge and experience to interpret the results.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000005830514XSmall_2-1.jpg"></p>
+<p>This potential problem is somewhat alleviated by the explanatory videos, <a href="http://codebetter.com/blogs/patricksmacchia/">Patrick’s extensive blogging</a>, and indeed the range of predefined CQL queries which serve to interpret the results and highlight potential problems. Even so, I suspect NDepend is more likely to be found in the toolkit of the architect or lead developer rather than the hobbyist – especially given the EUR 299 price tag for a professional license.</p>
+<h2 id="final-thoughts">Final Thoughts</h2>
+<p>To summarise, NDepend provides a short-cut to quickly understanding a .NET codebase and identifying potential improvements. If the quality of your code is important to you, or you frequently have to review code developed by other people, then I think you’ll find NDepend to be indispensable.</p>
+<p><em>Disclaimer: Ian Nelson was provided with a complementary review copy of NDepend Professional version 2.0, and has subsequently paid for later editions of the software.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Remember The Milk</title>
+      <link>https://blog.iannelson.uk/remember-the-milk/</link>
+      <pubDate>Thu, 26 Jun 2008 06:06:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/remember-the-milk/</guid>
+      <description>&lt;p&gt;In response to &lt;a href=&#34;http://blog.rememberthemilk.com/2008/05/guest-post-advanced-gtd-with-remember.html&#34;&gt;a blog post&lt;/a&gt; that I’d shared in Google Reader, &lt;a href=&#34;http://jpg1723.blogspot.com/&#34;&gt;Jez&lt;/a&gt; emailed me to ask:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Do you use &lt;a href=&#34;http://www.rememberthemilk.com&#34;&gt;RTM&lt;/a&gt;? It’s always been one of those web apps that seem really useful, but I’ve never made the leap to actually using it in anger. I suppose you need to adopt it in tandem with the five-point &lt;a href=&#34;http://en.wikipedia.org/wiki/Getting_Things_Done&#34;&gt;GTD&lt;/a&gt; philosophy to get real benefit?”&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;My response:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Yes, I do use RTM, and I love it. I’ve been looking for a decent way of managing my to-do lists effectively for years, and RTM really scratches that itch! I now have the web app permanently open in a Firefox tab, and use “MilkSync” to synchronize with my Pocket PC every half hour.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>In response to <a href="http://blog.rememberthemilk.com/2008/05/guest-post-advanced-gtd-with-remember.html">a blog post</a> that I’d shared in Google Reader, <a href="http://jpg1723.blogspot.com/">Jez</a> emailed me to ask:</p>
+<blockquote>
+<p>“Do you use <a href="http://www.rememberthemilk.com">RTM</a>? It’s always been one of those web apps that seem really useful, but I’ve never made the leap to actually using it in anger. I suppose you need to adopt it in tandem with the five-point <a href="http://en.wikipedia.org/wiki/Getting_Things_Done">GTD</a> philosophy to get real benefit?”</p></blockquote>
+<p>My response:</p>
+<blockquote>
+<p>“Yes, I do use RTM, and I love it. I’ve been looking for a decent way of managing my to-do lists effectively for years, and RTM really scratches that itch! I now have the web app permanently open in a Firefox tab, and use “MilkSync” to synchronize with my Pocket PC every half hour.</p>
+<p>I’m not sure that you need to adopt a particular task-management philosophy in order to get benefit – RTM is flexible enough to allow you to work the way you want to. I started off pretty basic, with just three lists, one each for personal, business, and current client tasks. But recently (having read <a href="http://blog.rememberthemilk.com/2008/05/guest-post-advanced-gtd-with-remember.html">that article</a> and re-read the relevant bits of GTD), I have begun using tags and locations and using these to get the benefit of some smart lists. So, I’m currently on the train to work, and I can look at my “@Train” list and see at a glance the stuff tagged with “na” (for “next actions”) and a location of @Train – i.e the stuff that I can and should be doing from here!</p>
+<p>The RTM website is clean, slick, and easy to use (especially if you make the effort to memorise the keyboard shortcuts), which means there is little friction involved in maintaining your tasks during the day, which of course is vital to making any system work.
+One of the other sites that I’m logged into all day long is Gmail, and there’s a really good Firefox extension (3.0-compatible) which integrates RTM into Gmail brilliantly – RTM can even automatically create a task when you star a mail.</p>
+<p>What else?  Did I mention the API, Blackberry support, Offline access (via Google Gears), iGoogle widget, Google Calendar integration, Atom feeds, Twitter integration, Google Maps integration…..?  The list goes on – if you can think of a neat feature that you’d like to have in a web app circa 2008, chances are that RTM has it</p>
+<p>Give it a go, but don’t blame me if you become dependent upon it!”</p></blockquote>
+<p>For the record, I have no connections with Remember The Milk other than being a very happy user of their product. And thanks to Colin for originally bringing RTM to my attention.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>John&#39;s Background Switcher</title>
       <link>https://blog.iannelson.uk/johns-background-switcher/</link>
       <pubDate>Sat, 10 Dec 2005 20:12:00 +0000</pubDate>

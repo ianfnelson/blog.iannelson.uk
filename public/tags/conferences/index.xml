@@ -9,6 +9,88 @@
     <lastBuildDate>Sun, 04 May 2025 17:45:45 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/tags/conferences/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Agile Yorkshire @ The Pub – Gojko Adzic, 10th June 2009</title>
+      <link>https://blog.iannelson.uk/agile-yorkshire-the-pub-gojko-adzic-10th-june-2009/</link>
+      <pubDate>Fri, 05 Jun 2009 08:06:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/agile-yorkshire-the-pub-gojko-adzic-10th-june-2009/</guid>
+      <description>&lt;p&gt;If you’re in the Leeds area next Wednesday, why not come along to this Agile Yorkshire session?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h2 id=&#34;10th-june--gojko-adzic-slim-the-future-of-fitnesse&#34;&gt;10th June – Gojko Adzic: Slim, The Future Of FitNesse&lt;/h2&gt;
+&lt;h3 id=&#34;details&#34;&gt;Details&lt;/h3&gt;
+&lt;p&gt;This talk will introduce Slim, the most important upgrade to &lt;a href=&#34;http://fitnesse.org/&#34;&gt;FitNesse&lt;/a&gt; in years. Slim is the new test runner which promises to bring platform interoperability, easier integration, a much simpler programming model and lots of small helpers that will allow us to write and maintain executable specifications and acceptance tests easier. This is a session for .NET and Java developers. Some prior exposure to FitNesse and FIT would be beneficial, but not required.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>If you’re in the Leeds area next Wednesday, why not come along to this Agile Yorkshire session?</p>
+<blockquote>
+<h2 id="10th-june--gojko-adzic-slim-the-future-of-fitnesse">10th June – Gojko Adzic: Slim, The Future Of FitNesse</h2>
+<h3 id="details">Details</h3>
+<p>This talk will introduce Slim, the most important upgrade to <a href="http://fitnesse.org/">FitNesse</a> in years. Slim is the new test runner which promises to bring platform interoperability, easier integration, a much simpler programming model and lots of small helpers that will allow us to write and maintain executable specifications and acceptance tests easier. This is a session for .NET and Java developers. Some prior exposure to FitNesse and FIT would be beneficial, but not required.</p>
+<h3 id="speaker">Speaker</h3>
+<p>Gojko Adzic is a software craftsman with a passion for new technologies, programming and writing. He runs <a href="http://neuri.co.uk/">Neuri Ltd</a>, a UK-based consultancy that helps companies build better software by introducing agile practices and tools and improving communication between software teams, stakeholders and clients. See <a href="http://gojko.net/about/">http://gojko.net/about/</a> for more details.</p>
+<p>Venue: Victoria Hotel, Central Leeds</p>
+<p>Date/Time: Wednesday, 10th June, <strong>6:30pm sharp</strong>.</p>
+<p>More details: <a href="http://www.agileyorkshire.org/">http://www.agileyorkshire.org/</a></p></blockquote>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Agile Yorkshire @ The Pub – Exploratory Testing, May 13th</title>
+      <link>https://blog.iannelson.uk/agile-yorkshire-the-pub-exploratory-testing-may-13th/</link>
+      <pubDate>Thu, 07 May 2009 11:05:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/agile-yorkshire-the-pub-exploratory-testing-may-13th/</guid>
+      <description>&lt;p&gt;If I can get a pass out from helping to look after the burgeoning Nelson family for an evening, I’ll be going along to this Agile Yorkshire session next Wednesday.&lt;/p&gt;
+&lt;h2 id=&#34;may-13th--ralph-williams-exploratory-testing&#34;&gt;May 13th – Ralph Williams: Exploratory Testing&lt;/h2&gt;
+&lt;h3 id=&#34;details&#34;&gt;Details&lt;/h3&gt;
+&lt;p&gt;In this session, Ralph will provide an overview of some techniques that bring Agility into the world of testing. (The world of testing is a strange place: regarded by most people as a nice place to visit but you wouldn’t want to live there, it is an unmapped wilderness where the waterfall methodology still roams unfettered.)&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>If I can get a pass out from helping to look after the burgeoning Nelson family for an evening, I’ll be going along to this Agile Yorkshire session next Wednesday.</p>
+<h2 id="may-13th--ralph-williams-exploratory-testing">May 13th – Ralph Williams: Exploratory Testing</h2>
+<h3 id="details">Details</h3>
+<p>In this session, Ralph will provide an overview of some techniques that bring Agility into the world of testing. (The world of testing is a strange place: regarded by most people as a nice place to visit but you wouldn’t want to live there, it is an unmapped wilderness where the waterfall methodology still roams unfettered.)</p>
+<p>The main focus will be on one such technique, Exploratory Testing. It is defined by many as “simultaneous learning, test design and test execution”, but Ralph will attempt to be more helpful. After the presentation many of you will claim this is what you have been doing all along, but now it has a fancy name you can use it without shame and companies can sell you high-priced consultancy in it.</p>
+<h3 id="speaker">Speaker</h3>
+<p>Ralph Williams is a Test Consultant at the Yorkshire Building Society, based in Bradford. The Society develops much of the application software used throughout its 140 branches and offices, and Ralph is responsible for managing the testing for some of these systems. He has previously worked in various management, testing and development roles at Erudine, Wanadoo and British Telecom, and specialises in Agile Testing and chocolate.</p>
+<p>Venue: Victoria Hotel, Central Leeds</p>
+<p>Date/Time: Wednesday, 13th May, 6.30pm for a 7.00pm start.</p>
+<p>More details: <a href="http://www.agileyorkshire.org/">http://www.agileyorkshire.org/</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Alt.Net UK In The North</title>
+      <link>https://blog.iannelson.uk/alt-net-uk-in-the-north/</link>
+      <pubDate>Sun, 19 Apr 2009 20:04:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/alt-net-uk-in-the-north/</guid>
+      <description>&lt;p&gt;I spent much of this weekend over in Bradford, talking shop with the good folks at the Alt.Net UK ‘in the North’ conference. I had a great time, learned much, and am grateful to &lt;a href=&#34;http://blogs.blackmarble.co.uk/blogs/rfennell/&#34;&gt;Richard Fennell&lt;/a&gt; of &lt;a href=&#34;http://www.blackmarble.co.uk/&#34;&gt;Black Marble&lt;/a&gt; and the other organisers and sponsors for making the event possible.&lt;/p&gt;
+&lt;p&gt;This was the first &lt;a href=&#34;https://en.wikipedia.org/wiki/Open_Space_Technology&#34;&gt;Open Spaces&lt;/a&gt; event I’ve attended, and I was pleasantly surprised at how orderly and productive the sessions turned out to be. Unlike conventional sales-pitch conferences of the MSDN roadshow variety, this was more of an open forum, with an expectation that all of the relatively small number (25ish?) of participants would, well, &lt;em&gt;participate&lt;/em&gt;!&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I spent much of this weekend over in Bradford, talking shop with the good folks at the Alt.Net UK ‘in the North’ conference. I had a great time, learned much, and am grateful to <a href="http://blogs.blackmarble.co.uk/blogs/rfennell/">Richard Fennell</a> of <a href="http://www.blackmarble.co.uk/">Black Marble</a> and the other organisers and sponsors for making the event possible.</p>
+<p>This was the first <a href="https://en.wikipedia.org/wiki/Open_Space_Technology">Open Spaces</a> event I’ve attended, and I was pleasantly surprised at how orderly and productive the sessions turned out to be. Unlike conventional sales-pitch conferences of the MSDN roadshow variety, this was more of an open forum, with an expectation that all of the relatively small number (25ish?) of participants would, well, <em>participate</em>!</p>
+<p>I was also surprised to find that there were more pragmatists in attendance than architecture astronauts. Maybe it’s a reflection of the current economic climate, but a common theme was on finding toolings that were <em>good enough</em> with which to deliver suitable solutions quickly and effectively, rather than striving for architectural purity and perfection.</p>
+<p>It was great to hear some war stories, and learn about technologies, tools, methodologies and ideas that are currently exciting other people. It would be difficult to come away from a weekend like this one without some inspiration and a big list of several things to follow up on. Here’s mine:</p>
+<ul>
+<li><strong><a href="http://www.asp.net/mvc/">MVC Framework</a></strong> – like myself, a lot of the attendees have had enough of the WebForms model, and are excited about the potential of ASP.NET MVC.</li>
+<li><strong><a href="http://fluentnhibernate.org/">Fluent NHibernate</a></strong> – it sounds like the project being feverishly worked on by <a href="http://blog.jagregory.com/">James Gregory</a> et al is ready for prime time. People spoke very positively of the ability to ditch XML HBM files in favour of this strongly-typed configuration.</li>
+<li><strong><a href="http://www.balsamiq.com/">Balsamiq Mockups</a></strong> – loved by everyone, even despite (or should that be because of?) its use of Comic Sans MS!</li>
+<li><strong>Inversion of Control</strong> – there was a wide mix of IoC containers being used. I’ve tried <a href="http://www.castleproject.org/container/index.html">Castle Windsor</a>, other people made positive murmurings about <a href="http://msdn.microsoft.com/en-us/library/cc468366.aspx">Unity</a> and <a href="http://structuremap.sourceforge.net/Default.htm">StructureMap</a>.</li>
+<li><strong><a href="http://www.typemock.com">TypeMock Isolator</a></strong> – apparently capable of mocking the unmockable.</li>
+<li><strong><a href="http://www.amazon.co.uk/gp/product/0123740371?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0123740371">Sketching User Experiences</a></strong> – everyone who’d heard of him spoke highly of Bill Buxton’s work.</li>
+<li><strong><a href="http://www.openquarters.org">Open Quarters CMS</a></strong> – a great demonstration of a CMS built on ASP.NET MVC by <a href="http://www.anthonymain.com/">Anthony Main</a> and Andrew Magee. I look forward to taking a squizz at the source, I’m sure it will be an excellent learning aid.</li>
+<li><strong><a href="http://sourceforge.net/projects/ulti-swat">SWAT</a></strong> – a web testing tool developed by some folks at Ultimate Software and released on Sourceforge as an open source project (thanks to <a href="http://mckennatribe.com/">Nick</a> for the link).</li>
+<li><strong>Wild Blue Yonder</strong> – a delicious amber ale from Oregon which was on tap at the Sir Titus Salt pub, to where we decamped after the planning session on Friday night. Yum!</li>
+</ul>
+<p>I’m probably forgetting some things, there was a lot to take in, and I regret not having a pad of paper on hand. Hopefully my memory will be jogged by the blog postings of the other attendees.</p>
+<p>Thanks again to all who made it possible, and all the attendees for quality the chat and inspiration.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Seeking Kindred Spirits</title>
+      <link>https://blog.iannelson.uk/seeking-kindred-spirits/</link>
+      <pubDate>Sun, 12 Apr 2009 14:04:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/seeking-kindred-spirits/</guid>
+      <description>&lt;p&gt;I’m coming round to the realization that my hugely enjoyable first contract at &lt;a href=&#34;http://www.ventura.co.uk&#34;&gt;Ventura&lt;/a&gt; last summer might have been something of an anomaly. That project was decidedly agile, test-driven, and used a bunch of modern technologies including Monorail, ExtJS, Subversion, NUnit and NHibernate. The requirements were well-defined, and the team was highly effective, with a pragmatic project management team who kept the development team free from bureaucratic processes, leaving us able to get on with delivering some cracking software in double-quick time.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I’m coming round to the realization that my hugely enjoyable first contract at <a href="http://www.ventura.co.uk">Ventura</a> last summer might have been something of an anomaly. That project was decidedly agile, test-driven, and used a bunch of modern technologies including Monorail, ExtJS, Subversion, NUnit and NHibernate. The requirements were well-defined, and the team was highly effective, with a pragmatic project management team who kept the development team free from bureaucratic processes, leaving us able to get on with delivering some cracking software in double-quick time.</p>
+<p>So, it has been something of a surprise to move onto pastures new and discover that there are still organisations out there who follow the <a href="http://en.wikipedia.org/wiki/Waterfall_model">Waterfall model</a> and highly prescriptive change control processes. It also seems that no amount of evangelism or proselytism from freelancers such as myself is likely to change the situation any time soon – it’s just the organisational culture. To be realistic, there comes a point in time at which I have to accept that fact, shut up, and knuckle down to achieving the project deliverables in the manner requested by the client. The customer is always right, as they say.</p>
+<p>As I bide my time looking for some new clients who share my development methodology ideologies, I’ve been trying to retain some semblance of sanity by keeping on top of agile techniques and technologies, and by seeking kindred spirits with whom to discuss the same. I was pleasantly surprised to discover the existence of the <a href="http://www.agileyorkshire.org">Agile Yorkshire Club</a>, who meet monthly in the back room of a pub in Leeds. So I pitched up last Wednesday, enjoyed the free beer, met some friendly and seemingly like-minded people, and listened to an interesting session by <a href="http://blogs.blackmarble.co.uk/blogs/rfennell">Richard Fennell</a> of Black Marble as he talked about <a href="http://www.amazon.co.uk/gp/product/0201699478?ie=UTF8&amp;tag=ianesbl-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0201699478">Alistair Cockburn’s Crystal Clear</a> methodology, which seemed to me to be essentially “Pragmatic SCRUM”.</p>
+<p>I’ve often heard people say that it’s a good idea to get involved with a local user group, or attend community events, and now I’m starting to appreciate why. In addition to the mind-broadening opportunities, the networking potential for freelancers is also an obvious benefit. If, like me, you’ve never before tried to get “out there” and meet other IT professionals, why not give it a shot? If a shy and reserved geek like me can do it, anyone can.</p>
+<p>And if you organise or know of other, similar groups local to Leeds, I’d be interested in hearing about them.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Software Architect 2007</title>
       <link>https://blog.iannelson.uk/software-architect-2007/</link>
       <pubDate>Sun, 17 Jun 2007 18:06:00 +0000</pubDate>

@@ -45,6 +45,21 @@
 ]]></content:encoded>
     </item>
     <item>
+      <title>Postcode Validation</title>
+      <link>https://blog.iannelson.uk/postcode-validation/</link>
+      <pubDate>Wed, 23 May 2007 13:05:00 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/postcode-validation/</guid>
+      <description>&lt;p&gt;Wikipedia cracks me up sometimes. I’m sat here at my desk, trying to knock together some C# code to quickly validate an entered string as being a UK postcode. Naturally I turned to this &lt;a href=&#34;http://en.wikipedia.org/wiki/UK_postcodes&#34;&gt;Wikipedia article&lt;/a&gt; for assistance, where I find this quip:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Automatic validation of postcodes on the basis of pattern feasibility is therefore almost impossible to design, and the system contains no self-validating feature such as a check digit. &lt;strong&gt;Completely accurate validation is only possible by attempting to deliver mail to the address, and verifying with the recipient.&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Wikipedia cracks me up sometimes. I’m sat here at my desk, trying to knock together some C# code to quickly validate an entered string as being a UK postcode. Naturally I turned to this <a href="http://en.wikipedia.org/wiki/UK_postcodes">Wikipedia article</a> for assistance, where I find this quip:</p>
+<blockquote>
+<p>&ldquo;Automatic validation of postcodes on the basis of pattern feasibility is therefore almost impossible to design, and the system contains no self-validating feature such as a check digit. <strong>Completely accurate validation is only possible by attempting to deliver mail to the address, and verifying with the recipient.</strong>&rdquo;</p></blockquote>
+<p>I think that’s what is known as a <a href="http://en.wikipedia.org/wiki/Long_running_transaction">long-running transaction</a>!!</p>
+<p><strong>Update</strong> – the C# code that I wrote to handle this issue is available <a href="https://blog.iannelson.uk/a-c-postcode-struct-with-parser/">here</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Big Integer</title>
       <link>https://blog.iannelson.uk/big-integer/</link>
       <pubDate>Mon, 17 Jul 2006 08:07:00 +0000</pubDate>

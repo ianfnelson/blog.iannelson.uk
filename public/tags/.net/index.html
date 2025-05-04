@@ -159,6 +159,118 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Alt.Net UK In The North
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I spent much of this weekend over in Bradford, talking shop with the good folks at the Alt.Net UK ‘in the North’ conference. I had a great time, learned much, and am grateful to Richard Fennell of Black Marble and the other organisers and sponsors for making the event possible.
+This was the first Open Spaces event I’ve attended, and I was pleasantly surprised at how orderly and productive the sessions turned out to be. Unlike conventional sales-pitch conferences of the MSDN roadshow variety, this was more of an open forum, with an expectation that all of the relatively small number (25ish?) of participants would, well, participate!
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2009-04-19 20:04:00 +0000 +0000'>19 April 2009</span></footer>
+  <a class="entry-link" aria-label="post link to Alt.Net UK In The North" href="https://blog.iannelson.uk/alt-net-uk-in-the-north/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2009/03/iStock_000003255884XSmall_3-1.jpg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">ASP.NET Just Became a Legacy Platform
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>One of the least surprising but more significant announcements to come out of Mix ‘09 last week was the general availability of ASP.NET MVC 1.0. The development process for this framework has been very transparent, with no fewer than eight previews, betas and release candidates made available over the past year or so.
+Microsoft are being careful to tout ASP.NET MVC as being “an alternative, not a replacement, for ASP.NET Web Forms”, but just look at their list of some of its benefits:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2009-03-22 21:03:00 +0000 GMT'>22 March 2009</span></footer>
+  <a class="entry-link" aria-label="post link to ASP.NET Just Became a Legacy Platform" href="https://blog.iannelson.uk/asp-net-just-became-a-legacy-platform/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2009/02/iStock_000002131299XSmall_3-1.jpg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">NDepend
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>OK, dear readers, today I’d like to talk about tools.
+Software development isn’t really so different from traditional skilled crafts in that it is important to have an understanding of the tools available to help you create a quality products in the least amount of time possible.
+For .NET developers, the Visual Studio IDE is usually just the starting point, and most of us will come to rely on some of the tools listed in Scott Hanselman’s famous tools list. Personally, I can’t imagine coding without first installing Refactor Pro, editing text files in anything other than TextPad, or working on a machine that doesn’t have Snag It installed.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2009-02-04 15:02:00 +0000 GMT'>4 February 2009</span></footer>
+  <a class="entry-link" aria-label="post link to NDepend" href="https://blog.iannelson.uk/ndepend/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2009/01/iStock_000004478097XSmall_2-1.jpg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">.NET Coding Standards
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Sometimes, when you join a new team as a .NET developer, the team lead proudly points you in the direction of a Word document or wiki page detailing the team’s house coding standards.
+In my experience, these documents are invariably:
+Incomplete. Subjective. Not enforced. Largely copied from the interweb. Obsessed with the trivial (e.g. whitespace) while failing to mention the genuinely useful (e.g. boxing/unboxing, avoiding use of deprecated classes, Dispose pattern, etc). I know this because I’ve been involved in creating such documents in the past 🙂
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2009-01-23 15:01:00 +0000 GMT'>23 January 2009</span></footer>
+  <a class="entry-link" aria-label="post link to .NET Coding Standards" href="https://blog.iannelson.uk/net-coding-standards/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">MSB3247 – Dependent Assembly Conflicts
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Earlier today a dev came over to ask me about a compiler warning he was getting when building a .NET solution:
+MSB3247: Found conflicts between different versions of the same dependent assembly.
+This is basically telling you that one project or dependency in your solution is referencing one version of an assembly, whilst another project or dependency is trying to reference a different version of the same assembly. Unhelpfully, the message and build output don’t tell you which dependent assembly is causing the problem!
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2008-12-04 21:12:00 +0000 GMT'>4 December 2008</span></footer>
+  <a class="entry-link" aria-label="post link to MSB3247 – Dependent Assembly Conflicts" href="https://blog.iannelson.uk/msb3247-dependent-assembly-conflicts/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Performance of Loops on Collections
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Interesting article from Patrick Smacchia (the NDepend guy) in which he runs some benchmarks on the cost of looping in different ways over different constructs and comes to the conclusion that:
+“looping on array using for is 5 times cheaper than looping on List&lt;T&gt; using foreach (which I believe, is what we all do)”
+Well worth a read, although I suspect that in my solutions the bottlenecks will remain the out-of-process calls, i.e. database access and web service calls. Still, a 5x gain is not to be sniffed at.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2008-11-28 12:11:00 +0000 GMT'>28 November 2008</span></footer>
+  <a class="entry-link" aria-label="post link to Performance of Loops on Collections" href="https://blog.iannelson.uk/performance-of-loops-on-collections/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">A LINQ Gotcha – First Operator
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>So, I was using the First operator to return the first item element in a sequence matching a predicate.
+I expected a null to be returned if the sequence did not contain any matching elements, but found (well, Scott found) that this actually throws an InvalidOperationException.
+Turns out I should have been using the FirstOrDefault operator instead…
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-12-14 14:12:00 +0000 GMT'>14 December 2007</span></footer>
+  <a class="entry-link" aria-label="post link to A LINQ Gotcha – First Operator" href="https://blog.iannelson.uk/a-linq-gotcha-first-operator/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">MSDN Technical Roadshow 2007
     </h2>
   </header>
@@ -263,103 +375,12 @@ http://weblogs.asp.net/pwelter34/archive/2005/07/01/416999.aspx
   <footer class="entry-footer"><span title='2005-07-04 19:07:00 +0000 +0000'>4 July 2005</span></footer>
   <a class="entry-link" aria-label="post link to New Recommendations for String Comparisons in .NET 2.0" href="https://blog.iannelson.uk/new-recommendations-for-string-comparisons-in-net-2-0/"></a>
 </article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">eXtreme .NET
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Up at 0500 yesterday and onto the early GNER Mallard down to that London town for the MSDN briefing on eXtreme programming with .NET. It was pleasant not to be driving for a change, and speeding through the Yorkshire countryside early on a midsummer morning was very relaxing – what a stark contrast with the hot crowded tube that I had to catch on arrival to the big smoke. Three stops down to Oxford Circus seemed to last as long as the entire preceeding train journey. How people do this every single day I do not know..
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2005-06-18 21:06:00 +0000 +0000'>18 June 2005</span></footer>
-  <a class="entry-link" aria-label="post link to eXtreme .NET" href="https://blog.iannelson.uk/extreme-net/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Tech Books
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>I succumbed to temptation and bought another book at the MSDN briefing yesterday, pausing only out of concern that the guy who mans the Computer Manuals stand at these events might think that I’m stalking him (or fancy him!). Having determined that I could hand over my Barclaycard whilst flashing my wedding ring, I brought my current reading list up to three:
-Developer to Designer: GUI Design for the Busy Developer – this was a wedding present from my mother-in-law and is proving to be an interesting, easy-going read so far. My competencies lie in the middle tier and database, and although I’m technically capable of making GUIs, I prefer to leave the design up to others. It’s inevitable though that most coders end up doing some design, and this book is, er, designed (sorry) to help with that process. The early section of the book concentrates on each UI element in turn, whilst the later part of the book looks at putting it all together, and has particular focus on the web – layout design patterns and interaction patterns. It’s a good read, making a nice contrast from the heavier books, and I’m pleased to learn that I’m not alone in hating Outlook’s labyrinthine Tools-&gt;Options dialog!
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2005-06-18 21:06:00 +0000 +0000'>18 June 2005</span></footer>
-  <a class="entry-link" aria-label="post link to Tech Books" href="https://blog.iannelson.uk/tech-books/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Framework for Persisting .NET Classes Into SQL Server Image Fields, With Locking Ability
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>There seems to have been a lack of .NET-related stuff on this blog recently, so let me show you something I cobbled together for work purposes last Wednesday:
-A common requirement we have in our ASP.NET applications is how to reliably persist object instances for a lengthy period of time. End users shouldn’t have to concern themselves with the concept of Session expiry, and it’s unacceptable for them to return to their PC after nipping off for a coffee to be confronted with the dreaded “Object reference not set to an instance of an object” when they try to continue editing their basket / sales order / timesheet / whatever.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2005-01-18 23:01:00 +0000 GMT'>18 January 2005</span></footer>
-  <a class="entry-link" aria-label="post link to Framework for Persisting .NET Classes Into SQL Server Image Fields, With Locking Ability" href="https://blog.iannelson.uk/framework-for-persisting-net-classes-into-sql-server-image-fields-with-locking-ability/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">A Generic Sorter For Strongly-Typed Collections
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Late last night I was doing some development work on a website for our investment club. I had a strongly-typed collection of “Stock” objects, and wanted to be able to sort them on any parameter (StockName, SharePrice, Volume, MarketCap, etc..) in either descending or ascending order. I didn’t want to have to write a separate comparer for each property. Reflection to the rescue! Below is a GenericSorter class, the use of which allows for the development of a Sort() method on the collection taking as a parameter the name of the property on which to sort. Smart.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2004-11-07 21:11:00 +0000 GMT'>7 November 2004</span></footer>
-  <a class="entry-link" aria-label="post link to A Generic Sorter For Strongly-Typed Collections" href="https://blog.iannelson.uk/a-generic-sorter-for-strongly-typed-collections/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">NHibernate
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>There’s so much good open-source .Net development going on these days – .Text, nGallery, nUnit, etc – it’s a really interesting time to be a developer. My colleague Colin just drew my attention to nHibernate, an object persistence library for relational databases. TheServerSide.net has an excellent article summarising its use. Having just finished a long project where a large amount of time was spent writing “plumbing” code to persist objects to and from a SQL Server database, I’m finding the idea of using an O/R mapper such as this very appealing the next time round. Just as incorporating the MS DAAB block into solutions has reduced the amount of data access code required, I’m hopeful that embracing frameworks such as nHibernate will leave us with more time to spend focusing on addressing the business needs and less on re-solving technical issues.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2004-09-03 19:09:00 +0000 +0000'>3 September 2004</span></footer>
-  <a class="entry-link" aria-label="post link to NHibernate" href="https://blog.iannelson.uk/nhibernate/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Is My String Empty?  Some C# Performance Metrics
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Update (25/02/2006) – Hey, we now have String.IsNullOrEmpty, you know!
-What’s the quickest way, in C#, to test whether a string is empty? This is a question which came to my mind yesterday. I’ve always been fond of:
-if (myString==String.Empty)
-but it occured to me that this necessitates the creation and destruction of a second object (the empty string with which we’re comparing), so maybe it would be quicker to write:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2004-07-30 10:07:00 +0000 +0000'>30 July 2004</span></footer>
-  <a class="entry-link" aria-label="post link to Is My String Empty?  Some C# Performance Metrics" href="https://blog.iannelson.uk/is-my-string-empty-some-c-performance-metrics/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Inheriting From BaseValidator to Make Custom Validation Controls
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>For months now, I’ve been desperate for a decent excuse to make a custom ASP.NET server control, so I was secretly pleased today when a CustomValidator originally coded for use on a single page was required elsewhere.
-It’s surprisingly easy to do, although it took me a while to find a decent example online, which eventually came courtesy of the 4GuysFromRolla. In my particular scenario, I needed to check that the text entered into a TextBox did not equal any of a selection of “banned” strings (which was available via a static property on another class).
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2004-06-30 19:06:00 +0000 +0000'>30 June 2004</span></footer>
-  <a class="entry-link" aria-label="post link to Inheriting From BaseValidator to Make Custom Validation Controls" href="https://blog.iannelson.uk/inheriting-from-basevalidator-to-make-custom-validation-controls/"></a>
-</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="https://blog.iannelson.uk/tags/.net/page/2/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
     </main>
     
 <footer class="footer">
