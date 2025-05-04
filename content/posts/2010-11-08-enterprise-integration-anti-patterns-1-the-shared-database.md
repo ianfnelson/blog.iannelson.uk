@@ -6,9 +6,10 @@ url: /enterprise-integration-anti-patterns-1-the-shared-database/
 
 categories:
   - Tech
+tags:
+  - Architecture
 
 ---
-<!--kg-card-begin: html-->
 
 So, I was in the office at a client site, walking back to my desk after grabbing a quick coffee, when a developer on a sister product to my current project grabbed me and asked (I paraphrase somewhat):
 
@@ -18,9 +19,9 @@ I felt quite violated. My poor app, what had it done to deserve this despicable 
 
 Before I start my rant about the downsides of directly accessing application databases in this way, let me first try to enumerate the benefits of such an approach. I can think of three:
 
-  1. It’s a quick solution to develop (at least initially).
-  2. The technical concepts involved are well understood by the vast majority of developers and other team members.
-  3. The functionality is encapsulated in one place, i.e. the stored proc, which is at least preferable to allowing the execution of ad-hoc SQL.
+1. It’s a quick solution to develop (at least initially).
+2. The technical concepts involved are well understood by the vast majority of developers and other team members.
+3. The functionality is encapsulated in one place, i.e. the stored proc, which is at least preferable to allowing the execution of ad-hoc SQL.
 
 But despite this being seen as a quick-win, I think allowing application databases to be shared in this way is almost always a bad idea in the medium to long term.
 
@@ -35,5 +36,3 @@ If you think I’m scaremongering or labouring a point here I would urge you to 
 Aside from the maintainability issue (which is my major gripe), the end result of this quick-and-dirty approach also leads to a poorer-quality solution which may struggle to meet nonfunctional requirements. Direct database access from external applications is a crude, low-level solution to a common problem. All the hard work done in creating a layered architecture with DAOs, business logic layer etcetera is swept aside by some other cowboy app which says “screw all that, gimme the data”. Any considerations that may have been given to concerns such as caching and application-level security go out of the window. The potential for locks and even deadlocks on the shared database is increased.
 
 If you have the smallest shred of dignity and self-respect on behalf of your application, then please – don’t let its nether regions be exposed to all and sundry.
-
-<!--kg-card-end: html-->

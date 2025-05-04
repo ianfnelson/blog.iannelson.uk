@@ -8,6 +8,8 @@ cover:
 
 categories:
   - Tech
+tags:
+  - Hardware
 
 ---
 Almost everyone who has wandered past the various desks that I’ve occupied over the last year has passed comment on my [Wacom Bamboo Pen Graphics Tablet][1]. So, let me say a few words about my experiences with that.

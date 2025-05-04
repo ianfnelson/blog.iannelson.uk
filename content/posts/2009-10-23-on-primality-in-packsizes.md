@@ -7,13 +7,13 @@ url: /on-primality-in-packsizes/
 categories:
   - Family
   - Fun
+tags:
+  - Maths
 
 ---
 Benny George, our precocious two-year-old, is quite the fan of [Mister Maker][1], and enjoys spending time doing arty crafty stuff with his mum. Now, the great thing about the BBC is that they tend to suggest projects which can be created using bits and bobs that you’re likely to have around the home – old cereal boxes and the like. But occasionally some specialist resources have to be procured in the name of Ben’s art, and so it was that Joce today spent £1.99 on a pack of the “googly eyes” so beloved of Maker.
 
-<div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/mistermaker_slideshow4_385_3.jpg" alt="Oooh la la Mister Maker!" title="Oooh la la Mister Maker!" /></figure>
-</div>
+![Oooh la la Mister Maker!](https://blogstouks01.z33.web.core.windows.net/2023/08/mistermaker_slideshow4_385_3.jpg)
 
 Here’s the thing though – I couldn’t help but noticing that these 20mm googly eyes come in packs of _seventeen_. Joce charitably suggested that this was simply the number of eyes that could fit in the packet, but I am more cynical. Can it really be a coincidence that _eyes_ – which are surely generally found in pairs – are sold in an odd quantity, forcing the purchaser to buy slightly more than they required?
 

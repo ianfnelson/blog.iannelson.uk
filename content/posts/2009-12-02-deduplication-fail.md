@@ -8,6 +8,6 @@ categories:
   - Tech
 
 ---
-Oh, the irony!<figure class="kg-card kg-image-card">
+Oh, the irony!
 
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/Deduplication_2.png" class="kg-image" alt loading="lazy" /> </figure>
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/Deduplication_2.png)

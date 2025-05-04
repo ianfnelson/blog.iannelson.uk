@@ -8,29 +8,21 @@ cover:
 
 categories:
   - Tech
+tags:
+  - CastleWindsor
+  - .NET
 
 ---
-[@Jez][1] [tweeted][2] last night:<figure class="kg-card kg-embed-card"> 
+[@Jez][1] [tweeted][2] last night:
 
-<blockquote class="twitter-tweet">
-  <p lang="en" dir="ltr">
-    <a href="https://twitter.com/ianfnelson?ref_src=twsrc%5Etfw">@ianfnelson</a> admit it: you use Castle Windsor primarily to highlight and lampoon Google's poor selection of adwords?!
-  </p>
-  
-  <p>
-    &mdash; 𝚂𝚑𝚘𝚘𝚝𝚒𝚗𝚐 𝚂𝚌𝚒𝚕𝚕𝚢 (@shootingscilly) <a href="https://twitter.com/shootingscilly/status/5186129382?ref_src=twsrc%5Etfw">October 26, 2009</a>
-  </p>
-</blockquote>
-
-</figure> 
+> @ianfnelson admit it: you use Castle Windsor primarily to highlight and lampoon Google's poor selection of adwords?!  
+> &mdash; 𝚂𝚑𝚘𝚘𝚝𝚒𝚗𝚐 𝚂𝚌𝚒𝚕𝚕𝚢 (@shootingscilly)  October 26, 2009
 
 Funny, but not true. I am enamoured with the [Castle Windsor][3] project because its power makes it fairly simple for me to develop loosely-coupled systems which are easily maintained and tested. The wide range of Facilities and Contrib projects also integrate nicely with the other parts of my current development stack (NHibernate, WCF, WF, log4net).
 
 Whilst there is a lot of material on the web about the Dependency Injection capabilities of Windsor, the Aspect-Oriented Programming (AOP) features don’t seem to get as much exposure, so I thought I’d quickly blog about one way in which I’ve been making use of those in the system I’m currently developing.
 
-Earlier this year [Davy Brion][4] posted [an excellent C# implementation][5] of the Circuit Breaker pattern described in Michael Nygard’s equally excellent book _[Release It! Design and Deploy Production-Ready Software][6]_.<figure class="kg-card kg-image-card">
-
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/iStock_000010551634XSmall_3.jpg" class="kg-image" alt loading="lazy" /> </figure> 
+Earlier this year [Davy Brion][4] posted [an excellent C# implementation][5] of the Circuit Breaker pattern described in Michael Nygard’s equally excellent book _[Release It! Design and Deploy Production-Ready Software][6]_.
 
 For the uninitiated, this pattern advocates protecting your system from issues affecting any remote service on which it depends by wrapping your calls to that service with a circuit breaker component. This component notes any failed service invocations, until some threshold is reached, causing the circuit to trip. Subsequent attempted service invocations then “fail fast”, throwing a custom exception rather than passing the method call on to the remote service. This benefits your system, as it prevents you from tying up valuable threads creating expensive remote service calls which may be slow to timeout. And it benefits the remote system as you avoid piling further pressure on a service which is already down or unresponsive.
 

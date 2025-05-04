@@ -7,6 +7,9 @@ series:
   - 'Entity Framework Week'
 categories:
   - Tech
+tags:
+  - EntityFramework
+  - .NET
 
 ---
 _This is the second in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. [The introductory post in the series is here][1]._
@@ -19,7 +22,7 @@ As with Fluent NHibernate, it is possible to add custom conventions, and to manu
 
 All of these modifications to the model mappings are affected by overriding the virtual OnModelCreating method in our concrete implementation of DbContext. I was initially worried about the sheer volume of code that might be included in this method, and was relieved to discover that mapping overrides related to particular entities can be separated out into the constructor of generic implementations of EntityTypeConfiguration, not unlike the generic ClassMap in Fluent NHibernate.
 
-### Custom Conventions {#custom-conventions}
+## Custom Conventions
 
 In the domain model I was working with, all entities were derived from an abstract base Entity class which defined an integer Id property. By contrast, the primary keys on the database tables were all prefixed with the name of the table/entity. Neither of these situations are ideal, but nor are they all that unusual, and I sought a way of “teaching” this convention to our custom EF context.
 
@@ -29,17 +32,13 @@ My first impression is that custom Entity Framework conventions could turn out t
 
 Still, after a little trial and error I was able to write the custom primary key convention that I required:
 
-<!--kg-card-begin: html-->
-
-<!--kg-card-end: html-->
+{{< gist 7ec3a22c992425ebe555 EF2_1.cs >}}
 
 I was disappointed that I had to insert a guard clause to ignore this convention for the concrete subclasses of hierarchies that are mapped using table-per-hierarchy (i.e. ProductFeature and ProductInsert). Given time I would hope to find a generic way of achieving this convention that doesn’t require hardcoded references to specific Domain objects from within the convention definition.
 
 Compare and contrast with the equivalent code for Fluent NHibernate:
 
-<!--kg-card-begin: html-->
-
-<!--kg-card-end: html-->
+{{< gist 7ec3a22c992425ebe555 EF2_2.cs >}}
 
 **Updated:**
 
@@ -49,40 +48,34 @@ Since I wrote the section above, the ADO.NET team have [announced details of the
 
 For what it’s worth, I think this was the right decision to make. A lack of “pluggable” conventions is slightly disappointing, but it can easily be worked around by making the appropriate overrides with the fluent mappings. Better to hold off an nail an API that’s both powerful and usable than go too soon with something that’s liable to confuse and confound.
 
-### Removal of Default Conventions {#removal-of-default-conventions}
+## Removal of Default Conventions
 
 Another nice feature described in the [Pluggable Conventions blog post][4] is the ability to remove some of the default conventions, which I immediately put to good use by disabling the default PluralizingTableNameConvention:
 
-<!--kg-card-begin: html-->
-
-<!--kg-card-end: html-->
+{{< gist 7ec3a22c992425ebe555 EF2_3.cs >}}
 
 _(I mean, for goodness sake, who in their right mind pluralizes table names anyway? Yes, it’s very impressive that this library knows that the plural of “goose” is “geese”, but it would be more beneficial if that were an extension method on System.String in the BCL rather than being buried in the bowels of System.Data.Entity.Design. Then perhaps the ADO.NET team could be left to get on with developing something more useful, like second-level caching? Sorry, rant over…)_
 
-### Fluent Mapping API {#fluent-mapping-api}
+## Fluent Mapping API
 
 Most manual tweaks to the model are fairly straightforward to perform, and there are a good set of examples in [this post on the ADO.NET team blog][6].
 
 I did encounter some difficulty with the mapping of one-to-many relationships, which felt quite cumbersome to perform in comparison to the brevity of Fluent NHibernate’s API. Here’s how you’d rename a foreign key on a unidirectional one-to-many relationship in Fluent NHibernate:
 
-<!--kg-card-begin: html-->
-
-<!--kg-card-end: html-->
+{{< gist 7ec3a22c992425ebe555 EF2_4.cs >}}
 
 Whilst in Entity Framework code-first, the equivalent is:
 
-<!--kg-card-begin: html-->
+{{< gist 7ec3a22c992425ebe555 EF2_5.cs >}}
 
-<!--kg-card-end: html-->
-
-To be fair, I think part of this clumsiness arises because Entity Framework is allowing us to define both ends of a bidirectional relationship in a single place, whereas [NHibernate][7] requires us to define each end separately. It’s just unfortunate that in unidirectional situations like this example we end up with the WithMany().IsIndependent() noise in the middle of the syntax.
+To be fair, I think part of this clumsiness arises because Entity Framework is allowing us to define both ends of a bidirectional relationship in a single place, whereas [NHibernate][7] requires us to define each end separately. It’s just unfortunate that in unidirectional situations like this example we end up with the `WithMany().IsIndependent()` noise in the middle of the syntax.
 
 Having learned the odd syntax required to rename these one-to-many foreign keys, I then wasted an inordinate amount of time trying to make this actually work. Many of my waking hours were blighted by an InvalidOperationException (“Sequence contains more than one matching element”) originating from deep within the framework. A quick ferret aro  
 und on Stack Overflow revealed that I was not the only person currently banging his or her head on this particular brick wall:
 
-  * [EF Code First CTP5 – Using the name of the property as column name for foreign key][8]
-  * [Entity Framework 4 CTP 5 Self Referencing Many-to-Many][9]
-  * [Entity framework (CTP5, Fluent API). Rename column of navigation property][10]
+* [EF Code First CTP5 – Using the name of the property as column name for foreign key][8]
+* [Entity Framework 4 CTP 5 Self Referencing Many-to-Many][9]
+* [Entity framework (CTP5, Fluent API). Rename column of navigation property][10]
 
 Eventually [Diego Mijelshon figured out what was amiss][11]. It seems the mapping failure was due to the Id property being defined in a base class rather than on the concrete class being mapped. Whether this is intentional behaviour or a bug in the CTP5, I’m not sure, but I worked around this issue by modifying the domain model and ditching the hierarchy of base classes altogether, leaving the Id and other common properties defined only on interfaces. [Ayende would be pleased][12].
 

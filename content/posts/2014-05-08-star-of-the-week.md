@@ -9,6 +9,10 @@ cover:
 categories:
   - Work
   - Tech
+tags:
+  - Career
+  - EntityFramework
+  - .NET
 
 ---
 As a lowly _sellsword_ amongst the ensemble cast that make up the incestuous York/Leeds IT scene, I am not usually one to be influenced by the promise of titles and honours.

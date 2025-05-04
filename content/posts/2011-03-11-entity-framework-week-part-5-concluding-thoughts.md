@@ -5,13 +5,16 @@ date: 2011-03-11T09:03:00+00:00
 url: /entity-framework-week-part-5-concluding-thoughts/
 series:
   - 'Entity Framework Week'
+tags:
+  - EntityFramework
+  - .NET
 
 ---
 _This is the fifth in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. [The introductory post in the series is here][1]._
 
 I am lucky to have had the opportunity to spend a time-boxed period playing with [Entity Framework][2] Code-First in a real-world scenario, and to get paid for the privilege! I now have a clearer understanding of how it has progressed during the last few years, what its strong points are, and where it still has shortcomings compared to the much more mature [NHibernate][3] framework.
 
-### The Positives {#the-positives}
+## The Positives
 
 I have to say that after a week of getting through the pain barrier and the initial denial of working with an unfamiliar ORM, I have reached a level of understanding and acceptance with Entity Framework. It really isn’t all that bad (at least the Code-First flavour), and if you don’t stray too far from its rigid way of thinking it will help you to get a solution up and running quickly and reliably. It’s certainly a far preferable option than mucking about with ADO.NET and stored bloody procedures, that’s for sure.
 
@@ -21,7 +24,7 @@ Querying the model is 99% unadulterated LINQ, with the occasional call to Includ
 
 I’m also unashamedly impressed with how easily EF can be used to power [ASP.NET Dynamic Data][4] sites, and RESTful WCF Data Services. Nice.
 
-### The Negatives {#the-negatives}
+## The Negatives
 
 I found that the real pain of working with Entity Framework only surfaces when you wish to start tuning its behaviour in any way – you find that it’s a big black box with few extensibility points. It performs cunning tricks effortlessly, but wields its power in a largely indiscriminate manner. By comparison, NHibernate can achieve even greater things, but requires you to explicitly invoke these powers.
 
@@ -31,15 +34,15 @@ Most of the NHibernate features that are missing from Entity Framework are relat
 
 I also feel the CTP5 of EF code-first is a little way off offering true support for persistence ignorance and POCO, having experienced a number of issues that required me to change my domain model, database schema, and application code.
 
-### Additional Resources {#additional-resources}
+## Additional Resources
 
 Here are a few of the resources that I found particularly useful during my EF week:
 
-  * [Programming Entity Framework, Second Edition][6]
-  * [Dino Esposito – A Feature-Driven Comparison of EF and NH][7]
-  * [ADO.NET Team Blog][8]
-  * [Using DbContext in EF Feature CTP5 – a series of 12 blog posts][9]
-  * [David Ebbo – Using Dynamic Data With EF Code First and NuGet][10]
+* [Programming Entity Framework, Second Edition][6]
+* [Dino Esposito – A Feature-Driven Comparison of EF and NH][7]
+* [ADO.NET Team Blog][8]
+* [Using DbContext in EF Feature CTP5 – a series of 12 blog posts][9]
+* [David Ebbo – Using Dynamic Data With EF Code First and NuGet][10]
 
  [1]: https://blog.iannelson.uk/entity-framework-week-part-1-introduction-configuration-and-initialization/
  [2]: http://msdn.microsoft.com/en-us/library/bb399572.aspx

@@ -4,6 +4,10 @@ date: 2011-08-17T08:08:00+00:00
 url: /schoolboy-error-of-the-day/
 categories:
   - Tech
+tags:
+  - Bugs
+  - .NET
+  - Testing
 
 ---
 

@@ -6,6 +6,9 @@ url: /wcf-logging-before-and-after-operation-invocation/
 
 categories:
   - Tech
+tags:
+  - .NET
+  - WCF
 
 ---
 Here’s another custom WCF EndpointBehavior I found useful recently.
@@ -14,20 +17,14 @@ Not content with [logging all unhandled errors][1], I wanted to output a DEBUG l
 
 Firstly, here’s the EndPointBehaviour itself. This adds a custom CallContextInitializer to every service operation:
 
-<!--kg-card-begin: html-->
-
-<!--kg-card-end: html-->
+{{< gist 51d9f1a223bc6984b905 WCFLog_1.cs >}}
 
 Here’s the custom CallContextInitializer:
 
-<!--kg-card-begin: html-->
-
-<!--kg-card-end: html-->
+{{< gist 51d9f1a223bc6984b905 WCFLog_2.cs >}}
 
 And the Windsor configuration is much the same as last time:
 
-<!--kg-card-begin: html-->
-
-<!--kg-card-end: html-->
+{{< gist 51d9f1a223bc6984b905 WCFLog_3.cs >}}
 
  [1]: https://blog.iannelson.uk/wcf-global-exception-handling/

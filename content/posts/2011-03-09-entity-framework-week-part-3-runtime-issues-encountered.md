@@ -7,13 +7,16 @@ series:
   - 'Entity Framework Week'
 categories:
   - Tech
+tags:
+  - EntityFramework
+  - .NET
 
 ---
 _This is the third in a series of five posts recounting my experiences using Entity Framework Code-First to replace ADO.NET and stored procedures in a client’s existing application. [The introductory post in the series is here][1]._
 
 Having configured and initialized [Entity Framework][2], and tweaked the mappings, by Day 3 I was all set to start consuming my shiny new DbContext implementation from the application code, and actually get some CRUD work done. Not unexpectedly, I hit a few issues along the way…
 
-### Proxy Generation {#proxy-generation}
+## Proxy Generation
 
 As a long-term [NHibernate][3] user, I habitually mark all members on my domain classes as virtual, since this is a requirement for entities to be replace at runtime by proxies. Remember that NHibernate is a port from the Java world, where all instance methods are virtual by default.
 
@@ -23,21 +26,21 @@ Now, this habit led to some unexpected behaviour when I attempted to use Entity 
 
 Clear as mud, eh? A little Googling eventually unearthed the following posts from other people experiencing this issue:
 
-  * [Why is my Entity Framework Code First proxy collection null and why can’t I set it?][4]
-  * [Code First adding to collections? How to use Code First with repositories? Advice me please][5]
-  * [Code First EF4 with N-Tier.. I’m really stuck on this one issue][6]
+* [Why is my Entity Framework Code First proxy collection null and why can’t I set it?][4]
+* [Code First adding to collections? How to use Code First with repositories? Advice me please][5]
+* [Code First EF4 with N-Tier.. I’m really stuck on this one issue][6]
 
 This latter post on the MSDN forums includes the following explanation from one of the guys on the Entity Framework team:
 
 > “If you make all your properties virtual then EF will generate proxy classes at runtime that derives from your POCO classed, these proxies allow EF to find out about changes in real-time rather than having to capture the original values of your object and then scan for changes when you save (this is obviously has performance and memory usage benefits but the difference will be negligible unless you have a large number of entities loaded into memory). These are known as ‘change tracking proxies’, if you make your navigation properties virtual then a proxy is still generated but it is much simpler and just includes some logic to perform lazy loading when you access a navigation property.
-
+>
 > Because your original code was generating change tracking proxies, EF was replacing your collection property with a special collection type to help it find out about changes. Because you try and set the collection back to a simple list in the constructor you are getting the exception.
-
+>
 > Unless you are seeing performance issues I would follow Terrence’s suggestion and just remove ‘virtual’ from your non-navigation properties.”
 
 This feels a little bit strange, and I’m not convinced that we are really getting persistence ignorance if we experience differing behaviour depending on whether or not we have chosen to make all our members virtual. I haven’t invested much time looking into the benefits of these “Change-Tracking Proxies”, or how it is possible to utilise these without causing the “collection is already set to an EntityCollection” exception. I just did what the man said and removed the virtual keyword from most non-navigation properties.
 
-### A Runtime Exception When Lazy-Loading {#a-runtime-exception-when-lazy-loading}
+## A Runtime Exception When Lazy-Loading
 
 At one point I experienced an exception message along the lines of:
 
@@ -47,7 +50,7 @@ This was caused by my navigation property (Session.Season) not having been set a
 
 Incidentally, it is worth highlighting that lazy-loading must occur within the scope of an open DbContext (i.e. within the Unit of Work). It is not reasonable to expect to transparently load the navigation property after the database connection has been closed (this is analogous to attempting to lazy-load in NHibernate after closing the Session).
 
-### Cascades {#cascades}
+## Cascades
 
 In NHibernate, cascading saves/updates/deletes have to be specified manually on all foreign key relationships – the default behaviour is not to cascade any changes when committing changes, which often leads to newcomers experiencing an error message “not-null property references a null or transient value”.
 
@@ -61,28 +64,22 @@ Personally, I think this behaviour is pretty shoddy, but there you have it! Fore
 
 In light of this behaviour I had to make modifications to the database schema to set cascading deletes on all the appropriate foreign key relationships. For many line-of-business applications, deletes are actually pretty rare events, and in the short term I suspect this issue is more likely to be encountered when clearing down data in integration tests than in actual application use.
 
-### Initializing Child Objects on Domain Entities {#initializing-child-objects-on-domain-entities}
+## Initializing Child Objects on Domain Entities
 
 I habitually add code to the constructors of domain entities to initialise child entities to sensible defaults – I find it helps to ensure that objects are always in a valid state, and reduces the likelihood of encountering an unhandled NullReferenceException. So, for example, I would usually have something like this:
 
-<!--kg-card-begin: html-->
-
-<!--kg-card-end: html-->
+{{< gist 3de705bc2eed6a0a8cd5 EF3_1.cs >}}
 
 Unfortunately, when using this approach with Entity Framework, I found that when loading an existing Order which has an associated Address, the Order.Address object was always reset to its default.
 
 Now, I realise that making calls to virtual members in a constructor is not really a good idea (heaven knows Resharper and Coderush have both nagged me about it often enough), but NHibernate never had a problem with  
 this approach. Nevertheless, I tried to do things properly and replaced the automatic properties with backing fields….
 
-<!--kg-card-begin: html-->
-
-<!--kg-card-end: html-->
+{{< gist 3de705bc2eed6a0a8cd5 EF3_2.cs >}}
 
 But still no dice. I then tried putting initialization logic in the property’s getter….
 
-<!--kg-card-begin: html-->
-
-<!--kg-card-end: html-->
+{{< gist 3de705bc2eed6a0a8cd5 EF3_3.cs >}}
 
 But nothing worked. Every time I loaded an Order, the Order.Address object was reset back to its default instead of containing the data loaded from the database.
 

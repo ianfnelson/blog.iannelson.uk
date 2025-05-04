@@ -8,19 +8,21 @@ cover:
 
 categories:
   - Tech
+tags:
+  - SQLServer
 
 ---
 Improvements to the Execution Plan UI in SQL Server Management Studio 2008 sure do make it a doddle to improve query execution time.
 
 A client just reported that a particular stored procedure kept timing out.
 
-Viewing the Estimated Execution Plan for this query displayed a nice green message advising of a potentially missing index which could improve performance by >95%:<figure class="kg-card kg-image-card">
+Viewing the Estimated Execution Plan for this query displayed a nice green message advising of a potentially missing index which could improve performance by >95%:
 
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/amc1_2.png" class="kg-image" alt loading="lazy" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/amc1_2.png)
 
-Right-clicking and selecting “Missing Index Details” then brings up a new query window containing the index creation DDL (I had changed the index name by the time I grabbed this capture):<figure class="kg-card kg-image-card">
+Right-clicking and selecting “Missing Index Details” then brings up a new query window containing the index creation DDL (I had changed the index name by the time I grabbed this capture):
 
-<img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/amc2_2.png" class="kg-image" alt loading="lazy" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/amc2_2.png)
 
 Dead easy. Repeating the process identified a second index which could further improve performance by >80%.
 

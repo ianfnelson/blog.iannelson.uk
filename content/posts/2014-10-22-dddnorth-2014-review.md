@@ -1,6 +1,5 @@
 ---
 title: DDDNorth 2014 Review
-
 date: 2014-10-22T20:11:52+00:00
 url: /dddnorth-2014-review/
 cover: 
@@ -8,9 +7,10 @@ cover:
 
 categories:
   - Tech
+tags:
+  - Conferences
 
 ---
-<!--kg-card-begin: html-->
 
 I had no excuse for not attending [DDDNorth][1] this year, as it was held at Leeds University, a relatively short drive from home. Not that I’d be looking for an excuse – these free events are always superbly organised and provide a valuable opportunity to see sessions from a wide range of speakers without having to take time off work. It’s no wonder the tickets are always snapped up so quickly.
 

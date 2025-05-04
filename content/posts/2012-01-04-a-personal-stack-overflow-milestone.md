@@ -12,19 +12,13 @@ categories:
 ---
 In the grand scheme of things, ’tis but a minor achievement, but I was quite chuffed with myself this evening when my Stack Overflow reputation finally reached the 10,000 mark:
 
-<div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/04_01_2012_20_28_21.png" alt="Stack Overflow - Ian Nelson Profile" /></figure>
-</div>
+![Stack Overflow - Ian Nelson Profile"](https://blogstouks01.z33.web.core.windows.net/2023/08/04_01_2012_20_28_21.png)
 
 My girls made me a special “10K” cake to celebrate 🙂
 
-<div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_7069_edited_1.jpg" alt="Isla Baking" /></figure>
-</div>
+![Isla Baking](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_7069_edited_1.jpg)
 
-<div class="wp-block-image">
-  <figure class="aligncenter"><img decoding="async" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_7070_edited_1.jpg" alt="10K Cake" /></figure>
-</div>
+![10K Cake](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_7070_edited_1.jpg)
 
 Kudos to [Jeff][1], [Joel][2] and the team for creating a site that I have found engaging, entertaining and very useful for the last 3 years and 4 months.
 

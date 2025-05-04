@@ -7,6 +7,8 @@ cover:
 
 categories:
   - Tech
+tags:
+  - Hardware
 
 ---
 My first printer was a Star LC-20 nine pin dot matrix that I received as a Christmas present when I was 15 years old. That’s the kind of nerdy teenager I was, folks. All yuletide long our home rang out with the deafening noise made by those pins rapidly and repeatedly punching through a flimsy ink-soaked ribbon.
@@ -23,6 +25,6 @@ Oh, and a year or so later, I worked all summer long to save the £400 I needed 
 
 What about you, dear reader? Do you have any fond memories of your earliest computer hardware?
 
-* * *
+---
 
 Image by [Museo del Computer](http://www.retrocomputing.net/)
