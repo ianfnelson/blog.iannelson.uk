@@ -18,39 +18,39 @@ Pleasingly, I’ve been quite successful in my endeavours. [Audible][1] has help
 
 Here are the twenty books that I’ve most enjoyed during the year:
 
-## The Top 5 {#the-top-5}<figure class="kg-card kg-image-card">
+## The Top 5 
 
-<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/41x9fTi4X-L._SL500.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/41x9fTi4X-L._SL500.jpg)
 
 **[Digital Minimalism: Choosing a Focused Life in a Noisy World][2]** by Cal Newport
 
-The only book that I read cover-to-cover on two separate occasions during 2019. Following on from _So Good They Can’t Ignore You_ and _Deep Work_, two other favourites of mine, Cal’s latest book offers practical concrete advice on how to regain focus in these digitally-distracted times.<figure class="kg-card kg-image-card">
+The only book that I read cover-to-cover on two separate occasions during 2019. Following on from _So Good They Can’t Ignore You_ and _Deep Work_, two other favourites of mine, Cal’s latest book offers practical concrete advice on how to regain focus in these digitally-distracted times.
 
-<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/51BR-ZMeW0L._SL500.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/51BR-ZMeW0L._SL500.jpg)
 
 **[Talking to Strangers: What We Should Know about the People We Don’t Know][3]** by Malcolm Gladwell
 
-A wonderful book that opened my eyes to how I engage and interact with other humans, and the many potential opportunities for devastating misunderstandings. I recommend the enhanced audiobook highly, as (where possible) it features original audio recordings and interviews with people involved in the case studies.<figure class="kg-card kg-image-card">
+A wonderful book that opened my eyes to how I engage and interact with other humans, and the many potential opportunities for devastating misunderstandings. I recommend the enhanced audiobook highly, as (where possible) it features original audio recordings and interviews with people involved in the case studies.
 
-<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/41O5blDy52L._SL500.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/41O5blDy52L._SL500.jpg)
 
 **[Bad Blood: Secrets and Lies in a Silicon Valley Startup][4]** by John Carreyrou
 
-I had never heard of Theranos nor Elizabeth Holmes before reading this gripping true-life tale of organisational deception and misbehaviour, written by the WSJ investigative journalist who broke the story.<figure class="kg-card kg-image-card">
+I had never heard of Theranos nor Elizabeth Holmes before reading this gripping true-life tale of organisational deception and misbehaviour, written by the WSJ investigative journalist who broke the story.
 
-<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/416qo8QyxDL._SL500.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/416qo8QyxDL._SL500.jpg)
 
 **[How to Be Right: … in a world gone wrong][5]** by James O’Brien
 
-A great book written from the relatively unusual vantage point of talk radio host James O’Brien, who spends his days calmly and rationally explaining to callers the absurdity of their stated viewpoints (often, it seems, by simply giving them sufficient opportunity to explain themselves, or consider the meaning of the cliched words that they spout). Despite the title, O’Brien doesn’t claim to always be right, and in some chapters explains how the discourse on his show has led to the maturation of his own viewpoints.<figure class="kg-card kg-image-card">
+A great book written from the relatively unusual vantage point of talk radio host James O’Brien, who spends his days calmly and rationally explaining to callers the absurdity of their stated viewpoints (often, it seems, by simply giving them sufficient opportunity to explain themselves, or consider the meaning of the cliched words that they spout). Despite the title, O’Brien doesn’t claim to always be right, and in some chapters explains how the discourse on his show has led to the maturation of his own viewpoints.
 
-<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/41251aNdw-L._SL500.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/41251aNdw-L._SL500.jpg)
 
 **[Coders: Who They Are, What They Think And How They Are Changing Our World][6]** by Clive Thompson
 
 A bit of navel-gazing really, I enjoyed reading Wired Magazine’s Clive Thompson’s masterful description of what coders are like, and why. The audiobook is over 13 hours, but it flew by for me in little over a week’s listening. We coders are a funny (and disturbingly homogenous) breed, and this timely work explains us perfectly.
 
-## The Best of the Rest {#the-best-of-the-rest}
+## The Best of the Rest
 
 **[Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones][7]** by James Clear
 
@@ -82,8 +82,7 @@ One of the few biographical books I read during the year, from _national treasur
 
 [**Hidden Figures: The Untold Story of the African American Women Who Helped Win the Space Race**][14] by Margot Lee Shetterley
 
-Not remotely techie or geeky, this is a fascinating social history of how a group of brilliant women helped the US Space Program to succeed, despite facing twin prejudices due to their gender and the colour of their skin. Some of these themes also crop up in _Coders_, one of my other favourites from 2019  
-.
+Not remotely techie or geeky, this is a fascinating social history of how a group of brilliant women helped the US Space Program to succeed, despite facing twin prejudices due to their gender and the colour of their skin. Some of these themes also crop up in _Coders_, one of my other favourites from 2019.
 
 [**Invisible Women: Exposing Data Bias in a World Designed for Men**][15] by Caroline Criado Perez
 
@@ -113,7 +112,7 @@ A bit of a wildcard, but this book featured a combination of statistics, history
 
 The system’s fucked. But then, you probably guessed that. Hardman goes into much more detail, which you will either appreciate (like me) or find tedious (like Mrs Nelson, who heard several chapters of this book by proxy when we were decorating the living room).
 
-## What’s Next? {#what-s-next}
+## What’s Next?
 
 You’ve seen the kind of things I enjoyed reading in 2019; what should I read in 2020? Let me know in the comments below.
 

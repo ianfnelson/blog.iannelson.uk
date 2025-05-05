@@ -6,6 +6,8 @@ cover:
   image: https://blogstouks01.z33.web.core.windows.net/2014/07/iStock_000016008439Small.jpg
 categories:
   - Tech
+tags:
+  - C#
 
 ---
 
