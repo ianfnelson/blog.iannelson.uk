@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 May 2025 22:01:07 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 05 May 2025 20:18:53 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I&#39;m on Goodreads Now</title>
@@ -1313,41 +1313,41 @@ s to reveal information that they should not have done.</p>
 <p>One of things I wanted to run on my own Synology NAS is <a href="https://www.rabbitmq.com/">RabbitMQ</a>, the popular open-source message broker. I intend to use this as the heart of a distributed home climate measuring project, with a bunch of low-cost Raspberry Pi devices sending regular sensor readings to a database, or directly to a real-time web application.</p>
 <p>Here’s how to go about installing RabbitMQ on a Synology NAS, as of January 2020. The whole process should only take around 15-30 minutes at most.</p>
 <p>First, open up Package Center and search for the free Third-Party Docker package. If it’s not already installed, go ahead and Install it, otherwise Open it.</p>
-<!-- raw HTML omitted -->
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_20-48-59-3.png"></p>
 <p>Within the Docker package, we need to search the Registry for the rabbitmq image. Look for the image with the “Official Image” icon next to it, which should be near the top of the search results.</p>
-<!-- raw HTML omitted -->
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_20-50-09-1.png"></p>
 <p>Choose a tag to install. I recommend selecting a recent build with the “management” suffix – these tags have the RabbitMQ management plugin installed and enabled by default, which is available on the standard management port of 15672.</p>
-<!-- raw HTML omitted -->
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_20-51-02.png"></p>
 <p>After the Docker image has downloaded to the NAS, select it from the list of images on the Image tab, and click Launch to create a new container from that image.</p>
-<!-- raw HTML omitted -->
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_20-52-08.png"></p>
 <p>Give the new container a suitable name (rabbitmq seems the obvious choice), and then click the Advanced settings button.</p>
-<!-- raw HTML omitted -->
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_20-52-43.png"></p>
 <p>Check Enable auto-restart so that the container automatically restarts, should it stop for any reason.</p>
-<!-- raw HTML omitted -->
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_20-53-11-1.png"></p>
 <p>Containers should generally be treated as being replaceable, with any data that you care about being kept outside of the container. To this end, create a folder on the NAS that can be used as a volume for the /var/lib/rabbitmq mount path. This ensures all the data from the RabbitMQ instance exists outside of the container itself and won’t be lost if the container needs to be destroyed and recreated for any reason (such as upgrading to a new version of RabbitMQ).
 I also suggest creating a blank RabbitMQ config file – rabbitmq.conf – and mounting this file to the path /etc/rabbitmq/rabbitmq.conf .</p>
-<!-- raw HTML omitted -->
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_20-56-21.png"></p>
 <p>RabbitMQ with the management plugin enabled uses ports 4369, 5671, 5672, 15671, 15672 and 25672. There’s a low probability of these ports already being in use by other applications on the NAS, so map those container ports to the same local ports.</p>
-<p><a href="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2020-01-13_20-57-55.png"><!-- raw HTML omitted --></a><!-- raw HTML omitted --></p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/1_2020-01-13_20-57-55.png"></p>
 <p>Check the Environment variables tab. The defaults should be fine; you may wish to specify a particular <a href="https://www.rabbitmq.com/cli.html#node-names">node name</a> – this can be done using the RABBITMQ_NODENAME environment variable</p>
-<!-- raw HTML omitted -->
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-00-52.png"></p>
 <p>That’s it. Click Apply, and Apply again on the Summary screen.</p>
-<!-- raw HTML omitted -->
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-01-13.png"></p>
 <p>The RabbitMQ docker container will start, and if everything has gone to plan, it should stay running and not restart. To check out the logs, select the container from the Container tab and click the Details button.</p>
-<!-- raw HTML omitted -->
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-03-05.png"></p>
 <p>From the details, click the Log tab. If startup has been successful, you will the “Server startup complete; 3 plugins started.” message as shown below. Otherwise, these logs should give a useful indication what has gone wrong.</p>
-<!-- raw HTML omitted -->
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-04-02-1.png"></p>
 <p>The RabbitMQ mnesia folder will be initialized in the folder specified earlier as  a mapped volume.</p>
-<!-- raw HTML omitted -->
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-05-05.png"></p>
 <p>The RabbitMQ Management portal will be accessible through a web browser at port 15672 on your NAS’s hostname or IP address. But if you try to login using the default guest/guest credentials you will likely be met with the “User can only log in via localhost” message shown below. That’s not an option from the Synology NAS, which doesn’t have any web browser installed.</p>
-<!-- raw HTML omitted -->
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-06-24-1.png"></p>
 <p>There are a couple of solutions to this quandary. The rabbitmq.conf file created earlier could be edited to allow the guest user to connect from a remote host by setting the loopback_users configuration to none – <a href="https://www.rabbitmq.com/access-control.html#loopback-users">details here</a>.</p>
 <p>Alternatively, the rabbitmqctl utility can be used to add a new user with administrator rights, as shown in the screenshot below.</p>
-<!-- raw HTML omitted -->
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-23-57.png"></p>
 <p>Having done this, it will be possible to login to the RabbitMQ management console from a remote machine using the newly-created credentials.</p>
-<!-- raw HTML omitted -->
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-24-50.png"></p>
 <p>Boom! There we have it. RabbitMQ running in a Docker image, on a Synology NAS, with the management plugin accessible from the local network.</p>
-<!-- raw HTML omitted -->
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-13_21-25-45.png"></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1361,20 +1361,20 @@ I also suggest creating a blank RabbitMQ config file – rabbitmq.conf – and m
 <p>It wasn’t that I didn’t enjoy reading – I have always loved reading (and buying) books – it was just that I had somehow convinced myself that I didn’t have the time to read. I realised that this simply wasn’t true, that I could easily make time to read if I so desired, and vowed to consume more books during 2019.</p>
 <p>Pleasingly, I’ve been quite successful in my endeavours. <a href="https://www.audible.co.uk">Audible</a> has helped greatly, turning otherwise dead time spent commuting, walking the dog, mowing the lawn, or working out at the gym into productive book consumption time.</p>
 <p>Here are the twenty books that I’ve most enjoyed during the year:</p>
-<h2 id="the-top-5-the-top-5">The Top 5 {#the-top-5}<!-- raw HTML omitted --></h2>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<h2 id="the-top-5">The Top 5</h2>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/41x9fTi4X-L._SL500.jpg"></p>
 <p><strong><a href="https://amzn.to/35syPU6">Digital Minimalism: Choosing a Focused Life in a Noisy World</a></strong> by Cal Newport</p>
-<p>The only book that I read cover-to-cover on two separate occasions during 2019. Following on from <em>So Good They Can’t Ignore You</em> and <em>Deep Work</em>, two other favourites of mine, Cal’s latest book offers practical concrete advice on how to regain focus in these digitally-distracted times.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>The only book that I read cover-to-cover on two separate occasions during 2019. Following on from <em>So Good They Can’t Ignore You</em> and <em>Deep Work</em>, two other favourites of mine, Cal’s latest book offers practical concrete advice on how to regain focus in these digitally-distracted times.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/51BR-ZMeW0L._SL500.jpg"></p>
 <p><strong><a href="https://amzn.to/36sTVTL">Talking to Strangers: What We Should Know about the People We Don’t Know</a></strong> by Malcolm Gladwell</p>
-<p>A wonderful book that opened my eyes to how I engage and interact with other humans, and the many potential opportunities for devastating misunderstandings. I recommend the enhanced audiobook highly, as (where possible) it features original audio recordings and interviews with people involved in the case studies.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>A wonderful book that opened my eyes to how I engage and interact with other humans, and the many potential opportunities for devastating misunderstandings. I recommend the enhanced audiobook highly, as (where possible) it features original audio recordings and interviews with people involved in the case studies.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/41O5blDy52L._SL500.jpg"></p>
 <p><strong><a href="https://amzn.to/2tsQuxY">Bad Blood: Secrets and Lies in a Silicon Valley Startup</a></strong> by John Carreyrou</p>
-<p>I had never heard of Theranos nor Elizabeth Holmes before reading this gripping true-life tale of organisational deception and misbehaviour, written by the WSJ investigative journalist who broke the story.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>I had never heard of Theranos nor Elizabeth Holmes before reading this gripping true-life tale of organisational deception and misbehaviour, written by the WSJ investigative journalist who broke the story.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/416qo8QyxDL._SL500.jpg"></p>
 <p><strong><a href="https://amzn.to/2MVFAaG">How to Be Right: … in a world gone wrong</a></strong> by James O’Brien</p>
-<p>A great book written from the relatively unusual vantage point of talk radio host James O’Brien, who spends his days calmly and rationally explaining to callers the absurdity of their stated viewpoints (often, it seems, by simply giving them sufficient opportunity to explain themselves, or consider the meaning of the cliched words that they spout). Despite the title, O’Brien doesn’t claim to always be right, and in some chapters explains how the discourse on his show has led to the maturation of his own viewpoints.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>A great book written from the relatively unusual vantage point of talk radio host James O’Brien, who spends his days calmly and rationally explaining to callers the absurdity of their stated viewpoints (often, it seems, by simply giving them sufficient opportunity to explain themselves, or consider the meaning of the cliched words that they spout). Despite the title, O’Brien doesn’t claim to always be right, and in some chapters explains how the discourse on his show has led to the maturation of his own viewpoints.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/41251aNdw-L._SL500.jpg"></p>
 <p><strong><a href="https://amzn.to/36DaMmM">Coders: Who They Are, What They Think And How They Are Changing Our World</a></strong> by Clive Thompson</p>
 <p>A bit of navel-gazing really, I enjoyed reading Wired Magazine’s Clive Thompson’s masterful description of what coders are like, and why. The audiobook is over 13 hours, but it flew by for me in little over a week’s listening. We coders are a funny (and disturbingly homogenous) breed, and this timely work explains us perfectly.</p>
 <h2 id="the-best-of-the-rest">The Best of the Rest</h2>
@@ -1393,8 +1393,7 @@ I also suggest creating a blank RabbitMQ config file – rabbitmq.conf – and m
 <p><a href="https://amzn.to/37F3QWI"><strong>Gotta Get Theroux This: My Life and Strange Times in Television</strong></a> by Louis Theroux</p>
 <p>One of the few biographical books I read during the year, from <em>national treasure</em> and documentary maker Louis Theroux. I was in need of something lighter after wading through Yuval Noah Harari’s <em>Sapiens: A Brief History of Humankind</em>, and Jocelyn wisely suggested I read this. Entertaining, yet more than a little poignant in many places, most obviously in the chapters on Jimmy Savile.</p>
 <p><a href="https://amzn.to/2ttLWY2"><strong>Hidden Figures: The Untold Story of the African American Women Who Helped Win the Space Race</strong></a> by Margot Lee Shetterley</p>
-<p>Not remotely techie or geeky, this is a fascinating social history of how a group of brilliant women helped the US Space Program to succeed, despite facing twin prejudices due to their gender and the colour of their skin. Some of these themes also crop up in <em>Coders</em>, one of my other favourites from 2019<br>
-.</p>
+<p>Not remotely techie or geeky, this is a fascinating social history of how a group of brilliant women helped the US Space Program to succeed, despite facing twin prejudices due to their gender and the colour of their skin. Some of these themes also crop up in <em>Coders</em>, one of my other favourites from 2019.</p>
 <p><a href="https://amzn.to/2Qq11mh"><strong>Invisible Women: Exposing Data Bias in a World Designed for Men</strong></a> by Caroline Criado Perez</p>
 <p>Guaranteed to make every feminist’s piss boil, and rightly so. Superbly researched book exposing shocking gaps in datasets as far as women’s requirements are concerned.</p>
 <p><a href="https://amzn.to/2ZVdf9D"><strong>The Only Story</strong></a> by Julian Barnes</p>
@@ -1409,7 +1408,7 @@ I also suggest creating a blank RabbitMQ config file – rabbitmq.conf – and m
 <p>A bit of a wildcard, but this book featured a combination of statistics, history, cartography and lefty politics that I couldn’t resist.</p>
 <p><a href="https://amzn.to/36tf00f"><strong>Why We Get The Wrong Politicians</strong></a> by Isabel Hardman</p>
 <p>The system’s fucked. But then, you probably guessed that. Hardman goes into much more detail, which you will either appreciate (like me) or find tedious (like Mrs Nelson, who heard several chapters of this book by proxy when we were decorating the living room).</p>
-<h2 id="what-s-next">What’s Next?</h2>
+<h2 id="whats-next">What’s Next?</h2>
 <p>You’ve seen the kind of things I enjoyed reading in 2019; what should I read in 2020? Let me know in the comments below.</p>
 ]]></content:encoded>
     </item>
@@ -1418,141 +1417,61 @@ I also suggest creating a blank RabbitMQ config file – rabbitmq.conf – and m
       <link>https://blog.iannelson.uk/scotland-with-a-son/</link>
       <pubDate>Fri, 01 Jun 2018 23:00:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/scotland-with-a-son/</guid>
-      <description>&lt;h3 id=&#34;day-one-saturday-26th-may-2018&#34;&gt;Day One – Saturday 26th May 2018&lt;/h3&gt;
+      <description>&lt;h2 id=&#34;day-one--saturday-26th-may-2018&#34;&gt;Day One – Saturday 26th May 2018&lt;/h2&gt;
 &lt;p&gt;Twenty years after bagging my first Munro – the dreary &lt;a href=&#34;https://blog.iannelson.uk/meall-a-chrasgaidh/&#34;&gt;Meall a’ Chrasgaidh&lt;/a&gt; – and somehow developing an affinity for the Great Scottish Outdoors, I found myself heading northwards once again. Not this time in the company of my university friends, but instead with a ten-year-old boy in tow, namely my eldest Son, Benjamin. It was half-term holiday, he had just finished SATs, and I was hoping to prise him away from screens for a few days and to pass on some of my latent enthusiasm for the Highlands.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<h3 id="day-one-saturday-26th-may-2018">Day One – Saturday 26th May 2018</h3>
+      <content:encoded><![CDATA[<h2 id="day-one--saturday-26th-may-2018">Day One – Saturday 26th May 2018</h2>
 <p>Twenty years after bagging my first Munro – the dreary <a href="https://blog.iannelson.uk/meall-a-chrasgaidh/">Meall a’ Chrasgaidh</a> – and somehow developing an affinity for the Great Scottish Outdoors, I found myself heading northwards once again. Not this time in the company of my university friends, but instead with a ten-year-old boy in tow, namely my eldest Son, Benjamin. It was half-term holiday, he had just finished SATs, and I was hoping to prise him away from screens for a few days and to pass on some of my latent enthusiasm for the Highlands.</p>
 <p>The journey took longer than I expected. We departed home around 1030 and reached Killin by 1700. Google helped us avoid two traffic jams, a technology that hadn’t existed on my earliest Scottish trips in 1998 (nor, for that matter, did the A74(M)’s parenthetical M). We were staying at the <a href="http://www.bridgeoflochay.co.uk/">Bridge of Lochay Hotel</a>, and after a pleasant evening meal there we took a drive down the road between <a href="https://www.walkhighlands.co.uk/perthshire/ben-lawers.shtml">Ben Lawers</a> and the Bridge of Balgie, where we saw a bewildering number of wild campers.</p>
-<p>Back at the hotel, we got Scrabble out. Showing no mercy against my opponent’s tender years, I played all seven tiles on one round to spell ALBUMEN and turn EATING into BEATING, scoring 75 points.
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted --></p>
-<pre><code>&lt;div class=&quot;kg-gallery-image&quot;&gt;
-  &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter&quot; src=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180526_143147.jpg&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; srcset=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180526_143147.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180526_143147.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180526_143147.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180526_143147.jpg 2400w&quot; alt=&quot;&quot; width=&quot;2000&quot; height=&quot;2667&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;kg-gallery-image&quot;&gt;
-  &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter&quot; src=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180526_195725.jpg&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; srcset=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180526_195725.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180526_195725.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180526_195725.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180526_195725.jpg 2400w&quot; alt=&quot;&quot; width=&quot;2000&quot; height=&quot;1500&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;kg-gallery-image&quot;&gt;
-  &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter&quot; src=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180526_205848_341.jpg&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; srcset=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180526_205848_341.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180526_205848_341.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180526_205848_341.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180526_205848_341.jpg 2400w&quot; alt=&quot;&quot; width=&quot;2000&quot; height=&quot;2000&quot; /&gt;
-&lt;/div&gt;
-</code></pre>
-<h3 id="day-two-sunday-27th-may-2018">Day Two – Sunday, 27th May 2018</h3>
+<p>Back at the hotel, we got Scrabble out. Showing no mercy against my opponent’s tender years, I played all seven tiles on one round to spell ALBUMEN and turn EATING into BEATING, scoring 75 points.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180526_090044_637.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180526_143147.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180526_195725.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180526_205848_341.jpg"></p>
+<h2 id="day-two--sunday-27th-may-2018">Day Two – Sunday, 27th May 2018</h2>
 <p>I was cognisant that if I was to make the trip a success and a happy memory for Ben (and thus encourage him to want to return), there was no point dragging him up some featureless 3,000-footers. Instead I had planned a whistle-stop tour of the Highlands’ best views, with some fun touristy activities thrown in for good measure.</p>
 <p>The first of these activities was a trip to <a href="https://goape.co.uk/locations/aberfoyle">Go Ape</a> at Aberfoyle, which culminated with a stunning 45-metre-high, 426-metre-long zipwire flight followed by a bottle of Irn Bru.</p>
 <p>Refreshed, we headed up the nearby <a href="https://www.walkhighlands.co.uk/lochlomond/ben-aan.shtml">Ben A’an</a>, at 454m one of the most popular and picturesque wee hills in Scotland. The weather was unseasonably fine, and we were offered glorious views across the Trossachs.</p>
-<p>We left Ben A’an car park around 1700. Ben dozed off in the car, and we reached our accommodation at the legendary <a href="https://clachaig.com/">Clachaig Inn</a> by 1840. By this late hour and following our earlier exertions Ben was super tired and hangry – reluctant to eat but perked up noticeably after having done so. I realised that a quieter day was probably in order for the following day.
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted --></p>
-<pre><code>&lt;div class=&quot;kg-gallery-image&quot;&gt;
-  &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter&quot; src=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/00000PORTRAIT_00000_BURST20180527154957149.jpg&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; srcset=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/1_00000PORTRAIT_00000_BURST20180527154957149.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_00000PORTRAIT_00000_BURST20180527154957149.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_00000PORTRAIT_00000_BURST20180527154957149.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_00000PORTRAIT_00000_BURST20180527154957149.jpg 2400w&quot; alt=&quot;&quot; width=&quot;2000&quot; height=&quot;1500&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;kg-gallery-image&quot;&gt;
-  &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter&quot; src=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180527_155153.jpg&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; srcset=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180527_155153.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180527_155153.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180527_155153.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180527_155153.jpg 2400w&quot; alt=&quot;&quot; width=&quot;2000&quot; height=&quot;1500&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;kg-gallery-image&quot;&gt;
-  &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter&quot; src=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180527_174915.jpg&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; srcset=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180527_174915.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180527_174915.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180527_174915.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180527_174915.jpg 2400w&quot; alt=&quot;&quot; width=&quot;2000&quot; height=&quot;2667&quot; /&gt;
-&lt;/div&gt;
-</code></pre>
-<h3 id="day-three-monday-28th-may-2018">Day Three – Monday, 28th May 2018</h3>
-<p>A quieter day than Sunday. Initially Ben was adamant that he wanted to do more walk<br>
-ing (Ben A’an having whet his appetite for views), so we intended to wander up the <a href="https://www.walkhighlands.co.uk/fortwilliam/lostvalley.shtml">Lost Valley of Glencoe</a>. But upon reaching the car park, he declared that he did not feel well enough for a hike – something that has happened to me on more than one occasion! So instead we went up the nearby <a href="https://www.nevisrange.co.uk/activities/mountain-gondola/">Nevis Range Mountain Gondola</a> on the north face of <a href="https://www.walkhighlands.co.uk/munros/aonach-mor">Aonach Mor</a>. The sun was beaming down again, a far cry from the whiteout conditions that I had experienced on 25th November 2000 when my friends and I had to abandon an attempt to reach the Aonach Mor summit from nearby Aonach Beag.</p>
+<p>We left Ben A’an car park around 1700. Ben dozed off in the car, and we reached our accommodation at the legendary <a href="https://clachaig.com/">Clachaig Inn</a> by 1840. By this late hour and following our earlier exertions Ben was super tired and hangry – reluctant to eat but perked up noticeably after having done so. I realised that a quieter day was probably in order for the following day.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/00100dPORTRAIT_00100_BURST20180527133330704_COVER-3.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/00000PORTRAIT_00000_BURST20180527154957149.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180527_155153.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180527_174915.jpg"></p>
+<h2 id="day-three--monday-28th-may-2018">Day Three – Monday, 28th May 2018</h2>
+<p>A quieter day than Sunday. Initially Ben was adamant that he wanted to do more walking (Ben A’an having whet his appetite for views), so we intended to wander up the <a href="https://www.walkhighlands.co.uk/fortwilliam/lostvalley.shtml">Lost Valley of Glencoe</a>. But upon reaching the car park, he declared that he did not feel well enough for a hike – something that has happened to me on more than one occasion! So instead we went up the nearby <a href="https://www.nevisrange.co.uk/activities/mountain-gondola/">Nevis Range Mountain Gondola</a> on the north face of <a href="https://www.walkhighlands.co.uk/munros/aonach-mor">Aonach Mor</a>. The sun was beaming down again, a far cry from the whiteout conditions that I had experienced on 25th November 2000 when my friends and I had to abandon an attempt to reach the Aonach Mor summit from nearby Aonach Beag.</p>
 <p>Back down to the car, and with Ben still not in the mood for activity, we took a long drive around Ardnamurchan – Glenuig, Strontian (location of the discovery of Strontium, as I boringly explained to Ben in typical Dad fashion), and back via the Corran Ferry. I resisted the small temptation to take a short but lengthy detour down the narrow tracks to <a href="https://www.undiscoveredscotland.co.uk/kilchoan/ardnamurchanpoint/index.html">Ardnamurchan Point</a>, having fallen into that trap on a previous jaunt at August Bank Holiday 2002. Despite this, the relative lack of civilisation for miles around was not lost on us as we struggled to find a convenient place to stop for a bite of lunch. I vowed to learn this lesson on subsequent days, stocking up the car with sandwiches and snacks at the start of the day rather than risk a hungry and grumpy pre-teen companion.</p>
-<p>In the evening we sat outside the Clachaig playing chess. We heard tell of a couple of other tourists who had required medical attention after being up on a ridge with too little water and no sunhats. After this it was easier on subsequent days to persuade Ben to wear his own sunhat.
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted --></p>
-<pre><code>&lt;div class=&quot;kg-gallery-image&quot;&gt;
-  &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter&quot; src=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180528_123222.jpg&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; srcset=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180528_123222.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180528_123222.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180528_123222.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180528_123222.jpg 2400w&quot; alt=&quot;&quot; width=&quot;2000&quot; height=&quot;1500&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;kg-gallery-image&quot;&gt;
-  &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter&quot; src=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180528_202024.jpg&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; srcset=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180528_202024.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180528_202024.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180528_202024.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180528_202024.jpg 2400w&quot; alt=&quot;&quot; width=&quot;2000&quot; height=&quot;2667&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;kg-gallery-image&quot;&gt;
-  &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter&quot; src=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180528_202950.jpg&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; srcset=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180528_202950.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180528_202950.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180528_202950.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180528_202950.jpg 2400w&quot; alt=&quot;&quot; width=&quot;2000&quot; height=&quot;1500&quot; /&gt;
-&lt;/div&gt;
-</code></pre>
-<h3 id="day-four-tuesday-29th-may-2018">Day Four – Tuesday, 29th May 2018</h3>
+<p>In the evening we sat outside the Clachaig playing chess. We heard tell of a couple of other tourists who had required medical attention after being up on a ridge with too little water and no sunhats. After this it was easier on subsequent days to persuade Ben to wear his own sunhat.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/00000PORTRAIT_00000_BURST20180528115910345.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180528_123222.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180528_202024.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180528_202950.jpg"></p>
+<h2 id="day-four--tuesday-29th-may-2018">Day Four – Tuesday, 29th May 2018</h2>
 <p>A lot of driving, unfortunately. I had forgotten how long it can take to get from A to B in the Highlands sometimes. After stopping in Fort William for sandwiches and a pack of playing cards we headed for the picture postcard <a href="https://www.eileandonancastle.com/">Eilean Donan Castle</a>. Here the increasing popularity (and potential Disneyfication) of the Highlands began to hit me. I have photographs from 2002 wherein my friends and I were the only visitors to an otherwise deserted EDC. No longer – extended car and coach parks and additional visitor infrastructure were now in place to accommodate the hoards of tourists.</p>
 <p>We enjoyed an ice cream each in the stifling heat before driving up to Plockton, passing the alarming sight of a wildfire in its early stages en route. We later learned that an electrical transformer had exploded, igniting part of the tinder-dry Strathellen Wood. After a quick drink in <a href="https://plocktonhotel.co.uk/">The Plockton Hotel</a> we boarded the legendary <a href="https://calums-sealtrips.com/">Calum’s Seal Trip</a>, without which no trip to the north west would be complete. Apart from ourselves, the boat was filled with Italian tourists, who laughed politely at Calum’s gags, which have not changed at all in the last twenty years. One of the staff explained to me that Scotland has become more popular than ever with foreign visitors in recent years, and attempted to convince those same foreign guests that the inexplicably brilliant 2018 weather was typical for the location and time of year.</p>
-<p>We stayed at a very pleasant and peaceful <a href="https://www.airbnb.co.uk/rooms/6501251">AirBnB by the name of Fasgro in Drumbuie</a>. Our host, Carol, recommended an evening coastal walk, which turned out to be one of my highlights of the entire trip.
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted --></p>
-<pre><code>&lt;div class=&quot;kg-gallery-image&quot;&gt;
-  &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter&quot; src=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_9782.jpg&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; srcset=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_9782.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_9782.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_9782.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_9782.jpg 2400w&quot; alt=&quot;&quot; width=&quot;2000&quot; height=&quot;1333&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;kg-gallery-image&quot;&gt;
-  &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter&quot; src=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_9812.jpg&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; srcset=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_9812.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_9812.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_9812.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_9812.jpg 2400w&quot; alt=&quot;&quot; width=&quot;2000&quot; height=&quot;1333&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;kg-gallery-image&quot;&gt;
-  &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter&quot; src=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180529_135410.jpg&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; srcset=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180529_135410.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180529_135410.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180529_135410.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180529_135410.jpg 2400w&quot; alt=&quot;&quot; width=&quot;2000&quot; height=&quot;1500&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;kg-gallery-image&quot;&gt;
-  &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter&quot; src=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180529_151250.jpg&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; srcset=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180529_151250.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180529_151250.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180529_151250.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180529_151250.jpg 2400w&quot; alt=&quot;&quot; width=&quot;2000&quot; height=&quot;1500&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;kg-gallery-image&quot;&gt;
-  &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter&quot; src=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-14_20-37-02.png&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; srcset=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/1_2020-01-14_20-37-02.png 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_2020-01-14_20-37-02.png 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-14_20-37-02.png 1371w&quot; alt=&quot;&quot; width=&quot;1371&quot; height=&quot;1339&quot; /&gt;
-&lt;/div&gt;
-</code></pre>
-<h3 id="day-five-wednesday-30th-may-2018">Day Five – Wednesday, 30th May 2018</h3>
+<p>We stayed at a very pleasant and peaceful <a href="https://www.airbnb.co.uk/rooms/6501251">AirBnB by the name of Fasgro in Drumbuie</a>. Our host, Carol, recommended an evening coastal walk, which turned out to be one of my highlights of the entire trip.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_9757-1.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_9782.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_9812.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180529_135410.jpg"><br>
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180529_151250.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-14_20-37-02.png"></p>
+<h2 id="day-five--wednesday-30th-may-2018">Day Five – Wednesday, 30th May 2018</h2>
 <p>We left Drumbuie, passed through Lochcarron, and headed up the Bealach na Ba pass, which was a much easier drive in the summer months than winter snows. For one thing there were no angry van drivers to wind their windows down as we passed and inexplicably yell at me for being a “bloody fool”. Scottish hospitality has definitely improved.</p>
 <p>After parking up, we took advantage of our high altitude to wander up to the transmitter station, then over to the 792m Corbett <a href="https://www.walkhighlands.co.uk/torridon/Sgurrachaorachain.shtml">Sgurr a’ Chaorachain</a>. I thought this was an easy walk with cracking views over to Skye and Raasay. But Ben was hard work, complaining every step of the way and having to be bribed to continue (I placed Amazon orders for new XBox games from the Corbett summit!). I was unsure why he disliked this walk compared to the steeper exertions of Ben A’an earlier in the week.</p>
-<p>Back to the car, and we drove through the majestic <a href="https://www.nts.org.uk/visit/places/torridon">Torridon</a>, Kinlochewe (stopped for another ice cream), and on to the <a href="http://www.aultguish.co.uk/">Aultguish Inn</a>. There has clearly been some capital investment here, as the room facilities had improved immeasurably since my visits in the earliest years of the century.
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted --></p>
-<pre><code>&lt;div class=&quot;kg-gallery-image&quot;&gt;
-  &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter&quot; src=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/COLOR_POP.jpg&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; srcset=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/1_COLOR_POP.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_COLOR_POP.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_COLOR_POP.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_COLOR_POP.jpg 2400w&quot; alt=&quot;&quot; width=&quot;2000&quot; height=&quot;1500&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;kg-gallery-image&quot;&gt;
-  &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter&quot; src=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180530_120619.jpg&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; srcset=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180530_120619.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180530_120619.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180530_120619.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180530_120619.jpg 2400w&quot; alt=&quot;&quot; width=&quot;2000&quot; height=&quot;1500&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;kg-gallery-image&quot;&gt;
-  &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter&quot; src=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_9851.jpg&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; srcset=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_9851.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_9851.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_9851.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_9851.jpg 2400w&quot; alt=&quot;&quot; width=&quot;2000&quot; height=&quot;1333&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;kg-gallery-image&quot;&gt;
-  &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter&quot; src=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-14_20-39-22.png&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; srcset=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/1_2020-01-14_20-39-22.png 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_2020-01-14_20-39-22.png 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_2020-01-14_20-39-22.png 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-14_20-39-22.png 2188w&quot; alt=&quot;&quot; width=&quot;2000&quot; height=&quot;1344&quot; /&gt;
-&lt;/div&gt;
-</code></pre>
-<h3 id="day-six-thursday-31st-may-2018">Day Six – Thursday, 31st May 2018</h3>
+<p>Back to the car, and we drove through the majestic <a href="https://www.nts.org.uk/visit/places/torridon">Torridon</a>, Kinlochewe (stopped for another ice cream), and on to the <a href="http://www.aultguish.co.uk/">Aultguish Inn</a>. There has clearly been some capital investment here, as the room facilities had improved immeasurably since my visits in the earliest years of the century.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180530_125108.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/COLOR_POP.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180530_120619.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_9851.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2020-01-14_20-39-22.png"></p>
+<h2 id="day-six--thursday-31st-may-2018">Day Six – Thursday, 31st May 2018</h2>
 <p>Ben was sick in the night, explaining his lack of enthusiasm on the hills the previous day. We abandoned plans to scramble up <a href="https://www.walkhighlands.co.uk/ullapool/stacpollaidh.shtml">Stac Pollaidh</a>, and instead opted for more driving – a big circular route around the far north. We saw Durness, Tongue, and some wonderful coastal scenes along the A836 across the very top of the country, before reaching the anticlimactic John O’Groats where we bought some soft toys and sweets as gifts for Ben’s siblings. Our journey back down the eastern seaboard was shrouded in thick fog, depriving us of any seascape views.</p>
 <p>In the evening we played card games in the hotel bar, by which time Ben was on much better form, thrashing my exhausted self at most games and feeling well enough to devour the biggest dessert on the menu.</p>
-<p>After Ben retired to our room to watch some TV talent show, I got chatting to a pleasant young bohemian lady, who had recently embarked on an attempted continuous round of the Munros, travelling between them on bicycle. I would be lying if I said that I wasn’t slightly envious of her freedom and ability to take so much time out of the rat race for such an endeavour. But conversely, I was happy to have had a Son in tow with whom to share a brief week experiencing some of the many delights that Scotland has to offer to all ages.
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted --></p>
-<pre><code>&lt;div class=&quot;kg-gallery-image&quot;&gt;
-  &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter&quot; src=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/Screenshot_20180601-212905-1.png&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; alt=&quot;&quot; width=&quot;1080&quot; height=&quot;1920&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;kg-gallery-image&quot;&gt;
-  &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter&quot; src=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180531_135735.jpg&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; srcset=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180531_135735.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180531_135735.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180531_135735.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180531_135735.jpg 2400w&quot; alt=&quot;&quot; width=&quot;2000&quot; height=&quot;2667&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;kg-gallery-image&quot;&gt;
-  &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter&quot; src=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/00100dPORTRAIT_00100_BURST20180531181545738_COVER-1.jpg&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; srcset=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/1_00100dPORTRAIT_00100_BURST20180531181545738_COVER-1.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_00100dPORTRAIT_00100_BURST20180531181545738_COVER-1.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_00100dPORTRAIT_00100_BURST20180531181545738_COVER-1.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_00100dPORTRAIT_00100_BURST20180531181545738_COVER-1.jpg 2400w&quot; alt=&quot;&quot; width=&quot;2000&quot; height=&quot;2667&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;kg-gallery-image&quot;&gt;
-  &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter&quot; src=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180531_200439.jpg&quot; sizes=&quot;auto, (min-width: 720px) 720px&quot; srcset=&quot;https://blogstouks01.z33.web.core.windows.net/2023/08/1_IMG_20180531_200439.jpg 600w, https://blogstouks01.z33.web.core.windows.net/2023/08/2_IMG_20180531_200439.jpg 1000w, https://blogstouks01.z33.web.core.windows.net/2023/08/3_IMG_20180531_200439.jpg 1600w, https://blogstouks01.z33.web.core.windows.net/2023/08/4_IMG_20180531_200439.jpg 2400w&quot; alt=&quot;&quot; width=&quot;2000&quot; height=&quot;2667&quot; /&gt;
-&lt;/div&gt;
-</code></pre>
-<h3></h3>
+<p>After Ben retired to our room to watch some TV talent show, I got chatting to a pleasant young bohemian lady, who had recently embarked on an attempted continuous round of the Munros, travelling between them on bicycle. I would be lying if I said that I wasn’t slightly envious of her freedom and ability to take so much time out of the rat race for such an endeavour. But conversely, I was happy to have had a Son in tow with whom to share a brief week experiencing some of the many delights that Scotland has to offer to all ages.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180531_135711.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/Screenshot_20180601-212905-1.png">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180531_135735.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/00100dPORTRAIT_00100_BURST20180531181545738_COVER-1.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20180531_200439.jpg"></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1566,8 +1485,9 @@ ing (Ben A’an having whet his appetite for views), so we intended to wander up
 <p>With five slots during the day each offering five concurrent sessions there were plenty of difficult choices to be made. In general, I tried to attend sessions offering information I didn’t think I would be able to get from books, blogs or PluralSight – stories from the trenches and architectural concepts rather than deep dives on specific technologies.</p>
 <p>The first session I attended was “<strong>So You Want To Be A Tech Lead – 10 Things You Need To Do To Succeed</strong>” by <a href="http://www.hammond-turner.org.uk/">Joel Hammond-Turner</a> (<a href="https://twitter.com/rammesses">@rammesses</a>). I was delighted to find that the eponymous ten things were not airy-fairy woolly soft-skill type things, but in fact consisted of ten topics backed by a whole bunch of concrete real-world actionable suggestions. These ranged from large architectural tasks (use NuGet obsessively for all internal dependencies, set up automated release management with Octopus, etc) to the little things that can make a difference (be willing to take your headphones off, read and share <a href="http://blog.cwa.me.uk/">The Morning Brew</a>, add photographs to Personas..)</p>
 <p>Next I saw “<strong>Not Just Layers! What Can Pipelines and Events Do For You?</strong>“, presented by DDD circuit regular <a href="http://codebetter.com/iancooper/">Ian Cooper</a> (<a href="https://twitter.com/icooper">@icooper</a>). This was the most technical session that I saw, and required some serious concentration. Ian started his presentation with some slides that explained the theoretical background behind the architectural concepts he was introducing. These were beautiful and densely packed with information, and I plan to review them at my leisure! He then fired up Visual Studio and demonstrated some C# implementations of the patterns previously described. Kudos to Ian for creating a successful presentation on a fairly dry architectural topic – inevitably it could only scratch the surface but has whetted my appetite to venture beyond the typical layering approach when considering candidate software architectures.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<blockquote>
+<p>Two eyes and two ears is not enough kit for &lsquo;Not Just Layers&rsquo; @DDDNorth @ICooper<br>
+— Mark Dickinson (@tuganetmark) October 18, 2014</p></blockquote>
 <p>As I hurtle inexorably towards my 40s, and noting the general absence of older coders in the workplace, I have been starting to wonder whether I need to identify alternative career paths away from the code face. So the following talk was of particular interest to me.</p>
 <p>Ceri Shaw’s (<a href="https://twitter.com/cerishaw">@cerishaw</a>) talk “<strong>Join The Dark Side – Why Developers Should Consider Management</strong>” began by covering some of the negative managerial stereotypes that we techies tend to hold (yes, there was a Dilbert cartoon). She continued by looking at the traits needed to be an effective line manager or project manager within a technical team, identifying (as the session title suggests) that developers did in fact possess many of the requisite skills. Although I’m still not entirely convinced that a full-time management role is the right move for me personally, I can see how some aspect of mentoring or scrum mastering might not be entirely incompatible with my desire to retain a hands-on techie, and I will be seeking out some of the resources she mentioned to learn more.</p>
 <p>There were a number of interesting short grok talks during lunchtime. I particularly enjoyed hearing <a href="http://www.relentlessdevelopment.net/">Grant Crofton</a> (<a href="https://twitter.com/relentlessdev">@relentlessdev</a>) describe his attempts to use functional programming to determine the most appropriate school for his son! That sounds like a slightly more practical means of developing skills in F# than my own efforts to use it solve some of the Project Euler problems.</p>
@@ -1577,30 +1497,37 @@ The Agile movement, Richard suggested, was born as the result of an entire indus
 He cautioned us not to be jealous of or constantly compare ourselves to other developers, and to consider what aspects of life are poorer for those in our industry who are able to devote vast amounts of time to developing open source frameworks or writing popular blogs. I was also pleased to hear someone else mention the guilt that they feel when they choose to spend their hard-earned free time reading for pleasure instead of being glued to PluralSight or reading tech books. We do need to go easier on ourselves if we’re in this for the long haul.</p>
 <p>The issue of age naturally came up – Richard concluded that there is no discernable mental decline between a programmer aged 20 and the same aged 40, it’s just that we have many more demands on our time around this age, leaving us with less contingency time to catch up on the less productive days. If we make it through this period in our lives without quitting the industry, it was suggested that things could actually be easier in our 50s as children become more self-sufficient and we once again have some time to spare.</p>
 <p>In summary, it was a very reassuring talk, wrapped up with helpful advice on how to handle burnout – what works and what doesn’t.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<blockquote>
+<p>SUPERB talk on Burnout by @richardadalton – someone should get a video made for HR departments to see. #dddnorth</p>
+<p>— Joel Hammond-Turner (@rammesses)</p></blockquote>
+<blockquote>
+<p>Fantastic talk on burnout by @richardadalton #dddnorth one of the highlights of the day!</p>
+<p>— Rushby (@rushbys)</p></blockquote>
+<blockquote>
+<p>So @richardadalton talk was stand out, absolutely hit the nail on the head. Covered points i&rsquo;d not even considered. Well done #dddnorth<!-- raw HTML omitted --></p>
+<p>— Kirsty Busfield (@kirstybu)</p></blockquote>
+<blockquote>
+<p>@richardadalton&rsquo;s talk has been the best one at #dddnorth. Burnout is prevalent in the software industry.</p>
+<p>— Mark Robinson (@Defstun)</p></blockquote>
 <p>In recent years the projects that I have worked on have involved much web services work (both as a client and server), so I was interested to hear <a href="https://twitter.com/david_whitney">David Whitney’s</a> (<a href="https://twitter.com/david_whitney">@david_whitney</a>) “<strong>Lessons Learned Running A Public API</strong>” talk, full of tips gathered developing the Rest API for Justgiving.com<br>
 There was a good mixture of hard technical advice (how to handle versioning, authentication, what data formats to support..) along with softer ideas of the supporting work required to create and maintain a successful public API (generated documentation, SDKs, not being a slave to external requirements or a single client, getting a product manager).</p>
 <p>I was particularly struck by the openness of the approach recommended by David, which involved creating public Google groups to push support issues into the community, and making a public uptime page available. Lots of good tips from the trenches here. Once again, here was some real actionable advice from a session that we can take away and put into practice.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<blockquote>
+<p>Really enjoyed the @david_whitney session on APIs to round off the day at #dddnorth</p>
+<p>– Paul D&rsquo;Ambra (@pauldambra)</p></blockquote>
+<blockquote>
+<p>Good solid advice so far from #dddnorth presentations.</p>
+<p>— Chris Gibbons (@jibubo)</p></blockquote>
 <p>And that (after the customary prize draws and closing comments), was that. Thanks to <a href="https://twitter.com/apwestgarth">Andrew Westgarth</a>, <a href="http://www.blackmarble.co.uk/">Black Marble</a>, the <a href="http://www.leeds.ac.uk/">University of Leeds</a>, and all the sponsors and speakers for once again staging a vital event. The development community in the North would be much poorer without this large multi-track multi-session event, and I look forward to attending again next year.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<blockquote>
+<p>Come out of #dddnorth with loads of ideas &amp; thoughts, just got to find time to look into them</p>
+<p>— Nathan Gloyn (@NathanGloyn)</p></blockquote>
+<blockquote>
+<p>Such a long day at #dddnorth today, but totally worth it as always. Excellent day out in Leeds. @DDDNorth</p>
+<p>— Gary Emery (@gaz_y2k4)</p></blockquote>
+<blockquote>
+<p>@DDDNorth First ever visit to DDD North. Excellent day, massive thanks to all involved!</p>
+<p>— Chris Shepherd (@Shepless)</p></blockquote>
 ]]></content:encoded>
     </item>
     <item>
