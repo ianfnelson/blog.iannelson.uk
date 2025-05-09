@@ -4,8 +4,6 @@ type: page
 ShowDate: false
 cover: 
   image: https://blogstouks01.z33.web.core.windows.net/2020/02/photo-1472289065668-ce650ac443d2.jpg
-ct_author_pro_fi_size_key:
-  - default
 
 ---
 _“The biggest problem with working with Ian F. Nelson is the Ian F. Nelson shaped hole he leaves behind. We’re going to have to use a patchwork of devs to make up for all the excellent work you’ve done here and your loss will be felt for some time to come. Good luck in your next role; keep in touch and we’ll see you around!”_

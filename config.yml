@@ -18,12 +18,9 @@ params:
   ShowFullTextinRSS: true
   ShowFooter: true
   homeInfoParams:
-    Title: Hi. I’m Ian.
+    Title: Between Systems and Sunlight
     Content: |
-      I write code for a living and words for fun.
-      This blog is a dumping ground for thoughts on software architecture, books I pretend I understood, Wordle triumphs, and walks up hills that seemed like a good idea at the time.
-      Expect a mix of tech nerdery, midlife musings, and the occasional rant disguised as insight.
-      Make of it what you will.
+      Where citizen-scale systems meet the chaos of a three-teenager household.
 
   socialIcons:
     - name: 'linkedin'
@@ -68,11 +65,11 @@ languages:
       series: series
     menu:
       main:
+        - name: About
+          url: about
+          weight: 1
         - name: Archive
           url: archives
-          weight: 1
-        - name: Categories
-          url: categories
           weight: 3
         - name: Testimonials
           url: testimonials
