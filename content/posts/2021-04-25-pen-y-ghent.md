@@ -9,6 +9,8 @@ cover:
 categories:
   - Family
   - Hills
+tags:
+  - Yorkshire
 
 ---
 A lovely spring Sunday walk up Pen-y-ghent in the Yorkshire Dales with my daughter Isla (her first hike up a proper hill).
