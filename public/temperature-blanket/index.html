@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Temperature Blanket – A Rare Opportunity for My Coding to Assist Jocelyn&#39;s Crafting | Ian Nelson</title>
-<meta name="keywords" content="">
+<meta name="keywords" content=".NET">
 <meta name="description" content="As the resident geek in our family, it won’t surprise you to hear that I am occasionally approached by Jocelyn and our kids to provide tech support. Sadly, most of these queries are invariably of the “how do I print from my phone” or “the Sky box stopped working” ilk, and rarely trouble my software skills. So it came as a pleasant surprise when I recently encountered a genuine reason to use .NET, APIs and Docker in support of one of Jocelyn’s craft projects.">
 <meta name="author" content="">
 <link rel="canonical" href="https://blog.iannelson.uk/temperature-blanket/">
@@ -77,7 +77,8 @@
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2020-02-16T22:35:00+00:00">
-    <meta property="article:modified_time" content="2025-04-23T21:18:19+01:00">
+    <meta property="article:modified_time" content="2025-05-10T16:46:25+01:00">
+    <meta property="article:tag" content=".NET">
     <meta property="og:image" content="https://blogstouks01.z33.web.core.windows.net/2020/02/IMG_20200216_190322.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://blogstouks01.z33.web.core.windows.net/2020/02/IMG_20200216_190322.jpg">
@@ -113,13 +114,13 @@
   "name": "Temperature Blanket – A Rare Opportunity for My Coding to Assist Jocelyn\u0027s Crafting",
   "description": "As the resident geek in our family, it won’t surprise you to hear that I am occasionally approached by Jocelyn and our kids to provide tech support. Sadly, most of these queries are invariably of the “how do I print from my phone” or “the Sky box stopped working” ilk, and rarely trouble my software skills. So it came as a pleasant surprise when I recently encountered a genuine reason to use .NET, APIs and Docker in support of one of Jocelyn’s craft projects.\n",
   "keywords": [
-    
+    ".NET"
   ],
-  "articleBody": "As the resident geek in our family, it won’t surprise you to hear that I am occasionally approached by Jocelyn and our kids to provide tech support. Sadly, most of these queries are invariably of the “how do I print from my phone” or “the Sky box stopped working” ilk, and rarely trouble my software skills. So it came as a pleasant surprise when I recently encountered a genuine reason to use .NET, APIs and Docker in support of one of Jocelyn’s craft projects.\nJocelyn has embarked on crocheting a Temperature Blanket throughout 2020. This will consist of 366 squares, one for each day of this leap year, in colours corresponding to the minimum, maximum and average temperatures that we experienced on that day.\nAnd here was the rub – a notable absence of websites that provided these three daily data points for a location close to home. Some sites only had minimum and maximum, but no average. Others considered a “day” to run from, say, 4am to 4am, rather than midnight to midnight, which just isn’t in the spirit of the project. Still others offered the data points she needed, but not for any place close to home.\nI’m looking forward to some violet days\nHere was my opportunity to help and earn some husbandly brownie points! I already had an account for the excellent Dark Sky API, which offers forecast and historical weather data by latitude and longitude. Further, Adam Weiss has made available dark-sky-core, a .NET Standard Nuget Package for accessing this API from .NET code. I fired up Rider, started a new console app, bashed out the following quick function, and proudly presented the desired figures to Mrs Nelson.\nScope creep inevitably presented itself at this point, as a console application didn’t meet UX requirements.\n“That’s great Ian – now can you get it to email me the figures every day?”\nHmm. I didn’t want to get into that, but I could do one better, and make this into a simple self-service dedicated website. I launched a new Rider instance and created a boilerplate ASP.NET website to show the desired temperatures for the preceding 28 days. I added a standard Dockerfile, built and pushed a container image, and deployed it to an Azure App Service Plan. The final touch was to configure a memorable subdomain and so it was that http://blanket.iannelson.uk was born.\nThe (rough and ready) source code for both the console application and web version can be found on GitHub:\nPhotos of Jocelyn’s other colourful creations (and the occasional photobomb from our Miniature Schnauzer) can be found on her Instagram profile.\n",
+  "articleBody": "As the resident geek in our family, it won’t surprise you to hear that I am occasionally approached by Jocelyn and our kids to provide tech support. Sadly, most of these queries are invariably of the “how do I print from my phone” or “the Sky box stopped working” ilk, and rarely trouble my software skills. So it came as a pleasant surprise when I recently encountered a genuine reason to use .NET, APIs and Docker in support of one of Jocelyn’s craft projects.\nJocelyn has embarked on crocheting a Temperature Blanket throughout 2020. This will consist of 366 squares, one for each day of this leap year, in colours corresponding to the minimum, maximum and average temperatures that we experienced on that day.\nAnd here was the rub – a notable absence of websites that provided these three daily data points for a location close to home. Some sites only had minimum and maximum, but no average. Others considered a “day” to run from, say, 4am to 4am, rather than midnight to midnight, which just isn’t in the spirit of the project. Still others offered the data points she needed, but not for any place close to home.\nHere was my opportunity to help and earn some husbandly brownie points! I already had an account for the excellent Dark Sky API, which offers forecast and historical weather data by latitude and longitude. Further, Adam Weiss has made available dark-sky-core, a .NET Standard Nuget Package for accessing this API from .NET code. I fired up Rider, started a new console app, bashed out the following quick function, and proudly presented the desired figures to Mrs Nelson.\n{{ \u003c gist d05b7b5c9e31c7abd165f1ea5dfd9dd9 \u003e}}\nScope creep inevitably presented itself at this point, as a console application didn’t meet UX requirements.\n“That’s great Ian – now can you get it to email me the figures every day?”\nHmm. I didn’t want to get into that, but I could do one better, and make this into a simple self-service dedicated website. I launched a new Rider instance and created a boilerplate ASP.NET website to show the desired temperatures for the preceding 28 days. I added a standard Dockerfile, built and pushed a container image, and deployed it to an Azure App Service Plan. The final touch was to configure a memorable subdomain and so it was that http://blanket.iannelson.uk was born.\nThe (rough and ready) source code for both the console application and web version can be found on GitHub:\nhttps://github.com/ianfnelson/ColourBlanket https://github.com/ianfnelson/ColourBlanketWeb Photos of Jocelyn’s other colourful creations (and the occasional photobomb from our Miniature Schnauzer) can be found on her Instagram profile.\n",
   "wordCount" : "437",
   "inLanguage": "en",
   "image":"https://blogstouks01.z33.web.core.windows.net/2020/02/IMG_20200216_190322.jpg","datePublished": "2020-02-16T22:35:00Z",
-  "dateModified": "2025-04-23T21:18:19+01:00",
+  "dateModified": "2025-05-10T16:46:25+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://blog.iannelson.uk/temperature-blanket/"
@@ -223,14 +224,18 @@
 </figure>
   <div class="post-content"><p>As the resident geek in our family, it won’t surprise you to hear that I am occasionally approached by Jocelyn and our kids to provide tech support. Sadly, most of these queries are invariably of the “how do I print from my phone” or “the Sky box stopped working” ilk, and rarely trouble my software skills. So it came as a pleasant surprise when I recently encountered a genuine reason to use .NET, APIs and Docker in support of one of Jocelyn’s craft projects.</p>
 <p>Jocelyn has embarked on crocheting a <em>Temperature Blanket</em> throughout 2020. This will consist of 366 squares, one for each day of this leap year, in colours corresponding to the minimum, maximum and average temperatures that we experienced on that day.</p>
-<p>And here was the rub – a notable absence of websites that provided these three daily data points for a location close to home. Some sites only had minimum and maximum, but no average. Others considered a “day” to run from, say, 4am to 4am, rather than midnight to midnight, which just isn’t in the spirit of the project. Still others offered the data points she needed, but not for any place close to home.<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --> <!-- raw HTML omitted -->I’m looking forward to some violet days<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>And here was the rub – a notable absence of websites that provided these three daily data points for a location close to home. Some sites only had minimum and maximum, but no average. Others considered a “day” to run from, say, 4am to 4am, rather than midnight to midnight, which just isn’t in the spirit of the project. Still others offered the data points she needed, but not for any place close to home.</p>
+<p><img alt="The temperature-to-colour key for Jocelyn&rsquo;s 2020 temperature blanket" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_20200216_190534.jpg"></p>
 <p>Here was my opportunity to help and earn some husbandly brownie points! I already had an account for the excellent <a href="https://darksky.net/dev">Dark Sky API</a>, which offers forecast and historical weather data by latitude and longitude. Further, <a href="https://www.adamweiss.me/">Adam Weiss</a> has made available <a href="https://github.com/amweiss/dark-sky-core">dark-sky-core</a>, a .NET Standard Nuget Package for accessing this API from .NET code. I fired up Rider, started a new console app, bashed out the following quick function, and proudly presented the desired figures to Mrs Nelson.</p>
+<p>{{ &lt; gist d05b7b5c9e31c7abd165f1ea5dfd9dd9 &gt;}}</p>
 <p>Scope creep inevitably presented itself at this point, as a console application didn’t meet UX requirements.</p>
 <p><em>“That’s great Ian – now can you get it to email me the figures every day?”</em></p>
-<p>Hmm. I didn’t want to get into <em>that</em>, but I could do one better, and make this into a simple self-service dedicated website. I launched a new Rider instance and created a boilerplate ASP.NET website to show the desired temperatures for the preceding 28 days. I added a standard Dockerfile, built and pushed a container image, and deployed it to an Azure App Service Plan. The final touch was to configure a memorable subdomain and so it was that <a href="http://blanket.iannelson.uk">http://blanket.iannelson.uk</a> was born.</p>
+<p>Hmm. I didn’t want to get into <em>that</em>, but I could do one better, and make this into a simple self-service dedicated website. I launched a new Rider instance and created a boilerplate ASP.NET website to show the desired temperatures for the preceding 28 days. I added a standard Dockerfile, built and pushed a container image, and deployed it to an Azure App Service Plan. The final touch was to configure a memorable subdomain and so it was that <code>http://blanket.iannelson.uk</code> was born.</p>
 <p>The (rough and ready) source code for both the console application and web version can be found on GitHub:</p>
-<!-- raw HTML omitted -->
+<ul>
+<li><a href="https://github.com/ianfnelson/ColourBlanket">https://github.com/ianfnelson/ColourBlanket</a></li>
+<li><a href="https://github.com/ianfnelson/ColourBlanketWeb">https://github.com/ianfnelson/ColourBlanketWeb</a></li>
+</ul>
 <p>Photos of Jocelyn’s other colourful creations (and the occasional photobomb from our Miniature Schnauzer) can be found <a href="https://www.instagram.com/jocelyngnelson/">on her Instagram profile</a>.</p>
 
 
@@ -238,6 +243,7 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="https://blog.iannelson.uk/tags/.net/">.NET</a></li>
     </ul>
   </footer>
 </article>
