@@ -7,7 +7,7 @@ categories:
   - Genealogy
 
 ---
-It’s been a long time since I posted a blog entry tagged with “[genealogy][1]” (over three years, in fact). I find it to be a hobby that I pursue in fits and starts – periods of all-encompassing obsession followed by long periods of total inactivity. But the old [Family Tree][2] has been fleshed out nicely since I last updated you, dear reader. It has also acquired a most surprising and welcome addition.
+It’s been a long time since I posted a blog entry in the “[genealogy][1]” category (over three years, in fact). I find it to be a hobby that I pursue in fits and starts – periods of all-encompassing obsession followed by long periods of total inactivity. But the old [Family Tree][2] has been fleshed out nicely since I last updated you, dear reader. It has also acquired a most surprising and welcome addition.
 
 ![My Dad and his Granny, Isabella Birrell](https://blogstouks01.z33.web.core.windows.net/2023/08/DadAndGranny_5.jpg)
 
@@ -39,7 +39,7 @@ To be honest this news is still sinking in, and I’m not sure what comments to 
 
 Oh, and John – welcome to the family, cousin!
 
- [1]: https://blog.iannelson.uk/tags/genealogy
+ [1]: https://blog.iannelson.uk/categories/genealogy/
  [2]: https://familytree.iannelson.uk
  [3]: http://www.scotlandspeople.gov.uk
  [4]: http://johnsadventures.com/

@@ -83,7 +83,7 @@ If you really want to see overall metrics for the solutions, NCrunch also provid
 
 When my code fails a test assertion, or even when it fails to compile, the reasons, just like the code-coverage data, are right there in my face, almost immediately. I don’t have to go hunting for the problem, I can access the compiler errors or stack traces for failed assertions without leaving the window in which I’m coding.
 
-![](https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchExceptions.pn)
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchExceptions.png)
 
 ![](https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchAssertions.png)
 

@@ -27,6 +27,6 @@ Thanks to Alex for the companionship on this greyest of days.
 ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_2353.jpg)
 ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_2354.jpg)
 ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_2355.jpg)
-![](https://blogstouks01.z33.web.core.windows.net/2004/01/IMG_2356-1.jpg)
+![](https://blogstouks01.z33.web.core.windows.net/2004/01/IMG_2356.jpg)
 ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_2357.jpg)
 ![](https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_2358.jpg)
