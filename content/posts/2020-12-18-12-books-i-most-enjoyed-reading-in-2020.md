@@ -16,17 +16,17 @@ But a displeasing proportion of my evenings in 2020 were spent relentlessly doom
 
 Still, by year end it seems I have indeed read slightly more books (36) than I did last year (33), though on reviewing my list there are only a dozen that I feel compelled to tell you about:
 
-### The Top 5 {#the-top-5}<figure class="kg-card kg-image-card">
+## The Top 5
 
-<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/132158_iger.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/132158_iger.jpg)
 
 [The Ride of a Lifetime: Lessons in Creative Leadership from 15 Years as CEO of the Walt Disney Company][1] by Robert Iger
 
 My favourite book of the year is this autobiography by outgoing Disney CEO Bob Iger. One of Bill Gates’ regular book recommendations, I likely wouldn’t have considered reading it without his endorsement, as on the face of it this sounds like a typical airport business yawnfest. It’s not.
 
-Rather than being about the dry, cold nature of business, earnings calls and margins, Iger’s book is full of warmth and humanity, with a particular focus on dealing with other people respectfully and understanding their motivations. This obvious genuine interest in other people allowed Iger to clinch stunning deals with Pixar, Lucasfilm, Marvel, and 20th Century Fox, whilst cultivating excellent relationships and friendships with the likes of Rupert Murdoch and Steve Jobs.<figure class="kg-card kg-image-card">
+Rather than being about the dry, cold nature of business, earnings calls and margins, Iger’s book is full of warmth and humanity, with a particular focus on dealing with other people respectfully and understanding their motivations. This obvious genuine interest in other people allowed Iger to clinch stunning deals with Pixar, Lucasfilm, Marvel, and 20th Century Fox, whilst cultivating excellent relationships and friendships with the likes of Rupert Murdoch and Steve Jobs.
 
-<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/132158_maitlis.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/132158_maitlis.jpg)
 
 [Airhead: The Imperfect Art of Making News][2] by Emily Maitlis
 
@@ -34,17 +34,17 @@ Exiting my office one afternoon in summer, I overheard Jocelyn listening to this
 
 In addition to that memorable moment with The Mooch, Maitlis also relates tales of meetings with Donald Trump, Theresa May, Simon Cowell, Bill Clinton, James Comey, Tony Blair, Gordon Ramsay and many more. Russell Brand’s ruminations on the addictive properties of Penguin biscuits will live long in my memory.
 
-On television Maitlis has always come across as a super-smart yet down-to-earth big sister figure, and this compilation of anecdotes from years of reporting the stories of the day and interviewing those who shape our world has a similar quality.<figure class="kg-card kg-image-card">
+On television Maitlis has always come across as a super-smart yet down-to-earth big sister figure, and this compilation of anecdotes from years of reporting the stories of the day and interviewing those who shape our world has a similar quality.
 
-<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/132159_pan.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/132159_pan.jpg)
 
 [Sorry I’m Late, I Didn’t Want To Come: An Introvert’s Year of Living Dangerously][4] by Jessica Pan
 
 As a fellow introvert, I naturally found many of Pan’s tales of self-enforced extroversion butt-clenchingly cringy. But there’s no denying that they were also hugely entertaining and perhaps, just perhaps, also offer evidence that occasionally saying “yes” and getting oneself “out there” might lead to a more fulfilling life.
 
-Don’t get me wrong; I don’t plan to try stand up comedy or improv any time soon. But I might be open to the idea of making occasional smalltalk with my neighbours. Maybe.<figure class="kg-card kg-image-card">
+Don’t get me wrong; I don’t plan to try stand up comedy or improv any time soon. But I might be open to the idea of making occasional smalltalk with my neighbours. Maybe.
 
-<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/132159_donoharm.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/132159_donoharm.jpg)
 
 [Do No Harm: Stories of Life, Death and Brain Surgery][5] by Henry Marsh
 
@@ -52,9 +52,9 @@ Why would I, who as a child hated the very thought of injections, and as a teena
 
 But this was recommended to me by my erstwhile colleague, good friend and [surprise cousin][6] [John Conners][7], whose opinion I respect, so I gave it a go.
 
-Pleasingly, I discovered that Marsh’s memoirs were less about the “gory details” of his chosen vocation (though naturally the topic did crop up), and more about his interactions with patients and their families, existential questions of life and death, and his run-ins with all aspect of our wonderful, bureaucratic, horribly over-stretched NHS.<figure class="kg-card kg-image-card">
+Pleasingly, I discovered that Marsh’s memoirs were less about the “gory details” of his chosen vocation (though naturally the topic did crop up), and more about his interactions with patients and their families, existential questions of life and death, and his run-ins with all aspect of our wonderful, bureaucratic, horribly over-stretched NHS.
 
-<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/13220_stats.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/13220_stats.jpg)
 
 [The Art of Statistics: Learning from Data][8] by David Spiegelhalter
 
@@ -64,7 +64,7 @@ The statistician that politicians love to quote has written a book that could ea
 
 If possible, get the hardback edition, or at the very least a physical copy. It is beautifully typeset and an object you’ll want to treasure.
 
-### The Best of the Rest {#the-best-of-the-rest}
+## The Best of the Rest
 
 [Erebus: The Story of a Ship][10] by Michael Palin
 
@@ -109,19 +109,19 @@ I found this somewhat dry, theoretical, and biological in nature in the earlier 
 
 Since reading this I’ve been tracking the amount of time I spend asleep, and have been increasingly aware of the correlation between being suitably rested over an extended period, and my physical and cognitive wellbeing. I no longer labour under the delusion that time spent asleep is wasted time, or begrudge my teenaged son sleeping in at the weekends!
 
-### Conclusion {#conclusion}
+## Conclusion
 
 Part-way through writing this blog post explaining why these books have appealed to me, I was surprised to note that there is an obvious theme running through many of these choice: People.
 
 More than anything else in 2020, I have appreciated reading books which explore humanity, what it means to be human, and how to improve our interactions with other people:
 
-  * Iger’s advice on how to treat others with respect for the advancement of business interests.
-  * Maitlis’s trying to understand what makes her interviewees tick.
-  * Pan’s attempts to be less introverted and increase her interactions with other people.
-  * _Rebel Ideas_ explaining the devastating effects of failing to solicit a diverse range of opinions.
-  * The ease with which Kevin Mitnick repeatedly used social engineering techniques on other people who are predisposed to be helpful.
-  * Henry Marsh opening up skulls and operating on the incredible delicate brains that make us who we are.
-  * And even the sole fiction book on my list this year – _Machines Like Me_ – is a fascinating exploration of what makes us human.
+* Iger’s advice on how to treat others with respect for the advancement of business interests.
+* Maitlis’s trying to understand what makes her interviewees tick.
+* Pan’s attempts to be less introverted and increase her interactions with other people.
+* _Rebel Ideas_ explaining the devastating effects of failing to solicit a diverse range of opinions.
+* The ease with which Kevin Mitnick repeatedly used social engineering techniques on other people who are predisposed to be helpful.
+* Henry Marsh opening up skulls and operating on the incredible delicate brains that make us who we are.
+* And even the sole fiction book on my list this year – _Machines Like Me_ – is a fascinating exploration of what makes us human.
 
 I hope that as the roll-out of COVID-19 vaccines progresses, 2021 will bring more opportunities for us all to resume our interactions with each other, and practice doing so in more thoughtful and respectful ways.
 
