@@ -49,7 +49,7 @@ In summary, it was a very reassuring talk, wrapped up with helpful advice on how
 >
 > — Rushby (@rushbys)
 
-> So @richardadalton talk was stand out, absolutely hit the nail on the head. Covered points i'd not even considered. Well done #dddnorth</a>  
+> So @richardadalton talk was stand out, absolutely hit the nail on the head. Covered points i'd not even considered. Well done #dddnorth  
 >
 > — Kirsty Busfield (@kirstybu)
 
