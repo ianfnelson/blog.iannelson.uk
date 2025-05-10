@@ -893,7 +893,7 @@ _February 2017_
 ---
 ![](https://blogstouks01.z33.web.core.windows.net/2023/08/18056231_10155014662225708_2145156772790777871_o_10155014662225708.jpg)
 
-Things Isla has brought to lunch #1: Duct tape<figure class="wp-block-image">
+Things Isla has brought to lunch #1: Duct tape
 
 ![](https://blogstouks01.z33.web.core.windows.net/2023/08/18055835_10155014671785708_575121255675113957_o_10155014671785708.jpg)
 

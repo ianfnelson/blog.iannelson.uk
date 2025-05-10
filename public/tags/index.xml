@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 May 2025 18:03:57 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 10 May 2025 20:01:24 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Amazon</title>
@@ -58,16 +58,30 @@
       <description></description>
     </item>
     <item>
+      <title>Conferences</title>
+      <link>https://blog.iannelson.uk/tags/conferences/</link>
+      <pubDate>Sun, 20 Oct 2024 22:09:29 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/tags/conferences/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Career</title>
+      <link>https://blog.iannelson.uk/tags/career/</link>
+      <pubDate>Wed, 11 Jan 2023 13:41:19 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/tags/career/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Derbyshire</title>
       <link>https://blog.iannelson.uk/tags/derbyshire/</link>
-      <pubDate>Mon, 18 Apr 2022 20:00:00 +0000</pubDate>
+      <pubDate>Mon, 29 Aug 2022 20:00:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/tags/derbyshire/</guid>
       <description></description>
     </item>
     <item>
       <title>Yorkshire</title>
       <link>https://blog.iannelson.uk/tags/yorkshire/</link>
-      <pubDate>Mon, 19 Jul 2021 18:49:44 +0000</pubDate>
+      <pubDate>Mon, 29 Aug 2022 20:00:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/tags/yorkshire/</guid>
       <description></description>
     </item>
@@ -104,20 +118,6 @@
       <link>https://blog.iannelson.uk/tags/scotland/</link>
       <pubDate>Fri, 01 Jun 2018 23:00:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/tags/scotland/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Conferences</title>
-      <link>https://blog.iannelson.uk/tags/conferences/</link>
-      <pubDate>Wed, 22 Oct 2014 20:11:52 +0000</pubDate>
-      <guid>https://blog.iannelson.uk/tags/conferences/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Career</title>
-      <link>https://blog.iannelson.uk/tags/career/</link>
-      <pubDate>Thu, 08 May 2014 20:30:11 +0000</pubDate>
-      <guid>https://blog.iannelson.uk/tags/career/</guid>
       <description></description>
     </item>
     <item>
