@@ -2,23 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.iannelson.uk/tags/amazon/</loc>
-    <lastmod>2025-05-03T22:42:55+01:00</lastmod>
-  </url><url>
-    <loc>https://blog.iannelson.uk/tags/audible/</loc>
-    <lastmod>2025-05-03T22:42:55+01:00</lastmod>
-  </url><url>
-    <loc>https://blog.iannelson.uk/categories/books/</loc>
-    <lastmod>2025-05-10T20:01:24+01:00</lastmod>
+    <loc>https://blog.iannelson.uk/tags/blogging/</loc>
+    <lastmod>2025-05-10T11:00:00+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/categories/</loc>
     <lastmod>2025-05-10T20:58:31+01:00</lastmod>
   </url><url>
-    <loc>https://blog.iannelson.uk/tags/goodreads/</loc>
-    <lastmod>2025-05-03T22:42:55+01:00</lastmod>
+    <loc>https://blog.iannelson.uk/hugo/</loc>
+    <lastmod>2025-05-10T11:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://blog.iannelson.uk/im-on-goodreads-now/</loc>
-    <lastmod>2025-05-03T22:42:55+01:00</lastmod>
+    <loc>https://blog.iannelson.uk/tags/hugo/</loc>
+    <lastmod>2025-05-10T11:00:00+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/</loc>
     <lastmod>2025-05-10T20:58:31+01:00</lastmod>
@@ -28,6 +22,27 @@
   </url><url>
     <loc>https://blog.iannelson.uk/tags/</loc>
     <lastmod>2025-05-10T20:58:31+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.iannelson.uk/categories/tech/</loc>
+    <lastmod>2025-05-10T20:58:31+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.iannelson.uk/tags/wordpress/</loc>
+    <lastmod>2025-05-10T11:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.iannelson.uk/tags/amazon/</loc>
+    <lastmod>2025-05-03T22:42:55+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.iannelson.uk/tags/audible/</loc>
+    <lastmod>2025-05-03T22:42:55+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.iannelson.uk/categories/books/</loc>
+    <lastmod>2025-05-10T20:01:24+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.iannelson.uk/tags/goodreads/</loc>
+    <lastmod>2025-05-03T22:42:55+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.iannelson.uk/im-on-goodreads-now/</loc>
+    <lastmod>2025-05-03T22:42:55+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/tags/london/</loc>
     <lastmod>2025-05-04T22:01:07+01:00</lastmod>
@@ -70,9 +85,6 @@
   </url><url>
     <loc>https://blog.iannelson.uk/ndc-porto-2024/</loc>
     <lastmod>2025-05-10T20:10:09+01:00</lastmod>
-  </url><url>
-    <loc>https://blog.iannelson.uk/categories/tech/</loc>
-    <lastmod>2025-05-10T20:58:31+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/the-books-i-most-enjoyed-reading-in-2023/</loc>
     <lastmod>2025-04-23T21:46:40+01:00</lastmod>
@@ -181,6 +193,12 @@
   </url><url>
     <loc>https://blog.iannelson.uk/tags/testing/</loc>
     <lastmod>2025-05-10T20:58:31+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.iannelson.uk/tags/ghost/</loc>
+    <lastmod>2014-04-16T15:46:32+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.iannelson.uk/back-and-trying-a-ghost-in-the-cloud/</loc>
+    <lastmod>2014-04-16T15:46:32+00:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/matthew-henry-nelson/</loc>
     <lastmod>2025-05-04T20:46:51+01:00</lastmod>
@@ -634,6 +652,12 @@
   </url><url>
     <loc>https://blog.iannelson.uk/inheriting-from-basevalidator-to-make-custom-validation-controls/</loc>
     <lastmod>2025-05-03T22:38:20+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.iannelson.uk/tags/.text/</loc>
+    <lastmod>2004-06-28T22:06:00+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.iannelson.uk/here-we-go-again/</loc>
+    <lastmod>2004-06-28T22:06:00+01:00</lastmod>
   </url><url>
     <loc>https://blog.iannelson.uk/the-drumochter-four/</loc>
     <lastmod>2025-05-10T20:58:31+01:00</lastmod>

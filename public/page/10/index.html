@@ -168,6 +168,36 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Beer Advent Calendar – Day One
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>This is surely one of the best ideas I’ve ever had! I’ve followed through with my plan to buy twenty-four beers from around the world to count down the days until Christmas. Their names are all written on slips of folded paper in a small vase (nobody actually draws things out of a hat anymore, do they?).
+Today I’m enjoying Young’s Christmas Pudding Ale, which is 5.5% ABV according to the bottle but only 5.0% according to the website—don’t believe everything you read on the web, eh?
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-12-01 20:12:00 +0000 GMT'>1 December 2005</span></footer>
+  <a class="entry-link" aria-label="post link to Beer Advent Calendar – Day One" href="https://blog.iannelson.uk/beer-advent-calendar-day-one/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Rounding Up The Result of Integer Division
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Here’s a damn useful piece of information which should be in the armoury of every modern codemonkey:
+In Java, if it is required to round up the result of dividing m by n (where m and n are integers), one should compute (m&#43;n-1)/n
+Source: Number Conversion, Roland Backhouse, 2001
+I’ve used this deliciously elegant result in production J2EE code in the past, but it’s equally valid in C#, as long as you can make the additional assertion that m/n is positive. This is because whilst Java treats integer division by rounding to zero, C# merely truncates the result (in an unchecked context). In my experience, the most frequentuse for this result is the deft answering of questions such as “if I have x items in my dataset and I display y per page, how many pages do I have in total?”, where it is obviously safe to make the assertion of a positive result.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-09-06 11:09:00 +0000 +0000'>6 September 2005</span></footer>
+  <a class="entry-link" aria-label="post link to Rounding Up The Result of Integer Division" href="https://blog.iannelson.uk/rounding-up-the-result-of-integer-division/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">10 Things That Should Be More Popular
     </h2>
   </header>
@@ -347,32 +377,6 @@ It’s a little thing, to be sure, but I often find myself wanting to make a set
   </div>
   <footer class="entry-footer"><span title='2004-11-15 19:11:00 +0000 GMT'>15 November 2004</span></footer>
   <a class="entry-link" aria-label="post link to Property Access Modifiers in Whidbey" href="https://blog.iannelson.uk/property-access-modifiers-in-whidbey/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">I’m an MCAD!
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Woohoo! I just passed MS exam 70-320 with a score of 936, and am now a Microsoft Certified Application Developer!
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2004-11-13 13:11:00 +0000 GMT'>13 November 2004</span></footer>
-  <a class="entry-link" aria-label="post link to I’m an MCAD!" href="https://blog.iannelson.uk/im-an-mcad/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">A Generic Sorter For Strongly-Typed Collections
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Late last night I was doing some development work on a website for our investment club. I had a strongly-typed collection of “Stock” objects, and wanted to be able to sort them on any parameter (StockName, SharePrice, Volume, MarketCap, etc..) in either descending or ascending order. I didn’t want to have to write a separate comparer for each property. Reflection to the rescue! Below is a GenericSorter class, the use of which allows for the development of a Sort() method on the collection taking as a parameter the name of the property on which to sort. Smart.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2004-11-07 21:11:00 +0000 GMT'>7 November 2004</span></footer>
-  <a class="entry-link" aria-label="post link to A Generic Sorter For Strongly-Typed Collections" href="https://blog.iannelson.uk/a-generic-sorter-for-strongly-typed-collections/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

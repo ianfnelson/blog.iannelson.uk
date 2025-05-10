@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>.Text on Ian Nelson</title>
+    <link>https://blog.iannelson.uk/tags/.text/</link>
+    <description>Recent content in .Text on Ian Nelson</description>
+    <generator>Hugo -- 0.146.6</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 28 Jun 2004 22:06:00 +0100</lastBuildDate>
+    <atom:link href="https://blog.iannelson.uk/tags/.text/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Here We Go Again</title>
+      <link>https://blog.iannelson.uk/here-we-go-again/</link>
+      <pubDate>Mon, 28 Jun 2004 22:06:00 +0100</pubDate>
+      <guid>https://blog.iannelson.uk/here-we-go-again/</guid>
+      <description>&lt;p&gt;Once more into the breach, dear friends.  Six years since my &lt;a href=&#34;https://falime.iannelson.uk&#34;&gt;navel-gazing online journal&lt;/a&gt;, why start a blog?  For no better reason than I can, and it’s so easy now, and I really do need something to fill the void at &lt;a href=&#34;https://ianfnelson.com&#34;&gt;ianfnelson.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I vaguely considered writing my own blogging software in ASP.NET, but then I found .Text and realised that there was no point wasting my days reinventing the wheel – .Text is sufficiently open and customisable for my purposes.  Besides, I have plenty other challenges to occupy my days – a rework of the Filthy Lucre Investment Club site, a site to host our wedding plans (not to mention actually planning the wedding!), Millie’s site, etc.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Once more into the breach, dear friends.  Six years since my <a href="https://falime.iannelson.uk">navel-gazing online journal</a>, why start a blog?  For no better reason than I can, and it’s so easy now, and I really do need something to fill the void at <a href="https://ianfnelson.com">ianfnelson.com</a>.</p>
+<p>I vaguely considered writing my own blogging software in ASP.NET, but then I found .Text and realised that there was no point wasting my days reinventing the wheel – .Text is sufficiently open and customisable for my purposes.  Besides, I have plenty other challenges to occupy my days – a rework of the Filthy Lucre Investment Club site, a site to host our wedding plans (not to mention actually planning the wedding!), Millie’s site, etc.</p>
+<p>All these sites under my wing makes me wonder whether I should consider actually paying for some decent hosting rather than relying on the total traffic being so pitifully small that my ADSL connection is sufficient to accommodate them all.  I like the look of Brinkster’s developer package – primarily as they offer SQL Server 2000 access, 2Gb of web space, 500 POP3 accounts, and unlimited web traffic.  But will I be contending with hundreds of other sites for limited bandwidth?  Does anybody have any experience of using Brinkster or should I just suck it and see?</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

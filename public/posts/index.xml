@@ -9,6 +9,34 @@
     <lastBuildDate>Sat, 10 May 2025 20:58:31 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>From WordPress to Hugo: A Return to Simpler Times</title>
+      <link>https://blog.iannelson.uk/hugo/</link>
+      <pubDate>Sat, 10 May 2025 11:00:00 +0100</pubDate>
+      <guid>https://blog.iannelson.uk/hugo/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2025/05/Kenzie.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I know, I know, you&amp;rsquo;ve &lt;a href=&#34;https://blog.iannelson.uk/back-and-trying-a-ghost-in-the-cloud/&#34;&gt;heard&lt;/a&gt; all this &lt;a href=&#34;https://blog.iannelson.uk/here-we-go-again&#34;&gt;before&lt;/a&gt;. Once again Ian is migrating his blog from one platform to another. And yes, it&amp;rsquo;s true that I have spent more of my life converting my blog posts between different platforms and markup languages than I ever have actually writing the damn blog posts in the first place.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s a certain pleasing symmetry to it. I began my blogging life in the late 1990s with nothing more than some hand-rolled HTML, a text editor, and a dial-up connection. Over the years I have moved my content over to various platforms: .Text, Community Server, WordPress (twice!), GraffitiCMS, Ghost, and now I find myself almost back where I began.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2025/05/Kenzie.png"></p>
+<p>I know, I know, you&rsquo;ve <a href="https://blog.iannelson.uk/back-and-trying-a-ghost-in-the-cloud/">heard</a> all this <a href="https://blog.iannelson.uk/here-we-go-again">before</a>. Once again Ian is migrating his blog from one platform to another. And yes, it&rsquo;s true that I have spent more of my life converting my blog posts between different platforms and markup languages than I ever have actually writing the damn blog posts in the first place.</p>
+<p>There&rsquo;s a certain pleasing symmetry to it. I began my blogging life in the late 1990s with nothing more than some hand-rolled HTML, a text editor, and a dial-up connection. Over the years I have moved my content over to various platforms: .Text, Community Server, WordPress (twice!), GraffitiCMS, Ghost, and now I find myself almost back where I began.</p>
+<p>Not with hand-coded HTML, no, but with something close: <a href="https://gohugo.io/">Hugo</a>, the static site generator. A modern tool with old-world sensibilities. Fast, minimal, fiercely text-based. The kind of thing that makes you feel rather chuffed with yourself for avoiding a CMS and database.</p>
+<h2 id="the-nudge">The Nudge</h2>
+<p>This time around the change wasn&rsquo;t purely for the fun of trying out a new platform, and it wasn&rsquo;t purely nostalgic. Like many tech migrations, it has been prompted by a small but decisive shift in nonfunctional requirements. I have recently closed my limited company after 17 years, and with that closure I lost my Microsoft Partner benefits, which had included $100/month in Azure credits. That, in turn, meant that I could no longer justify the modest but non-zero cost of keeping a Linux VM running 24/7 just to serve up WordPress.</p>
+<p>And truth be told, I don&rsquo;t miss it. Keeping a server and WordPress patched felt increasingly out of proportion to the task of publishing the occasional blog post. In general I find that as I hurtle towards my fifties I have a new-found desire for simplicity in my life, and seek to reduce the complexity of my <a href="https://amzn.to/4ddpW5A">Algorithms To Live By</a>.</p>
+<p>So I shut it all down.</p>
+<h2 id="simpler-times-static-pages">Simpler Times, Static Pages</h2>
+<p>I now generate my blog using Hugo, deployed automatically via <a href="https://github.com/features/actions">GitHub Actions</a> to an <a href="https://azure.microsoft.com/en-us/products/app-service/static">Azure Static Web App</a> (on the free tier, naturally). The site regenerates in a blink, uploads itself automatically on every commit, and serves HTML with a kind of quiet efficiency that makes you wonder why you ever needed a MySQL database in the first place.</p>
+<p>All my content lives in Markdown. No block editors, no HTML, no custom CSS. Just words and headings and the occasional image. Oh alright, and I have used a couple of Hugo shortcodes for embedding Youtube videos and <a href="https://gist.github.com">Gists</a>. It&rsquo;s all versioned in GitHub, and I can compose my posts in VSCode.</p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2025/05/VSCode.png"></p>
+<p>The migration itself wasn&rsquo;t too painful — helped hugely by this <a href="https://github.com/SchumacherFM/wordpress-to-hugo-exporter">WordPress to Hugo Exporter</a>, followed by a bunch of regex-driven find and replace, and some bespoke tidying (which was actually quite soothing). I&rsquo;ve now got a lean set of posts going back years, shorn of legacy cruft and published with a feather-light footprint.</p>
+<h2 id="the-theme-and-the-mood">The Theme and the Mood</h2>
+<p>I&rsquo;m using the <a href="https://github.com/adityatelange/hugo-PaperMod">PaperMod</a> theme, which strikes a good balance between clarity and flexibility. I haven&rsquo;t done much in the way of customisation — nor do I particularly want to. That&rsquo;s kind of the point. Simplifying my life. The whole exercise is about reducing friction: to be able to write, publish, and think out loud without needing a ten-step deployment pipeline, a detour into CSS (not my strong suit), or being beholden to whatever WordPress was doing to my words.</p>
+<h2 id="but-will-it-stick">But Will It Stick?</h2>
+<p>The real question, of course, is whether this move to yet another platform will rekindle my blogging habit. I hope so. There&rsquo;s something appealing about the quiet permanence of a static site: no dashboards, no &ldquo;distraction layer&rdquo;, just me and my words. I&rsquo;m also at a point in my life where my kids need less of my time, and I&rsquo;ve amassed quite a few war stories from life in the world of enterprise software development which I feel able to share.</p>
+<p>I&rsquo;ve come full circle, but this time the tools are better, and the reasons clearer.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>I&#39;m on Goodreads Now</title>
       <link>https://blog.iannelson.uk/im-on-goodreads-now/</link>
       <pubDate>Sat, 03 May 2025 15:15:00 +0100</pubDate>
@@ -1916,6 +1944,38 @@ nents entirely, leaving it free to devote all its attention on the few assemblie
 <h2 id="what-more-can-i-say">What More Can I Say?</h2>
 <p>NCrunch rocks. It has spoiled me for IDEs that don’t offer continuous compilation and testing functionality. The effortless manner in which it gives me feedback on the code and tests that I write every day is one of the things that keeps me interested in improving my .NET development skills after well over a decade at the code face.</p>
 <p><em>Disclaimer: Ian Nelson has not received any incentive or inducement to publish the commentary above. I have no material connection with Remco Mulder or Remco Software, other than as a paying customer of the NCrunch product. Some of the links in this post contain my Amazon Associates ID, and I may receive commission if you make a purchase through them.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>I&#39;m Back, and Trying a Ghost in the Cloud</title>
+      <link>https://blog.iannelson.uk/back-and-trying-a-ghost-in-the-cloud/</link>
+      <pubDate>Wed, 16 Apr 2014 15:46:32 +0000</pubDate>
+      <guid>https://blog.iannelson.uk/back-and-trying-a-ghost-in-the-cloud/</guid>
+      <description>&lt;h2 id=&#34;blogging-again&#34;&gt;Blogging Again&lt;/h2&gt;
+&lt;p&gt;Right then, let&amp;rsquo;s give this blogging lark another shot, shall we?&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve had some form of blog online since the summer of 1997 (back when they were called online journals or simply &amp;lsquo;homepages&amp;rsquo;). For most of that time my web presence was a single unfocussed site containing posts about all manner of things - a mixture of diary style witterings, some technical content, beer reviews, over-excited commentary on shiny new web applications, unabashed ranting, photos of my kids and other assorted gallimaufry.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="blogging-again">Blogging Again</h2>
+<p>Right then, let&rsquo;s give this blogging lark another shot, shall we?</p>
+<p>I&rsquo;ve had some form of blog online since the summer of 1997 (back when they were called online journals or simply &lsquo;homepages&rsquo;). For most of that time my web presence was a single unfocussed site containing posts about all manner of things - a mixture of diary style witterings, some technical content, beer reviews, over-excited commentary on shiny new web applications, unabashed ranting, photos of my kids and other assorted gallimaufry.</p>
+<p>The increasing popularity of social media sites over the last decade means that most of those kind of outpourings are now more appropriately spouted on some combination of Facebook, Twitter, Google+ or LinkedIn, depending on the target audience. And to think I once wrote blog posts questioning the need for sites like Facebook and Twitter - use cases certainly emerge and change with mass adoption.
+So, I reach the conclusion that I no longer have a requirement for a personal blog. Some of the better or more nostalgic posts may make eventually resurface elsewhere for posterity&rsquo;s sake, but I shouldn&rsquo;t hold your breath.</p>
+<p>On the other hand, I do think that writing technical blog posts about my career as a software developer still has virtue. Finding the words to explain the technologies, methodologies, patterns and practices that I use on a daily basis has always been beneficial in solidifying my understanding of a given topic. The blog can act as a exocortex, an aide memoire of strategies that have succeeded (or not) on past projects. It&rsquo;s a wonderful feeling to Google for a problem that you&rsquo;re facing and find a post that you yourself have written in the past offering a solution. And hey, if the posts happen to help anyone else in the process, well that&rsquo;s just a bonus.</p>
+<h2 id="what-you-can-expect-here">What You Can Expect Here</h2>
+<p>Amazingly, I&rsquo;m rapidly approaching 40 and yet still cutting code on a daily basis. I&rsquo;ve been working as a professional software developer for 16 years, and contracting for the last six, so I&rsquo;ve had opportunity to see a variety of technologies and methodologies, and how they&rsquo;re used in different industries and organisations. I hope to be able to share some of those insights and ruminate on what seems to work, and what doesn&rsquo;t.
+Tech-stack-wise, I remain primarily a .NET and SQL Server developer, but I try to embrace open source options and road-test the alternatives whenever possible (what we used to call Alt.Net).</p>
+<p>I&rsquo;m also increasingly fascinated by the variety of database storage options that we have available these days - it feels like the hegemony of the relational database is finally drawing to an end - so I&rsquo;ll try to post about my experiences with alternative persistence mechanisms - &ldquo;NoSQL&rdquo;, if you must.</p>
+<p>I dare say I&rsquo;ll also be mentioning the better tech books that I read, user groups and conferences local to the York/Leeds area, and of course highlighting when I&rsquo;m going to be available for new contract opportunities (recruiters take note!)</p>
+<h2 id="trying-ghost">Trying Ghost</h2>
+<p>I&rsquo;ve always used my own websites as a handy proving ground to develop my own skills and understanding of various web technologies. It was through having a personal homepage in the 90s that I first learned HTML and JavaScript. I read David Siegel&rsquo;s Creating Killer Websites from cover to cover, and then had to unlearn all those bad habits in future years when CSS matured (single pixel invisible gif, anyone?)</p>
+<p>Over the years I&rsquo;ve hosted my site on blog platforms including .Text, Community Server, Graffiti CMS, Wordpress and Orchard. Those last two especially have grown particularly bloated and into big heavyweight CMS solutions that slowed me down and detracted from the joy of simply blogging.
+So, this time round I&rsquo;ve decided to try Ghost, the free open source blogging platform that ran a successful KickStarter campaign last year.</p>
+<p>I quickly fell in love with Ghost because of its simplicity, cleanliness and speed. It has the features I need and isn&rsquo;t bogged down with stuff I don&rsquo;t. Logging into my old Wordpress sites used to cause me mental anguish as I saw all those little blobs telling me that I needed to update half a dozen plugins again. Ghost feels fresh and easy, and I don&rsquo;t mind the lack of plugins - it is causing me to rediscover how to do things for myself and understand how things work.</p>
+<p>Also, Ghost is written in the node.js platform, which is high on my &ldquo;must try&rdquo; list of technologies. The idea of taking JavaScript, the lingua franca of the web, and using it on both the client and server, holds a lot of appeal.</p>
+<h2 id="azure">Azure</h2>
+<p>Back in the day, my early personal sites were hosted at a local ISP that didn&rsquo;t allow any dynamic server-side code. Then for a while I hosted from a thunderously noisy Dell PowerEdge 2300 in the spare room of my flat.</p>
+<p>Times change. This time around I&rsquo;m hosting the blog on an Azure Website. Kudu-powered automated deployment from a Git source control repository is an absolute joy to use. Make a change locally, git commit, git push - and boom! - Kudu does its thing.</p>
+<p>Microsoft are wise to bundle generous Azure credit with every MSDN subscription, as the more developers get their hands on this powerful technology, the more they&rsquo;ll be clamouring for their clients and employers to utilise it.</p>
+<p>Productivity-enhancing tools like this, along with the DevOps movement in general, pique my interest and I plan to blog more deeply about them in the near future. I feel that the software development industry is still light years behind our manufacturing counterparts in terms of adoption of efficiency-improving processes such as Lean and Kanban. Our levels of waste simply wouldn&rsquo;t be tolerated in other industries - this will change, and enabling technologies like Azure will make it happen.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -4891,6 +4951,18 @@ OK, who am I kidding?  Starter Chess was, in all respects, an exercise in patien
 
 <script src="https://gist.github.com/ianfnelson/9842442.js?file=EvaluateIsValid.cs"></script>
 <p>&hellip;and that was it. Job done, pretty much. OK, so I spent a while making a cute icon image too. But the coding was easy and straightforward – inheriting from BaseValidator meant that most of the work was already done for me. In no time at all I was able to drop this custom control onto the required pages and user controls.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Here We Go Again</title>
+      <link>https://blog.iannelson.uk/here-we-go-again/</link>
+      <pubDate>Mon, 28 Jun 2004 22:06:00 +0100</pubDate>
+      <guid>https://blog.iannelson.uk/here-we-go-again/</guid>
+      <description>&lt;p&gt;Once more into the breach, dear friends.  Six years since my &lt;a href=&#34;https://falime.iannelson.uk&#34;&gt;navel-gazing online journal&lt;/a&gt;, why start a blog?  For no better reason than I can, and it’s so easy now, and I really do need something to fill the void at &lt;a href=&#34;https://ianfnelson.com&#34;&gt;ianfnelson.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I vaguely considered writing my own blogging software in ASP.NET, but then I found .Text and realised that there was no point wasting my days reinventing the wheel – .Text is sufficiently open and customisable for my purposes.  Besides, I have plenty other challenges to occupy my days – a rework of the Filthy Lucre Investment Club site, a site to host our wedding plans (not to mention actually planning the wedding!), Millie’s site, etc.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Once more into the breach, dear friends.  Six years since my <a href="https://falime.iannelson.uk">navel-gazing online journal</a>, why start a blog?  For no better reason than I can, and it’s so easy now, and I really do need something to fill the void at <a href="https://ianfnelson.com">ianfnelson.com</a>.</p>
+<p>I vaguely considered writing my own blogging software in ASP.NET, but then I found .Text and realised that there was no point wasting my days reinventing the wheel – .Text is sufficiently open and customisable for my purposes.  Besides, I have plenty other challenges to occupy my days – a rework of the Filthy Lucre Investment Club site, a site to host our wedding plans (not to mention actually planning the wedding!), Millie’s site, etc.</p>
+<p>All these sites under my wing makes me wonder whether I should consider actually paying for some decent hosting rather than relying on the total traffic being so pitifully small that my ADSL connection is sufficient to accommodate them all.  I like the look of Brinkster’s developer package – primarily as they offer SQL Server 2000 access, 2Gb of web space, 500 POP3 accounts, and unlimited web traffic.  But will I be contending with hundreds of other sites for limited bandwidth?  Does anybody have any experience of using Brinkster or should I just suck it and see?</p>
 ]]></content:encoded>
     </item>
     <item>

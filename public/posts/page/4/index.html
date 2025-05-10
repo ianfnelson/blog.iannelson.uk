@@ -174,6 +174,34 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Testing LINQ Queries
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I’ve been asked “How do you test LINQ queries?” a couple of times in the past few months, so I thought I’d blog my answer for the benefit of all you lovely people.
+Firstly I should explain how I’ve been doing most of my data access in recent months. I find that the Repository pattern, and particularly the .NET implementation described here by Fabio Maulo meets the vast majority of requirements I have in my applications, and I fall back on additionally using custom DAOs when required.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2010-04-09 13:04:00 +0000 +0000'>9 April 2010</span></footer>
+  <a class="entry-link" aria-label="post link to Testing LINQ Queries" href="https://blog.iannelson.uk/testing-linq-queries/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">WCF – Global Exception Handling
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I’ve done a fair bit of WCF development recently (and amazingly I came out of it relatively unscathed, both psychologically and emotionally). Using Castle Windsor’s WCF Facility helped a great deal, but I still found myself writing a fair bit of infrastructure and plumbing code. I thought I’d blog some of these code snippets lest I forget, and on the offchance they might help others.
+One of the things I wanted to achieve was to ensure that any unhandled exceptions that propagated to the top of the stack were logged. The following custom EndpointBehavior achieves that. I’m using Castle Logging Facility here, but you could of course swap out the logging code for whatever error handling code you require.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2010-04-09 13:04:00 +0000 +0000'>9 April 2010</span></footer>
+  <a class="entry-link" aria-label="post link to WCF – Global Exception Handling" href="https://blog.iannelson.uk/wcf-global-exception-handling/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">WCF – Logging Before and After Operation Invocation
     </h2>
   </header>
@@ -371,38 +399,6 @@ Right-clicking and selecting “Missing Index Details” then brings up a new qu
   </div>
   <footer class="entry-footer"><span title='2009-06-05 08:06:00 +0000 +0000'>5 June 2009</span></footer>
   <a class="entry-link" aria-label="post link to Agile Yorkshire @ The Pub – Gojko Adzic, 10th June 2009" href="https://blog.iannelson.uk/agile-yorkshire-the-pub-gojko-adzic-10th-june-2009/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Ian Nelson, MCPD
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Well, for the record, I passed MS exam 70-553 yesterday on my second attempt, which makes me a Microsoft Certified Professional Developer – Enterprise Application Developer:
-And I also acquired a few new MCTS certifications as a happy by-product:
-My full transcript, including “legacy” certifications, is here.
-Phew! I think that the time has now come for me to take a bit of a break from the certification circus. They are a nice-to-have, but the opportunity cost is too high – there are many other ways in which I can spend what little spare time I have to better develop my skills.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2009-05-27 11:05:00 +0000 +0000'>27 May 2009</span></footer>
-  <a class="entry-link" aria-label="post link to Ian Nelson, MCPD" href="https://blog.iannelson.uk/ian-nelson-mcpd/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2009/05/3542421968_6e26feee92_b-1.jpg" alt="">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">New Office Photos
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>I promised you some photos of my new office a while back, didn’t I? OK, here you go…
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2009-05-22 07:05:00 +0000 +0000'>22 May 2009</span></footer>
-  <a class="entry-link" aria-label="post link to New Office Photos" href="https://blog.iannelson.uk/new-office-photos/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
