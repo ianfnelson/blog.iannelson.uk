@@ -6,12 +6,12 @@
     <description>Recent content in Tech on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 May 2025 20:58:31 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 10 May 2025 22:44:33 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>From WordPress to Hugo: A Return to Simpler Times</title>
       <link>https://blog.iannelson.uk/hugo/</link>
-      <pubDate>Sat, 10 May 2025 11:00:00 +0100</pubDate>
+      <pubDate>Sat, 10 May 2025 22:44:00 +0100</pubDate>
       <guid>https://blog.iannelson.uk/hugo/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2025/05/Kenzie.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I know, I know, you&amp;rsquo;ve &lt;a href=&#34;https://blog.iannelson.uk/back-and-trying-a-ghost-in-the-cloud/&#34;&gt;heard&lt;/a&gt; all this &lt;a href=&#34;https://blog.iannelson.uk/here-we-go-again&#34;&gt;before&lt;/a&gt;. Once again Ian is migrating his blog from one platform to another. And yes, it&amp;rsquo;s true that I have spent more of my life converting my blog posts between different platforms and markup languages than I ever have actually writing the damn blog posts in the first place.&lt;/p&gt;
@@ -26,14 +26,14 @@
 <p>So I shut it all down.</p>
 <h2 id="simpler-times-static-pages">Simpler Times, Static Pages</h2>
 <p>I now generate my blog using Hugo, deployed automatically via <a href="https://github.com/features/actions">GitHub Actions</a> to an <a href="https://azure.microsoft.com/en-us/products/app-service/static">Azure Static Web App</a> (on the free tier, naturally). The site regenerates in a blink, uploads itself automatically on every commit, and serves HTML with a kind of quiet efficiency that makes you wonder why you ever needed a MySQL database in the first place.</p>
-<p>All my content lives in Markdown. No block editors, no HTML, no custom CSS. Just words and headings and the occasional image. Oh alright, and I have used a couple of Hugo shortcodes for embedding Youtube videos and <a href="https://gist.github.com">Gists</a>. It&rsquo;s all versioned in GitHub, and I can compose my posts in VSCode.</p>
+<p>All my content lives in Markdown. No block editors, no HTML, no custom CSS. Just words and headings and the occasional image. Oh alright, and I have used a couple of Hugo shortcodes for embedding Youtube videos and <a href="https://gist.github.com">Gists</a>. It&rsquo;s all versioned in GitHub, and I write my posts in VSCode, just as nature intended.</p>
 <p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2025/05/VSCode.png"></p>
 <p>The migration itself wasn&rsquo;t too painful — helped hugely by this <a href="https://github.com/SchumacherFM/wordpress-to-hugo-exporter">WordPress to Hugo Exporter</a>, followed by a bunch of regex-driven find and replace, and some bespoke tidying (which was actually quite soothing). I&rsquo;ve now got a lean set of posts going back years, shorn of legacy cruft and published with a feather-light footprint.</p>
 <h2 id="the-theme-and-the-mood">The Theme and the Mood</h2>
 <p>I&rsquo;m using the <a href="https://github.com/adityatelange/hugo-PaperMod">PaperMod</a> theme, which strikes a good balance between clarity and flexibility. I haven&rsquo;t done much in the way of customisation — nor do I particularly want to. That&rsquo;s kind of the point. Simplifying my life. The whole exercise is about reducing friction: to be able to write, publish, and think out loud without needing a ten-step deployment pipeline, a detour into CSS (not my strong suit), or being beholden to whatever WordPress was doing to my words.</p>
 <h2 id="but-will-it-stick">But Will It Stick?</h2>
 <p>The real question, of course, is whether this move to yet another platform will rekindle my blogging habit. I hope so. There&rsquo;s something appealing about the quiet permanence of a static site: no dashboards, no &ldquo;distraction layer&rdquo;, just me and my words. I&rsquo;m also at a point in my life where my kids need less of my time, and I&rsquo;ve amassed quite a few war stories from life in the world of enterprise software development which I feel able to share.</p>
-<p>I&rsquo;ve come full circle, but this time the tools are better, and the reasons clearer.</p>
+<p>I&rsquo;ve come full circle, but this time the tools are better, and the reasons clearer. If you&rsquo;re thinking of simplifying your online life, or just fancy a fresh start for your blog, I&rsquo;d recommended giving Hugo a look.</p>
 ]]></content:encoded>
     </item>
     <item>
