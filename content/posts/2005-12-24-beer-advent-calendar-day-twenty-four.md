@@ -16,9 +16,9 @@ Hertog Jan Doppio Double is the only one of my twenty-four Advent beers to come 
 
 I’ve been asked to summarise my findings on these beers at the end of the season, and was considering publishing a spreadsheet noting my opinions in various categories (colour, aroma, aftertaste, strength, packaging, cute names…), but having consumed so many fine ales this month, it was beyond me to come up with such a complicated scoring system.Instead, I’ve made an effort to merely triage the beers according to my overall opinion and likelihood of repurchase – those with three stars will be on our shopping list in future, whilst those with one star will be avoided like the plague.
 
-**<u>Three-star beers:</u>**  
-   
- [Bitter & Twisted][3]  
+## Three-star beers
+
+[Bitter & Twisted][3]  
 [Festive Filly][3]  
 [Fraoch][4]  
 [Hertog Jan][5]  
@@ -26,10 +26,10 @@ I’ve been asked to summarise my findings on these beers at the end of the seas
 [Riggwelter][2]  
 [Schiehallion][7]  
 [Whirlygig][8]  
-   
-**<u>Two-star beers:</u>**  
-   
- [Delirium Nocturnum][1]  
+
+## Two-star beers
+
+[Delirium Nocturnum][1]  
 [Jingle Knockers][4]  
 [Rolling Hitch][1]  
 [Rosey Nosey][9]  
@@ -38,16 +38,16 @@ I’ve been asked to summarise my findings on these beers at the end of the seas
 [Ruby Red][11]  
 [Smuggler’s Ale][12]  
 [Young’s Christmas Pudding Ale][13]  
-   
-**<u>One-star beers:</u>**  
-   
- [Crazy Ed’s Cave Creek Chili Beer][14]  
+
+## One-star beers
+
+[Crazy Ed’s Cave Creek Chili Beer][14]  
 [Honker’s Ale][15]  
 [Kronenbourg Blanc][16]  
 [Mars Magic][17]  
 [Morocco Ale][18]  
 [Rudolph’s Revenge][19]  
-[Teignworthy Christmas Cracker][20]<!--kg-card-end: html-->
+[Teignworthy Christmas Cracker][20]
 
  [1]: https://blog.iannelson.uk/beer-advent-calendar-days-sixteen-and-seventeen/
  [2]: https://blog.iannelson.uk/beer-advent-calendar-day-six/
