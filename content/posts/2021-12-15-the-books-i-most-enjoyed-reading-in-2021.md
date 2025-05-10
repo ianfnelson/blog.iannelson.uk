@@ -10,39 +10,39 @@ categories:
   - Books
 
 ---
-## The Top 5 {#the-top-5}<figure class="kg-card kg-image-card">
+## The Top 5 
 
-<img loading="lazy" decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/122051_51WmfPs0C-L._SL500.jpg" alt="" width="500" height="500" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/122051_51WmfPs0C-L._SL500.jpg)
 
 [And Away…][1] by Bob Mortimer
 
 As was the case in 2020, my favourite book of the year was an autobiography; this time by national treasure Bob Mortimer. Laugh out loud funny in many places, elsewhere this is tinged with melancholy and the realisation that, for all his on-screen tomfoolery, Mortimer is an incredibly shy individual.
-Touching, contemplative, warm and kind throughout, there is plenty of food for thought here regarding how we ought to live our lives and interact with those around us. I heartily recommend the audiobook, narrated by the great man himself.<figure class="kg-card kg-image-card">
+Touching, contemplative, warm and kind throughout, there is plenty of food for thought here regarding how we ought to live our lives and interact with those around us. I heartily recommend the audiobook, narrated by the great man himself.
 
-<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/122051_41IM6bSqdrL._SL500.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/122051_41IM6bSqdrL._SL500.jpg)
 
 [Boy Parts][2] by Eliza Clark
 
 This is a bit of a cheat, as I read this book in a couple of short days at the back end of 2020, in that weird downtime period between Christmas and New Year, at the recommendation of my good friend and erstwhile luncheon companion Stephanie.
 I haven’t read much fiction in recent years (only one novel made it on to last my annual round up last year) and tend to gravitate towards authors who are white male Boomers or Gen X. Eliza Clark made me realise what I had been missing – new generations of writers from different backgrounds with contemporary stories to entertain me.
 
-_Boy Parts_ is a whirlwind ride – smart, funny, stylish and cinematic – that was genuinely unputdownable (except for the moments when I had to Google some unfamiliar terms, none of which I am going to repeat here). I’m grateful to this title for reawakening my interest in contemporary fiction and broadening my horizons, and hope that further novels from Eliza Clark will soon be forthcoming.<figure class="kg-card kg-image-card">
+_Boy Parts_ is a whirlwind ride – smart, funny, stylish and cinematic – that was genuinely unputdownable (except for the moments when I had to Google some unfamiliar terms, none of which I am going to repeat here). I’m grateful to this title for reawakening my interest in contemporary fiction and broadening my horizons, and hope that further novels from Eliza Clark will soon be forthcoming.
 
-<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/122052_41r9Vb6myvL._SL500.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/122052_41r9Vb6myvL._SL500.jpg)
 
 [Built on a Lie: The Rise and Fall of Neil Woodford and the Fate of Middle England’s Money][3] by Owen Walker
 
 One of the nice features of an Audible subscription is the ability to return any titles that you can’t get into. When I tapped the play icon at the start of this nine hour book about the collapse of Neil Woodford’s asset management company, I half-anticipated availing myself of that option shortly afterwards, as it had the potential to be quite dry and boring. But to my pleasant surprise, I found it to be one of the more gripping books that I listened to in 2021.
 
-The journalistic style and chronological telling of a too-good-to-be-true business story gone bad reminded me of John Carreyou’s 2019 _Bad Blood_, about Elizabeth Holmes and the collapse of Theranos. I also felt that Walker’s clear and patient explanations of the inherent failings of the Woodford funds offered insights into risks to be aware of when managing my own (much smaller) personal investment portfolio.<figure class="kg-card kg-image-card">
+The journalistic style and chronological telling of a too-good-to-be-true business story gone bad reminded me of John Carreyou’s 2019 _Bad Blood_, about Elizabeth Holmes and the collapse of Theranos. I also felt that Walker’s clear and patient explanations of the inherent failings of the Woodford funds offered insights into risks to be aware of when managing my own (much smaller) personal investment portfolio.
 
-<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/122052_51nUnUTLObL._SL500.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/122052_51nUnUTLObL._SL500.jpg)
 
 [Luckenbooth][4] by Jenni Fagan
 
-I loved the style and structure of this darkly gothic novel. Centred around an accursed Edinburgh tenement, it consists of nine intertwined stories covering different decades and different levels of the building. Stories within the storeys, if you will. This won’t be everyone’s cup of tea, but I found it to be evocative, gritty and thoroughly entertaining.<figure class="kg-card kg-image-card">
+I loved the style and structure of this darkly gothic novel. Centred around an accursed Edinburgh tenement, it consists of nine intertwined stories covering different decades and different levels of the building. Stories within the storeys, if you will. This won’t be everyone’s cup of tea, but I found it to be evocative, gritty and thoroughly entertaining.
 
-<img decoding="async" class="kg-image aligncenter" src="https://blogstouks01.z33.web.core.windows.net/2023/08/122052_41BL092hjVS._SL500.jpg" alt="" /> </figure> 
+![](https://blogstouks01.z33.web.core.windows.net/2023/08/122052_41BL092hjVS._SL500.jpg)
 
 [Should We Stay or Should We Go][5] by Lionel Shriver
 
@@ -50,7 +50,7 @@ The married protagonists of this satire make a pact to commit suicide together a
 
 A Brexit subplot and Covid backdrop gave this a contemporary spin, making it an easy pick for one of my books of 2021.
 
-## The Best of the Rest {#the-best-of-the-rest}
+## The Best of the Rest
 
 [A World Without Email: Reimagining Work in the Age of Overload][6] by Cal Newport
 
