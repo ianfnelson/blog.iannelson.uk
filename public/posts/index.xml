@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 May 2025 20:10:09 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 10 May 2025 20:58:31 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I&#39;m on Goodreads Now</title>
@@ -1895,7 +1895,7 @@ If there is a problem of some kind (say, a user already exists with the specifie
 <p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchMetrics.png"></p>
 <h2 id="ncrunch-doesnt-make-me-hunt-for-error-messages">NCrunch Doesn’t Make Me Hunt For Error Messages</h2>
 <p>When my code fails a test assertion, or even when it fails to compile, the reasons, just like the code-coverage data, are right there in my face, almost immediately. I don’t have to go hunting for the problem, I can access the compiler errors or stack traces for failed assertions without leaving the window in which I’m coding.</p>
-<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchExceptions.pn"></p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchExceptions.png"></p>
 <p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchAssertions.png"></p>
 <h2 id="ncrunch-highlights-slow-running-lines-of-code">NCrunch Highlights Slow-Running Lines of Code</h2>
 <p>Powerful, expensive performance profiling tools such as Redgate Ants Performance Profiler and JetBrains dotTrace are often used to find bottlenecks in code that has already been developed and is often in production.</p>
@@ -2074,8 +2074,8 @@ nents entirely, leaving it free to devote all its attention on the few assemblie
       <link>https://blog.iannelson.uk/its-a-small-world/</link>
       <pubDate>Sat, 09 Apr 2011 19:04:00 +0000</pubDate>
       <guid>https://blog.iannelson.uk/its-a-small-world/</guid>
-      <description>&lt;p&gt;It’s been a long time since I posted a blog entry tagged with “&lt;a href=&#34;https://blog.iannelson.uk/tags/genealogy&#34;&gt;genealogy&lt;/a&gt;” (over three years, in fact). I find it to be a hobby that I pursue in fits and starts – periods of all-encompassing obsession followed by long periods of total inactivity. But the old &lt;a href=&#34;https://familytree.iannelson.uk&#34;&gt;Family Tree&lt;/a&gt; has been fleshed out nicely since I last updated you, dear reader. It has also acquired a most surprising and welcome addition.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>It’s been a long time since I posted a blog entry tagged with “<a href="https://blog.iannelson.uk/tags/genealogy">genealogy</a>” (over three years, in fact). I find it to be a hobby that I pursue in fits and starts – periods of all-encompassing obsession followed by long periods of total inactivity. But the old <a href="https://familytree.iannelson.uk">Family Tree</a> has been fleshed out nicely since I last updated you, dear reader. It has also acquired a most surprising and welcome addition.</p>
+      <description>&lt;p&gt;It’s been a long time since I posted a blog entry in the “&lt;a href=&#34;https://blog.iannelson.uk/categories/genealogy/&#34;&gt;genealogy&lt;/a&gt;” category (over three years, in fact). I find it to be a hobby that I pursue in fits and starts – periods of all-encompassing obsession followed by long periods of total inactivity. But the old &lt;a href=&#34;https://familytree.iannelson.uk&#34;&gt;Family Tree&lt;/a&gt; has been fleshed out nicely since I last updated you, dear reader. It has also acquired a most surprising and welcome addition.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>It’s been a long time since I posted a blog entry in the “<a href="https://blog.iannelson.uk/categories/genealogy/">genealogy</a>” category (over three years, in fact). I find it to be a hobby that I pursue in fits and starts – periods of all-encompassing obsession followed by long periods of total inactivity. But the old <a href="https://familytree.iannelson.uk">Family Tree</a> has been fleshed out nicely since I last updated you, dear reader. It has also acquired a most surprising and welcome addition.</p>
 <p><img alt="My Dad and his Granny, Isabella Birrell" loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/DadAndGranny_5.jpg"></p>
 <p>I’ve continued to concentrate on improving the quality and depth of the records and sources that I hold for more recent generations, rather than attempting to trace lines far into the dim and distant past. As more and more contemporary records are released into the public domain (and increasingly placed online as a matter of course), this task becomes easier, and throws up the possibility of making the kind of startling discovery that I encountered last Wednesday evening.</p>
 <p>Those of you living in the U.K. will be aware that every household was required by law to complete a decennial census return last month. A few days later, under the 100 year rule, the 1911 census of Scotland was made available online at the <a href="http://www.scotlandspeople.gov.uk">Scotland’s People</a> website. I had been eagerly anticipating this event since developing an interest in my family history, so I wasted no time in scouring the records for additional details of my relatives from north of the border.</p>
@@ -4911,7 +4911,7 @@ OK, who am I kidding?  Starter Chess was, in all respects, an exercise in patien
 &lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_2353.jpg&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_2354.jpg&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_2355.jpg&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2004/01/IMG_2356-1.jpg&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2004/01/IMG_2356.jpg&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_2357.jpg&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_2358.jpg&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Remind me again why I do this kind of thing in January?</p>
@@ -4927,7 +4927,7 @@ OK, who am I kidding?  Starter Chess was, in all respects, an exercise in patien
 <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_2353.jpg">
 <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_2354.jpg">
 <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_2355.jpg">
-<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2004/01/IMG_2356-1.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2004/01/IMG_2356.jpg">
 <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_2357.jpg">
 <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/IMG_2358.jpg"></p>
 ]]></content:encoded>
@@ -5512,7 +5512,7 @@ OK, who am I kidding?  Starter Chess was, in all respects, an exercise in patien
 &lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_27_21-1.jpg&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_27_23.jpg&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_27_26.jpg&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/1999/05/2013_03_04_22_27_27-1.jpg&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/1999/05/2013_03_04_22_27_27.jpg&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_27_29.jpg&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_27_31.jpg&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_27_34.jpg&#34;&gt;&lt;/p&gt;</description>
@@ -5528,7 +5528,7 @@ OK, who am I kidding?  Starter Chess was, in all respects, an exercise in patien
 <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_27_21-1.jpg">
 <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_27_23.jpg">
 <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_27_26.jpg">
-<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/1999/05/2013_03_04_22_27_27-1.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/1999/05/2013_03_04_22_27_27.jpg">
 <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_27_29.jpg">
 <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_27_31.jpg">
 <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_27_34.jpg"></p>
@@ -5566,7 +5566,7 @@ OK, who am I kidding?  Starter Chess was, in all respects, an exercise in patien
 &lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_25_59.jpg&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_26_01.jpg&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_26_03.jpg&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/1999/04/2013_03_04_22_26_04-1.jpg&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/1999/04/2013_03_04_22_26_04.jpg&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_26_06.jpg&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_26_08.jpg&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Stac Pollaidh (612m)</p>
@@ -5577,7 +5577,7 @@ OK, who am I kidding?  Starter Chess was, in all respects, an exercise in patien
 <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_25_59.jpg">
 <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_26_01.jpg">
 <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_26_03.jpg">
-<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/1999/04/2013_03_04_22_26_04-1.jpg">
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/1999/04/2013_03_04_22_26_04.jpg">
 <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_26_06.jpg">
 <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_26_08.jpg"></p>
 ]]></content:encoded>
@@ -5656,14 +5656,14 @@ OK, who am I kidding?  Starter Chess was, in all respects, an exercise in patien
 &lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_25_19.jpg&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_25_22.jpg&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_25_15.jpg&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/1999/04/2013_03_04_22_25_24-1.jpg&#34;&gt;&lt;/p&gt;</description>
+&lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/1999/04/2013_03_04_22_25_24.jpg&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Gulvain (987m)</p>
 <p>You can read more about this day in <a href="https://falime.iannelson.uk/docs/journal/1999-04/19990417/">the original entry in my Fear and Loathing in Middle England journal</a></p>
 <p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_25_17.jpg">
 <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_25_19.jpg">
 <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_25_22.jpg">
 <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_25_15.jpg">
-<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/1999/04/2013_03_04_22_25_24-1.jpg"></p>
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/1999/04/2013_03_04_22_25_24.jpg"></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -5727,7 +5727,7 @@ OK, who am I kidding?  Starter Chess was, in all respects, an exercise in patien
 &lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_41.jpg&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_45.jpg&#34;&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_47.jpg&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/1998/10/2013_03_04_22_23_49-1.jpg&#34;&gt;&lt;/p&gt;</description>
+&lt;img loading=&#34;lazy&#34; src=&#34;https://blogstouks01.z33.web.core.windows.net/1998/10/2013_03_04_22_23_49.jpg&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<ul>
 <li>Beinn a’Chroin (940m)</li>
 <li>An Caisteal (995m)</li>
@@ -5741,7 +5741,7 @@ OK, who am I kidding?  Starter Chess was, in all respects, an exercise in patien
 <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_41.jpg">
 <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_45.jpg">
 <img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/2013_03_04_22_23_47.jpg">
-<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/1998/10/2013_03_04_22_23_49-1.jpg"></p>
+<img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/1998/10/2013_03_04_22_23_49.jpg"></p>
 ]]></content:encoded>
     </item>
     <item>

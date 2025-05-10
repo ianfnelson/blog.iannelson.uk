@@ -6,7 +6,7 @@
     <description>Recent content in Software on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 May 2025 20:46:51 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 10 May 2025 20:58:31 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/tags/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>One Reason Why NCrunch Is Worth The Cost</title>
@@ -64,7 +64,7 @@
 <p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchMetrics.png"></p>
 <h2 id="ncrunch-doesnt-make-me-hunt-for-error-messages">NCrunch Doesn’t Make Me Hunt For Error Messages</h2>
 <p>When my code fails a test assertion, or even when it fails to compile, the reasons, just like the code-coverage data, are right there in my face, almost immediately. I don’t have to go hunting for the problem, I can access the compiler errors or stack traces for failed assertions without leaving the window in which I’m coding.</p>
-<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchExceptions.pn"></p>
+<p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchExceptions.png"></p>
 <p><img loading="lazy" src="https://blogstouks01.z33.web.core.windows.net/2023/08/NCrunchAssertions.png"></p>
 <h2 id="ncrunch-highlights-slow-running-lines-of-code">NCrunch Highlights Slow-Running Lines of Code</h2>
 <p>Powerful, expensive performance profiling tools such as Redgate Ants Performance Profiler and JetBrains dotTrace are often used to find bottlenecks in code that has already been developed and is often in production.</p>
