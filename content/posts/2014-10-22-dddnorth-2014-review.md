@@ -43,20 +43,19 @@ In summary, it was a very reassuring talk, wrapped up with helpful advice on how
 
 > SUPERB talk on Burnout by @richardadalton – someone should get a video made for HR departments to see. #dddnorth  
 >
-> &mdash; Joel Hammond-Turner (@rammesses)
+> — Joel Hammond-Turner (@rammesses)
 
 > Fantastic talk on burnout by @richardadalton #dddnorth one of the highlights of the day!  
 >
-> &mdash; Rushby (@rushbys)
+> — Rushby (@rushbys)
 
 > So @richardadalton talk was stand out, absolutely hit the nail on the head. Covered points i'd not even considered. Well done #dddnorth</a>  
 >
-> &mdash; Kirsty Busfield (@kirstybu)
-
+> — Kirsty Busfield (@kirstybu)
 
 > @richardadalton's talk has been the best one at #dddnorth. Burnout is prevalent in the software industry.  
 >
-> &mdash; Mark Robinson (@Defstun)
+> — Mark Robinson (@Defstun)
 
 In recent years the projects that I have worked on have involved much web services work (both as a client and server), so I was interested to hear [David Whitney’s][12] ([@david_whitney][12]) “**Lessons Learned Running A Public API**” talk, full of tips gathered developing the Rest API for Justgiving.com  
 There was a good mixture of hard technical advice (how to handle versioning, authentication, what data formats to support..) along with softer ideas of the supporting work required to create and maintain a successful public API (generated documentation, SDKs, not being a slave to external requirements or a single client, getting a product manager).
@@ -69,21 +68,21 @@ I was particularly struck by the openness of the approach recommended by David, 
 
 > Good solid advice so far from #dddnorth presentations.  
 >
-> &mdash; Chris Gibbons (@jibubo)
+> — Chris Gibbons (@jibubo)
 
 And that (after the customary prize draws and closing comments), was that. Thanks to [Andrew Westgarth][13], [Black Marble][14], the [University of Leeds][15], and all the sponsors and speakers for once again staging a vital event. The development community in the North would be much poorer without this large multi-track multi-session event, and I look forward to attending again next year.
 
 > Come out of #dddnorth with loads of ideas & thoughts, just got to find time to look into them
 > 
-> &mdash; Nathan Gloyn (@NathanGloyn)
+> — Nathan Gloyn (@NathanGloyn)
 
 > Such a long day at #dddnorth today, but totally worth it as always. Excellent day out in Leeds. @DDDNorth
 >
-> &mdash; Gary Emery (@gaz_y2k4)
+> — Gary Emery (@gaz_y2k4)
 
 > @DDDNorth First ever visit to DDD North. Excellent day, massive thanks to all involved!
 >
-> &mdash; Chris Shepherd (@Shepless)
+> — Chris Shepherd (@Shepless)
 
  [1]: http://dddnorth.co.uk/
  [2]: http://www.hammond-turner.org.uk/
