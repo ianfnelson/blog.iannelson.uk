@@ -6,7 +6,7 @@
     <description>Recent content in Tech on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 May 2025 22:44:33 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 10 May 2025 23:13:43 +0100</lastBuildDate>
     <atom:link href="https://blog.iannelson.uk/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>From WordPress to Hugo: A Return to Simpler Times</title>
@@ -22,7 +22,7 @@
 <p>Not with hand-coded HTML, no, but with something close: <a href="https://gohugo.io/">Hugo</a>, the static site generator. A modern tool with old-world sensibilities. Fast, minimal, fiercely text-based. The kind of thing that makes you feel rather chuffed with yourself for avoiding a CMS and database.</p>
 <h2 id="the-nudge">The Nudge</h2>
 <p>This time around the change wasn&rsquo;t purely for the fun of trying out a new platform, and it wasn&rsquo;t purely nostalgic. Like many tech migrations, it has been prompted by a small but decisive shift in nonfunctional requirements. I have recently closed my limited company after 17 years, and with that closure I lost my Microsoft Partner benefits, which had included $100/month in Azure credits. That, in turn, meant that I could no longer justify the modest but non-zero cost of keeping a Linux VM running 24/7 just to serve up WordPress.</p>
-<p>And truth be told, I don&rsquo;t miss it. Keeping a server and WordPress patched felt increasingly out of proportion to the task of publishing the occasional blog post. In general I find that as I hurtle towards my fifties I have a new-found desire for simplicity in my life, and seek to reduce the complexity of my <a href="https://amzn.to/4ddpW5A">Algorithms To Live By</a>.</p>
+<p>And truth be told, I don&rsquo;t miss it. Keeping a server and WordPress patched felt increasingly out of proportion to the task of publishing the occasional blog post. In general I find that as I hurtle towards my fifties I have a new-found desire for <a href="https://blog.iannelson/tags/simplicity">simplicity</a> in my life, and seek to reduce the complexity of my <a href="https://amzn.to/4ddpW5A">Algorithms To Live By</a>.</p>
 <p>So I shut it all down.</p>
 <h2 id="simpler-times-static-pages">Simpler Times, Static Pages</h2>
 <p>I now generate my blog using Hugo, deployed automatically via <a href="https://github.com/features/actions">GitHub Actions</a> to an <a href="https://azure.microsoft.com/en-us/products/app-service/static">Azure Static Web App</a> (on the free tier, naturally). The site regenerates in a blink, uploads itself automatically on every commit, and serves HTML with a kind of quiet efficiency that makes you wonder why you ever needed a MySQL database in the first place.</p>
@@ -33,7 +33,7 @@
 <p>I&rsquo;m using the <a href="https://github.com/adityatelange/hugo-PaperMod">PaperMod</a> theme, which strikes a good balance between clarity and flexibility. I haven&rsquo;t done much in the way of customisation — nor do I particularly want to. That&rsquo;s kind of the point. Simplifying my life. The whole exercise is about reducing friction: to be able to write, publish, and think out loud without needing a ten-step deployment pipeline, a detour into CSS (not my strong suit), or being beholden to whatever WordPress was doing to my words.</p>
 <h2 id="but-will-it-stick">But Will It Stick?</h2>
 <p>The real question, of course, is whether this move to yet another platform will rekindle my blogging habit. I hope so. There&rsquo;s something appealing about the quiet permanence of a static site: no dashboards, no &ldquo;distraction layer&rdquo;, just me and my words. I&rsquo;m also at a point in my life where my kids need less of my time, and I&rsquo;ve amassed quite a few war stories from life in the world of enterprise software development which I feel able to share.</p>
-<p>I&rsquo;ve come full circle, but this time the tools are better, and the reasons clearer. If you&rsquo;re thinking of simplifying your online life, or just fancy a fresh start for your blog, I&rsquo;d recommended giving Hugo a look.</p>
+<p>I&rsquo;ve come full circle, but this time the tools are better, and the reasons clearer. If you&rsquo;re thinking of <a href="https://blog.iannelson.uk/tags/simplicity">simplifying</a> your online life, or just fancy a fresh start for your blog, I&rsquo;d recommended giving Hugo a look.</p>
 ]]></content:encoded>
     </item>
     <item>

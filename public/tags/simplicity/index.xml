@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Hugo on Ian Nelson</title>
-    <link>https://blog.iannelson.uk/tags/hugo/</link>
-    <description>Recent content in Hugo on Ian Nelson</description>
+    <title>Simplicity on Ian Nelson</title>
+    <link>https://blog.iannelson.uk/tags/simplicity/</link>
+    <description>Recent content in Simplicity on Ian Nelson</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>en</language>
     <lastBuildDate>Sat, 10 May 2025 23:13:43 +0100</lastBuildDate>
-    <atom:link href="https://blog.iannelson.uk/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.iannelson.uk/tags/simplicity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>From WordPress to Hugo: A Return to Simpler Times</title>
       <link>https://blog.iannelson.uk/hugo/</link>

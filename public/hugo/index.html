@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>From WordPress to Hugo: A Return to Simpler Times | Ian Nelson</title>
-<meta name="keywords" content="Blogging, Hugo, WordPress">
+<meta name="keywords" content="Blogging, Hugo, WordPress, Simplicity">
 <meta name="description" content="
 I know, I know, you&rsquo;ve heard all this before. Once again Ian is migrating his blog from one platform to another. And yes, it&rsquo;s true that I have spent more of my life converting my blog posts between different platforms and markup languages than I ever have actually writing the damn blog posts in the first place.
 There&rsquo;s a certain pleasing symmetry to it. I began my blogging life in the late 1990s with nothing more than some hand-rolled HTML, a text editor, and a dial-up connection. Over the years I have moved my content over to various platforms: .Text, Community Server, WordPress (twice!), GraffitiCMS, Ghost, and now I find myself almost back where I began.">
@@ -81,10 +81,11 @@ There’s a certain pleasing symmetry to it. I began my blogging life in the lat
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-05-10T22:44:00+01:00">
-    <meta property="article:modified_time" content="2025-05-10T22:44:33+01:00">
+    <meta property="article:modified_time" content="2025-05-10T23:13:43+01:00">
     <meta property="article:tag" content="Blogging">
     <meta property="article:tag" content="Hugo">
     <meta property="article:tag" content="WordPress">
+    <meta property="article:tag" content="Simplicity">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="From WordPress to Hugo: A Return to Simpler Times">
 <meta name="twitter:description" content="
@@ -120,13 +121,13 @@ There&rsquo;s a certain pleasing symmetry to it. I began my blogging life in the
   "name": "From WordPress to Hugo: A Return to Simpler Times",
   "description": "\nI know, I know, you\u0026rsquo;ve heard all this before. Once again Ian is migrating his blog from one platform to another. And yes, it\u0026rsquo;s true that I have spent more of my life converting my blog posts between different platforms and markup languages than I ever have actually writing the damn blog posts in the first place.\nThere\u0026rsquo;s a certain pleasing symmetry to it. I began my blogging life in the late 1990s with nothing more than some hand-rolled HTML, a text editor, and a dial-up connection. Over the years I have moved my content over to various platforms: .Text, Community Server, WordPress (twice!), GraffitiCMS, Ghost, and now I find myself almost back where I began.\n",
   "keywords": [
-    "Blogging", "Hugo", "WordPress"
+    "Blogging", "Hugo", "WordPress", "Simplicity"
   ],
   "articleBody": "\nI know, I know, you’ve heard all this before. Once again Ian is migrating his blog from one platform to another. And yes, it’s true that I have spent more of my life converting my blog posts between different platforms and markup languages than I ever have actually writing the damn blog posts in the first place.\nThere’s a certain pleasing symmetry to it. I began my blogging life in the late 1990s with nothing more than some hand-rolled HTML, a text editor, and a dial-up connection. Over the years I have moved my content over to various platforms: .Text, Community Server, WordPress (twice!), GraffitiCMS, Ghost, and now I find myself almost back where I began.\nNot with hand-coded HTML, no, but with something close: Hugo, the static site generator. A modern tool with old-world sensibilities. Fast, minimal, fiercely text-based. The kind of thing that makes you feel rather chuffed with yourself for avoiding a CMS and database.\nThe Nudge This time around the change wasn’t purely for the fun of trying out a new platform, and it wasn’t purely nostalgic. Like many tech migrations, it has been prompted by a small but decisive shift in nonfunctional requirements. I have recently closed my limited company after 17 years, and with that closure I lost my Microsoft Partner benefits, which had included $100/month in Azure credits. That, in turn, meant that I could no longer justify the modest but non-zero cost of keeping a Linux VM running 24/7 just to serve up WordPress.\nAnd truth be told, I don’t miss it. Keeping a server and WordPress patched felt increasingly out of proportion to the task of publishing the occasional blog post. In general I find that as I hurtle towards my fifties I have a new-found desire for simplicity in my life, and seek to reduce the complexity of my Algorithms To Live By.\nSo I shut it all down.\nSimpler Times, Static Pages I now generate my blog using Hugo, deployed automatically via GitHub Actions to an Azure Static Web App (on the free tier, naturally). The site regenerates in a blink, uploads itself automatically on every commit, and serves HTML with a kind of quiet efficiency that makes you wonder why you ever needed a MySQL database in the first place.\nAll my content lives in Markdown. No block editors, no HTML, no custom CSS. Just words and headings and the occasional image. Oh alright, and I have used a couple of Hugo shortcodes for embedding Youtube videos and Gists. It’s all versioned in GitHub, and I write my posts in VSCode, just as nature intended.\nThe migration itself wasn’t too painful — helped hugely by this WordPress to Hugo Exporter, followed by a bunch of regex-driven find and replace, and some bespoke tidying (which was actually quite soothing). I’ve now got a lean set of posts going back years, shorn of legacy cruft and published with a feather-light footprint.\nThe Theme and the Mood I’m using the PaperMod theme, which strikes a good balance between clarity and flexibility. I haven’t done much in the way of customisation — nor do I particularly want to. That’s kind of the point. Simplifying my life. The whole exercise is about reducing friction: to be able to write, publish, and think out loud without needing a ten-step deployment pipeline, a detour into CSS (not my strong suit), or being beholden to whatever WordPress was doing to my words.\nBut Will It Stick? The real question, of course, is whether this move to yet another platform will rekindle my blogging habit. I hope so. There’s something appealing about the quiet permanence of a static site: no dashboards, no “distraction layer”, just me and my words. I’m also at a point in my life where my kids need less of my time, and I’ve amassed quite a few war stories from life in the world of enterprise software development which I feel able to share.\nI’ve come full circle, but this time the tools are better, and the reasons clearer. If you’re thinking of simplifying your online life, or just fancy a fresh start for your blog, I’d recommended giving Hugo a look.\n",
   "wordCount" : "699",
   "inLanguage": "en",
   "datePublished": "2025-05-10T22:44:00+01:00",
-  "dateModified": "2025-05-10T22:44:33+01:00",
+  "dateModified": "2025-05-10T23:13:43+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://blog.iannelson.uk/hugo/"
@@ -230,7 +231,7 @@ There&rsquo;s a certain pleasing symmetry to it. I began my blogging life in the
 <p>Not with hand-coded HTML, no, but with something close: <a href="https://gohugo.io/">Hugo</a>, the static site generator. A modern tool with old-world sensibilities. Fast, minimal, fiercely text-based. The kind of thing that makes you feel rather chuffed with yourself for avoiding a CMS and database.</p>
 <h2 id="the-nudge">The Nudge<a hidden class="anchor" aria-hidden="true" href="#the-nudge">#</a></h2>
 <p>This time around the change wasn&rsquo;t purely for the fun of trying out a new platform, and it wasn&rsquo;t purely nostalgic. Like many tech migrations, it has been prompted by a small but decisive shift in nonfunctional requirements. I have recently closed my limited company after 17 years, and with that closure I lost my Microsoft Partner benefits, which had included $100/month in Azure credits. That, in turn, meant that I could no longer justify the modest but non-zero cost of keeping a Linux VM running 24/7 just to serve up WordPress.</p>
-<p>And truth be told, I don&rsquo;t miss it. Keeping a server and WordPress patched felt increasingly out of proportion to the task of publishing the occasional blog post. In general I find that as I hurtle towards my fifties I have a new-found desire for simplicity in my life, and seek to reduce the complexity of my <a href="https://amzn.to/4ddpW5A">Algorithms To Live By</a>.</p>
+<p>And truth be told, I don&rsquo;t miss it. Keeping a server and WordPress patched felt increasingly out of proportion to the task of publishing the occasional blog post. In general I find that as I hurtle towards my fifties I have a new-found desire for <a href="https://blog.iannelson/tags/simplicity">simplicity</a> in my life, and seek to reduce the complexity of my <a href="https://amzn.to/4ddpW5A">Algorithms To Live By</a>.</p>
 <p>So I shut it all down.</p>
 <h2 id="simpler-times-static-pages">Simpler Times, Static Pages<a hidden class="anchor" aria-hidden="true" href="#simpler-times-static-pages">#</a></h2>
 <p>I now generate my blog using Hugo, deployed automatically via <a href="https://github.com/features/actions">GitHub Actions</a> to an <a href="https://azure.microsoft.com/en-us/products/app-service/static">Azure Static Web App</a> (on the free tier, naturally). The site regenerates in a blink, uploads itself automatically on every commit, and serves HTML with a kind of quiet efficiency that makes you wonder why you ever needed a MySQL database in the first place.</p>
@@ -241,7 +242,7 @@ There&rsquo;s a certain pleasing symmetry to it. I began my blogging life in the
 <p>I&rsquo;m using the <a href="https://github.com/adityatelange/hugo-PaperMod">PaperMod</a> theme, which strikes a good balance between clarity and flexibility. I haven&rsquo;t done much in the way of customisation — nor do I particularly want to. That&rsquo;s kind of the point. Simplifying my life. The whole exercise is about reducing friction: to be able to write, publish, and think out loud without needing a ten-step deployment pipeline, a detour into CSS (not my strong suit), or being beholden to whatever WordPress was doing to my words.</p>
 <h2 id="but-will-it-stick">But Will It Stick?<a hidden class="anchor" aria-hidden="true" href="#but-will-it-stick">#</a></h2>
 <p>The real question, of course, is whether this move to yet another platform will rekindle my blogging habit. I hope so. There&rsquo;s something appealing about the quiet permanence of a static site: no dashboards, no &ldquo;distraction layer&rdquo;, just me and my words. I&rsquo;m also at a point in my life where my kids need less of my time, and I&rsquo;ve amassed quite a few war stories from life in the world of enterprise software development which I feel able to share.</p>
-<p>I&rsquo;ve come full circle, but this time the tools are better, and the reasons clearer. If you&rsquo;re thinking of simplifying your online life, or just fancy a fresh start for your blog, I&rsquo;d recommended giving Hugo a look.</p>
+<p>I&rsquo;ve come full circle, but this time the tools are better, and the reasons clearer. If you&rsquo;re thinking of <a href="https://blog.iannelson.uk/tags/simplicity">simplifying</a> your online life, or just fancy a fresh start for your blog, I&rsquo;d recommended giving Hugo a look.</p>
 
 
   </div>
@@ -251,6 +252,7 @@ There&rsquo;s a certain pleasing symmetry to it. I began my blogging life in the
       <li><a href="https://blog.iannelson.uk/tags/blogging/">Blogging</a></li>
       <li><a href="https://blog.iannelson.uk/tags/hugo/">Hugo</a></li>
       <li><a href="https://blog.iannelson.uk/tags/wordpress/">WordPress</a></li>
+      <li><a href="https://blog.iannelson.uk/tags/simplicity/">Simplicity</a></li>
     </ul>
   </footer>
 </article>
