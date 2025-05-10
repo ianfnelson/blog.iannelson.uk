@@ -34,7 +34,7 @@ There are also buttons to launch a web browser, email application, navigate to a
 
 So, in summary – having got past those difficult early “getting to know you” dates, I now foresee a long and happy relationship with the 4000 series. And I’m sure my shoulders will be happy to hear that.
 
-[^telecommuter]: ]does anybody say “telecommuter” these days?  It sounds very 1996…
+[^telecommuter]: does anybody say “telecommuter” these days?  It sounds very 1996…
 
  [1]: http://www.johnsadventures.com/archives/2008/05/a-chair-makes-a-hell-of-a-difference.html
  [2]: http://amzn.to/RPdDlW
