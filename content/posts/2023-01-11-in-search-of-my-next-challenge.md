@@ -7,6 +7,8 @@ cover:
   image: https://blogstouks01.z33.web.core.windows.net/2023/01/photo-1484788984921-03950022c9ef.jpg
 categories:
   - Work
+tags:
+  - Career
 
 ---
 Folks, this is your lucky day — Ian Nelson is back on the market.

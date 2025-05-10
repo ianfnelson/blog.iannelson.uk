@@ -8,6 +8,9 @@ cover:
 categories:
   - Family
   - Hills
+tags:
+  - Yorkshire
+  - Derbyshire
 
 ---
 Another visit to Stanage Edge to admire the mighty [Stanage Pole][1]. This time with my daughter Isla in tow, rather than [my mum][2].
