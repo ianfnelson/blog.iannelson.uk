@@ -5683,10 +5683,10 @@ OK, who am I kidding?  Starter Chess was, in all respects, an exercise in patien
       <guid>https://blog.iannelson.uk/about/</guid>
       <description>&lt;p&gt;Hello. I’m Ian. I&amp;rsquo;m a technical architect, occasional writer, reluctant leader, enthusiastic father, Wordle obsessive, and recovering Scrum sceptic.&lt;/p&gt;
 &lt;p&gt;I’ve been building enterprise software systems for over 25 years — mostly in C# and Java, and frequently thinking about event-driven architecture, domain modelling, and how not to end up on the front page of the &lt;em&gt;Daily Mail&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;These days, I’m working on national health infrastructure — designing service layers and messaging patterns that (hopefully) keep the lights on without setting fire to anyone’s patient data. I like diagrams. I like distributed systems. I like it when the tests pass on the first go, but I’ve made peace with the fact they usually don’t.&lt;/p&gt;</description>
+&lt;p&gt;These days, I’m working on national health infrastructure — designing service layers and messaging patterns that (hopefully) keep ticking over without setting fire to anyone’s patient data. I like diagrams. I like distributed systems. I like it when the tests pass on the first go, but I’ve made peace with the fact they usually don’t.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Hello. I’m Ian. I&rsquo;m a technical architect, occasional writer, reluctant leader, enthusiastic father, Wordle obsessive, and recovering Scrum sceptic.</p>
 <p>I’ve been building enterprise software systems for over 25 years — mostly in C# and Java, and frequently thinking about event-driven architecture, domain modelling, and how not to end up on the front page of the <em>Daily Mail</em>.</p>
-<p>These days, I’m working on national health infrastructure — designing service layers and messaging patterns that (hopefully) keep the lights on without setting fire to anyone’s patient data. I like diagrams. I like distributed systems. I like it when the tests pass on the first go, but I’ve made peace with the fact they usually don’t.</p>
+<p>These days, I’m working on national health infrastructure — designing service layers and messaging patterns that (hopefully) keep ticking over without setting fire to anyone’s patient data. I like diagrams. I like distributed systems. I like it when the tests pass on the first go, but I’ve made peace with the fact they usually don’t.</p>
 <p>This blog is where I put the thoughts that won’t fit in Jira tickets. You’ll find:</p>
 <ul>
 <li>Notes on software architecture and dev team dynamics.</li>
@@ -5695,7 +5695,7 @@ OK, who am I kidding?  Starter Chess was, in all respects, an exercise in patien
 <li>Rankings of Wordle scores from my extended family, with statistical overanalysis.</li>
 <li>Reflections on parenting, middle age, and why my dog Sadie is the most emotionally intelligent member of our household.</li>
 </ul>
-<p>I live in North Yorkshire with my brilliant wife Jocelyn and three teenagers. We have loud dinners, strong opinions, and a miniature schnauzer with delusions of grandeur. When I’m not building systems, I’m reading novels, trimming hedges, playing board games, or walking through Skipwith Common pretending I’m in a philosophical essay.</p>
+<p>I live in North Yorkshire with my brilliant wife Jocelyn and three teenagers. We have chatty dinners, strong opinions, and a miniature schnauzer with delusions of grandeur. When I’m not building systems, I’m reading novels, building Lego, or walking through Skipwith Common pretending I’m in a philosophical essay.</p>
 <p>I journal daily, which is probably why I blog only occasionally.</p>
 <p>I’m not looking to be an influencer. I just want to leave behind some traceable thoughts that might help the next person along — or give them a reason to smile and nod in bitter recognition.</p>
 <hr>

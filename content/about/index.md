@@ -8,7 +8,7 @@ Hello. I’m Ian. I'm a technical architect, occasional writer, reluctant leader
 
 I’ve been building enterprise software systems for over 25 years — mostly in C# and Java, and frequently thinking about event-driven architecture, domain modelling, and how not to end up on the front page of the *Daily Mail*.
 
-These days, I’m working on national health infrastructure — designing service layers and messaging patterns that (hopefully) keep the lights on without setting fire to anyone’s patient data. I like diagrams. I like distributed systems. I like it when the tests pass on the first go, but I’ve made peace with the fact they usually don’t.
+These days, I’m working on national health infrastructure — designing service layers and messaging patterns that (hopefully) keep ticking over without setting fire to anyone’s patient data. I like diagrams. I like distributed systems. I like it when the tests pass on the first go, but I’ve made peace with the fact they usually don’t.
 
 This blog is where I put the thoughts that won’t fit in Jira tickets. You’ll find:
 
@@ -18,7 +18,7 @@ This blog is where I put the thoughts that won’t fit in Jira tickets. You’ll
 - Rankings of Wordle scores from my extended family, with statistical overanalysis.
 - Reflections on parenting, middle age, and why my dog Sadie is the most emotionally intelligent member of our household.
 
-I live in North Yorkshire with my brilliant wife Jocelyn and three teenagers. We have loud dinners, strong opinions, and a miniature schnauzer with delusions of grandeur. When I’m not building systems, I’m reading novels, trimming hedges, playing board games, or walking through Skipwith Common pretending I’m in a philosophical essay.
+I live in North Yorkshire with my brilliant wife Jocelyn and three teenagers. We have chatty dinners, strong opinions, and a miniature schnauzer with delusions of grandeur. When I’m not building systems, I’m reading novels, building Lego, or walking through Skipwith Common pretending I’m in a philosophical essay.
 
 I journal daily, which is probably why I blog only occasionally.
 
