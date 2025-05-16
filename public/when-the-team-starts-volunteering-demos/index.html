@@ -5,11 +5,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>A Serializable KeyValuePair Class | Ian Nelson</title>
-<meta name="keywords" content=".NET">
-<meta name="description" content="Having accepted that Returning DataSets from WebServices is the Spawn of Satan and Represents All That Is Truly Evil in the World (or at least, not exactly best practice), I’ve been trying to make a conscious effort to instead use lightweight custom objects in my middle tier, to be exposed via web services for use by other applications. I felt sure that some of the new Generic classes in the .NET 2.0 FCL would help me in my quest. Specifically, as I often need to expose simple arrays of Key/Value Pair metadata, I planned to create an instance of the  System.Collections.ObjectModel.Collection class, containing a bunch of System.Collections.Generic.KeyValuePair objects.">
+<title>When the Team Starts Volunteering Demos, You Know You’re Doing Something Right | Ian Nelson</title>
+<meta name="keywords" content="Leadership, Teams">
+<meta name="description" content="There are moments in the lifecycle of a project – quiet, almost undetectable ones – that act as inflection points. Not the big set-piece go-live days, with all the nervous Splunk-watching that entails. Not the kick-offs, not the design sign-offs. Just those little glimmers of “Oh, this is actually working.”
+One of those glimmers happened today.
+We’re a relatively new team, starting to build a new product, led by me – still only eight weeks into the role.">
 <meta name="author" content="">
-<link rel="canonical" href="https://blog.iannelson.uk/a-serializable-keyvaluepair-class/">
+<link rel="canonical" href="https://blog.iannelson.uk/when-the-team-starts-volunteering-demos/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.507965cef202c8ad6ac74222b0ed770dc0aaeab2c82c87ebdbd46b4f8b3196e2.css" integrity="sha256-UHllzvICyK1qx0IisO13DcCq6rLILIfr29RrT4sxluI=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://blog.iannelson.uk/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://blog.iannelson.uk/favicon-16x16.png">
@@ -18,7 +20,7 @@
 <link rel="mask-icon" href="https://blog.iannelson.uk/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://blog.iannelson.uk/a-serializable-keyvaluepair-class/">
+<link rel="alternate" hreflang="en" href="https://blog.iannelson.uk/when-the-team-starts-volunteering-demos/">
 <noscript>
     <style>
         #theme-toggle,
@@ -69,19 +71,24 @@
           gtag('js', new Date());
           gtag('config', 'G-5JMKSPFQKQ');
         }
-      </script><meta property="og:url" content="https://blog.iannelson.uk/a-serializable-keyvaluepair-class/">
+      </script><meta property="og:url" content="https://blog.iannelson.uk/when-the-team-starts-volunteering-demos/">
   <meta property="og:site_name" content="Ian Nelson">
-  <meta property="og:title" content="A Serializable KeyValuePair Class">
-  <meta property="og:description" content="Having accepted that Returning DataSets from WebServices is the Spawn of Satan and Represents All That Is Truly Evil in the World (or at least, not exactly best practice), I’ve been trying to make a conscious effort to instead use lightweight custom objects in my middle tier, to be exposed via web services for use by other applications. I felt sure that some of the new Generic classes in the .NET 2.0 FCL would help me in my quest. Specifically, as I often need to expose simple arrays of Key/Value Pair metadata, I planned to create an instance of the System.Collections.ObjectModel.Collection class, containing a bunch of System.Collections.Generic.KeyValuePair objects.">
+  <meta property="og:title" content="When the Team Starts Volunteering Demos, You Know You’re Doing Something Right">
+  <meta property="og:description" content="There are moments in the lifecycle of a project – quiet, almost undetectable ones – that act as inflection points. Not the big set-piece go-live days, with all the nervous Splunk-watching that entails. Not the kick-offs, not the design sign-offs. Just those little glimmers of “Oh, this is actually working.”
+One of those glimmers happened today.
+We’re a relatively new team, starting to build a new product, led by me – still only eight weeks into the role.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2006-09-17T17:09:00+00:00">
+    <meta property="article:published_time" content="2025-05-13T22:38:00+01:00">
     <meta property="article:modified_time" content="2025-05-16T20:51:16+01:00">
-    <meta property="article:tag" content=".NET">
+    <meta property="article:tag" content="Leadership">
+    <meta property="article:tag" content="Teams">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="A Serializable KeyValuePair Class">
-<meta name="twitter:description" content="Having accepted that Returning DataSets from WebServices is the Spawn of Satan and Represents All That Is Truly Evil in the World (or at least, not exactly best practice), I’ve been trying to make a conscious effort to instead use lightweight custom objects in my middle tier, to be exposed via web services for use by other applications. I felt sure that some of the new Generic classes in the .NET 2.0 FCL would help me in my quest. Specifically, as I often need to expose simple arrays of Key/Value Pair metadata, I planned to create an instance of the  System.Collections.ObjectModel.Collection class, containing a bunch of System.Collections.Generic.KeyValuePair objects.">
+<meta name="twitter:title" content="When the Team Starts Volunteering Demos, You Know You’re Doing Something Right">
+<meta name="twitter:description" content="There are moments in the lifecycle of a project – quiet, almost undetectable ones – that act as inflection points. Not the big set-piece go-live days, with all the nervous Splunk-watching that entails. Not the kick-offs, not the design sign-offs. Just those little glimmers of “Oh, this is actually working.”
+One of those glimmers happened today.
+We’re a relatively new team, starting to build a new product, led by me – still only eight weeks into the role.">
 
 
 <script type="application/ld+json">
@@ -98,8 +105,8 @@
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "A Serializable KeyValuePair Class",
-      "item": "https://blog.iannelson.uk/a-serializable-keyvaluepair-class/"
+      "name": "When the Team Starts Volunteering Demos, You Know You’re Doing Something Right",
+      "item": "https://blog.iannelson.uk/when-the-team-starts-volunteering-demos/"
     }
   ]
 }
@@ -108,20 +115,20 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "A Serializable KeyValuePair Class",
-  "name": "A Serializable KeyValuePair Class",
-  "description": "Having accepted that Returning DataSets from WebServices is the Spawn of Satan and Represents All That Is Truly Evil in the World (or at least, not exactly best practice), I’ve been trying to make a conscious effort to instead use lightweight custom objects in my middle tier, to be exposed via web services for use by other applications. I felt sure that some of the new Generic classes in the .NET 2.0 FCL would help me in my quest. Specifically, as I often need to expose simple arrays of Key/Value Pair metadata, I planned to create an instance of the System.Collections.ObjectModel.Collection class, containing a bunch of System.Collections.Generic.KeyValuePair objects.\n",
+  "headline": "When the Team Starts Volunteering Demos, You Know You’re Doing Something Right",
+  "name": "When the Team Starts Volunteering Demos, You Know You’re Doing Something Right",
+  "description": "There are moments in the lifecycle of a project – quiet, almost undetectable ones – that act as inflection points. Not the big set-piece go-live days, with all the nervous Splunk-watching that entails. Not the kick-offs, not the design sign-offs. Just those little glimmers of “Oh, this is actually working.”\nOne of those glimmers happened today.\nWe’re a relatively new team, starting to build a new product, led by me – still only eight weeks into the role.\n",
   "keywords": [
-    ".NET"
+    "Leadership", "Teams"
   ],
-  "articleBody": "Having accepted that Returning DataSets from WebServices is the Spawn of Satan and Represents All That Is Truly Evil in the World (or at least, not exactly best practice), I’ve been trying to make a conscious effort to instead use lightweight custom objects in my middle tier, to be exposed via web services for use by other applications. I felt sure that some of the new Generic classes in the .NET 2.0 FCL would help me in my quest. Specifically, as I often need to expose simple arrays of Key/Value Pair metadata, I planned to create an instance of the System.Collections.ObjectModel.Collection class, containing a bunch of System.Collections.Generic.KeyValuePair objects.\nWell, this all seemed to go to plan, and worked just fine within my app. But when I exposed the method as a web service, I discovered that neither the Key nor the Value properties were serialized – I was left to consume a lovely generic collection of objects with no members – not a whole lot of use.\nA little Googling turned up this blog entry, which explains that the Key and Value properties on the KeyValuePair class are both read-only, and by design the XmlSerializer will not serialize properties that don’t have a set accessor!\nDamned if that little matter was going to stop me, I whipped out my copy of Lutz Roeder’s reflector to reverse engineer the KeyValuePair class (to be honest, I could have guessed most of it), and added a private set accessor to both properties, thus persuading the XmlSerializer to, well, do some serializing 🙂\nHere’s the code for this new class:\nHaving done that, to add a little clarity when using this class in the way I anticipate and eliminate repeated code, I decided to create some specific versions of the Collection, ReadOnlyCollection and KeyedCollection classes:\n",
-  "wordCount" : "301",
+  "articleBody": "There are moments in the lifecycle of a project – quiet, almost undetectable ones – that act as inflection points. Not the big set-piece go-live days, with all the nervous Splunk-watching that entails. Not the kick-offs, not the design sign-offs. Just those little glimmers of “Oh, this is actually working.”\nOne of those glimmers happened today.\nWe’re a relatively new team, starting to build a new product, led by me – still only eight weeks into the role.\nFour of us had been mobbing remotely on a Teams call for a couple of hours. It had been going reasonably well. Still not slick – there isn’t yet the easy familiarity that comes with an established team working on a more mature solution. Everything is new, and so even the smallest tasks seem to mothball into architectural decisions.\nIt was getting close to lunchtime when Alex piped up: “We’ve got a check-in call with the wider team at one o’clock, haven’t we? Shall we demo something? I can show this function running on my machine.”\nWarren followed up immediately: “Sure, I can demonstrate how we’re using Docker to stand up a local development and testing environment” – a crucial unblocker to productivity.\nI was so pleased. We had things to show. And more importantly: the team wanted to show them.\nNo nudging, no awkward silences. The team didn’t just understand what we were building – they were proud of it. It was one of those rare moments where team ownership flickered into full flame. And for the first time on this particular phase of work, it felt like we were truly collaborating. Not just assembling code under duress, but actively teasing out a solution together. Exploring patterns. Testing boundaries. Seeking quality. Wanting to show it off.\nIt’s easy to overlook these moments. Especially when you’re in a leadership role, wrestling with impostor syndrome and second-guessing your every suggestion. Am I overthinking this solution design? Should we be pairing more? Am I supposed to be directing, actively coding, or just unblocking? Why can’t I find the perfect agile structure to fit this particular team, this particular week?\nBut then someone volunteers to demo. And another follows. And you realise that the structure matters far less than the culture.\nWhen the team is engaged, curious, psychologically safe, and invested in the outcome, the ceremonies can be perfunctory and the methods loose. What matters is the shared ownership – the willingness to show your work not because it’s finished, but because it’s meaningful.\nSo no, today wasn’t a launch day. It wasn’t even a big milestone.\nBut it was a moment I’ll remember – a quiet reminder that progress isn’t just measured in story points or deployables. Sometimes it’s in the confidence of a teammate saying: “Shall I go first?”\n",
+  "wordCount" : "466",
   "inLanguage": "en",
-  "datePublished": "2006-09-17T17:09:00Z",
+  "datePublished": "2025-05-13T22:38:00+01:00",
   "dateModified": "2025-05-16T20:51:16+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://blog.iannelson.uk/a-serializable-keyvaluepair-class/"
+    "@id": "https://blog.iannelson.uk/when-the-team-starts-volunteering-demos/"
   },
   "publisher": {
     "@type": "Organization",
@@ -210,49 +217,33 @@
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      A Serializable KeyValuePair Class
+      When the Team Starts Volunteering Demos, You Know You’re Doing Something Right
     </h1>
-    <div class="post-meta"><span title='2006-09-17 17:09:00 +0000 +0000'>17 September 2006</span>
+    <div class="post-meta"><span title='2025-05-13 22:38:00 +0100 BST'>13 May 2025</span>
 
 </div>
   </header> 
-  <div class="post-content"><p>Having accepted that <a href="http://www.hanselman.com/blog/ReturningDataSetsFromWebServicesIsTheSpawnOfSatanAndRepresentsAllThatIsTrulyEvilInTheWorld.aspx">Returning DataSets from WebServices is the Spawn of Satan and Represents All That Is Truly Evil in the World</a> (or at least, not exactly best practice), I’ve been trying to make a conscious effort to instead use lightweight custom objects in my middle tier, to be exposed via web services for use by other applications. I felt sure that some of the new Generic classes in the .NET 2.0 FCL would help me in my quest. Specifically, as I often need to expose simple arrays of Key/Value Pair metadata, I planned to create an instance of the  <code>System.Collections.ObjectModel.Collection</code> class, containing a bunch of <code>System.Collections.Generic.KeyValuePair</code> objects.</p>
-<p>Well, this all seemed to go to plan, and worked just fine within my app. But when I exposed the method as a web service, I discovered that neither the Key nor the Value properties were serialized – I was left to consume a lovely generic collection of objects with no members – not a whole lot of use.</p>
-<p>A little Googling turned up <a href="http://blogs.msdn.com/seshadripv/archive/2005/11/02/488273.aspx">this blog entry</a>, which explains that the Key and Value properties on the KeyValuePair class are both read-only, and by design the XmlSerializer will not serialize properties that don’t have a set accessor!</p>
-<p>Damned if that little matter was going to stop me, I whipped out my copy of Lutz Roeder’s reflector to reverse engineer the <code>KeyValuePair</code> class (to be honest, I could have guessed most of it), and added a <em>private</em> set accessor to both properties, thus persuading the XmlSerializer to, well, do some serializing 🙂</p>
-<p>Here’s the code for this new class:</p>
-
-
-
-  
-
-<script src="https://gist.github.com/ianfnelson/9862098.js?file=KeyValuePairThatSerializesProperly.cs"></script>
-<p>Having done that, to add a little clarity when using this class in the way I anticipate and eliminate repeated code, I decided to create some specific versions of the <code>Collection</code>, <code>ReadOnlyCollection</code> and <code>KeyedCollection</code> classes:</p>
-
-
-
-  
-
-<script src="https://gist.github.com/ianfnelson/9862098.js?file=KeyValuePairCollection.cs"></script>
-
-
-
-  
-
-<script src="https://gist.github.com/ianfnelson/9862098.js?file=ReadOnlyKeyValuePairCollection.cs"></script>
-
-
-
-  
-
-<script src="https://gist.github.com/ianfnelson/9862098.js?file=KeyValuePairKeyedCollection.cs"></script>
+  <div class="post-content"><p>There are moments in the lifecycle of a project – quiet, almost undetectable ones – that act as inflection points. Not the big set-piece go-live days, with all the nervous Splunk-watching that entails. Not the kick-offs, not the design sign-offs. Just those little glimmers of “Oh, this is actually working.”</p>
+<p>One of those glimmers happened today.</p>
+<p>We’re a relatively new team, starting to build a new product, led by me – still only eight weeks into the role.</p>
+<p>Four of us had been mobbing remotely on a Teams call for a couple of hours. It had been going reasonably well. Still not slick – there isn’t yet the easy familiarity that comes with an established team working on a more mature solution. Everything is new, and so even the smallest tasks seem to mothball into architectural decisions.</p>
+<p>It was getting close to lunchtime when Alex piped up: “We’ve got a check-in call with the wider team at one o’clock, haven’t we? Shall we demo something? I can show this function running on my machine.”</p>
+<p>Warren followed up immediately: “Sure, I can demonstrate how we’re using Docker to stand up a local development and testing environment” – a crucial unblocker to productivity.</p>
+<p>I was so pleased. We had things to show. And more importantly: the team wanted to show them.</p>
+<p>No nudging, no awkward silences. The team didn’t just understand what we were building – they were proud of it. It was one of those rare moments where team ownership flickered into full flame. And for the first time on this particular phase of work, it felt like we were truly collaborating. Not just assembling code under duress, but actively teasing out a solution together. Exploring patterns. Testing boundaries. Seeking quality. Wanting to show it off.</p>
+<p>It’s easy to overlook these moments. Especially when you’re in a leadership role, wrestling with impostor syndrome and second-guessing your every suggestion. Am I overthinking this solution design? Should we be pairing more? Am I supposed to be directing, actively coding, or just unblocking? Why can’t I find the perfect agile structure to fit this particular team, this particular week?</p>
+<p>But then someone volunteers to demo. And another follows. And you realise that the structure matters far less than the culture.</p>
+<p>When the team is engaged, curious, psychologically safe, and invested in the outcome, the ceremonies can be perfunctory and the methods loose. What matters is the shared ownership – the willingness to show your work not because it’s finished, but because it’s meaningful.</p>
+<p>So no, today wasn’t a launch day. It wasn’t even a big milestone.</p>
+<p>But it was a moment I’ll remember – a quiet reminder that progress isn’t just measured in story points or deployables. Sometimes it’s in the confidence of a teammate saying: “Shall I go first?”</p>
 
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://blog.iannelson.uk/tags/.net/">.NET</a></li>
+      <li><a href="https://blog.iannelson.uk/tags/leadership/">Leadership</a></li>
+      <li><a href="https://blog.iannelson.uk/tags/teams/">Teams</a></li>
     </ul>
   </footer>
 </article>
