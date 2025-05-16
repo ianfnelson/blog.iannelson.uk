@@ -2,7 +2,7 @@
 title: 'When the Team Starts Volunteering Demos, You Know You’re Doing Something Right'
 
 date: 2025-05-13T22:38:00+01:00
-url: /when-the-team-starts-volunttering-demos
+url: /when-the-team-starts-volunteering-demos
 
 categories:
   - Work
