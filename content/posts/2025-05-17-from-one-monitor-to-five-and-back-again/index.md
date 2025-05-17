@@ -78,13 +78,13 @@ COVID-19 was the accelerant. Jocelyn took this photo of the back of my greying h
 
 [![](https://blogstouks01.z33.web.core.windows.net/2025/05/monitors/09_720.jpeg)](https://blogstouks01.z33.web.core.windows.net/2025/05/monitors/09.jpeg)
 
-Here's how my office looked by December 2022, post-pandemic. Full time working from home had led me to invest in my working environment — the Argos desk I had owned for 15 years was replaced with some new office furniture, and I finally took [John's advice](https://johnsad.ventures/2008/05/07/a-chair-makes-a-hell-of-a-difference/) and invested in a Herman Miller Mirra 2. I was still surrounding myself with screens, now with five monitors driven from the same Thinkstation P620.
+Here's how my office looked by December 2022, post-pandemic. Full time working from home had led me to invest in my working environment — the Argos desk I had owned for 15 years was replaced with some new office furniture, and I finally took [John's advice](https://johnsad.ventures/2008/05/07/a-chair-makes-a-hell-of-a-difference/) and treated my back to a Herman Miller Mirra 2. I was still surrounding myself with screens, now with five monitors driven from the same Thinkstation P620.
 
 [![](https://blogstouks01.z33.web.core.windows.net/2025/05/monitors/10_720.jpeg)](https://blogstouks01.z33.web.core.windows.net/2025/05/monitors/10.jpeg)
 
 Around this time I began to suspect that this number of screens was no longer having a positive impact on my productivity. I was tired and lacking in focus. I began to notice that I was flicking my eyes around constantly, swivelling my head to acknowledge notifications, skimming rather than reading, glancing rather than thinking deeply. I was reading books by Cal Newport — _Digital Minimalism_, _A World Without Email_ and _Deep Work_ — and they stuck a chord.
 
-It was also at this point that I finally realised how much more calm and efficient I was when using MacOS compared to Windows. I decided to move over, lock stock and barrel. I sold the ThinkStation on eBay, along with the excessive number of screens, and replaced it all with a MacBook Air and a single Studio Display.
+It was also at this point that I finally realised how much more calm and efficient I was when using MacOS compared to Windows. I decided to move over, lock stock and barrel. I sold the ThinkStation on eBay, along with the excessive number of screens, and replaced it all with a MacBook Air and a single Studio Display. I even went full-on zen and bought two plants.
 
 [![](https://blogstouks01.z33.web.core.windows.net/2025/05/monitors/11_720.jpeg)](https://blogstouks01.z33.web.core.windows.net/2025/05/monitors/11.jpeg)
 
