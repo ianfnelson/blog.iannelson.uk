@@ -1,7 +1,7 @@
 ---
 title: From One Monitor to Five, and Back Again
-date: 2025-12-17T21:00:00+01:00
-url: /from-one-monitor-to-five-and-back-again/
+date: 2025-12-17T19:00:00+01:00
+url: /from-one-monitor-to-five-and-back-again
 cover: 
   image: https://blogstouks01.z33.web.core.windows.net/2025/05/monitors/12_720.jpeg
 
