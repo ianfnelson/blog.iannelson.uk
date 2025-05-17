@@ -25,7 +25,7 @@ Reader, I was deluding myself.
 
 Let us begin at the beginning.
 
-In late 1997, as a bright-eyed junior developer, I had a single beige CRT monitor perched atop a desktop computer somewhere within a vast open plan office. Its primary purpose was to allow me to connect to an IBM mainframe via a ROSCOE terminal, and therefore I had very little need for more than the most basic of single screens. I had no access to the World Wide Web, and could only send and receive emails to others within same organisation. I was the software developer equivalent of a battery chicken.
+In late 1997, as a bright-eyed junior developer, I had a single beige CRT monitor perched atop a desktop computer somewhere within a vast open plan office. Its primary purpose was to allow me to connect to an IBM mainframe via a ROSCOE terminal, and therefore I had very little need for more than the most basic of single screens. I had no access to the World Wide Web, and could only send and receive emails to others within same organisation. I felt like a battery-farmed software developer.
 
 Sadly (or perhaps not), I don't have any photographs from the office environment in which I began my career. Digital cameras were still several years away from being mainstream, mobile phones were still a curiosity, and banks like the one I worked in would have been somewhat suspicious if I had started taking snapshots of my screen. But the image below gives a reasonable impression of what life in those days was like. This picture proudly adorned the wall at one of my later clients; I had to walk past it on the way to my desk every morning. It did not inspire me.
 
@@ -43,7 +43,7 @@ Jocelyn is scouring estate agency websites in this photo, trying to find us a bi
 
 [![](https://blogstouks01.z33.web.core.windows.net/2025/05/monitors/02_720.jpeg)](https://blogstouks01.z33.web.core.windows.net/2025/05/monitors/02.jpeg)
 
-Here was one of my favourite desks, at Marshalls in 2007. I learned a lot during my time there and still have great affection for the company and the people I worked with. By now two flatscreen monitors each was starting to be the norm, and this was a huge boon to productivty to developers. Screen resolutions were still only around 1280x1024 on average, with most applications running maximised, as shown in this photo. So if you were developing a web applications you would frequently find yourself swapping between, say, a browser and an IDE, or an editor and a functional spec. Having two monitors meant both could be visible at once, saving a lot of faffing.
+Here was one of my favourite desks, at Marshalls in 2007. I learned a lot during my time there and still have great affection for the company and the people I worked with. By now two flatscreen monitors each was starting to be the norm, and this was a huge boon to productivity to developers. Screen resolutions were still only around 1280x1024 on average, with most applications running maximised, as shown in this photo. So if you were developing a web applications you would frequently find yourself swapping between, say, a browser and an IDE, or an editor and a functional spec. Having two monitors meant both could be visible at once, saving a lot of faffing.
 
 [![](https://blogstouks01.z33.web.core.windows.net/2025/05/monitors/03_720.jpeg)](https://blogstouks01.z33.web.core.windows.net/2025/05/monitors/03.jpeg)
 
