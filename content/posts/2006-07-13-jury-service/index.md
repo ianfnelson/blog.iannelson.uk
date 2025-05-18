@@ -6,7 +6,7 @@ excerpt: 'Two weeks of jury service: surprising, challenging, and a fascinating 
 url: /jury-service/
 
 categories:
-  - Miscellany
+  - Society
 
 ---
 I’ve recently completed a stint of jury service, which lasted a little over two weeks at York Crown Court. For obvious reasons, I can’t blog about the trials I was involved with, but it was a fascinating couple of weeks, and it would be a shame not to share some of the experience with you.
