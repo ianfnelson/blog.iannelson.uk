@@ -84,7 +84,7 @@ Here's how my office looked by December 2022, post-pandemic. Full time working f
 
 Around this time I began to suspect that this number of screens was no longer having a positive impact on my productivity. I was tired and lacking in focus. I began to notice that I was flicking my eyes around constantly, swivelling my head to acknowledge notifications, skimming rather than reading, glancing rather than thinking deeply. I was reading books by Cal Newport — _Digital Minimalism_, _A World Without Email_ and _Deep Work_ — and they stuck a chord.
 
-It was also at this point that I finally realised how much more calm and efficient I was when using MacOS compared to Windows. I decided to move over, lock stock and barrel. I sold the ThinkStation on eBay, along with the excessive number of screens, and replaced it all with a MacBook Air and a single Studio Display. I even went full-on zen and bought two plants.
+It was also at this point that I finally realised how much more calm and efficient I was when using MacOS compared to Windows. I decided to move over, lock stock and barrel. I sold the ThinkStation on eBay, along with the excessive number of screens, and replaced it all with a MacBook Air and a single Studio Display. I even went full-on zen and bought two houseplants.
 
 [![](https://blogstouks01.z33.web.core.windows.net/2025/05/monitors/11_720.jpeg)](https://blogstouks01.z33.web.core.windows.net/2025/05/monitors/11.jpeg)
 
@@ -104,6 +104,6 @@ It's not just about aesthetics (though I do quite like how clean the desk looks 
 
 If you're reading this with four glowing rectangles in your peripheral vision, I'm not here to convert you. Some people, some roles, really _do_ benefit from a sprawling canvas.
 
-But if you're feeling overwhelmed, twitchy, or vaguely haunted by unread badges — consider the single-screen experiment. Try clamshell mode for a day, or an hour. Close down Slack, Teams and Outlook for a while and do some deep work for a while.
+But if you're feeling overwhelmed, twitchy, or vaguely haunted by unread badges — consider the single-screen experiment. Try clamshell mode for a day, or an hour. Close down Slack, Teams and Outlook and do some deep work for a while.
 
 You may find, as I did, that there's life after monitor overload.
