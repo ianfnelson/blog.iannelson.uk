@@ -82,7 +82,7 @@ Here's how my office looked by December 2022, post-pandemic. Full time working f
 
 [![](https://blogstouks01.z33.web.core.windows.net/2025/05/monitors/10_720.jpeg)](https://blogstouks01.z33.web.core.windows.net/2025/05/monitors/10.jpeg)
 
-Around this time I began to suspect that this number of screens was no longer having a positive impact on my productivity. I was tired and lacking in focus. I began to notice that I was flicking my eyes around constantly, swivelling my head to acknowledge notifications, skimming rather than reading, glancing rather than thinking deeply. I was reading books by Cal Newport — [_Digital Minimalism_](https://amzn.to/45dsjmL), [_A World Without Email_](https://amzn.to/4jczTBw) and [_Deep Work_](https://amzn.to/4do75EZ) — and they stuck a chord.
+Around this time I began to suspect that this number of screens was no longer having a positive impact on my productivity. I was tired and lacking in focus. I began to notice that I was flicking my eyes around constantly, swivelling my head to acknowledge notifications, skimming rather than reading, glancing rather than thinking deeply. I was reading books by Cal Newport — [_Digital Minimalism_](https://amzn.to/45dsjmL), [_A World Without Email_](https://amzn.to/4jczTBw) and [_Deep Work_](https://amzn.to/4do75EZ) — and they struck a chord.
 
 It was also at this point that I finally realised how much more calm and efficient I was when using MacOS compared to Windows. I decided to move over, lock stock and barrel. I sold the ThinkStation on eBay, along with the excessive number of screens, and replaced it all with a MacBook Air and a single Studio Display. I even went full-on zen and bought two houseplants.
 
