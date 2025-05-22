@@ -108,7 +108,7 @@ I wanted to gather as much as possible. Not only because I'm nostalgic, but also
 
 ## Regrets, Caveats and Mild Anxieties
 
-I'm still finishing the digitisation of my old Self Journals - a long, slow process involving deciphering my own handwriting and judiciously choosing not to transcribe list of Jira tickets for projects that I'm no longer working on. I hope to finish this quest by the end of this year. It makes me quietly wish I'd gone digital much sooner.
+I'm still finishing the digitisation of my old Self Journals - a long, slow process involving deciphering my own handwriting and judiciously choosing not to transcribe lists of Jira tickets for projects that I'm no longer working on. I hope to finish this quest by the end of this year. It makes me quietly wish I'd gone digital much sooner.
 
 Day One is now owned by Automattic, which gives me a slight itch. I think I trust them, mostly, but I don't particularly love platform dependency. That said, the app is robust, actively maintained, and the export options are good. I keep backups. I'm not losing sleep. The subscription is reasonable. Certainly cheaper than Self Journals.
 
