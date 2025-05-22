@@ -44,7 +44,7 @@ I increasingly became aware of the shortcoming of relying on paper:
 
 - **Speed** — I type _much_ faster than I write, and my handwriting has never been what you'd call archival quality, more like an ECG during a wasp attack.
 
-- **Access** — Paper can't sync between device, share with colleagues or family, or ping you when you forget what past-you was supposed to remember.
+- **Access** — Paper can't sync between devices, share with colleagues or family, or ping you when you forget what past-you was supposed to remember.
 
 I wrote in notebooks for years. Then I spent much of the last two years painstakingly digitising the contents. That process alone should tell you everything.
 
