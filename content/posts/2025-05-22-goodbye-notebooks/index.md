@@ -46,11 +46,11 @@ I increasingly became aware of the shortcoming of relying on paper:
 
 - **Access** — Paper can't sync between device, share with colleagues or family, or ping you when you forget what past-you was supposed to remember.
 
-I wrote in notebooks for years. Then I spent much of the last two years painstakingly digiting the contents. That process alone should tell you everything.
+I wrote in notebooks for years. Then I spent much of the last two years painstakingly digitising the contents. That process alone should tell you everything.
 
 ## The Digital Tools I Use
 
-It's perhaps no coincidence that my migration from paper to digital occurred at the same point in my life that I was also across migrating from Windows/Android to the Apple ecosystem. Everything is now so effortless and reliable that it dramatically lowers the friction involved in picking up a device to write, or relying upon it for calendar and todo lists.
+It's perhaps no coincidence that my migration from paper to digital occurred at the same point in my life that I was also migrating from Windows/Android to the Apple ecosystem. Everything is now so effortless and reliable that it dramatically lowers the friction involved in picking up a device to write, or relying upon it for calendar and todo lists.
 
 Some of the use cases for which I once relied upon paper are now handled by:
 
@@ -66,7 +66,7 @@ But the real shift — the big change — was moving the _meat_ of my personal j
 
 Day One is ostensibly 'just' a journalling app. But I use it as an archive, a logbook, and — increasingly — as a structured memory system. My exocortex.
 
-Here's what now live insides mine:
+Here's what now lives insides mine:
 
 - A daily journal — part diary, part log, part thought-dump.
 
