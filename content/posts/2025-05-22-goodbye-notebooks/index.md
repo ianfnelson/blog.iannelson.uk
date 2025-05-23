@@ -36,7 +36,7 @@ There are a few  things I still admire about paper. It doesn't distract you. It 
 
 But paper doesn't scale. Not over years. Not across locations. Not when you're trying to remember whether you wrote your brilliant idea in the grey notebook in Q3 2022 or the navy one in Q1 2021.
 
-I increasingly became aware of the shortcoming of relying on paper:
+I increasingly became aware of the shortcomings of relying on paper:
 
 - **Search** — You can't Ctrl-F a Pukka Pad.
 
