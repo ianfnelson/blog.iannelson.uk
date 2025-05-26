@@ -46,7 +46,7 @@ Not all of the weekend was like this. At some points I could glimpse systems int
 
 By comparison, on Saturday afternoon, just hours before Isla's hospitalisation, I had a regular eye test at Specsavers. The optometrist had notes from a visit I'd made to an eye clinic in 2012, so was aware that my high pressure readings were just due to having unusually thick corneas, and no sign for concern. Then he brought up a digital scan of my retina from ten years ago and overlaid it with this year's image to show me that a mole on the back of my eye hadn't changed shape.
 
-A private provider, operating at national retails scale, able to retrieve a decade-old scan, align it with new data, and present the comparison to me in realtime. It was seamless, personal, and context-rich. I suppose it helps that I have been attending the same chain for years.
+A private provider, operating at national retail scale, able to retrieve a decade-old scan, align it with new data, and present the comparison to me in realtime. It was seamless, personal, and context-rich. I suppose it helps that I have been attending the same chain for years.
 
 Meanwhile, at the hospital that evening, I felt like I was Isla's integration layer — repeating myself patiently at every handover, carrying information in my head or in iCloud, unable to be certain that anything I'd said to one nurse would necessarily be available to the next.
 
