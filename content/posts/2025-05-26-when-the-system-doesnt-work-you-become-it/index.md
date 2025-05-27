@@ -16,7 +16,7 @@ tags:
 
 ---
 
-In the early hours of Sunday morning, my daughter [Isla](http://blog.iannelson.uk/isla-grace-nelson) was admitted to hospital with tonsilitis so severe she could no longer swallow. As a parent, it was a worrying time. As a tech lead working on national health infrastructure, it was quietly illuminating.
+In the early hours of Sunday morning, my daughter [Isla](http://blog.iannelson.uk/isla-grace-nelson) was admitted to hospital with tonsillitis so severe she could no longer swallow. As a parent, it was a worrying time. As a tech lead working on national health infrastructure, it was quietly illuminating.
 
 I'm currently helping to build the National Screening Platform for NHS England — a set of systems designed to make the flow of patient data smoother, more interoperable, and ultimately more useful, hopefully leading to cost savings and better health outcomes for the country's citizens. But this weekend, I wasn't a developer or a technical architect. I was just a sleep-deprived dad, waiting anxiously by a bedside.
 
