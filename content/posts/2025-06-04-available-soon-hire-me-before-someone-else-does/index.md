@@ -68,4 +68,4 @@ If you've got something worth building, debugging, modernising, or rescuing — 
 
 - ian@iannelson.uk
 - https://linkedin.com/in/ianfnelson
-- [Download my CV](/ianfnelson.pdf)
+- [Download my CV](/iannelson.pdf)
