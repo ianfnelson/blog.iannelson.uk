@@ -127,6 +127,12 @@ _Ian’s grasp of agile tools, design patterns, and NHibernate in particular are
 
 ---
 
+_"It has been an absolute pleasure working with you. You did a phenomenal job of creating order from the chaos."_
+
+&#8212; Fran Gillibrand — Product Manager, NHS England
+
+---
+
 _“Ian proved to be a fantastic choice; as well as being one of the most technically adept developers I’ve ever worked with he’s good company and delivers high-quality code in small amounts of time. All-in-all a very good hire, and I hope I have the good fortune to work with him again.”_
 
 &#8212; Joe Steele – Technical Team Leader, Ventura
