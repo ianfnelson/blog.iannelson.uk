@@ -18,7 +18,7 @@ As a result, I'm now available for a new contract from **Tuesday 17 June 2025**.
 
 ## What I Do
 
-I'm a Technical Lead, Architect and Developer with nearly three decades of experience delivering backend-heavy, cloud-native high-availability systems.
+I'm a Technical Lead, Architect and Developer with nearly three decades of experience delivering backend-heavy, cloud-native, high-availability systems.
 
 I specialise in:
 
