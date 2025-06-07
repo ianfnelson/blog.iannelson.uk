@@ -6,15 +6,24 @@ cover:
   image: https://blogstouks01.z33.web.core.windows.net/2020/02/photo-1472289065668-ce650ac443d2.jpg
 
 ---
+
+_"Ask Ian to come into a highly ambiguous space and he will quickly make sense of the chaos and find a way to bring order and deliver results._ 
+
+_Ian is a brilliant collaboration partner. His team value his leadership style and this means everyone around him goes above and beyond to succeed in the mission."_
+
+&#8212; Fran Gillibrand — Product Manager, NHS England
+
+---
+
 _“The biggest problem with working with Ian F. Nelson is the Ian F. Nelson shaped hole he leaves behind. We’re going to have to use a patchwork of devs to make up for all the excellent work you’ve done here and your loss will be felt for some time to come. Good luck in your next role; keep in touch and we’ll see you around!”_
 
-&#8212; Steve Hine, Lead Engineer, Financial Conduct Authority
+&#8212; Steve Hine — Lead Engineer, Financial Conduct Authority
 
 ---
 
 _“Wishing you all the very best in your future endeavours, Ian Nelson. You’re far from the typical techy who simply completes a task and moves on. You’ve always gone above and beyond, keeping me in the loop with updates and making sure I was aware of any technical risks. Your thoughtfulness and proactive approach have meant a lot, and I’ll truly miss working with you. I have no doubt that your absence will be felt, and it will definitely have an impact on my work as well. Best of luck – you’ll be greatly missed.”_
 
-&#8212; Shahnaaz Rahamatullah, Test Lead, Financial Conduct Authority
+&#8212; Shahnaaz Rahamatullah — Test Lead, Financial Conduct Authority
 
 ---
 
@@ -32,7 +41,7 @@ _“Wishing you all the very best for your future endeavours. May sound very for
 
 _“You’ve been simply awesome, and I truly mean that. You’ve made life so much easier for all of us; absolutely loved working with you – a true professional! FCA is lucky to have you looking after one of the most important parts of the software.”_
 
-&#8212; Christophe Kalista – Solution Architect, Kainos
+&#8212; Christophe Kalista — Solution Architect, Kainos
 
 ---
 
@@ -50,7 +59,7 @@ _If I was to give Ian one piece of advice, it would be to possibly delegate more
 
 _Overall Ian is someone Kainos is lucky to have, and I hope we continue to work together for as long as possible!”_
 
-&#8212; Sean Devlin – Technical Architect, Kainos
+&#8212; Sean Devlin — Technical Architect, Kainos
 
 ---
 
@@ -62,7 +71,7 @@ _A particular example I would like to single out was this past weekend. Ian cont
 
 _Ian is a consummate professional, a real asset to the project in my opinion and it has been a pleasure to work with him.”_
 
-&#8212; Kevin O’Hara – Business Analyst, Kainos
+&#8212; Kevin O’Hara — Business Analyst, Kainos
 
 ---
 
@@ -88,19 +97,19 @@ _Ian is a consummate team player and worked efficiently and effectively with the
 
 _Ian’s expertise and problem-solving skills have helped to drive the project forward and I am extremely grateful for the contribution that he has made. He will be greatly missed, not just by me, but by the whole of the team. I wish him the best of luck with any future projects he undertakes and I hope to be able to work with him again in the future.”_
 
-&#8212; Robin Hackshall – Senior Information Analyst, Health and Social Care Information Centre
+&#8212; Robin Hackshall — Senior Information Analyst, Health and Social Care Information Centre
 
 ---
 
 _“Ian has enabled us to drive some major changes into the business whilst introducing new technologies and concepts to the team. We now have great working examples of Workflow, NHibernate, IoC, programming to interfaces and MVC code which can be applied in other applications. I couldn’t have asked for more – a combination of business and technological advancement. Thanks again.”_
 
-&#8212; Sion Harrison – Development Manager, Marshalls Plc
+&#8212; Sion Harrison — Development Manager, Marshalls Plc
 
 ---
 
 _“Ian worked on a particularly troublesome project for me for eight months at NHS Choices without complaint. His development skills and knowledge are exemplary and his NHibernate knowledge is second to none. He worked well with all the members of the team and helped me to introduce pair programming and push the test driven development agenda. I will employ Ian whenever I have the chance.”_
 
-&#8212; Nick Porthouse – Development Manager, NHS Choices
+&#8212; Nick Porthouse — Development Manager, NHS Choices
 
 ---
 
@@ -113,7 +122,7 @@ systems he works on and the people he works with. Coupled with his expertise in 
 
 _I have absolutely no hesitation in recommending Ian.”_
 
-&#8212; Paul Campbell – Freelance Software Developer and Service Architect, Health and Social Care Information Centre
+&#8212; Paul Campbell — Freelance Software Developer and Service Architect, Health and Social Care Information Centre
 
 ---
 
@@ -123,19 +132,13 @@ _Ian was able to take high-level business requirements and swiftly design and pr
 
 _Ian’s grasp of agile tools, design patterns, and NHibernate in particular are masterful, and I would recommend him without hesitation.”_
 
-&#8212; Ashfaq Hussain – Freelance Application Developer, Health and Social Care Information Centre
-
----
-
-_"It has been an absolute pleasure working with you. You did a phenomenal job of creating order from the chaos."_
-
-&#8212; Fran Gillibrand — Product Manager, NHS England
+&#8212; Ashfaq Hussain — Freelance Application Developer, Health and Social Care Information Centre
 
 ---
 
 _“Ian proved to be a fantastic choice; as well as being one of the most technically adept developers I’ve ever worked with he’s good company and delivers high-quality code in small amounts of time. All-in-all a very good hire, and I hope I have the good fortune to work with him again.”_
 
-&#8212; Joe Steele – Technical Team Leader, Ventura
+&#8212; Joe Steele — Technical Team Leader, Ventura
 
 ---
 
@@ -153,13 +156,13 @@ _“Ian is one of the most intelligent and diligent people I’ve ever worked wi
 
 _“Ian, maybe you know what you are talking about.”_
 
-&#8212; Roman Podkovyrin, Senior Software Developer, Kainos
+&#8212; Roman Podkovyrin — Senior Software Developer, Kainos
 
 ---
 
 _“Spending 2 years working with Ian was a pleasure. He’s a consummate professional, a highly talented developer, a great problem solver and a real team player. I learned a lot working with him, found him great to bounce ideas off and would be delighted to work with him again. Definitely top class.”_
 
-&#8212; John Conners – Senior Software Developer, Marshalls Plc
+&#8212; John Conners — Senior Software Developer, Marshalls Plc
 
 ---
 
@@ -171,7 +174,7 @@ _“Spending 2 years working with Ian was a pleasure. He’s a consummate profes
 
 _“Ian, many thanks for your contribution to the Halifax project for the last 2 years plus. You showed a great deal of patience in a difficult climate and managed to create a very good impression with the Halifax people you worked with.”_
 
-&#8212; Robin H Scholz – Keane Limited
+&#8212; Robin H Scholz — Keane Limited
 
 ---
 
@@ -179,7 +182,7 @@ _“Ian is certainly one of the smartest and most productive developers that I h
 
 _During his time at Marshalls, Ian produced several high-profile business critical applications that continue to function effectively day-in day-out. I have absolutely no hesitation in recommending Ian for any software development position and hope that I get to work with him again some day.”_
 
-&#8212; Colin Lowe – Development Team Leader, Marshalls Plc
+&#8212; Colin Lowe — Development Team Leader, Marshalls Plc
 
 ---
 
@@ -191,42 +194,42 @@ _“You’re good at solving problems, Daddy.”_
 
 _“Impressed how quickly you’ve done this. Take the rest of the week off.”_
 
-&#8212; Giles Foster – Principal Information Analyst, Health and Social Care Information Centre
+&#8212; Giles Foster — Principal Information Analyst, Health and Social Care Information Centre
 
 ---
 
 _“Thanks for all the tireless work, non-grumbling and above all, the massive amount of help you’ve been!”_
 
-&#8212; Sophie Stone – Profiles Lead, NHS Choices
+&#8212; Sophie Stone — Profiles Lead, NHS Choices
 
 ---
 
 _“Ian set up the Team Foundation Server quickly and efficiently and worked straight out of the box. He was clear with his pre-install requirements, and good with follow-on support.”_
 
-&#8212; Sean Liquorish – Senior Software Developer, NBA Consultants
+&#8212; Sean Liquorish — Senior Software Developer, NBA Consultants
 
 ---
 
 _“Ian, you rock and I am sad to see you going.”_
 
-&#8212; Steven Heyes – Senior Software Developer, NHS Choices
+&#8212; Steven Heyes — Senior Software Developer, NHS Choices
 
 ---
 
 _“If we gave out gold stars, you would now be wearing one – many thanks!”_
 
-&#8212; Carl Bilsbrough – Service Desk Manager, National Institute for Health Research
+&#8212; Carl Bilsbrough — Service Desk Manager, National Institute for Health Research
 
 ---
 
 _“Thanks to Ian Nelson who managed to identify all the technical difficulties and proved to be a great support. Ironically [supplier] were not able to provide me resolution on the errors for more than a day (they are the ones to develop it), which Ian managed to crack.”_
 
-&#8212; Surbhi Trivedi – Project Manager, National Institute of Health Research
+&#8212; Surbhi Trivedi — Project Manager, National Institute of Health Research
 
 ---
 
 _“You’ve given us some code to aspire to!”_
 
-&#8212; Ian Turner – Senior Software Developer, Ventura
+&#8212; Ian Turner — Senior Software Developer, Ventura
 
  [1]: https://blog.iannelson.uk/dddnorth-2022/
