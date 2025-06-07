@@ -75,8 +75,7 @@ I don’t read many books which could be considered to fall within the category 
 
 ### [Learn How to Solve Cryptic Crosswords: A Course for Beginners][14] by Henry Howarth
 
-When not reading books, I also enjoy reading newspapers and magazines_._ I usually skip straight past the cryptic crosswords in these, finding them to be baffling and impenetrable. B  
-ut one evening this year I lingered for a little while over a crossword in _New Statesman_ and was pleasantly surprised to realise that I could work out the answer to one of the easier anagram clues.
+When not reading books, I also enjoy reading newspapers and magazines_._ I usually skip straight past the cryptic crosswords in these, finding them to be baffling and impenetrable. But one evening this year I lingered for a little while over a crossword in _New Statesman_ and was pleasantly surprised to realise that I could work out the answer to one of the easier anagram clues.
 
 This epiphany caused a curious tingle in my brain which I wanted to experience again. So I sought assistance via this excellent textbook-like work, which takes the reader on a step-by-step course explaining the different types of clues to be found in cryptic crosswords and techniques for solving these.
 
