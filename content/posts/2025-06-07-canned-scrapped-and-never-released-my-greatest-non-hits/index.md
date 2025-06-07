@@ -43,7 +43,7 @@ A short stint on a project to build a call centre system for a major mobile phon
 
 I'm not being cynical. I genuinely don't regret the time I spent on these projects. Even the ones that failed have taught me valuable things — about technology, about organisations, about myself.
 
-Here's the thing to remember about contract work: you are, in a sense, the risk capital. Organisations will make use of you to try out things they're not quite sure about. They bring in temporary firepower to experiment, prototype, push things forward. It can be fun, and it can involve cutting-edge technologies and aggressive deadlines — I've been on multiple projects that arose as a result of M&A activity where we had deadlines laid down by the Competition and Markets Authority. Sometimes it works out. Sometimes it doesn't. And when it doesn't, well, the end is usually brisk. That's the deal.
+Here's the thing to remember about contract work in particular: you are, in a sense, the risk capital. Organisations will make use of you to try out things they're not quite sure about. They bring in temporary firepower to experiment, prototype, push things forward. It can be fun, and it can involve cutting-edge technologies and aggressive deadlines — I've been on multiple projects that arose as a result of M&A activity where we had deadlines laid down by the Competition and Markets Authority. Sometimes it works out. Sometimes it doesn't. And when it doesn't, well, the end is usually brisk. That's the deal.
 
 If you're going to be delighted by the ease of getting hired to build something shiny and new, you'd better make your peace with the ease of being fired too. Them's the breaks.
 
