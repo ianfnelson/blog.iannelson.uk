@@ -33,7 +33,7 @@ The dream was a unified cloud-based digital film locker for consumers. The reali
 
 We didn't quite _build_ a service tracking system from scratch, but nor did we sensibly just buy one and use it in the way it was intended. Instead, we purchased a product and then proceeded to contort it beyond recognition: hacking away at the SQL Server backend, bolting on custom stored procedures, and building a separate web-based front-end exposing just enough functionality to justify our time. It was nasty, brittle, and about as maintainable as a sandcastle in a storm.
 
-This was an internal proejct, and with hindsight, probably existed as much to keep some folk occupied while on "the bench" as much as to solve any real business need. When a recession loomed, it wasn't entirely shocking to be shown the door. I learned a lot about the build/buy tradeoff, and the dangers of over-customising off-the-shelf systems in inappropriate ways.
+This was an internal project, and with hindsight, probably existed as much to keep some folk occupied while on "the bench" as much as to solve any real business need. When a recession loomed, it wasn't entirely shocking to be shown the door. I learned a lot about the build/buy tradeoff, and the dangers of over-customising off-the-shelf systems in inappropriate ways.
 
 ## Canned Call Centre Rebuild
 
