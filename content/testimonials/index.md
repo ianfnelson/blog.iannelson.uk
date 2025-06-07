@@ -168,7 +168,7 @@ _“Spending 2 years working with Ian was a pleasure. He’s a consummate profes
 
 “I saw your [post on DDDNorth][1] which made me even more gutted that I couldn’t make it! I wanted to let you know that working with you at Piksel opened my eyes on how a professional developer should be. I still use NCrunch daily from your recommendation and I try to pay it forward by recommending it in the same way.”
 
-&#8212; TG – Contract .NET Developer
+&#8212; TG — Contract .NET Developer
 
 ---
 
