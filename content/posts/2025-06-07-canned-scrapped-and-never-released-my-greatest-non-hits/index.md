@@ -15,7 +15,7 @@ tags:
 
 I lost my [contract this week](/available-soon-hire-me-before-someone-else-does/). A _narrowing of scope_. A bit of internal restructuring. The kind of small shift that leaves no room for a tech lead who only joined the project a few months ago.
 
-It stings a bit, of course, but not in a way that surprises me any longer. I've been in the the game long enough to know that not every project will cross the finish line and make it into production. Sometimes, it's not even a matter of tripping before the ribbon, it's that someone quietly packs away the course and decides that the race never needed to be run in the first place.
+It stings a bit, of course, but not in a way that surprises me any longer. I've been in the game long enough to know that not every project will cross the finish line and make it into production. Sometimes, it's not even a matter of tripping before the ribbon, it's that someone quietly packs away the course and decides that the race never needed to be run in the first place.
 
 This got me reflecting on some of the other projects that I've worked on that never saw the light of day, or really ought not to have. Not with bitterness — I have no regrets. But with the clarity of hindsight, and a dash of that particular British affection for noble failures.
 
