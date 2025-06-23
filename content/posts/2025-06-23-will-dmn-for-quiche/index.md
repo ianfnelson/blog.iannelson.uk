@@ -77,7 +77,8 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 
 27. Paint the hallway a colour your family will regret instantly.
 
-28. Read the _Financial Times_ cover to cover, even the bits about Brazilian bonds.
+28. Add a post-it to the kettle that says _Do NOT Boil Without Cause_.
+     ![](https://blogstouks01.z33.web.core.windows.net/2025/06/IMG_0046.jpeg)
 
 29. Walk round York city centre pretending you're in a Ken Loach film.
 
@@ -223,7 +224,8 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 
 100. Read job specs like riddles. Guess the organisation from the tone.
 
-101. Apply for something with a five-page application form. Quit on page two.
+101. Label your electric toothbrush as "CEO of Hygiene".
+     ![](https://blogstouks01.z33.web.core.windows.net/2025/06/IMG_0048.jpeg)
 
 102. Sit in your garden and try to feel time passing.
 
@@ -320,6 +322,7 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 148. Buy a ring light. Never turn it on.
 
 149. Give your skirting boards performance reviews.
+     ![](https://blogstouks01.z33.web.core.windows.net/2025/06/IMG_0045.jpeg)
 
 150. Practice your "interested, not desperate" tone for recruiters.
 
@@ -375,7 +378,7 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 
 176. Browse job ads that require eight years of Rust experience.
 
-177. Label your electric toothbrush as "CEO of Hygiene".
+177. Apply for something with a five-page application form. Quit on page two.
 
 178. Make a tiny brass plaque for your home office that says "National Infrastructure Built Here".
 
@@ -383,7 +386,7 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 
 180. Watch birds. Wonder if they ever feel pressure to pivot.
 
-181. Add a post-it to the kettle that says _Do NOT Boil Without Cause_.
+181. Read the _Financial Times_ cover to cover, even the bits about Brazilian bonds.
 
 182. Write a blog post about Step Functions that accidentally turns into an allegory.
 
