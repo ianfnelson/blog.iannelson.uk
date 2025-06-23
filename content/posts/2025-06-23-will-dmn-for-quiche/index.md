@@ -169,7 +169,7 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 
 73. Spend four hours choosing a new calendar app. Miss your dentist appointment.
 
-74. Do a mock interveiw with your dog. They're unimpressed.
+74. Do a mock interview with your dog. They're unimpressed.
 
 75. Create a sequence diagram for making a sandwich.
 
