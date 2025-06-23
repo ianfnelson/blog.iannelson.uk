@@ -1,5 +1,5 @@
 ---
-title: "Will DMN for Quiche: 347 Things To Do While In Between Contracts"
+title: "Will DMN for Quiche: 269 Things To Do While In Between Contracts"
 date: 2025-06-23T11:00:00+01:00
 url: /will-dmn-for-quiche
 utm_campaign: blogpost_quiche
