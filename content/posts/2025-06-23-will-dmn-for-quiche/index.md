@@ -127,7 +127,7 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 
 52. Say "back-end developer" out aloud and wonder why it sounds like an apology.
 
-53. Email a tech recruiter just the word "why" and gif of a screaming seagull.
+53. Email a tech recruiter just the word "why" and a gif of a screaming seagull.
 
 54. Ask ChatGPT to refactor your personality.
 
