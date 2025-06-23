@@ -15,7 +15,7 @@ tags:
 ---
 
 
-## Or: How I Learned to Stop Worrying and Embrace the Betweening
+### _Or: How I Learned to Stop Worrying and Embrace the Betweening_
 
 When you're in between contracts, it's easy to feel like you're stuck in limbo. Professionally adrift, spiritually buffering, half-dressed in last Thursday's joggers. You refresh LinkedIn. You reword your bio again. You stare into the fridge like it's about to make you an offer.
 
