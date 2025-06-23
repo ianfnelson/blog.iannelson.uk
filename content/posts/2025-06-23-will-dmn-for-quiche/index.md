@@ -529,7 +529,7 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 
 253. List your career highlights in haiku form.
 
-254. Laugh at a job ad that wants "entreprenurial mindset" for £375 inside IR35.
+254. Laugh at a job ad that wants "entrepreneurial mindset" for £375 inside IR35.
 
 255. Buy a domain name you don't need. Feel powerful.
 
