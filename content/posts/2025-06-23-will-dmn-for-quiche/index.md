@@ -75,7 +75,7 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 
 26. Walk the dog somewhere new and pretend you're in a Scandi noir.
 
-27. Paint the hallway a colour your family will regret instgantly.
+27. Paint the hallway a colour your family will regret instantly.
 
 28. Read the _Financial Times_ cover to cover, even the bits about Brazilian bonds.
 
