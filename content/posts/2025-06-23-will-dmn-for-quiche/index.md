@@ -33,7 +33,7 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 
 5. Try intermittent fasting. Get very cross by 11:17am.
 
-6. Take a photo fo the dog every day at golden hour. Title the series _A Dog's Embrace of Dusk_.
+6. Take a photo of the dog every day at golden hour. Title the series _A Dog's Embrace of Dusk_.
 
 7. Brew a pot of tea strong enough to reckon with.
 
@@ -47,7 +47,7 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 
 12. Change your LinkedIn headline to "Digital Prophet. Resigned From Time Itself".
 
-13. Sit on the stairs and realise you've been sitting their for 17 minutes.
+13. Sit on the stairs and realise you've been sitting there for 17 minutes.
 
 14. Research indoor plants. Accidentally buy something sentient.
 
@@ -127,7 +127,7 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 
 52. Say "back-end developer" out aloud and wonder why it sounds like an apology.
 
-53. Emauk a tech recruiter just the word "why" and gif of a screaming seagull.
+53. Email a tech recruiter just the word "why" and gif of a screaming seagull.
 
 54. Ask ChatGPT to refactor your personality.
 
@@ -193,7 +193,7 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 
 85. Stand by a window during rain and whisper "monolith".
 
-86. Go to the cinema along at 11:15am. Eat a hotdog. Feel like a god.
+86. Go to the cinema alone at 11:15am. Eat a hotdog. Feel like a god.
 
 87. Try to write an About Me page that doesn't induce nausea.
 
@@ -213,7 +213,7 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 
 95. Build a bot that texts you, "You're doing fine". Block it.
 
-96. Attempt to mediate. Remember that time you broke prod on a Friday lunchtime.
+96. Attempt to meditate. Remember that time you broke prod on a Friday lunchtime.
 
 97. Walk past your old office. Don't look in. Don't give it the satisfaction.
 
@@ -245,7 +245,7 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 
 111. Switch from Safari to Chrome. Regret it.
 
-112. Invent a startup that doesn't solve a provlem, just vibes.
+112. Invent a startup that doesn't solve a problem, just vibes.
 
 113. Compile a ranked list of your past clients in order of passive-aggressive email signature length.
 
@@ -291,7 +291,7 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 
 134. Add "freelance vibesmith" to your bio and see who pretends not to notice.
 
-135. Schedule a "thinking sprint". Spent it Googling Dutch canal houses.
+135. Schedule a "thinking sprint". Spend it Googling Dutch canal houses.
 
 136. Reply to a recruiter's email with "Let's build something stupid together".
 
@@ -323,7 +323,7 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 
 150. Practice your "interested, not desperate" tone for recruiters.
 
-151. Learn keyboard shortcutes you will immediately forget.
+151. Learn keyboard shortcuts you will immediately forget.
 
 152. Remember that time you felt truly excited by a Jira ticket.
 
@@ -403,7 +403,7 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 
 190. Register the domain `scrumtrulescent.guru` and host your memoirs.
 
-191. Walk into a café and loudly as for "one oatmilk flat white, one AWS certification please".
+191. Walk into a café and loudly ask for "one oatmilk flat white, one AWS certification please".
 
 192. Apply to a job with 19 acronyms in the title
 
@@ -433,7 +433,7 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 
 205. Write a tiny shell script that brings you joy.
 
-206. Read the OWASP Top 10 like it's sxcripture.
+206. Read the OWASP Top 10 like it's scripture.
 
 207. Nap at noon. No shame.
 
@@ -473,7 +473,7 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 
 225. Start a secret blog reviewing sandwiches.
 
-226. Walk outside barefoot with a mug of tea. Pretend you're in a Cormac McCartyhy novel.
+226. Walk outside barefoot with a mug of tea. Pretend you're in a Cormac McCarthy novel.
 
 227. Watch the job market like a hawk with a monocle.
 
@@ -487,7 +487,7 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 
 232. Create a whimsical footer for your email signature.
 
-233. Name your feelings using HTTP status code.
+233. Name your feelings using HTTP status codes.
 
 234. Build a GitHub repo titled _Museum of Abandoned Side Projects_.
 
