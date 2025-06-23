@@ -164,7 +164,7 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 
 70. Take up sketching. Accidentally draw the void.
 
-71. Bake a load of bread. Compare it to your personal growth.
+71. Bake a loaf of bread. Compare it to your personal growth.
 
 72. Use a Trello board to track your Netflix viewing.
 
