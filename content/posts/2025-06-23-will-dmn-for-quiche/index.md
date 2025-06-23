@@ -257,7 +257,7 @@ Feel free to use it as a checklist, a comfort blanket, or a Rorschach test.
 
 116. Browse conference CFPs. Whisper "not this year".
 
-117. Make a bingo card of startup clichés. Should "pivot!" alone in the kitchen.
+117. Make a bingo card of startup clichés. Shout "pivot!" alone in the kitchen.
 
 118. Schedule lunch with someone clever. Listen more than you speak.
 
