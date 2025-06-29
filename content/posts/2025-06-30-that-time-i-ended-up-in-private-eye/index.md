@@ -1,6 +1,6 @@
 ---
 title: "That Time I Ended Up In Private Eye"
-date: 2025-06-30T11:00:00+01:00
+date: 2025-06-29T18:00:00+01:00
 url: /that-time-i-ended-up-in-private-eye
 utm_campaign: blogpost_private_eye
 cover: 
