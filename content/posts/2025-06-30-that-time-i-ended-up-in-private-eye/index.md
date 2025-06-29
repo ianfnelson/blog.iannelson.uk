@@ -17,7 +17,7 @@ tags:
 
 Back at the start of 2019, when the [NHS App](https://www.nhsapp.service.nhs.uk/) had just launched, it had something of a discoverability problem. The kind of problem where people would type "NHS App" into the App Store search bar and be presented with results including Microsoft Outlook, WhatsApp, Candy Crush and in fact pretty much anything _but_ the NHS App. Not ideal for a flagship digital health intervention.
 
-I was part of the Kainos team helping NHS Digital deliver the App, alongside partners from BJSS. We'd toiled long and hard during 2018 to build a thing that could handle login, appointments, repeat prescriptions, medical record, and more. But what good is your lovingly crafted digital gateway to the NHS if nobody can find it?
+I was contracting as part of the Kainos team helping NHS Digital deliver the App, alongside partners from BJSS. We'd toiled long and hard during 2018 to build a thing that could handle login, appointments, repeat prescriptions, medical record, and more. But what good is your lovingly crafted digital gateway to the NHS if nobody can find it?
 
 So, in a moment of guerrilla marketing meets civic-minded enthusiasm, a few of us involved in the project thought it would be a good idea to leave five-star reviews on the App Store and Play Store.
 
