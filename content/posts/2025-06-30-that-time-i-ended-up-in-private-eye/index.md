@@ -31,7 +31,7 @@ Busted.
 
 [![Private Eye](https://blogstouks01.z33.web.core.windows.net/2025/06/PrivateEyeFull.jpeg)](https://blogstouks01.z33.web.core.windows.net/2025/06/PrivateEyeFull.jpeg)
 
-I assume that they had plugged my Google profile icon into an image search, and used it to find my LinkedIn profile, as the following paragraph highlighted my connections to other colleagues who had left reviews.
+I assume that they had plugged my Google profile icon into an image search, and used it to find my LinkedIn profile, as the following paragraph highlighted my connections to other colleagues who had also left reviews.
 
 They weren't wrong. I had indeed written a glowing review of our own work. I thought of it less as astroturfing and more as... watering the lawn early. A little nudge to get things rolling. But when _Private Eye_ comes calling, nuance tends to go out the window.
 
