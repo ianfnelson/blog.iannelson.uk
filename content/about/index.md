@@ -8,12 +8,12 @@ Hello. I’m Ian. I'm a technical architect, occasional writer, reluctant leader
 
 I’ve been building enterprise software systems for over 25 years — mostly in C# and Java, and frequently thinking about event-driven architecture, domain modelling, and how not to end up on the front page of the *Daily Mail*.
 
-These days, I’m working on national health infrastructure — designing service layers and messaging patterns that (hopefully) keep ticking over without setting fire to anyone’s patient data. I like diagrams. I like distributed systems. I like it when the tests pass on the first go, but I’ve made peace with the fact they usually don’t.
+These days I work with organisations that need someone to untangle their architecture, bring clarity to the chaos, and help their systems (and teams) talk to each other again. I like diagrams. I like distributed systems. I like it when the tests pass on the first go, but I’ve made peace with the fact they usually don’t.
 
 This blog is where I put the thoughts that won’t fit in Jira tickets. You’ll find:
 
 - Notes on software architecture and dev team dynamics.
-- Observations from the coalface of NHS-scale delivery.
+- Observations from the coalface of citizen-scale delivery.
 - Opinions about books, often literary, sometimes technical.
 - Rankings of Wordle scores from my extended family, with statistical overanalysis.
 - Reflections on parenting, middle age, and why my dog Sadie is the most emotionally intelligent member of our household.
