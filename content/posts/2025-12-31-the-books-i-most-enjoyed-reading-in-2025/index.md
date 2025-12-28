@@ -1,7 +1,7 @@
 ---
 title: The Books I Most Enjoyed Reading in 2025
 series: 'Books of the Year'
-date: 2025-12-31T12:00:00+00:00
+date: 2025-12-28T16:00:00+00:00
 excerpt: A reflective wander through the novels and non-fiction that kept me company in a strange, stop-start year.
 url: /the-books-i-most-enjoyed-reading-in-2025/
 cover: 
