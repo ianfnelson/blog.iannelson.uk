@@ -40,7 +40,7 @@ My consumption of finance and investing books has slowed in recent years, but on
 
 **[The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness][16]** by Jonathan Haidt is a book I wish I had read sooner. It has materially influenced how I think about parenting. Haidt’s core arguments – that social media is damaging to children’s mental health, and that over‑protectiveness in the physical world does real harm – are persuasively and soberly made.
 
-**[How Big Things Get Done: The Surprising Factors That Determine the Fate of Every Project from Home Renovations to Space Exploration and Everything In Between][17]** by Bent Flyvbjerg and Dan Gardner has an unwieldy title but a compelling thesis. Drawing on case studies from across industries, including enterprise software, it explores why large projects so often fail, and what distinguishes the rare successes. I found much here that resonated with my own professional experience of enterprise software development.
+**[How Big Things Get Done: The Surprising Factors That Determine the Fate of Every Project from Home Renovations to Space Exploration and Everything In Between][17]** by Bent Flyvbjerg and Dan Gardner has an unwieldy title but a compelling thesis. Drawing on case studies from across industries, including enterprise software, it explores why large projects so often fail, and what distinguishes the rare successes. I found much here that resonated with my own professional experience.
 
 The political dimension of getting things done is tackled in **[On Leadership: Lessons for the 21st Century][18]** by former UK Prime Minister Tony Blair. I found this unexpectedly fascinating, and in places surprisingly practical.
 
