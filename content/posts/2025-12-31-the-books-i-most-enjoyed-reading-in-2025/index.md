@@ -44,7 +44,7 @@ My consumption of finance and investing books has slowed in recent years, but on
 
 The political dimension of getting things done is tackled in **[On Leadership: Lessons for the 21st Century][18]** by former UK Prime Minister Tony Blair. I found this unexpectedly fascinating, and in places surprisingly practical.
 
-I have long had a fondness for remote places and the idea of temporarily getting away from it all, particularly in Scotland. In that vein, I enjoyed **[Bothy: In Search of Simple Shelter][19]** by Kat Hill, which celebrates the pleasures of seeking refuge in these basic, often isolated buildings in the Highlands. Both the subject matter and the writing reminded me of _The Outrun_ by Amy Liptrot, which I read a couple of years ago.
+I have long had a fondness for remote places and the idea of temporarily getting away from it all, particularly in Scotland. In that vein, I enjoyed **[Bothy: In Search of Simple Shelter][19]** by Kat Hill, which celebrates the pleasures of seeking refuge in these basic, often isolated buildings in the Highlands. Both the subject matter and the writing reminded me of _[The Outrun][29]_ by Amy Liptrot, which I read a couple of years ago.
 
 **[Source Code: My Beginnings][20]** by Bill Gates is the first volume of the Microsoft founder’s autobiography, ending in the late 1970s after the company’s first deal with Apple. As I have mentioned in previous years, I now take far more pleasure from autobiographies than I once did, and I was surprised by how much I enjoyed Gates’ account of his formative years. His life hack of owning two copies of every school textbook – one for home, one for school – to avoid carrying them around while projecting nonchalance was particularly delightful.
 
@@ -88,3 +88,4 @@ Looking ahead to 2026, I suspect my reading habits will settle into something li
 [26]: https://amzn.to/49tIVbz
 [27]: https://amzn.to/49cZwiO
 [28]: https://amzn.to/3MTTPyM
+[29]: https://amzn.to/3N3h3CD
